@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ## Table of Contents
 
 - Project Overview  
@@ -268,3 +269,5 @@ The knowledge graph represents structured relationships between legal entities.
   alt="Legal RAG System Architecture"
   width="100%"
 />
+=======
+>>>>>>> Stashed changes
