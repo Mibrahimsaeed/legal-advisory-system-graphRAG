@@ -1,6 +1,3 @@
-# =========================
-# Core Orchestration
-# =========================
 langchain
 langchain-community
 langchain-core
@@ -8,59 +5,42 @@ langgraph
 langchain-text-splitters
 tiktoken
 
-# =========================
-# LLM + Embeddings
-# =========================
 transformers
 sentence-transformers
 huggingface-hub
 torch
 accelerate
 
-# =========================
-# Vector Database
-# =========================
 faiss-cpu
+chromadb
 
-# =========================
-# Graph Database
-# =========================
-neo4j-driver
+neo4j
 networkx
+graspologic
 
-# =========================
-# Data Processing
-# =========================
 numpy
 pandas
 scikit-learn
 tqdm
+joblib
 
-# =========================
-# PDF / Document Parsing
-# =========================
 pypdf
 pymupdf
 unstructured
 
-# =========================
-# OCR Pipeline
-# =========================
 pytesseract
 pillow
 opencv-python
 
-# =========================
-# Utility / Debugging
-# =========================
+nltk
+spacy
+
 loguru
 python-dotenv
 rank-bm25
 aiofiles
+pyyaml
 
-# =========================
-# API Layer (for FYP / demo)
-# =========================
 fastapi
 uvicorn
 pydantic
