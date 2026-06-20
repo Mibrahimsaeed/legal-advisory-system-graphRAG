@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ## Table of Contents
 
 - Project Overview  
@@ -269,5 +268,90 @@ The knowledge graph represents structured relationships between legal entities.
   alt="Legal RAG System Architecture"
   width="100%"
 />
-=======
->>>>>>> Stashed changes
+
+
+legal-domain-graphrag/
+│
+├── README.md
+├── pyproject.toml                      # or requirements.txt + setup.cfg
+├── .env.example                        # external storage creds, DB URIs (no secrets committed)
+├── .gitignore                          # excludes scratch/, .cache/, *.parquet local dumps, etc.
+│
+├── config/
+│   ├── pipeline.yaml                   # batch size, thresholds, model names
+│   ├── clustering.yaml                 # UMAP/HDBSCAN params, merge similarity threshold
+│   ├── domains.yaml                    # current domain registry (id, label, centroid_ref)
+│   └── storage.yaml                    # bucket names, vector DB / graph DB connection refs
+│
+├── orchestration/
+│   ├── dags/                           # Airflow/Prefect/Dagster flow definitions
+│   │   ├── batch_ingest_flow.py
+│   │   ├── recluster_flow.py           # scheduled full re-cluster + re-rank
+│   │   └── graphrag_prep_flow.py
+│   └── schedules.py
+│
+├── src/
+│   ├── ingestion/
+│   │   ├── manifest.py                 # manifest DB read/write (doc_id, source_uri, status)
+│   │   ├── batch_puller.py             # pulls a batch from external storage to scratch
+│   │   └── scratch_manager.py          # creates + purges ephemeral local workspace
+│   │
+│   ├── extraction/
+│   │   ├── pdf_extractor.py            # PyMuPDF/pdfplumber
+│   │   ├── ocr_fallback.py             # Tesseract/PaddleOCR
+│   │   ├── cleaner.py                  # text normalization
+│   │   └── chunker.py                  # section/chunk splitting
+│   │
+│   ├── embedding/
+│   │   ├── embed_model.py              # wraps legal-domain embedding model
+│   │   ├── doc_pooling.py              # chunk → doc-level embedding
+│   │   └── vector_store_client.py      # Qdrant/Weaviate/pgvector interface
+│   │
+│   ├── clustering/
+│   │   ├── reduce.py                   # UMAP
+│   │   ├── cluster.py                  # HDBSCAN
+│   │   ├── label_clusters.py           # TF-IDF/KeyBERT + LLM labeling
+│   │   ├── merge_domains.py            # centroid similarity + hierarchical merge
+│   │   └── centroid_registry.py        # incremental nearest-centroid assignment
+│   │
+│   ├── ranking/
+│   │   ├── volume_aggregator.py        # per-domain doc count + char count
+│   │   ├── rank_and_select.py          # top-3 selection logic
+│   │   └── drop_policy.py              # purges derived artifacts for excluded domains
+│   │
+│   ├── graphrag/
+│   │   ├── entity_extraction.py        # legal NER / LLM structured extraction
+│   │   ├── relation_extraction.py
+│   │   ├── graph_builder.py            # nodes/edges construction
+│   │   ├── community_detection.py      # Leiden/Louvain
+│   │   ├── community_summarizer.py     # LLM summaries per community
+│   │   └── graph_store_client.py       # Neo4j / parquet writer
+│   │
+│   └── common/
+│       ├── db.py                       # metadata DB (Postgres/DuckDB) session mgmt
+│       ├── llm_client.py               # shared LLM call wrapper (labeling, extraction, summaries)
+│       ├── logging_utils.py
+│       └── checkpoint.py               # per-batch stage status tracking
+│
+├── schemas/
+│   ├── manifest_schema.sql
+│   ├── domain_registry_schema.sql
+│   ├── graph_schema.cypher             # Neo4j constraints/indexes
+│   └── vector_payload_schema.json      # what metadata rides alongside each vector (doc_id only, no raw text)
+│
+├── tests/
+│   ├── test_extraction.py
+│   ├── test_clustering.py
+│   ├── test_merge_logic.py
+│   ├── test_ranking.py
+│   └── test_graphrag_prep.py
+│
+├── scripts/
+│   ├── run_batch.sh                    # CLI entrypoint: process one batch end-to-end
+│   ├── run_recluster.sh                # full re-cluster + re-rank job
+│   └── purge_scratch.sh                # manual scratch cleanup / safety net
+│
+└── docs/
+    ├── architecture.md                 # the pipeline diagram + stage descriptions
+    ├── data_retention_policy.md        # explicit no-raw-data-in-repo rules, TTLs
+    └── domain_taxonomy.md              # evolving record of merged domain definitions

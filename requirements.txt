@@ -1,47 +1,90 @@
-langchain
-langchain-community
-langchain-core
-langgraph
-langchain-text-splitters
-tiktoken
+# =========================================================================
+# Legal Domain Clustering → Top-3 Selection → GraphRAG (Production Grade)
+# Clean, minimal, Mac-friendly stack (ChromaDB-based)
+# =========================================================================
 
-transformers
-sentence-transformers
-huggingface-hub
-torch
-accelerate
 
-faiss-cpu
-chromadb
+# -------------------------------------------------------------------------
+# Core environment / config / utils
+# -------------------------------------------------------------------------
+python-dotenv==1.0.1
+pyyaml==6.0.2
+loguru==0.7.2
+tqdm==4.67.1
+joblib==1.4.2
+aiofiles==24.1.0
 
-neo4j
-networkx
-graspologic
 
-numpy
-pandas
-scikit-learn
-tqdm
-joblib
+# -------------------------------------------------------------------------
+# Ingestion & Parsing
+# -------------------------------------------------------------------------
+pymupdf==1.25.1
+pypdf==5.1.0
+unstructured==0.16.11
 
-pypdf
-pymupdf
-unstructured
+pytesseract==0.3.13
+pillow==11.0.0
+opencv-python==4.10.0.84
 
-pytesseract
-pillow
-opencv-python
 
-nltk
-spacy
+# -------------------------------------------------------------------------
+# Embeddings & NLP Core
+# -------------------------------------------------------------------------
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.11.4
 
-loguru
-python-dotenv
-rank-bm25
-aiofiles
-pyyaml
+torch==2.5.1
+transformers==4.47.1
+sentence-transformers==3.3.1
+huggingface-hub==0.27.0
+accelerate==1.2.1
 
-fastapi
-uvicorn
-pydantic
-requests
+spacy==3.8.3
+nltk==3.9.1
+
+
+# -------------------------------------------------------------------------
+# Chunking / Tokenization
+# -------------------------------------------------------------------------
+tiktoken==0.8.0
+langchain-text-splitters==0.3.4
+langchain-core==0.3.28
+
+
+# -------------------------------------------------------------------------
+# Clustering (Domain Detection)
+# -------------------------------------------------------------------------
+scikit-learn==1.6.0
+umap-learn==0.5.7
+hdbscan==0.8.40
+
+
+# -------------------------------------------------------------------------
+# Vector Store (PRIMARY)
+# -------------------------------------------------------------------------
+chromadb==0.5.23
+
+
+# -------------------------------------------------------------------------
+# Graph Layer (GraphRAG core)
+# -------------------------------------------------------------------------
+networkx==3.4.2
+
+# Optional (ONLY if you really deploy Neo4j)
+neo4j==5.27.0
+
+
+# -------------------------------------------------------------------------
+# LLM Integration (cluster labeling + reasoning)
+# -------------------------------------------------------------------------
+anthropic==0.42.0
+
+
+# -------------------------------------------------------------------------
+# API Serving Layer
+# -------------------------------------------------------------------------
+fastapi==0.115.6
+uvicorn==0.34.0
+pydantic==2.10.4
+requests==2.32.3
