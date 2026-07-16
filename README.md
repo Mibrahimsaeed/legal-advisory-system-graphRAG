@@ -270,8 +270,7 @@ The knowledge graph represents structured relationships between legal entities.
 />
 
 
-legal-domain-graphrag/
-│
+ │
 ├── README.md
 ├── pyproject.toml                      # or requirements.txt + setup.cfg
 ├── .env.example                        # external storage creds, DB URIs (no secrets committed)
