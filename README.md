@@ -354,3 +354,10 @@ The knowledge graph represents structured relationships between legal entities.
     ├── architecture.md                 # the pipeline diagram + stage descriptions
     ├── data_retention_policy.md        # explicit no-raw-data-in-repo rules, TTLs
     └── domain_taxonomy.md              # evolving record of merged domain definitions
+
+
+
+
+    updatye llmclient file
+    anthropic to suitable llm
+    

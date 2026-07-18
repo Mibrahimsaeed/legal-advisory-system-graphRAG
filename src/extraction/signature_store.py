@@ -145,3 +145,24 @@ def count_by_status(
             """
         ).fetchall()
     return {row["extraction_status"]: row["n"] for row in rows}
+
+def list_signatures(
+    statuses: tuple[str, ...] = ("ok", "ok_ocr", "ok_partial_ocr"),
+    db_path: str | Path = DEFAULT_DB_PATH,
+) -> list[DocumentSignature]:
+    """All signatures with a usable ``extraction_status`` (excludes ``failed``
+    by default). This is the read path Stage 1.2's sampling draws from --
+    it never touches ``failed`` rows since there's no title/TOC/body to
+    embed for those.
+    """
+
+    if not statuses:
+        return []
+
+    placeholders = ",".join("?" for _ in statuses)
+    with connection_scope(db_path) as conn:
+        rows = conn.execute(
+            f"SELECT * FROM document_signatures WHERE extraction_status IN ({placeholders})",
+            statuses,
+        ).fetchall()
+    return [_row_to_signature(r) for r in rows]

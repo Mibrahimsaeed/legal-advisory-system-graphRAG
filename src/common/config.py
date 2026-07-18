@@ -66,7 +66,9 @@ class PipelineSettings(BaseModel):
 
     batch_size: int = Field(default=500, gt=0)
     checkpoint_dir: Path = Path("var/checkpoints")
-    phases: list[str] = Field(default_factory=lambda: ["claim", "pull"])
+    phases: list[str] = Field(
+        default_factory=lambda: ["claim", "pull", "extract", "discover_domains"]
+    )
 
 class ExtractionSettings(BaseModel):
     """Stage 1 (Feature Extraction / document-signature) settings.
@@ -101,6 +103,96 @@ class ExtractionSettings(BaseModel):
     ocr_lang: str = "eng"
     body_preview_char_limit: int = Field(default=20_000, gt=0)
     signature_schema_file: Path = Path("schemas/signature_schema.sql")
+    
+class ExtractionSettings(BaseModel):
+    """Stage 1 (Feature Extraction / document-signature) settings.
+
+    See ``docs/data_retention_policy.md`` for why this stage only ever
+    reads the first ``max_pages`` pages, and why nothing beyond the
+    bounded fields here (title, TOC, a char-capped body preview) is ever
+    persisted.
+    """
+
+    max_pages: int = Field(
+        default=15, gt=0, description="Pages sampled from the front of each PDF."
+    )
+    min_chars_per_page: float = Field(
+        default=40.0,
+        ge=0,
+        description="Below this many extracted chars, a page is flagged low-quality.",
+    )
+    min_alpha_ratio: float = Field(
+        default=0.6,
+        ge=0,
+        le=1,
+        description="Below this alphabetic-character ratio, a page is flagged low-quality.",
+    )
+    flagged_page_ratio: float = Field(
+        default=0.5,
+        ge=0,
+        le=1,
+        description="Fraction of sampled pages that must be flagged before OCR is attempted.",
+    )
+    ocr_dpi: int = Field(default=300, gt=0)
+    ocr_lang: str = "eng"
+    body_preview_char_limit: int = Field(default=20_000, gt=0)
+    signature_schema_file: Path = Path("schemas/signature_schema.sql")
+
+
+class DiscoverySettings(BaseModel):
+    """Stage 1.2 (Domain Discovery: sample -> embed -> cluster -> label) settings.
+
+    This stage runs once against a *sample* of Stage 1 signatures, not the
+    full corpus -- see ``sample_min``/``sample_max``. Nothing here writes
+    to the frozen domain registry (``config/domains.yaml``); output is a
+    draft taxonomy card + ``domain_candidates`` rows with ``status='draft'``.
+    """
+
+    # -- sampling --------------------------------------------------------
+    sample_min: int = Field(default=1500, gt=0)
+    sample_max: int = Field(default=2000, gt=0)
+    sample_seed: int = 42
+
+    # -- embedding ---------------------------------------------------------
+    # Swap in a legal-tuned model (e.g. an InLegalBERT/Legal-BERT sentence
+    # embedding checkpoint) via config if it outperforms the general-purpose
+    # default for this corpus -- nothing downstream assumes a specific model.
+    embedding_model_name: str = "sentence-transformers/all-mpnet-base-v2"
+    embedding_batch_size: int = Field(default=32, gt=0)
+    title_weight: float = Field(default=2.0, ge=0)
+    toc_weight: float = Field(default=1.5, ge=0)
+    body_weight: float = Field(default=1.0, ge=0)
+    body_chunk_chars: int = Field(default=2000, gt=0)
+    max_body_chunks: int = Field(default=4, gt=0)
+
+    # -- dimensionality reduction (UMAP) -------------------------------
+    umap_n_components: int = Field(default=50, gt=0)
+    umap_n_neighbors: int = Field(default=15, gt=1)
+    umap_min_dist: float = Field(default=0.0, ge=0)
+    umap_metric: str = "cosine"
+    umap_min_docs: int = Field(
+        default=50,
+        gt=0,
+        description="Below this many sampled docs, skip UMAP and cluster on raw embeddings.",
+    )
+
+    # -- clustering (HDBSCAN) -------------------------------------------
+    hdbscan_min_cluster_size: int = Field(default=15, gt=1)
+    hdbscan_min_samples: int | None = None
+    hdbscan_metric: str = "euclidean"
+
+    # -- ranking / labeling ----------------------------------------------
+    top_n_domains: int = Field(default=3, gt=0)
+    representative_docs_per_cluster: int = Field(default=8, gt=0)
+    keywords_per_cluster: int = Field(default=15, gt=0)
+
+    # -- LLM labeling ------------------------------------------------------
+    llm_model: str = "claude-sonnet-5"
+    llm_max_tokens: int = Field(default=1024, gt=0)
+
+    # -- output -------------------------------------------------------------
+    taxonomy_output_dir: Path = Path("var/taxonomy")
+    domain_registry_schema_file: Path = Path("schemas/domain_registry_schema.sql")
 
 
 class RetrySettings(BaseModel):
@@ -144,17 +236,21 @@ class MetricsSettings(BaseModel):
 
 
 class Settings(BaseModel):
+    """Root, fully-validated application configuration."""
+
     env: str = "dev"
     database: DatabaseSettings = Field(default_factory=DatabaseSettings)
     scratch: ScratchSettings = Field(default_factory=ScratchSettings)
     storage: StorageSettings = Field(default_factory=StorageSettings)
     pipeline: PipelineSettings = Field(default_factory=PipelineSettings)
-    extraction: ExtractionSettings = Field(default_factory=ExtractionSettings)   # <-- new
+    extraction: ExtractionSettings = Field(default_factory=ExtractionSettings)
+    discovery: DiscoverySettings = Field(default_factory=DiscoverySettings)
     retry: RetrySettings = Field(default_factory=RetrySettings)
     logging: LoggingSettings = Field(default_factory=LoggingSettings)
     metrics: MetricsSettings = Field(default_factory=MetricsSettings)
 
     model_config = {"extra": "forbid", "frozen": True}
+
 
 def _deep_merge(base: dict[str, Any], override: dict[str, Any]) -> dict[str, Any]:
     """Recursively merge ``override`` on top of ``base``, returning a new dict."""

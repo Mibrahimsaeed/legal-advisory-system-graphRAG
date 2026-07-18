@@ -18,7 +18,33 @@ storage:
 pipeline:
   batch_size: 500
   checkpoint_dir: var/checkpoints
-  phases: ["claim", "pull", "extract"]
+  phases: ["claim", "pull", "extract", "discover_domains"]
+
+discovery:
+  sample_min: 1500
+  sample_max: 2000
+  sample_seed: 42
+  embedding_model_name: sentence-transformers/all-mpnet-base-v2
+  embedding_batch_size: 32
+  title_weight: 2.0
+  toc_weight: 1.5
+  body_weight: 1.0
+  body_chunk_chars: 2000
+  max_body_chunks: 4
+  umap_n_components: 50
+  umap_n_neighbors: 15
+  umap_min_dist: 0.0
+  umap_metric: cosine
+  umap_min_docs: 50
+  hdbscan_min_cluster_size: 15
+  hdbscan_metric: euclidean
+  top_n_domains: 3
+  representative_docs_per_cluster: 8
+  keywords_per_cluster: 15
+  llm_model: claude-sonnet-5
+  llm_max_tokens: 1024
+  taxonomy_output_dir: var/taxonomy
+  domain_registry_schema_file: schemas/domain_registry_schema.sql
 
 extraction:
   max_pages: 15
@@ -43,3 +69,8 @@ logging:
 
 metrics:
   db_path: var/metrics.db
+
+
+
+
+  
