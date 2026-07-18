@@ -1,20 +1,3 @@
-"""Shared LLM call wrapper.
-
-Was an empty stub through Stage 1; Stage 1.2 is its first consumer
-(:mod:`src.clustering.label_clusters`, generating draft domain
-definitions from cluster keywords/representative documents). Later
-stages that need an LLM call -- GraphRAG entity/relation extraction,
-community summarization, cluster labeling during recluster runs -- are
-expected to reuse this wrapper rather than each rolling their own
-Anthropic client, so retry policy, error typing, and JSON-extraction
-helpers stay in one place.
-
-:class:`LLMClient` is a ``Protocol`` (not a concrete base class)
-specifically so tests and other callers can inject a fake without
-subclassing anything -- see ``tests/test_domain_discovery.py`` for a
-``FakeLLMClient`` used to test :mod:`~src.clustering.label_clusters`
-without an API key or the ``anthropic`` package installed.
-"""
 
 from __future__ import annotations
 

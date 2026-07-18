@@ -14,7 +14,14 @@ scratch:
 storage:
   backend: local
   local_root: var/local_storage
-
+  # Point this at the mount path of the external/USB/network disk holding
+  # the real corpus, e.g. "/Volumes/LegalDocs" or "/mnt/legal_docs". Left
+  # null by default -- src.ingestion.discovery.discover_local_documents
+  # requires it to be set before Stage 0 discovery can run.
+  source_root: null
+  checksum_mode: fast
+  file_extensions: [".pdf"]
+  
 pipeline:
   batch_size: 500
   checkpoint_dir: var/checkpoints

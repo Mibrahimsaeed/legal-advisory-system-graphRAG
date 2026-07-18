@@ -250,7 +250,44 @@ class Settings(BaseModel):
     metrics: MetricsSettings = Field(default_factory=MetricsSettings)
 
     model_config = {"extra": "forbid", "frozen": True}
+class StorageSettings(BaseModel):
+    """Source document storage backend.
 
+    ``backend="local"`` covers *any* mounted filesystem source -- an
+    internal drive, an external/USB drive, or a network share -- not just
+    a project-local folder. ``source_root`` is where
+    :func:`src.ingestion.discovery.discover_local_documents` scans for
+    documents; ``local_root`` is kept separate/legacy for anything that
+    still wants a project-relative staging root. For a "read the corpus
+    directly off an external disk, never copy it into the project" setup,
+    set ``backend: local`` and point ``source_root`` at the disk's mount
+    path -- Stage 0 (`orchestration/dags/batch_ingest_flow.py`) then never
+    downloads/copies bytes for local sources; Stage 1 extraction opens
+    ``source_uri`` (that same on-disk path) directly.
+    """
+
+    backend: Literal["s3", "local"] = "s3"
+    bucket: str | None = None
+    local_root: Path = Path("var/local_storage")
+    source_root: Path | None = Field(
+        default=None,
+        description=(
+            "Mount path to scan for source documents when backend='local' "
+            "(e.g. an external drive's mount point). Required for "
+            "src.ingestion.discovery.discover_local_documents; not used "
+            "for backend='s3'."
+        ),
+    )
+    checksum_mode: Literal["fast", "full"] = Field(
+        default="fast",
+        description=(
+            "'fast' hashes size+mtime only (no file content read) -- safe "
+            "for large/slow external disks. 'full' reads and sha256-hashes "
+            "every file's full content; slower but detects in-place edits "
+            "a fast checksum would miss."
+        ),
+    )
+    file_extensions: tuple[str, ...] = (".pdf",)
 
 def _deep_merge(base: dict[str, Any], override: dict[str, Any]) -> dict[str, Any]:
     """Recursively merge ``override`` on top of ``base``, returning a new dict."""

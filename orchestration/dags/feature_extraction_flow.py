@@ -62,6 +62,31 @@ def _find_pulled_file(workspace: ScratchWorkspace, doc_id: str) -> Path | None:
         workspace.raw_dir.glob(f"{safe_name}")
     )
     return matches[0] if matches else None
+def _resolve_source_path(
+    entry: "manifest_db.ManifestEntry",
+    workspace: ScratchWorkspace,
+    backend: str,
+) -> tuple[Path | None, bool]:
+    """Resolve the readable path for one document, per ``storage.backend``.
+
+    Returns ``(path, is_scratch_copy)``. ``is_scratch_copy`` tells the
+    caller whether it's safe to delete ``path`` after extraction:
+
+    * ``backend="local"`` -- ``path`` is ``entry.source_uri`` itself,
+      i.e. the original file on the mounted (possibly external) disk.
+      ``is_scratch_copy=False`` -- deleting it would delete the user's
+      source data, which this pipeline must never do.
+    * ``backend="s3"`` -- ``path`` is Stage 0's scratch download.
+      ``is_scratch_copy=True`` -- safe, and intended, to delete once
+      extraction is done with it (docs/data_retention_policy.md).
+    """
+
+    if backend == "local":
+        path = Path(entry.source_uri)
+        return (path, False) if path.exists() else (None, False)
+
+    # s3 (and any other backend that requires a scratch download)
+    return _find_pulled_file(workspace, entry.doc_id), True
 
 
 def run_stage1(
@@ -242,3 +267,5 @@ def run_stage1(
         )
 
         return Stage1Result(batch_id=batch_id, signatures=signatures)
+    
+
