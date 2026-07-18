@@ -68,6 +68,40 @@ class PipelineSettings(BaseModel):
     checkpoint_dir: Path = Path("var/checkpoints")
     phases: list[str] = Field(default_factory=lambda: ["claim", "pull"])
 
+class ExtractionSettings(BaseModel):
+    """Stage 1 (Feature Extraction / document-signature) settings.
+
+    See ``docs/data_retention_policy.md`` for why this stage only ever
+    reads the first ``max_pages`` pages, and why nothing beyond the
+    bounded fields here (title, TOC, a char-capped body preview) is ever
+    persisted.
+    """
+
+    max_pages: int = Field(
+        default=15, gt=0, description="Pages sampled from the front of each PDF."
+    )
+    min_chars_per_page: float = Field(
+        default=40.0,
+        ge=0,
+        description="Below this many extracted chars, a page is flagged low-quality.",
+    )
+    min_alpha_ratio: float = Field(
+        default=0.6,
+        ge=0,
+        le=1,
+        description="Below this alphabetic-character ratio, a page is flagged low-quality.",
+    )
+    flagged_page_ratio: float = Field(
+        default=0.5,
+        ge=0,
+        le=1,
+        description="Fraction of sampled pages that must be flagged before OCR is attempted.",
+    )
+    ocr_dpi: int = Field(default=300, gt=0)
+    ocr_lang: str = "eng"
+    body_preview_char_limit: int = Field(default=20_000, gt=0)
+    signature_schema_file: Path = Path("schemas/signature_schema.sql")
+
 
 class RetrySettings(BaseModel):
     """Exponential-backoff retry policy for retryable errors."""
@@ -110,19 +144,17 @@ class MetricsSettings(BaseModel):
 
 
 class Settings(BaseModel):
-    """Root, fully-validated application configuration."""
-
     env: str = "dev"
     database: DatabaseSettings = Field(default_factory=DatabaseSettings)
     scratch: ScratchSettings = Field(default_factory=ScratchSettings)
     storage: StorageSettings = Field(default_factory=StorageSettings)
     pipeline: PipelineSettings = Field(default_factory=PipelineSettings)
+    extraction: ExtractionSettings = Field(default_factory=ExtractionSettings)   # <-- new
     retry: RetrySettings = Field(default_factory=RetrySettings)
     logging: LoggingSettings = Field(default_factory=LoggingSettings)
     metrics: MetricsSettings = Field(default_factory=MetricsSettings)
 
     model_config = {"extra": "forbid", "frozen": True}
-
 
 def _deep_merge(base: dict[str, Any], override: dict[str, Any]) -> dict[str, Any]:
     """Recursively merge ``override`` on top of ``base``, returning a new dict."""

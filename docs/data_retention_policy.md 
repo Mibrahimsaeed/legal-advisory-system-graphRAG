@@ -1,0 +1,63 @@
+# Data Retention Policy
+
+This document is the source of truth for how raw document bytes and
+extracted content are allowed to be stored at each stage of the pipeline.
+Code should point back here (see `src/ingestion/scratch_manager.py` and
+`orchestration/dags/feature_extraction_flow.py`) rather than re-deriving
+these rules ad hoc.
+
+## Principles
+
+1. **Raw documents are never persisted long-term.** The only place a full
+   PDF's bytes exist on disk is the ephemeral scratch workspace
+   (`var/scratch/<batch_id>/raw/`) created by Stage 0 (`batch_puller.py` /
+   `scratch_manager.py`). No stage writes raw bytes anywhere else —
+   not to the metadata DB, not to object storage, not to logs.
+2. **Only a bounded signature is persisted.** Stage 1 (Feature Extraction)
+   is the boundary past which raw text stops flowing downstream. What
+   lands in `document_signatures` (`schemas/signature_schema.sql`) is
+   capped by construction: a title, a TOC/heading list, and a body
+   preview truncated to `extraction.body_preview_char_limit` (default
+   20,000 characters ≈ the first 10–15 pages). No full-document text is
+   ever written to that table.
+3. **Scratch is purged as early as correctness allows, with a safety net.**
+   See "Purge triggers" below.
+
+## Purge triggers
+
+| Trigger | What's removed | Where |
+|---|---|---|
+| Per-document, immediately after that document's signature is built (success *or* failure) | That document's raw file only | `feature_extraction_flow.run_stage1` |
+| End of Stage 1, after every document in the batch has been processed | The batch's entire `var/scratch/<batch_id>/` directory (raw + tmp) | `feature_extraction_flow.run_stage1` → `ScratchWorkspace.purge()` |
+| Stage 0 hard failure (`pull_batch` raises) | The batch's scratch directory, before any signature work can happen | `batch_ingest_flow.run_stage0` |
+| Orphan sweep (process crash, `purge_on_exit=False`, killed job, etc.) | Any scratch directory not in the caller-supplied active-batch set | `scratch_manager.purge_stale_workspaces()`, invoked by `scripts/purge_scratch.sh` |
+
+Effective TTL for raw bytes in scratch is therefore **zero to a few
+minutes** under normal operation (bounded by however long Stage 1 takes
+to process one batch), with the orphan sweep as a hard backstop for
+abnormal termination. `scripts/purge_scratch.sh` should be scheduled
+(e.g. hourly) purely as that backstop — it should typically find nothing
+to do.
+
+## Retryability after a purge
+
+Because Stage 1 purges a document's raw file as soon as it's processed
+(regardless of outcome), a document whose extraction failed cannot be
+retried from the same scratch copy. Retrying means re-running Stage 0 for
+that `doc_id` (`manifest.requeue_failed`), which re-pulls from the
+original `source_uri` and re-verifies its checksum before Stage 1 runs
+again. This is intentional: it keeps "documents currently sitting in
+scratch" a tight, auditable set rather than a place where failed items
+silently accumulate.
+
+## What's explicitly *not* covered here
+
+- Downstream stages (embedding, clustering, GraphRAG) are out of scope
+  for this document until they exist; when they're implemented, their
+  own inputs/outputs need the same treatment — audit whether they ever
+  reconstruct anything close to full document text and update this
+  policy accordingly.
+- This policy governs the pipeline's own storage. It does not change
+  retention obligations on the upstream source-of-truth store
+  (`storage.backend` in `config/base.yaml`) — that bucket/filesystem's
+  retention is a separate decision outside this pipeline.
