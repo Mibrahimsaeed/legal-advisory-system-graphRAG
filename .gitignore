@@ -28,3 +28,14 @@ build/
 htmlcov/
 .venv/
 
+# Runtime databases
+var/metadata.db
+var/metadata.db-shm
+var/metadata.db-wal
+var/metrics.db
+
+# Checkpoints
+var/checkpoints/
+
+# Scratch workspace (if used)
+var/scratch/

@@ -39,7 +39,7 @@ from src.common.db import DEFAULT_DB_PATH
 from src.common.exceptions import ConfigurationError
 from src.common.logging_utils import get_logger
 from src.ingestion import manifest as manifest_db
-
+from src.common.db import init_schema
 logger = get_logger(__name__)
 
 DEFAULT_EXTENSIONS: tuple[str, ...] = (".pdf",)
@@ -129,6 +129,7 @@ def discover_local_documents(
         )
     if not root.is_dir():
         raise ConfigurationError(f"Discovery root is not a directory: {root}")
+    init_schema(db_path=db_path)
 
     normalized_ext = tuple(e.lower() for e in extensions)
     total_registered = 0

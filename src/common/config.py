@@ -57,10 +57,23 @@ class StorageSettings(BaseModel):
     """Source document storage backend."""
 
     backend: Literal["s3", "local"] = "s3"
+
     bucket: str | None = None
+
     local_root: Path = Path("var/local_storage")
 
+    source_root: Path | None = Field(
+        default=None,
+        description=(
+            "Root directory containing source documents when backend='local'. "
+            "Can be an external drive or mounted filesystem."
+        ),
+    )
 
+    checksum_mode: Literal["fast", "full"] = "fast"
+
+    file_extensions: tuple[str, ...] = (".pdf",)
+    
 class PipelineSettings(BaseModel):
     """General pipeline execution settings."""
 

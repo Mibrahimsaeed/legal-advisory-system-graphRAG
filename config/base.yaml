@@ -18,10 +18,10 @@ storage:
   # the real corpus, e.g. "/Volumes/LegalDocs" or "/mnt/legal_docs". Left
   # null by default -- src.ingestion.discovery.discover_local_documents
   # requires it to be set before Stage 0 discovery can run.
-  source_root: null
+  source_root: "/Volumes/Dr. Iqbal SSD/LAW Data/English pdfs/BOOKS Law pdf"
   checksum_mode: fast
   file_extensions: [".pdf"]
-  
+
 pipeline:
   batch_size: 500
   checkpoint_dir: var/checkpoints

@@ -43,22 +43,17 @@ logger = get_logger(__name__)
 
 
 
+  
 @dataclass(frozen=True)
 class Stage0Result:
     batch_id: str
     entries: list[ManifestEntry]
-    # How many manifest rows this batch actually claimed, *before* any pull
-    # attempt -- deliberately separate from len(entries) (which is only the
-    # subset that were *successfully* pulled). A caller looping batch after
-    # batch needs this to tell "this batch claimed 0 because there's nothing
-    # left pending" apart from "this batch claimed some but pulling all of
-    # them failed" -- the latter should not be treated as "done".
-    claimed_count: int = 0
+    claimed_count: int
 
     @property
     def pulled_doc_ids(self) -> list[str]:
         return [e.doc_id for e in self.entries]
-
+        
 def _pull_local(entry: ManifestEntry) -> str | None:
     """Zero-copy pull for a locally-mounted source.
 
@@ -161,7 +156,11 @@ def run_stage0(
         if not entries:
             logger.info("No pending documents to claim for batch %s; nothing to pull", batch_id)
             checkpoint.complete_phase("pull", state={"pulled": 0, "failed": 0})
-            return Stage0Result(batch_id=batch_id, entries=[])
+            return Stage0Result(
+            batch_id=batch_id,
+            entries=[],
+            claimed_count=0,
+)
 
         # -- pull ---------------------------------------------------------
         with metrics.record_phase(run_id=run_id, phase="pull", batch_id=batch_id) as pull_metric:
@@ -225,4 +224,8 @@ def run_stage0(
             e for e in manifest_db.get_batch_entries(batch_id, db_path=db_path)
             if e.ingest_status == "pulled"
         ]
-        return Stage0Result(batch_id=batch_id, entries=final_entries)
+        return Stage0Result(
+        batch_id=batch_id,
+        entries=final_entries,
+        claimed_count=len(entries),
+)
