@@ -1,0 +1,192 @@
+{
+  "run_id": "discovery_8a90cafe46bd",
+  "generated_at": "2026-07-19T11:24:59.004018+00:00",
+  "sample_size": 2000,
+  "total_signatures": 9730,
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "domains": [
+    {
+      "cluster_id": 2,
+      "name": "Islamic Finance and Banking",
+      "description": "A legal domain focused on financial and banking practices governed by Islamic principles, including Shariah-compliant instruments, risk management in Islamic banking, and mortgage structures adhering to Islamic law.",
+      "inclusion_criteria": [
+        "Shariah-compliant mortgages and financing",
+        "Islamic banking operations and risk management",
+        "Sukuk (Islamic bonds) structures and governance",
+        "Financial market practices under Islamic law",
+        "Corporate finance theories applied to Islamic banking"
+      ],
+      "exclusion_criteria": [
+        "Conventional banking practices not aligned with Shariah",
+        "Non-Islamic financial instruments (e.g., interest-based loans)",
+        "General corporate finance without Islamic legal context",
+        "Documents focusing on pure mathematical finance or asymptotic analysis",
+        "Non-financial legal domains (e.g., civil law, criminal law)"
+      ],
+      "keywords": [
+        "islamic",
+        "risk",
+        "yang",
+        "financial",
+        "banking",
+        "banks",
+        "finance",
+        "bank",
+        "market",
+        "financing",
+        "credit",
+        "mortgage",
+        "capital",
+        "liquidity",
+        "dan"
+      ],
+      "representative_doc_ids": [
+        "9e4fe69cd4aef65a8dc1844e",
+        "fd0238d4a6ccde7fb81979a2",
+        "7c24f850c153327cdc97bffd",
+        "5cc5c9e1d70cc81e97dec8f3",
+        "1ce3c42fe91513e8217565f9",
+        "1e1ee7a45df55337d78ebeeb",
+        "324f17fd11bf6081d3b72bac",
+        "344be16fb83cc2179b48c584"
+      ],
+      "doc_count": 136,
+      "sample_size": 2000,
+      "error": null,
+      "is_other_bucket": false
+    },
+    {
+      "cluster_id": 21,
+      "name": "Pakistan Government Regulatory Legislation",
+      "description": "Legal documents enacted by Pakistani governmental authorities to regulate economic, financial, and labor sectors, including acts, ordinances, and regulations. Focuses on statutory frameworks governing industries, trade, and public services.",
+      "inclusion_criteria": [
+        "Legal documents issued by Pakistani government bodies (e.g., acts, ordinances, regulations)",
+        "Documents governing economic, financial, or labor regulations",
+        "References to Pakistani authorities (e.g., commissions, boards, federal agencies)",
+        "Provisions related to industry-specific rules (e.g., banking, ports, competition law)"
+      ],
+      "exclusion_criteria": [
+        "Documents not specific to Pakistan (e.g., international treaties, foreign legislation)",
+        "Non-regulatory documents (e.g., corporate policies, private contracts)",
+        "Religious or cultural laws (e.g., halal certification, Islamic jurisprudence)",
+        "General administrative guidelines without legislative force"
+      ],
+      "keywords": [
+        "ordinance",
+        "act",
+        "commission",
+        "government",
+        "company",
+        "pakistan",
+        "federal",
+        "means",
+        "board",
+        "which",
+        "authority",
+        "bank",
+        "securities",
+        "person",
+        "halal"
+      ],
+      "representative_doc_ids": [
+        "1d0763db1611b7d335638fc4",
+        "65fb37558bd0999d3fa2f028",
+        "7c44134878cc37065df2496f",
+        "f9d6610c1854e4f0f3ead949",
+        "9e096d7e178eaf34ddf6a3be",
+        "5988d77ab8f460db0af8e8db",
+        "ada76b2be9f46afc0a18582c",
+        "de795ab9979172108d44f17e"
+      ],
+      "doc_count": 129,
+      "sample_size": 2000,
+      "error": null,
+      "is_other_bucket": false
+    },
+    {
+      "cluster_id": 11,
+      "name": "Islamic Jurisprudence",
+      "description": "A domain encompassing Islamic legal thought, principles, and texts including Shariah law, Qur'anic interpretations, and jurisprudential discussions on criminal, ethical, and social law within Islamic tradition.",
+      "inclusion_criteria": [
+        "Islamic legal texts (e.g., Qur'an, Hadith, Shariah)",
+        "Jurisprudential principles (e.g., Qawa'id al-Fiqh)",
+        "Themes in Islamic law (e.g., crime, punishment, bioethics)",
+        "Religious literature focused on Islamic legal doctrine",
+        "Scholarly analyses of Islamic legal history and theory"
+      ],
+      "exclusion_criteria": [
+        "General religious studies not focused on law",
+        "Non-Islamic religious legal systems (e.g., Jewish, Christian)",
+        "Secular legal frameworks or modern civil law",
+        "Historical or cultural texts without legal content",
+        "Non-legal Islamic literature (e.g., poetry, philosophy)"
+      ],
+      "keywords": [
+        "islamic",
+        "islam",
+        "ibn",
+        "muslim",
+        "allah",
+        "law",
+        "his",
+        "prophet",
+        "qur",
+        "chapter",
+        "god",
+        "allaah",
+        "muslims",
+        "book",
+        "which"
+      ],
+      "representative_doc_ids": [
+        "b0c476ece518423ec9227e08",
+        "9f0eeebeea3d0c72e97e2800",
+        "c32d32a421571905765109f7",
+        "2221fbbfc351851d201a7590",
+        "45ae84d977efcdf4355a5f8c",
+        "e89b412973890fd943419012",
+        "6eec35c5ccae31ada0a2071e",
+        "a0d06bdc3fd29ce3882e018b"
+      ],
+      "doc_count": 124,
+      "sample_size": 2000,
+      "error": null,
+      "is_other_bucket": false
+    }
+  ],
+  "other_bucket": {
+    "cluster_id": -1,
+    "name": "Other / Uncertain",
+    "description": "Documents that did not clearly belong to any of the top discovered domains -- either HDBSCAN noise (no dense enough neighborhood) or members of a smaller cluster below the top-N cutoff. Needs human review before being split out into real domains or left as a permanent catch-all.",
+    "inclusion_criteria": [],
+    "exclusion_criteria": [],
+    "keywords": [],
+    "representative_doc_ids": [
+      "6cf3ffbe3ab023522e73d6d8",
+      "0f01769ea33951d5504b17a0",
+      "5374bcd28772de8231d25062",
+      "ad47e4e6d3a66ea4c420d0b4",
+      "bf7e7b83697a378fbdc9ad27",
+      "41efc069a28fab804e628800",
+      "ab3dbc82a2179b8b07509515",
+      "1aa8e74e3cdb8b406e7d294b",
+      "2caa4d7d73173ffcd29fe63a",
+      "06e9a46aa5e5d88dc4cc0b4e",
+      "cdd24632c5a5ffee2f5a998a",
+      "986ea084bb1c8f567fe3da96",
+      "4e102c15ced31846b69c9326",
+      "314061a962564ed110d87663",
+      "78b18fcd3a65e8df263837f6",
+      "887556148797cb6d64e7d224",
+      "1773901e950eadd7ddc3fa2d",
+      "ad114682a0f2144722040b8d",
+      "fac179e99c6a386420b61998",
+      "9d6c04f3b435ee9e18eaddda"
+    ],
+    "doc_count": 1611,
+    "sample_size": 2000,
+    "error": null,
+    "is_other_bucket": true
+  },
+  "notes": []
+}

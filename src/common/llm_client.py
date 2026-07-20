@@ -1,9 +1,10 @@
-
 from __future__ import annotations
 
 import json
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Any, Protocol
+
+from ollama import Client
 
 from src.common.exceptions import PipelineError
 from src.common.logging_utils import get_logger
@@ -11,97 +12,96 @@ from src.common.retry import call_with_retry
 
 logger = get_logger(__name__)
 
-try:  # pragma: no cover
-    import anthropic
-except ImportError:  # pragma: no cover
-    anthropic = None  # type: ignore[assignment]
-
 
 class LLMError(PipelineError):
-    """Raised for LLM API/parsing failures. Retryable by default -- most
-    failure modes (rate limits, transient 5xxs) are worth retrying; callers
-    that need to distinguish "malformed JSON response" from "API down" can
-    inspect ``str(exc)``."""
+    """Raised for LLM API/parsing failures."""
 
     retryable = True
 
 
 class LLMClient(Protocol):
-    """Minimal interface every LLM client (real or fake) must satisfy."""
+    """Minimal interface every LLM client must satisfy."""
 
-    def complete(self, system: str, prompt: str, max_tokens: int | None = None) -> str: ...
+    def complete(
+        self,
+        system: str,
+        prompt: str,
+        max_tokens: int | None = None,
+    ) -> str:
+        ...
 
 
 @dataclass
-class AnthropicLLMClient:
-    """Thin wrapper around the ``anthropic`` SDK's Messages API."""
+class OllamaLLMClient:
+    """Thin wrapper around the local Ollama server."""
 
     model: str
     max_tokens: int = 1024
-    api_key: str | None = None
 
     def __post_init__(self) -> None:
-        if anthropic is None:
-            raise LLMError(
-                "The 'anthropic' package is not installed; cannot call the LLM "
-                "(see requirements.txt)",
-                phase="llm",
-            )
         try:
-            self._client = (
-                anthropic.Anthropic(api_key=self.api_key)
-                if self.api_key
-                else anthropic.Anthropic()
-            )
+            self._client = Client()
         except Exception as exc:
             raise LLMError(
-                "Failed to initialize Anthropic client "
-                "(is ANTHROPIC_API_KEY set?)",
+                "Failed to initialize Ollama client.",
                 phase="llm",
                 cause=exc,
             ) from exc
 
-    def complete(self, system: str, prompt: str, max_tokens: int | None = None) -> str:
+    def complete(
+        self,
+        system: str,
+        prompt: str,
+        max_tokens: int | None = None,
+    ) -> str:
         def _call() -> str:
             try:
-                response = self._client.messages.create(
+                response = self._client.chat(
                     model=self.model,
-                    max_tokens=max_tokens or self.max_tokens,
-                    system=system,
-                    messages=[{"role": "user", "content": prompt}],
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": system,
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        },
+                    ],
+                    options={
+                        "num_predict": max_tokens or self.max_tokens,
+                    },
                 )
+
+                return response["message"]["content"]
+
             except Exception as exc:
                 raise LLMError(
-                    "Anthropic messages.create() call failed", phase="llm", cause=exc
+                    "Ollama chat() call failed.",
+                    phase="llm",
+                    cause=exc,
                 ) from exc
 
-            return "".join(
-                block.text
-                for block in response.content
-                if getattr(block, "type", None) == "text"
-            )
-
-        return call_with_retry(_call, operation_name="llm_complete")
+        return call_with_retry(
+            _call,
+            operation_name="llm_complete",
+        )
 
 
 def get_llm_client(
-    model: str, max_tokens: int = 1024, api_key: str | None = None
+    model: str,
+    max_tokens: int = 1024,
+    api_key: str | None = None,
 ) -> LLMClient:
-    return AnthropicLLMClient(model=model, max_tokens=max_tokens, api_key=api_key)
+    # api_key is ignored for Ollama but retained for compatibility.
+    return OllamaLLMClient(
+        model=model,
+        max_tokens=max_tokens,
+    )
 
 
 def extract_json_object(text: str) -> dict[str, Any]:
-    """Best-effort extraction of a single JSON object from an LLM response.
-
-    Handles the two common ways a model wraps JSON it was asked to
-    return verbatim: a ```json fenced block, or a JSON object preceded/
-    followed by explanatory prose. Takes the first ``{`` through the
-    last ``}`` in the (defenced) text and parses that span.
-
-    Raises:
-        LLMError: if no ``{...}`` span is found, or if the span found
-            isn't valid JSON.
-    """
+    """Best-effort extraction of a single JSON object from an LLM response."""
 
     stripped = text.strip()
 
@@ -113,6 +113,7 @@ def extract_json_object(text: str) -> dict[str, Any]:
 
     start = stripped.find("{")
     end = stripped.rfind("}")
+
     if start == -1 or end == -1 or end < start:
         raise LLMError(
             f"Could not find a JSON object in LLM response: {text[:200]!r}",
@@ -120,6 +121,7 @@ def extract_json_object(text: str) -> dict[str, Any]:
         )
 
     candidate = stripped[start : end + 1]
+
     try:
         return json.loads(candidate)
     except json.JSONDecodeError as exc:
