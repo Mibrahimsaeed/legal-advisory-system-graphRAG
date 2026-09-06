@@ -23,6 +23,61 @@ these rules ad hoc.
 3. **Scratch is purged as early as correctness allows, with a safety net.**
    See "Purge triggers" below.
 
+### Case law (the active corpus)
+
+Principles 1 and 2 hold unchanged for the case-law path, with different
+mechanics because there are no PDFs to stage:
+
+- `orchestration/dags/case_ingest_flow.py` reads each
+  `case_folder/case.html` **in place**. Nothing is copied into
+  `var/scratch/`, so there is no scratch to purge and principle 1 is
+  satisfied trivially.
+- What is persisted is a bounded representation, not a signature: one
+  `document_representations` row
+  (`schemas/document_representation_schema.sql`) holding a title, at most
+  `caselaw.max_headings` headings, and a body preview truncated to
+  `caselaw.body_preview_char_limit` (default 20,000 characters); the
+  case-law facts normalized out of `metadata.json` (court, decision date,
+  citation, judges, case number); and that `metadata.json` verbatim. No
+  full case text is written to that table -- `DocumentRepresentation.full_text`
+  is populated in memory by the loader and dropped at the storage
+  boundary, and the full text stays in the source `case.html` on disk.
+- Every row records provenance (`source_uri`, `source_file`,
+  `source_relpath`, `content_hash`), so any later stage -- including the
+  RAG pipeline -- re-reads the original file rather than needing a
+  second copy of the text.
+- `document_signatures` is untouched by this path; it remains the legacy
+  PDF/book corpus's table.
+
+#### Amendment (Phase 1): durable cleaned text
+
+Principle 2 is **narrowed, deliberately and on the record**, for one
+column. `document_representations.cleaned_text` may hold the cleaned case
+text produced by Phase 2 structural cleaning.
+
+Why the change was necessary: every later stage (structural
+pre-filtering, statute extraction, and eventually RAG) consumes cleaned
+text, and re-deriving it from `case.html` on every pass makes the cleaning
+non-reproducible -- two stages could silently disagree about what "the
+text" is, and a corpus re-scrape would change it under them.
+
+What is unchanged:
+
+- The **classification input remains bounded**: embeddings and clustering
+  read `body_preview` (capped at `caselaw.body_preview_char_limit`), never
+  `cleaned_text`.
+- `DocumentRepresentation.full_text` -- the *raw* extracted text -- is
+  still in-memory only and still dropped at the storage boundary.
+- Provenance (`source_uri`, `source_file`, `source_relpath`,
+  `content_hash`) is still recorded, so the original file remains the
+  ultimate source of truth and `cleaned_text` is always re-derivable.
+- Phase 1 only adds the column. It is `NULL` for every row until Phase 2
+  populates it.
+
+The case-law corpus is public court judgment text, so durable storage
+raises no confidentiality concern of the kind principle 1 exists to
+address for licensed book PDFs.
+
 ## Purge triggers
 
 | Trigger | What's removed | Where |

@@ -34,7 +34,7 @@ import numpy as np
 from src.clustering.taxonomy_card import DomainDraft
 from src.common.llm_client import LLMClient, extract_json_object
 from src.common.logging_utils import get_logger
-from src.extraction.signature import DocumentSignature
+from src.extraction.doc_representation import EmbeddableDocument
 
 logger = get_logger(__name__)
 
@@ -59,7 +59,7 @@ _STOPWORDS = frozenset(
 
 DOMAIN_LABEL_SYSTEM_PROMPT = (
     "You are assisting with building a legal-document taxonomy from "
-    "clusters of automatically grouped document signatures. Given "
+    "clusters of automatically grouped legal documents. Given "
     "keywords and representative document excerpts from ONE cluster, "
     "propose a draft legal domain definition. Respond with ONLY a JSON "
     "object (no prose, no markdown fence) with exactly these keys: "
@@ -77,8 +77,12 @@ def _tokenize(text: str) -> list[str]:
     ]
 
 
-def _signature_text(signature: DocumentSignature) -> str:
-    parts = [signature.title or "", "; ".join(signature.toc), signature.body_preview or ""]
+def _document_text(document: EmbeddableDocument) -> str:
+    parts = [
+        document.title or "",
+        "; ".join(document.headings),
+        document.body_preview or "",
+    ]
     return " ".join(p for p in parts if p)
 
 
@@ -91,16 +95,16 @@ class KeywordCorpus:
     n_docs: int
 
 
-def build_keyword_corpus(signatures: list[DocumentSignature]) -> KeywordCorpus:
+def build_keyword_corpus(documents: list[EmbeddableDocument]) -> KeywordCorpus:
     doc_freq: Counter = Counter()
-    for sig in signatures:
-        words = set(_tokenize(_signature_text(sig)))
+    for document in documents:
+        words = set(_tokenize(_document_text(document)))
         doc_freq.update(words)
-    return KeywordCorpus(doc_freq=doc_freq, n_docs=len(signatures))
+    return KeywordCorpus(doc_freq=doc_freq, n_docs=len(documents))
 
 
 def extract_cluster_keywords(
-    cluster_signatures: list[DocumentSignature],
+    cluster_documents: list[EmbeddableDocument],
     corpus: KeywordCorpus,
     top_k: int = 15,
 ) -> list[str]:
@@ -112,8 +116,8 @@ def extract_cluster_keywords(
     """
 
     tf: Counter = Counter()
-    for sig in cluster_signatures:
-        tf.update(_tokenize(_signature_text(sig)))
+    for document in cluster_documents:
+        tf.update(_tokenize(_document_text(document)))
 
     if not tf:
         return []
@@ -180,20 +184,20 @@ def build_domain_prompt(keywords: list[str], representative_snippets: list[str])
     )
 
 
-def _snippet_for(signature: DocumentSignature, max_chars: int = 600) -> str:
+def _snippet_for(document: EmbeddableDocument, max_chars: int = 600) -> str:
     parts = []
-    if signature.title:
-        parts.append(f"Title: {signature.title}")
-    if signature.toc:
-        parts.append("TOC: " + "; ".join(signature.toc[:8]))
-    if signature.body_preview:
-        parts.append("Excerpt: " + signature.body_preview[:max_chars])
+    if document.title:
+        parts.append(f"Title: {document.title}")
+    if document.headings:
+        parts.append("Headings: " + "; ".join(document.headings[:8]))
+    if document.body_preview:
+        parts.append("Excerpt: " + document.body_preview[:max_chars])
     return "\n".join(parts) if parts else "(no content)"
 
 
 def generate_domain_draft(
     cluster_id: int,
-    cluster_signatures: list[DocumentSignature],
+    cluster_documents: list[EmbeddableDocument],
     representative_doc_ids: list[str],
     keywords: list[str],
     sample_size: int,
@@ -209,7 +213,7 @@ def generate_domain_draft(
     degrades the labeling quality, not the whole run.
     """
 
-    by_id = {s.doc_id: s for s in cluster_signatures}
+    by_id = {d.doc_id: d for d in cluster_documents}
     representative_snippets = [
         _snippet_for(by_id[doc_id]) for doc_id in representative_doc_ids if doc_id in by_id
     ]
@@ -239,7 +243,7 @@ def generate_domain_draft(
         exclusion_criteria=exclusion,
         keywords=keywords,
         representative_doc_ids=representative_doc_ids,
-        doc_count=len(cluster_signatures),
+        doc_count=len(cluster_documents),
         sample_size=sample_size,
         error=error,
     )

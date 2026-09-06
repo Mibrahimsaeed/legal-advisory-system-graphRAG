@@ -5,7 +5,7 @@ import pytest
 
 from src.embedding.doc_pooling import (
     build_embedding_inputs,
-    embed_signatures,
+    embed_documents,
     pool_embeddings,
 )
 from src.embedding.embed_model import DeterministicHashEmbedder, get_embedder
@@ -113,30 +113,30 @@ def test_pool_embeddings_handles_empty_input():
     assert np.allclose(pooled, 0)
 
 
-def test_embed_signatures_skips_docs_with_no_content():
+def test_embed_documents_skips_docs_with_no_content():
     embedder = DeterministicHashEmbedder(dimension=16)
     sigs = [
         _sig("has_content", title="Something", body_preview="text here"),
         _sig("empty"),  # no title/toc/body -> nothing to embed
     ]
-    result = embed_signatures(sigs, embedder)
+    result = embed_documents(sigs, embedder)
     assert "has_content" in result
     assert "empty" not in result
     assert result["has_content"].shape == (16,)
 
 
-def test_embed_signatures_is_deterministic_and_distinguishes_docs():
+def test_embed_documents_is_deterministic_and_distinguishes_docs():
     embedder = DeterministicHashEmbedder(dimension=16)
     sigs = [
         _sig("d1", title="Contract Agreement", body_preview="services rendered" * 20),
         _sig("d2", title="Notice of Appeal", body_preview="appellant hereby" * 20),
     ]
-    result_a = embed_signatures(sigs, embedder)
-    result_b = embed_signatures(sigs, embedder)
+    result_a = embed_documents(sigs, embedder)
+    result_b = embed_documents(sigs, embedder)
     assert np.allclose(result_a["d1"], result_b["d1"])
     assert not np.allclose(result_a["d1"], result_a["d2"])
 
 
-def test_embed_signatures_empty_batch_returns_empty_dict():
+def test_embed_documents_empty_batch_returns_empty_dict():
     embedder = DeterministicHashEmbedder(dimension=16)
-    assert embed_signatures([], embedder) == {}
+    assert embed_documents([], embedder) == {}

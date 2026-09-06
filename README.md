@@ -361,3 +361,44 @@ The knowledge graph represents structured relationships between legal entities.
     updatye llmclient file
     anthropic to suitable llm
     
+
+
+
+
+
+
+
+PHASE 6 — Full Case-Law Domain Classification
+
+The taxonomy has now been reviewed and frozen.
+
+Goal:
+Assign domain labels to the complete case-law corpus.
+
+For each document persist:
+
+- doc_id
+- cluster_id
+- primary_domain
+- secondary_domains if supported
+- confidence
+- justification
+- classifier/model version
+- taxonomy version
+- timestamp
+
+Requirements:
+
+1. Use the frozen taxonomy.
+2. Preserve resumability.
+3. Process in batches.
+4. Validate structured classifier output.
+5. Route low-confidence/ambiguous cases to review instead of blindly forcing labels.
+6. Preserve existing SQL architecture where possible.
+7. Never overwrite historical classification results without versioning.
+8. Add appropriate tests.
+9. Run a pilot batch before full execution.
+
+Do NOT begin RAG implementation.
+
+STOP after classification and report quality statistics.

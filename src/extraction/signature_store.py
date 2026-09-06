@@ -151,7 +151,7 @@ def list_signatures(
     db_path: str | Path = DEFAULT_DB_PATH,
 ) -> list[DocumentSignature]:
     """All signatures with a usable ``extraction_status`` (excludes ``failed``
-    by default). This is the read path Stage 1.2's sampling draws from --
+    by default). This is the read path Stage 1.2's full-corpus load draws from --
     it never touches ``failed`` rows since there's no title/TOC/body to
     embed for those.
     """

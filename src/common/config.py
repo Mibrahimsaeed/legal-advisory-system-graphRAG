@@ -30,7 +30,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 import yaml
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 from src.common.exceptions import ConfigurationError
 
@@ -152,26 +152,79 @@ class ExtractionSettings(BaseModel):
     signature_schema_file: Path = Path("schemas/signature_schema.sql")
 
 
-class DiscoverySettings(BaseModel):
-    """Stage 1.2 (Domain Discovery: sample -> embed -> cluster -> label) settings.
+class CaselawSettings(BaseModel):
+    """Stage 1 (case law) settings: case folders -> document representations.
 
-    This stage runs once against a *sample* of Stage 1 signatures, not the
-    full corpus -- see ``sample_min``/``sample_max``. Nothing here writes
-    to the frozen domain registry (``config/domains.yaml``); output is a
-    draft taxonomy card + ``domain_candidates`` rows with ``status='draft'``.
+    The active corpus is Pakistani case law, one folder per case holding
+    ``case.html`` + ``metadata.json``. This stage replaces the PDF/book
+    signature stage (:class:`ExtractionSettings`, which is kept for the
+    legacy PDF path only) -- see
+    ``orchestration/dags/case_ingest_flow.py``.
     """
 
-    # -- sampling --------------------------------------------------------
-    sample_min: int = Field(default=1500, gt=0)
-    sample_max: int = Field(default=2000, gt=0)
-    sample_seed: int = 42
+    corpus_root: Path | None = Field(
+        default=None,
+        description=(
+            "Directory containing the case folders (scanned recursively). "
+            "Required before orchestration.dags.case_ingest_flow.run_case_ingest "
+            "can run."
+        ),
+    )
+    case_html_filename: str = "case.html"
+    metadata_filename: str = "metadata.json"
+    body_preview_char_limit: int = Field(default=20_000, gt=0)
+    max_headings: int = Field(
+        default=50,
+        gt=0,
+        description="Cap on <hN> headings kept per case for the embedding input.",
+    )
+    representation_schema_file: Path = Path(
+        "schemas/document_representation_schema.sql"
+    )
+
+
+class DiscoverySettings(BaseModel):
+    """Stage 1.2 (Domain Discovery: load -> embed -> cluster -> label) settings.
+
+    This stage runs once against the *entire corpus* of Stage 1 signatures
+    (no sampling) -- it is intended as a single, one-time pass: the
+    resulting draft taxonomy is manually reviewed and frozen afterward, and
+    subsequent pipeline runs do not invoke domain discovery again. Nothing
+    here writes to the frozen domain registry (``config/domains.yaml``);
+    output is a draft taxonomy card + ``domain_candidates`` rows with
+    ``status='draft'``.
+    """
+
+    # -- corpus source -----------------------------------------------------
+    # Which SQLite table this stage loads its corpus from.
+    #   "representations" -> document_representations (case law; the active
+    #                        path, populated by case_ingest_flow)
+    #   "signatures"      -> document_signatures (legacy PDF/book path,
+    #                        populated by feature_extraction_flow)
+    # Nothing else about the stage changes between the two: both feed the
+    # same embedding -> UMAP -> HDBSCAN -> label pipeline.
+    corpus_source: Literal["representations", "signatures"] = "representations"
 
     # -- embedding ---------------------------------------------------------
     # Swap in a legal-tuned model (e.g. an InLegalBERT/Legal-BERT sentence
     # embedding checkpoint) via config if it outperforms the general-purpose
     # default for this corpus -- nothing downstream assumes a specific model.
     embedding_model_name: str = "sentence-transformers/all-mpnet-base-v2"
-    embedding_batch_size: int = Field(default=32, gt=0)
+    embedding_batch_size: int = Field(
+        default=32, gt=0, description="Texts per forward pass inside the model."
+    )
+    embedding_doc_batch_size: int = Field(
+        default=256,
+        gt=0,
+        description=(
+            "Documents per flattened encode() call. Bounds peak memory on a "
+            "10k+ document corpus; does not change the resulting vectors, "
+            "since one document's inputs never straddle two batches."
+        ),
+    )
+    # Which fields of a document actually get embedded (title, headings,
+    # body preview) and why court/date/citation/judges do not is documented
+    # in src/embedding/doc_pooling.py.
     title_weight: float = Field(default=2.0, ge=0)
     toc_weight: float = Field(default=1.5, ge=0)
     body_weight: float = Field(default=1.0, ge=0)
@@ -203,9 +256,209 @@ class DiscoverySettings(BaseModel):
     llm_model: str = "claude-sonnet-5"
     llm_max_tokens: int = Field(default=1024, gt=0)
 
+    # -- taxonomy drafting (Stage 1.2b) --------------------------------------
+    # Gates that stop a cluster from silently becoming a legal domain. A
+    # cluster must clear BOTH floors; see src/clustering/taxonomy_draft.py.
+    taxonomy_min_domain_docs: int = Field(
+        default=15,
+        gt=0,
+        description="A cluster smaller than this is never drafted as a domain.",
+    )
+    taxonomy_min_domain_share: float = Field(
+        default=0.02,
+        ge=0,
+        le=1,
+        description="A cluster below this share of the reviewed set is never drafted.",
+    )
+    taxonomy_uncertain_membership_probability: float = Field(
+        default=0.5,
+        ge=0,
+        le=1,
+        description=(
+            "Membership probability below which a document counts as a "
+            "possible mixed-domain case in the taxonomy audit."
+        ),
+    )
+
     # -- output -------------------------------------------------------------
     taxonomy_output_dir: Path = Path("var/taxonomy")
     domain_registry_schema_file: Path = Path("schemas/domain_registry_schema.sql")
+
+    # -- review mode ---------------------------------------------------------
+    # orchestration/dags/cluster_review_flow.py writes its read-only,
+    # no-LLM cluster report here -- separate from taxonomy_output_dir since
+    # a review report is not a taxonomy artifact and nothing here is ever
+    # written to domain_candidates.
+    review_output_dir: Path = Path("var/cluster_review")
+    review_representative_docs_per_cluster: int = Field(default=25, gt=0)
+    review_max_sample_doc_ids: int = Field(default=50, gt=0)
+
+    # Cluster a stratified sample of this many documents instead of the
+    # whole corpus. null/0 = review everything.
+    review_sample_size: int | None = Field(default=None, ge=0)
+
+    # Cluster triage thresholds (src/clustering/cluster_summary.py). These
+    # decide how a cluster is *described*, never what it is named.
+    review_major_min_share: float = Field(
+        default=0.05,
+        ge=0,
+        le=1,
+        description="Share of the reviewed set at/above which a cluster is 'major'.",
+    )
+    review_mixed_max_mean_probability: float = Field(
+        default=0.6,
+        ge=0,
+        le=1,
+        description="Below this mean HDBSCAN membership probability, flag the cluster.",
+    )
+    review_mixed_max_cohesion: float = Field(
+        default=0.35,
+        ge=0,
+        le=1,
+        description=(
+            "Below this mean cosine similarity to the cluster centroid (in "
+            "embedding space), the cluster is probably holding more than one topic."
+        ),
+    )
+    review_mixed_max_share: float = Field(
+        default=0.5,
+        ge=0,
+        le=1,
+        description="Above this share of the reviewed set, a cluster looks like a catch-all.",
+    )
+    review_relative_confidence_ratio: float = Field(
+        default=0.8,
+        ge=0,
+        le=1,
+        description=(
+            "Flag a cluster whose mean membership probability falls below this "
+            "fraction of the median across clusters -- catches a contaminated "
+            "cluster that still clears the absolute threshold."
+        ),
+    )
+    review_court_dominance_threshold: float = Field(
+        default=0.9,
+        ge=0,
+        le=1,
+        description=(
+            "If this share of a cluster comes from one court (and the corpus "
+            "spans several), the cluster may be grouping by forum, not subject."
+        ),
+    )
+    
+class DocumentSettings(BaseModel):
+    """Document-quality thresholds for the case-law corpus.
+
+    Initial, deliberately tunable values -- not scientifically derived.
+    ``min_characters`` is the active threshold behind
+    :data:`src.extraction.case_loader.WARNING_SHORT_TEXT`;
+    ``min_words`` is provided for Phase 2 structural pre-filtering and is
+    not consumed yet.
+    """
+
+    min_characters: int = Field(
+        default=1200,
+        gt=0,
+        description="Below this many extracted characters a case is flagged short.",
+    )
+    min_words: int = Field(
+        default=250,
+        gt=0,
+        description="Word-count floor. Reserved for Phase 2; not consumed yet.",
+    )
+
+
+class ClassificationSignalWeights(BaseModel):
+    """Relative weight of each domain-classification signal.
+
+    Storage/config only: Phase 1 does not implement the weighted scoring
+    engine. The weights must sum to 1.0 -- a silently unnormalized set
+    would skew every score the later engine produces, so it is validated
+    here rather than discovered downstream.
+    """
+
+    statute: float = Field(default=0.45, ge=0, le=1)
+    cluster: float = Field(default=0.25, ge=0, le=1)
+    court: float = Field(default=0.15, ge=0, le=1)
+    source_folder: float = Field(default=0.10, ge=0, le=1)
+    title: float = Field(default=0.05, ge=0, le=1)
+
+    model_config = {"extra": "forbid"}
+
+    @property
+    def total(self) -> float:
+        return self.statute + self.cluster + self.court + self.source_folder + self.title
+
+    @model_validator(mode="after")
+    def _weights_sum_to_one(self) -> "ClassificationSignalWeights":
+        # Tolerance covers float representation only (0.45 + 0.25 + 0.15 +
+        # 0.10 + 0.05 is not exactly 1.0 in binary floating point).
+        if abs(self.total - 1.0) > 1e-9:
+            raise ValueError(
+                f"classification.signals must sum to 1.0, got {self.total!r}"
+            )
+        return self
+
+
+class ClassificationSettings(BaseModel):
+    """Stage 2 (full-corpus domain classification) settings.
+
+    Classification reads the FROZEN taxonomy only (``taxonomy_file``);
+    draft candidates are never a classification target. Changing
+    ``llm_model``, the thresholds here, or the taxonomy means starting a
+    new ``run_id`` -- rows carry the versions that produced them and are
+    never overwritten across runs.
+    """
+
+    taxonomy_file: Path = Path("config/domains.yaml")
+    schema_file: Path = Path("schemas/classification_schema.sql")
+
+    batch_size: int = Field(
+        default=25,
+        gt=0,
+        description="Documents per persisted batch; a crash costs at most one batch.",
+    )
+    pilot_size: int = Field(
+        default=25,
+        gt=0,
+        description="Default size of the pilot slice run before a full pass.",
+    )
+
+    llm_model: str = "qwen3:14b"
+    # 1024, not 512: the pilot showed a 512-token budget truncating the
+    # JSON mid-justification, which surfaces as a "could not find a JSON
+    # object" failure rather than a bad label. Cheap insurance.
+    llm_max_tokens: int = Field(default=1024, gt=0)
+    body_chars: int = Field(
+        default=3_000,
+        gt=0,
+        description="Characters of the body preview shown to the classifier.",
+    )
+
+    # -- multi-signal scoring thresholds (Phase 1: configuration only) --
+    # Scores, not probabilities: at or above auto_accept_threshold a
+    # document may be auto-accepted; between review_threshold and that, it
+    # goes to human review; below review_threshold it is a drop candidate.
+    # No code consumes these yet -- the scoring engine is a later phase.
+    auto_accept_threshold: float = Field(default=0.80, ge=0, le=1)
+    review_threshold: float = Field(default=0.50, ge=0, le=1)
+    signals: ClassificationSignalWeights = Field(
+        default_factory=ClassificationSignalWeights
+    )
+
+    # Review routing for the existing single-call LLM classifier: below
+    # this confidence a label is proposed but never treated as final (see
+    # src/classification/domain_classifier.py). Distinct from the
+    # thresholds above, which belong to the future scoring engine.
+    min_confidence: float = Field(default=0.6, ge=0, le=1)
+    review_multi_domain: bool = Field(
+        default=True,
+        description="Route documents with secondary domains to review.",
+    )
+    review_other_bucket: bool = Field(
+        default=True,
+        description="Route documents classified as other_uncertain to review.",
+    )
 
 
 class RetrySettings(BaseModel):
@@ -256,8 +509,12 @@ class Settings(BaseModel):
     scratch: ScratchSettings = Field(default_factory=ScratchSettings)
     storage: StorageSettings = Field(default_factory=StorageSettings)
     pipeline: PipelineSettings = Field(default_factory=PipelineSettings)
+    # extraction = legacy PDF/book signature stage; caselaw = active stage.
     extraction: ExtractionSettings = Field(default_factory=ExtractionSettings)
+    caselaw: CaselawSettings = Field(default_factory=CaselawSettings)
+    document: DocumentSettings = Field(default_factory=DocumentSettings)
     discovery: DiscoverySettings = Field(default_factory=DiscoverySettings)
+    classification: ClassificationSettings = Field(default_factory=ClassificationSettings)
     retry: RetrySettings = Field(default_factory=RetrySettings)
     logging: LoggingSettings = Field(default_factory=LoggingSettings)
     metrics: MetricsSettings = Field(default_factory=MetricsSettings)

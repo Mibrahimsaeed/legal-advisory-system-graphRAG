@@ -27,12 +27,25 @@ pipeline:
   checkpoint_dir: var/checkpoints
   phases: ["claim", "pull", "extract", "discover_domains"]
 
+# Active corpus: Pakistani case law, one folder per case holding
+# case.html + metadata.json. Point corpus_root at the directory holding
+# those folders (scanned recursively) before running
+# `python scripts/run_pipeline.py cases`.
+caselaw:
+  corpus_root: null
+  case_html_filename: case.html
+  metadata_filename: metadata.json
+  body_preview_char_limit: 20000
+  max_headings: 50
+  representation_schema_file: schemas/document_representation_schema.sql
+
 discovery:
-  sample_min: 1500
-  sample_max: 2000
-  sample_seed: 42
+  # "representations" = case law (document_representations, the active
+  # path); "signatures" = legacy PDF/book corpus (document_signatures).
+  corpus_source: representations
   embedding_model_name: sentence-transformers/all-mpnet-base-v2
   embedding_batch_size: 32
+  embedding_doc_batch_size: 256
   title_weight: 2.0
   toc_weight: 1.5
   body_weight: 1.0
@@ -45,14 +58,31 @@ discovery:
   umap_min_docs: 50
   hdbscan_min_cluster_size: 15
   hdbscan_metric: euclidean
-  top_n_domains: 3
+  top_n_domains: 15
   representative_docs_per_cluster: 8
   keywords_per_cluster: 15
-  llm_model: claude-sonnet-5
+  llm_model: qwen3:14b
   llm_max_tokens: 1024
+  taxonomy_min_domain_docs: 15
+  taxonomy_min_domain_share: 0.02
+  taxonomy_uncertain_membership_probability: 0.5
   taxonomy_output_dir: var/taxonomy
   domain_registry_schema_file: schemas/domain_registry_schema.sql
+  review_output_dir: var/cluster_review
+  review_representative_docs_per_cluster: 25
+  review_max_sample_doc_ids: 50
+  # Cluster review (Stage 1.2a): sample size + cluster-triage thresholds.
+  review_sample_size: null
+  review_major_min_share: 0.05
+  review_mixed_max_mean_probability: 0.6
+  review_mixed_max_cohesion: 0.35
+  review_mixed_max_share: 0.5
+  review_relative_confidence_ratio: 0.8
+  review_court_dominance_threshold: 0.9
 
+
+# Legacy PDF/book signature stage. Not used by the case-law pipeline;
+# kept for orchestration/dags/feature_extraction_flow.py.
 extraction:
   max_pages: 15
   min_chars_per_page: 40
@@ -62,6 +92,38 @@ extraction:
   ocr_lang: eng
   body_preview_char_limit: 20000
   signature_schema_file: schemas/signature_schema.sql
+
+# Document-quality thresholds for the case-law corpus. Initial tunable
+# values, not scientifically derived. min_words is reserved for Phase 2.
+document:
+  min_characters: 1200
+  min_words: 250
+
+# Stage 2: full-corpus classification against the FROZEN taxonomy.
+classification:
+  taxonomy_file: config/domains.yaml
+  schema_file: schemas/classification_schema.sql
+  batch_size: 25
+  pilot_size: 25
+  llm_model: qwen3:14b
+  # 512 truncated JSON mid-justification during the pilot; see
+  # src/common/config.py ClassificationSettings.
+  llm_max_tokens: 1024
+  body_chars: 3000
+  # Multi-signal scoring thresholds (scores, not probabilities).
+  # Configuration only in Phase 1 -- no scoring engine consumes them yet.
+  auto_accept_threshold: 0.80
+  review_threshold: 0.50
+  # Signal weights; validated to sum to exactly 1.00.
+  signals:
+    statute: 0.45
+    cluster: 0.25
+    court: 0.15
+    source_folder: 0.10
+    title: 0.05
+  min_confidence: 0.6
+  review_multi_domain: true
+  review_other_bucket: true
 
 retry:
   max_attempts: 3

@@ -1,18 +1,19 @@
-"""Stratified sampling of Stage 1 document signatures for Stage 1.2.
+"""Stratified sampling of document records for a controlled clustering run.
 
-Domain Discovery clusters a *sample* (~1,500-2,000 documents), not the
-full corpus -- 14k documents through UMAP/HDBSCAN is unnecessary cost for
-a one-time exploratory clustering pass, and a good stratified sample is
-representative enough to find the dominant domains.
+Stage 1.2 proper clusters the whole corpus. A *review* run
+(``orchestration/dags/cluster_review_flow.py``) deliberately starts with
+a sample instead: it is faster to iterate on, and if the clustering is
+wrong the sample shows it just as clearly as 10k documents would.
 
 There's a chicken-and-egg problem with stratifying by "domain": that's
 the thing this stage discovers, so it can't also be the sampling key.
-Instead this stratifies by proxies that are (a) already on the signature
-record and (b) plausibly correlated with document *type* even before
-domain is known: a coarse body-length bucket, whether the document
-needed OCR, and which extractor produced it. This keeps short contracts,
-long scanned filings, etc. all represented rather than the sample
-accidentally skewing toward whichever type happens to be most common.
+Instead this stratifies by proxies that are (a) already on the document
+record and (b) plausibly correlated with subject matter before any
+domain is known: a coarse text-length bucket (a two-page order and a
+hundred-page judgment are different kinds of document) and, for case
+law, the court. Records that carry neither -- e.g. the legacy
+:class:`~src.extraction.signature.DocumentSignature` -- simply fall into
+the "unknown" court stratum, so this stays usable for both corpora.
 """
 
 from __future__ import annotations
@@ -22,12 +23,13 @@ import random
 from collections import defaultdict
 from typing import Callable
 
+from typing import Any
+
 from src.common.logging_utils import get_logger
-from src.extraction.signature import DocumentSignature
 
 logger = get_logger(__name__)
 
-StrataKeyFn = Callable[[DocumentSignature], tuple]
+StrataKeyFn = Callable[[Any], tuple]
 
 _SHORT_MAX_CHARS = 2_000
 _MEDIUM_MAX_CHARS = 8_000
@@ -41,35 +43,40 @@ def _length_bucket(char_count: int) -> str:
     return "long"
 
 
-def default_strata_key(signature: DocumentSignature) -> tuple:
-    """Default stratification key: (length_bucket, is_scanned, extractor_used)."""
+def default_strata_key(document: Any) -> tuple:
+    """Default stratification key: ``(length_bucket, court)``.
+
+    Read with ``getattr`` rather than typed against one record class: the
+    classification path is corpus-neutral (see
+    :class:`src.extraction.doc_representation.EmbeddableDocument`), and a
+    record without a court still stratifies usefully by length.
+    """
 
     return (
-        _length_bucket(signature.char_count),
-        signature.is_scanned,
-        signature.extractor_used or "unknown",
+        _length_bucket(getattr(document, "char_count", 0) or 0),
+        getattr(document, "court", None) or "unknown",
     )
 
 
 def stratified_sample(
-    signatures: list[DocumentSignature],
+    documents: list[Any],
     sample_min: int,
     sample_max: int,
     seed: int = 42,
     key_fn: StrataKeyFn = default_strata_key,
-) -> list[DocumentSignature]:
+) -> list[Any]:
     """Draw a stratified sample sized between ``sample_min`` and ``sample_max``.
 
     Allocation per stratum is proportional to that stratum's share of the
     population, rounded via the largest-remainder method so the sample
     size lands exactly on the target rather than drifting from repeated
     ``floor()`` rounding. If the population is smaller than
-    ``sample_min``, every signature is returned (nothing to sample) and a
+    ``sample_min``, every document is returned (nothing to sample) and a
     warning is logged -- Stage 1.2 can still run, just on less data than
     intended.
     """
 
-    population = len(signatures)
+    population = len(documents)
     if population == 0:
         return []
 
@@ -80,13 +87,13 @@ def stratified_sample(
             population,
             sample_min,
         )
-        return list(signatures)
+        return list(documents)
 
     target = min(sample_max, population)
 
-    strata: dict[tuple, list[DocumentSignature]] = defaultdict(list)
-    for sig in signatures:
-        strata[key_fn(sig)].append(sig)
+    strata: dict[tuple, list[Any]] = defaultdict(list)
+    for document in documents:
+        strata[key_fn(document)].append(document)
 
     exact_allocations: dict[tuple, float] = {
         key: target * len(items) / population for key, items in strata.items()
@@ -105,7 +112,7 @@ def stratified_sample(
         floor_allocations[key] += 1
 
     rng = random.Random(seed)
-    sampled: list[DocumentSignature] = []
+    sampled: list[Any] = []
     for key, items in strata.items():
         n = min(floor_allocations.get(key, 0), len(items))
         sampled.extend(rng.sample(items, n))

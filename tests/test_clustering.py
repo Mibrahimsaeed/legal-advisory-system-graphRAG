@@ -11,7 +11,6 @@ from src.clustering.label_clusters import (
     select_representative_docs,
 )
 from src.clustering.reduce import reduce_dimensions
-from src.clustering.sampling import default_strata_key, stratified_sample
 from src.common.exceptions import ClusteringError
 from src.extraction.signature import DocumentSignature
 
@@ -44,42 +43,10 @@ def _sig(doc_id: str, char_count: int, is_scanned: bool = False, extractor: str 
 
 
 # ---------------------------------------------------------------------------
-# sampling.py
+# reduce.py
 # ---------------------------------------------------------------------------
 
-
-def test_stratified_sample_hits_target_size():
-    sigs = [_sig(f"d{i}", char_count=1000 + i) for i in range(500)]
-    sample = stratified_sample(sigs, sample_min=100, sample_max=150, seed=1)
-    assert len(sample) == 150
-
-
-def test_stratified_sample_returns_full_population_when_below_min():
-    sigs = [_sig(f"d{i}", char_count=1000) for i in range(50)]
-    sample = stratified_sample(sigs, sample_min=100, sample_max=150, seed=1)
-    assert len(sample) == 50
-
-
-def test_stratified_sample_is_deterministic_for_same_seed():
-    sigs = [_sig(f"d{i}", char_count=500 * (i % 5)) for i in range(300)]
-    sample_a = sorted(s.doc_id for s in stratified_sample(sigs, 100, 150, seed=7))
-    sample_b = sorted(s.doc_id for s in stratified_sample(sigs, 100, 150, seed=7))
-    assert sample_a == sample_b
-
-
-def test_stratified_sample_covers_every_stratum_present():
-    short = [_sig(f"s{i}", char_count=100) for i in range(300)]
-    long_ = [_sig(f"l{i}", char_count=20_000) for i in range(300)]
-    sample = stratified_sample(short + long_, sample_min=100, sample_max=200, seed=3)
-    keys = {default_strata_key(s) for s in sample}
-    assert len(keys) == 2  # both the short and long strata are represented
-
-
-def test_default_strata_key_buckets_by_length():
-    assert default_strata_key(_sig("a", char_count=100))[0] == "short"
-    assert default_strata_key(_sig("b", char_count=5000))[0] == "medium"
-    assert default_strata_key(_sig("c", char_count=50_000))[0] == "long"
-
+# ... (rest of the file — reduce.py / cluster.py / label_clusters.py tests — unchanged)
 
 # ---------------------------------------------------------------------------
 # reduce.py

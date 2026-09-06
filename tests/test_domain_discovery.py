@@ -242,17 +242,24 @@ class _KeywordAwareFakeLLMClient:
 
 @pytest.fixture()
 def discovery_settings(tmp_path) -> SimpleNamespace:
+    """Settings for the LEGACY PDF/book corpus source.
+
+    These tests cover the signature path, which is no longer the default:
+    ``corpus_source='signatures'`` is what keeps ``document_signatures``
+    readable by Stage 1.2 now that case-law representations are the
+    default corpus (see tests/test_caselaw.py for the active path).
+    """
+
     return SimpleNamespace(
         database=SimpleNamespace(schema_file=Path(MANIFEST_SCHEMA_FILE)),
         pipeline=SimpleNamespace(checkpoint_dir=tmp_path / "checkpoints"),
         scratch=SimpleNamespace(root=tmp_path / "scratch"),
         metrics=SimpleNamespace(db_path=tmp_path / "metrics.db"),
         discovery=SimpleNamespace(
-            sample_min=15,
-            sample_max=30,
-            sample_seed=42,
+            corpus_source="signatures",
             embedding_model_name="fake-model",
             embedding_batch_size=32,
+            embedding_doc_batch_size=256,
             title_weight=2.0,
             toc_weight=1.5,
             body_weight=1.0,
@@ -275,7 +282,6 @@ def discovery_settings(tmp_path) -> SimpleNamespace:
             domain_registry_schema_file=Path(DOMAIN_REGISTRY_SCHEMA_FILE),
         ),
     )
-
 
 @pytest.fixture()
 def populated_db(tmp_path) -> Path:
@@ -324,8 +330,10 @@ def test_run_stage1_2_end_to_end(monkeypatch, populated_db, discovery_settings):
         clusterer=_fake_union_find_clusterer,
         llm_client=llm_client,
     )
-
-    assert result.sample_size <= discovery_settings.discovery.sample_max
+    # No sampling: the full corpus registered in populated_db
+# (20 + 12 + 8 grouped docs + 6 noise docs = 46)
+# is loaded and clustered in one pass.
+    assert result.sample_size == result.total_signatures == 46
     assert len(result.domains) == 3
     names = {d.name for d in result.domains}
     assert names == {"Commercial Contracts", "Litigation", "Intellectual Property"}
@@ -375,7 +383,7 @@ def test_run_stage1_2_end_to_end(monkeypatch, populated_db, discovery_settings):
         llm_client=llm_client,
     )
 
-    assert result.sample_size <= discovery_settings.discovery.sample_max
+    assert result.sample_size == result.total_signatures == 46
     assert len(result.domains) == 3
 
     names = {d.name for d in result.domains}

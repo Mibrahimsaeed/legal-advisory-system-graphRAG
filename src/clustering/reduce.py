@@ -98,6 +98,26 @@ def reduce_dimensions(
                 random_state=random_state,
             )
             reduced = reducer.fit_transform(vectors)
+            import matplotlib.pyplot as plt
+
+            plt.figure(figsize=(8, 6))
+
+            plt.scatter(
+            reduced[:, 0],
+            reduced[:, 1],
+            s=4,
+            alpha=0.7
+            )
+
+            plt.title("UMAP Projection")
+            plt.xlabel("UMAP-1")
+            plt.ylabel("UMAP-2")
+            plt.tight_layout()
+
+            plt.savefig("var/umap_projection.png", dpi=300)
+
+            plt.close()
+            
         except Exception as exc:
             raise ClusteringError(
                 "UMAP dimensionality reduction failed", phase="reduce", cause=exc
