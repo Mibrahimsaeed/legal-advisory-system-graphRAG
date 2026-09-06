@@ -26,6 +26,7 @@ import pytest
 import orchestration.dags.domain_discovery_flow as flow
 from orchestration.dags.case_ingest_flow import run_case_ingest
 from src.common.checkpoint import CheckpointManager
+from src.common.config import DocumentSettings
 from src.common.db import init_schema
 from src.common.exceptions import ClusteringError, EmbeddingError
 from src.common.metrics import MetricsStore
@@ -467,12 +468,13 @@ def fixture_corpus_db(tmp_path, monkeypatch, caselaw_db) -> Path:
         ingest_flow,
         "get_settings",
         lambda: SimpleNamespace(
-            document=SimpleNamespace(min_characters=200, min_words=250),
-            # The fixture cases are short hand-written excerpts, not full
-            # judgments; they are measured against the pre-Phase-1 threshold so
-            # these tests stay about metadata/encoding rather than length.
-            # The configured production value (1200) is covered by
-            # tests/test_phase1_foundation.py.
+            # The real settings model, with thresholds lowered for the
+            # fixture corpus: those cases are short hand-written excerpts,
+            # so production thresholds would have the Phase 2 structural
+            # filter drop them and turn these extraction tests into
+            # filtering tests. Phase 2 behaviour is covered with production
+            # values in tests/test_structural_filter.py.
+            document=DocumentSettings(min_characters=200, min_words=20),
             caselaw=SimpleNamespace(
                 corpus_root=FIXTURE_ROOT,
                 case_html_filename="case.html",

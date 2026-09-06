@@ -31,8 +31,22 @@ from src.common.db import DEFAULT_DB_PATH, init_schema
 from src.common.exceptions import ConfigurationError
 from src.common.logging_utils import get_logger, log_context
 from src.extraction.case_loader import iter_case_folders, load_case_folder
-from src.extraction.doc_representation import DocumentRepresentation
-from src.extraction.representation_store import upsert_representations
+from src.extraction.doc_representation import (
+    CLASSIFICATION_STATUS_AUTO_ACCEPTED,
+    CLASSIFICATION_STATUS_DROPPED_PROCEDURAL,
+    CLASSIFICATION_STATUS_NEEDS_REVIEW,
+    CLASSIFICATION_STATUS_PENDING,
+    DocumentRepresentation,
+)
+from src.extraction.representation_store import (
+    get_representation,
+    upsert_representations,
+)
+from src.extraction.structural_filter import (
+    REASON_INCOMPLETE_SCRAPE,
+    StructuralDecision,
+    validate_structure,
+)
 
 logger = get_logger(__name__)
 
@@ -58,6 +72,78 @@ def _warning_counts(representations: list[DocumentRepresentation]) -> dict[str, 
     return dict(counts.most_common())
 
 
+# A document a later phase has already ruled on is not re-decided by a
+# re-scan: re-running ingest must not silently reset a human-reviewed or
+# accepted case back to pending.
+_DOWNSTREAM_DECIDED = frozenset(
+    {CLASSIFICATION_STATUS_AUTO_ACCEPTED, CLASSIFICATION_STATUS_NEEDS_REVIEW}
+)
+
+
+def _apply_structural_filter(
+    representation: DocumentRepresentation,
+    existing: DocumentRepresentation | None,
+    document,
+) -> StructuralDecision | None:
+    """Phase 2: set the classification state on one freshly loaded case.
+
+    Mutates ``representation`` in place and returns the decision, or
+    ``None`` when the document was left alone because a later phase had
+    already ruled on it.
+
+    Three outcomes:
+
+    * **extraction failed** -- no text exists to judge, so the document is
+      dropped as an incomplete scrape. ``status='failed'`` already keeps it
+      out of the corpus; the drop reason makes *why* answerable in one
+      column alongside every other exclusion.
+    * **structurally substantive** -- ``cleaned_text`` is populated from the
+      text the loader already extracted and the case continues as
+      ``pending``.
+    * **structural noise** -- ``dropped_procedural`` plus the specific
+      ``drop_reason``. ``cleaned_text`` is left NULL: the bounded
+      ``body_preview`` is retained, so the drop stays auditable without
+      storing text nothing will read.
+    """
+
+    if existing is not None and existing.classification_status in _DOWNSTREAM_DECIDED:
+        representation.classification_status = existing.classification_status
+        representation.drop_reason = existing.drop_reason
+        representation.primary_domain = existing.primary_domain
+        representation.secondary_domain = existing.secondary_domain
+        representation.domain_confidence = existing.domain_confidence
+        representation.cleaned_text = existing.cleaned_text
+        return None
+
+    if representation.status == "failed":
+        representation.classification_status = CLASSIFICATION_STATUS_DROPPED_PROCEDURAL
+        representation.drop_reason = REASON_INCOMPLETE_SCRAPE
+        return None
+
+    decision = validate_structure(
+        representation.full_text,
+        title=representation.title,
+        min_characters=document.min_characters,
+        min_words=document.min_words,
+        incomplete_scrape_max_characters=document.incomplete_scrape_max_characters,
+        procedural_max_characters=document.procedural_max_characters,
+        cause_list_min_case_numbers=document.cause_list_min_case_numbers,
+        cause_list_min_list_ratio=document.cause_list_min_list_ratio,
+        substantive_min_markers=document.substantive_min_markers,
+    )
+
+    if decision.passed:
+        representation.classification_status = CLASSIFICATION_STATUS_PENDING
+        representation.drop_reason = None
+        representation.cleaned_text = representation.full_text
+    else:
+        representation.classification_status = CLASSIFICATION_STATUS_DROPPED_PROCEDURAL
+        representation.drop_reason = decision.drop_reason
+        representation.cleaned_text = None
+
+    return decision
+
+
 @dataclass(frozen=True)
 class CaseIngestResult:
     root: Path
@@ -79,6 +165,36 @@ class CaseIngestResult:
         return _counts_by_code(
             [r for r in self.representations if r.status == "failed"]
         )
+
+    @property
+    def dropped_doc_ids(self) -> list[str]:
+        """Documents the structural filter withheld from downstream stages."""
+
+        return [
+            r.doc_id
+            for r in self.representations
+            if r.classification_status == CLASSIFICATION_STATUS_DROPPED_PROCEDURAL
+        ]
+
+    @property
+    def pending_doc_ids(self) -> list[str]:
+        """Documents that passed structural validation and continue."""
+
+        return [
+            r.doc_id
+            for r in self.representations
+            if r.classification_status == CLASSIFICATION_STATUS_PENDING
+        ]
+
+    @property
+    def drops_by_reason(self) -> dict[str, int]:
+        """How many documents each structural rule withheld."""
+
+        counts: Counter[str] = Counter()
+        for rep in self.representations:
+            if rep.classification_status == CLASSIFICATION_STATUS_DROPPED_PROCEDURAL:
+                counts[rep.drop_reason or "unknown"] += 1
+        return dict(counts.most_common())
 
     @property
     def warnings_by_code(self) -> dict[str, int]:
@@ -157,6 +273,21 @@ def run_case_ingest(
                 min_characters=document.min_characters,
                 batch_id=batch_id,
             )
+            existing = get_representation(representation.doc_id, db_path=db_path)
+            decision = _apply_structural_filter(representation, existing, document)
+
+            # One line per document: enough to audit a 10k-case run without
+            # logging any judgment text.
+            logger.debug(
+                "doc_id=%s source=%s result=%s status=%s drop_reason=%s rule=%s",
+                representation.doc_id,
+                representation.source_relpath or representation.source_uri,
+                "PASS" if representation.drop_reason is None else "DROP",
+                representation.classification_status,
+                representation.drop_reason,
+                decision.triggered_rule if decision else "preserved",
+            )
+
             representations.append(representation)
             pending.append(representation)
 
@@ -183,6 +314,23 @@ def run_case_ingest(
         warning_counts = _warning_counts(succeeded)
         if warning_counts:
             logger.warning("Case ingest warnings by code: %s", warning_counts)
+
+        dropped = [
+            r for r in representations
+            if r.classification_status == CLASSIFICATION_STATUS_DROPPED_PROCEDURAL
+        ]
+        kept = [
+            r for r in representations
+            if r.classification_status == CLASSIFICATION_STATUS_PENDING
+        ]
+        logger.info(
+            "Structural filter: %d document(s) continue as pending, "
+            "%d dropped before embedding",
+            len(kept), len(dropped),
+        )
+        if dropped:
+            counts: Counter[str] = Counter(r.drop_reason or "unknown" for r in dropped)
+            logger.warning("Structural drops by reason: %s", dict(counts.most_common()))
 
     return CaseIngestResult(
         root=root, representations=representations, batch_id=batch_id

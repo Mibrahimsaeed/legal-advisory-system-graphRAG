@@ -29,6 +29,7 @@ from src.clustering.cluster import ClusterResult, NOISE_LABEL, hdbscan_clusterer
 from src.clustering.label_clusters import build_keyword_corpus, extract_cluster_keywords
 from src.clustering.reduce import reduce_dimensions
 from src.clustering.taxonomy_card import get_candidates_for_run
+from src.common.config import DocumentSettings
 from src.common.db import init_schema
 from src.embedding.doc_pooling import embed_documents
 from src.embedding.embed_model import DeterministicHashEmbedder
@@ -316,12 +317,13 @@ def test_run_case_ingest_stores_representations(case_corpus, caselaw_db, monkeyp
         flow,
         "get_settings",
         lambda: SimpleNamespace(
-            document=SimpleNamespace(min_characters=200, min_words=250),
-            # The fixture cases are short hand-written excerpts, not full
-            # judgments; they are measured against the pre-Phase-1 threshold so
-            # these tests stay about metadata/encoding rather than length.
-            # The configured production value (1200) is covered by
-            # tests/test_phase1_foundation.py.
+            # The real settings model, with thresholds lowered for the
+            # fixture corpus: those cases are short hand-written excerpts,
+            # so production thresholds would have the Phase 2 structural
+            # filter drop them and turn these extraction tests into
+            # filtering tests. Phase 2 behaviour is covered with production
+            # values in tests/test_structural_filter.py.
+            document=DocumentSettings(min_characters=200, min_words=20),
             caselaw=SimpleNamespace(
                 corpus_root=case_corpus,
                 case_html_filename="case.html",
@@ -338,7 +340,11 @@ def test_run_case_ingest_stores_representations(case_corpus, caselaw_db, monkeyp
     assert len(result.succeeded_doc_ids) == 2
     assert result.failed_doc_ids == []
 
-    stored = list_representations(db_path=caselaw_db)
+    # exclude_dropped=False: this test is about ingestion and storage. The
+    # two fixture cases are one-sentence stubs, so the Phase 2 structural
+    # filter correctly withholds them from the corpus view -- the rows are
+    # still stored, which is what is being asserted here.
+    stored = list_representations(db_path=caselaw_db, exclude_dropped=False)
     assert len(stored) == 2
     assert {r.source_type for r in stored} == {"case_html"}
     assert all(r.batch_id == "batch_cases" for r in stored)

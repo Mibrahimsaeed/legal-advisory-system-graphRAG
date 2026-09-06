@@ -98,6 +98,12 @@ extraction:
 document:
   min_characters: 1200
   min_words: 250
+  # Phase 2 structural pre-filter thresholds.
+  incomplete_scrape_max_characters: 200
+  procedural_max_characters: 3000
+  cause_list_min_case_numbers: 8
+  cause_list_min_list_ratio: 0.30
+  substantive_min_markers: 2
 
 # Stage 2: full-corpus classification against the FROZEN taxonomy.
 classification:

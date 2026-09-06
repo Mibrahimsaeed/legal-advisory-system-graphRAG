@@ -20,7 +20,11 @@ from pathlib import Path
 
 from src.common.db import DEFAULT_DB_PATH, connection_scope
 from src.common.logging_utils import get_logger
-from src.extraction.doc_representation import DocumentRepresentation
+from src.extraction.doc_representation import (
+    CLASSIFICATION_STATUS_DROPPED_OFF_DOMAIN,
+    CLASSIFICATION_STATUS_DROPPED_PROCEDURAL,
+    DocumentRepresentation,
+)
 
 logger = get_logger(__name__)
 
@@ -253,18 +257,45 @@ def count_by_status(db_path: str | Path = DEFAULT_DB_PATH) -> dict[str, int]:
 def list_representations(
     statuses: tuple[str, ...] = ("ok",),
     db_path: str | Path = DEFAULT_DB_PATH,
+    exclude_dropped: bool = True,
 ) -> list[DocumentRepresentation]:
-    """All representations with a usable ``status`` (excludes ``failed``
-    by default) -- there is no title/headings/body to embed for those.
+    """The corpus every downstream stage reads.
+
+    Two exclusions, both deliberate:
+
+    * ``status`` -- extraction outcome. ``failed`` rows have no
+      title/headings/body to embed.
+    * ``classification_status`` -- when ``exclude_dropped`` (the default),
+      documents the Phase 2 structural filter dropped
+      (``dropped_procedural``) and documents dropped as off-domain
+      (``dropped_off_domain``) are withheld.
+
+    This is the short-circuit that keeps structural noise out of embedding
+    and clustering: both
+    :func:`orchestration.dags.domain_discovery_flow._load_corpus` and
+    :func:`orchestration.dags.classification_flow.run_classification` load
+    their corpus through here, so a dropped document is never embedded,
+    clustered or classified. Pass ``exclude_dropped=False`` to inspect or
+    audit the dropped population.
     """
 
     if not statuses:
         return []
 
     placeholders = ",".join("?" for _ in statuses)
+    sql = f"SELECT * FROM document_representations WHERE status IN ({placeholders})"
+    params: list[str] = list(statuses)
+
+    if exclude_dropped:
+        dropped = [
+            CLASSIFICATION_STATUS_DROPPED_PROCEDURAL,
+            CLASSIFICATION_STATUS_DROPPED_OFF_DOMAIN,
+        ]
+        sql += " AND classification_status NOT IN ({})".format(
+            ",".join("?" for _ in dropped)
+        )
+        params.extend(dropped)
+
     with connection_scope(db_path) as conn:
-        rows = conn.execute(
-            f"SELECT * FROM document_representations WHERE status IN ({placeholders})",
-            statuses,
-        ).fetchall()
+        rows = conn.execute(sql, params).fetchall()
     return [_row_to_representation(r) for r in rows]

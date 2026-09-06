@@ -364,7 +364,43 @@ class DocumentSettings(BaseModel):
     min_words: int = Field(
         default=250,
         gt=0,
-        description="Word-count floor. Reserved for Phase 2; not consumed yet.",
+        description="Word-count floor below which a document is structurally short.",
+    )
+
+    # -- Phase 2 structural pre-filter (src/extraction/structural_filter.py) --
+    # All thresholds of the filter live here so the rules can be tuned
+    # against a real corpus without touching code.
+    incomplete_scrape_max_characters: int = Field(
+        default=200,
+        gt=0,
+        description="At/below this length a document is treated as an incomplete scrape.",
+    )
+    procedural_max_characters: int = Field(
+        default=3_000,
+        gt=0,
+        description=(
+            "A procedural or office-report phrase can only drop a document "
+            "shorter than this; longer documents need other evidence."
+        ),
+    )
+    cause_list_min_case_numbers: int = Field(
+        default=8,
+        gt=0,
+        description="Case numbers required before a document may be judged a cause list.",
+    )
+    cause_list_min_list_ratio: float = Field(
+        default=0.30,
+        ge=0,
+        le=1,
+        description="Share of lines that must look like numbered list entries.",
+    )
+    substantive_min_markers: int = Field(
+        default=2,
+        gt=0,
+        description=(
+            "Judgment markers that, with sufficient length and reasoning, make "
+            "a document immune to the phrase-based drop rules."
+        ),
     )
 
 
