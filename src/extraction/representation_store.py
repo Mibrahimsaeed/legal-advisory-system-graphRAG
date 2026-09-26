@@ -227,6 +227,10 @@ WRITE_UPDATED = "updated"
 WRITE_UNCHANGED = "unchanged"
 WRITE_PROTECTED = "protected"
 WRITE_MISSING = "missing"
+# The row is in a state no classifier verdict may overwrite (a structural
+# drop), or it moved after the caller's evidence was gathered.
+WRITE_INELIGIBLE = "ineligible"
+WRITE_STALE = "stale_evidence"
 
 _CLASSIFICATION_FIELDS = (
     "classification_status",
@@ -246,6 +250,10 @@ def update_classification_state(
     drop_reason: str | None = None,
     protect_statuses: tuple[str, ...] = (),
     skip_if_unchanged: bool = True,
+    ineligible_statuses: tuple[str, ...] = (),
+    evidence_created_at: str | None = None,
+    evidence_run_id: str | None = None,
+    state_evidence_run_id: str | None = None,
     db_path: str | Path = DEFAULT_DB_PATH,
 ) -> str:
     """Write a classification verdict onto Phase 1's current-state fields.
@@ -267,6 +275,17 @@ def update_classification_state(
       nothing a no-op, leaving ``updated_at`` alone. Without it every
       rerun would re-stamp the whole corpus and destroy the one signal
       that says when a document's classification actually last moved.
+    * ``ineligible_statuses`` refuses outright -- used for a structural
+      drop, which no classifier verdict may revive.
+    * ``evidence_created_at`` + ``evidence_run_id`` refuse a **stale**
+      write: if the row moved after the evidence was gathered, and not by
+      a run using that same evidence (``state_evidence_run_id``), the
+      caller is holding an out-of-date verdict.
+
+    All four checks run against a row read **inside this function's own
+    transaction**, immediately before the UPDATE. A caller that checked a
+    snapshot taken earlier in the run would leave a window in which the
+    row could move between the check and the write; here there is none.
     """
 
     proposed = {
@@ -279,17 +298,28 @@ def update_classification_state(
 
     with connection_scope(db_path) as conn:
         ensure_representation_columns(conn)
+        # updated_at is read here too: the staleness comparison must use the
+        # row as it is now, not as it was when the run started.
         current = conn.execute(
             "SELECT classification_status, primary_domain, secondary_domain, "
-            "domain_confidence, drop_reason FROM document_representations "
-            "WHERE doc_id = ?",
+            "domain_confidence, drop_reason, updated_at "
+            "FROM document_representations WHERE doc_id = ?",
             (doc_id,),
         ).fetchone()
 
         if current is None:
             return WRITE_MISSING
+        if current["classification_status"] in ineligible_statuses:
+            return WRITE_INELIGIBLE
         if current["classification_status"] in protect_statuses:
             return WRITE_PROTECTED
+        if _evidence_is_stale(
+            evidence_created_at,
+            current["updated_at"],
+            state_evidence_run_id,
+            evidence_run_id,
+        ):
+            return WRITE_STALE
         if skip_if_unchanged and _same_state(current, proposed):
             return WRITE_UNCHANGED
 
@@ -315,6 +345,31 @@ def update_classification_state(
             ),
         )
         return WRITE_UPDATED
+
+
+def _evidence_is_stale(
+    evidence_created_at: str | None,
+    state_updated_at: str | None,
+    state_evidence_run_id: str | None,
+    evidence_run_id: str | None,
+) -> bool:
+    """Delegate to the policy rule, skipping the check when unused.
+
+    Imported lazily: this module is extraction-layer and must not import
+    the classification package at module scope.
+    """
+
+    if evidence_created_at is None and evidence_run_id is None:
+        return False
+
+    from src.classification.review_policy import evidence_is_stale
+
+    return evidence_is_stale(
+        signal_created_at=evidence_created_at,
+        state_updated_at=state_updated_at,
+        state_signal_run_id=state_evidence_run_id,
+        signal_run_id=evidence_run_id,
+    )
 
 
 def _same_state(current: sqlite3.Row, proposed: dict) -> bool:

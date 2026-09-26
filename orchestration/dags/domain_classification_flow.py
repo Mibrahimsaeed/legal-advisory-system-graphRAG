@@ -72,18 +72,17 @@ from src.common.db import DEFAULT_DB_PATH, init_schema
 from src.common.logging_utils import current_run_id, get_logger, log_context
 from src.common.metrics import MetricsStore
 from src.extraction.representation_store import (
+    WRITE_INELIGIBLE,
     WRITE_PROTECTED,
+    WRITE_STALE,
     get_classification_states,
     list_representations,
     update_classification_state,
 )
 
-# A document Phase 2 has since dropped: no decision is written, but the
-# audit row is, so the skip is visible rather than silent.
-WRITE_INELIGIBLE = "ineligible"
-# A document whose state moved after this evidence was gathered: writing
-# would undo whatever moved it. Also recorded, never silent.
-WRITE_STALE = "stale_evidence"
+# Re-exported: both refusals are decided by the store, inside the same
+# transaction as the write. The audit row is still written either way, so a
+# skip is visible rather than silent.
 
 logger = get_logger(__name__)
 
@@ -124,18 +123,38 @@ class DomainClassificationResult:
 
 
 def cluster_signal_is_approved(
-    signal_run_id: str, output_dir: str | Path | None = None
+    signal_run_id: str,
+    output_dir: str | Path | None = None,
+    signal_rows: list[dict] | None = None,
 ) -> tuple[bool, str]:
-    """Has Phase 4 approved cluster membership as a domain signal?
+    """Has Phase 4 approved cluster membership as a domain signal, and does
+    that approval still apply to the current configuration?
 
-    Returns ``(approved, reason)``. **Fails closed**: a missing, unreadable
-    or negative validation report all disable the cluster signal. The
-    alternative -- trusting HDBSCAN because nobody checked it -- is the one
-    outcome Phase 4 exists to prevent, and it is invisible once the cluster
+    Returns ``(approved, reason)``. **Fails closed** on every negative
+    answer. Trusting HDBSCAN because nobody checked it is the one outcome
+    Phase 4 exists to prevent, and it is invisible once the cluster
     contribution is blended into a weighted score.
 
-    Reads the report :func:`cluster_validation_flow.write_validation_report`
-    already writes, so Phase 4 needs no change.
+    Four conditions, all required:
+
+    1. **the report exists** -- Phase 4 ran for this signal run;
+    2. **it is readable** -- a truncated file is not an approval;
+    3. **the verdict approves** -- ``cluster_is_a_useful_signal``. Phase 4
+       sets this False for ``weak``, ``not_useful`` and ``not_evaluable``
+       alike, so "marginal" does not count as yes;
+    4. **it is still compatible** with the evidence being decided, checked
+       against ``signal_rows``:
+
+       * the **embedding model** recorded on the signal run must match the
+         configured one. Different vectors mean different clusters, so a
+         validation computed on other embeddings says nothing about these.
+       * the **document count** must match the report's ``n_documents``.
+         Validating 200 documents does not approve a 14,000-document
+         clustering, and a corpus that has grown since is a different
+         dataset.
+
+    Condition 4 uses state Phase 3 already persists, so Phase 4 needs no
+    change and no parallel validation system is introduced.
     """
 
     settings = get_settings()
@@ -152,12 +171,43 @@ def cluster_signal_is_approved(
     except (OSError, json.JSONDecodeError) as exc:
         return False, f"Phase 4 report at {report_path} is unreadable: {exc}"
 
-    if payload.get("cluster_is_a_useful_signal") is True:
-        return True, f"Phase 4 verdict {payload.get('verdict')!r} approves the signal"
-    return False, (
-        f"Phase 4 verdict {payload.get('verdict')!r} does not approve cluster "
-        "membership as a domain signal"
-    )
+    if payload.get("cluster_is_a_useful_signal") is not True:
+        return False, (
+            f"Phase 4 verdict {payload.get('verdict')!r} does not approve "
+            "cluster membership as a domain signal"
+        )
+
+    if signal_rows is not None:
+        compatible, why = _validation_is_compatible(payload, signal_rows, settings)
+        if not compatible:
+            return False, f"Phase 4 validation is no longer applicable: {why}"
+
+    return True, f"Phase 4 verdict {payload.get('verdict')!r} approves the signal"
+
+
+def _validation_is_compatible(
+    payload: dict, signal_rows: list[dict], settings
+) -> tuple[bool, str]:
+    """Does a passing validation still describe the clustering being used?"""
+
+    configured_model = settings.discovery.embedding_model_name
+    recorded = {
+        row.get("embedding_model") for row in signal_rows if row.get("embedding_model")
+    }
+    if recorded and recorded != {configured_model}:
+        return False, (
+            f"it was computed on embedding model(s) {sorted(recorded)} but "
+            f"{configured_model!r} is configured now"
+        )
+
+    validated_count = payload.get("n_documents")
+    if isinstance(validated_count, int) and validated_count != len(signal_rows):
+        return False, (
+            f"it validated {validated_count} document(s) but this run has "
+            f"{len(signal_rows)}"
+        )
+
+    return True, "embedding model and document count match"
 
 
 def _to_classification_result(decision: DomainDecision) -> ClassificationResult:
@@ -234,27 +284,9 @@ def run_domain_classification(
     taxonomy = taxonomy or load_frozen_taxonomy(settings.classification.taxonomy_file)
     compiled_profiles = compile_profiles(settings.domain_signals.profiles, taxonomy)
 
-    # CI-6: the cluster signal is used only on Phase 4's approval. None
-    # (the default) consults the stored verdict and fails closed; an
-    # explicit True/False overrides it for a deliberate experiment.
-    if cluster_signal_enabled is None:
-        cluster_signal_enabled, cluster_reason = cluster_signal_is_approved(
-            signal_run_id
-        )
-    else:
-        cluster_reason = (
-            f"caller forced cluster_signal_enabled={cluster_signal_enabled}"
-        )
-
-    weights = config.weights.as_mapping()
-    if not cluster_signal_enabled:
-        # Neutralised, not renormalised: the remaining signals keep their
-        # own weights and the document's coverage drops accordingly, so a
-        # verdict that had leaned on corroboration correctly loses
-        # confidence instead of being propped up.
-        weights = {**weights, "cluster": 0.0}
-    logger.info("Cluster signal %s -- %s",
-                "ENABLED" if cluster_signal_enabled else "disabled", cluster_reason)
+    # CI-6: resolved after the evidence loads, so the approval can be
+    # checked for compatibility with it. See _resolve_cluster_signal below.
+    requested_cluster_signal = cluster_signal_enabled
 
     review_config = settings.review
     if protect_reviewed is None:
@@ -308,6 +340,30 @@ def run_domain_classification(
             for rep in list_representations(db_path=db_path, exclude_dropped=False)
         }
 
+        # CI-6: the cluster signal is used only on Phase 4's approval, and
+        # only while that approval still applies to this evidence. None
+        # (the default) consults the stored verdict and fails closed; an
+        # explicit True/False overrides for a deliberate experiment.
+        if requested_cluster_signal is None:
+            cluster_signal_enabled, cluster_reason = cluster_signal_is_approved(
+                signal_run_id, signal_rows=signal_rows
+            )
+        else:
+            cluster_signal_enabled = requested_cluster_signal
+            cluster_reason = (
+                f"caller forced cluster_signal_enabled={cluster_signal_enabled}"
+            )
+
+        weights = config.weights.as_mapping()
+        if not cluster_signal_enabled:
+            # Neutralised, not renormalised: the remaining signals keep
+            # their own weights and the document's coverage drops
+            # accordingly, so a verdict that had leaned on corroboration
+            # correctly loses confidence instead of being propped up.
+            weights = {**weights, "cluster": 0.0}
+        logger.info("Cluster signal %s -- %s",
+                    "ENABLED" if cluster_signal_enabled else "disabled", cluster_reason)
+
         # When each document's evidence was gathered, for the staleness check.
         signal_created_at = {
             row["doc_id"]: row.get("created_at") for row in signal_rows
@@ -348,9 +404,10 @@ def run_domain_classification(
         # last moved -- read now rather than inferred from the (possibly
         # older) signal run. Dropped documents are included on purpose: a
         # dropped document's status is exactly what has to be seen here.
+        # Loaded for the run summary only. The authority for both refusals
+        # is the row read inside update_classification_state's transaction.
         states = get_classification_states(db_path=db_path)
         current_status = {doc_id: status for doc_id, (status, _) in states.items()}
-        state_updated_at = {doc_id: updated for doc_id, (_, updated) in states.items()}
         # Which evidence produced each document's newest decision, so this
         # run can tell its own earlier write from someone else's newer one.
         state_signal_run = get_latest_signal_run_ids(db_path=db_path)
@@ -409,33 +466,6 @@ def run_domain_classification(
 
                 if write_current_state:
                     for decision in batch_decisions:
-                        if not policy.is_eligible_for_decision(
-                            current_status.get(decision.doc_id)
-                        ):
-                            # Phase 2 has since dropped this document (or it
-                            # is gone). The Phase 3 evidence predates that
-                            # verdict, so writing it would revive a
-                            # structural drop. The audit row above still
-                            # records what the pipeline would have said.
-                            write_outcomes[WRITE_INELIGIBLE] = (
-                                write_outcomes.get(WRITE_INELIGIBLE, 0) + 1
-                            )
-                            continue
-                        if policy.evidence_is_stale(
-                            signal_created_at=signal_created_at.get(decision.doc_id),
-                            state_updated_at=state_updated_at.get(decision.doc_id),
-                            state_signal_run_id=state_signal_run.get(decision.doc_id),
-                            signal_run_id=signal_run_id,
-                        ):
-                            # The document's state moved after this evidence
-                            # was gathered, and not by a run using it. The
-                            # audit row above records what this run would
-                            # have said; the live state is left as whatever
-                            # moved it.
-                            write_outcomes[WRITE_STALE] = (
-                                write_outcomes.get(WRITE_STALE, 0) + 1
-                            )
-                            continue
                         if policy.is_protected(
                             decision.doc_id,
                             current_status=None,
@@ -449,6 +479,13 @@ def run_domain_classification(
                                 write_outcomes.get(WRITE_PROTECTED, 0) + 1
                             )
                             continue
+
+                        # Eligibility and staleness are decided inside the
+                        # store's own transaction, against the row as it is
+                        # at write time -- not against the snapshot taken at
+                        # the top of this run. A document dropped or
+                        # re-decided while this run was working is therefore
+                        # seen, and the write is refused rather than racing.
                         outcome = update_classification_state(
                             decision.doc_id,
                             classification_status=decision.status,
@@ -459,6 +496,12 @@ def run_domain_classification(
                             domain_confidence=decision.confidence,
                             drop_reason=decision.drop_reason,
                             protect_statuses=protect_statuses,
+                            ineligible_statuses=tuple(
+                                policy.PHASE_5_INELIGIBLE_STATUSES
+                            ),
+                            evidence_created_at=signal_created_at.get(decision.doc_id),
+                            evidence_run_id=signal_run_id,
+                            state_evidence_run_id=state_signal_run.get(decision.doc_id),
                             db_path=db_path,
                         )
                         write_outcomes[outcome] = write_outcomes.get(outcome, 0) + 1

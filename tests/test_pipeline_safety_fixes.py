@@ -55,6 +55,7 @@ from src.extraction.doc_representation import (
 from src.extraction.representation_store import (
     DEFAULT_REPRESENTATION_SCHEMA_FILE,
     get_representation,
+    update_classification_state,
     upsert_representations,
 )
 
@@ -133,6 +134,7 @@ def flow_settings(monkeypatch, tmp_path, validation_dir):
             classification=real.classification,
             caselaw=real.caselaw,
             review=real.review,
+            discovery=real.discovery,
             cluster_validation=real.cluster_validation.model_copy(
                 update={"output_dir": validation_dir}
             ),
@@ -177,12 +179,21 @@ def _seed_signals(db, profiles, docs, signal_run="sig1"):
     )
 
 
-def _write_phase_4_report(directory: Path, run_id: str, useful: bool, verdict: str):
+def _write_phase_4_report(
+    directory: Path, run_id: str, useful: bool, verdict: str, n_documents: int = 100
+):
+    """A Phase 4 report as cluster_validation_flow writes one.
+
+    ``n_documents`` matters: the gate checks it against the run being
+    decided, because validating 200 documents does not approve a
+    14,000-document clustering.
+    """
+
     directory.mkdir(parents=True, exist_ok=True)
     (directory / f"{run_id}.json").write_text(
         json.dumps({
             "run_id": run_id,
-            "n_documents": 100,
+            "n_documents": n_documents,
             "verdict": verdict,
             "cluster_is_a_useful_signal": useful,
         }),
@@ -221,7 +232,9 @@ def test_phase_5_does_not_revive_a_document_phase_2_dropped_after_signalling(
     """
 
     _seed_signals(db, profiles, [_doc("case_0", FAMILY_TEXT)])
-    _write_phase_4_report(validation_dir, "sig1", useful=True, verdict="useful")
+    _write_phase_4_report(
+        validation_dir, "sig1", useful=True, verdict="useful", n_documents=1
+    )
 
     # Phase 2 re-runs and drops it as structural noise.
     upsert_representations(
@@ -577,7 +590,9 @@ def test_phase_5_uses_the_cluster_weight_once_phase_4_approves(
         [_doc(f"fam_{i}", FAMILY_TEXT) for i in range(3)]
         + [_doc(f"crim_{i}", CRIMINAL_TEXT) for i in range(3)],
     )
-    _write_phase_4_report(validation_dir, "sig1", useful=True, verdict="useful")
+    _write_phase_4_report(
+        validation_dir, "sig1", useful=True, verdict="useful", n_documents=6
+    )
 
     result = run_domain_classification("dec1", "sig1", db_path=db)
 
@@ -822,3 +837,332 @@ def test_phase_5_receives_keyword_and_llm_as_separate_signals(
     assert by_signal["llm"]["available"] is True
     assert by_signal["keyword"]["weight"] == pytest.approx(0.40)
     assert by_signal["llm"]["weight"] == pytest.approx(0.40)
+
+
+# ===========================================================================
+# CI-4 (hardening) -- the refusal is atomic, and signal runs never collide
+# ===========================================================================
+
+
+def test_both_refusals_are_decided_inside_the_write_transaction(db, profiles):
+    """The row is read at write time, not from a snapshot taken earlier.
+
+    A caller that checked a snapshot would leave a window in which the row
+    could move between the check and the UPDATE. These call the store
+    directly, so what is under test is the store's own guard.
+    """
+
+    from src.extraction.representation_store import (
+        WRITE_INELIGIBLE as STORE_INELIGIBLE,
+        WRITE_STALE as STORE_STALE,
+        WRITE_UPDATED,
+    )
+
+    upsert_representations([_doc("case_0", FAMILY_TEXT)], db_path=db)
+
+    # Structurally dropped between the caller's read and its write.
+    _age_the_state(db, "case_0", CLASSIFICATION_STATUS_DROPPED_PROCEDURAL,
+                   drop_reason="cause_list")
+    assert update_classification_state(
+        "case_0", classification_status=CLASSIFICATION_STATUS_AUTO_ACCEPTED,
+        primary_domain="family_law",
+        ineligible_statuses=("dropped_procedural",),
+        db_path=db,
+    ) == STORE_INELIGIBLE
+
+    # Moved by someone else after this caller's evidence was gathered.
+    _age_the_state(db, "case_0", "needs_review", primary_domain="criminal_law")
+    assert update_classification_state(
+        "case_0", classification_status=CLASSIFICATION_STATUS_AUTO_ACCEPTED,
+        primary_domain="family_law",
+        evidence_created_at="2026-01-01T00:00:00+00:00",
+        evidence_run_id="sig1",
+        state_evidence_run_id="sig_other",
+        db_path=db,
+    ) == STORE_STALE
+
+    # Its own evidence: allowed.
+    assert update_classification_state(
+        "case_0", classification_status=CLASSIFICATION_STATUS_AUTO_ACCEPTED,
+        primary_domain="family_law",
+        evidence_created_at="2026-01-01T00:00:00+00:00",
+        evidence_run_id="sig1",
+        state_evidence_run_id="sig1",
+        db_path=db,
+    ) == WRITE_UPDATED
+
+
+def test_a_write_with_no_evidence_metadata_still_works(db):
+    """Other callers (Phase 6 review application) pass no evidence at all."""
+
+    from src.extraction.representation_store import WRITE_UPDATED
+
+    upsert_representations([_doc("case_0", FAMILY_TEXT)], db_path=db)
+    assert update_classification_state(
+        "case_0", classification_status=CLASSIFICATION_STATUS_AUTO_ACCEPTED,
+        primary_domain="family_law", db_path=db,
+    ) == WRITE_UPDATED
+
+
+def test_an_older_signal_run_cannot_overwrite_a_newer_ones_evidence(
+    db, flow_settings, profiles
+):
+    """Signals are keyed by (run_id, doc_id): runs accumulate, never collide."""
+
+    from src.classification.signal_store import get_signals_for_run
+
+    docs = [_doc("case_0", FAMILY_TEXT)]
+    _seed_signals(db, profiles, docs, signal_run="sig_old")
+    _seed_signals(db, profiles, docs, signal_run="sig_new")
+
+    old_rows = get_signals_for_run("sig_old", db_path=db)
+    new_rows = get_signals_for_run("sig_new", db_path=db)
+
+    assert len(old_rows) == 1 and len(new_rows) == 1
+    # Both survive independently -- neither run overwrote the other.
+    assert old_rows[0]["doc_id"] == new_rows[0]["doc_id"]
+
+
+def test_a_stale_decision_run_cannot_undo_a_newer_decision_run(
+    db, flow_settings, profiles, validation_dir
+):
+    """dec2 (newer evidence) decides; dec1 (older evidence) must not undo it."""
+
+    docs = [_doc("case_0", CRIMINAL_TEXT)]
+    _seed_signals(db, profiles, docs, signal_run="sig_old")
+    _seed_signals(db, profiles, docs, signal_run="sig_new")
+
+    run_domain_classification("dec_new", "sig_new", db_path=db)
+    after_new = get_representation("case_0", db_path=db)
+
+    stale = run_domain_classification("dec_old", "sig_old", db_path=db)
+
+    assert stale.skipped_stale_evidence == 1
+    assert get_representation("case_0", db_path=db).updated_at == after_new.updated_at \
+        if hasattr(after_new, "updated_at") else True
+    assert get_representation("case_0", db_path=db).primary_domain == "criminal_law"
+
+
+# ===========================================================================
+# CI-6 (hardening) -- an approval must still apply to what is being decided
+# ===========================================================================
+
+
+def test_validation_of_a_different_document_count_is_incompatible(
+    db, flow_settings, profiles, validation_dir
+):
+    """Validating 200 documents does not approve a 14,000-document clustering."""
+
+    _seed_signals(db, profiles, [_doc(f"fam_{i}", FAMILY_TEXT) for i in range(3)])
+    _write_phase_4_report(
+        validation_dir, "sig1", useful=True, verdict="useful", n_documents=200
+    )
+
+    result = run_domain_classification("dec1", "sig1", db_path=db)
+    assert result.cluster_signal_enabled is False
+
+
+def test_validation_computed_on_another_embedding_model_is_incompatible(
+    db, flow_settings, profiles, validation_dir
+):
+    """Different vectors mean different clusters."""
+
+    from src.classification.signal_store import persist_domain_signals
+
+    docs = [_doc("fam_0", FAMILY_TEXT)]
+    upsert_representations(docs, db_path=db)
+    persist_domain_signals(
+        "sig1",
+        [{
+            "doc_id": "fam_0", "cluster_id": 0, "cluster_confidence": 0.9,
+            "embedding_model": "some-other/encoder",      # not the configured one
+            "llm_domain": "family_law", "llm_confidence": 0.95, "llm_status": "ok",
+            "llm_reason": "seed", "llm_model": "qwen3:14b",
+            **_keyword_evidence(FAMILY_TEXT, profiles),
+        }],
+        signal_version=ASSESSMENT_VERSION, batch_id="b0", db_path=db,
+    )
+    _write_phase_4_report(
+        validation_dir, "sig1", useful=True, verdict="useful", n_documents=1
+    )
+
+    result = run_domain_classification("dec1", "sig1", db_path=db)
+    assert result.cluster_signal_enabled is False
+
+
+def test_a_compatible_approval_enables_the_signal(
+    db, flow_settings, profiles, validation_dir
+):
+    _seed_signals(db, profiles, [_doc(f"fam_{i}", FAMILY_TEXT) for i in range(3)])
+    _write_phase_4_report(
+        validation_dir, "sig1", useful=True, verdict="useful", n_documents=3
+    )
+
+    result = run_domain_classification("dec1", "sig1", db_path=db)
+    assert result.cluster_signal_enabled is True
+
+
+def test_compatibility_is_not_checked_when_no_evidence_is_supplied(validation_dir):
+    """The bare approval check stays usable for callers without signal rows."""
+
+    _write_phase_4_report(validation_dir, "sig1", useful=True, verdict="useful")
+    approved, _ = cluster_signal_is_approved("sig1", output_dir=validation_dir)
+    assert approved is True
+
+
+def test_a_raw_cluster_id_never_becomes_a_domain_label(
+    db, flow_settings, profiles, validation_dir
+):
+    """Cluster 0 is not family_law -- it only votes via its other members."""
+
+    _seed_signals(
+        db, profiles,
+        [_doc(f"fam_{i}", FAMILY_TEXT) for i in range(3)]
+        + [_doc(f"crim_{i}", CRIMINAL_TEXT) for i in range(3)],
+    )
+    _write_phase_4_report(
+        validation_dir, "sig1", useful=True, verdict="useful", n_documents=6
+    )
+    run_domain_classification("dec1", "sig1", db_path=db)
+
+    for row in get_classifications_for_run("dec1", db_path=db):
+        evidence = json.loads(row["justification"].split("evidence=", 1)[1])
+        cluster = next(s for s in evidence["signals"] if s["signal"] == "cluster")
+        # Scores are shares over the taxonomy's domains, never a cluster id.
+        assert set(cluster["domain_scores"]) <= {"family_law", "criminal_law"}
+        assert row["primary_domain"] in {"family_law", "criminal_law", "other_uncertain"}
+
+
+def test_phase_5_still_decides_when_the_cluster_signal_is_neutral(
+    db, flow_settings, profiles
+):
+    """keyword + llm + title + coverage must carry the decision alone."""
+
+    _seed_signals(db, profiles, [_doc("fam_0", FAMILY_TEXT)])
+    result = run_domain_classification("dec1", "sig1", db_path=db)
+
+    assert result.cluster_signal_enabled is False
+    assert result.decided == 1
+    assert get_representation("fam_0", db_path=db).primary_domain == "family_law"
+
+
+# ===========================================================================
+# CI-5 (hardening) -- determinism end to end, and no invented parameters
+# ===========================================================================
+
+
+def test_identical_input_gives_identical_parsed_output(taxonomy):
+    """The whole path -- request, response, parse -- must be reproducible."""
+
+    from src.classification.case_representation import build_case_representation
+    from src.classification.domain_assessment import assess_domain
+
+    representation = build_case_representation(_doc("d1", FAMILY_TEXT))
+    client = _RecordingOllamaClient(model="qwen3:14b")
+
+    first = assess_domain(representation, taxonomy, client)
+    second = assess_domain(representation, taxonomy, client)
+
+    assert (first.domain, first.confidence, first.reason, first.status) == (
+        second.domain, second.confidence, second.reason, second.status
+    )
+    # ...and both requests were byte-identical.
+    assert client.calls[0] == client.calls[1]
+
+
+def test_no_unsupported_generation_parameters_are_passed():
+    """Only parameters this provider's chat() actually accepts."""
+
+    import inspect
+
+    import ollama
+
+    client = _RecordingOllamaClient(model="qwen3:14b")
+    client.complete(system="s", prompt="p")
+    (call,) = client.calls
+
+    accepted = set(inspect.signature(ollama.Client.chat).parameters)
+    assert set(call) <= accepted, f"unsupported kwargs: {set(call) - accepted}"
+    # And no invented options keys.
+    assert set(call["options"]) == {"num_predict", "temperature", "seed"}
+
+
+def test_malformed_model_output_is_handled_safely(taxonomy):
+    """A bad response becomes a recorded failure, never a guessed domain."""
+
+    from src.classification.case_representation import build_case_representation
+    from src.classification.domain_assessment import STATUS_FAILED, assess_domain
+
+    class _Garbage:
+        def complete(self, system, prompt, max_tokens=None):
+            return "I think this is probably a family matter, honestly."
+
+    assessment = assess_domain(
+        build_case_representation(_doc("d1", FAMILY_TEXT)), taxonomy, _Garbage()
+    )
+    assert assessment.status == STATUS_FAILED
+    assert assessment.domain is None
+
+
+def test_schema_validation_rejects_a_domain_outside_the_taxonomy(taxonomy):
+    from src.classification.domain_assessment import STATUS_FAILED, validate_assessment
+
+    assessment = validate_assessment(
+        {"domain": "tax_law", "confidence": 0.9, "reason": "tax"}, taxonomy, "d1"
+    )
+    assert assessment.status == STATUS_FAILED
+    assert assessment.domain is None
+
+
+# ===========================================================================
+# CI-7 (hardening) -- keyword matches cannot reach the model at all
+# ===========================================================================
+
+
+def test_changing_keyword_matches_does_not_change_the_prompt(taxonomy, profiles):
+    """The decisive test: vary the keyword result, the prompt must not move."""
+
+    from src.classification.case_representation import build_case_representation
+    from src.classification.domain_assessment import (
+        build_assessment_prompt,
+        render_domain_definitions,
+    )
+
+    representation = build_case_representation(_doc("d1", FAMILY_TEXT))
+    block = render_domain_definitions(taxonomy)
+    baseline = build_assessment_prompt(representation, block)
+
+    # A profile that matches nothing, and one that matches heavily -- the
+    # prompt builder has no parameter through which either could enter.
+    for alternative in ({"family_law": ["zzzz"]}, {"family_law": ["dower"] * 3}):
+        compiled = compile_profiles(alternative, taxonomy)
+        signals = detect_keyword_signals(
+            "d1", representation.signal_text, compiled, min_matches=1
+        )
+        assert signals is not None  # the keyword signal still exists...
+        assert build_assessment_prompt(representation, block) == baseline  # ...unseen
+
+
+def test_phase_5_combines_all_three_independent_signals(
+    db, flow_settings, profiles, validation_dir
+):
+    """Qwen + keywords + HDBSCAN reach the decision separately."""
+
+    _seed_signals(
+        db, profiles,
+        [_doc(f"fam_{i}", FAMILY_TEXT) for i in range(3)]
+        + [_doc(f"crim_{i}", CRIMINAL_TEXT) for i in range(3)],
+    )
+    _write_phase_4_report(
+        validation_dir, "sig1", useful=True, verdict="useful", n_documents=6
+    )
+    run_domain_classification("dec1", "sig1", db_path=db)
+
+    evidence = json.loads(
+        get_classifications_for_run("dec1", db_path=db)[0]["justification"]
+        .split("evidence=", 1)[1]
+    )
+    by_signal = {s["signal"]: s for s in evidence["signals"]}
+    assert {"keyword", "llm", "cluster", "title"} == set(by_signal)
+    for name in ("keyword", "llm", "cluster"):
+        assert by_signal[name]["available"] is True, f"{name} should contribute"

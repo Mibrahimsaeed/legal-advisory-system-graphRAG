@@ -275,6 +275,7 @@ def flow_settings(monkeypatch, tmp_path):
         classification=real.classification,
         caselaw=real.caselaw,
         review=real.review,
+        discovery=real.discovery,
         cluster_validation=real.cluster_validation.model_copy(
             update={"output_dir": tmp_path / "cluster_validation"}
         ),

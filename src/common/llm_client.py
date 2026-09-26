@@ -36,6 +36,18 @@ class LLMClient(Protocol):
 # judgment could land in one domain on Monday and the catch-all on Tuesday
 # with nothing in the record explaining why. These pin the sampling so the
 # only stochastic step in the chain becomes reproducible.
+#
+# LIMITATION -- this is reproducibility "as far as the provider allows",
+# not a bit-for-bit guarantee. temperature 0 plus a fixed seed makes
+# decoding greedy and seeded, but llama.cpp (which Ollama runs on) can
+# still differ across: a different Ollama or model build, CPU vs GPU/Metal
+# execution, a different quantisation of the same model tag, and batching
+# or kv-cache differences that change floating-point reduction order.
+# Within one machine and one model build, repeated runs are expected to
+# agree; across machines they are not guaranteed to. That is why Phase 5
+# treats the STORED assessment as the evidence of record rather than
+# re-querying the model -- the reproducible boundary is the database, not
+# the provider.
 DEFAULT_TEMPERATURE = 0.0
 DEFAULT_SEED = 42
 

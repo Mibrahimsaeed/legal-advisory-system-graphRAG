@@ -1,3 +1,19 @@
+
+
+# 1. Ingest 200 case-law documents into SQLite
+python scripts/run_pipeline.py cases --limit 200
+
+# 2. Generate case signatures + MPNet embeddings + HDBSCAN + Keywords + Qwen signals
+python scripts/run_pipeline.py signals --run-id sig_pilot
+
+# 3. Validate whether HDBSCAN clusters are useful as a classification signal
+python scripts/run_pipeline.py validate-clusters --run-id sig_pilot
+
+# 4. Combine all signals and produce the final machine classification
+python scripts/run_pipeline.py decide \
+  --run-id dec_pilot \
+  --signal-run-id sig_pilot
+
 ## Table of Contents
 
 - Project Overview  

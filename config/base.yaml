@@ -32,7 +32,7 @@ pipeline:
 # those folders (scanned recursively) before running
 # `python scripts/run_pipeline.py cases`.
 caselaw:
-  corpus_root: null
+  corpus_root: /Users/ibrahim/Desktop/extracted_pdfs_temp/raw_cases
   case_html_filename: case.html
   metadata_filename: metadata.json
   body_preview_char_limit: 20000

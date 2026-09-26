@@ -331,7 +331,12 @@ def run_domain_signals(
         )
 
         # -- signals 2 and 3: per case, batched and resumable -------------
-        already_done = get_signalled_doc_ids(run_id, db_path=db_path)
+        # A row whose LLM assessment failed (or was skipped) is not
+        # finished when this run intends to make one: it is offered for
+        # retry, so a transient outage is not permanent.
+        already_done = get_signalled_doc_ids(
+            run_id, db_path=db_path, require_llm_ok=bool(llm_enabled)
+        )
         pending = [r for r in representations if r.doc_id not in already_done]
 
         active_llm_client = None

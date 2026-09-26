@@ -27,6 +27,11 @@ logger = get_logger(__name__)
 
 DEFAULT_SIGNALS_SCHEMA_FILE = Path("schemas/domain_signals_schema.sql")
 
+# The only llm_status that represents a completed assessment. The
+# schema's other values -- 'failed' and 'skipped' -- both mean the row
+# exists without an LLM reading.
+LLM_STATUS_OK = "ok"
+
 
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -175,14 +180,38 @@ def get_signals_for_run(
 
 
 def get_signalled_doc_ids(
-    run_id: str, db_path: str | Path = DEFAULT_DB_PATH
+    run_id: str,
+    db_path: str | Path = DEFAULT_DB_PATH,
+    require_llm_ok: bool = False,
 ) -> set[str]:
-    """Documents this run has already gathered evidence for (resumability)."""
+    """Documents this run has already gathered evidence for (resumability).
+
+    ``require_llm_ok`` decides what "already gathered" means, because that
+    depends on whether an LLM reading is part of the evidence being
+    gathered:
+
+    * **False** (a deterministic-only run, ``llm_enabled=False``): any row
+      is complete. The LLM was never going to run, so re-deriving the same
+      keyword and cluster signals would be pure waste.
+    * **True** (the LLM is enabled): only ``llm_status='ok'`` counts.
+      ``'failed'`` means the assessment did not happen -- the model was
+      unreachable, or its output could not be parsed -- and ``'skipped'``
+      means a previous run deliberately did without one. In both cases the
+      row exists but the LLM reading is missing, so the document is
+      offered for retry rather than treated as finished.
+
+    Without this distinction a transient outage is permanent: the failed
+    rows count as done, and no rerun can ever fill them in.
+    """
+
+    sql = "SELECT doc_id FROM document_domain_signals WHERE run_id = ?"
+    params: list = [run_id]
+    if require_llm_ok:
+        sql += " AND llm_status = ?"
+        params.append(LLM_STATUS_OK)
 
     with connection_scope(db_path) as conn:
-        rows = conn.execute(
-            "SELECT doc_id FROM document_domain_signals WHERE run_id = ?", (run_id,)
-        ).fetchall()
+        rows = conn.execute(sql, params).fetchall()
     return {r["doc_id"] for r in rows}
 
 

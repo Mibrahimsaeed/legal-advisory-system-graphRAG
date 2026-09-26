@@ -40,7 +40,9 @@ from src.classification.keyword_signals import (
 from src.classification.signal_store import (
     DEFAULT_SIGNALS_SCHEMA_FILE,
     get_signal_history,
+    get_signalled_doc_ids,
     get_signals_for_run,
+    persist_domain_signals,
     signal_stats,
 )
 from src.classification.taxonomy_registry import OTHER_DOMAIN_ID, load_frozen_taxonomy
@@ -725,3 +727,205 @@ def test_empty_corpus_is_handled(db, flow_settings):
 
     assert result.processed == 0
     assert get_signals_for_run("r1", db_path=db) == []
+
+
+# ---------------------------------------------------------------------------
+# 6. Retry of a failed LLM assessment
+#
+# A row whose llm_status is 'failed' used to count as "already done", so a
+# transient outage (Ollama unreachable) was permanent: every rerun skipped
+# the very documents that still needed an assessment.
+# ---------------------------------------------------------------------------
+
+
+def _signal_row(doc_id: str, llm_status: str, **overrides) -> dict:
+    """One evidence record, as build_signal_record would produce it."""
+
+    base = dict(
+        doc_id=doc_id,
+        representation_hash=f"hash_{doc_id}",
+        text_source="cleaned_text",
+        char_count=1200,
+        word_count=200,
+        cluster_id=3,
+        cluster_confidence=0.87,
+        embedding_model="sentence-transformers/all-mpnet-base-v2",
+        keyword_signals={"top_domain": "family_law", "total_matches": 9, "domains": {}},
+        keyword_top_domain="family_law",
+        keyword_margin=0.42,
+        llm_status=llm_status,
+    )
+    if llm_status == "ok":
+        base.update(
+            llm_domain="family_law", llm_confidence=0.94,
+            llm_reason="dower and maintenance", llm_model="qwen3:14b",
+        )
+    elif llm_status == "failed":
+        base.update(llm_error="Failed to connect to Ollama", llm_domain=None)
+    base.update(overrides)
+    return base
+
+
+def test_a_successful_assessment_counts_as_already_done(db):
+    """Test A."""
+
+    persist_domain_signals(
+        "r1", [_signal_row("ok_doc", "ok")],
+        signal_version=ASSESSMENT_VERSION, db_path=db,
+    )
+    assert get_signalled_doc_ids("r1", db_path=db, require_llm_ok=True) == {"ok_doc"}
+
+
+def test_a_failed_assessment_does_not_count_as_already_done(db):
+    """Test B -- the bug: 187 failed rows blocked their own retry."""
+
+    persist_domain_signals(
+        "r1", [_signal_row("failed_doc", "failed")],
+        signal_version=ASSESSMENT_VERSION, db_path=db,
+    )
+    assert get_signalled_doc_ids("r1", db_path=db, require_llm_ok=True) == set()
+    # The row is still there -- nothing was deleted.
+    assert len(get_signals_for_run("r1", db_path=db)) == 1
+
+
+def test_a_skipped_assessment_is_retried_once_the_llm_is_enabled(db):
+    """'skipped' is a row without a reading, exactly like 'failed'."""
+
+    persist_domain_signals(
+        "r1", [_signal_row("skipped_doc", "skipped")],
+        signal_version=ASSESSMENT_VERSION, db_path=db,
+    )
+    assert get_signalled_doc_ids("r1", db_path=db, require_llm_ok=True) == set()
+
+
+def test_a_deterministic_only_run_still_treats_any_row_as_done(db):
+    """With the LLM disabled, re-deriving the same signals is pure waste."""
+
+    persist_domain_signals(
+        "r1",
+        [_signal_row("a", "skipped"), _signal_row("b", "failed"), _signal_row("c", "ok")],
+        signal_version=ASSESSMENT_VERSION, db_path=db,
+    )
+    assert get_signalled_doc_ids("r1", db_path=db, require_llm_ok=False) == {"a", "b", "c"}
+
+
+def test_only_failed_rows_are_offered_for_retry(db):
+    """A mixed run retries the failures and leaves the successes alone."""
+
+    persist_domain_signals(
+        "r1",
+        [_signal_row("ok_1", "ok"), _signal_row("ok_2", "ok"),
+         _signal_row("bad_1", "failed"), _signal_row("bad_2", "failed")],
+        signal_version=ASSESSMENT_VERSION, db_path=db,
+    )
+    done = get_signalled_doc_ids("r1", db_path=db, require_llm_ok=True)
+    assert done == {"ok_1", "ok_2"}
+
+
+def test_the_retry_is_scoped_to_its_own_run(db):
+    """A failure in one run does not offer another run's document for retry."""
+
+    persist_domain_signals(
+        "r1", [_signal_row("d1", "failed")],
+        signal_version=ASSESSMENT_VERSION, db_path=db,
+    )
+    persist_domain_signals(
+        "r2", [_signal_row("d1", "ok")],
+        signal_version=ASSESSMENT_VERSION, db_path=db,
+    )
+
+    assert get_signalled_doc_ids("r1", db_path=db, require_llm_ok=True) == set()
+    assert get_signalled_doc_ids("r2", db_path=db, require_llm_ok=True) == {"d1"}
+
+
+def test_retrying_a_failed_row_keeps_every_other_signal(db, flow_settings):
+    """Test C -- the retry must not cost the deterministic evidence."""
+
+    _seed(db, n_family=1, n_criminal=0, dropped=0)
+    kwargs = dict(
+        db_path=db, embedder=DeterministicHashEmbedder(dimension=16),
+        clusterer=_fake_clusterer,
+    )
+
+    # First pass: the model is unreachable, exactly as during the pilot.
+    run_domain_signals(
+        run_id="r1", llm_client=_ScriptedLLM(default=ConnectionError("no server")),
+        **kwargs,
+    )
+    failed = get_signals_for_run("r1", db_path=db)[0]
+    assert failed["llm_status"] == "failed"
+    assert failed["keyword_top_domain"] == "family_law"
+
+    # Second pass: the model is back.
+    retried = _ScriptedLLM(default=_ok_llm(domain="family_law", confidence=0.93))
+    result = run_domain_signals(run_id="r1", llm_client=retried, **kwargs)
+
+    assert retried.calls == 1, "the failed document should have been retried"
+    assert result.processed == 1
+    assert result.skipped_already_done == 0
+
+    row = get_signals_for_run("r1", db_path=db)[0]
+    assert row["llm_status"] == "ok"
+    assert row["llm_domain"] == "family_law"
+    assert row["llm_error"] is None
+    # ...and none of the other evidence was lost.
+    assert row["keyword_signals"] == failed["keyword_signals"]
+    assert row["keyword_top_domain"] == failed["keyword_top_domain"]
+    assert row["keyword_margin"] == failed["keyword_margin"]
+    assert row["cluster_id"] == failed["cluster_id"]
+    assert row["cluster_confidence"] == failed["cluster_confidence"]
+    assert row["representation_hash"] == failed["representation_hash"]
+    assert row["text_source"] == failed["text_source"]
+    assert row["char_count"] == failed["char_count"]
+    assert row["word_count"] == failed["word_count"]
+
+
+def test_a_retry_updates_in_place_and_adds_no_row(db, flow_settings):
+    """The (run_id, doc_id) upsert is preserved: one row per document."""
+
+    _seed(db, n_family=1, n_criminal=0, dropped=0)
+    kwargs = dict(
+        db_path=db, embedder=DeterministicHashEmbedder(dimension=16),
+        clusterer=_fake_clusterer,
+    )
+
+    run_domain_signals(
+        run_id="r1", llm_client=_ScriptedLLM(default="not json"), **kwargs
+    )
+    run_domain_signals(
+        run_id="r1", llm_client=_ScriptedLLM(default=_ok_llm()), **kwargs
+    )
+
+    with connection_scope(db) as conn:
+        assert conn.execute(
+            "SELECT COUNT(*) c FROM document_domain_signals"
+        ).fetchone()["c"] == 1
+
+
+def test_successful_rows_are_not_reprocessed_on_a_later_run(db, flow_settings):
+    """Test D -- success stays resumable; only the failure is retried."""
+
+    _seed(db, n_family=2, n_criminal=0, dropped=0)
+    kwargs = dict(
+        db_path=db, embedder=DeterministicHashEmbedder(dimension=16),
+        clusterer=_fake_clusterer,
+    )
+
+    # One document succeeds, the next fails.
+    run_domain_signals(
+        run_id="r1",
+        llm_client=_ScriptedLLM(responses=[_ok_llm(), "not json at all"]),
+        **kwargs,
+    )
+    statuses = {r["doc_id"]: r["llm_status"] for r in get_signals_for_run("r1", db_path=db)}
+    assert sorted(statuses.values()) == ["failed", "ok"]
+
+    retry = _ScriptedLLM(default=_ok_llm())
+    result = run_domain_signals(run_id="r1", llm_client=retry, **kwargs)
+
+    assert retry.calls == 1, "only the failed document should be re-asked"
+    assert result.processed == 1
+    assert result.skipped_already_done == 1
+    assert {
+        r["llm_status"] for r in get_signals_for_run("r1", db_path=db)
+    } == {"ok"}
