@@ -105,6 +105,144 @@ document:
   cause_list_min_list_ratio: 0.30
   substantive_min_markers: 2
 
+# Phase 3: case representation + domain signal generation. Gathers
+# evidence (cluster + keywords + broad LLM reading); Phase 4 decides.
+domain_signals:
+  schema_file: schemas/domain_signals_schema.sql
+  max_text_chars: 20000
+  max_headings: 20
+  batch_size: 25
+  min_keyword_matches: 2
+  llm_enabled: true
+  llm_model: qwen3:14b
+  llm_max_tokens: 512
+  llm_prompt_chars: 3000
+  # Broad concept profiles, validated against config/domains.yaml.
+  # High-level concepts only -- NOT a statute index.
+  profiles:
+    family_law:
+      - dower
+      - dowry
+      - maintenance
+      - khula
+      - dissolution of marriage
+      - custody
+      - guardian
+      - minor
+      - nikahnama
+      - talaq
+      - family court
+      - matrimonial
+      - conjugal rights
+      - guardians and wards
+      - muslim family laws
+    criminal_law:
+      - conviction
+      - acquittal
+      - bail
+      - sentence
+      - accused
+      - prosecution
+      - penal code
+      - narcotic
+      - fir
+      - investigating officer
+      - ocular account
+      - trial court
+      - offence
+      - charge
+      - complainant
+
+# Phase 4: blind cluster validation. Scores the Phase 3 clustering against
+# source-folder labels AFTER the fact and reports whether cluster
+# membership is a useful domain signal at all. Thresholds are tunable
+# defaults, not standards -- the report carries every raw measurement.
+cluster_validation:
+  output_dir: var/cluster_validation
+  label_folder_depth: 1
+  sweep_min_cluster_sizes: [5, 10, 15, 25]
+  sweep_min_samples: [0, 5]     # 0 = HDBSCAN default (min_cluster_size)
+  min_coverage: 0.50
+  min_purity_lift: 0.15
+  min_adjusted_rand: 0.10
+  min_label_recall: 0.50
+
+# Phase 5: multi-signal broad domain decision. Weighs the evidence
+# Phase 3 stored -- keyword profiles, the broad LLM reading, the cluster's
+# other members and the cause title -- into one verdict per document:
+# family_law / criminal_law / other_uncertain. Deterministic: no model
+# calls, so these values alone decide the outcome for given signals.
+domain_decision:
+  # Must sum to exactly 1.00. Note what is absent: no `statute` (there is
+  # no statute extraction), no `court` (forum, not subject) and no
+  # `source_folder` (Phase 4 validation ground truth -- never a
+  # classification signal).
+  weights:
+    keyword: 0.40
+    llm: 0.40
+    cluster: 0.15
+    title: 0.05
+  # Scores, not probabilities.
+  min_domain_score: 0.35     # below this -> other_uncertain
+  min_margin: 0.10           # inside this band the signals disagree -> review
+  auto_accept_threshold: 0.80
+  review_threshold: 0.50
+  # Drop as off-domain only on a confident LLM "neither" with no keyword
+  # evidence against it; otherwise uncertain documents are reviewed.
+  off_domain_drop_confidence: 0.70
+  # Weight that must have fired before a verdict can auto-accept. 0.50
+  # requires two substantive signals at the weights above -- one signal
+  # alone never auto-accepts. Thin evidence goes to review, not to a
+  # silently lowered score.
+  min_coverage: 0.50
+  min_cluster_members: 3
+  title_min_matches: 1
+  batch_size: 100
+
+# Phase 6: review routing and decision policy. The confidence bands live
+# in `domain_decision` above (one set of thresholds decides AND routes);
+# this section governs the review process itself.
+review:
+  schema_file: schemas/review_schema.sql
+  queue_output_dir: var/review_queue
+  # A rerun must not undo a human decision. The machine verdict is still
+  # written to the audit table either way -- it just does not take effect.
+  protect_reviewed: true
+  # Machine statuses a rerun must not overwrite. Empty: machine verdicts
+  # are meant to be recomputable. Set e.g. ["auto_accepted"] to pin a
+  # slice of the corpus while tuning thresholds.
+  protect_statuses: []
+
+# Phase 7: evaluation against a manually reviewed validation set, and the
+# dataset freeze. These thresholds are this project's choices, not
+# standards; every raw measurement is reported alongside the verdict.
+#
+# Note what is NOT here: no cluster purity or noise threshold. Clustering
+# does not gate corpus acceptance -- it measures structure in an embedding
+# space, not correctness against law. Those numbers are diagnostics.
+evaluation:
+  output_dir: var/evaluation
+  freeze_schema_file: schemas/corpus_freeze_schema.sql
+  # Unset: gold labels come from the Phase 6 review ledger, which also
+  # records who decided each one. Point at a CSV/JSON to use external labels.
+  labels_file: null
+  # Below these, the evaluation reports "not_evaluable" rather than a
+  # score. Refusing to answer is the honest outcome of a thin sample.
+  min_validation_documents: 100
+  min_validation_per_domain: 25
+  comfortable_validation_documents: 200
+  # What counts as good enough, per domain.
+  min_domain_f1: 0.75
+  min_accepted_per_domain: 200
+  # A reservation, never a blocker.
+  min_llm_agreement: 0.70
+  # 100% of needs_review is an obligation with no setting. These are the
+  # spot-check sizes for documents a reviewer would otherwise never see.
+  audit_sample_per_domain: 30
+  audit_sample_other_uncertain: 20
+  audit_sample_dropped: 10
+  audit_seed: 42
+
 # Stage 2: full-corpus classification against the FROZEN taxonomy.
 classification:
   taxonomy_file: config/domains.yaml
@@ -116,11 +254,11 @@ classification:
   # src/common/config.py ClassificationSettings.
   llm_max_tokens: 1024
   body_chars: 3000
-  # Multi-signal scoring thresholds (scores, not probabilities).
-  # Configuration only in Phase 1 -- no scoring engine consumes them yet.
+  # SUPERSEDED by the `domain_decision` section above -- the Phase 5
+  # engine reads that one. These stay so existing config still validates;
+  # nothing consumes them.
   auto_accept_threshold: 0.80
   review_threshold: 0.50
-  # Signal weights; validated to sum to exactly 1.00.
   signals:
     statute: 0.45
     cluster: 0.25

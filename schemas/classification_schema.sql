@@ -27,10 +27,18 @@ CREATE TABLE IF NOT EXISTS document_classifications (
     justification       TEXT,
 
     status              TEXT NOT NULL DEFAULT 'classified',
+    -- Single-call LLM classifier (Phase 6):
     -- 'classified'   -> accepted automatically
     -- 'needs_review' -> low confidence / ambiguous / mixed: a label is
     --                   proposed but must not be treated as final
     -- 'failed'       -> classifier or validation error; NO label is implied
+    --
+    -- Multi-signal engine (Phase 5) writes the SAME vocabulary Phase 1's
+    -- document_representations.classification_status uses, so a verdict
+    -- reads identically in both tables rather than being mapped:
+    -- 'auto_accepted', 'needs_review', 'dropped_off_domain'. Deliberately
+    -- left unconstrained -- a CHECK here would have to be rewritten by
+    -- every future engine, and no SQLite ALTER can change one.
     review_reason       TEXT,
     error               TEXT,
 
@@ -39,6 +47,10 @@ CREATE TABLE IF NOT EXISTS document_classifications (
     classifier_version  TEXT NOT NULL,
     model_name          TEXT,
     batch_id            TEXT,
+    -- Which document_domain_signals run supplied the evidence (Phase 5).
+    -- Also applied via ALTER TABLE by
+    -- classification_store.ensure_classification_columns().
+    signal_run_id       TEXT,
 
     created_at          TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 

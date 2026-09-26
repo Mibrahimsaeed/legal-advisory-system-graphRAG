@@ -37,6 +37,38 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+# Added for Phase 5: which document_domain_signals run produced the
+# evidence behind this verdict. Without it the audit chain breaks -- you
+# could read a decision but not the observations it rests on. Applied via
+# ALTER TABLE as well as the schema file because `CREATE TABLE IF NOT
+# EXISTS` skips an existing table (same pattern as
+# taxonomy_card.ensure_domain_candidate_columns).
+_ADDED_CLASSIFICATION_COLUMNS = {
+    "signal_run_id": "TEXT",
+}
+
+
+def ensure_classification_columns(conn: sqlite3.Connection) -> list[str]:
+    """Add any missing ``document_classifications`` columns. Idempotent."""
+
+    existing = {
+        row["name"] for row in conn.execute("PRAGMA table_info(document_classifications)")
+    }
+    if not existing:
+        return []
+
+    added = []
+    for column, ddl in _ADDED_CLASSIFICATION_COLUMNS.items():
+        if column not in existing:
+            conn.execute(
+                f"ALTER TABLE document_classifications ADD COLUMN {column} {ddl}"
+            )
+            added.append(column)
+    if added:
+        logger.info("Added document_classifications column(s): %s", ", ".join(added))
+    return added
+
+
 def _row_to_dict(row: sqlite3.Row) -> dict:
     data = dict(row)
     data["secondary_domains"] = json.loads(data.pop("secondary_domains_json") or "[]")
@@ -50,6 +82,7 @@ def persist_classifications(
     classifier_version: str,
     model_name: str | None = None,
     batch_id: str | None = None,
+    signal_run_id: str | None = None,
     db_path: str | Path = DEFAULT_DB_PATH,
 ) -> int:
     """Write one row per result for ``run_id``.
@@ -79,12 +112,14 @@ def persist_classifications(
             classifier_version,
             model_name,
             batch_id,
+            signal_run_id,
             _now(),
         )
         for r in results
     ]
 
     with connection_scope(db_path) as conn:
+        ensure_classification_columns(conn)
         conn.executemany(
             """
             INSERT INTO document_classifications (
@@ -92,8 +127,8 @@ def persist_classifications(
                 primary_domain, secondary_domains_json, confidence,
                 justification, status, review_reason, error,
                 taxonomy_version, classifier_version, model_name,
-                batch_id, created_at
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                batch_id, signal_run_id, created_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(classification_id) DO UPDATE SET
                 cluster_id             = excluded.cluster_id,
                 primary_domain         = excluded.primary_domain,
@@ -107,6 +142,7 @@ def persist_classifications(
                 classifier_version     = excluded.classifier_version,
                 model_name             = excluded.model_name,
                 batch_id               = excluded.batch_id,
+                signal_run_id          = excluded.signal_run_id,
                 created_at             = excluded.created_at
             """,
             rows,

@@ -220,6 +220,121 @@ def upsert_representations(
     return len(representations)
 
 
+# Outcomes of a classification-state write. Reported rather than
+# silently swallowed, because "nothing changed" and "refused to change a
+# reviewed document" are different facts about a rerun.
+WRITE_UPDATED = "updated"
+WRITE_UNCHANGED = "unchanged"
+WRITE_PROTECTED = "protected"
+WRITE_MISSING = "missing"
+
+_CLASSIFICATION_FIELDS = (
+    "classification_status",
+    "primary_domain",
+    "secondary_domain",
+    "domain_confidence",
+    "drop_reason",
+)
+
+
+def update_classification_state(
+    doc_id: str,
+    classification_status: str,
+    primary_domain: str | None = None,
+    secondary_domain: str | None = None,
+    domain_confidence: float | None = None,
+    drop_reason: str | None = None,
+    protect_statuses: tuple[str, ...] = (),
+    skip_if_unchanged: bool = True,
+    db_path: str | Path = DEFAULT_DB_PATH,
+) -> str:
+    """Write a classification verdict onto Phase 1's current-state fields.
+
+    A targeted UPDATE of those five columns only: a classifier decides a
+    document's domain and must never touch its extracted text, metadata,
+    provenance or Phase 2 outcome.
+
+    Returns one of ``WRITE_UPDATED``, ``WRITE_UNCHANGED``,
+    ``WRITE_PROTECTED`` or ``WRITE_MISSING``.
+
+    Two guards, both serving the same rule -- a rerun must not undo
+    settled work:
+
+    * ``protect_statuses`` refuses to overwrite a row already in one of
+      those states. Phase 6 passes the statuses a human decided, so
+      re-running the classifier cannot quietly revert a review.
+    * ``skip_if_unchanged`` (default) makes a write that would change
+      nothing a no-op, leaving ``updated_at`` alone. Without it every
+      rerun would re-stamp the whole corpus and destroy the one signal
+      that says when a document's classification actually last moved.
+    """
+
+    proposed = {
+        "classification_status": classification_status,
+        "primary_domain": primary_domain,
+        "secondary_domain": secondary_domain,
+        "domain_confidence": domain_confidence,
+        "drop_reason": drop_reason,
+    }
+
+    with connection_scope(db_path) as conn:
+        ensure_representation_columns(conn)
+        current = conn.execute(
+            "SELECT classification_status, primary_domain, secondary_domain, "
+            "domain_confidence, drop_reason FROM document_representations "
+            "WHERE doc_id = ?",
+            (doc_id,),
+        ).fetchone()
+
+        if current is None:
+            return WRITE_MISSING
+        if current["classification_status"] in protect_statuses:
+            return WRITE_PROTECTED
+        if skip_if_unchanged and _same_state(current, proposed):
+            return WRITE_UNCHANGED
+
+        conn.execute(
+            """
+            UPDATE document_representations
+               SET classification_status = ?,
+                   primary_domain        = ?,
+                   secondary_domain      = ?,
+                   domain_confidence     = ?,
+                   drop_reason           = ?,
+                   updated_at            = ?
+             WHERE doc_id = ?
+            """,
+            (
+                classification_status,
+                primary_domain,
+                secondary_domain,
+                domain_confidence,
+                drop_reason,
+                _now(),
+                doc_id,
+            ),
+        )
+        return WRITE_UPDATED
+
+
+def _same_state(current: sqlite3.Row, proposed: dict) -> bool:
+    """Whether a proposed verdict differs from what is already stored.
+
+    Confidence is compared at six decimal places: it round-trips through
+    SQLite REAL, and a difference in the twelfth place is not a change to
+    a document's classification.
+    """
+
+    for column in _CLASSIFICATION_FIELDS:
+        before, after = current[column], proposed[column]
+        if column == "domain_confidence":
+            before = round(before, 6) if before is not None else None
+            after = round(after, 6) if after is not None else None
+        if before != after:
+            return False
+    return True
+
+
 def get_representation(
     doc_id: str, db_path: str | Path = DEFAULT_DB_PATH
 ) -> DocumentRepresentation | None:
