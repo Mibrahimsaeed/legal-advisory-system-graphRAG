@@ -335,6 +335,30 @@ def _same_state(current: sqlite3.Row, proposed: dict) -> bool:
     return True
 
 
+def get_classification_states(
+    db_path: str | Path = DEFAULT_DB_PATH,
+) -> dict[str, tuple[str, str | None]]:
+    """``{doc_id: (classification_status, updated_at)}`` for every document.
+
+    A read-only projection, deliberately not routed through
+    :func:`list_representations`: a caller that only needs the current
+    state should not have to load every document's text to get it, and
+    ``updated_at`` is not carried on
+    :class:`~src.extraction.doc_representation.DocumentRepresentation`.
+
+    Every row is returned, dropped ones included -- a dropped document's
+    status is precisely what a caller checking eligibility needs to see.
+    """
+
+    with connection_scope(db_path) as conn:
+        ensure_representation_columns(conn)
+        rows = conn.execute(
+            "SELECT doc_id, classification_status, updated_at "
+            "FROM document_representations"
+        ).fetchall()
+    return {r["doc_id"]: (r["classification_status"], r["updated_at"]) for r in rows}
+
+
 def get_representation(
     doc_id: str, db_path: str | Path = DEFAULT_DB_PATH
 ) -> DocumentRepresentation | None:

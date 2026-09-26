@@ -23,7 +23,9 @@ from src.common.config import get_settings
 from src.common.db import connection_scope, init_schema
 from src.extraction.doc_representation import (
     CLASSIFICATION_STATUS_AUTO_ACCEPTED,
+    CLASSIFICATION_STATUS_DROPPED_OFF_DOMAIN,
     CLASSIFICATION_STATUS_DROPPED_PROCEDURAL,
+    CLASSIFICATION_STATUS_NEEDS_REVIEW,
     CLASSIFICATION_STATUS_PENDING,
 )
 from src.extraction.representation_store import (
@@ -508,6 +510,138 @@ def test_rerun_does_not_reset_a_document_a_later_phase_decided(mixed_corpus, db,
     assert after.classification_status == CLASSIFICATION_STATUS_AUTO_ACCEPTED
     assert after.primary_domain == "criminal_law"
     assert after.domain_confidence == pytest.approx(0.91)
+
+
+def _decide_downstream(db, relpath, **columns):
+    """Put one ingested document into a downstream-decided state."""
+
+    target = next(
+        r for r in list_representations(db_path=db, exclude_dropped=False)
+        if r.source_relpath == relpath
+    )
+    assignments = ", ".join(f"{name} = ?" for name in columns)
+    with connection_scope(db) as conn:
+        conn.execute(
+            f"UPDATE document_representations SET {assignments} WHERE doc_id = ?",
+            (*columns.values(), target.doc_id),
+        )
+    return target.doc_id
+
+
+def test_rerun_does_not_revive_an_off_domain_rejection(mixed_corpus, db, settings):
+    """A human rejection lands on dropped_off_domain -- a re-scan must respect it.
+
+    This is the regression: `dropped_off_domain` was absent from
+    _DOWNSTREAM_DECIDED, so re-running ingest reset a reviewer's rejection
+    to 'pending' and put the document back into the corpus.
+    """
+
+    run_case_ingest(root=mixed_corpus, db_path=db)
+    doc_id = _decide_downstream(
+        db, "case_001",
+        classification_status=CLASSIFICATION_STATUS_DROPPED_OFF_DOMAIN,
+        drop_reason="off_domain",
+        primary_domain=None,
+        domain_confidence=0.88,
+    )
+    assert doc_id not in {r.doc_id for r in list_representations(db_path=db)}
+
+    run_case_ingest(root=mixed_corpus, db_path=db)
+
+    after = get_representation(doc_id, db_path=db)
+    assert after.classification_status == CLASSIFICATION_STATUS_DROPPED_OFF_DOMAIN
+    # ...and it stays out of the corpus the next stage reads.
+    assert doc_id not in {r.doc_id for r in list_representations(db_path=db)}
+
+
+def test_rerun_keeps_the_drop_metadata_of_a_rejected_document(mixed_corpus, db, settings):
+    """The reason and confidence behind a rejection must survive too."""
+
+    run_case_ingest(root=mixed_corpus, db_path=db)
+    doc_id = _decide_downstream(
+        db, "case_001",
+        classification_status=CLASSIFICATION_STATUS_DROPPED_OFF_DOMAIN,
+        drop_reason="off_domain",
+        primary_domain=None,
+        secondary_domain=None,
+        domain_confidence=0.93,
+    )
+    before = get_representation(doc_id, db_path=db)
+
+    run_case_ingest(root=mixed_corpus, db_path=db)
+    after = get_representation(doc_id, db_path=db)
+
+    assert after.drop_reason == "off_domain"
+    assert after.drop_reason == before.drop_reason
+    assert after.domain_confidence == pytest.approx(0.93)
+    assert after.primary_domain is None
+    # The extracted text is untouched, so the rejection stays reversible.
+    assert after.cleaned_text == before.cleaned_text
+
+
+def test_rerun_does_not_reset_a_document_awaiting_review(mixed_corpus, db, settings):
+    """needs_review protection, unchanged by the CI-3 fix."""
+
+    run_case_ingest(root=mixed_corpus, db_path=db)
+    doc_id = _decide_downstream(
+        db, "case_001",
+        classification_status=CLASSIFICATION_STATUS_NEEDS_REVIEW,
+        primary_domain="family_law",
+        domain_confidence=0.62,
+    )
+
+    run_case_ingest(root=mixed_corpus, db_path=db)
+
+    after = get_representation(doc_id, db_path=db)
+    assert after.classification_status == CLASSIFICATION_STATUS_NEEDS_REVIEW
+    assert after.primary_domain == "family_law"
+    assert after.domain_confidence == pytest.approx(0.62)
+
+
+def test_phase_2_can_still_re_decide_its_own_drops(mixed_corpus, db, settings):
+    """dropped_procedural is Phase 2's own verdict, so it is NOT preserved.
+
+    Re-running ingest is how the structural thresholds get re-tuned; a
+    filter that could not change its mind about a document it dropped
+    itself would make that impossible.
+    """
+
+    from orchestration.dags.case_ingest_flow import _DOWNSTREAM_DECIDED
+
+    assert CLASSIFICATION_STATUS_DROPPED_PROCEDURAL not in _DOWNSTREAM_DECIDED
+    assert CLASSIFICATION_STATUS_PENDING not in _DOWNSTREAM_DECIDED
+
+    run_case_ingest(root=mixed_corpus, db_path=db)
+    dropped = [
+        r for r in list_representations(db_path=db, exclude_dropped=False)
+        if r.classification_status == CLASSIFICATION_STATUS_DROPPED_PROCEDURAL
+    ]
+    assert dropped, "the fixture corpus should contain structural noise"
+
+    # A second pass re-evaluates them and reaches the same verdict.
+    run_case_ingest(root=mixed_corpus, db_path=db)
+    again = {
+        r.doc_id: (r.classification_status, r.drop_reason)
+        for r in list_representations(db_path=db, exclude_dropped=False)
+    }
+    for rep in dropped:
+        assert again[rep.doc_id] == (rep.classification_status, rep.drop_reason)
+
+
+def test_structural_filtering_is_unchanged_for_undecided_documents(mixed_corpus, db, settings):
+    """A first ingest of an untouched corpus behaves exactly as before."""
+
+    result = run_case_ingest(root=mixed_corpus, db_path=db)
+
+    assert result.drops_by_reason == {
+        REASON_PROCEDURAL_ADJOURNMENT: 1,
+        REASON_CAUSE_LIST: 1,
+    }
+    assert len(result.pending_doc_ids) == 2
+    for rep in list_representations(db_path=db):
+        assert rep.classification_status == CLASSIFICATION_STATUS_PENDING
+        assert rep.drop_reason is None
+        assert rep.cleaned_text  # valid cases keep their full text
 
 
 def test_drops_are_reported_by_reason(mixed_corpus, db, settings):

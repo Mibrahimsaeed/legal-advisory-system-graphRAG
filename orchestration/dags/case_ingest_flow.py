@@ -33,6 +33,7 @@ from src.common.logging_utils import get_logger, log_context
 from src.extraction.case_loader import iter_case_folders, load_case_folder
 from src.extraction.doc_representation import (
     CLASSIFICATION_STATUS_AUTO_ACCEPTED,
+    CLASSIFICATION_STATUS_DROPPED_OFF_DOMAIN,
     CLASSIFICATION_STATUS_DROPPED_PROCEDURAL,
     CLASSIFICATION_STATUS_NEEDS_REVIEW,
     CLASSIFICATION_STATUS_PENDING,
@@ -73,10 +74,25 @@ def _warning_counts(representations: list[DocumentRepresentation]) -> dict[str, 
 
 
 # A document a later phase has already ruled on is not re-decided by a
-# re-scan: re-running ingest must not silently reset a human-reviewed or
-# accepted case back to pending.
+# re-scan: re-running ingest must not silently reset an accepted, reviewed
+# or rejected case back to pending.
+#
+# `dropped_off_domain` belongs here as much as the other two. It is the
+# status a Phase 6 human REJECTION lands on
+# (review_policy.resolve_human_decision), so leaving it out let a re-scan
+# revert a reviewer's decision and re-admit material they had explicitly
+# excluded.
+#
+# `dropped_procedural` is deliberately NOT preserved: that is Phase 2's
+# *own* verdict, and re-running ingest is exactly how the structural
+# thresholds get re-tuned. Preserving it would make the filter unable to
+# change its mind about a document it had dropped itself.
 _DOWNSTREAM_DECIDED = frozenset(
-    {CLASSIFICATION_STATUS_AUTO_ACCEPTED, CLASSIFICATION_STATUS_NEEDS_REVIEW}
+    {
+        CLASSIFICATION_STATUS_AUTO_ACCEPTED,
+        CLASSIFICATION_STATUS_NEEDS_REVIEW,
+        CLASSIFICATION_STATUS_DROPPED_OFF_DOMAIN,
+    }
 )
 
 

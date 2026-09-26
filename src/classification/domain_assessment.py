@@ -31,7 +31,6 @@ from dataclasses import dataclass
 from typing import Any
 
 from src.classification.case_representation import CaseRepresentation
-from src.classification.keyword_signals import KeywordSignals
 from src.classification.taxonomy_registry import OTHER_DOMAIN_ID, FrozenTaxonomy
 from src.common.llm_client import LLMClient, extract_json_object
 from src.common.logging_utils import get_logger
@@ -41,7 +40,11 @@ logger = get_logger(__name__)
 # Bump when the prompt or the validation rules change: it is stored on
 # every row so assessments made under different behaviour are never
 # silently compared.
-ASSESSMENT_VERSION = "domain_assessment/1.0"
+# 2.0: the keyword hint was removed from the prompt (CI-7). A 1.0
+# assessment was made by a model that had already been shown the keyword
+# verdict, so the two are not interchangeable as evidence -- the version
+# stamp is what keeps a mixed corpus detectable.
+ASSESSMENT_VERSION = "domain_assessment/2.0"
 
 STATUS_OK = "ok"
 STATUS_FAILED = "failed"
@@ -105,15 +108,24 @@ def render_domain_definitions(taxonomy: FrozenTaxonomy) -> str:
 def build_assessment_prompt(
     representation: CaseRepresentation,
     domain_block: str,
-    keyword_signals: KeywordSignals | None = None,
     prompt_chars: int = DEFAULT_PROMPT_CHARS,
 ) -> str:
-    """Assemble the prompt for one case.
+    """Assemble the prompt for one case: the domain menu and the document.
 
-    Keyword hits are offered as a hint, explicitly labelled as such: they
-    are a lexical signal, and the model is told it may disagree. Presenting
-    them as findings would make the two signals correlate, which would
-    defeat the point of collecting them separately for Phase 4.
+    **The keyword result is deliberately absent.** It used to be appended
+    as a labelled "hint", on the reasoning that a model told it may
+    disagree would stay independent. That reasoning does not survive
+    contact with how the signals are then used: Phase 5 weights keyword and
+    LLM at 0.40 each *as two independent readings*, and a model shown the
+    keyword verdict agrees with it more often than it would blind. The
+    inflated agreement then makes the keyword/LLM conflict rule -- the main
+    safety valve in the decision engine -- fire less often, and inflates
+    Phase 7's LLM/human agreement metric too.
+
+    So the model sees only the document: title, headings, and a bounded
+    slice of the text. The keyword signal reaches the decision on its own
+    weight, which is the only way its 0.40 means what the engine says it
+    means.
     """
 
     parts = [f"DOMAINS:\n{domain_block}", "", "CASE:"]
@@ -122,18 +134,6 @@ def build_assessment_prompt(
     if representation.headings:
         parts.append("Headings: " + "; ".join(representation.headings[:10]))
     parts.append(f"Text:\n{representation.prompt_text(prompt_chars)}")
-
-    if keyword_signals is not None and keyword_signals.top_domain:
-        hits = ", ".join(
-            f"{domain}={round(entry.score, 2)}"
-            for domain, entry in keyword_signals.scores.items()
-            if entry.score > 0
-        )
-        parts.append(
-            "\nKeyword hint (a lexical signal only -- disagree with it if the "
-            f"text warrants): {hits}"
-        )
-
     parts.append(
         "\nWhich domain does this case broadly belong to? Respond with the "
         "JSON object only."
@@ -209,7 +209,6 @@ def assess_domain(
     taxonomy: FrozenTaxonomy,
     llm_client: LLMClient,
     domain_block: str | None = None,
-    keyword_signals: KeywordSignals | None = None,
     prompt_chars: int = DEFAULT_PROMPT_CHARS,
     model_name: str | None = None,
 ) -> DomainAssessment:
@@ -228,7 +227,7 @@ def assess_domain(
         raw = llm_client.complete(
             system=ASSESSMENT_SYSTEM_PROMPT,
             prompt=build_assessment_prompt(
-                representation, block, keyword_signals, prompt_chars=prompt_chars
+                representation, block, prompt_chars=prompt_chars
             ),
         )
         parsed = extract_json_object(raw)

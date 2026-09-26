@@ -109,33 +109,89 @@ document:
 # evidence (cluster + keywords + broad LLM reading); Phase 4 decides.
 domain_signals:
   schema_file: schemas/domain_signals_schema.sql
+  # Durable Phase 3 case signatures (the compact representation).
+  # NOT `document_signatures` -- that table belongs to the legacy
+  # PDF/book path and has a different shape.
+  signature_schema_file: schemas/case_signature_schema.sql
   max_text_chars: 20000
   max_headings: 20
   batch_size: 25
   min_keyword_matches: 2
   llm_enabled: true
   llm_model: qwen3:14b
-  llm_max_tokens: 512
+  # 1024, not 512: qwen3 is a thinking model and 512 truncated the JSON
+  # mid-object in the earlier pilot. Requests also pin temperature=0, a
+  # fixed seed, format=json and think=false (src/common/llm_client.py).
+  llm_max_tokens: 1024
   llm_prompt_chars: 3000
   # Broad concept profiles, validated against config/domains.yaml.
   # High-level concepts only -- NOT a statute index.
   profiles:
+    # Family Law: broad concepts grouped by the thing they identify, with
+    # the Pakistani transliterations and statute short-names that appear in
+    # real judgments. None of these is decisive on its own -- a document
+    # still has to clear min_keyword_matches, and the keyword result is one
+    # weighted signal among four in Phase 5.
     family_law:
-      - dower
-      - dowry
-      - maintenance
-      - khula
-      - dissolution of marriage
-      - custody
-      - guardian
-      - minor
+      # -- marriage ----------------------------------------------------
+      - marriage
+      - nikah
+      - nikah nama
       - nikahnama
-      - talaq
-      - family court
       - matrimonial
+      - marital
+      - spouse
+      - husband
+      - wife
+      # -- dissolution -------------------------------------------------
+      - divorce
+      - dissolution
+      - dissolution of marriage
+      - khula
+      - khul
+      - talaq
+      - talaqnama
+      - mubarat
+      # -- financial claims --------------------------------------------
+      - maintenance
+      - nafaqah
+      - dower
+      - mahr
+      - mehr
+      - meher
+      - haq mehr
+      - dowry
+      - dowry articles
+      - bridal gifts
+      - wife's property
+      - wife's belongings
+      # -- children ----------------------------------------------------
+      - custody
+      - hizanat
+      - hizaanat
+      - visitation
+      - guardian
+      - guardianship
+      - ward
+      - minor
+      - minor child
+      - welfare of the minor
+      # -- marital rights ----------------------------------------------
       - conjugal rights
-      - guardians and wards
+      - restitution of conjugal rights
+      - jactitation of marriage
+      # -- family legislation ------------------------------------------
+      - family court
+      - judge family court
+      - family courts act
       - muslim family laws
+      - muslim family laws ordinance
+      - mflo
+      - dissolution of muslim marriages act
+      - guardians and wards
+      - guardians and wards act
+      - child marriage restraint act
+      - dowry and bridal gifts (restriction) act
     criminal_law:
       - conviction
       - acquittal
@@ -242,6 +298,21 @@ evaluation:
   audit_sample_other_uncertain: 20
   audit_sample_dropped: 10
   audit_seed: 42
+
+# Legal-BERT ENCODER settings. This is not a classifier: the base model
+# has no task head and cannot map text to a domain. A head must be
+# fine-tuned on human-reviewed labels first -- none exist yet, so
+# classifier_checkpoint stays null and the loader refuses rather than
+# emitting untrained scores. See src/classification/legal_bert.py.
+legal_bert:
+  model_name: nlpaueb/legal-bert-base-uncased
+  # Hard ceiling: BERT has 512 positional embeddings. At this limit the
+  # encoder sees roughly the first 2,000 characters of a case signature.
+  max_length: 512
+  batch_size: 8
+  # cpu by default so a run is portable; set to mps or cuda where available.
+  device: cpu
+  classifier_checkpoint: null
 
 # Stage 2: full-corpus classification against the FROZEN taxonomy.
 classification:

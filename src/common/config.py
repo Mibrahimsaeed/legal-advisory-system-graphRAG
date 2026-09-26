@@ -451,6 +451,7 @@ class DomainSignalSettings(BaseModel):
     """
 
     schema_file: Path = Path("schemas/domain_signals_schema.sql")
+    signature_schema_file: Path = Path("schemas/case_signature_schema.sql")
 
     # -- representation ----------------------------------------------------
     max_text_chars: int = Field(
@@ -491,7 +492,14 @@ class DomainSignalSettings(BaseModel):
         description="Set false to gather only the deterministic signals.",
     )
     llm_model: str = "qwen3:14b"
-    llm_max_tokens: int = Field(default=512, gt=0)
+    llm_max_tokens: int = Field(
+        default=1024,
+        gt=0,
+        description=(
+            "1024, not 512: qwen3 is a thinking model whose reasoning block "
+            "consumed a 512-token budget before emitting the JSON."
+        ),
+    )
     llm_prompt_chars: int = Field(
         default=3_000,
         gt=0,
@@ -843,6 +851,45 @@ class EvaluationSettings(BaseModel):
         return self
 
 
+class LegalBertSettings(BaseModel):
+    """Legal-BERT encoder settings.
+
+    This configures an **encoder**, not a classifier. The base model has no
+    task head, so it cannot map text to a domain; see
+    :mod:`src.classification.legal_bert`. ``classifier_checkpoint`` stays
+    None until a head has been fine-tuned on human-reviewed labels, and the
+    loader refuses while it is None rather than emitting untrained scores.
+    """
+
+    model_name: str = Field(
+        default="nlpaueb/legal-bert-base-uncased",
+        description="Any HuggingFace encoder; the domain vocabulary is never from here.",
+    )
+    max_length: int = Field(
+        default=512,
+        gt=0,
+        le=512,
+        description=(
+            "Hard-capped at BERT's 512 positional embeddings. At this limit "
+            "the encoder sees roughly the first 2,000 characters of a case "
+            "signature."
+        ),
+    )
+    batch_size: int = Field(default=8, gt=0)
+    device: str = Field(
+        default="cpu",
+        description="'cpu', 'mps' or 'cuda'. cpu by default so a run is portable.",
+    )
+    classifier_checkpoint: Path | None = Field(
+        default=None,
+        description=(
+            "A fine-tuned Family/Criminal/Other head. Unset: no trained head "
+            "exists, and load_domain_classifier() refuses rather than "
+            "fabricating predictions."
+        ),
+    )
+
+
 class ClassificationSettings(BaseModel):
     """Stage 2 (full-corpus domain classification) settings.
 
@@ -963,6 +1010,7 @@ class Settings(BaseModel):
         default_factory=DomainDecisionSettings
     )
     review: ReviewSettings = Field(default_factory=ReviewSettings)
+    legal_bert: LegalBertSettings = Field(default_factory=LegalBertSettings)
     evaluation: EvaluationSettings = Field(default_factory=EvaluationSettings)
     cluster_validation: ClusterValidationSettings = Field(
         default_factory=ClusterValidationSettings

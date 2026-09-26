@@ -175,6 +175,34 @@ def get_classifications_for_run(
     return [_row_to_dict(r) for r in rows]
 
 
+def get_latest_signal_run_ids(
+    db_path: str | Path = DEFAULT_DB_PATH,
+) -> dict[str, str | None]:
+    """``{doc_id: signal_run_id}`` for each document's newest decision.
+
+    Answers "which evidence produced the state this document is in now?",
+    which is what lets a caller tell its own earlier write apart from
+    someone else's newer one. Selects two columns rather than whole rows:
+    ``justification`` carries the full evidence JSON, and loading it for a
+    corpus-sized set to read one id would be wasteful.
+    """
+
+    with connection_scope(db_path) as conn:
+        rows = conn.execute(
+            """
+            SELECT c.doc_id, c.signal_run_id
+              FROM document_classifications c
+              JOIN (
+                    SELECT doc_id, MAX(created_at) AS newest
+                      FROM document_classifications
+                     GROUP BY doc_id
+                   ) latest
+                ON latest.doc_id = c.doc_id AND latest.newest = c.created_at
+            """
+        ).fetchall()
+    return {r["doc_id"]: r["signal_run_id"] for r in rows}
+
+
 def get_classification_history(
     doc_id: str, db_path: str | Path = DEFAULT_DB_PATH
 ) -> list[dict]:

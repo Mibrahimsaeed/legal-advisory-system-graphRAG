@@ -404,14 +404,25 @@ def test_prompt_asks_only_for_a_broad_reading(taxonomy):
     assert "Lahore High Court" not in prompt  # court stays out of the representation
 
 
-def test_keyword_hint_is_labelled_as_a_hint(taxonomy, profiles):
+def test_the_prompt_carries_no_keyword_evidence(taxonomy, profiles):
+    """Superseded: the prompt used to append a labelled keyword "hint".
+
+    It was removed because Phase 5 weights keyword and LLM at 0.40 each as
+    two *independent* readings, and a model shown the keyword verdict
+    agrees with it more often than it would blind -- which quietly inflates
+    corroboration and suppresses the conflict rule. The signals now reach
+    the decision separately. See tests/test_pipeline_safety_fixes.py for
+    the end-to-end regression.
+    """
+
     rep = build_case_representation(_doc("d1", CRIMINAL_TEXT))
-    signals = detect_keyword_signals("d1", rep.signal_text, profiles)
+    prompt = build_assessment_prompt(rep, render_domain_definitions(taxonomy))
 
-    prompt = build_assessment_prompt(rep, render_domain_definitions(taxonomy), signals)
-
-    assert "lexical signal only" in prompt
-    assert "disagree" in prompt
+    lowered = prompt.lower()
+    assert "keyword" not in lowered
+    assert "lexical signal" not in lowered
+    # The document itself is still there.
+    assert "accused" in lowered
 
 
 # ---------------------------------------------------------------------------

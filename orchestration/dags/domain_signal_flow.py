@@ -36,8 +36,9 @@ from pathlib import Path
 import numpy as np
 
 from src.classification.case_representation import (
+    SIGNATURE_VERSION,
     CaseRepresentation,
-    build_case_representations,
+    build_case_representation,
 )
 from src.classification.domain_assessment import (
     ASSESSMENT_VERSION,
@@ -49,6 +50,10 @@ from src.classification.keyword_signals import (
     KeywordSignals,
     compile_profiles,
     detect_keyword_signals,
+)
+from src.classification.signature_store import (
+    get_case_signatures,
+    upsert_case_signatures,
 )
 from src.classification.signal_store import (
     build_signal_record,
@@ -89,6 +94,62 @@ class DomainSignalResult:
     def noise_share(self) -> float:
         total = len(self.representations)
         return self.noise_documents / total if total else 0.0
+
+
+def _build_or_reuse_signatures(
+    corpus: list,
+    db_path,
+    max_text_chars: int,
+    max_headings: int,
+) -> tuple[list[CaseRepresentation], dict[str, int]]:
+    """Get one signature per case, reusing the stored one where it still holds.
+
+    A stored signature is reused when its ``signature_version`` and the
+    source document's ``content_hash`` both match -- at that point the
+    reduction is correct by construction, so regenerating it could only
+    produce the same bytes. Anything else (re-scraped text, a new builder
+    version, no stored row) is built fresh and written.
+
+    Returns the representations plus the write outcomes, so a rerun over an
+    unchanged corpus visibly reports "unchanged" rather than silently
+    re-stamping every row.
+    """
+
+    stored = get_case_signatures([document.doc_id for document in corpus], db_path=db_path)
+    source_hashes = {d.doc_id: getattr(d, "content_hash", None) for d in corpus}
+
+    representations: list[CaseRepresentation] = []
+    fresh: list[CaseRepresentation] = []
+    reused = 0
+    empty = 0
+
+    for document in corpus:
+        signature = stored.get(document.doc_id)
+        if signature is not None and signature.is_current(
+            source_hashes.get(document.doc_id), version=SIGNATURE_VERSION
+        ):
+            representations.append(signature.to_representation())
+            reused += 1
+            continue
+
+        representation = build_case_representation(
+            document, max_text_chars=max_text_chars, max_headings=max_headings
+        )
+        # Same guard build_case_representations() applies: a document with
+        # nothing to embed would become a near-zero vector and cluster with
+        # every other empty one, so it is counted and dropped rather than
+        # stored or passed on.
+        if not representation.signal_text.strip():
+            empty += 1
+            continue
+        representations.append(representation)
+        fresh.append(representation)
+
+    outcomes = upsert_case_signatures(fresh, source_hashes, db_path=db_path)
+    outcomes["reused"] = reused
+    if empty:
+        logger.warning("Skipped %d document(s) with no representable text", empty)
+    return representations, outcomes
 
 
 def _cluster_corpus(
@@ -194,6 +255,7 @@ def run_domain_signals(
 
     init_schema(db_path=db_path, schema_file=settings.caselaw.representation_schema_file)
     init_schema(db_path=db_path, schema_file=signals_config.schema_file)
+    init_schema(db_path=db_path, schema_file=signals_config.signature_schema_file)
     # cluster_assignments lives in the domain-registry schema.
     init_schema(db_path=db_path, schema_file=discovery.domain_registry_schema_file)
 
@@ -210,8 +272,9 @@ def run_domain_signals(
     with log_context(batch_id=run_id, phase="domain_signals"):
         # -- corpus: Phase 2 drops are already excluded here -------------
         corpus = sorted(list_representations(db_path=db_path), key=lambda r: r.doc_id)
-        representations = build_case_representations(
+        representations, signature_outcomes = _build_or_reuse_signatures(
             corpus,
+            db_path=db_path,
             max_text_chars=signals_config.max_text_chars,
             max_headings=signals_config.max_headings,
         )
@@ -219,8 +282,9 @@ def run_domain_signals(
             representations = representations[:limit]
 
         logger.info(
-            "Signal run %s: %d document(s) in corpus, %d representable",
-            run_id, len(corpus), len(representations),
+            "Signal run %s: %d document(s) in corpus, %d representable "
+            "(signatures: %s)",
+            run_id, len(corpus), len(representations), signature_outcomes,
         )
         checkpoint.complete_phase(
             "represent", state={"corpus": len(corpus), "represented": len(representations)}
@@ -296,12 +360,14 @@ def run_domain_signals(
 
                     assessment: DomainAssessment | None = None
                     if active_llm_client is not None:
+                        # No keyword_signals argument: the LLM must not see
+                        # the keyword verdict, or the two stop being the
+                        # independent readings Phase 5 weights them as (CI-7).
                         assessment = assess_domain(
                             representation,
                             taxonomy,
                             active_llm_client,
                             domain_block=domain_block,
-                            keyword_signals=keyword_signals,
                             prompt_chars=signals_config.llm_prompt_chars,
                             model_name=signals_config.llm_model,
                         )

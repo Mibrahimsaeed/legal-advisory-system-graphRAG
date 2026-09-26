@@ -36,6 +36,12 @@ logger = get_logger(__name__)
 # How much substantive text the representation carries. Generous enough
 # that a full judgment normally fits, bounded so one enormous document
 # cannot dominate a batch's memory or an LLM prompt.
+# Bump when the reduction rules change (field selection, ordering,
+# truncation), so a stored signature built by older rules is never mistaken
+# for a current one -- src.classification.signature_store checks it before
+# reusing a row.
+SIGNATURE_VERSION = "case_signature/1.0"
+
 DEFAULT_MAX_TEXT_CHARS = 20_000
 DEFAULT_MAX_HEADINGS = 20
 

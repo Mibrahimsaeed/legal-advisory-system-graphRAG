@@ -38,6 +38,7 @@ rather than keeping a second copy of the rules.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 
 from src.classification.taxonomy_registry import OTHER_DOMAIN_ID
 
@@ -242,6 +243,85 @@ def route(summary: ScoreSummary, thresholds: ReviewThresholds) -> Disposition:
         band=band,
         review_reasons=tuple(dict.fromkeys(reasons)),
     )
+
+
+# Statuses Phase 5 must never write over, regardless of configuration.
+#
+# `dropped_procedural` is Phase 2's structural verdict: the document was
+# found to be a cause list, an office report, an adjournment slip or an
+# incomplete scrape. Phase 3 evidence gathered *before* that verdict is
+# stale by definition, and using it to write `auto_accepted` would put
+# non-judgments into the corpus. This is an invariant rather than a
+# setting: `review.protect_statuses` is a deliberate operator choice, but
+# reviving a structural drop is never a choice worth offering.
+PHASE_5_INELIGIBLE_STATUSES = frozenset({"dropped_procedural"})
+
+
+def is_eligible_for_decision(current_status: str | None) -> bool:
+    """Whether Phase 5 may write a decision onto a document in this state.
+
+    ``None`` means the document is not in ``document_representations`` at
+    all -- there is nothing to write to, so it is not eligible either.
+    """
+
+    if current_status is None:
+        return False
+    return current_status not in PHASE_5_INELIGIBLE_STATUSES
+
+
+def _parse_timestamp(value: str | None) -> datetime | None:
+    """Parse a stored timestamp tolerantly.
+
+    Rows written by this codebase carry ``datetime.now(timezone.utc)
+    .isoformat()``. A row created by SQLite's ``DEFAULT CURRENT_TIMESTAMP``
+    instead carries ``YYYY-MM-DD HH:MM:SS`` with no zone, so both shapes
+    are accepted rather than compared as strings -- a lexicographic
+    comparison across the two formats would be silently wrong.
+    """
+
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(value.replace(" ", "T", 1))
+    except ValueError:
+        return None
+    return parsed.replace(tzinfo=timezone.utc) if parsed.tzinfo is None else parsed
+
+
+def evidence_is_stale(
+    signal_created_at: str | None,
+    state_updated_at: str | None,
+    state_signal_run_id: str | None,
+    signal_run_id: str | None,
+) -> bool:
+    """Whether the evidence predates the document's current state.
+
+    Phase 3 gathers evidence at one moment; Phase 5 may run much later,
+    and in between the document's state can move -- Phase 2 re-runs and
+    drops it, a reviewer rejects it, a newer decision run re-classifies it.
+    Writing an old verdict over a newer state would silently undo whichever
+    of those happened.
+
+    The comparison is not simply "is the state newer than the evidence",
+    because Phase 5's *own* write makes the state newer than the evidence
+    every time -- that alone would make a document undecidable a second
+    time and break resuming a run. So a state newer than the evidence is
+    stale **unless it was produced from this same evidence**, which
+    ``document_classifications.signal_run_id`` records.
+
+    Returns False when either timestamp is unavailable: refusing to write
+    on missing metadata would block the ordinary first pass.
+    """
+
+    signal_at = _parse_timestamp(signal_created_at)
+    state_at = _parse_timestamp(state_updated_at)
+    if signal_at is None or state_at is None:
+        return False
+    if state_at <= signal_at:
+        # The state predates the evidence: the evidence is the newer fact.
+        return False
+    # The state is newer. Only this run's own evidence may have written it.
+    return state_signal_run_id != signal_run_id
 
 
 def is_protected(

@@ -630,6 +630,7 @@ def flow_settings(monkeypatch, tmp_path):
             classification=real.classification,
             caselaw=real.caselaw,
             review=real.review,
+            cluster_validation=real.cluster_validation,
             pipeline=SimpleNamespace(checkpoint_dir=tmp_path / "checkpoints"),
             metrics=SimpleNamespace(db_path=tmp_path / "metrics.db"),
         ),
