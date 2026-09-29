@@ -1,0 +1,368 @@
+{
+  "run_id": "sig_pilot",
+  "n_documents": 187,
+  "verdict": "not_evaluable",
+  "cluster_is_a_useful_signal": false,
+  "best": {
+    "run_id": "sig_pilot",
+    "n_documents": 187,
+    "n_clusters": 5,
+    "clustered_documents": 185,
+    "noise_documents": 2,
+    "labels_present": [],
+    "label_distribution": {},
+    "baseline_majority_share": 0.0,
+    "weighted_purity": 0.0,
+    "purity_lift": 0.0,
+    "adjusted_rand_index": null,
+    "normalized_mutual_info": null,
+    "per_cluster": [],
+    "per_label_recall": {},
+    "contingency": {},
+    "verdict": "not_evaluable",
+    "verdict_reasons": [
+      "no source-folder labels available"
+    ],
+    "parameters": {
+      "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+      "umap_n_components": 50,
+      "umap_n_neighbors": 15,
+      "umap_metric": "cosine",
+      "umap_min_docs": 50,
+      "umap_applied": true,
+      "hdbscan_min_cluster_size": 5,
+      "hdbscan_min_samples": null,
+      "hdbscan_metric": "euclidean"
+    },
+    "label_source": "source_folder(depth=1)",
+    "notes": [
+      "187 document(s) had no source-folder label and were excluded"
+    ],
+    "noise_share": 0.0106951871657754,
+    "coverage": 0.9893048128342246,
+    "mixed_cluster_ids": [],
+    "cluster_is_a_useful_signal": false
+  },
+  "sweep": [
+    {
+      "run_id": "sig_pilot",
+      "n_documents": 187,
+      "n_clusters": 5,
+      "clustered_documents": 185,
+      "noise_documents": 2,
+      "labels_present": [],
+      "label_distribution": {},
+      "baseline_majority_share": 0.0,
+      "weighted_purity": 0.0,
+      "purity_lift": 0.0,
+      "adjusted_rand_index": null,
+      "normalized_mutual_info": null,
+      "per_cluster": [],
+      "per_label_recall": {},
+      "contingency": {},
+      "verdict": "not_evaluable",
+      "verdict_reasons": [
+        "no source-folder labels available"
+      ],
+      "parameters": {
+        "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+        "umap_n_components": 50,
+        "umap_n_neighbors": 15,
+        "umap_metric": "cosine",
+        "umap_min_docs": 50,
+        "umap_applied": true,
+        "hdbscan_min_cluster_size": 5,
+        "hdbscan_min_samples": null,
+        "hdbscan_metric": "euclidean"
+      },
+      "label_source": "source_folder(depth=1)",
+      "notes": [
+        "187 document(s) had no source-folder label and were excluded"
+      ],
+      "noise_share": 0.0106951871657754,
+      "coverage": 0.9893048128342246,
+      "mixed_cluster_ids": [],
+      "cluster_is_a_useful_signal": false
+    },
+    {
+      "run_id": "sig_pilot",
+      "n_documents": 187,
+      "n_clusters": 5,
+      "clustered_documents": 185,
+      "noise_documents": 2,
+      "labels_present": [],
+      "label_distribution": {},
+      "baseline_majority_share": 0.0,
+      "weighted_purity": 0.0,
+      "purity_lift": 0.0,
+      "adjusted_rand_index": null,
+      "normalized_mutual_info": null,
+      "per_cluster": [],
+      "per_label_recall": {},
+      "contingency": {},
+      "verdict": "not_evaluable",
+      "verdict_reasons": [
+        "no source-folder labels available"
+      ],
+      "parameters": {
+        "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+        "umap_n_components": 50,
+        "umap_n_neighbors": 15,
+        "umap_metric": "cosine",
+        "umap_min_docs": 50,
+        "umap_applied": true,
+        "hdbscan_min_cluster_size": 5,
+        "hdbscan_min_samples": 5,
+        "hdbscan_metric": "euclidean"
+      },
+      "label_source": "source_folder(depth=1)",
+      "notes": [
+        "187 document(s) had no source-folder label and were excluded"
+      ],
+      "noise_share": 0.0106951871657754,
+      "coverage": 0.9893048128342246,
+      "mixed_cluster_ids": [],
+      "cluster_is_a_useful_signal": false
+    },
+    {
+      "run_id": "sig_pilot",
+      "n_documents": 187,
+      "n_clusters": 4,
+      "clustered_documents": 184,
+      "noise_documents": 3,
+      "labels_present": [],
+      "label_distribution": {},
+      "baseline_majority_share": 0.0,
+      "weighted_purity": 0.0,
+      "purity_lift": 0.0,
+      "adjusted_rand_index": null,
+      "normalized_mutual_info": null,
+      "per_cluster": [],
+      "per_label_recall": {},
+      "contingency": {},
+      "verdict": "not_evaluable",
+      "verdict_reasons": [
+        "no source-folder labels available"
+      ],
+      "parameters": {
+        "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+        "umap_n_components": 50,
+        "umap_n_neighbors": 15,
+        "umap_metric": "cosine",
+        "umap_min_docs": 50,
+        "umap_applied": true,
+        "hdbscan_min_cluster_size": 10,
+        "hdbscan_min_samples": null,
+        "hdbscan_metric": "euclidean"
+      },
+      "label_source": "source_folder(depth=1)",
+      "notes": [
+        "187 document(s) had no source-folder label and were excluded"
+      ],
+      "noise_share": 0.016042780748663103,
+      "coverage": 0.983957219251337,
+      "mixed_cluster_ids": [],
+      "cluster_is_a_useful_signal": false
+    },
+    {
+      "run_id": "sig_pilot",
+      "n_documents": 187,
+      "n_clusters": 4,
+      "clustered_documents": 185,
+      "noise_documents": 2,
+      "labels_present": [],
+      "label_distribution": {},
+      "baseline_majority_share": 0.0,
+      "weighted_purity": 0.0,
+      "purity_lift": 0.0,
+      "adjusted_rand_index": null,
+      "normalized_mutual_info": null,
+      "per_cluster": [],
+      "per_label_recall": {},
+      "contingency": {},
+      "verdict": "not_evaluable",
+      "verdict_reasons": [
+        "no source-folder labels available"
+      ],
+      "parameters": {
+        "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+        "umap_n_components": 50,
+        "umap_n_neighbors": 15,
+        "umap_metric": "cosine",
+        "umap_min_docs": 50,
+        "umap_applied": true,
+        "hdbscan_min_cluster_size": 10,
+        "hdbscan_min_samples": 5,
+        "hdbscan_metric": "euclidean"
+      },
+      "label_source": "source_folder(depth=1)",
+      "notes": [
+        "187 document(s) had no source-folder label and were excluded"
+      ],
+      "noise_share": 0.0106951871657754,
+      "coverage": 0.9893048128342246,
+      "mixed_cluster_ids": [],
+      "cluster_is_a_useful_signal": false
+    },
+    {
+      "run_id": "sig_pilot",
+      "n_documents": 187,
+      "n_clusters": 4,
+      "clustered_documents": 183,
+      "noise_documents": 4,
+      "labels_present": [],
+      "label_distribution": {},
+      "baseline_majority_share": 0.0,
+      "weighted_purity": 0.0,
+      "purity_lift": 0.0,
+      "adjusted_rand_index": null,
+      "normalized_mutual_info": null,
+      "per_cluster": [],
+      "per_label_recall": {},
+      "contingency": {},
+      "verdict": "not_evaluable",
+      "verdict_reasons": [
+        "no source-folder labels available"
+      ],
+      "parameters": {
+        "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+        "umap_n_components": 50,
+        "umap_n_neighbors": 15,
+        "umap_metric": "cosine",
+        "umap_min_docs": 50,
+        "umap_applied": true,
+        "hdbscan_min_cluster_size": 15,
+        "hdbscan_min_samples": null,
+        "hdbscan_metric": "euclidean"
+      },
+      "label_source": "source_folder(depth=1)",
+      "notes": [
+        "187 document(s) had no source-folder label and were excluded"
+      ],
+      "noise_share": 0.0213903743315508,
+      "coverage": 0.9786096256684492,
+      "mixed_cluster_ids": [],
+      "cluster_is_a_useful_signal": false
+    },
+    {
+      "run_id": "sig_pilot",
+      "n_documents": 187,
+      "n_clusters": 4,
+      "clustered_documents": 185,
+      "noise_documents": 2,
+      "labels_present": [],
+      "label_distribution": {},
+      "baseline_majority_share": 0.0,
+      "weighted_purity": 0.0,
+      "purity_lift": 0.0,
+      "adjusted_rand_index": null,
+      "normalized_mutual_info": null,
+      "per_cluster": [],
+      "per_label_recall": {},
+      "contingency": {},
+      "verdict": "not_evaluable",
+      "verdict_reasons": [
+        "no source-folder labels available"
+      ],
+      "parameters": {
+        "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+        "umap_n_components": 50,
+        "umap_n_neighbors": 15,
+        "umap_metric": "cosine",
+        "umap_min_docs": 50,
+        "umap_applied": true,
+        "hdbscan_min_cluster_size": 15,
+        "hdbscan_min_samples": 5,
+        "hdbscan_metric": "euclidean"
+      },
+      "label_source": "source_folder(depth=1)",
+      "notes": [
+        "187 document(s) had no source-folder label and were excluded"
+      ],
+      "noise_share": 0.0106951871657754,
+      "coverage": 0.9893048128342246,
+      "mixed_cluster_ids": [],
+      "cluster_is_a_useful_signal": false
+    },
+    {
+      "run_id": "sig_pilot",
+      "n_documents": 187,
+      "n_clusters": 3,
+      "clustered_documents": 183,
+      "noise_documents": 4,
+      "labels_present": [],
+      "label_distribution": {},
+      "baseline_majority_share": 0.0,
+      "weighted_purity": 0.0,
+      "purity_lift": 0.0,
+      "adjusted_rand_index": null,
+      "normalized_mutual_info": null,
+      "per_cluster": [],
+      "per_label_recall": {},
+      "contingency": {},
+      "verdict": "not_evaluable",
+      "verdict_reasons": [
+        "no source-folder labels available"
+      ],
+      "parameters": {
+        "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+        "umap_n_components": 50,
+        "umap_n_neighbors": 15,
+        "umap_metric": "cosine",
+        "umap_min_docs": 50,
+        "umap_applied": true,
+        "hdbscan_min_cluster_size": 25,
+        "hdbscan_min_samples": null,
+        "hdbscan_metric": "euclidean"
+      },
+      "label_source": "source_folder(depth=1)",
+      "notes": [
+        "187 document(s) had no source-folder label and were excluded"
+      ],
+      "noise_share": 0.0213903743315508,
+      "coverage": 0.9786096256684492,
+      "mixed_cluster_ids": [],
+      "cluster_is_a_useful_signal": false
+    },
+    {
+      "run_id": "sig_pilot",
+      "n_documents": 187,
+      "n_clusters": 3,
+      "clustered_documents": 185,
+      "noise_documents": 2,
+      "labels_present": [],
+      "label_distribution": {},
+      "baseline_majority_share": 0.0,
+      "weighted_purity": 0.0,
+      "purity_lift": 0.0,
+      "adjusted_rand_index": null,
+      "normalized_mutual_info": null,
+      "per_cluster": [],
+      "per_label_recall": {},
+      "contingency": {},
+      "verdict": "not_evaluable",
+      "verdict_reasons": [
+        "no source-folder labels available"
+      ],
+      "parameters": {
+        "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+        "umap_n_components": 50,
+        "umap_n_neighbors": 15,
+        "umap_metric": "cosine",
+        "umap_min_docs": 50,
+        "umap_applied": true,
+        "hdbscan_min_cluster_size": 25,
+        "hdbscan_min_samples": 5,
+        "hdbscan_metric": "euclidean"
+      },
+      "label_source": "source_folder(depth=1)",
+      "notes": [
+        "187 document(s) had no source-folder label and were excluded"
+      ],
+      "noise_share": 0.0106951871657754,
+      "coverage": 0.9893048128342246,
+      "mixed_cluster_ids": [],
+      "cluster_is_a_useful_signal": false
+    }
+  ]
+}

@@ -1,8 +1,15 @@
-"""The Stage 1 output record: a lightweight per-document "signature".
+"""The legacy PDF/book Stage 1 output record: a per-document "signature".
 
 Deliberately excludes full document text -- only ``doc_id``, ``source_uri``,
 a content hash, scan/extraction status flags, and the bounded title/TOC/
 body-preview fields described in the Phase 1 spec are ever persisted.
+
+NOT part of the active case-law pipeline. Case law produces a
+:class:`~src.extraction.doc_representation.DocumentRepresentation`
+instead (no pages, no OCR, no signature hash). This module is kept --
+unchanged apart from the :attr:`DocumentSignature.headings` alias below
+-- for the PDF/book corpus, which is still runnable via
+``discovery.corpus_source='signatures'``.
 """
 
 from __future__ import annotations
@@ -31,6 +38,19 @@ class DocumentSignature:
     quality_score: float = 0.0
     batch_id: str | None = None
     error: str | None = None
+
+    @property
+    def headings(self) -> list[str]:
+        """Alias for :attr:`toc`.
+
+        The shared classification path is typed against
+        :class:`~src.extraction.doc_representation.EmbeddableDocument`,
+        which calls this field ``headings`` (case law has section
+        headings, not a table of contents). This alias is what lets the
+        legacy signature record keep flowing through that path unchanged.
+        """
+
+        return self.toc
 
 
 def compute_signature_hash(

@@ -14,12 +14,75 @@ scratch:
 storage:
   backend: local
   local_root: var/local_storage
+  # Point this at the mount path of the external/USB/network disk holding
+  # the real corpus, e.g. "/Volumes/LegalDocs" or "/mnt/legal_docs". Left
+  # null by default -- src.ingestion.discovery.discover_local_documents
+  # requires it to be set before Stage 0 discovery can run.
+  source_root: "/Volumes/Dr. Iqbal SSD/LAW Data/English pdfs/BOOKS Law pdf"
+  checksum_mode: fast
+  file_extensions: [".pdf"]
 
 pipeline:
   batch_size: 500
   checkpoint_dir: var/checkpoints
-  phases: ["claim", "pull", "extract"]
+  phases: ["claim", "pull", "extract", "discover_domains"]
 
+# Active corpus: Pakistani case law, one folder per case holding
+# case.html + metadata.json. Point corpus_root at the directory holding
+# those folders (scanned recursively) before running
+# `python scripts/run_pipeline.py cases`.
+caselaw:
+  corpus_root: /Users/ibrahim/Desktop/extracted_pdfs_temp/raw_cases
+  case_html_filename: case.html
+  metadata_filename: metadata.json
+  body_preview_char_limit: 20000
+  max_headings: 50
+  representation_schema_file: schemas/document_representation_schema.sql
+
+discovery:
+  # "representations" = case law (document_representations, the active
+  # path); "signatures" = legacy PDF/book corpus (document_signatures).
+  corpus_source: representations
+  embedding_model_name: sentence-transformers/all-mpnet-base-v2
+  embedding_batch_size: 32
+  embedding_doc_batch_size: 256
+  title_weight: 2.0
+  toc_weight: 1.5
+  body_weight: 1.0
+  body_chunk_chars: 2000
+  max_body_chunks: 4
+  umap_n_components: 50
+  umap_n_neighbors: 15
+  umap_min_dist: 0.0
+  umap_metric: cosine
+  umap_min_docs: 50
+  hdbscan_min_cluster_size: 15
+  hdbscan_metric: euclidean
+  top_n_domains: 15
+  representative_docs_per_cluster: 8
+  keywords_per_cluster: 15
+  llm_model: qwen3:14b
+  llm_max_tokens: 1024
+  taxonomy_min_domain_docs: 15
+  taxonomy_min_domain_share: 0.02
+  taxonomy_uncertain_membership_probability: 0.5
+  taxonomy_output_dir: var/taxonomy
+  domain_registry_schema_file: schemas/domain_registry_schema.sql
+  review_output_dir: var/cluster_review
+  review_representative_docs_per_cluster: 25
+  review_max_sample_doc_ids: 50
+  # Cluster review (Stage 1.2a): sample size + cluster-triage thresholds.
+  review_sample_size: null
+  review_major_min_share: 0.05
+  review_mixed_max_mean_probability: 0.6
+  review_mixed_max_cohesion: 0.35
+  review_mixed_max_share: 0.5
+  review_relative_confidence_ratio: 0.8
+  review_court_dominance_threshold: 0.9
+
+
+# Legacy PDF/book signature stage. Not used by the case-law pipeline;
+# kept for orchestration/dags/feature_extraction_flow.py.
 extraction:
   max_pages: 15
   min_chars_per_page: 40
@@ -29,6 +92,255 @@ extraction:
   ocr_lang: eng
   body_preview_char_limit: 20000
   signature_schema_file: schemas/signature_schema.sql
+
+# Document-quality thresholds for the case-law corpus. Initial tunable
+# values, not scientifically derived. min_words is reserved for Phase 2.
+document:
+  min_characters: 1200
+  min_words: 250
+  # Phase 2 structural pre-filter thresholds.
+  incomplete_scrape_max_characters: 200
+  procedural_max_characters: 3000
+  cause_list_min_case_numbers: 8
+  cause_list_min_list_ratio: 0.30
+  substantive_min_markers: 2
+
+# Phase 3: case representation + domain signal generation. Gathers
+# evidence (cluster + keywords + broad LLM reading); Phase 4 decides.
+domain_signals:
+  schema_file: schemas/domain_signals_schema.sql
+  # Durable Phase 3 case signatures (the compact representation).
+  # NOT `document_signatures` -- that table belongs to the legacy
+  # PDF/book path and has a different shape.
+  signature_schema_file: schemas/case_signature_schema.sql
+  max_text_chars: 20000
+  max_headings: 20
+  batch_size: 25
+  min_keyword_matches: 2
+  llm_enabled: true
+  llm_model: qwen3:14b
+  # 256. The earlier 512 truncation predates think=false: qwen3's reasoning
+  # block was consuming the budget before the JSON. Measured over sig_pilot's
+  # 187 real responses the largest was 284 chars (~95 tokens), so 256 is ~2.7x
+  # the worst observed output. Requests also pin temperature=0, a fixed seed,
+  # format=json and think=false (src/common/llm_client.py).
+  llm_max_tokens: 256
+  llm_prompt_chars: 1500
+  # Broad concept profiles, validated against config/domains.yaml.
+  # High-level concepts only -- NOT a statute index.
+  profiles:
+    # Family Law: broad concepts grouped by the thing they identify, with
+    # the Pakistani transliterations and statute short-names that appear in
+    # real judgments. None of these is decisive on its own -- a document
+    # still has to clear min_keyword_matches, and the keyword result is one
+    # weighted signal among four in Phase 5.
+    family_law:
+      # -- marriage ----------------------------------------------------
+      - marriage
+      - nikah
+      - nikah nama
+      - nikahnama
+      - matrimonial
+      - marital
+      - spouse
+      - husband
+      - wife
+      # -- dissolution -------------------------------------------------
+      - divorce
+      - dissolution
+      - dissolution of marriage
+      - khula
+      - khul
+      - talaq
+      - talaqnama
+      - mubarat
+      # -- financial claims --------------------------------------------
+      - maintenance
+      - nafaqah
+      - dower
+      - mahr
+      - mehr
+      - meher
+      - haq mehr
+      - dowry
+      - dowry articles
+      - bridal gifts
+      - wife's property
+      - wife's belongings
+      # -- children ----------------------------------------------------
+      - custody
+      - hizanat
+      - hizaanat
+      - visitation
+      - guardian
+      - guardianship
+      - ward
+      - minor
+      - minor child
+      - welfare of the minor
+      # -- marital rights ----------------------------------------------
+      - conjugal rights
+      - restitution of conjugal rights
+      - jactitation of marriage
+      # -- family legislation ------------------------------------------
+      - family court
+      - judge family court
+      - family courts act
+      - muslim family laws
+      - muslim family laws ordinance
+      - mflo
+      - dissolution of muslim marriages act
+      - guardians and wards
+      - guardians and wards act
+      - child marriage restraint act
+      - dowry and bridal gifts (restriction) act
+    criminal_law:
+      - conviction
+      - acquittal
+      - bail
+      - sentence
+      - accused
+      - prosecution
+      - penal code
+      - narcotic
+      - fir
+      - investigating officer
+      - ocular account
+      - trial court
+      - offence
+      - charge
+      - complainant
+
+# Phase 4: blind cluster validation. Scores the Phase 3 clustering against
+# source-folder labels AFTER the fact and reports whether cluster
+# membership is a useful domain signal at all. Thresholds are tunable
+# defaults, not standards -- the report carries every raw measurement.
+cluster_validation:
+  output_dir: var/cluster_validation
+  label_folder_depth: 1
+  sweep_min_cluster_sizes: [5, 10, 15, 25]
+  sweep_min_samples: [0, 5]     # 0 = HDBSCAN default (min_cluster_size)
+  min_coverage: 0.50
+  min_purity_lift: 0.15
+  min_adjusted_rand: 0.10
+  min_label_recall: 0.50
+
+# Phase 5: multi-signal broad domain decision. Weighs the evidence
+# Phase 3 stored -- keyword profiles, the broad LLM reading, the cluster's
+# other members and the cause title -- into one verdict per document:
+# family_law / criminal_law / other_uncertain. Deterministic: no model
+# calls, so these values alone decide the outcome for given signals.
+domain_decision:
+  # Must sum to exactly 1.00. Note what is absent: no `statute` (there is
+  # no statute extraction), no `court` (forum, not subject) and no
+  # `source_folder` (Phase 4 validation ground truth -- never a
+  # classification signal).
+  weights:
+    keyword: 0.40
+    llm: 0.40
+    cluster: 0.15
+    title: 0.05
+  # Scores, not probabilities.
+  min_domain_score: 0.35     # below this -> other_uncertain
+  min_margin: 0.10           # inside this band the signals disagree -> review
+  auto_accept_threshold: 0.80
+  review_threshold: 0.50
+  # Drop as off-domain only on a confident LLM "neither" with no keyword
+  # evidence against it; otherwise uncertain documents are reviewed.
+  off_domain_drop_confidence: 0.70
+  # Weight that must have fired before a verdict can auto-accept. 0.50
+  # requires two substantive signals at the weights above -- one signal
+  # alone never auto-accepts. Thin evidence goes to review, not to a
+  # silently lowered score.
+  min_coverage: 0.50
+  min_cluster_members: 3
+  title_min_matches: 1
+  batch_size: 100
+
+# Phase 6: review routing and decision policy. The confidence bands live
+# in `domain_decision` above (one set of thresholds decides AND routes);
+# this section governs the review process itself.
+review:
+  schema_file: schemas/review_schema.sql
+  queue_output_dir: var/review_queue
+  # A rerun must not undo a human decision. The machine verdict is still
+  # written to the audit table either way -- it just does not take effect.
+  protect_reviewed: true
+  # Machine statuses a rerun must not overwrite. Empty: machine verdicts
+  # are meant to be recomputable. Set e.g. ["auto_accepted"] to pin a
+  # slice of the corpus while tuning thresholds.
+  protect_statuses: []
+
+# Phase 7: evaluation against a manually reviewed validation set, and the
+# dataset freeze. These thresholds are this project's choices, not
+# standards; every raw measurement is reported alongside the verdict.
+#
+# Note what is NOT here: no cluster purity or noise threshold. Clustering
+# does not gate corpus acceptance -- it measures structure in an embedding
+# space, not correctness against law. Those numbers are diagnostics.
+evaluation:
+  output_dir: var/evaluation
+  freeze_schema_file: schemas/corpus_freeze_schema.sql
+  # Unset: gold labels come from the Phase 6 review ledger, which also
+  # records who decided each one. Point at a CSV/JSON to use external labels.
+  labels_file: null
+  # Below these, the evaluation reports "not_evaluable" rather than a
+  # score. Refusing to answer is the honest outcome of a thin sample.
+  min_validation_documents: 100
+  min_validation_per_domain: 25
+  comfortable_validation_documents: 200
+  # What counts as good enough, per domain.
+  min_domain_f1: 0.75
+  min_accepted_per_domain: 200
+  # A reservation, never a blocker.
+  min_llm_agreement: 0.70
+  # 100% of needs_review is an obligation with no setting. These are the
+  # spot-check sizes for documents a reviewer would otherwise never see.
+  audit_sample_per_domain: 30
+  audit_sample_other_uncertain: 20
+  audit_sample_dropped: 10
+  audit_seed: 42
+
+# Legal-BERT ENCODER settings. This is not a classifier: the base model
+# has no task head and cannot map text to a domain. A head must be
+# fine-tuned on human-reviewed labels first -- none exist yet, so
+# classifier_checkpoint stays null and the loader refuses rather than
+# emitting untrained scores. See src/classification/legal_bert.py.
+legal_bert:
+  model_name: nlpaueb/legal-bert-base-uncased
+  # Hard ceiling: BERT has 512 positional embeddings. At this limit the
+  # encoder sees roughly the first 2,000 characters of a case signature.
+  max_length: 512
+  batch_size: 8
+  # cpu by default so a run is portable; set to mps or cuda where available.
+  device: cpu
+  classifier_checkpoint: null
+
+# Stage 2: full-corpus classification against the FROZEN taxonomy.
+classification:
+  taxonomy_file: config/domains.yaml
+  schema_file: schemas/classification_schema.sql
+  batch_size: 25
+  pilot_size: 25
+  llm_model: qwen3:14b
+  # 512 truncated JSON mid-justification during the pilot; see
+  # src/common/config.py ClassificationSettings.
+  llm_max_tokens: 1024
+  body_chars: 3000
+  # SUPERSEDED by the `domain_decision` section above -- the Phase 5
+  # engine reads that one. These stay so existing config still validates;
+  # nothing consumes them.
+  auto_accept_threshold: 0.80
+  review_threshold: 0.50
+  signals:
+    statute: 0.45
+    cluster: 0.25
+    court: 0.15
+    source_folder: 0.10
+    title: 0.05
+  min_confidence: 0.6
+  review_multi_domain: true
+  review_other_bucket: true
 
 retry:
   max_attempts: 3
@@ -43,3 +355,8 @@ logging:
 
 metrics:
   db_path: var/metrics.db
+
+
+
+
+  

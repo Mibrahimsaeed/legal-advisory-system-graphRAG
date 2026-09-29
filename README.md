@@ -1,3 +1,38 @@
+python scripts/run_pipeline.py cases
+
+python scripts/run_pipeline.py signals --run-id sig_full
+
+python scripts/run_pipeline.py validate-clusters --run-id sig_full
+
+
+
+
+
+python scripts/run_pipeline.py decide \
+
+  --run-id dec_full \
+
+  --signal-run-id sig_full \
+
+  --no-cluster-signal
+
+
+
+<!-- 
+# 1. Ingest 200 case-law documents into SQLite
+python scripts/run_pipeline.py cases --limit 200
+
+# 2. Generate case signatures + MPNet embeddings + HDBSCAN + Keywords + Qwen signals
+python scripts/run_pipeline.py signals --run-id sig_pilot
+
+# 3. Validate whether HDBSCAN clusters are useful as a classification signal
+python scripts/run_pipeline.py validate-clusters --run-id sig_pilot
+
+# 4. Combine all signals and produce the final machine classification
+python scripts/run_pipeline.py decide \
+  --run-id dec_pilot \
+  --signal-run-id sig_pilot -->
+
 ## Table of Contents
 
 - Project Overview  
@@ -354,3 +389,51 @@ The knowledge graph represents structured relationships between legal entities.
     ├── architecture.md                 # the pipeline diagram + stage descriptions
     ├── data_retention_policy.md        # explicit no-raw-data-in-repo rules, TTLs
     └── domain_taxonomy.md              # evolving record of merged domain definitions
+
+
+
+
+    updatye llmclient file
+    anthropic to suitable llm
+    
+
+
+
+
+
+
+
+PHASE 6 — Full Case-Law Domain Classification
+
+The taxonomy has now been reviewed and frozen.
+
+Goal:
+Assign domain labels to the complete case-law corpus.
+
+For each document persist:
+
+- doc_id
+- cluster_id
+- primary_domain
+- secondary_domains if supported
+- confidence
+- justification
+- classifier/model version
+- taxonomy version
+- timestamp
+
+Requirements:
+
+1. Use the frozen taxonomy.
+2. Preserve resumability.
+3. Process in batches.
+4. Validate structured classifier output.
+5. Route low-confidence/ambiguous cases to review instead of blindly forcing labels.
+6. Preserve existing SQL architecture where possible.
+7. Never overwrite historical classification results without versioning.
+8. Add appropriate tests.
+9. Run a pilot batch before full execution.
+
+Do NOT begin RAG implementation.
+
+STOP after classification and report quality statistics.

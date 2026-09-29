@@ -1,0 +1,95 @@
+# FROZEN DOMAIN REGISTRY
+#
+# The authoritative list of legal domains a document may be classified
+# into. Loaded and validated by src/classification/taxonomy_registry.py;
+# every classification row stamps the version below, so a label can
+# always be read back against the definitions that produced it.
+#
+# This is the Phase 1 *initial* registry: the minimum needed for the
+# Family / Criminal / Other-Uncertain split. It was written by hand, not
+# derived from clustering, and the boundary criteria below are starting
+# points to be refined once real cases have been reviewed. Adding a
+# domain is a deliberate edit here plus a new classification run_id --
+# domain values are intentionally NOT constrained in SQL so the taxonomy
+# can grow without a schema migration.
+
+version: caselaw_family_criminal@v1
+frozen_at: '2026-09-04T00:00:00+00:00'
+
+notes:
+  - "Phase 1 initial registry. Domains are hand-defined, not cluster-derived."
+  - "Cases spanning both domains (domestic violence, s.489-F arising from
+     maintenance, Zina/Hudood, custody vs. abduction) are expected: record the
+     second domain as a secondary domain rather than forcing a single label."
+
+domains:
+  - id: family_law
+    name: Family Law
+    description: >-
+      Matrimonial and family proceedings under the Muslim Family Laws
+      Ordinance, 1961, the West Pakistan Family Courts Act, 1964 and the
+      Guardians and Wards Act, 1890 -- dissolution of marriage, dower and
+      dowry, maintenance, custody and guardianship of minors.
+    inclusion_criteria:
+      - Suits or appeals for dower, dowry articles or maintenance allowance
+      - Dissolution of marriage, including khula
+      - Custody, guardianship or visitation of minors
+      - Proceedings before a Family Court or on appeal from one
+      - Nikahnama, talaq and related matrimonial instruments in issue
+    exclusion_criteria:
+      - Inheritance and succession suits outside family court jurisdiction
+      - Criminal prosecutions arising from a family dispute where the case
+        is decided as a criminal matter (classify as criminal_law, with
+        family_law as a secondary domain)
+      - Property or partition disputes between relatives that raise no
+        matrimonial or custody question
+    keywords:
+      - dower
+      - dowry
+      - maintenance
+      - khula
+      - custody
+      - guardian
+      - nikahnama
+      - family court
+
+  - id: criminal_law
+    name: Criminal Law
+    description: >-
+      Prosecutions, appeals, revisions and bail matters under the Pakistan
+      Penal Code, 1860, the Code of Criminal Procedure, 1898 and special
+      criminal statutes, including narcotics and anti-terrorism law.
+    inclusion_criteria:
+      - Appeals or revisions against conviction or acquittal
+      - Bail petitions, pre-arrest and post-arrest
+      - Offences under the Pakistan Penal Code or a special criminal statute
+      - Appraisal of ocular, medical or forensic evidence
+      - Proceedings under the Control of Narcotic Substances Act, 1997
+    exclusion_criteria:
+      - Civil suits for damages arising from the same facts
+      - Departmental or service disciplinary proceedings that are not
+        criminal prosecutions
+      - Family proceedings that mention a criminal complaint only in
+        passing (classify as family_law, with criminal_law as secondary)
+    keywords:
+      - conviction
+      - acquittal
+      - bail
+      - sentence
+      - prosecution
+      - penal code
+      - narcotic
+      - evidence
+
+  - id: other_uncertain
+    name: Other / Uncertain
+    description: >-
+      The case does not clearly belong to any domain above, or belongs to
+      a legal area outside the current scope (civil, tax, service,
+      constitutional, rent, banking). Always available to the classifier
+      so that a poor fit is never forced into family_law or criminal_law.
+    inclusion_criteria:
+      - Subject matter outside the domains defined above
+      - Genuinely ambiguous cases requiring human review
+    exclusion_criteria:
+      - Cases that clearly satisfy a defined domain's inclusion criteria
