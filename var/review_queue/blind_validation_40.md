@@ -12469,6 +12469,15 @@ wife. In other words, it was further explained, the judgment of the Family
 Court would not be relevant against other accused persons standing trial for an
 offence in which the relationship of husband and wife is not at issue."
 
+
+
+
+
+
+
+
+
+\
 Learned counsel took up the
 position that "Section S of the Family Courts Act read with item 7 of
 Schedule (Jactitation of Marriage) does not confer exclusive jurisdiction on

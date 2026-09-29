@@ -343,10 +343,22 @@ def test_the_llm_request_is_greedy_seeded_json_and_not_thinking():
     assert call["think"] is False
 
 
-def test_the_token_budget_is_1024_not_the_512_that_truncated_json():
-    """512 let qwen3's reasoning block consume the whole budget."""
+def test_the_token_budget_is_256_which_the_measured_json_fits_inside():
+    """256, and the 512 truncation history does not apply to it.
 
-    assert get_settings().domain_signals.llm_max_tokens == 1024
+    512 truncated only while qwen3's reasoning block was still enabled and
+    spent the budget before emitting any JSON; ``think=False`` (asserted
+    above) removed that. The required response is three short keys, and
+    across sig_pilot's 187 real assessments the largest the model produced
+    was 284 chars -- about 95 tokens even at a pessimistic 3 chars/token --
+    so 256 carries roughly 160 tokens of headroom.
+
+    Both values are pinned because they are set in different places: the
+    effective budget comes from configuration, while the client's own
+    default is what an ad-hoc caller gets.
+    """
+
+    assert get_settings().domain_signals.llm_max_tokens == 256
     assert OllamaLLMClient(model="m").max_tokens == 1024
 
 

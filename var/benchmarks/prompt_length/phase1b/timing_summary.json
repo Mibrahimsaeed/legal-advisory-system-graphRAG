@@ -1,0 +1,66 @@
+{
+  "block_stats": {
+    "3000": {
+      "n": 100,
+      "successful": 99,
+      "failed": 1,
+      "mean": 10.119,
+      "median": 9.826,
+      "p90": 12.992,
+      "min": 5.037,
+      "max": 19.02,
+      "total_seconds": 1011.9,
+      "cases_per_minute": 5.93
+    },
+    "1500": {
+      "n": 100,
+      "successful": 99,
+      "failed": 1,
+      "mean": 7.542,
+      "median": 7.53,
+      "p90": 9.524,
+      "min": 3.57,
+      "max": 11.692,
+      "total_seconds": 754.2,
+      "cases_per_minute": 7.96
+    },
+    "1000": {
+      "n": 100,
+      "successful": 100,
+      "failed": 0,
+      "mean": 7.013,
+      "median": 6.867,
+      "p90": 9.05,
+      "min": 3.572,
+      "max": 11.247,
+      "total_seconds": 701.3,
+      "cases_per_minute": 8.56
+    }
+  },
+  "paired": {
+    "n_complete_triples": 100,
+    "1500_minus_3000": {
+      "mean_delta_seconds": -2.577,
+      "median_delta_seconds": -2.287,
+      "mean_pct_change": -23.3,
+      "median_pct_change": -23.5,
+      "n_faster": 89,
+      "n_slower": 11,
+      "n_unchanged": 0
+    },
+    "1000_minus_3000": {
+      "mean_delta_seconds": -3.106,
+      "median_delta_seconds": -3.237,
+      "mean_pct_change": -28.4,
+      "median_pct_change": -33.5,
+      "n_faster": 94,
+      "n_slower": 6,
+      "n_unchanged": 0
+    }
+  },
+  "call_order_mean_seconds": {
+    "1": 9.669,
+    "2": 7.443,
+    "3": 7.563
+  }
+}

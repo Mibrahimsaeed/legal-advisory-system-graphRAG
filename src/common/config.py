@@ -493,11 +493,16 @@ class DomainSignalSettings(BaseModel):
     )
     llm_model: str = "qwen3:14b"
     llm_max_tokens: int = Field(
-        default=1024,
+        default=256,
         gt=0,
         description=(
-            "1024, not 512: qwen3 is a thinking model whose reasoning block "
-            "consumed a 512-token budget before emitting the JSON."
+            "256. The historical 512 truncation happened while qwen3's "
+            "reasoning block was still enabled and consumed the budget "
+            "before any JSON was emitted; `think=False` removed that. "
+            "Measured over the 187 assessments of the sig_pilot run, the "
+            "largest response the model actually produced was 284 chars "
+            "(~95 tokens at a pessimistic 3 chars/token), so 256 leaves "
+            "roughly 160 tokens of headroom on the worst observed case."
         ),
     )
     llm_prompt_chars: int = Field(

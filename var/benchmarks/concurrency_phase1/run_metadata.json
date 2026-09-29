@@ -1,0 +1,19 @@
+{
+  "phase": "concurrency_phase1",
+  "model": "qwen3:14b",
+  "temperature": 0.0,
+  "seed": 42,
+  "think": false,
+  "json_format": true,
+  "num_predict": 256,
+  "prompt_chars": 1500,
+  "assessment_version": "domain_assessment/2.0",
+  "worker_configs": [
+    1,
+    2
+  ],
+  "manifest": "/Users/ibrahim/Desktop/legal_advisory_system/legal-advisory-system-graphRAG/var/benchmarks/prompt_length/sample_manifest.json",
+  "n_documents": 100,
+  "note": "Ollama backend observed for this run may have been launched with llama-server -np 1 (one parallel inference slot); see run log / ollama_server_check.json for the actual value captured at run time.",
+  "started_at": "2026-09-27T20:48:04.732967+00:00"
+}

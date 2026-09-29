@@ -227,10 +227,27 @@ def test_bands_come_from_configuration():
 
 
 def test_acceptance_endorses_the_machine_domain():
+    for target in ("family_law", "criminal_law"):
+        status, domain, drop = policy.resolve_human_decision(
+            policy.REVIEW_ACCEPTED, machine_domain=target
+        )
+        assert (status, domain, drop) == (policy.STATUS_AUTO_ACCEPTED, target, None)
+
+
+def test_accepting_the_catch_all_withholds_rather_than_accepts():
+    """Endorsing ``other_uncertain`` is a finding of "neither", not an accept.
+
+    Regression: this returned ``auto_accepted`` with the domain nulled
+    downstream, so a document the reviewer had said belongs to neither
+    target domain sat in the accepted corpus carrying no domain at all.
+    """
+
     status, domain, drop = policy.resolve_human_decision(
-        policy.REVIEW_ACCEPTED, machine_domain="criminal_law"
+        policy.REVIEW_ACCEPTED, machine_domain=OTHER_DOMAIN_ID
     )
-    assert (status, domain, drop) == (policy.STATUS_AUTO_ACCEPTED, "criminal_law", None)
+    assert status == policy.STATUS_DROPPED_OFF_DOMAIN
+    assert domain == OTHER_DOMAIN_ID
+    assert drop == policy.DROP_REASON_OFF_DOMAIN
 
 
 def test_correction_replaces_the_domain():
@@ -557,6 +574,25 @@ def test_applying_a_correction_moves_the_document(db, flow_settings, profiles):
     rep = get_representation("mixed_0", db_path=db)
     assert rep.primary_domain == "criminal_law"
     assert rep.classification_status == CLASSIFICATION_STATUS_AUTO_ACCEPTED
+
+
+def test_accepting_the_catch_all_stores_no_domain_and_withholds(db, flow_settings, profiles):
+    """The F1 regression, end to end: status withheld, primary_domain NULL."""
+
+    _seed(db, profiles)
+    run_domain_classification("run1", "sig1", db_path=db)
+
+    apply_review_decisions(
+        [{
+            "doc_id": "thin_0", "decision": policy.REVIEW_ACCEPTED,
+            "machine_domain": OTHER_DOMAIN_ID, "reviewer": "ibrahim",
+        }],
+        db_path=db, decision_run_id="run1",
+    )
+    rep = get_representation("thin_0", db_path=db)
+    assert rep.classification_status == policy.STATUS_DROPPED_OFF_DOMAIN
+    assert rep.primary_domain is None
+    assert rep.drop_reason == policy.DROP_REASON_OFF_DOMAIN
 
 
 def test_review_stats_measure_agreement_honestly(db, flow_settings, profiles):

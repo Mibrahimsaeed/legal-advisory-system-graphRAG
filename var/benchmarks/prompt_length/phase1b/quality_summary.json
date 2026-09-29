@@ -1,0 +1,142 @@
+{
+  "n_labelled_documents": 63,
+  "class_distribution": {
+    "other_uncertain": 2,
+    "family_law": 57,
+    "criminal_law": 4
+  },
+  "warning": "Family-law-heavy distribution; not a representative estimate of corpus-wide accuracy.",
+  "per_prompt_length": {
+    "3000": {
+      "n_valid_predictions": 63,
+      "n_failed": 0,
+      "n_missing": 0,
+      "failed_doc_ids": [],
+      "accuracy": 0.937,
+      "macro_f1": 0.83,
+      "per_class": {
+        "family_law": {
+          "precision": 1.0,
+          "recall": 0.93,
+          "f1": 0.964,
+          "support": 57
+        },
+        "criminal_law": {
+          "precision": 0.571,
+          "recall": 1.0,
+          "f1": 0.727,
+          "support": 4
+        },
+        "other_uncertain": {
+          "precision": 0.667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 2
+        }
+      },
+      "confusion_matrix": {
+        "other_uncertain->other_uncertain": 2,
+        "family_law->other_uncertain": 1,
+        "family_law->criminal_law": 3,
+        "family_law->family_law": 53,
+        "criminal_law->criminal_law": 4
+      }
+    },
+    "1500": {
+      "n_valid_predictions": 63,
+      "n_failed": 0,
+      "n_missing": 0,
+      "failed_doc_ids": [],
+      "accuracy": 0.937,
+      "macro_f1": 0.83,
+      "per_class": {
+        "family_law": {
+          "precision": 1.0,
+          "recall": 0.93,
+          "f1": 0.964,
+          "support": 57
+        },
+        "criminal_law": {
+          "precision": 0.571,
+          "recall": 1.0,
+          "f1": 0.727,
+          "support": 4
+        },
+        "other_uncertain": {
+          "precision": 0.667,
+          "recall": 1.0,
+          "f1": 0.8,
+          "support": 2
+        }
+      },
+      "confusion_matrix": {
+        "other_uncertain->other_uncertain": 2,
+        "family_law->other_uncertain": 1,
+        "family_law->criminal_law": 3,
+        "family_law->family_law": 53,
+        "criminal_law->criminal_law": 4
+      }
+    },
+    "1000": {
+      "n_valid_predictions": 63,
+      "n_failed": 0,
+      "n_missing": 0,
+      "failed_doc_ids": [],
+      "accuracy": 0.905,
+      "macro_f1": 0.737,
+      "per_class": {
+        "family_law": {
+          "precision": 0.981,
+          "recall": 0.912,
+          "f1": 0.945,
+          "support": 57
+        },
+        "criminal_law": {
+          "precision": 0.5,
+          "recall": 0.75,
+          "f1": 0.6,
+          "support": 4
+        },
+        "other_uncertain": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.667,
+          "support": 2
+        }
+      },
+      "confusion_matrix": {
+        "other_uncertain->other_uncertain": 2,
+        "family_law->other_uncertain": 2,
+        "family_law->criminal_law": 3,
+        "family_law->family_law": 52,
+        "criminal_law->criminal_law": 3,
+        "criminal_law->family_law": 1
+      }
+    }
+  },
+  "stability": {
+    "changed_human_labelled_cases": [
+      {
+        "doc_id": "211a8f204d4ed5b2c99b9923",
+        "human_label": "family_law",
+        "pred_3000": "family_law",
+        "conf_3000": 0.95,
+        "pred_1500": "family_law",
+        "conf_1500": 0.85,
+        "pred_1000": "other_uncertain",
+        "conf_1000": 0.5
+      },
+      {
+        "doc_id": "55c121d9cc6db3f87b387790",
+        "human_label": "criminal_law",
+        "pred_3000": "criminal_law",
+        "conf_3000": 0.95,
+        "pred_1500": "criminal_law",
+        "conf_1500": 0.85,
+        "pred_1000": "family_law",
+        "conf_1000": 0.7
+      }
+    ],
+    "n_changed": 2
+  }
+}

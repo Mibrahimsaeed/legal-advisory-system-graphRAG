@@ -368,6 +368,14 @@ def resolve_human_decision(
     """
 
     if decision == REVIEW_ACCEPTED:
+        if machine_domain == OTHER_DOMAIN_ID:
+            # Endorsing the catch-all is agreement that the document belongs
+            # to NEITHER target domain -- the same finding a rejection or a
+            # correction to the catch-all reports, so it lands on the same
+            # status. Accepting it as `auto_accepted` put a document with no
+            # domain into the accepted corpus, which read as "accepted" while
+            # the reviewer had said the opposite.
+            return STATUS_DROPPED_OFF_DOMAIN, OTHER_DOMAIN_ID, DROP_REASON_OFF_DOMAIN
         return STATUS_AUTO_ACCEPTED, machine_domain, None
     if decision == REVIEW_CORRECTED:
         if not corrected_domain:

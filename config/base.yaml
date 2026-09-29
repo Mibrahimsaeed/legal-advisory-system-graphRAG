@@ -119,11 +119,13 @@ domain_signals:
   min_keyword_matches: 2
   llm_enabled: true
   llm_model: qwen3:14b
-  # 1024, not 512: qwen3 is a thinking model and 512 truncated the JSON
-  # mid-object in the earlier pilot. Requests also pin temperature=0, a
-  # fixed seed, format=json and think=false (src/common/llm_client.py).
-  llm_max_tokens: 1024
-  llm_prompt_chars: 3000
+  # 256. The earlier 512 truncation predates think=false: qwen3's reasoning
+  # block was consuming the budget before the JSON. Measured over sig_pilot's
+  # 187 real responses the largest was 284 chars (~95 tokens), so 256 is ~2.7x
+  # the worst observed output. Requests also pin temperature=0, a fixed seed,
+  # format=json and think=false (src/common/llm_client.py).
+  llm_max_tokens: 256
+  llm_prompt_chars: 1500
   # Broad concept profiles, validated against config/domains.yaml.
   # High-level concepts only -- NOT a statute index.
   profiles:
