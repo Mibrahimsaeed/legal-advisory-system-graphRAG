@@ -1,0 +1,781 @@
+{
+  "overview": {
+    "total_cases": 2088,
+    "total_characters": 24410126,
+    "min_length": 1698,
+    "median_length": 9268,
+    "mean_length": 11690.7,
+    "max_length": 193009,
+    "cases_with_headnotes": 1182,
+    "cases_mostly_numbered_paragraphs": 594,
+    "cases_with_any_standalone_heading": 2073,
+    "cases_containing_JUDGMENT_word": 1088,
+    "cases_containing_ORDER_word": 941,
+    "cases_containing_FINAL_ORDER_word": 66,
+    "cases_JUDGMENT_standalone_heading": 1125,
+    "cases_ORDER_standalone_heading": 951,
+    "cases_with_roman_subitems": 377
+  },
+  "overview_pct": {
+    "cases_with_headnotes": [
+      1182,
+      56.6
+    ],
+    "cases_mostly_numbered_paragraphs": [
+      594,
+      28.4
+    ],
+    "cases_with_any_standalone_heading": [
+      2073,
+      99.3
+    ],
+    "cases_containing_JUDGMENT_word": [
+      1088,
+      52.1
+    ],
+    "cases_containing_ORDER_word": [
+      941,
+      45.1
+    ],
+    "cases_containing_FINAL_ORDER_word": [
+      66,
+      3.2
+    ],
+    "cases_JUDGMENT_standalone_heading": [
+      1125,
+      53.9
+    ],
+    "cases_ORDER_standalone_heading": [
+      951,
+      45.5
+    ],
+    "cases_with_roman_subitems": [
+      377,
+      18.1
+    ]
+  },
+  "standalone_heading_frequency": [
+    [
+      "JUDGMENT",
+      1132
+    ],
+    [
+      "ORDER",
+      951
+    ],
+    [
+      "ISSUES",
+      40
+    ],
+    [
+      "RELIEF",
+      5
+    ],
+    [
+      "CONCLUSION",
+      4
+    ],
+    [
+      "DISCUSSION",
+      2
+    ],
+    [
+      "BACKGROUND",
+      2
+    ],
+    [
+      "BRIEF FACTS",
+      1
+    ],
+    [
+      "OPINION",
+      1
+    ]
+  ],
+  "heading_shaped_candidate_frequency": [
+    [
+      "JUDGMENT",
+      918
+    ],
+    [
+      "[LAHORE]",
+      886
+    ],
+    [
+      "ORDER",
+      802
+    ],
+    [
+      "FAMILY COURTS ACT (XXXV OF 1964)---",
+      240
+    ],
+    [
+      "[PESHAWAR]",
+      152
+    ],
+    [
+      "[KARACHI]",
+      114
+    ],
+    [
+      "[SINDH]",
+      70
+    ],
+    [
+      "[ISLAMABAD]",
+      63
+    ],
+    [
+      "[LAHORE (MULTAN BENCH)]",
+      55
+    ],
+    [
+      "ADDITIONAL DISTRICT JUDGE AND OTHERS---RESPONDENTS",
+      46
+    ],
+    [
+      "GUARDIANS AND WARDS ACT (VIII OF 1890)---",
+      42
+    ],
+    [
+      "BEFORE JAWAD HASSAN, J",
+      41
+    ],
+    [
+      "[LAHORE (RAWALPINDI BENCH)]",
+      31
+    ],
+    [
+      "BEFORE MUZAMIL AKHTAR SHABIR, J",
+      31
+    ],
+    [
+      "[BALOCHISTAN]",
+      30
+    ],
+    [
+      "BEFORE MALIK MUHAMMAD QAYYUM, J",
+      27
+    ],
+    [
+      "BEFORE MUHAMMAD FARRUKH IRFAN KHAN, J",
+      24
+    ],
+    [
+      "BEFORE MUHAMMAD MUZAMMAL KHAN, J",
+      22
+    ],
+    [
+      "[SINDH (HYDERABAD BENCH)]",
+      21
+    ],
+    [
+      "BEFORE S. ALI HASSAN RIZVI, J",
+      20
+    ],
+    [
+      "BEFORE HAFIZ ABDUL REHMAN ANSARI, J",
+      20
+    ],
+    [
+      "BEFORE ALI BAQAR NAJAFI, J",
+      19
+    ],
+    [
+      "ADDITIONAL DISTRICT JUDGE AND OTHERS‐‐‐RESPONDENTS",
+      18
+    ],
+    [
+      "JUDGE FAMILY COURT AND OTHERS---RESPONDENTS",
+      18
+    ],
+    [
+      "BEFORE SAFDAR SALEEM SHAHID, J",
+      17
+    ],
+    [
+      "ADDITIONAL DISTRICT JUDGE AND OTHERS----RESPONDENTS",
+      17
+    ],
+    [
+      "BEFORE MAULVI ANWARUL HAQ, J",
+      17
+    ],
+    [
+      "BEFORE ASAD MUNIR, J",
+      16
+    ],
+    [
+      "[PESHAWAR (ABBOTTABAD BENCH)]",
+      16
+    ],
+    [
+      "BEFORE FARRUKH LATEEF, J",
+      15
+    ],
+    [
+      "MUSLIM FAMILY LAWS ORDINANCE (VIII OF 1961)---",
+      15
+    ],
+    [
+      "BEFORE SH. HAKIM ALI, J",
+      15
+    ],
+    [
+      "BEFORE MRS. FAKHAR-UN-NISA KHOKHAR, J",
+      15
+    ],
+    [
+      "BEFORE ALI AKBAR QURESHI, J",
+      14
+    ],
+    [
+      "BEFORE RAHEEL KAMRAN, J",
+      14
+    ],
+    [
+      "BEFORE GUL ZARIN KIANI, J",
+      13
+    ],
+    [
+      "BEFORE MRS. NASIRA IQBAL, J",
+      13
+    ],
+    [
+      "BEFORE SYED AKHLAQ AHMAD, J",
+      12
+    ],
+    [
+      "BEFORE MIRZA VIQAS RAUF, J",
+      12
+    ],
+    [
+      "BEFORE SHUJAAT ALI KHAN, J",
+      12
+    ]
+  ],
+  "structural_signatures": [
+    {
+      "signature": [
+        "headnotes",
+        "JUDGMENT_heading",
+        "prose_body",
+        "no_sublist"
+      ],
+      "count": 326,
+      "pct": 15.6
+    },
+    {
+      "signature": [
+        "no_headnotes",
+        "ORDER_heading",
+        "prose_body",
+        "no_sublist"
+      ],
+      "count": 324,
+      "pct": 15.5
+    },
+    {
+      "signature": [
+        "headnotes",
+        "ORDER_heading",
+        "prose_body",
+        "no_sublist"
+      ],
+      "count": 279,
+      "pct": 13.4
+    },
+    {
+      "signature": [
+        "no_headnotes",
+        "JUDGMENT_heading",
+        "prose_body",
+        "no_sublist"
+      ],
+      "count": 275,
+      "pct": 13.2
+    },
+    {
+      "signature": [
+        "headnotes",
+        "JUDGMENT_heading",
+        "prose_body",
+        "has_sublist"
+      ],
+      "count": 171,
+      "pct": 8.2
+    },
+    {
+      "signature": [
+        "headnotes",
+        "JUDGMENT_heading",
+        "numbered_body",
+        "no_sublist"
+      ],
+      "count": 142,
+      "pct": 6.8
+    },
+    {
+      "signature": [
+        "no_headnotes",
+        "JUDGMENT_heading",
+        "numbered_body",
+        "no_sublist"
+      ],
+      "count": 131,
+      "pct": 6.3
+    },
+    {
+      "signature": [
+        "no_headnotes",
+        "ORDER_heading",
+        "numbered_body",
+        "no_sublist"
+      ],
+      "count": 126,
+      "pct": 6.0
+    },
+    {
+      "signature": [
+        "headnotes",
+        "ORDER_heading",
+        "numbered_body",
+        "no_sublist"
+      ],
+      "count": 95,
+      "pct": 4.5
+    },
+    {
+      "signature": [
+        "headnotes",
+        "ORDER_heading",
+        "prose_body",
+        "has_sublist"
+      ],
+      "count": 75,
+      "pct": 3.6
+    },
+    {
+      "signature": [
+        "headnotes",
+        "JUDGMENT_heading",
+        "numbered_body",
+        "has_sublist"
+      ],
+      "count": 55,
+      "pct": 2.6
+    },
+    {
+      "signature": [
+        "headnotes",
+        "ORDER_heading",
+        "numbered_body",
+        "has_sublist"
+      ],
+      "count": 28,
+      "pct": 1.3
+    },
+    {
+      "signature": [
+        "no_headnotes",
+        "ORDER_heading",
+        "prose_body",
+        "has_sublist"
+      ],
+      "count": 18,
+      "pct": 0.9
+    },
+    {
+      "signature": [
+        "no_headnotes",
+        "JUDGMENT_heading",
+        "prose_body",
+        "has_sublist"
+      ],
+      "count": 13,
+      "pct": 0.6
+    },
+    {
+      "signature": [
+        "no_headnotes",
+        "JUDGMENT_heading",
+        "numbered_body",
+        "has_sublist"
+      ],
+      "count": 12,
+      "pct": 0.6
+    },
+    {
+      "signature": [
+        "headnotes",
+        "no_named_heading",
+        "prose_body",
+        "no_sublist"
+      ],
+      "count": 7,
+      "pct": 0.3
+    },
+    {
+      "signature": [
+        "no_headnotes",
+        "no_named_heading",
+        "prose_body",
+        "no_sublist"
+      ],
+      "count": 4,
+      "pct": 0.2
+    },
+    {
+      "signature": [
+        "no_headnotes",
+        "ORDER_heading",
+        "numbered_body",
+        "has_sublist"
+      ],
+      "count": 3,
+      "pct": 0.1
+    },
+    {
+      "signature": [
+        "headnotes",
+        "no_named_heading",
+        "numbered_body",
+        "no_sublist"
+      ],
+      "count": 2,
+      "pct": 0.1
+    },
+    {
+      "signature": [
+        "headnotes",
+        "no_named_heading",
+        "prose_body",
+        "has_sublist"
+      ],
+      "count": 2,
+      "pct": 0.1
+    }
+  ],
+  "component_coverage": {
+    "case_metadata": {
+      "count": 2088,
+      "pct": 100.0
+    },
+    "parties": {
+      "count": 2085,
+      "pct": 99.9
+    },
+    "procedural_history": {
+      "count": 1685,
+      "pct": 80.7
+    },
+    "facts_background": {
+      "count": 665,
+      "pct": 31.8
+    },
+    "legal_issues": {
+      "count": 353,
+      "pct": 16.9
+    },
+    "arguments": {
+      "count": 1951,
+      "pct": 93.4
+    },
+    "applicable_law_statutes": {
+      "count": 2049,
+      "pct": 98.1
+    },
+    "specific_provisions": {
+      "count": 2084,
+      "pct": 99.8
+    },
+    "evidence": {
+      "count": 1571,
+      "pct": 75.2
+    },
+    "court_reasoning": {
+      "count": 508,
+      "pct": 24.3
+    },
+    "findings_determination": {
+      "count": 1081,
+      "pct": 51.8
+    },
+    "precedents_authorities": {
+      "count": 1795,
+      "pct": 86.0
+    },
+    "lower_court_decisions": {
+      "count": 2061,
+      "pct": 98.7
+    },
+    "final_order": {
+      "count": 2057,
+      "pct": 98.5
+    },
+    "disposition_outcome": {
+      "count": 2057,
+      "pct": 98.5
+    },
+    "headnotes_propositions": {
+      "count": 1182,
+      "pct": 56.6
+    }
+  },
+  "candidates_no_heading_long_numbered": [
+    "48d9fb02ce6e688e2f8a9cee",
+    "5c5abcc1235caf6d3338de1f"
+  ],
+  "candidates_many_versus": [
+    [
+      "04139076ff36792b38b72f8b",
+      7
+    ],
+    [
+      "7e40d43ea36b56067656f7eb",
+      4
+    ],
+    [
+      "0f536fc32a2d7ba4cd3b12d8",
+      3
+    ],
+    [
+      "24d66b142495c88aaf8c2d13",
+      3
+    ],
+    [
+      "6eefbfba26c8daae3c7984ac",
+      3
+    ],
+    [
+      "a05e67908f4a6d79bef87c50",
+      3
+    ],
+    [
+      "f706b913452e165ba23d6c8c",
+      3
+    ],
+    [
+      "00ad7248bf77883e6b5975ed",
+      2
+    ],
+    [
+      "04dc1b81405e9c7eb21e439f",
+      2
+    ],
+    [
+      "16d21d98d6e86316a73774aa",
+      2
+    ]
+  ],
+  "candidates_many_subitems": [
+    [
+      "177dbfa9f6115c8c4bb0cdcf",
+      60
+    ],
+    [
+      "712117c5e7987246dd2ca3d5",
+      40
+    ],
+    [
+      "7ea304ebd8a9924ed887bebb",
+      28
+    ],
+    [
+      "8b75e5b3854d786ccd9936d6",
+      26
+    ],
+    [
+      "a1cebd5165d8f6b06a46ac25",
+      26
+    ],
+    [
+      "db00f6659ca8b01c17f2481e",
+      26
+    ],
+    [
+      "ba1a1469362926f9a60b6989",
+      25
+    ],
+    [
+      "dbbaf183f7e22286089ba96d",
+      25
+    ],
+    [
+      "08f78cd0939525079d3e8735",
+      22
+    ],
+    [
+      "3275650945c9f79e6435806b",
+      22
+    ]
+  ],
+  "candidates_many_citations": [
+    [
+      "177dbfa9f6115c8c4bb0cdcf",
+      101
+    ],
+    [
+      "778c97c12d6df2da5058c989",
+      77
+    ],
+    [
+      "9f1b5c1bec98b226047b1bf7",
+      66
+    ],
+    [
+      "04139076ff36792b38b72f8b",
+      59
+    ],
+    [
+      "b82e5f9b722cef5d3d457212",
+      59
+    ],
+    [
+      "b6e0af50b8ec27c167dff79e",
+      58
+    ],
+    [
+      "2864345baceac1e973224393",
+      55
+    ],
+    [
+      "70080d3fedb2f7f0423f87cf",
+      55
+    ],
+    [
+      "08f78cd0939525079d3e8735",
+      51
+    ],
+    [
+      "fdbd2ea20f8844ed93c86a46",
+      42
+    ]
+  ],
+  "candidates_longest": [
+    [
+      "177dbfa9f6115c8c4bb0cdcf",
+      193009
+    ],
+    [
+      "e61bf3eadf90fc8c2e15e493",
+      132964
+    ],
+    [
+      "04139076ff36792b38b72f8b",
+      111045
+    ],
+    [
+      "2864345baceac1e973224393",
+      95377
+    ],
+    [
+      "5961df8e1ddaeba020c8e16b",
+      86219
+    ],
+    [
+      "97ae9e7512c2a235d0f947ba",
+      75380
+    ],
+    [
+      "08f78cd0939525079d3e8735",
+      72193
+    ],
+    [
+      "53da9b198973f615af28245a",
+      67171
+    ],
+    [
+      "b400790b0922f339e1d0d9d9",
+      61120
+    ],
+    [
+      "14d08f67afeb8920d59f8589",
+      59852
+    ]
+  ],
+  "candidates_shortest": [
+    [
+      "2ee9704f426892ca99e2b92e",
+      1698
+    ],
+    [
+      "7d289f101d033241d6f2df29",
+      1775
+    ],
+    [
+      "ed3d6a1e8b837782aae5752e",
+      1870
+    ],
+    [
+      "0929a4d0ccbe7c37b653a835",
+      1935
+    ],
+    [
+      "0517b526349986d9f93e98bd",
+      1943
+    ],
+    [
+      "96112ecbe3dc83b3a5597c7e",
+      1992
+    ],
+    [
+      "93a2bf95b82415b3f402baea",
+      1995
+    ],
+    [
+      "38246618080361999ff53c9c",
+      2037
+    ],
+    [
+      "2e22c5f21c49d732ed36359b",
+      2071
+    ],
+    [
+      "c224e0e2201f348162151ba1",
+      2082
+    ]
+  ],
+  "candidates_most_headnotes": [
+    [
+      "177dbfa9f6115c8c4bb0cdcf",
+      44
+    ],
+    [
+      "9f1b5c1bec98b226047b1bf7",
+      37
+    ],
+    [
+      "8b75e5b3854d786ccd9936d6",
+      26
+    ],
+    [
+      "a1cebd5165d8f6b06a46ac25",
+      26
+    ],
+    [
+      "c3f35864f7d516f268d25b85",
+      24
+    ],
+    [
+      "04139076ff36792b38b72f8b",
+      21
+    ],
+    [
+      "8e67c919ad08d987024d7e1d",
+      21
+    ],
+    [
+      "08f78cd0939525079d3e8735",
+      20
+    ],
+    [
+      "2844bf4b73886745fac0557e",
+      20
+    ],
+    [
+      "3b544101f765592181cd8dc3",
+      19
+    ]
+  ]
+}
