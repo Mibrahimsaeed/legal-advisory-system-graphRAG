@@ -1,0 +1,86 @@
+{
+  "doc_id": "ae19fe2a1f685da546af87c6",
+  "metadata": {
+    "doc_id": "ae19fe2a1f685da546af87c6",
+    "case_title": "West Pakistan Family Courts Act (XXXV of 1964)â€‘",
+    "citation": "1982 C L C 2354",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Muhammad Fazle Ghani Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Civil Procedure Code (V of 1908)"
+    ],
+    "provisions_cited": [
+      "S. 17",
+      "S. 115",
+      "section 115",
+      "section 1",
+      "section 17"
+    ],
+    "source_relpath": "1982L563",
+    "content_hash": "355dbf3056b428525a417053bb6a6ce155cd5fce6c09371b4d838163260a7779"
+  },
+  "full_text": "1982 C L C 2354\n\n[Lahore]\n\nBefore Muhammad Fazle Ghani Khan, J\n\nFAZAL MUHAMMAD ‐Petitioner\n\nversus\n\nALI AHMAD AWAN, CIVIL JUDGE WITH (POWERS OF\n\nJUDGE, FAMILY COURT, RAHIM YAR KHAN\n\nAND ANOTHER‐Respondents\n\nCivil Revision No. 70 of 1968, decided on 6th February, 1968.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐\n\n‐‐‐S. 17 and Civil Procedure Code (V of 1908), S. 115‐Revisional jurisdiction‐Decision of family Court, held, not challengeable before High Court in revisional jurisdiction‐Family Court merely a persona designata and not a Court subordinate to High Court. [Revision (civil)].\n\nCh. Muhammad Saeed for Petitioner.\n\nORDER\n\nLearned counsel for the petitioner contends that an appeal is competent before the High Court against certain specified orders of the Family Court and since the impugned order is not one of those which fall under the category of appeal able orders the High Court should exercise its revisional jurisdiction under section 115, C.P.C. The question which falls for determination is whether Family Court, created under the Family Courts Ordinance of 1964 can be considered to be a Court subordinate to the High Court under section 115, C.P.C. in this connec tion learned counsel has drawn my attention to Anil Das. v. Mushtaque Ahmad (P L D 1967 Dacca 521) in which the provisions of East Pakistan Disturbed Persons (Rehabilitation) Ordinance (1 of 1964) were taken into consideration and it was held that the High Court has jurisdiction to examine the orders of District Judge in exercise of its powers under section 1.15, C.P.C. The provisions of law in East Pakistan Disturbed Persons (Rehabilitation) Ordinance (1 of 1964) cannot be said to be analogous to the provisions of Family Courts Act of 1964. Under section 17 of this Act the Legislature has specifically excluded the application of Evidence Act and Civil Procedure Code. It is, therefore, obvious that the revisional jurisdiction of the High Court under section 115 of the C. P.C. cannot be exercised in view of the express bar created by section 17 of the I Act of 1964. The family Court is merely a persona designata and not a Court subordinate to the High Court: The revision petition is, therefore dismissed in limine.\n\nM. Y. H. Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "sentence": "The family Court is merely a persona designata and not a Court subordinate to the High Court: The revision petition is, therefore dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": false,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "1982 C L C 2354\n\n[Lahore]\n\nBefore Muhammad Fazle Ghani Khan, J\n\nFAZAL MUHAMMAD ‐Petitioner\n\nversus\n\nALI AHMAD AWAN, CIVIL JUDGE WITH (POWERS OF\n\nJUDGE, FAMILY COURT, RAHIM YAR KHAN\n\nAND ANOTHER‐Respondents\n\nCivil Revision No. 70 of 1968, decided on 6th February, 1968.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐\n\n‐‐‐S. 17 and Civil Procedure Code (V of 1908), S. 115‐Revisional jurisdiction‐Decision of family Court, held, not challengeable before High Court in revisional jurisdiction‐Family Court merely a persona designata and not a Court subordinate to High Court. [Revision (civil)].\n\nCh. Muhammad Saeed for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "Learned counsel for the petitioner contends that an appeal is competent before the High Court against certain specified orders of the Family Court and since the impugned order is not one of those which fall under the category of appeal able orders the High Court should exercise its revisional jurisdiction under section 115, C.P.C. The question which falls for determination is whether Family Court, created under the Family Courts Ordinance of 1964 can be considered to be a Court subordinate to the High Court under section 115, C.P.C. in this connec tion learned counsel has drawn my attention to Anil Das. v. Mushtaque Ahmad (P L D 1967 Dacca 521) in which the provisions of East Pakistan Disturbed Persons (Rehabilitation) Ordinance (1 of 1964) were taken into consideration and it was held that the High Court has jurisdiction to examine the orders of District Judge in exercise of its powers under section 1.15, C.P.C. The provisions of law in East Pakistan Disturbed Persons (Rehabilitation) Ordinance (1 of 1964) cannot be said to be analogous to the provisions of Family Courts Act of 1964. Under section 17 of this Act the Legislature has specifically excluded the application of Evidence Act and Civil Procedure Code. It is, therefore, obvious that the revisional jurisdiction of the High Court under section 115 of the C. P.C. cannot be exercised in view of the express bar created by section 17 of the I Act of 1964. The family Court is merely a persona designata and not a Court subordinate to the High Court: The revision petition is, therefore dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "M. Y. H. Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

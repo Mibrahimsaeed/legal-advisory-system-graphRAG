@@ -1,0 +1,132 @@
+{
+  "doc_id": "47f86139835422d146864020",
+  "metadata": {
+    "doc_id": "47f86139835422d146864020",
+    "case_title": "SHAMAS-UD-DIN vs Mst. SHAHIDA and 4 others",
+    "citation": "2012 Y L R 2496",
+    "court": "Peshawar",
+    "court_location": "Peshawar",
+    "decision_date": null,
+    "judges": [
+      "Miftah-ud-Din Khan",
+      "Mian Fasihul Mulk"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "Ss.14, 5",
+      "section 14",
+      "Art. 199"
+    ],
+    "source_relpath": "2012P4107",
+    "content_hash": "e012ee589584a894eba64a56c312781128ceb9a8397b98cd6a0c9fca7d8ef452"
+  },
+  "full_text": "2012 Y L R 2496\n\n[Peshawar]\n\nBefore Miftah-ud-Din Khan and Mian Fasihul Mulk, JJ\n\nSHAMAS-UD-DIN---Petitioner\n\nVersus\n\nMst. SHAHIDA and 4 others---Respondents\n\nWrit Petition No.1129 of 2010, decided on 14th June, 2012.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss.14, 5 & Sched. ---Constitution of Pakistan, Art. 199---Constitutional petition---Appeal against judgment and decree of Family Court---Legality---Suit filed by. ' mother (respondent) for maintenance allowance of minors was decreed by Family Court at the rate of Rs.1000 each per month with a 10% increase per annum---Appellate Court enhanced maintenance allowance from Rs.1000 to Rs.2000 each in favour of minors---Validity---Appeal was wrongly entertained by the Appellate Court as under section 14 of West Pakistan Family Courts Act, 1964, no appeal lay against judgment and decree passed by a Family Court for maintenance of Rs. 1000 or less per month and both spouses under the law could not file any appeal against such a judgment---Appellate Court, in the present case, had wrongly entertained and accepted appeal filed by the mother---Judgment and decree passed by Appellate Court was nullity in the eyes of law and could not be sustained---Constitutional petition was accepted, judgment and decree of Appellate Court was set-aside and judgment and decree of Family Court was restored.\n\nManzoor Khan Khalid for Petitioner.\n\nMohd. Riaz Khan for Respondent.\n\nDate of hearing: 14th June, 2012.\n\nJUDGMENT\n\nMIFTAH-UD-DIN KHAN, J.---Shamsuddin and Mst. Shahida, petitioner and respondent herein, entered into marriage contract way back in the early eighties. After birth of three children, one son and two daughters out of the wedlock, the wife was allegedly ousted by her husband from his house and after ouster of the wife, the husband has allegedly not paid: any maintenance allowances either to his wife or his children. This indifferent attitude on the part of husband compelled the wife to drag him to the court of law for the redressal of her legal grievance.\n\n2. Thus a suit for the recovery of maintenance allowance and dower was filed by Mst. Shahida and also on behalf of her minor daughters. The suit thus filed by the wife was decreed by the Judge Family Court, vide judgment and decree dated 13-11-2009 whereby she granted maintenance allowance only to the minor daughters at the rate of Rs.1,000 each per month with 10% increase per annum, dismissing rest of the prayer made in the plaint.\n\n3. Feeling aggrieved, the wife went in appeal and the appellate court influenced by the financial status of the husband and the inflationary trends in the economy, enhanced the maintenance allowance from Rs.1000 to Rs.2000 each in favour of minor daughters, vide judgment and decree dated 16-1-2010.\n\n4. Now the husband has filed this constitutional petition challenging the findings of the learned appellate court on the ground that the findings of the learned appellate court are against the mandatory provisions of the statute governing the subject.\n\n3(sic) We have gone through the record carefully and, also considered the submissions made by the learned counsel for the parties.\n\n4(sic) Perusal of the judgment of the Judge Family Court reveals that the learned trial Judge has granted decree for maintenance allowance in respect of minor daughters of the spouses to the extent of Rs.1000 per month for each child with 10% increase per annum. The wife aggrieved of the said judgment and decree of the court of first instance, preferred appeal before the Appellate Court which was wrongly, entertained and accepted. Under section 14 of the West Pakistan Family Courts Act, 1964 no appeal lies against the judgment and decree passed by a Judge Family Court for maintenance of Rs.1000 or less per month. Admittedly, the decree was passed for Rs.1000 per month per child and both spouses under the law could not file any appeal against the said judgment. Meaning thereby, that the appellate court had wrongly entertained and accepted the appeal of the wife. The judgment and decree passed by the appellate court dated 16-1-2010 being nullity in the eye of law cannot be sustained.\n\n5. For what has been stated above, we accept this writ petition set aside the judgment and decree of the appellate court dated 16-1-2010 and restore the judgment and decree of the Judge Family court dated 5-12-2009. There is no order as to costs.\n\nMWA/258/P??????????????????????????????????????????????????????????????????????????????????????? Petition allowed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "MWA/258/P??????????????????????????????????????????????????????????????????????????????????????? Petition allowed.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "5. For what has been stated above, we accept this writ petition set aside the judgment and decree of the appellate court dated 16-1-2010 and restore the judgment and decree of the Judge Family court dated 5-12-2009. There is no order as to costs.",
+        "label": "unclassified"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "2012 Y L R 2496\n\n[Peshawar]\n\nBefore Miftah-ud-Din Khan and Mian Fasihul Mulk, JJ\n\nSHAMAS-UD-DIN---Petitioner\n\nVersus\n\nMst. SHAHIDA and 4 others---Respondents\n\nWrit Petition No.1129 of 2010, decided on 14th June, 2012.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss.14, 5 & Sched. ---Constitution of Pakistan, Art. 199---Constitutional petition---Appeal against judgment and decree of Family Court---Legality---Suit filed by. ' mother (respondent) for maintenance allowance of minors was decreed by Family Court at the rate of Rs.1000 each per month with a 10% increase per annum---Appellate Court enhanced maintenance allowance from Rs.1000 to Rs.2000 each in favour of minors---Validity---Appeal was wrongly entertained by the Appellate Court as under section 14 of West Pakistan Family Courts Act, 1964, no appeal lay against judgment and decree passed by a Family Court for maintenance of Rs. 1000 or less per month and both spouses under the law could not file any appeal against such a judgment---Appellate Court, in the present case, had wrongly entertained and accepted appeal filed by the mother---Judgment and decree passed by Appellate Court was nullity in the eyes of law and could not be sustained---Constitutional petition was accepted, judgment and decree of Appellate Court was set-aside and judgment and decree of Family Court was restored.\n\nManzoor Khan Khalid for Petitioner.\n\nMohd. Riaz Khan for Respondent.\n\nDate of hearing: 14th June, 2012."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "MIFTAH-UD-DIN KHAN, J.---Shamsuddin and Mst. Shahida, petitioner and respondent herein, entered into marriage contract way back in the early eighties. After birth of three children, one son and two daughters out of the wedlock, the wife was allegedly ousted by her husband from his house and after ouster of the wife, the husband has allegedly not paid: any maintenance allowances either to his wife or his children. This indifferent attitude on the part of husband compelled the wife to drag him to the court of law for the redressal of her legal grievance.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. Thus a suit for the recovery of maintenance allowance and dower was filed by Mst. Shahida and also on behalf of her minor daughters. The suit thus filed by the wife was decreed by the Judge Family Court, vide judgment and decree dated 13-11-2009 whereby she granted maintenance allowance only to the minor daughters at the rate of Rs.1,000 each per month with 10% increase per annum, dismissing rest of the prayer made in the plaint.",
+        "label": "lower_court_orders",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "3. Feeling aggrieved, the wife went in appeal and the appellate court influenced by the financial status of the husband and the inflationary trends in the economy, enhanced the maintenance allowance from Rs.1000 to Rs.2000 each in favour of minor daughters, vide judgment and decree dated 16-1-2010.",
+        "label": "lower_court_orders",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "4. Now the husband has filed this constitutional petition challenging the findings of the learned appellate court on the ground that the findings of the learned appellate court are against the mandatory provisions of the statute governing the subject.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "3(sic) We have gone through the record carefully and, also considered the submissions made by the learned counsel for the parties.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "4(sic) Perusal of the judgment of the Judge Family Court reveals that the learned trial Judge has granted decree for maintenance allowance in respect of minor daughters of the spouses to the extent of Rs.1000 per month for each child with 10% increase per annum. The wife aggrieved of the said judgment and decree of the court of first instance, preferred appeal before the Appellate Court which was wrongly, entertained and accepted. Under section 14 of the West Pakistan Family Courts Act, 1964 no appeal lies against the judgment and decree passed by a Judge Family Court for maintenance of Rs.1000 or less per month. Admittedly, the decree was passed for Rs.1000 per month per child and both spouses under the law could not file any appeal against the said judgment. Meaning thereby, that the appellate court had wrongly entertained and accepted the appeal of the wife. The judgment and decree passed by the appellate court dated 16-1-2010 being nullity in the eye of law cannot be sustained.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "5. For what has been stated above, we accept this writ petition set aside the judgment and decree of the appellate court dated 16-1-2010 and restore the judgment and decree of the Judge Family court dated 5-12-2009. There is no order as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "MWA/258/P??????????????????????????????????????????????????????????????????????????????????????? Petition allowed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

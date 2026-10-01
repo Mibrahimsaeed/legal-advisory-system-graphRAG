@@ -1,0 +1,120 @@
+{
+  "doc_id": "79676f9b0d84c0033a0214eb",
+  "metadata": {
+    "doc_id": "79676f9b0d84c0033a0214eb",
+    "case_title": "MUHAMMAD AKRAM vs SENIOR CIVIL JUDGE, FAMILY COURT and others",
+    "citation": "2006 Y L R 2204",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Sheikh Hakim Ali"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "Ss. 5",
+      "Section 14",
+      "section 14",
+      "Art.199"
+    ],
+    "source_relpath": "2006L4629",
+    "content_hash": "5cb8682af1396a8c1902321491bb696b5cc04ce5eb0aabd1d6cf7585f58cc48f"
+  },
+  "full_text": "2006 Y L R 2204\n\n[Lahore]\n\nBefore Sheikh Hakim Ali, J\n\nMUHAMMAD AKRAM---Petitioner\n\nVersus\n\nSENIOR CIVIL JUDGE, FAMILY COURT and others---Respondents\n\nWrit Petition No.3742 of 2005, decided on 16th November, 2005.\n\nWest Pakistan Family Courts Act (XXXV of.1964)---\n\n----Ss. 5, Sched. & 14---Constitution of Pakistan (1973), Art.199---Constitutional petition--- Maintainability--- Suit for dissolution of marriage on ground of Khula' and recovery of dowry articles---Suit for dissolution of marriage on basis of Khula' and for recovery of dowry articles, was decreed by Family Court---Contention of petitioner was that Family Court had failed to grant him 'Zar-e-Khula' and that respondent had not asserted and prayed for grant of decree on basis of Khula' in her plaint---Validity---Respondent though had not used word Khula', but in her plaint had narrated the facts which were the cause of filing of the suit---Respondent lady had stated that she had developed extreme hatred against the petitioner; that there was no likelihood of reconciliation between the parties and that she would prefer death rather to remain within the marital union with petitioner---Said words of respondent could well be considered as bringing out plea of Khula' and it was not necessary for her to use specific words of grant of decree of Khula'---Section 14 of West Pakistan Family Courts Act, 1964 had taken away benefit of filing of appeal against decree granted to the extent of Rs.30,000 for dowry articles---Legislature having barred that remedy to be availed of by petitioner in case of decree of dowry articles to the extent of Rs.30,000, remedy of extraordinary jurisdiction in an ordinary case, of not an exceptional nature, could not be granted to the petitioner---Constitutional petition, in circumstances, was not entertainable against decree of dowry articles.\n\nCh. Muhammad Akram for Petitioner.\n\nORDER\n\nSHEIKH HAKIM, ALI, J.---Mst. Najma Parveen, had filed a composite suit for grant of decree for dissolution of marriage as well as for recovery of dowry articles before learned Judge Family Court, Layyah, against Muhammad Akram, the present writ petitioner. The suit for dissolution of marriage on the basis of \"Khula\"' and for recovery of dowry articles to the extent of Rs.30,000 were decreed by the learned Judge Family Court on 18-3-2005. Aggrieved from that judgment and decree, the instant writ petition has been filed by Muhammad Akram.\n\n2. Petitioner's learned Advocate submits that learned Judge Family Court has failed to grant \"Zare-e-Khula\" to the petitioner and that the plaintiff/respondent had not asserted and prayed for grant of decree on the basis of \"Khula\"' in her plaint.\n\n3. After considering the arguments and from the perusal of the record, it has revealed that in clauses (iii) and (iv) of para. No.6 of the plaint, Mst. Najma Perveen respondent had narrated the facts which were the cause of filing of the suit. She has also stated in the aforesaid plaint that she had developed extreme hatred and there was no likelihood for reconciliation between the parties. It was furthers stated by her that she would prefer death rather to remain within the marital union of Muhammad Akram, the petitioner. According to these words, 'I cannot subscribe to the view of the learned counsel that these words cannot be considered as bring out the plea of \"Khula\"\". These words used in the plaint are sufficient and it is not necessary for the plaintiff to use specific word of grant of decree of \"Khula' .\n\n4. As regard the decree of dowry articles, it is admitted fact that section 14 of the West Pakistan Family Court Act, 1964 has taken away the benefit of filing of an appeal against the decree granted to the extent of Rs.30,000 for the dowry articles. As the law framers have barred his remedy to be availed of by the defendant in case of decree of dowry articles to the extent of Rs.30,000 therefore, the remedy of extraordinary jurisdiction in an ordinary case, of not an exceptional nature cannot be granted to the petitioner. I have already delivered a judgment on this point which is reported in M. Ramzan v. Judge Family Court and others (2005 MLD 631). This writ petition is accordingly, not entertainable against the decree of dowry articles to the extent of Rs.30,000 so is dismissed in limine.\n\nH.B.T./M-282/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "As regard the decree of dowry articles, it is admitted fact that section 14 of the West Pakistan Family Court Act, 1964 has taken away the benefit of filing of an appeal against the decree granted to the extent of Rs.30,000 for the dowry articles.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "As the law framers have barred his remedy to be availed of by the defendant in case of decree of dowry articles to the extent of Rs.30,000 therefore, the remedy of extraordinary jurisdiction in an ordinary case, of not an exceptional nature cannot be granted to the petitioner.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "This writ petition is accordingly, not entertainable against the decree of dowry articles to the extent of Rs.30,000 so is dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "H.B.T./M-282/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 9,
+        "text": "2006 Y L R 2204\n\n[Lahore]\n\nBefore Sheikh Hakim Ali, J\n\nMUHAMMAD AKRAM---Petitioner\n\nVersus\n\nSENIOR CIVIL JUDGE, FAMILY COURT and others---Respondents\n\nWrit Petition No.3742 of 2005, decided on 16th November, 2005.\n\nWest Pakistan Family Courts Act (XXXV of.1964)---\n\n----Ss. 5, Sched. & 14---Constitution of Pakistan (1973), Art.199---Constitutional petition--- Maintainability--- Suit for dissolution of marriage on ground of Khula' and recovery of dowry articles---Suit for dissolution of marriage on basis of Khula' and for recovery of dowry articles, was decreed by Family Court---Contention of petitioner was that Family Court had failed to grant him 'Zar-e-Khula' and that respondent had not asserted and prayed for grant of decree on basis of Khula' in her plaint---Validity---Respondent though had not used word Khula', but in her plaint had narrated the facts which were the cause of filing of the suit---Respondent lady had stated that she had developed extreme hatred against the petitioner; that there was no likelihood of reconciliation between the parties and that she would prefer death rather to remain within the marital union with petitioner---Said words of respondent could well be considered as bringing out plea of Khula' and it was not necessary for her to use specific words of grant of decree of Khula'---Section 14 of West Pakistan Family Courts Act, 1964 had taken away benefit of filing of appeal against decree granted to the extent of Rs.30,000 for dowry articles---Legislature having barred that remedy to be availed of by petitioner in case of decree of dowry articles to the extent of Rs.30,000, remedy of extraordinary jurisdiction in an ordinary case, of not an exceptional nature, could not be granted to the petitioner---Constitutional petition, in circumstances, was not entertainable against decree of dowry articles.\n\nCh. Muhammad Akram for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 10,
+        "paragraph_end": 10,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "SHEIKH HAKIM, ALI, J.---Mst. Najma Parveen, had filed a composite suit for grant of decree for dissolution of marriage as well as for recovery of dowry articles before learned Judge Family Court, Layyah, against Muhammad Akram, the present writ petitioner. The suit for dissolution of marriage on the basis of \"Khula\"' and for recovery of dowry articles to the extent of Rs.30,000 were decreed by the learned Judge Family Court on 18-3-2005. Aggrieved from that judgment and decree, the instant writ petition has been filed by Muhammad Akram.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "2. Petitioner's learned Advocate submits that learned Judge Family Court has failed to grant \"Zare-e-Khula\" to the petitioner and that the plaintiff/respondent had not asserted and prayed for grant of decree on the basis of \"Khula\"' in her plaint.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "3. After considering the arguments and from the perusal of the record, it has revealed that in clauses (iii) and (iv) of para. No.6 of the plaint, Mst. Najma Perveen respondent had narrated the facts which were the cause of filing of the suit. She has also stated in the aforesaid plaint that she had developed extreme hatred and there was no likelihood for reconciliation between the parties. It was furthers stated by her that she would prefer death rather to remain within the marital union of Muhammad Akram, the petitioner. According to these words, 'I cannot subscribe to the view of the learned counsel that these words cannot be considered as bring out the plea of \"Khula\"\". These words used in the plaint are sufficient and it is not necessary for the plaintiff to use specific word of grant of decree of \"Khula' .",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "4. As regard the decree of dowry articles, it is admitted fact that section 14 of the West Pakistan Family Court Act, 1964 has taken away the benefit of filing of an appeal against the decree granted to the extent of Rs.30,000 for the dowry articles. As the law framers have barred his remedy to be availed of by the defendant in case of decree of dowry articles to the extent of Rs.30,000 therefore, the remedy of extraordinary jurisdiction in an ordinary case, of not an exceptional nature cannot be granted to the petitioner. I have already delivered a judgment on this point which is reported in M. Ramzan v. Judge Family Court and others (2005 MLD 631). This writ petition is accordingly, not entertainable against the decree of dowry articles to the extent of Rs.30,000 so is dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "H.B.T./M-282/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

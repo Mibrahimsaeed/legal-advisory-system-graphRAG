@@ -1,0 +1,111 @@
+{
+  "doc_id": "002dcb72b51088b2694c627f",
+  "metadata": {
+    "doc_id": "002dcb72b51088b2694c627f",
+    "case_title": "MUHAMMAD TUFAIL vs Mst. SAMIYA and another",
+    "citation": "2020 Y L R 2523",
+    "court": "Sindh",
+    "court_location": "Sindh",
+    "decision_date": null,
+    "judges": [
+      "Fahim Ahmed Siddiqui"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "Ss. 10 & 5"
+    ],
+    "source_relpath": "2020K4126",
+    "content_hash": "0eae828242f6158ccc43abc1cd89d5010e41f467e841521b2e9a17957206b2cf"
+  },
+  "full_text": "2020 Y L R 2523\n\n[Sindh]\n\nBefore Fahim Ahmed Siddiqui, J\n\nMUHAMMAD TUFAIL---Petitioner\n\nVersus\n\nMst. SAMIYA and another---Respondents\n\nConstitutional Petition No.S-899 of 2019, decided on 29th July, 2019.\n\nFamily Courts Act (XXXV of 1964)---\n\n---Ss. 10 & 5, Sched.---Suit for restitution of conjugal rights---Pre-trial proceedings--- Scope--- Petitioner challenged order passed by Judge Family Court whereby suit filed by petitioner for restitution of conjugal rights was dismissed and the counter claim of khula preferred by defendant was entertained and she was granted khula in lieu of dower---Contention of petitioner was that opportunity of reconciliation was not provided by holding a proper pre-trial---Validity---Judge Family Court had observed that the matter was fixed for pre-trial proceedings on the date of passing impugned order but neither the petitioner nor his counsel appeared---No illegality or infirmity was found in the order of Trial Court and it was an indecorous plea that an opportunity of pre-trial was not provided to the petitioner---Petition was dismissed in limine.\n\nMuhammad Ramzan Khan for Petitioner.\n\nORDER\n\nFAHIM AHMED SIDDIQUI, J.---Urgency granted.\n\n2. Exemptions granted subject to all just exceptions.\n\n3&4. The petitioner has challenged the order dated 23-07-2019 passed by the learned Civil and Family Judge-XX, Karachi South in Family Suit No. 977 of 2019, whereby the Suit filed by the plaintiff for conjugal rights was dismissed, while the counter claim of Khula preferred by the defendant in the Written Statement was entertained and she was granted Khula in lieu of dower.\n\nThe learned counsel for the petitioner submits that the order of the learned Family Court is illegal and unwarranted under the law as an opportunity for reconciliation was not provided by holding a proper pre-trial. He submits that the Suit was filed by the petitioner for conjugal rights against the defendant, who herself entered into marital bond after exercising her right of free will. According to him, without pre-trial, the Family Court cannot grant Khula. In the end he submits that at least the respondent being called in this Court and if she is not ready to live with the petitioner, the petitioner will be satisfied.\n\nI have heard the arguments and have gone through the available record. In the instant case, the impugned order itself is a speaking volumes regarding the attitude of the petitioner. It has been observed by the learned Family Judge that the petitioner has filed the Suit for conjugal rights, while respondent No. 1 (defendant) filed written statement wherein she prayed that not only the Suit of the petitioner be dismissed but she would be released from the marital tie by granting her Khula. The learned Family Judge further observed that on the date of impugned order, the matter was fixed for pre-trial when the defendant (respondent No. 1) was present with her counsel but neither the plaintiff (petitioner) bothered to appear nor his counsel, which shows the interest of the petitioner in the matter. I am of the view that in the light of these observations of the learned trial Judge, it can be said that it is the attitude of the petitioner, which has turned the respondent against him and the same was continued even after filing Suit for conjugal rights before the trial Court. It was the reason that in her Written Statement, she sought her release from marital bond, and the petitioner established her unbecoming attitude by not appearing before the trial Court in a Suit initiated by him on a date fixed for pre-trial proceeding. Even otherwise, there is no illegality or infirmity in the order of the trial Court and it is indecorous plea that an opportunity of pre-trial was not provided to the petitioner. In the existing provision of affairs, I find no merit in the instant petition, which is dismissed in limine along with the listed application.\n\nSA/M-251/Sindh Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "1 (defendant) filed written statement wherein she prayed that not only the Suit of the petitioner be dismissed but she would be released from the marital tie by granting her Khula.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "In the existing provision of affairs, I find no merit in the instant petition, which is dismissed in limine along with the listed application.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "SA/M-251/Sindh Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 9,
+        "text": "2020 Y L R 2523\n\n[Sindh]\n\nBefore Fahim Ahmed Siddiqui, J\n\nMUHAMMAD TUFAIL---Petitioner\n\nVersus\n\nMst. SAMIYA and another---Respondents\n\nConstitutional Petition No.S-899 of 2019, decided on 29th July, 2019.\n\nFamily Courts Act (XXXV of 1964)---\n\n---Ss. 10 & 5, Sched.---Suit for restitution of conjugal rights---Pre-trial proceedings--- Scope--- Petitioner challenged order passed by Judge Family Court whereby suit filed by petitioner for restitution of conjugal rights was dismissed and the counter claim of khula preferred by defendant was entertained and she was granted khula in lieu of dower---Contention of petitioner was that opportunity of reconciliation was not provided by holding a proper pre-trial---Validity---Judge Family Court had observed that the matter was fixed for pre-trial proceedings on the date of passing impugned order but neither the petitioner nor his counsel appeared---No illegality or infirmity was found in the order of Trial Court and it was an indecorous plea that an opportunity of pre-trial was not provided to the petitioner---Petition was dismissed in limine.\n\nMuhammad Ramzan Khan for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 10,
+        "paragraph_end": 10,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 12,
+        "text": "FAHIM AHMED SIDDIQUI, J.---Urgency granted.\n\n2. Exemptions granted subject to all just exceptions.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "3&4. The petitioner has challenged the order dated 23-07-2019 passed by the learned Civil and Family Judge-XX, Karachi South in Family Suit No. 977 of 2019, whereby the Suit filed by the plaintiff for conjugal rights was dismissed, while the counter claim of Khula preferred by the defendant in the Written Statement was entertained and she was granted Khula in lieu of dower.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "The learned counsel for the petitioner submits that the order of the learned Family Court is illegal and unwarranted under the law as an opportunity for reconciliation was not provided by holding a proper pre-trial. He submits that the Suit was filed by the petitioner for conjugal rights against the defendant, who herself entered into marital bond after exercising her right of free will. According to him, without pre-trial, the Family Court cannot grant Khula. In the end he submits that at least the respondent being called in this Court and if she is not ready to live with the petitioner, the petitioner will be satisfied.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "I have heard the arguments and have gone through the available record. In the instant case, the impugned order itself is a speaking volumes regarding the attitude of the petitioner. It has been observed by the learned Family Judge that the petitioner has filed the Suit for conjugal rights, while respondent No. 1 (defendant) filed written statement wherein she prayed that not only the Suit of the petitioner be dismissed but she would be released from the marital tie by granting her Khula. The learned Family Judge further observed that on the date of impugned order, the matter was fixed for pre-trial when the defendant (respondent No. 1) was present with her counsel but neither the plaintiff (petitioner) bothered to appear nor his counsel, which shows the interest of the petitioner in the matter. I am of the view that in the light of these observations of the learned trial Judge, it can be said that it is the attitude of the petitioner, which has turned the respondent against him and the same was continued even after filing Suit for conjugal rights before the trial Court. It was the reason that in her Written Statement, she sought her release from marital bond, and the petitioner established her unbecoming attitude by not appearing before the trial Court in a Suit initiated by him on a date fixed for pre-trial proceeding. Even otherwise, there is no illegality or infirmity in the order of the trial Court and it is indecorous plea that an opportunity of pre-trial was not provided to the petitioner. In the existing provision of affairs, I find no merit in the instant petition, which is dismissed in limine along with the listed application.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "SA/M-251/Sindh Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

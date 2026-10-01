@@ -1,0 +1,114 @@
+{
+  "doc_id": "48fc9207b5bd13a3bc59076a",
+  "metadata": {
+    "doc_id": "48fc9207b5bd13a3bc59076a",
+    "case_title": "MUHAMMAD BASHIR ALI SIDDIQUI- vs Mst. SARWAR JAHAN BEGUM and another-",
+    "citation": "2008 S C M R 186",
+    "court": "Supreme Court of Pakistan",
+    "court_location": null,
+    "decision_date": null,
+    "judges": [
+      "Saiyed Saeed Ashhad",
+      "Ghulam Rabbani"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "Art.185"
+    ],
+    "source_relpath": "2008S778",
+    "content_hash": "362e829f0c0009704ced21b61b5aba0aeec9d8113697ffede47dbd980434993b"
+  },
+  "full_text": "2008 S C M R 186\n\n[Supreme Court of Pakistan]\n\nPresent: Saiyed Saeed Ashhad and Ghulam Rabbani, JJ\n\nMUHAMMAD BASHIR ALI SIDDIQUI----Petitioner\n\nVersus\n\nMst. SARWAR JAHAN BEGUM and another----Respondents\n\nCivil Petition No.413-K of 2006, decided on 2nd October, 2006.\n\n(On appeal from judgment, dated 19-5-2005 passed by High Court of Sindh, Circuit Bench at Hyderabad in C.P. No.S-179 of 2005).\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5 & Sched.---Constitution of Pakistan (1973), Art.185(3)---Dissolution of marriage on ground of Khula---Parties were married in the year 1970---Nikahnama had provided that in case respondent/wife obtained Khula, she would have to pay a sum of Rs.2,50,000 to the petitioner/husband; and if the petitioner would divorce the respondent, he would pay a sum of Rs.2,50,000 to her---Suit filed by respondent (wife) for obtaining dissolution of marriage on ground of Khula was finally decreed---Petitioner (husband) had contended that Family Judge as well as High Court had failed to take into account the Nikahnama-Contention of petitioner was that it was incumbent upon Family Court to award Rs.2,50,000 while granting decree by way of Khula in favour of petitioner---Contention of petitioner was absolutely frivolous as it was against the basic principle of law which required the parties to remain in marital tie in a peaceful and tranquil atmosphere and were not required to be bound by stringent conditions to remain in marriage bond.\n\nAkhlaq Ahmed Siddiqui, Advocate-on-Record for Petitioner.\n\nNemo for Respondents.\n\nORDER\n\nSAIYED SAEED ASHHAD, J.--- This petition for leave to appeal has been filed against the judgment of Sindh High Court. Hyderabad Circuit, Hyderabad dated 19-5-2005 in C.P.No.S-179 of 2005.\n\n2. The parties were married sometimes in the year 1970. Paragraph 17 of Nikahnama provided that in case the respondent wanted to obtain Khula she would have to pay a sum of Rs.2,50,000 to the petitioner and if the petitioner would divorce the respondent, he would pay a sum of Rs.2,50,000 to the respondent. The respondent filed a suit for obtaining dissolution of marriage on the ground of Khula on 4th December; 2004. This suit was decreed on 17-9-2005. Against the said decree the petitioner filed above constitutional petition before High Court of Sindh. Hyderabad Circuit which was dismissed by the impugned judgment. Hence this petition.\n\n3. Contention raised on behalf of the petitioner is that learned Family Judge as well as the learned Judge of Sindh High Court failed to take into account paragraph 17 of the Nikahnama, the provisions of which have already been mentioned above. According to him it was incumbent upon the family Court to award Rs.2,50,000 while granting decree by way of Khula in favour of petitioner. When confronted with the question as to whether parties could place restriction on their respective rights given to them by Shariat Law, Mr. Akhlaq Ahmed Siddiqui was unable to advance any plausible ground. His only contention was that such condition was embodied in the Nikahnama by way of safety and for prolongation of marriage contract, as it would deter both the parties from bringing an end to the marriage contract. This contention to say, the least is absolutely frivolous as it is against the basic principle of law which require the parties to remain in marital ties in a peaceful and tranquil atmosphere and are not required to be bound by stringent conditions to remain in marriage bond.\n\n4. This petition is absolutely without any substance and is dismissed. Leave refused.\n\nH.B.T./M-213/SC??????????????????????????????????????????????????????????????????????????????? Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "This petition is absolutely without any substance and is dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "Leave refused.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "H.B.T./M-213/SC??????????????????????????????????????????????????????????????????????????????? Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "2008 S C M R 186\n\n[Supreme Court of Pakistan]\n\nPresent: Saiyed Saeed Ashhad and Ghulam Rabbani, JJ\n\nMUHAMMAD BASHIR ALI SIDDIQUI----Petitioner\n\nVersus\n\nMst. SARWAR JAHAN BEGUM and another----Respondents\n\nCivil Petition No.413-K of 2006, decided on 2nd October, 2006.\n\n(On appeal from judgment, dated 19-5-2005 passed by High Court of Sindh, Circuit Bench at Hyderabad in C.P. No.S-179 of 2005).\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5 & Sched.---Constitution of Pakistan (1973), Art.185(3)---Dissolution of marriage on ground of Khula---Parties were married in the year 1970---Nikahnama had provided that in case respondent/wife obtained Khula, she would have to pay a sum of Rs.2,50,000 to the petitioner/husband; and if the petitioner would divorce the respondent, he would pay a sum of Rs.2,50,000 to her---Suit filed by respondent (wife) for obtaining dissolution of marriage on ground of Khula was finally decreed---Petitioner (husband) had contended that Family Judge as well as High Court had failed to take into account the Nikahnama-Contention of petitioner was that it was incumbent upon Family Court to award Rs.2,50,000 while granting decree by way of Khula in favour of petitioner---Contention of petitioner was absolutely frivolous as it was against the basic principle of law which required the parties to remain in marital tie in a peaceful and tranquil atmosphere and were not required to be bound by stringent conditions to remain in marriage bond.\n\nAkhlaq Ahmed Siddiqui, Advocate-on-Record for Petitioner.\n\nNemo for Respondents."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "SAIYED SAEED ASHHAD, J.--- This petition for leave to appeal has been filed against the judgment of Sindh High Court. Hyderabad Circuit, Hyderabad dated 19-5-2005 in C.P.No.S-179 of 2005.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. The parties were married sometimes in the year 1970. Paragraph 17 of Nikahnama provided that in case the respondent wanted to obtain Khula she would have to pay a sum of Rs.2,50,000 to the petitioner and if the petitioner would divorce the respondent, he would pay a sum of Rs.2,50,000 to the respondent. The respondent filed a suit for obtaining dissolution of marriage on the ground of Khula on 4th December; 2004. This suit was decreed on 17-9-2005. Against the said decree the petitioner filed above constitutional petition before High Court of Sindh. Hyderabad Circuit which was dismissed by the impugned judgment. Hence this petition.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "3. Contention raised on behalf of the petitioner is that learned Family Judge as well as the learned Judge of Sindh High Court failed to take into account paragraph 17 of the Nikahnama, the provisions of which have already been mentioned above. According to him it was incumbent upon the family Court to award Rs.2,50,000 while granting decree by way of Khula in favour of petitioner. When confronted with the question as to whether parties could place restriction on their respective rights given to them by Shariat Law, Mr. Akhlaq Ahmed Siddiqui was unable to advance any plausible ground. His only contention was that such condition was embodied in the Nikahnama by way of safety and for prolongation of marriage contract, as it would deter both the parties from bringing an end to the marriage contract. This contention to say, the least is absolutely frivolous as it is against the basic principle of law which require the parties to remain in marital ties in a peaceful and tranquil atmosphere and are not required to be bound by stringent conditions to remain in marriage bond.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "4. This petition is absolutely without any substance and is dismissed. Leave refused.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "H.B.T./M-213/SC??????????????????????????????????????????????????????????????????????????????? Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

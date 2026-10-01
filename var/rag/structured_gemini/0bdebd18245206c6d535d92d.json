@@ -1,0 +1,107 @@
+{
+  "doc_id": "0bdebd18245206c6d535d92d",
+  "metadata": {
+    "doc_id": "0bdebd18245206c6d535d92d",
+    "case_title": "Mst. AMINA SAEED KHAGA vs JUDGE FAMILY COURT, LAHORE and another",
+    "citation": "2009 Y L R 1891",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Rana Zahid Mehmood"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "Art.199"
+    ],
+    "source_relpath": "2009L4295",
+    "content_hash": "487d732386fedb39778033cdb40e9d43f0768e74e03372a4f6d52aaa5e801aff"
+  },
+  "full_text": "2009 Y L R 1891\n\n[Lahore]\n\nBefore Rana Zahid Mehmood, J\n\nMst. AMINA SAEED KHAGA---Petitioner\n\nVersus\n\nJUDGE FAMILY COURT, LAHORE and another---Respondents\n\nWrit Petition No. 3649 of 2008, decided on 11th March, 2009.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5 & Sched.---Constitution of Pakistan (1973), Art.199---Suit for dissolution of marriage filed through special attorney---Dismissal of Suit---Suit for dissolution of marriage filed by the plaintiff through her special attorney was dismissed on the ground that special power of attorney placed on record was written on simple paper without payment of stamp duty and also was not verified by the Oath Commissioner---Counsel for the plaintiff had submitted that since the plaintiff was present in the High Court, she could also appear before Judge Family Court and any illegality or irregularity highlighted by the Family Court on the special power of attorney could be cured---Counsel had requested that ease be remanded to the Trial Court for proceeding in accordance with law and that the plaintiff undertakes to appear before the Trial Court---Since the plaintiff was present before the High Court, she could conveniently appear before the Family Court and the irregularity or illegality in the execution of the special power of attorney in favour of special attorney could be rectified and cured by her personal appearance before the Trial Court---Case was remanded to the Trial Court to proceed further in accordance with law after the plaintiff appeared before it in person and supported the execution of special power of attorney through her specific statement in accordance with law.\n\nRaja Jahanzeb Akhtar for Petitioner.\n\nRespondent No.2 ex parte.\n\nORDER\n\nRANA ZAHID MEHMOOD, J.--This is a constitutional petition filed by the petitioner challenging dismissal of her suit vide judgment and decree dated 31-3-2008 passed by respondent No.1/learned Judge Family Court, Lahore which was a suit for dissolution of marriage with respondent No.2, while the suit was dismissed on the ground that special power of attorney placed on record as Mark-A was written on simple paper without payment of stamp duty and was also not verified by the Oath Commissioner, therefore, as the petitioner had not appeared before the learned Judge Family Court and suit was filed through special attorney as well, the document stated above was found defective in law, therefore, the learned Judge observed that had the petitioner appeared before him, the irregularity and the illegality stated above could be cured. It is also important to mention that the learned trial Judge had also shown his reservation on the signature of the petitioner in favour of the special attorney.\n\n2. Learned counsel for the petitioner has submitted that since the petitioner is present in person in Court today and she can also appear before the learned Judge Family Court, therefore, any illegality or irregularity highlighted by the learned Judge Family Court on the special power of attorney can be cured, therefore, petition may be allowed, case may be remanded to the learned trial Court for proceedings in accordance with law and petitioner undertakes to appear before the learned trial Judge. He submitted that a direction may be given to the learned trial Court to decide the suit within 15 days.\n\n3. Respondent is proceeded ex parte as notices were issued to him through TCS and the receipt is available on record, therefore, as none is present from his side, therefore, he is proceeded ex parte.\n\n4. Since the petitioner is present in person before this Court today and can conveniently appear before the learned Judge Family Court and the irregularity or illegality in the execution of the special power of attorney in favour of the special attorney can be rectified and cured by the personal appearance before the trial Court, therefore, this petition is accepted and the case is remanded to the learned trial Court/Judge Family Court to proceed further in accordance with law after the petitioner appears before him in person and supports the execution of special power of attorney through her specific statement in accordance with law or may seek the indulgence of the Court by direct appearance and a power of attorney in favour of the counsel. The trial Court is directed to expedite the trial to conclude the same within 60 days.\n\nH.B.T./A-180/L Case remanded.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "Since the petitioner is present in person before this Court today and can conveniently appear before the learned Judge Family Court and the irregularity or illegality in the execution of the special power of attorney in favour of the special attorney can be rectified and cured by the personal appearance before the trial Court, therefore, this petition is accepted and the case is remanded to the learned trial Court/Judge Family Court to proceed further in accordance with law after the petitioner appears before him in person and supports the execution of special power of attorney through her specific statement in accordance with law or may seek the indulgence of the Court by direct appearance and a power of attorney in favour of the counsel.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "H.B.T./A-180/L Case remanded.",
+        "label": "remanded"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "2009 Y L R 1891\n\n[Lahore]\n\nBefore Rana Zahid Mehmood, J\n\nMst. AMINA SAEED KHAGA---Petitioner\n\nVersus\n\nJUDGE FAMILY COURT, LAHORE and another---Respondents\n\nWrit Petition No. 3649 of 2008, decided on 11th March, 2009.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5 & Sched.---Constitution of Pakistan (1973), Art.199---Suit for dissolution of marriage filed through special attorney---Dismissal of Suit---Suit for dissolution of marriage filed by the plaintiff through her special attorney was dismissed on the ground that special power of attorney placed on record was written on simple paper without payment of stamp duty and also was not verified by the Oath Commissioner---Counsel for the plaintiff had submitted that since the plaintiff was present in the High Court, she could also appear before Judge Family Court and any illegality or irregularity highlighted by the Family Court on the special power of attorney could be cured---Counsel had requested that ease be remanded to the Trial Court for proceeding in accordance with law and that the plaintiff undertakes to appear before the Trial Court---Since the plaintiff was present before the High Court, she could conveniently appear before the Family Court and the irregularity or illegality in the execution of the special power of attorney in favour of special attorney could be rectified and cured by her personal appearance before the Trial Court---Case was remanded to the Trial Court to proceed further in accordance with law after the plaintiff appeared before it in person and supported the execution of special power of attorney through her specific statement in accordance with law.\n\nRaja Jahanzeb Akhtar for Petitioner.\n\nRespondent No.2 ex parte."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "RANA ZAHID MEHMOOD, J.--This is a constitutional petition filed by the petitioner challenging dismissal of her suit vide judgment and decree dated 31-3-2008 passed by respondent No.1/learned Judge Family Court, Lahore which was a suit for dissolution of marriage with respondent No.2, while the suit was dismissed on the ground that special power of attorney placed on record as Mark-A was written on simple paper without payment of stamp duty and was also not verified by the Oath Commissioner, therefore, as the petitioner had not appeared before the learned Judge Family Court and suit was filed through special attorney as well, the document stated above was found defective in law, therefore, the learned Judge observed that had the petitioner appeared before him, the irregularity and the illegality stated above could be cured. It is also important to mention that the learned trial Judge had also shown his reservation on the signature of the petitioner in favour of the special attorney.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "2. Learned counsel for the petitioner has submitted that since the petitioner is present in person in Court today and she can also appear before the learned Judge Family Court, therefore, any illegality or irregularity highlighted by the learned Judge Family Court on the special power of attorney can be cured, therefore, petition may be allowed, case may be remanded to the learned trial Court for proceedings in accordance with law and petitioner undertakes to appear before the learned trial Judge. He submitted that a direction may be given to the learned trial Court to decide the suit within 15 days.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "3. Respondent is proceeded ex parte as notices were issued to him through TCS and the receipt is available on record, therefore, as none is present from his side, therefore, he is proceeded ex parte.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "4. Since the petitioner is present in person before this Court today and can conveniently appear before the learned Judge Family Court and the irregularity or illegality in the execution of the special power of attorney in favour of the special attorney can be rectified and cured by the personal appearance before the trial Court, therefore, this petition is accepted and the case is remanded to the learned trial Court/Judge Family Court to proceed further in accordance with law after the petitioner appears before him in person and supports the execution of special power of attorney through her specific statement in accordance with law or may seek the indulgence of the Court by direct appearance and a power of attorney in favour of the counsel. The trial Court is directed to expedite the trial to conclude the same within 60 days.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "H.B.T./A-180/L Case remanded.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

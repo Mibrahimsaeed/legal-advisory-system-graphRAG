@@ -1,0 +1,129 @@
+{
+  "doc_id": "5b322dbaf052131b83bc4036",
+  "metadata": {
+    "doc_id": "5b322dbaf052131b83bc4036",
+    "case_title": "RAJA MUHAMMAD vs Mst. SHAMIM AKHTAR and 2 others",
+    "citation": "P L D 2008 Lahore 408",
+    "court": null,
+    "court_location": null,
+    "decision_date": "2008-01-01",
+    "judges": [],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "Art.199"
+    ],
+    "source_relpath": "2008L85",
+    "content_hash": "67f840d31c593b982e9c908214f5b4b6ac1e2b4d4fe9596bedfcbca8c7a691a8"
+  },
+  "full_text": "P L D 2008 Lahore 408\n\n.Before Maulvi Anwarul Haq, J\n\nRAJA MUHAMMAD---Petitioner\n\nVersus\n\nMst. SHAMIM AKHTAR and 2 others---Respondents\n\nWrit Petition No.2020 of 1999, heard on 7th May, 2008.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5---Constitution of Pakistan (1973), Art.199---Constitutional petition---Maintenance allowance---Khidmat Committee---Jurisdiction---Maintenance allowance fixed by Family Court in favour of wife and minor children was enhanced by Chairman Khidmat Committee---Validity---Khidmat Committees were found to have been constituted in exercise of executive powers through a notification---Validity---Every executive action should have backing of some law and in absence of any such law, establishment of Khidmat Committee was wholly illegal---Family Court had the exclusive jurisdiction to decide question of maintenance---Order passed by Chairman Khidmat Committee was declared without lawful authority---High Court prohibited the authorities from enforcing order passed by the Chairman of Khidmat Committee---Petition was allowed in circumstances.\n\nM. D. Tahir, Advocate v. Federal Government through Secretary, Cabinet Division, Pakistan Secretariat, Islamabad and 2 others PLD 2000 Lah. 251 and Ch. Muhammad Idrees, Advocate v. S.H.O., Police Station Pattoki, District Kasur and others 1999 CLC 570 ref.\n\nRaja Muhammad Faraz for Petitioner.\n\nViqas Rauf, Federal Counsel (on Court call).\n\nDate of hearing: 7th May, 2008.\n\nJUDGMENT\n\nMAULVI ANWARUL HAQ, J.---According to the contents of this writ petition, the respondent No. l was married to the petitioner in the year 1978 and the couple was blessed with two sons. Unfortunately, the marriage ended in a divorce and the lady filed a suit for maintenance for herself and the two children. The suit was not contested by the petitioner and on the basis of the statements of the parties, a decree was passed by the learned Judge, Family Court, on 27-5-1998. The maintenance allowance was awarded to the minor sons of the parties at the rate of Rs.500 per month. The respondent and the said sons filed an appeal which was dismissed by a learned A.D.J., Rawalpindi, on 28-10-1998.\n\n2. The grievance being made out in this writ petition is that after the said inter partes decisions, the respondent No.1 approached respondent No.2 stated to be Chairman of a Khidmat Committee who proceeded to award maintenance to both the sons at the rate of Rs.1,000 per month and to the respondent No.1 at the rate of Rs.800 per month and further directed that the 'maintenance be paid on 13-9-1999. A direction was issued to the respondent No.3 S.H.O. to enforce the said order.\n\n3. This writ petition was taken up by this Court on 22-9-1999 when it was admitted to hearing and the said order was suspended. The respondent No.1 has been served through her son Raja Irfan for today but she has not turned up. She is proceeded against ex parte.\n\n4. Learned counsel for the petitioner although is stating that the impugned order of the respondent No.2 is without lawful authority but express inability to substantiate the said contention. Mr. Viqas Rauf, learned Federal Counsel, has put in appearance on Court call. He has brought to my notice judgment of a learned Division Bench of this Court in the case of M.D. Tahir, Advocate v. Federal. Government through Secretary, Cabinet Division, Pakistan Secretariat, Islamabad and 2 others PLD 2000 Lah. 251 and in the case of Ch. Muhammad Idrees, Advocate v. S.H.O., Police Station Pattoki, District Kasur and others 1999 CLC 570 to state that the constitution of Khidmat Committee was declared to be without lawful authority being without backing of any law. According to learned Federal Counsel, the Khidmat Committees have no jurisdiction to interfere in any matters that are pending in or decided by the Courts established under the law.\n\n5. I have gone through the said judgments and do find that the Khidmat Committees were found to have been constituted in exercise of executive powers through a notification. It has been observed that every executive action should have the backing of some law. In the absence of any such law, the establishment of Khidmat Committees was held to be wholly illegal.\n\n6. The above reproduced contents of the writ petition are supported by the certified copies of the judgments and decrees passed by the learned Judge Family Court who had the exclusive jurisdiction to decide the question of maintenance as also the order of the learned appellate Court dismissing the appeal of the respondent-lady.\n\n7. The writ petition is accordingly allowed and the impugned order of the respondent No.2 is declared to be without lawful authority and the respondent No.3 is prohibited from enforcing the same. I deem it appropriate to thank the learned Federal Counsel for his industry in the matter of assisting this Court on the said point. No orders as to costs.\n\nM.H./R-20/L Petition allowed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "The writ petition is accordingly allowed and the impugned order of the respondent No.2 is declared to be without lawful authority and the respondent No.3 is prohibited from enforcing the same.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "M.H./R-20/L Petition allowed.",
+        "label": "allowed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "P L D 2008 Lahore 408\n\n.Before Maulvi Anwarul Haq, J\n\nRAJA MUHAMMAD---Petitioner\n\nVersus\n\nMst. SHAMIM AKHTAR and 2 others---Respondents\n\nWrit Petition No.2020 of 1999, heard on 7th May, 2008.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5---Constitution of Pakistan (1973), Art.199---Constitutional petition---Maintenance allowance---Khidmat Committee---Jurisdiction---Maintenance allowance fixed by Family Court in favour of wife and minor children was enhanced by Chairman Khidmat Committee---Validity---Khidmat Committees were found to have been constituted in exercise of executive powers through a notification---Validity---Every executive action should have backing of some law and in absence of any such law, establishment of Khidmat Committee was wholly illegal---Family Court had the exclusive jurisdiction to decide question of maintenance---Order passed by Chairman Khidmat Committee was declared without lawful authority---High Court prohibited the authorities from enforcing order passed by the Chairman of Khidmat Committee---Petition was allowed in circumstances.\n\nM. D. Tahir, Advocate v. Federal Government through Secretary, Cabinet Division, Pakistan Secretariat, Islamabad and 2 others PLD 2000 Lah. 251 and Ch. Muhammad Idrees, Advocate v. S.H.O., Police Station Pattoki, District Kasur and others 1999 CLC 570 ref.\n\nRaja Muhammad Faraz for Petitioner.\n\nViqas Rauf, Federal Counsel (on Court call).\n\nDate of hearing: 7th May, 2008."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "MAULVI ANWARUL HAQ, J.---According to the contents of this writ petition, the respondent No. l was married to the petitioner in the year 1978 and the couple was blessed with two sons. Unfortunately, the marriage ended in a divorce and the lady filed a suit for maintenance for herself and the two children. The suit was not contested by the petitioner and on the basis of the statements of the parties, a decree was passed by the learned Judge, Family Court, on 27-5-1998. The maintenance allowance was awarded to the minor sons of the parties at the rate of Rs.500 per month. The respondent and the said sons filed an appeal which was dismissed by a learned A.D.J., Rawalpindi, on 28-10-1998.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. The grievance being made out in this writ petition is that after the said inter partes decisions, the respondent No.1 approached respondent No.2 stated to be Chairman of a Khidmat Committee who proceeded to award maintenance to both the sons at the rate of Rs.1,000 per month and to the respondent No.1 at the rate of Rs.800 per month and further directed that the 'maintenance be paid on 13-9-1999. A direction was issued to the respondent No.3 S.H.O. to enforce the said order.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "3. This writ petition was taken up by this Court on 22-9-1999 when it was admitted to hearing and the said order was suspended. The respondent No.1 has been served through her son Raja Irfan for today but she has not turned up. She is proceeded against ex parte.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "4. Learned counsel for the petitioner although is stating that the impugned order of the respondent No.2 is without lawful authority but express inability to substantiate the said contention. Mr. Viqas Rauf, learned Federal Counsel, has put in appearance on Court call. He has brought to my notice judgment of a learned Division Bench of this Court in the case of M.D. Tahir, Advocate v. Federal. Government through Secretary, Cabinet Division, Pakistan Secretariat, Islamabad and 2 others PLD 2000 Lah. 251 and in the case of Ch. Muhammad Idrees, Advocate v. S.H.O., Police Station Pattoki, District Kasur and others 1999 CLC 570 to state that the constitution of Khidmat Committee was declared to be without lawful authority being without backing of any law. According to learned Federal Counsel, the Khidmat Committees have no jurisdiction to interfere in any matters that are pending in or decided by the Courts established under the law.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "5. I have gone through the said judgments and do find that the Khidmat Committees were found to have been constituted in exercise of executive powers through a notification. It has been observed that every executive action should have the backing of some law. In the absence of any such law, the establishment of Khidmat Committees was held to be wholly illegal.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "6. The above reproduced contents of the writ petition are supported by the certified copies of the judgments and decrees passed by the learned Judge Family Court who had the exclusive jurisdiction to decide the question of maintenance as also the order of the learned appellate Court dismissing the appeal of the respondent-lady.",
+        "label": "findings",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "7. The writ petition is accordingly allowed and the impugned order of the respondent No.2 is declared to be without lawful authority and the respondent No.3 is prohibited from enforcing the same. I deem it appropriate to thank the learned Federal Counsel for his industry in the matter of assisting this Court on the said point. No orders as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "M.H./R-20/L Petition allowed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

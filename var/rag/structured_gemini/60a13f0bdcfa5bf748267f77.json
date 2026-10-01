@@ -1,0 +1,110 @@
+{
+  "doc_id": "60a13f0bdcfa5bf748267f77",
+  "metadata": {
+    "doc_id": "60a13f0bdcfa5bf748267f77",
+    "case_title": "2007 Y L R 1065",
+    "citation": "2007 Y L R 1065",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": "2007-01-01",
+    "judges": [
+      "Muhammad Jehangir Arshad"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "S.14",
+      "S.6",
+      "section 6",
+      "Art.199"
+    ],
+    "source_relpath": "2007L4223",
+    "content_hash": "6c96ff9db4b03346324027fa1ebda11b39880efcb967c74f573b23b07cdcafdb"
+  },
+  "full_text": "2007 Y L R 1065\n\n[Lahore]\n\nBefore Muhammad Jehangir Arshad, J\n\nKHALID MEHMOOD---Petitioner\n\nVersus\n\nMst. ANJUM FIRDOUS and others-Respondents\n\nWrit Petition No.3446 of 2005, decided on. 21st March, 2006.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n---S.5, Sched. & S.14---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of amount of maintenance---Family Court dismissed suit for recovery of maintenance amount filed by wife, but on appeal, Appellate Court set aside judgment of Family Court and allowed the wife maintenance allowance at the rate of Rs.1000 per month from the date of institution of the suit---Husband after obtaining permission from Arbitration Council in terms of S.6 of Muslim Family Laws Ordinance 1961, contracted second marriage and he was enjoying matrimonial life having three children from his second wife; whereas the lady was being kept in matrimonial bond without any reason--.-When suggested by High Court to counsel for petitioner/husband whether he was ready to divorce the lady in lieu of one-half of amount of maintenance decreed by Appellate Court below from the date of institution of suit in lieu of consideration of Khula; he consented with condition that amount of Rs.1000 per month be reduced to Rs.800 per month---Said suggestion as well as request of counsel for husband having been accepted by the lady constitutional petition was disposed of accordingly.\n\nSardar Muhammad Iqbal Khakwani for Petitioner.\n\nShamsher Iqbal Chughtai for Respondent No. 1.\n\nDate of hearing: 21st March, 2006.\n\nJUDGMENT\n\nMUHAMMAD JEHANGIR ARSHAD, J.---This writ petition calls in question the judgment dated 15-6-2005 passed by learned Additional District Judge, Ahmadpur East whereby the learned Additional District Judge while \"allowing appeal of Mst. Anjum Firdous respondent' No.1 against the judgment and decree of the learned trial Court/Judge Family Court dated 26-11-1997 dismissing suit of respondent No.1 for maintenance, allowed her maintenance allowance at the rate of Rs.1,000 per month from the date of institution of the suit.\n\n2. Admittedly the parties are entangled in litigation since 1997 to-date,' and in the meanwhile the petitioner after obtaining permission from the Arbitration Council in terms of section 6 of the Muslim Family Laws Ordinance dated 9-8-2000, against which the respondent No.1 filed no revision, contracted second marriage and is now enjoying matrimonial life begetting three children from his second wife, whereas Mst. Anjum Firdous respondent No.1 is being kept in matrimonial bond without any reason, therefore, when suggested by this Court to the learned counsel for the petitioner, whether .the petitioner is ready to divorce respondent No.1 in lieu of one-half of the amount of maintenance decreed by learned Additional District Judge on 15-6-2005 from the date of institution of the suit in lieu of consideration for Khula, the learned counsel in the presence of the petitioner half-heartedly showed his consent with the request that maintenance allowance as determined by the learned Additional District Judge at the rate of Rs.1,000 per month be reduced to Rs.800 per month. As the above suggestion as well as the request of learned counsel for the petitioner is acceptable to Mst. Anjum Firdous respondent No.1 present in Court along with her counsel, this writ petition therefore, is disposed of in the following terms:\n\n(i) The amount of maintenance allowance as fixed by the learned Additional District Judge dated 15-6-2005 at the rate of Rs.1,000 per month is reduced to Rs.800 per month payable by the petitioner to respondent No.1 from the date of institution of the suit, till date;\n\n(ii) The marriage between the parties shall stand dissolved from today in lieu of surrender by Mst. Anjum Firdous respondent No.1 her right of maintenance at the rate of Rs.400 per month from the date of institution of the suit in lieu of consideration for Khula; and\n\n(iii) Mst. Anjum Firdous respondent No.1 however, shall be entitled to recover the maintenance allowance from the petitioner at the rate of Rs.400 per month till 30-6-2006 viz. including the period of Iddat from today.\n\nThere is no order as to costs.\n\nH.B.T./K-3/L Order accordingly.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "H.B.T./K-3/L Order accordingly.",
+        "label": "disposed_accordingly"
+      },
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "There is no order as to costs.",
+        "label": "unclassified"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "2007 Y L R 1065\n\n[Lahore]\n\nBefore Muhammad Jehangir Arshad, J\n\nKHALID MEHMOOD---Petitioner\n\nVersus\n\nMst. ANJUM FIRDOUS and others-Respondents\n\nWrit Petition No.3446 of 2005, decided on. 21st March, 2006.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n---S.5, Sched. & S.14---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of amount of maintenance---Family Court dismissed suit for recovery of maintenance amount filed by wife, but on appeal, Appellate Court set aside judgment of Family Court and allowed the wife maintenance allowance at the rate of Rs.1000 per month from the date of institution of the suit---Husband after obtaining permission from Arbitration Council in terms of S.6 of Muslim Family Laws Ordinance 1961, contracted second marriage and he was enjoying matrimonial life having three children from his second wife; whereas the lady was being kept in matrimonial bond without any reason--.-When suggested by High Court to counsel for petitioner/husband whether he was ready to divorce the lady in lieu of one-half of amount of maintenance decreed by Appellate Court below from the date of institution of suit in lieu of consideration of Khula; he consented with condition that amount of Rs.1000 per month be reduced to Rs.800 per month---Said suggestion as well as request of counsel for husband having been accepted by the lady constitutional petition was disposed of accordingly.\n\nSardar Muhammad Iqbal Khakwani for Petitioner.\n\nShamsher Iqbal Chughtai for Respondent No. 1.\n\nDate of hearing: 21st March, 2006."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "MUHAMMAD JEHANGIR ARSHAD, J.---This writ petition calls in question the judgment dated 15-6-2005 passed by learned Additional District Judge, Ahmadpur East whereby the learned Additional District Judge while \"allowing appeal of Mst. Anjum Firdous respondent' No.1 against the judgment and decree of the learned trial Court/Judge Family Court dated 26-11-1997 dismissing suit of respondent No.1 for maintenance, allowed her maintenance allowance at the rate of Rs.1,000 per month from the date of institution of the suit.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. Admittedly the parties are entangled in litigation since 1997 to-date,' and in the meanwhile the petitioner after obtaining permission from the Arbitration Council in terms of section 6 of the Muslim Family Laws Ordinance dated 9-8-2000, against which the respondent No.1 filed no revision, contracted second marriage and is now enjoying matrimonial life begetting three children from his second wife, whereas Mst. Anjum Firdous respondent No.1 is being kept in matrimonial bond without any reason, therefore, when suggested by this Court to the learned counsel for the petitioner, whether .the petitioner is ready to divorce respondent No.1 in lieu of one-half of the amount of maintenance decreed by learned Additional District Judge on 15-6-2005 from the date of institution of the suit in lieu of consideration for Khula, the learned counsel in the presence of the petitioner half-heartedly showed his consent with the request that maintenance allowance as determined by the learned Additional District Judge at the rate of Rs.1,000 per month be reduced to Rs.800 per month. As the above suggestion as well as the request of learned counsel for the petitioner is acceptable to Mst. Anjum Firdous respondent No.1 present in Court along with her counsel, this writ petition therefore, is disposed of in the following terms:",
+        "label": "facts",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 17,
+        "text": "(i) The amount of maintenance allowance as fixed by the learned Additional District Judge dated 15-6-2005 at the rate of Rs.1,000 per month is reduced to Rs.800 per month payable by the petitioner to respondent No.1 from the date of institution of the suit, till date;\n\n(ii) The marriage between the parties shall stand dissolved from today in lieu of surrender by Mst. Anjum Firdous respondent No.1 her right of maintenance at the rate of Rs.400 per month from the date of institution of the suit in lieu of consideration for Khula; and\n\n(iii) Mst. Anjum Firdous respondent No.1 however, shall be entitled to recover the maintenance allowance from the petitioner at the rate of Rs.400 per month till 30-6-2006 viz. including the period of Iddat from today.",
+        "label": "final_order",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "There is no order as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "H.B.T./K-3/L Order accordingly.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

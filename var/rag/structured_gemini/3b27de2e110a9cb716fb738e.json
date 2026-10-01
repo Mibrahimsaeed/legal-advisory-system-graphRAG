@@ -1,0 +1,104 @@
+{
+  "doc_id": "3b27de2e110a9cb716fb738e",
+  "metadata": {
+    "doc_id": "3b27de2e110a9cb716fb738e",
+    "case_title": "MUHAMMAD JAMIL vs Mst. ISHRAT BANG and another",
+    "citation": "2011 SCMR 1412",
+    "court": null,
+    "court_location": null,
+    "decision_date": null,
+    "judges": [
+      "Mahmood Akhtar Shahid Siddiqui",
+      "Asif Saeed Khan Khosa"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "partly_allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "Ss. 5, 14"
+    ],
+    "source_relpath": "2011S1024",
+    "content_hash": "f65008bde6936c90227fe2052b96cd73253ed21a84612fd8d415b562274bb3d7"
+  },
+  "full_text": "2011 SCMR 1412\n\n[Supreme Court of Pakistani\n\nPresent: Mahmood Akhtar Shahid Siddiqui and Asif Saeed Khan Khosa, JJ\n\nMUHAMMAD JAMIL---Appellant\n\nVersus\n\nMst. ISHRAT BANG and another---Respondents\n\nCivil Appeal No. 420-L of 2010, decided on 21st June, 2011.\n\n(On appeal from the order dated 23-6-2010 of the Lahore High Court, Lahore passed in Writ Petition No. 5790 of 2010).\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss. 5, 14 & Sched.---Suit for recovery of dowry articles---Post -remand proceedings---Witnesses produced by defendant in pre-remand proceedings not produced for their cross-examination by plaintiff in post-remand proceedings---Validity---Family Court rightly excluded statements of such witnesses from consideration.\n\nAftab Ahmed Bajwa, Advocate Supreme Court for Appellant.\n\nM. Amer Tauseef, Advocate Supreme Court for Respondents.\n\nDate of hearing: 21st June, 2011.\n\nJUDGMENT\n\nASIF SAEED KHAN KHOSA, J.---A suit for recovery of dowry articles filed by respondent No. 1 against the appellant was dismissed by the learned Judge, Family Court, Gojra, District Toba Tek Singh on 31-3-2008 but subsequently an appeal filed by her in that regard was partly allowed by the learned Additional District Judge, Gojra, District Toba Tek Singh on 21-5-2008. The appellant preferred a Writ Petition in that respect before the Lahore High Court, Lahore but his Writ Petition was dismissed by a learned Judge-in-Chamber of the Lahore High Court, Lahore on 23-6-2010. Hence, the present appeal by leave of this Court.\n\n2. We have heard the learned counsel for the parties and have gone through the record of this case with their assistance.\n\n3. It is admitted at all hands that the statements of the witnesses produced by the appellant before the learned Judge, Family Court were excluded from consideration for valid reasons because in the post-remand proceedings the appellant had failed to produce those witnesses for their cross-examination by respondent No. 1. This had left the learned Judge, Family Court with the evidence produced by respondent No. 1 only. With the assistance of the learned counsel for the parties we have gone through the evidence produced before the learned Judge, Family Court by respondent No. 1 and have found that the learned Additional District Judge, Gojra, District Toba Tek Singh was quite justified in partially decreeing the suit filed by respondent No, 1. Even the learned Judge-in-Chamber of the Lahore High Court, Lahore had attended to all the relevant facts of this case and had concurred with the learned Additional District Judge. No misreading or non-reading of the record on the part of the learned two courts below has been pointed out before us. Our own perusal of the evidence produced by respondent No. 1 has led us to the same conclusion which had been drawn by the learned Additional District Judge and the learned Judge-in-Chamber of the Lahore High Court, Lahore. This appeal is, therefore, dismissed. There shall be no order as to costs.\n\nS.A.K./M-58/SC Appeal dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "It is admitted at all hands that the statements of the witnesses produced by the appellant before the learned Judge, Family Court were excluded from consideration for valid reasons because in the post-remand proceedings the appellant had failed to produce those witnesses for their cross-examination by respondent No.",
+        "label": "remanded"
+      },
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "This appeal is, therefore, dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "S.A.K./M-58/SC Appeal dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 12,
+        "text": "2011 SCMR 1412\n\n[Supreme Court of Pakistani\n\nPresent: Mahmood Akhtar Shahid Siddiqui and Asif Saeed Khan Khosa, JJ\n\nMUHAMMAD JAMIL---Appellant\n\nVersus\n\nMst. ISHRAT BANG and another---Respondents\n\nCivil Appeal No. 420-L of 2010, decided on 21st June, 2011.\n\n(On appeal from the order dated 23-6-2010 of the Lahore High Court, Lahore passed in Writ Petition No. 5790 of 2010).\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss. 5, 14 & Sched.---Suit for recovery of dowry articles---Post -remand proceedings---Witnesses produced by defendant in pre-remand proceedings not produced for their cross-examination by plaintiff in post-remand proceedings---Validity---Family Court rightly excluded statements of such witnesses from consideration.\n\nAftab Ahmed Bajwa, Advocate Supreme Court for Appellant.\n\nM. Amer Tauseef, Advocate Supreme Court for Respondents.\n\nDate of hearing: 21st June, 2011."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "ASIF SAEED KHAN KHOSA, J.---A suit for recovery of dowry articles filed by respondent No. 1 against the appellant was dismissed by the learned Judge, Family Court, Gojra, District Toba Tek Singh on 31-3-2008 but subsequently an appeal filed by her in that regard was partly allowed by the learned Additional District Judge, Gojra, District Toba Tek Singh on 21-5-2008. The appellant preferred a Writ Petition in that respect before the Lahore High Court, Lahore but his Writ Petition was dismissed by a learned Judge-in-Chamber of the Lahore High Court, Lahore on 23-6-2010. Hence, the present appeal by leave of this Court.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. We have heard the learned counsel for the parties and have gone through the record of this case with their assistance.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "3. It is admitted at all hands that the statements of the witnesses produced by the appellant before the learned Judge, Family Court were excluded from consideration for valid reasons because in the post-remand proceedings the appellant had failed to produce those witnesses for their cross-examination by respondent No. 1. This had left the learned Judge, Family Court with the evidence produced by respondent No. 1 only. With the assistance of the learned counsel for the parties we have gone through the evidence produced before the learned Judge, Family Court by respondent No. 1 and have found that the learned Additional District Judge, Gojra, District Toba Tek Singh was quite justified in partially decreeing the suit filed by respondent No, 1. Even the learned Judge-in-Chamber of the Lahore High Court, Lahore had attended to all the relevant facts of this case and had concurred with the learned Additional District Judge. No misreading or non-reading of the record on the part of the learned two courts below has been pointed out before us. Our own perusal of the evidence produced by respondent No. 1 has led us to the same conclusion which had been drawn by the learned Additional District Judge and the learned Judge-in-Chamber of the Lahore High Court, Lahore. This appeal is, therefore, dismissed. There shall be no order as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "S.A.K./M-58/SC Appeal dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

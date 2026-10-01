@@ -1,0 +1,100 @@
+{
+  "doc_id": "0a805e6f9f0ede9f5fc4e81f",
+  "metadata": {
+    "doc_id": "0a805e6f9f0ede9f5fc4e81f",
+    "case_title": "MAH JABEEN- vs TAHIR MAHMOOD-",
+    "citation": "2013 C L C 1595",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Umar Ata Bandial",
+      "C."
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "Ss. 7, 5 & 25",
+      "S.7",
+      "section 7"
+    ],
+    "source_relpath": "2013L290",
+    "content_hash": "8fcb074a4b22337aab3d635097cf714d63866cbf857bd5eeeaf1f4e9edf313fb"
+  },
+  "full_text": "2013 C L C 1595\n\n[Lahore]\n\nBefore Umar Ata Bandial, C.J.\n\nMAH JABEEN----Applicant\n\nVersus\n\nTAHIR MAHMOOD----Respondent\n\nTransfer Application No.173/C of 2013, decided on 18th July, 2013.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss. 7, 5 & 25-A---West Pakistan Family Courts Rules, 1965, R. 6---Institution of suit---Determination of place of jurisdiction---Wife/applicant filed suit for recovery of maintenance allowance at place \"L\", whereas husband had filed suit for restitution of conjugal rights before Family Court at place \"S\"---Contention of the wife was that per S.7 of the West Pakistan Family Courts Act, 1964 and Rule 6 of the West Pakistan Family Courts Rules, 1965, the forum for adjudication of both suits should situate at the place convenient for the wife---Held, that forum of convenience of wife took precedence for the purpose of determination of a family dispute covered by the West Pakistan Family Courts Act, 1964---Application was allowed, in circumstances.\n\nRana Zahid Saeed v. Judge, Family Court, Sahiwal and another 2008 CLC 850; Nusrat Bibi v. The District Judge, Lahore and another 1985 CLC 759; Syed Zia-ul-Hassan Gilani v. Mian Khadim Hussain and 7 others PLD 2001 Lah. 188 and Kaneez Bibi v. Sooba 1996 CLC 632 rel.\n\nHamid Afzal Taj for Applicant.\n\nORDER\n\nUMAR ATA BANDIAL, C.J.--- According to office report notice has been served on the respondent personally for 17-7-2013. None appeared on his behalf on 17-7-2013 and due to paucity of Court time the matter was adjourned to 18-7-2013. It is the same position today. Accordingly, he is proceeded against ex parte.\n\n2. The applicant has filed a suit for maintenance against the respondent before, the learned Family Court at Lahore. The applicant presently resides with her parents at the address given in the application in Lahore where the marriage between the spouses was also solemnized. On the other hand, the respondent has filed a suit for restitution of conjugal rights before the learned Family Court at Sheikhupura titled Tahir Mehmood v. Mah Jabeen. Learned counsel submits that the provisions of section 7 of the West Pakistan Family Courts Act, 1964 and Rule 6 of the West Pakistan Family Courts Rules, 1965 lean in favour of the forum situate at the place convenient to the wife. He has referred to Rana Zahid Saeed v. Judge, Family Court, Sahiwal and another (2008 CLC 850) to submit that the primary consideration is the avoidance of travelling by a female to a distant forum chosen by the husband. The said principle is supported by a number of authorities, including: Nusrat Bibi v. The District Judge, Lahore and another (1985 CLC 759), Syed Zia-ul-Hassan Gilani v. Mian Khadim Hussain and 7 others (PLD 2001 Lahore 188) and Kaneez Bibi v. Sooba (1996 CLC 632). Accordingly, it is prayed that the respondent's suit for restitution of conjugal rights filed before learned Family Court at Sheikhupura be transferred to Family Court at Lahore where the applicant resides.\n\n3. The law relied by the learned counsel for the applicant is supportive of the principle that the forum of convenience of a wife takes precedence for the purpose of determination of a family dispute; Covered by the West Pakistan Family Courts Act, 1964. Accordingly, on the facts of the case and in the light of law applicable thereto this application is allowed.\n\nKMZ/M-218/L Application allowed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "Accordingly, on the facts of the case and in the light of law applicable thereto this application is allowed.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "KMZ/M-218/L Application allowed.",
+        "label": "allowed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "2013 C L C 1595\n\n[Lahore]\n\nBefore Umar Ata Bandial, C.J.\n\nMAH JABEEN----Applicant\n\nVersus\n\nTAHIR MAHMOOD----Respondent\n\nTransfer Application No.173/C of 2013, decided on 18th July, 2013.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss. 7, 5 & 25-A---West Pakistan Family Courts Rules, 1965, R. 6---Institution of suit---Determination of place of jurisdiction---Wife/applicant filed suit for recovery of maintenance allowance at place \"L\", whereas husband had filed suit for restitution of conjugal rights before Family Court at place \"S\"---Contention of the wife was that per S.7 of the West Pakistan Family Courts Act, 1964 and Rule 6 of the West Pakistan Family Courts Rules, 1965, the forum for adjudication of both suits should situate at the place convenient for the wife---Held, that forum of convenience of wife took precedence for the purpose of determination of a family dispute covered by the West Pakistan Family Courts Act, 1964---Application was allowed, in circumstances.\n\nRana Zahid Saeed v. Judge, Family Court, Sahiwal and another 2008 CLC 850; Nusrat Bibi v. The District Judge, Lahore and another 1985 CLC 759; Syed Zia-ul-Hassan Gilani v. Mian Khadim Hussain and 7 others PLD 2001 Lah. 188 and Kaneez Bibi v. Sooba 1996 CLC 632 rel.\n\nHamid Afzal Taj for Applicant."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "UMAR ATA BANDIAL, C.J.--- According to office report notice has been served on the respondent personally for 17-7-2013. None appeared on his behalf on 17-7-2013 and due to paucity of Court time the matter was adjourned to 18-7-2013. It is the same position today. Accordingly, he is proceeded against ex parte.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "2. The applicant has filed a suit for maintenance against the respondent before, the learned Family Court at Lahore. The applicant presently resides with her parents at the address given in the application in Lahore where the marriage between the spouses was also solemnized. On the other hand, the respondent has filed a suit for restitution of conjugal rights before the learned Family Court at Sheikhupura titled Tahir Mehmood v. Mah Jabeen. Learned counsel submits that the provisions of section 7 of the West Pakistan Family Courts Act, 1964 and Rule 6 of the West Pakistan Family Courts Rules, 1965 lean in favour of the forum situate at the place convenient to the wife. He has referred to Rana Zahid Saeed v. Judge, Family Court, Sahiwal and another (2008 CLC 850) to submit that the primary consideration is the avoidance of travelling by a female to a distant forum chosen by the husband. The said principle is supported by a number of authorities, including: Nusrat Bibi v. The District Judge, Lahore and another (1985 CLC 759), Syed Zia-ul-Hassan Gilani v. Mian Khadim Hussain and 7 others (PLD 2001 Lahore 188) and Kaneez Bibi v. Sooba (1996 CLC 632). Accordingly, it is prayed that the respondent's suit for restitution of conjugal rights filed before learned Family Court at Sheikhupura be transferred to Family Court at Lahore where the applicant resides.",
+        "label": "unclassified",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "3. The law relied by the learned counsel for the applicant is supportive of the principle that the forum of convenience of a wife takes precedence for the purpose of determination of a family dispute; Covered by the West Pakistan Family Courts Act, 1964. Accordingly, on the facts of the case and in the light of law applicable thereto this application is allowed.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "KMZ/M-218/L Application allowed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

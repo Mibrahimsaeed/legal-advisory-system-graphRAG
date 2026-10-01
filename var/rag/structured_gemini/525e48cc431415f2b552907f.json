@@ -1,0 +1,115 @@
+{
+  "doc_id": "525e48cc431415f2b552907f",
+  "metadata": {
+    "doc_id": "525e48cc431415f2b552907f",
+    "case_title": "ASIM NAZIR vs JUDGE FAMILY COURT and others",
+    "citation": "2009 M L D 974",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Pervaiz Inayat Malik"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "Ss.5",
+      "Art.199"
+    ],
+    "source_relpath": "2009L2606",
+    "content_hash": "c61caa4767334a767284ec351f7dd56bef59e82f5f22ff6f9af8da0d47f16dfa"
+  },
+  "full_text": "2009 M L D 974\n\n[Lahore]\n\nBefore Pervaiz Inayat Malik, J\n\nASIM NAZIR---Petitioner\n\nVersus\n\nJUDGE FAMILY COURT and others---Respondents\n\nWrit Petition No. 2610 of 2009, decided on 13th April, 2009.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss.5, Sched. & 14---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of dowry articles---Stay of execution proceedings---Family Court decreed suit for recovery of dowry articles filed by the plaintiff and appeal filed by the defendant against judgment of the Family Court was also dismissed by the Appellate Court---On filing execution petition by decree-holder, process against judgment-debtor was issued---Execution proceedings, however were stayed by the Appellate Court---Defendant/judgment-debtor filed constitutional petition against impugned order passed by the Appellate Court whereby judgment of the Family Court was upheld, after about 10 months of impugned order---Validity---Though no specific time had been provided for filing the constitutional petition; but same was hit by principle of laches---On merits no illegality, misreading or non-reading of the impugned judgments and decrees of the courts below had been pointed out---Discrepancies pointed out by the defendant were not of much help to him for the simple reason that in constitutional jurisdiction, High Court could not substitute its findings with that of lower courts merely because from reading of evidence another view could possibly be taken---Conduct of the defendant was also not appreciable which disentitled him even, otherwise to equitable relief---Impugned judgments and decrees, which were not only concurrent in nature, but also well-reasoned and perfectly in accordance with law on the subject were maintained.\n\nCh. Pervaiz Akhtar Gujjar for Appellant.\n\nNemo for Respondent.\n\nDate of hearing: 13th April, 2009.\n\nORDER\n\nPERVAIZ INAYAT MALIK, J.---Respondent No.3-Mst. Shahida Parveen, ex-wife of petitioner filed a suit for recovery of dowry articles, which was resisted by the petitioner by filing written statement, however, vide judgment and decree, dated 8-4-2008 learned Judge Family Court, Burewala decreed the suit, where-against an appeal was preferred which was dismissed vide judgment and decree, dated 18-6-2008 passed by learned Additional District Judge, Burewala District Vehari. Since the petitioner did not return the articles of dowry nor the decretal amount was paid, therefore, an execution petition was filed before the learned trial Court, who issued process against the petitioner whereupon an application seeking transfer of execution petition from the executing Court to some other learned Judge was moved by the petitioner before the learned District Judge, Vehari, who vide order, dated 18-3-2009 stayed the execution proceedings before the learned executing Court subject to deposit of a sum of Rs.1,00,000 till 30-3-2009 and meanwhile comments were called for from the concerned judicial officer.\n\n2. Learned counsel for the petitioner at the very outset was asked as to whether the order of the learned District Judge, Vehari, dated 18-3-2009 has been complied with or not. He submits that instead of complying with the aforestated order he has challenged the same before this Court through present constitutional petition.\n\n3. On merits it is inter alia contended that learned Courts below have proceeded to pass the impugned judgments and decrees on erroneous assumptions and that it is a case of mis-reading/non-reading.\n\n4. I have heard the learned counsel for the petitioner at quite some length and with his able assistance perused the record as well as the impugned judgments minutely. The impugned order was passed as far back as on 18-6-2008, whereas, this petition has been filed on 11-4-2009. Although no specific time has been provided for filing the constitutional petition, yet the same is hit by principle of lathes. On merits no illegality, misreading or non-reading of the impugned judgments and decrees has even been pointed out. The learned counsel for the petitioner with vehemence argued that the learned Courts below have not attended to the submissions made at bar before them but in my view discrepancies pointed out are not of much help to him for the simple reason that in constitutional jurisdiction this Court cannot substitute its findings with that of lower Courts merely because from reading of the evidence an other view can possibly be taken. The conduct of the petitioner is also not appreciable, which disentitles him, even, otherwise to equitable relief. In view of above, I am not inclined to interfere in the impugned judgments and decree, which are not only concurrent in nature but also well reasoned, and perfectly in accordance with law on the subject. This petition is, therefore, dismissed in limine with costs throughout.\n\n5. A copy of this order shall be sent to the learned executing Court for favour of information.\n\nH.B.T./A-108/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "H.B.T./A-108/L Petition dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "5. A copy of this order shall be sent to the learned executing Court for favour of information.",
+        "label": "unclassified"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "2009 M L D 974\n\n[Lahore]\n\nBefore Pervaiz Inayat Malik, J\n\nASIM NAZIR---Petitioner\n\nVersus\n\nJUDGE FAMILY COURT and others---Respondents\n\nWrit Petition No. 2610 of 2009, decided on 13th April, 2009.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss.5, Sched. & 14---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of dowry articles---Stay of execution proceedings---Family Court decreed suit for recovery of dowry articles filed by the plaintiff and appeal filed by the defendant against judgment of the Family Court was also dismissed by the Appellate Court---On filing execution petition by decree-holder, process against judgment-debtor was issued---Execution proceedings, however were stayed by the Appellate Court---Defendant/judgment-debtor filed constitutional petition against impugned order passed by the Appellate Court whereby judgment of the Family Court was upheld, after about 10 months of impugned order---Validity---Though no specific time had been provided for filing the constitutional petition; but same was hit by principle of laches---On merits no illegality, misreading or non-reading of the impugned judgments and decrees of the courts below had been pointed out---Discrepancies pointed out by the defendant were not of much help to him for the simple reason that in constitutional jurisdiction, High Court could not substitute its findings with that of lower courts merely because from reading of evidence another view could possibly be taken---Conduct of the defendant was also not appreciable which disentitled him even, otherwise to equitable relief---Impugned judgments and decrees, which were not only concurrent in nature, but also well-reasoned and perfectly in accordance with law on the subject were maintained.\n\nCh. Pervaiz Akhtar Gujjar for Appellant.\n\nNemo for Respondent.\n\nDate of hearing: 13th April, 2009."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "PERVAIZ INAYAT MALIK, J.---Respondent No.3-Mst. Shahida Parveen, ex-wife of petitioner filed a suit for recovery of dowry articles, which was resisted by the petitioner by filing written statement, however, vide judgment and decree, dated 8-4-2008 learned Judge Family Court, Burewala decreed the suit, where-against an appeal was preferred which was dismissed vide judgment and decree, dated 18-6-2008 passed by learned Additional District Judge, Burewala District Vehari. Since the petitioner did not return the articles of dowry nor the decretal amount was paid, therefore, an execution petition was filed before the learned trial Court, who issued process against the petitioner whereupon an application seeking transfer of execution petition from the executing Court to some other learned Judge was moved by the petitioner before the learned District Judge, Vehari, who vide order, dated 18-3-2009 stayed the execution proceedings before the learned executing Court subject to deposit of a sum of Rs.1,00,000 till 30-3-2009 and meanwhile comments were called for from the concerned judicial officer.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. Learned counsel for the petitioner at the very outset was asked as to whether the order of the learned District Judge, Vehari, dated 18-3-2009 has been complied with or not. He submits that instead of complying with the aforestated order he has challenged the same before this Court through present constitutional petition.",
+        "label": "arguments",
+        "confidence": 0.8
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "3. On merits it is inter alia contended that learned Courts below have proceeded to pass the impugned judgments and decrees on erroneous assumptions and that it is a case of mis-reading/non-reading.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "4. I have heard the learned counsel for the petitioner at quite some length and with his able assistance perused the record as well as the impugned judgments minutely. The impugned order was passed as far back as on 18-6-2008, whereas, this petition has been filed on 11-4-2009. Although no specific time has been provided for filing the constitutional petition, yet the same is hit by principle of lathes. On merits no illegality, misreading or non-reading of the impugned judgments and decrees has even been pointed out. The learned counsel for the petitioner with vehemence argued that the learned Courts below have not attended to the submissions made at bar before them but in my view discrepancies pointed out are not of much help to him for the simple reason that in constitutional jurisdiction this Court cannot substitute its findings with that of lower Courts merely because from reading of the evidence an other view can possibly be taken. The conduct of the petitioner is also not appreciable, which disentitles him, even, otherwise to equitable relief. In view of above, I am not inclined to interfere in the impugned judgments and decree, which are not only concurrent in nature but also well reasoned, and perfectly in accordance with law on the subject. This petition is, therefore, dismissed in limine with costs throughout.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "5. A copy of this order shall be sent to the learned executing Court for favour of information.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "H.B.T./A-108/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

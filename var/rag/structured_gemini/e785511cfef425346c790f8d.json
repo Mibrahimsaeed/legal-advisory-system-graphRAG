@@ -1,0 +1,147 @@
+{
+  "doc_id": "e785511cfef425346c790f8d",
+  "metadata": {
+    "doc_id": "e785511cfef425346c790f8d",
+    "case_title": "MINHAAJ SAQIB and 2 others vs NAJM-US-SAQIB and another",
+    "citation": "2017 Y L R 870",
+    "court": "Islamabad",
+    "court_location": "Islamabad",
+    "decision_date": null,
+    "judges": [
+      "Mohsin Akhtar Kayani"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "section 14"
+    ],
+    "source_relpath": "2017I4008",
+    "content_hash": "c188a1530aa1c3c667ef7a3fd01b2b4ea79dcdb9ac8ca43f57f821bdfce6e0e6"
+  },
+  "full_text": "2017 Y L R 870\n\n[Islamabad]\n\nBefore Mohsin Akhtar Kayani, J\n\nMINHAAJ SAQIB and 2 others---Petitioners\n\nVersus\n\nNAJM-US-SAQIB and another---Respondents\n\nW.P. No.1633 of 2016, decided on 31st May, 2016.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 5, Sched.---Suit for recovery of maintenance allowance--- Ex parte proceedings, setting aside of---Limitation---Interim order---Scope---Defendant moved application for setting aside of ex parte order which was accepted---Validity---Defendant was proceeded against ex-parte on 16-02-2016 whereas application for setting aside ex-parte proceedings was moved on 26-02-2016---Petition filed by the defendant was well within period of 30 days as provided under the law---Impugned order did not suffer from any illegality---Constitutional petition was not maintainable against an interim order which was dismissed in limine.\n\nMuhammad Majeed v. Judge Family Court and others 2013 YLR 1839; 2015 MLD 265 and 2014 MLD 351 rel.\n\nHamid Ahmad for Petitioners.\n\nORDER\n\nMOHSIN AKHTAR KAYANI, J.---Through the instant writ petition, the petitioners seek setting aside of the order dated 20-04-2016 passed by respondent No.2, whereby, ex-parte proceedings against respondent No.1/ defendant No.1 were set aside.\n\n2. Succinctly from the contents of petition, it transpires that on 12-02-2016 petitioners/plaintiffs filed a suit for maintenance of petitioners Nos.1 and 2 through real mother i.e. Petitioner No.3 before the Family Court (West), Islamabad. Vide order dated 16-02-2016 respondent No.1/defendant No.1 was proceeded ex parte on the ground of deliberate avoidance. On 19-02-2016 oral as well as documentary evidence of the petitioners/ plaintiffs was recorded and the matter was adjourned for 26-02-2016. On 26-02-2016 respondent No.1/defendant No.1 filed an application for setting aside the ex parte order dated 16-02-2016 which was accepted vide impugned Order dated 20-04-2016, hence, the instant writ petition.\n\n3. Learned counsel for the petitioner contends that impugned order dated 20-04-2016 is manifestly a non-speaking order and the same being not qualifying as Judicial pronouncement is liable to be set aside.\n\n4. I have heard the learned counsel for the petitioner, pondered and mulled over the issue from diverse angles.\n\n5. The petitioner through the instant writ petition has impugned the order 20-04-2016 whereby, ex parte proceedings against respondent No.1/defendant No.1 have been set aside.\n\n6. From the perusal of copy of order sheet of learned Family Court it transpires that respondent No.1/defendant No.1 was proceeded against ex parte on 16-02-2016, whereas, application for setting aside ex parte proceedings was filed on 26-02-2016 as such, the application filed by respondent, No.1/defendant No.1 was well within period of 30 days as provided under the law, therefore, the impugned order dated 20-04-2016 does not suffer from any illegality.\n\n7. The petitioner through the instant writ petition has assailed the interim order dated 20-4-2016. It is settled principle of law that constitutional petition is not maintainable against interim order. In this regard, I am fortified by the view reported vide judgment tiled \"Muhammad Majeed v. Judge Family Court and others\" (2013 YLR 1839) [Lahore] wherein it was held that:-\n\n\"Under section 14 of West Pakistan Family Courts Act, 1964, the Legislature has specifically prohibited the filing of an appeal against an interim order and if the constitutional petition is allowed to be filed against such order, it would tantamount to defeating and diverting the intent of Legislature. The petitioner has got an alternate adequate remedy available to him by challenging the judgment or order in appeal in case a final order is passed against him.\n\nSimilar view has also been taken in judgments, reported as (2015 MLD 265) [Sindh] and (2014 MLD 351) [Peshawar].\n\n8. For what has been discussed above, the instant writ petition is not maintainable. Resultantly, the same stands dismissed in limine.\n\nZC/153/Isl Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "sentence": "Resultantly, the same stands dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "sentence": "ZC/153/Isl Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "2017 Y L R 870\n\n[Islamabad]\n\nBefore Mohsin Akhtar Kayani, J\n\nMINHAAJ SAQIB and 2 others---Petitioners\n\nVersus\n\nNAJM-US-SAQIB and another---Respondents\n\nW.P. No.1633 of 2016, decided on 31st May, 2016.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 5, Sched.---Suit for recovery of maintenance allowance--- Ex parte proceedings, setting aside of---Limitation---Interim order---Scope---Defendant moved application for setting aside of ex parte order which was accepted---Validity---Defendant was proceeded against ex-parte on 16-02-2016 whereas application for setting aside ex-parte proceedings was moved on 26-02-2016---Petition filed by the defendant was well within period of 30 days as provided under the law---Impugned order did not suffer from any illegality---Constitutional petition was not maintainable against an interim order which was dismissed in limine.\n\nMuhammad Majeed v. Judge Family Court and others 2013 YLR 1839; 2015 MLD 265 and 2014 MLD 351 rel.\n\nHamid Ahmad for Petitioners."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "MOHSIN AKHTAR KAYANI, J.---Through the instant writ petition, the petitioners seek setting aside of the order dated 20-04-2016 passed by respondent No.2, whereby, ex-parte proceedings against respondent No.1/ defendant No.1 were set aside.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "2. Succinctly from the contents of petition, it transpires that on 12-02-2016 petitioners/plaintiffs filed a suit for maintenance of petitioners Nos.1 and 2 through real mother i.e. Petitioner No.3 before the Family Court (West), Islamabad. Vide order dated 16-02-2016 respondent No.1/defendant No.1 was proceeded ex parte on the ground of deliberate avoidance. On 19-02-2016 oral as well as documentary evidence of the petitioners/ plaintiffs was recorded and the matter was adjourned for 26-02-2016. On 26-02-2016 respondent No.1/defendant No.1 filed an application for setting aside the ex parte order dated 16-02-2016 which was accepted vide impugned Order dated 20-04-2016, hence, the instant writ petition.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "3. Learned counsel for the petitioner contends that impugned order dated 20-04-2016 is manifestly a non-speaking order and the same being not qualifying as Judicial pronouncement is liable to be set aside.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "4. I have heard the learned counsel for the petitioner, pondered and mulled over the issue from diverse angles.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 17,
+        "text": "5. The petitioner through the instant writ petition has impugned the order 20-04-2016 whereby, ex parte proceedings against respondent No.1/defendant No.1 have been set aside.\n\n6. From the perusal of copy of order sheet of learned Family Court it transpires that respondent No.1/defendant No.1 was proceeded against ex parte on 16-02-2016, whereas, application for setting aside ex parte proceedings was filed on 26-02-2016 as such, the application filed by respondent, No.1/defendant No.1 was well within period of 30 days as provided under the law, therefore, the impugned order dated 20-04-2016 does not suffer from any illegality.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "7. The petitioner through the instant writ petition has assailed the interim order dated 20-4-2016. It is settled principle of law that constitutional petition is not maintainable against interim order. In this regard, I am fortified by the view reported vide judgment tiled \"Muhammad Majeed v. Judge Family Court and others\" (2013 YLR 1839) [Lahore] wherein it was held that:-",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "quoted_material",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "\"Under section 14 of West Pakistan Family Courts Act, 1964, the Legislature has specifically prohibited the filing of an appeal against an interim order and if the constitutional petition is allowed to be filed against such order, it would tantamount to defeating and diverting the intent of Legislature. The petitioner has got an alternate adequate remedy available to him by challenging the judgment or order in appeal in case a final order is passed against him.",
+        "label": "quoted_material",
+        "confidence": 0.95,
+        "attribution": "unknown"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "Similar view has also been taken in judgments, reported as (2015 MLD 265) [Sindh] and (2014 MLD 351) [Peshawar].",
+        "label": "authorities_cited",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "8. For what has been discussed above, the instant writ petition is not maintainable. Resultantly, the same stands dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "text": "ZC/153/Isl Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

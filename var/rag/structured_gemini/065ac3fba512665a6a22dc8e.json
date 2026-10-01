@@ -1,0 +1,122 @@
+{
+  "doc_id": "065ac3fba512665a6a22dc8e",
+  "metadata": {
+    "doc_id": "065ac3fba512665a6a22dc8e",
+    "case_title": "MUHAMMAD AFZAL- vs Mst. IDREES BIBI and others-",
+    "citation": "2016 C L C 1337",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Muhammad Farrukh Irfan Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "Art.199"
+    ],
+    "source_relpath": "2016L252",
+    "content_hash": "1e664a0eabea0354ccbfc4128a405d24b563b9b530bac3c9084c18248b977dc3"
+  },
+  "full_text": "2016 C L C 1337\n\n[Lahore]\n\nBefore Muhammad Farrukh Irfan Khan, J\n\nMUHAMMAD AFZAL----Petitioner\n\nVersus\n\nMst. IDREES BIBI and others----Respondents\n\nWrit Petition No.14544 of 2014, decided on 26th May, 2014.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 5, Sched.---Constitution of Pakistan, Art.199---Constitutional petition---Maintenance allowance---Enhancement of quantum of maintenance for minor---Reasonable level of sustenance for minor---Contentions of the defendant (father) were that Family Court had misread and non-read the evidence on record; that the defendant (father) was a labourer and was working on daily wages while he had also to support his old parents; that plaintiff (respondent) failed to prove the income of the defendant by bringing on record any cogent evidence---Validity---Contention of the defendant that he was a labourer on daily wages was just a bald assertion as he had failed to bring any material or evidence in support of his claim---Family Court had awarded maintenance to the minor at the rate of Rs.1500/- per month, considering the version of the father that he was a labourer and could not afford to maintain his child on a higher level---Family Court had rightly taken into consideration the minimum needs of a five years old girl, but no one could deny the inflation rate and ever rising prices of commodities in the country---Appellate Court left with no option but to use its judicial mind to arrive at a reasonable level of sustenance for the minor, who could not be left to strive on the plea, which had not been proved by the father that he had very meagre resources---Even if the claim of the defendant was considered that he was a labourer, meaning thereby that he was an able-bodied person and he could undertake additional work to meet up with his obligation of providing maintenance to his minor child, at least, to a level that she was able to sustain herself---No illegality or perversity in the judgment of the appellate court was found---Constitutional petition was dismissed in limine.\n\nRana Zia Abdul Rehman for Petitioner.\n\nORDER\n\nMUHAMMAD FARRUKH IRFAN KHAN, J.--- The petitioner has assailed the judgment and decree dated 23.4.2014, passed by learned Additional District Judge, Arifwala, whereby the said learned Court has enhanced the quantum of maintenance of the minor/Afifa Batool from Rs.1,500/- to Rs.2,000/-, per month.\n\n2. It is contended by learned counsel that the learned Family Court has misread and non-read the evidence on record; that the petitioner is a labourer and is working on daily wages while he has also to support his old parents; that respondent No.1 had failed to prove the income of the petitioner by bringing on record any cogent evidence in respect thereof; that the learned Judge Family Court had rightly fixed the maintenance of the minor at the rate of Rs.1,500/-, per month, which the petitioner could easily pay.\n\n3. Arguments. heard. Record perused.\n\n4. The case of the petitioner is that he is a labourer on daily wages. This is just a bald assertion as he has failed to bring any material or evidence in support of this claim. The learned counsel has asserted that respondent No.1 has failed to prove her case while she has claimed that the petitioner is owner of five acres of agricultural land and besides obtaining land on lease he also deals in the trade of cattle as such, his approximate income is Rs.50,000/-, per month, however, she has not been able to bring on record any confidence inspiring evidence to prove the said claim. In the circumstances, the matter was adjudicated upon by the learned Courts below. The learned Family Court had awarded maintenance to the minor at the rate o Rs.1,500/-, per month, considering the version of the petitioner that he is a labourer and he cannot afford to maintain his child on a higher level. In my opinion, the learned Family Court had, at that time, rightly taken into consideration the minimum needs of a five years old girl but no one can deny the inflation rate and ever rising prices of commodities in our country. Therefore, in the absence of truth coming from either side, the Court was left with no option but to use its judicial mind to arrive at a reasonable level of sustenance for the minor, who cannot be left to strive on the plea, which has not been proved by the father, that he has very meager resources. Even if the claim of the petitioner-father is considered that he is a labourer, it means that he is an able-bodied person and he can undertake additional work to meet up with his obligation of providing maintenance to his minor child, at least, to a level that she is able to sustain herself.\n\n5. Learned counsel was also given an opportunity to come up with a list of basic food items including the articles which are required by a child for its sustenance along with their cost but he has not been able to satisfy this Court that a child, even belonging to a poor family, who requires only meal, clothing and medication, can be maintained in less than Rs.3,000/-, per month, apart from his/her school fee.\n\n6. In view of the above discussion, I do not find any illegality or perversity in the impugned judgment of learned Additional District Judge. Resultantly, this writ petition is dismissed in limine with no order as to costs.\n\nSA/276/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "Resultantly, this writ petition is dismissed in limine with no order as to costs.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "SA/276/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 9,
+        "text": "2016 C L C 1337\n\n[Lahore]\n\nBefore Muhammad Farrukh Irfan Khan, J\n\nMUHAMMAD AFZAL----Petitioner\n\nVersus\n\nMst. IDREES BIBI and others----Respondents\n\nWrit Petition No.14544 of 2014, decided on 26th May, 2014.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 5, Sched.---Constitution of Pakistan, Art.199---Constitutional petition---Maintenance allowance---Enhancement of quantum of maintenance for minor---Reasonable level of sustenance for minor---Contentions of the defendant (father) were that Family Court had misread and non-read the evidence on record; that the defendant (father) was a labourer and was working on daily wages while he had also to support his old parents; that plaintiff (respondent) failed to prove the income of the defendant by bringing on record any cogent evidence---Validity---Contention of the defendant that he was a labourer on daily wages was just a bald assertion as he had failed to bring any material or evidence in support of his claim---Family Court had awarded maintenance to the minor at the rate of Rs.1500/- per month, considering the version of the father that he was a labourer and could not afford to maintain his child on a higher level---Family Court had rightly taken into consideration the minimum needs of a five years old girl, but no one could deny the inflation rate and ever rising prices of commodities in the country---Appellate Court left with no option but to use its judicial mind to arrive at a reasonable level of sustenance for the minor, who could not be left to strive on the plea, which had not been proved by the father that he had very meagre resources---Even if the claim of the defendant was considered that he was a labourer, meaning thereby that he was an able-bodied person and he could undertake additional work to meet up with his obligation of providing maintenance to his minor child, at least, to a level that she was able to sustain herself---No illegality or perversity in the judgment of the appellate court was found---Constitutional petition was dismissed in limine.\n\nRana Zia Abdul Rehman for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 10,
+        "paragraph_end": 10,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "MUHAMMAD FARRUKH IRFAN KHAN, J.--- The petitioner has assailed the judgment and decree dated 23.4.2014, passed by learned Additional District Judge, Arifwala, whereby the said learned Court has enhanced the quantum of maintenance of the minor/Afifa Batool from Rs.1,500/- to Rs.2,000/-, per month.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "2. It is contended by learned counsel that the learned Family Court has misread and non-read the evidence on record; that the petitioner is a labourer and is working on daily wages while he has also to support his old parents; that respondent No.1 had failed to prove the income of the petitioner by bringing on record any cogent evidence in respect thereof; that the learned Judge Family Court had rightly fixed the maintenance of the minor at the rate of Rs.1,500/-, per month, which the petitioner could easily pay.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "3. Arguments. heard. Record perused.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "4. The case of the petitioner is that he is a labourer on daily wages. This is just a bald assertion as he has failed to bring any material or evidence in support of this claim. The learned counsel has asserted that respondent No.1 has failed to prove her case while she has claimed that the petitioner is owner of five acres of agricultural land and besides obtaining land on lease he also deals in the trade of cattle as such, his approximate income is Rs.50,000/-, per month, however, she has not been able to bring on record any confidence inspiring evidence to prove the said claim. In the circumstances, the matter was adjudicated upon by the learned Courts below. The learned Family Court had awarded maintenance to the minor at the rate o Rs.1,500/-, per month, considering the version of the petitioner that he is a labourer and he cannot afford to maintain his child on a higher level. In my opinion, the learned Family Court had, at that time, rightly taken into consideration the minimum needs of a five years old girl but no one can deny the inflation rate and ever rising prices of commodities in our country. Therefore, in the absence of truth coming from either side, the Court was left with no option but to use its judicial mind to arrive at a reasonable level of sustenance for the minor, who cannot be left to strive on the plea, which has not been proved by the father, that he has very meager resources. Even if the claim of the petitioner-father is considered that he is a labourer, it means that he is an able-bodied person and he can undertake additional work to meet up with his obligation of providing maintenance to his minor child, at least, to a level that she is able to sustain herself.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "5. Learned counsel was also given an opportunity to come up with a list of basic food items including the articles which are required by a child for its sustenance along with their cost but he has not been able to satisfy this Court that a child, even belonging to a poor family, who requires only meal, clothing and medication, can be maintained in less than Rs.3,000/-, per month, apart from his/her school fee.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "6. In view of the above discussion, I do not find any illegality or perversity in the impugned judgment of learned Additional District Judge. Resultantly, this writ petition is dismissed in limine with no order as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "SA/276/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "doc_id": "b87f7516bee4c5eb71476e2c",
+  "metadata": {
+    "doc_id": "b87f7516bee4c5eb71476e2c",
+    "case_title": "Dr. AAQIB HABIB MALIK through Special Attorney- vs JUDGE FAMILY COURT and another-",
+    "citation": "2016 C L C Note 2",
+    "court": "Lahore (Rawalpindi Bench)",
+    "court_location": "Rawalpindi",
+    "decision_date": null,
+    "judges": [
+      "Ch. Mushtaq Ahmad"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "Art. 199"
+    ],
+    "source_relpath": "2016L12011",
+    "content_hash": "0a2af172b772986fd3579ce5c313d9ce46cfa58cbf3fb26751d919e18658725c"
+  },
+  "full_text": "2016 C L C Note 26\n\n[Lahore (Rawalpindi Bench)]\n\nBefore Ch. Mushtaq Ahmad, J\n\nDr. AAQIB HABIB MALIK through Special Attorney----Petitioner\n\nVersus\n\nJUDGE FAMILY COURT and another----Respondents\n\nW.P.No.2694 of 2014, decided on 3rd December, 2014.\n\n(a) Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched---Constitution of Pakistan, Art. 199---Constitutional jurisdiction, exercise of---Scope---Suit for recovery of maintenance allowance, dower and dowry articles---Application for summoning of witnesses/scribe of receipts of dowry articles---Wife produced purchase receipts of dowry articles during her evidence---Husband/petitioner moved an application for summoning of witnesses/scribe of receipts produced in evidence---Family Court observed that objections, relevancy, admissibility and evidentiary value of the receipts of dowry articles would be decided at appropriate stage and defendant had not mentioned name, address and sufficient particulars of any witness to whom he wanted to summon through process of court; however, defendant-husband would be at liberty to produce any evidence/witness during his own evidence subject to all just and legal exceptions---Validity---Right of defendant-husband to produce evidence had not been closed by the Trial Court---Defendant-husband would be at liberty to produce any witness at his turn while recording evidence---Interim order passed by the Family Court should not be brought to superior courts to obtain fragmentary decisions which would harm the advancement of fair play and justice, curtailing remedies available under the law---Husband had not been prejudiced by the impugned order---Constitutional jurisdiction was not to be exercised in routine but only to foster the ends of justice---Constitutional petition being not maintainable was dismissed in limine\n\nMohtarma Benazir Bhutto v. The State 1999 SCMR 1447 and Mushtaq Hussain Bukhari v. The State 1991 SCMR 2136 rel.\n\n(b) Constitution of Pakistan---\n\n----Art. 199--- Constitutional jurisdiction of High Court---Scope---Constitutional jurisdiction should not be exercised in routine but only to foster the ends of justice.\n\nMohtarma Benazir Bhutto v. The State 1999 SCMR 1447 and Mushtaq Hussain Bukhari v. The State 1991 SCMR 2136 rel.\n\nMuhammad Khalid Zaman for Petitioner.\n\nORDER\n\nCH. MUSHTAQ AHMAD, J.---The present petition has been filed against the impugned order dated 29.09.2014 passed by respondent No.1/Judge Family Court, Rawalpindi, whereby application of petitioner for summoning of witnesses was dismissed.\n\n2. The facts briefly are that respondent No.2 filed a suit for recovery of dower, maintenance allowance and dowry articles against the petitioner which was pending before Judge Family Court. In evidence, on behalf of respondent No.2, purchase receipts of dowry articles were produced. The present petitioner moved application before the learned trial court for summoning of witnesses / scribe of the receipts produced in evidence.\n\n3. Heard. Perused.\n\n4. Record shows that the learned trial court after hearing the arguments passed impugned order dated 29.09.2014. In Para No.5, it was observed that the \"objections are yet to be decided and the relevancy, admissibility and evidentiary value of the receipts of dowry articles shall be determined at appropriate stage. Moreover, the petitioner/defendant has not mentioned name, address and sufficient particulars of any witness to whom he wanted to summon through process of the court. However, the petitioner/defendant is at liberty to produce any evidence/witness during his own evidence subject to all just and legal exceptions\".\n\n5. Above observations of the learned trial court reveal that the right of petitioner to produce evidence has not been closed by the trial court. He will be at liberty to produce any witness at his turn while recording evidence. Only an interim order has been passed by the learned Judge Family Court. Law is well settled that orders passed at interlocutory stages should not be brought to superior courts to obtain fragmentary decisions as it tends to harm the advancement of fair play and justice, curtailing remedies available under the law. Reference may be made to the case \"Mohtarma Benazir Bhutto v. The State\" (1999 SCMR 1447) and \"Mushtaq Hussain Bukhari v. The State\" (1991 SCMR 2136) to fortify the above view. The case of petitioner has not been prejudiced by the impugned order. The constitutional jurisdiction is not to be exercised in routine, but only to foster the ends of justice.\n\n6. The petition in hand is not maintainable and the same is dismissed in limine.\n\nZC/A-200/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "The petition in hand is not maintainable and the same is dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "sentence": "ZC/A-200/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "2016 C L C Note 26\n\n[Lahore (Rawalpindi Bench)]\n\nBefore Ch. Mushtaq Ahmad, J\n\nDr. AAQIB HABIB MALIK through Special Attorney----Petitioner\n\nVersus\n\nJUDGE FAMILY COURT and another----Respondents\n\nW.P.No.2694 of 2014, decided on 3rd December, 2014."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 12,
+        "text": "(a) Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched---Constitution of Pakistan, Art. 199---Constitutional jurisdiction, exercise of---Scope---Suit for recovery of maintenance allowance, dower and dowry articles---Application for summoning of witnesses/scribe of receipts of dowry articles---Wife produced purchase receipts of dowry articles during her evidence---Husband/petitioner moved an application for summoning of witnesses/scribe of receipts produced in evidence---Family Court observed that objections, relevancy, admissibility and evidentiary value of the receipts of dowry articles would be decided at appropriate stage and defendant had not mentioned name, address and sufficient particulars of any witness to whom he wanted to summon through process of court; however, defendant-husband would be at liberty to produce any evidence/witness during his own evidence subject to all just and legal exceptions---Validity---Right of defendant-husband to produce evidence had not been closed by the Trial Court---Defendant-husband would be at liberty to produce any witness at his turn while recording evidence---Interim order passed by the Family Court should not be brought to superior courts to obtain fragmentary decisions which would harm the advancement of fair play and justice, curtailing remedies available under the law---Husband had not been prejudiced by the impugned order---Constitutional jurisdiction was not to be exercised in routine but only to foster the ends of justice---Constitutional petition being not maintainable was dismissed in limine\n\nMohtarma Benazir Bhutto v. The State 1999 SCMR 1447 and Mushtaq Hussain Bukhari v. The State 1991 SCMR 2136 rel.\n\n(b) Constitution of Pakistan---\n\n----Art. 199--- Constitutional jurisdiction of High Court---Scope---Constitutional jurisdiction should not be exercised in routine but only to foster the ends of justice.\n\nMohtarma Benazir Bhutto v. The State 1999 SCMR 1447 and Mushtaq Hussain Bukhari v. The State 1991 SCMR 2136 rel."
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "Muhammad Khalid Zaman for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "CH. MUSHTAQ AHMAD, J.---The present petition has been filed against the impugned order dated 29.09.2014 passed by respondent No.1/Judge Family Court, Rawalpindi, whereby application of petitioner for summoning of witnesses was dismissed.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "2. The facts briefly are that respondent No.2 filed a suit for recovery of dower, maintenance allowance and dowry articles against the petitioner which was pending before Judge Family Court. In evidence, on behalf of respondent No.2, purchase receipts of dowry articles were produced. The present petitioner moved application before the learned trial court for summoning of witnesses / scribe of the receipts produced in evidence.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "3. Heard. Perused.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "4. Record shows that the learned trial court after hearing the arguments passed impugned order dated 29.09.2014. In Para No.5, it was observed that the \"objections are yet to be decided and the relevancy, admissibility and evidentiary value of the receipts of dowry articles shall be determined at appropriate stage. Moreover, the petitioner/defendant has not mentioned name, address and sufficient particulars of any witness to whom he wanted to summon through process of the court. However, the petitioner/defendant is at liberty to produce any evidence/witness during his own evidence subject to all just and legal exceptions\".",
+        "label": "lower_court_orders",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "5. Above observations of the learned trial court reveal that the right of petitioner to produce evidence has not been closed by the trial court. He will be at liberty to produce any witness at his turn while recording evidence. Only an interim order has been passed by the learned Judge Family Court. Law is well settled that orders passed at interlocutory stages should not be brought to superior courts to obtain fragmentary decisions as it tends to harm the advancement of fair play and justice, curtailing remedies available under the law. Reference may be made to the case \"Mohtarma Benazir Bhutto v. The State\" (1999 SCMR 1447) and \"Mushtaq Hussain Bukhari v. The State\" (1991 SCMR 2136) to fortify the above view. The case of petitioner has not been prejudiced by the impugned order. The constitutional jurisdiction is not to be exercised in routine, but only to foster the ends of justice.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "6. The petition in hand is not maintainable and the same is dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "ZC/A-200/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

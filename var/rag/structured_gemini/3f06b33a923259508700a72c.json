@@ -1,0 +1,114 @@
+{
+  "doc_id": "3f06b33a923259508700a72c",
+  "metadata": {
+    "doc_id": "3f06b33a923259508700a72c",
+    "case_title": "West Pakistan Family Courts Act (XXXV of 1964)â€‘â€‘",
+    "citation": "1988 C L C 1134",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Muhammad Sharif"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "section 488"
+    ],
+    "source_relpath": "1988L336",
+    "content_hash": "b6fd4aa5e55a9e25a622237c321f00f323d8fca2a9e87ed479a5d62a2bb956db"
+  },
+  "full_text": "1988 C L C 1134\n\n[Lahore]\n\nBefore Muhammad Sharif, J\n\nMUHAMMAD SALEEM‐‐Petitioner\n\nversus\n\nADDITIONAL DISTRICT JUDGE (V), RAHIM YAR KHAN\n\nand others‐‐Respondents\n\nWrit Petition No. F‐875 of 1987/BWP, decided on 20th January, 1988.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐\n\n‐‐‐S. 5 & Sched.‐‐Past maintenance, grant of‐‐Jurisdiction of Family Court‐‐Family Court is possessed with jurisdiction to grant past maintenance.\n\nMst. Ghulam Fatima v. Sheikh Muhammad Bashir P L D 1958 (W.P.) Lah. 596; Manzoor Ahmad v. Mst. Naziran Bibi and 3 others P L D 1975 Lah. 571; Muhammad Nawaz v. Mst. Khurshid Begum and 3 others P L D 1972 S C 302 and Muhammad Yousaf v. Mst. Nafisa Khatoon and another P L D 1981 Kar. 773 ref.\n\nMian Allah Nawaz for Petitioner.\n\nCh. Saeed Anwar for Respondent No. 3.\n\nORDER\n\nMuhammad Saleem the petitioner has invoked the constitutional jurisdiction of this Court for the quashment of the judgment, dated 29‐10‐1987 pronounced by the learned Additional District Judge‐V, Rahim Yar Khan and that of the learned Judge, Family Court, Khanpur, dated 3‐3‐1987.\n\n2. The facts of this case, in substance, are that Nadia Saleem is daughter of Muhammad Saleem petitioner. Her mother was divorced by the petitioner and she has contracted a second marriage. Mst. Nadia Saleem was living with Mst. Sharifan her maternal‐grandmother who brought a suit for maintenance past and present against Muhammad Saleem petitioner at the rate of Rs.500 and Rs.800 p.m. respectively. She was granted a decree on 3‐3‐1987 and the maintenance allowance of Mst. Nadia was fixed at Rs.100 per mensem. She was granted the past maintenance allowance of two years prior to the institution of the suit. It may be noted that Muhammad Saleem has also contracted a second marriage and is having three or four children.\n\n3. On appeal, the rate of the maintenance allowance allowed to Nadia Saleem was augmented from Rs.100 to Rs.200 p.m. 4. Muhammad Saleem has not contested the rate of maintenance allowance given to his daughter by the learned lower Courts. With reference to Mst. Ghulam Fatima v. Sheikh Muhammad Bashir P L D 1958 (W.P.) Lah. 596, it is contended that past maintenance cannot be allowed unless either there is a decree by the Kazee or agreement by the father. This precedent pertains to the year prior to the enforcement of West Pakistan Family Courts Act, 1964. At page 600, it has not been adjudicated that past maintenance cannot be claimed but it has been stated therein that past maintenance can be claimed for a very short period.\n\n5. It was a case under section 488, Cr.P.C. The trend of authorities after enforcement of the Family Courts Act is different. In Manzoor Ahmad v. Mst. Naziran Bibi and 3 others P L D 1975 Lah. 571, it was held that past maintenance can be claimed from ‐Judge Family Court, when he is not exercising magisterial powers under section 488, Cr.P.C. In Muhammad Nawaz v. Mst. Khurshid Begum and 3 others P L D 1972 S C 302 an Arbitration Council was found competent to order the payment of past maintenance. Again in Muhammad Yousaf v. Mst. Nafisa Khatoon and another P L D 1981 Kar. 773, the Family Court was held to possess jurisdiction to grant past maintenance.\n\n6. In view of the principle enunciated in the aforementioned precedents, I see no merit in this writ petition and dismiss the same in limine. I make no order as to costs.\n\nH.B.T./M‐606/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "In view of the principle enunciated in the aforementioned precedents, I see no merit in this writ petition and dismiss the same in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "H.B.T./M‐606/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 12,
+        "text": "1988 C L C 1134\n\n[Lahore]\n\nBefore Muhammad Sharif, J\n\nMUHAMMAD SALEEM‐‐Petitioner\n\nversus\n\nADDITIONAL DISTRICT JUDGE (V), RAHIM YAR KHAN\n\nand others‐‐Respondents\n\nWrit Petition No. F‐875 of 1987/BWP, decided on 20th January, 1988.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐\n\n‐‐‐S. 5 & Sched.‐‐Past maintenance, grant of‐‐Jurisdiction of Family Court‐‐Family Court is possessed with jurisdiction to grant past maintenance.\n\nMst. Ghulam Fatima v. Sheikh Muhammad Bashir P L D 1958 (W.P.) Lah. 596; Manzoor Ahmad v. Mst. Naziran Bibi and 3 others P L D 1975 Lah. 571; Muhammad Nawaz v. Mst. Khurshid Begum and 3 others P L D 1972 S C 302 and Muhammad Yousaf v. Mst. Nafisa Khatoon and another P L D 1981 Kar. 773 ref.\n\nMian Allah Nawaz for Petitioner.\n\nCh. Saeed Anwar for Respondent No. 3."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "Muhammad Saleem the petitioner has invoked the constitutional jurisdiction of this Court for the quashment of the judgment, dated 29‐10‐1987 pronounced by the learned Additional District Judge‐V, Rahim Yar Khan and that of the learned Judge, Family Court, Khanpur, dated 3‐3‐1987.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. The facts of this case, in substance, are that Nadia Saleem is daughter of Muhammad Saleem petitioner. Her mother was divorced by the petitioner and she has contracted a second marriage. Mst. Nadia Saleem was living with Mst. Sharifan her maternal‐grandmother who brought a suit for maintenance past and present against Muhammad Saleem petitioner at the rate of Rs.500 and Rs.800 p.m. respectively. She was granted a decree on 3‐3‐1987 and the maintenance allowance of Mst. Nadia was fixed at Rs.100 per mensem. She was granted the past maintenance allowance of two years prior to the institution of the suit. It may be noted that Muhammad Saleem has also contracted a second marriage and is having three or four children.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "3. On appeal, the rate of the maintenance allowance allowed to Nadia Saleem was augmented from Rs.100 to Rs.200 p.m. 4. Muhammad Saleem has not contested the rate of maintenance allowance given to his daughter by the learned lower Courts. With reference to Mst. Ghulam Fatima v. Sheikh Muhammad Bashir P L D 1958 (W.P.) Lah. 596, it is contended that past maintenance cannot be allowed unless either there is a decree by the Kazee or agreement by the father. This precedent pertains to the year prior to the enforcement of West Pakistan Family Courts Act, 1964. At page 600, it has not been adjudicated that past maintenance cannot be claimed but it has been stated therein that past maintenance can be claimed for a very short period.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "5. It was a case under section 488, Cr.P.C. The trend of authorities after enforcement of the Family Courts Act is different. In Manzoor Ahmad v. Mst. Naziran Bibi and 3 others P L D 1975 Lah. 571, it was held that past maintenance can be claimed from ‐Judge Family Court, when he is not exercising magisterial powers under section 488, Cr.P.C. In Muhammad Nawaz v. Mst. Khurshid Begum and 3 others P L D 1972 S C 302 an Arbitration Council was found competent to order the payment of past maintenance. Again in Muhammad Yousaf v. Mst. Nafisa Khatoon and another P L D 1981 Kar. 773, the Family Court was held to possess jurisdiction to grant past maintenance.",
+        "label": "authorities_cited",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "6. In view of the principle enunciated in the aforementioned precedents, I see no merit in this writ petition and dismiss the same in limine. I make no order as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "H.B.T./M‐606/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

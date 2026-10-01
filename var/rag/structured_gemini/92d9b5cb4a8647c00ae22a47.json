@@ -1,0 +1,125 @@
+{
+  "doc_id": "92d9b5cb4a8647c00ae22a47",
+  "metadata": {
+    "doc_id": "92d9b5cb4a8647c00ae22a47",
+    "case_title": "ORDER",
+    "citation": "P L D 1980 Peshawar 246",
+    "court": null,
+    "court_location": null,
+    "decision_date": null,
+    "judges": [
+      "Muhammad Khurshid Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Civil Procedure Code (V of 1908)"
+    ],
+    "provisions_cited": [
+      "S. 14",
+      "S. 17",
+      "S. 115",
+      "section 14",
+      "section 115",
+      "section 15",
+      "section 2",
+      "Section 5",
+      "section 17"
+    ],
+    "source_relpath": "1980P42",
+    "content_hash": "00fb782bfba01b4429a1effc1321530cc509c8a9e04ddb5dbffb56be15373c18"
+  },
+  "full_text": "P L D 1980 Peshawar 246\n\nBefore Muhammad Khurshid Khan, J\n\nMalik RAHIM BAKHSH-Appellant\n\nVersus\n\nMst. MUNIRA AKHTAR-Respondent\n\nRegular Second Appeal No. 16 of 1980, decided on 3rd May 1980.\n\nWest Pakistan Family Courts Act (XXXV of 1964)----\n\n-- S. 14 read with S. 17 and Civil Procedure Code (V of 1908), S. 115---- Appellate judgment-Revision-Family Court though subordinate to High Court nevertheless its decision on appeal, held, cannot be said to be a case decided within meaning of S. 115, Civil Procedure Code, 1908 due to application of Civil Procedure Code, 1908 having been excluded by S. 17, Family Courts Act, 1964-Appellate judgment of District Court under S. 14, Family Courts Act, 1964, hence, not open to revision to High Court.-[Revision (civil)].\n\nORDER\n\nThe respondent Mat Munir Akhtar, was married to the appellant Malik Rahim Bakhsh, on 30th July, 1975. She filed Suit No. 15/T. C. in the Family Court on 28th of February 1978, for the dissolution of her marriage as well as for the recovery of dower amount of Rs. 5,000, some golden ornaments and a sum of Rs. 4.500 as maintenance allowance for the period of separation. The husband filed a suit for restitution of conjugal rights, which was registered at No. 23/F. C. The trial Court heard the two cases together sad finally dismissed the suit of the wife for the dissolution of her marriage and the recovery of maintenance allowance but granted her a decree for the recovery of dower amount and the golden ornaments. The husband was granted a decree for restitution of conjugal rights subject to the payment of dower amount to his wife.\n\nThe wife appealed against both the decrees. The appeal was heard by an Additional District Judge at Peshawar, who, vide judgment dated 19th January 1980, accepted the appeal, set aside the judgments and the decrees appealed against and dismissed the appellant's suit for restitution of conjugal rights and granted the wife a decree for the dissolution of her marriage and for the recovery of maintenance allowance at the rate of Rs. 150 per mensem, with effect from 30thOctober 1975. The decision of the Additional District Judge has been called into question by this second appeal.\n\nThere is only one appeal provided to the District Court against the judg ment of the Family Court under section 14 of the West Pakistan Family Courts Act (XXXV of 1964) (hereinafter called the Act). There is no further provision of any appeal. The intention, therefore, appears to be that the decision of the District Court must assume finality.\n\nI asked the learned counsel for the appellant how this second appeal was maintainable as there is no provision for it in the Act. He was unable to satisfy me on this point. He, however, came forward with a request that the present appeal may be treated as a revision under section 115, Civil Procedure Code. The question, therefore, now is whether section 15, Civil Procedure Code, will be applicable to the decision of District Court on appeal. The words \"District Court\" have not been defined in the Act. However, subsection (2) of section 2 of the Act provides that the words and expressions used in the Act but not defined in it shall have the same meanings respectively assigned to them in the Code of Civil Procedure, 1908. Subsection (4) of section 2, Civil Procedure Code, defines District Court, as a Principal Civil Court of original jurisdiction. Section 5, Civil Procedure Code, makes it subordinate to the High Court. Although it is a Court subordinate to the High Court, nevertheless its decision on appeal under section 14 of the Act cannot be said to be a case decided within the meaning of section 115, Civil Procedure Code. The reason being that the application of the Civil Procedure Code has been excluded by section 17 of the Act. It is, therefore, clear that there is no scope for a revision to the High Court against the appellate judg ment of the District Court under section 14 of the Act. That being so, the request made by the learned counsel for the appellant for treating this appeal as a revision cannot be acceded to.\n\nIn the result, I am of the view that this appeal is not maintainable. The appeal is accordingly dismissed in limine.\n\nS.A H\n\nAppeal dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "Appeal dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "S.A H",
+        "label": "unclassified"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": "1 batch(es) fell back to paragraph_group",
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 7,
+        "text": "P L D 1980 Peshawar 246\n\nBefore Muhammad Khurshid Khan, J\n\nMalik RAHIM BAKHSH-Appellant\n\nVersus\n\nMst. MUNIRA AKHTAR-Respondent\n\nRegular Second Appeal No. 16 of 1980, decided on 3rd May 1980.\n\nWest Pakistan Family Courts Act (XXXV of 1964)----\n\n-- S. 14 read with S. 17 and Civil Procedure Code (V of 1908), S. 115---- Appellate judgment-Revision-Family Court though subordinate to High Court nevertheless its decision on appeal, held, cannot be said to be a case decided within meaning of S. 115, Civil Procedure Code, 1908 due to application of Civil Procedure Code, 1908 having been excluded by S. 17, Family Courts Act, 1964-Appellate judgment of District Court under S. 14, Family Courts Act, 1964, hence, not open to revision to High Court.-[Revision (civil)]."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 8,
+        "paragraph_end": 8,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 9,
+        "paragraph_end": 9,
+        "text": "The respondent Mat Munir Akhtar, was married to the appellant Malik Rahim Bakhsh, on 30th July, 1975. She filed Suit No. 15/T. C. in the Family Court on 28th of February 1978, for the dissolution of her marriage as well as for the recovery of dower amount of Rs. 5,000, some golden ornaments and a sum of Rs. 4.500 as maintenance allowance for the period of separation. The husband filed a suit for restitution of conjugal rights, which was registered at No. 23/F. C. The trial Court heard the two cases together sad finally dismissed the suit of the wife for the dissolution of her marriage and the recovery of maintenance allowance but granted her a decree for the recovery of dower amount and the golden ornaments. The husband was granted a decree for restitution of conjugal rights subject to the payment of dower amount to his wife.",
+        "label": "unclassified"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 10,
+        "paragraph_end": 10,
+        "text": "The wife appealed against both the decrees. The appeal was heard by an Additional District Judge at Peshawar, who, vide judgment dated 19th January 1980, accepted the appeal, set aside the judgments and the decrees appealed against and dismissed the appellant's suit for restitution of conjugal rights and granted the wife a decree for the dissolution of her marriage and for the recovery of maintenance allowance at the rate of Rs. 150 per mensem, with effect from 30thOctober 1975. The decision of the Additional District Judge has been called into question by this second appeal.",
+        "label": "unclassified"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "There is only one appeal provided to the District Court against the judg ment of the Family Court under section 14 of the West Pakistan Family Courts Act (XXXV of 1964) (hereinafter called the Act). There is no further provision of any appeal. The intention, therefore, appears to be that the decision of the District Court must assume finality.",
+        "label": "unclassified"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "I asked the learned counsel for the appellant how this second appeal was maintainable as there is no provision for it in the Act. He was unable to satisfy me on this point. He, however, came forward with a request that the present appeal may be treated as a revision under section 115, Civil Procedure Code. The question, therefore, now is whether section 15, Civil Procedure Code, will be applicable to the decision of District Court on appeal. The words \"District Court\" have not been defined in the Act. However, subsection (2) of section 2 of the Act provides that the words and expressions used in the Act but not defined in it shall have the same meanings respectively assigned to them in the Code of Civil Procedure, 1908. Subsection (4) of section 2, Civil Procedure Code, defines District Court, as a Principal Civil Court of original jurisdiction. Section 5, Civil Procedure Code, makes it subordinate to the High Court. Although it is a Court subordinate to the High Court, nevertheless its decision on appeal under section 14 of the Act cannot be said to be a case decided within the meaning of section 115, Civil Procedure Code. The reason being that the application of the Civil Procedure Code has been excluded by section 17 of the Act. It is, therefore, clear that there is no scope for a revision to the High Court against the appellate judg ment of the District Court under section 14 of the Act. That being so, the request made by the learned counsel for the appellant for treating this appeal as a revision cannot be acceded to.",
+        "label": "unclassified"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "In the result, I am of the view that this appeal is not maintainable. The appeal is accordingly dismissed in limine.",
+        "label": "unclassified"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "S.A H",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "Appeal dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

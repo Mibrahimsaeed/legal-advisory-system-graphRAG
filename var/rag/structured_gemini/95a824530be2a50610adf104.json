@@ -1,0 +1,122 @@
+{
+  "doc_id": "95a824530be2a50610adf104",
+  "metadata": {
+    "doc_id": "95a824530be2a50610adf104",
+    "case_title": "MUHAMMAD YAAR vs ADDITIONAL DISTRICT JUDGE, DEPALPUR and others",
+    "citation": "2020 Y L R 1266",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Shujaat Ali Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "Article 199"
+    ],
+    "source_relpath": "2020L4047",
+    "content_hash": "5b07cea4e708fae44e6cbe10e01176fd083f205342dfbfd00701a256c04fadff"
+  },
+  "full_text": "2020 Y L R 1266\n\n[Lahore]\n\nBefore Shujaat Ali Khan, J\n\nMUHAMMAD YAAR---Petitioner\n\nVersus\n\nADDITIONAL DISTRICT JUDGE, DEPALPUR and others---Respondents\n\nWrit Petition No. 71921 of 2019, decided on 27th November, 2019.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 5---Maintenance for minors---Concurrent findings for facts by two courts below---Execution of decree---\"Sham transaction\"---Scope---Petitioner was father of judgment debtor and objected execution of decree passed by Family Court on the plea of owner of land in question---Both the Courts below dismissed the objection considering transfer of land in favour of petitioner as sham---Validity---Mutation in favour of petitioner was got attested by judgment debtor four months after passing of decree against his son---Such transfer of land fell within the definition of \"sham transaction\" which was rightly cancelled by Executing Court---Readiness of petitioner for partial payment of outstanding maintenance for minors in addition to paying future maintenance, he was at liberty to satisfy the decree through his son / judgment debtor and there was nothing impeding his way but such fact could not be used to set aside execution of decree---Concurrent findings of facts recorded by Courts below could not be upset in Constitutional jurisdiction until and unless those were proved to be perverse or result of arbitrariness---Petition was dismissed in circumstances.\n\nFarhat Jabeen v. Muhammad Safdar and others 2011 SCMR 1073 rel.\n\nMuhammad Asif Saeed for Petitioner.\n\nORDER\n\nSHUJAAT ALI KHAN, J.---Through this petition, under Article 199 of the Constitution of Islamic Republic of Pakistan, 1973 the petitioner (father of the judgment-debtor/respondent No.6 and paternal grandfather of respondent No.5) has put a challenge to order, dated 20.09.2019, passed by the learned Judge Family Court, Depalpur (learned Executing Court) whereby the application filed by respondents Nos.4 and 5 (judgment-debtors) for cancellation of mutation No.931, dated 10.05.2017, attested in favour of the petitioner was accepted and the Objection Petition filed by him was dismissed. In addition thereto, the petitioner has also assailed judgment, dated 09.11.2019, passed by the learned Additional District Judge, Depalpur (learned Appellate Court) whereby the appeal filed by him against order, dated 20.09.2019, was dismissed.\n\n2. Learned counsel for the petitioner contends that during pendency of proceedings before learned Executing Court the petitioner offered for deposit of reasonable amount out of outstanding amount of maintenance with the further assurance to pay future maintenance for the minors but without considering said request the learned Executing Court dismissed his Objection Petition; that even today the petitioner is ready to deposit Rs.1,00,000/- out of outstanding amount of maintenance in addition to paying future maintenance for the minors and that in case the property of the petitioner is attached he would be deprived of his sole source of earning bread and butter.\n\n3. After hearing learned counsel for the petitioner and scanning the documents, appended with this petition, I have noted that decree in the suit filed by respondents Nos.4 and 5 was passed on 05.01.2017 whereas mutation in favour of the petitioner was got attested by the judgment-debtor/respondent No.6 (real son of the petitioner) in his favour on 10.05.2017, thus, the same falls within the definition of sham transaction which has rightly been cancelled by the learned Executing Court.\n\n4. As far as readiness of the petitioner for partial payment of outstanding maintenance for the minors in addition to paying the future maintenance, is concerned, suffice it to say that he is at liberty to satisfy the decree through his son/judgment-debtor and there is nothing impeding his way but the said fact cannot be used to set aside the impugned orders.\n\n5. As per law laid down by the Apex Court of the country in the case of Farhat Jabeen v. Muhammad Safdar and others (2011 SCMR 1073) concurrent findings of facts recorded by the courts below cannot be upset in Constitutional jurisdiction until and unless they are proved to be perverse or result of arbitrariness which is not the position in the case in hand.\n\n6. For what has been noted above, I see no force in this petition which is dismissed in limine.\n\nMH/M-39/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "For what has been noted above, I see no force in this petition which is dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "MH/M-39/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "2020 Y L R 1266\n\n[Lahore]\n\nBefore Shujaat Ali Khan, J\n\nMUHAMMAD YAAR---Petitioner\n\nVersus\n\nADDITIONAL DISTRICT JUDGE, DEPALPUR and others---Respondents\n\nWrit Petition No. 71921 of 2019, decided on 27th November, 2019.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 5---Maintenance for minors---Concurrent findings for facts by two courts below---Execution of decree---\"Sham transaction\"---Scope---Petitioner was father of judgment debtor and objected execution of decree passed by Family Court on the plea of owner of land in question---Both the Courts below dismissed the objection considering transfer of land in favour of petitioner as sham---Validity---Mutation in favour of petitioner was got attested by judgment debtor four months after passing of decree against his son---Such transfer of land fell within the definition of \"sham transaction\" which was rightly cancelled by Executing Court---Readiness of petitioner for partial payment of outstanding maintenance for minors in addition to paying future maintenance, he was at liberty to satisfy the decree through his son / judgment debtor and there was nothing impeding his way but such fact could not be used to set aside execution of decree---Concurrent findings of facts recorded by Courts below could not be upset in Constitutional jurisdiction until and unless those were proved to be perverse or result of arbitrariness---Petition was dismissed in circumstances.\n\nFarhat Jabeen v. Muhammad Safdar and others 2011 SCMR 1073 rel.\n\nMuhammad Asif Saeed for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "SHUJAAT ALI KHAN, J.---Through this petition, under Article 199 of the Constitution of Islamic Republic of Pakistan, 1973 the petitioner (father of the judgment-debtor/respondent No.6 and paternal grandfather of respondent No.5) has put a challenge to order, dated 20.09.2019, passed by the learned Judge Family Court, Depalpur (learned Executing Court) whereby the application filed by respondents Nos.4 and 5 (judgment-debtors) for cancellation of mutation No.931, dated 10.05.2017, attested in favour of the petitioner was accepted and the Objection Petition filed by him was dismissed. In addition thereto, the petitioner has also assailed judgment, dated 09.11.2019, passed by the learned Additional District Judge, Depalpur (learned Appellate Court) whereby the appeal filed by him against order, dated 20.09.2019, was dismissed.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "2. Learned counsel for the petitioner contends that during pendency of proceedings before learned Executing Court the petitioner offered for deposit of reasonable amount out of outstanding amount of maintenance with the further assurance to pay future maintenance for the minors but without considering said request the learned Executing Court dismissed his Objection Petition; that even today the petitioner is ready to deposit Rs.1,00,000/- out of outstanding amount of maintenance in addition to paying future maintenance for the minors and that in case the property of the petitioner is attached he would be deprived of his sole source of earning bread and butter.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "3. After hearing learned counsel for the petitioner and scanning the documents, appended with this petition, I have noted that decree in the suit filed by respondents Nos.4 and 5 was passed on 05.01.2017 whereas mutation in favour of the petitioner was got attested by the judgment-debtor/respondent No.6 (real son of the petitioner) in his favour on 10.05.2017, thus, the same falls within the definition of sham transaction which has rightly been cancelled by the learned Executing Court.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "4. As far as readiness of the petitioner for partial payment of outstanding maintenance for the minors in addition to paying the future maintenance, is concerned, suffice it to say that he is at liberty to satisfy the decree through his son/judgment-debtor and there is nothing impeding his way but the said fact cannot be used to set aside the impugned orders.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "5. As per law laid down by the Apex Court of the country in the case of Farhat Jabeen v. Muhammad Safdar and others (2011 SCMR 1073) concurrent findings of facts recorded by the courts below cannot be upset in Constitutional jurisdiction until and unless they are proved to be perverse or result of arbitrariness which is not the position in the case in hand.",
+        "label": "authorities_cited",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "6. For what has been noted above, I see no force in this petition which is dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "MH/M-39/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

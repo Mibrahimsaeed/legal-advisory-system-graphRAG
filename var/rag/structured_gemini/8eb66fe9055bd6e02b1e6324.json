@@ -1,0 +1,108 @@
+{
+  "doc_id": "8eb66fe9055bd6e02b1e6324",
+  "metadata": {
+    "doc_id": "8eb66fe9055bd6e02b1e6324",
+    "case_title": "West Pakistan Family Courts Act (XXXV of 1964)â€‘â€‘â€‘",
+    "citation": "1991 C L C 1702",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Irshad Hasan Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "Art. 199",
+      "Article 199"
+    ],
+    "source_relpath": "1991L505",
+    "content_hash": "fd7f9a1591a90e2c940523e45cb44f19f318469848f92bbef410a4c9e5f1cc85"
+  },
+  "full_text": "1991 C L C 1702\n\n[Lahore]\n\nBefore Irshad Hasan Khan, J\n\nMUHAMMAD NAWAZ SHAH‐‐‐Petitioner\n\nversus\n\nJUDGE FAMILY COURT and others‐‐‐Respondents\n\nWrit Petition No.2908 of 1990, decided on 24th February, 1991.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐S.5‐‐‐Constitution of Pakistan (1973), Art. 199‐‐‐Appreciation of evidence‐‐ Constitutional jurisdiction‐‐‐Order had been passed after evidence was led by the parties which was duly considered by the Trial Court and, thereafter, decree for dissolution of marriage was passed‐‐‐Contention that the impugned order was based on oral evidence which was shaky and no documentary evidence was produced to substantiate the case before Trial Court, was repelled‐‐‐Appreciation of evidence could not be undertaken in exercise of Constitutional jurisdiction‐‐ Question raised being related to appreciation of evidence, petition was dismissed.\n\nMalik Allah Yar Khan for Petitioner.\n\nCh. Abdur Rashid Gujjar for Respondents.\n\nORDER\n\nThis petition under Article 199 of the Constitution of Islamic Republic of Pakistan calls in question the order dated 15‐3‐1990 of the learned Judge, Family Court, Chiniot, whereby the suit filed by Mst. Kishwar Bibi respondent No.2 herein, for dissolution of marriage on the basis of her right of option of puberty was decreed.\n\n2. The sole grievance of the petitioner is that the impugned order is based on oral evidence which is shaky and no documentary evidence was produced by respondent No.2 to substantiate her case before the trial Court.\n\n3. The submission is devoid of any force. The impugned order has been passed after evidence led by the parties which was duly considered by the trial Court and thereafter a finding was recorded that respondent No.2 was entitled to a decree for dissolution of marriage on the ground of option of puberty. The question raised by the learned counsel for petitioner relates to appreciation of evidence which cannot be undertaken in the exercise of writ jurisdiction.\n\n4. In view of the above, I find no force in the writ petition which is hereby dismissed in limine.\n\nM‐2969/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "In view of the above, I find no force in the writ petition which is hereby dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "M‐2969/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "1991 C L C 1702\n\n[Lahore]\n\nBefore Irshad Hasan Khan, J\n\nMUHAMMAD NAWAZ SHAH‐‐‐Petitioner\n\nversus\n\nJUDGE FAMILY COURT and others‐‐‐Respondents\n\nWrit Petition No.2908 of 1990, decided on 24th February, 1991.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐S.5‐‐‐Constitution of Pakistan (1973), Art. 199‐‐‐Appreciation of evidence‐‐ Constitutional jurisdiction‐‐‐Order had been passed after evidence was led by the parties which was duly considered by the Trial Court and, thereafter, decree for dissolution of marriage was passed‐‐‐Contention that the impugned order was based on oral evidence which was shaky and no documentary evidence was produced to substantiate the case before Trial Court, was repelled‐‐‐Appreciation of evidence could not be undertaken in exercise of Constitutional jurisdiction‐‐ Question raised being related to appreciation of evidence, petition was dismissed.\n\nMalik Allah Yar Khan for Petitioner.\n\nCh. Abdur Rashid Gujjar for Respondents."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "This petition under Article 199 of the Constitution of Islamic Republic of Pakistan calls in question the order dated 15‐3‐1990 of the learned Judge, Family Court, Chiniot, whereby the suit filed by Mst. Kishwar Bibi respondent No.2 herein, for dissolution of marriage on the basis of her right of option of puberty was decreed.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "2. The sole grievance of the petitioner is that the impugned order is based on oral evidence which is shaky and no documentary evidence was produced by respondent No.2 to substantiate her case before the trial Court.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "3. The submission is devoid of any force. The impugned order has been passed after evidence led by the parties which was duly considered by the trial Court and thereafter a finding was recorded that respondent No.2 was entitled to a decree for dissolution of marriage on the ground of option of puberty. The question raised by the learned counsel for petitioner relates to appreciation of evidence which cannot be undertaken in the exercise of writ jurisdiction.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "4. In view of the above, I find no force in the writ petition which is hereby dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "M‐2969/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

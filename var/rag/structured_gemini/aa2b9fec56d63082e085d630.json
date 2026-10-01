@@ -1,0 +1,119 @@
+{
+  "doc_id": "aa2b9fec56d63082e085d630",
+  "metadata": {
+    "doc_id": "aa2b9fec56d63082e085d630",
+    "case_title": "2004 Y L R 2387",
+    "citation": "2004 Y L R 2387",
+    "court": "Peshawar",
+    "court_location": "Peshawar",
+    "decision_date": null,
+    "judges": [
+      "Malik Hamid Saeed",
+      "Shah Jehan Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "Sched. ---Dissolution of Muslim Marriage Act (VIII of 1939)",
+      "A of the Dissolution of Muslim Marriages Act (VIII of 1939)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "S.2",
+      "S.6",
+      "section 2",
+      "section 6",
+      "Art.199"
+    ],
+    "source_relpath": "2004P4042",
+    "content_hash": "e02ff0f47786d80c94dc481ab467374fc20ad2f23b6a6103fae7887cf0ab68ed"
+  },
+  "full_text": "2004 Y L R 2387\n\n[Peshawar]\n\nBefore Malik Hamid Saeed and Shah Jehan Khan, JJ\n\nMst ASMA BIBI---Petitioner\n\nVersus\n\nMURAD ALI and 2 others--Respondents\n\nWrit Petition No.1313 of 2003, decided on 20th January, 2004.\n\nWest Pakistan Family Courts Act (XXXV of I964)--‐\n\n----S. 5 & Sched. ---Dissolution of Muslim Marriage Act (VIII of 1939), S.2(ii-A)---Constitution of Pakistan (1973), Art.199---Constitutional petition--Suit for dissolution of marriage and recovery of dower-- Defendant husband having contracted second marriage without consent and permission of plaintiff wife, she brought a suit for dissolution of marriage and recovery of dower---Family Court decreed the suit for dissolution of marriage and recovery of half dower, but Appellate Court below set aside decree for dower on ground that decree was solely granted on ground of contracting second marriage by defendant husband, but such a ground of second marriage was not provided in Dissolution of Muslim Marriage Act, 1939---Validity---Appellate Court had totally misread relevant provisions of S.2(ii-A) Dissolution of Muslim Marriage Act, 1939 which had provided that if a husband would take an additional wife in contravention of provisions of Muslim Family Laws Ordinance, 1961, wife was entitled to obtain a decree for dissolution of her marriage--- Under S.6 of Muslim Family Laws Ordinance, 1961, previous permission in writing of Arbitration Council for contracting another marriage, was necessary for husband---Defendant husband had failed to discharge his onus to prove that second marriage was contracted with consent of plaintiff wife---Ground agitated by defendant husband for contracting second marriage was not a good ground in circumstances of case and would not absolve him of his liability to pay half of dower to plaintiff wife Judgment of Appellate Court was set aside and that of Trial Court was restored.\n\nKhalid Mehmood for Petitioner.\n\nMuhammad ljaz Khan for Respondents.\n\nDate of hearing: 20th January, 2004.\n\nJUDGMENT\n\nMALIK HAMID SAEED, J.-- The established facts in this case are that the Nikah of Mst. Asma Bibi, petitioner, was performed with Murad Ali, respondent No.1 on a consideration of 4 Jaribs of land,8 tolas golden ornaments, 12 pounds gold, and one room as prompt dower. The Rukhsati was not yet taken place when the husband/respondent No. 1 contracted a second marriage without the consent and permission of Mst. Asma Bibi. Petitioner, she therefore, brought a suit for the dissolution of her marriage with Murad Ali, respondent No.1 and the recovery of dower before the learned Judge, Family Court. The learned Judge Family Court decreed the suit of Mst. Asma Bibi for dissolution of marriage and recovery of half dower. Murad Ali, questioned the said decree of the Family Court before the Additional District Judge, Takht-bhai to the extent of dower only by filing an appeal, which appeal was accepted and the decree for dower was set aside on the ground that the decree was solely granted on the ground of contracting second marriage by the husband, but such a ground of second marriage is not provided in the Dissolution of Muslim Marriages Act, 1939 and as the father of Mst. Asma was not ready for the Rukhsati of his daughter, therefore, the husband was compelled to contract a second marriage, hence the wife/plaintiff was not entitled even to half downer.\n\nAfter hearing arguments of learned counsel for the parties, we are the view that the learned Appellate Court has totally misread the relevant provisions of law in this regard. Under section 2(ii-A of the Dissolution of Muslim Marriages Act (VIII of 1939), if a husband takes an additional wife in contravention of the provisions of the Muslim Family Laws Ordinance, 1961, the wife is entitled to obtain a decree for the dissolution of her marriage as one of the grounds mentioned in said section.\n\nUnder section 6 of the Muslim Family Laws Ordinance, 1961 the Previous permission in writing of the Arbitration Council for contracting another marriage is necessary for a husband. The evidence adduced by the parties clearly suggests that the husband has failed to discharge leas onus to prove that the second marriage was contracted with consent of the wife. The ground agitated by the husband/respond eat for contracting second marriage is not a good ground in the circumstances of the case and would not absolve him of the liability to pay half of the dower to the petitioner/wife.\n\nFor the aforesaid reasons, we f that the learned Appellate Court has not property appreciated the evidence of the parties in reference to the relevant provisions of law, hence has erred to set aside the decree of dower granted to the petitioner/wife by the learned trial Court. This writ petition is accepted, the impugned judgment of the learned Appellate Court set aside and that of the learned trial Court is restored, however, the parties are left bear their own costs.\n\nH.B.T./125/P Petition accepted.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "For the aforesaid reasons, we f that the learned Appellate Court has not property appreciated the evidence of the parties in reference to the relevant provisions of law, hence has erred to set aside the decree of dower granted to the petitioner/wife by the learned trial Court.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "This writ petition is accepted, the impugned judgment of the learned Appellate Court set aside and that of the learned trial Court is restored, however, the parties are left bear their own costs.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "H.B.T./125/P Petition accepted.",
+        "label": "allowed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "2004 Y L R 2387\n\n[Peshawar]\n\nBefore Malik Hamid Saeed and Shah Jehan Khan, JJ\n\nMst ASMA BIBI---Petitioner\n\nVersus\n\nMURAD ALI and 2 others--Respondents\n\nWrit Petition No.1313 of 2003, decided on 20th January, 2004.\n\nWest Pakistan Family Courts Act (XXXV of I964)--‐\n\n----S. 5 & Sched. ---Dissolution of Muslim Marriage Act (VIII of 1939), S.2(ii-A)---Constitution of Pakistan (1973), Art.199---Constitutional petition--Suit for dissolution of marriage and recovery of dower-- Defendant husband having contracted second marriage without consent and permission of plaintiff wife, she brought a suit for dissolution of marriage and recovery of dower---Family Court decreed the suit for dissolution of marriage and recovery of half dower, but Appellate Court below set aside decree for dower on ground that decree was solely granted on ground of contracting second marriage by defendant husband, but such a ground of second marriage was not provided in Dissolution of Muslim Marriage Act, 1939---Validity---Appellate Court had totally misread relevant provisions of S.2(ii-A) Dissolution of Muslim Marriage Act, 1939 which had provided that if a husband would take an additional wife in contravention of provisions of Muslim Family Laws Ordinance, 1961, wife was entitled to obtain a decree for dissolution of her marriage--- Under S.6 of Muslim Family Laws Ordinance, 1961, previous permission in writing of Arbitration Council for contracting another marriage, was necessary for husband---Defendant husband had failed to discharge his onus to prove that second marriage was contracted with consent of plaintiff wife---Ground agitated by defendant husband for contracting second marriage was not a good ground in circumstances of case and would not absolve him of his liability to pay half of dower to plaintiff wife Judgment of Appellate Court was set aside and that of Trial Court was restored.\n\nKhalid Mehmood for Petitioner.\n\nMuhammad ljaz Khan for Respondents.\n\nDate of hearing: 20th January, 2004."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "MALIK HAMID SAEED, J.-- The established facts in this case are that the Nikah of Mst. Asma Bibi, petitioner, was performed with Murad Ali, respondent No.1 on a consideration of 4 Jaribs of land,8 tolas golden ornaments, 12 pounds gold, and one room as prompt dower. The Rukhsati was not yet taken place when the husband/respondent No. 1 contracted a second marriage without the consent and permission of Mst. Asma Bibi. Petitioner, she therefore, brought a suit for the dissolution of her marriage with Murad Ali, respondent No.1 and the recovery of dower before the learned Judge, Family Court. The learned Judge Family Court decreed the suit of Mst. Asma Bibi for dissolution of marriage and recovery of half dower. Murad Ali, questioned the said decree of the Family Court before the Additional District Judge, Takht-bhai to the extent of dower only by filing an appeal, which appeal was accepted and the decree for dower was set aside on the ground that the decree was solely granted on the ground of contracting second marriage by the husband, but such a ground of second marriage is not provided in the Dissolution of Muslim Marriages Act, 1939 and as the father of Mst. Asma was not ready for the Rukhsati of his daughter, therefore, the husband was compelled to contract a second marriage, hence the wife/plaintiff was not entitled even to half downer.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "After hearing arguments of learned counsel for the parties, we are the view that the learned Appellate Court has totally misread the relevant provisions of law in this regard. Under section 2(ii-A of the Dissolution of Muslim Marriages Act (VIII of 1939), if a husband takes an additional wife in contravention of the provisions of the Muslim Family Laws Ordinance, 1961, the wife is entitled to obtain a decree for the dissolution of her marriage as one of the grounds mentioned in said section.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "Under section 6 of the Muslim Family Laws Ordinance, 1961 the Previous permission in writing of the Arbitration Council for contracting another marriage is necessary for a husband. The evidence adduced by the parties clearly suggests that the husband has failed to discharge leas onus to prove that the second marriage was contracted with consent of the wife. The ground agitated by the husband/respond eat for contracting second marriage is not a good ground in the circumstances of the case and would not absolve him of the liability to pay half of the dower to the petitioner/wife.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "For the aforesaid reasons, we f that the learned Appellate Court has not property appreciated the evidence of the parties in reference to the relevant provisions of law, hence has erred to set aside the decree of dower granted to the petitioner/wife by the learned trial Court. This writ petition is accepted, the impugned judgment of the learned Appellate Court set aside and that of the learned trial Court is restored, however, the parties are left bear their own costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "H.B.T./125/P Petition accepted.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

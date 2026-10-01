@@ -1,0 +1,140 @@
+{
+  "doc_id": "9594917b13f93b873bc49b55",
+  "metadata": {
+    "doc_id": "9594917b13f93b873bc49b55",
+    "case_title": "1984 C L C 908",
+    "citation": "1984 C L C 908",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Muhammad Munir Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Provisional Constitution Order (1 of 1981)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "Art. 9",
+      "Article 9"
+    ],
+    "source_relpath": "1984L295",
+    "content_hash": "259276f94d04aaef349d991652f081e2ef39dcaa085e9b61790938c9ec20a1c4"
+  },
+  "full_text": "1984 C L C 908\n\n[Lahore]\n\nBefore Muhammad Munir Khan, J\n\nSAEED MUHAMMAD ‐Petitioner\n\nVersus\n\nJUDGE FAMILY COURT AND OTHERS‐ Respondents\n\nWrit Petition No. 487 of 1983, decided on 6th February, 1983.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐\n\n‐‐ S. 5‐Provisional Constitution Order (1 of 1981), Art. 9‐Writ‐Judge Family Court giving reasons in support of his conclusions arrived at by him in respect of suit of wife for jectitation of marriage and decree passed by him found within his exclusive jurisdiction-Nikahnama referred to by husband being a disputed document to be proved by him before trial Court‐Husband failing to prove Nikahnama, trial Court rightly declined to take judicial notice of such Nikahnama‐Constitutional petition accordingly dismissed.\n\nCh. Muhammad Siddiq Safdar for Petitioner.\n\nS. A. Sehgal and Malik Muhammad Bukhsh Shakir for Respondent No. 2.\n\nDate of hearing : 6th February, 1983.\n\nJUDGMENT\n\nThis is a petition under Article 9 of the Provisional Constitution Order, 1981, whereby, Saeed Muhammad petitioner wants this Court to declare the judgment and decree, dated 21st March, 1982 passed by Judge Family Court, Khanewal decreeing the suit for dissolution of marriage titled Mst. Shamim Akhtar v. Saeed Muhammad', to be without lawful authority and of no legal effect.\n\n2. The facts giving rise to this petition in brief are that Ust. Shamim Akhtar filed a suit for jectitation of her marriage against Saeed Muhammad petitioner herein. The petitioner also filed a suit for the restitution of conjugal rights against Mst. Shamim Akhfar. The suits which were consolidated were contested by the parties. On the pleadings, the learned Judge, Family Court framed the following issues\n\n(1) Whether the plaintiff is legally wedded wife of the defendant ? O. P. D.\n\n(2) If the above issue is not proved, whether the defendant is entitled to restitution of conjugal rights ? D. P. D.\n\n(3) Relief,\n\nAfter recording the evidence adduced by the parties, the trial Court vide its order dated 21st March. 1982, decreed the suit for jectitation of the marriage and dismissed the suit for restitution of conjugal rights. Hence this petition.\n\n3. The learned counsel has raised the following points :‐\n\n(i) That the evidence of the petitioner/defendant has been wrongly disbelieved and the evidence produced by Mst. Shamim Akhtar has been believed without justification.\n\n(ii) Since Nikahnama has been placed on the record, it was not necessary to exhibit and prove the same because Civil Procedure Code and Evidence Act do not apply to the proceedings before the Judge Family Court and he should have taken judicial notice of the Nikahnama.\n\nThe learned counsel for the respondents have seriously defended the impugned judgment and decree.\n\n4. After hearing the learned counsel and going through the record, I am not inclined to interfere with the judgment and decree passed by a Court of competent jurisdiction for the reasons that it was within the exclusive jurisdiction of the Judge Family Court to believe or disbelieve the evidence; that the learned Judge has given reasons in support of the conclusions arrived at by him; that since Nikahnama was a disputed document, it was very much necessary that the same should have been proved and in the circumstances of the case, the trial Court could not take judicial notice of that disputed document.\n\n5. For what has been stated above, there being no merit ,in the petition, the same is dismissed leaving the parties to bear their own costs.\n\nM.Y.H. Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 24,
+        "paragraph_end": 24,
+        "sentence": "For what has been stated above, there being no merit ,in the petition, the same is dismissed leaving the parties to bear their own costs.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 25,
+        "paragraph_end": 25,
+        "sentence": "Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "1984 C L C 908\n\n[Lahore]\n\nBefore Muhammad Munir Khan, J\n\nSAEED MUHAMMAD ‐Petitioner\n\nVersus\n\nJUDGE FAMILY COURT AND OTHERS‐ Respondents\n\nWrit Petition No. 487 of 1983, decided on 6th February, 1983.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐\n\n‐‐ S. 5‐Provisional Constitution Order (1 of 1981), Art. 9‐Writ‐Judge Family Court giving reasons in support of his conclusions arrived at by him in respect of suit of wife for jectitation of marriage and decree passed by him found within his exclusive jurisdiction-Nikahnama referred to by husband being a disputed document to be proved by him before trial Court‐Husband failing to prove Nikahnama, trial Court rightly declined to take judicial notice of such Nikahnama‐Constitutional petition accordingly dismissed.\n\nCh. Muhammad Siddiq Safdar for Petitioner.\n\nS. A. Sehgal and Malik Muhammad Bukhsh Shakir for Respondent No. 2.\n\nDate of hearing : 6th February, 1983."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "This is a petition under Article 9 of the Provisional Constitution Order, 1981, whereby, Saeed Muhammad petitioner wants this Court to declare the judgment and decree, dated 21st March, 1982 passed by Judge Family Court, Khanewal decreeing the suit for dissolution of marriage titled Mst. Shamim Akhtar v. Saeed Muhammad', to be without lawful authority and of no legal effect.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. The facts giving rise to this petition in brief are that Ust. Shamim Akhtar filed a suit for jectitation of her marriage against Saeed Muhammad petitioner herein. The petitioner also filed a suit for the restitution of conjugal rights against Mst. Shamim Akhfar. The suits which were consolidated were contested by the parties. On the pleadings, the learned Judge, Family Court framed the following issues",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 17,
+        "text": "(1) Whether the plaintiff is legally wedded wife of the defendant ? O. P. D.\n\n(2) If the above issue is not proved, whether the defendant is entitled to restitution of conjugal rights ? D. P. D.\n\n(3) Relief,",
+        "label": "issues",
+        "confidence": 0.98
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "After recording the evidence adduced by the parties, the trial Court vide its order dated 21st March. 1982, decreed the suit for jectitation of the marriage and dismissed the suit for restitution of conjugal rights. Hence this petition.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 21,
+        "text": "3. The learned counsel has raised the following points :‐\n\n(i) That the evidence of the petitioner/defendant has been wrongly disbelieved and the evidence produced by Mst. Shamim Akhtar has been believed without justification.\n\n(ii) Since Nikahnama has been placed on the record, it was not necessary to exhibit and prove the same because Civil Procedure Code and Evidence Act do not apply to the proceedings before the Judge Family Court and he should have taken judicial notice of the Nikahnama.",
+        "label": "arguments",
+        "confidence": 0.98
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "text": "The learned counsel for the respondents have seriously defended the impugned judgment and decree.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "text": "4. After hearing the learned counsel and going through the record, I am not inclined to interfere with the judgment and decree passed by a Court of competent jurisdiction for the reasons that it was within the exclusive jurisdiction of the Judge Family Court to believe or disbelieve the evidence; that the learned Judge has given reasons in support of the conclusions arrived at by him; that since Nikahnama was a disputed document, it was very much necessary that the same should have been proved and in the circumstances of the case, the trial Court could not take judicial notice of that disputed document.",
+        "label": "court_reasoning",
+        "confidence": 0.98
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 24,
+        "paragraph_end": 24,
+        "text": "5. For what has been stated above, there being no merit ,in the petition, the same is dismissed leaving the parties to bear their own costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 25,
+        "paragraph_end": 25,
+        "text": "M.Y.H. Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

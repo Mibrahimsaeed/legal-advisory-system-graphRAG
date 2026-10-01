@@ -1,0 +1,152 @@
+{
+  "doc_id": "ca3954fd67048d3ae02b3c8d",
+  "metadata": {
+    "doc_id": "ca3954fd67048d3ae02b3c8d",
+    "case_title": "MUHAMMAD SHARIF vs DISTRICT JUDGE, TOBA TEK SINGH and 3 others",
+    "citation": "2009 M L D 816",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "S. Ali Hassan Rizvi"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "S.14",
+      "Art.199"
+    ],
+    "source_relpath": "2009L2593",
+    "content_hash": "008355b68ee09e1245ab5ef716c7496731e5b956095c54673357c9fd1c12cfd0"
+  },
+  "full_text": "2009 M L D 816\n\n[Lahore]\n\nBefore S. Ali Hassan Rizvi, J\n\nMUHAMMAD SHARIF---Petitioner\n\nVersus\n\nDISTRICT JUDGE, TOBA TEK SINGH and 3 others---Respondents\n\nWrit Petition No. 6139 of 2009, decided on 6th April, 2009.\n\n(a) West Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5, Sched. & S.14---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of maintenance allowance---Increasing the amount of maintenance by Appellate Court---Family Court, after full-dress trial decreed suit allowing maintenance amount---Appellate Court modified decree passed by the Family Court and increased amount of maintenance allowance and defendant challenged said increase in constitutional petition---Validity---Father was bound to maintain his children, irrespective of his financial position, whether tight or easy---Rate of maintenance as fixed by the Appellate Court was neither excessive nor in travesty of evidence---Appellate Court being the final court of facts, its findings were based on evidence---Judgment and decree were rendered by the Appellate Court with lawful authority, in circumstances---No case having been made out for interference in the judgments/decree rendered by the final court of fact, petition was dismissed.\n\n(b) Constitution of Pakistan (1973)---\n\n----Art.199---Constitutional jurisdiction---Scope---Before striking down the orders of the courts having exclusive jurisdiction, the High Court in its constitutional jurisdiction must explore every possible explanation for their validity and examine the entire field of power; and all efforts should be made to uphold them---Where the orders were reasonable, just' and proper, the High Court should not allow a situation to arise, which would amount to deflecting the normal powers mandated by law---High Court, while sitting in constitutional jurisdiction, should not substitute judgments, which otherwise were reasonable, just and proper.\n\nCh. M. Shabbir Ahmad for Petitioner.\n\nORDER\n\nS. ALI HASSAN RIZVI, J.---In a family suit instituted on 23-9-2008 by Mst. Humaira Yasmin and her minor daughter Mst. Areeba Sharif for maintenance allowance after full-dress trial, following relief was granted by the learned Judge, Family Court, Toba-Tek Singh vide judgment and decree, dated 29-11-2008:--\n\n\" .the suit of the plaintiff No.1 for maintenance allowance is decreed for Rs.1,000 from 18-7-2007 till her period of Iddat along with Rs.1,000 per month maintenance allowance for the period of two years for milking her suckling baby i.e. from 18-9-2007 to 18-9-2009 and suit for maintenance allowance to the extent of plaintiff No.2 is decreed for Rs.1,000 from 18-9-2007 till her marriage. However, the maintenance allowance to the extent of minor plaintiff No.2 shall stand increased automatically @ of 10% per annum and to the extent of remaining the suit of the plaintiffs is dismissed with cost.\"\n\nHowever, in appeal the decree was modified in the following terms:\n\n\"(1) Mst. Humaira Yasmeen appellant shall be maintained by the respondent at Rs.1500 a month w.e.f. 19-11-2007 to the completion of the period of her Iddat.\n\n(2) She would be entitled to be maintained for breast feeding the minor appellant at Rs.1000 a month w.e.f. 19-11-2007 for a period of two years.\n\n(3) The minor appellant shall be provided maintenance allowance by the respondent at Rs.2000 a month until she is given in marriage with 10% annual enhancement.\"\n\nIt may be noted that the original decree, dated 29-11-2008 passed by the learned Judge, Family Court was challenged by both the parties.\n\n2. The present writ petition has been filed by Muhammad Sharif, the defendant in the suit.\n\n3. It was argued by learned counsel for the petitioner that the learned appellate Court had misdirected himself while increasing the amount of maintenance and that his findings suffered from misreading or non-reading of the evidence resulting in miscarriage of justice. It was also argued that the financial position of the petitioner-defendant was not kept in view.\n\n4. I am afraid the above contentions have no force at all. I have gone through the evidence as also the impugned judgments/decrees passed by both the Courts below. A father is bound to maintain his children irrespective of his financial position, whether tight or easy. In the present case the rate of maintenance as fixed by the learned Additional District Judge was neither excessive nor in travesty of evidence. The Court of learned Additional District Judge was the final Court of fact. His findings were based on evidence and thus, the judgment and decree rendered by him were with lawful authority.\n\n5. Before striking down the orders of the Courts having exclusive jurisdiction, the High Court in writ jurisdiction must explore every possible explanation for their validity, and examine the entire field of power and all efforts should be made to uphold them. Where the orders are reasonable, just and proper, the High Court should not allow a situation to arise, which would amount to deflecting the normal powers mandated by law. In other words, the High Court while sitting in writ jurisdiction, should not substitute judgments, which are otherwise reasonable, just and proper.\n\n6. In the present case I am not persuaded that any case is made out for interference in the judgments/decrees rendered by the final Court of fact. Consequently, the writ petition is dismissed.\n\nH.B.T./M-191/I Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 24,
+        "paragraph_end": 24,
+        "sentence": "Consequently, the writ petition is dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 25,
+        "paragraph_end": 25,
+        "sentence": "H.B.T./M-191/I Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "2009 M L D 816\n\n[Lahore]\n\nBefore S. Ali Hassan Rizvi, J\n\nMUHAMMAD SHARIF---Petitioner\n\nVersus\n\nDISTRICT JUDGE, TOBA TEK SINGH and 3 others---Respondents\n\nWrit Petition No. 6139 of 2009, decided on 6th April, 2009."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 9,
+        "text": "(a) West Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5, Sched. & S.14---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of maintenance allowance---Increasing the amount of maintenance by Appellate Court---Family Court, after full-dress trial decreed suit allowing maintenance amount---Appellate Court modified decree passed by the Family Court and increased amount of maintenance allowance and defendant challenged said increase in constitutional petition---Validity---Father was bound to maintain his children, irrespective of his financial position, whether tight or easy---Rate of maintenance as fixed by the Appellate Court was neither excessive nor in travesty of evidence---Appellate Court being the final court of facts, its findings were based on evidence---Judgment and decree were rendered by the Appellate Court with lawful authority, in circumstances---No case having been made out for interference in the judgments/decree rendered by the final court of fact, petition was dismissed.\n\n(b) Constitution of Pakistan (1973)---"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 10,
+        "paragraph_end": 11,
+        "text": "----Art.199---Constitutional jurisdiction---Scope---Before striking down the orders of the courts having exclusive jurisdiction, the High Court in its constitutional jurisdiction must explore every possible explanation for their validity and examine the entire field of power; and all efforts should be made to uphold them---Where the orders were reasonable, just' and proper, the High Court should not allow a situation to arise, which would amount to deflecting the normal powers mandated by law---High Court, while sitting in constitutional jurisdiction, should not substitute judgments, which otherwise were reasonable, just and proper.\n\nCh. M. Shabbir Ahmad for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "S. ALI HASSAN RIZVI, J.---In a family suit instituted on 23-9-2008 by Mst. Humaira Yasmin and her minor daughter Mst. Areeba Sharif for maintenance allowance after full-dress trial, following relief was granted by the learned Judge, Family Court, Toba-Tek Singh vide judgment and decree, dated 29-11-2008:--",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "\" .the suit of the plaintiff No.1 for maintenance allowance is decreed for Rs.1,000 from 18-7-2007 till her period of Iddat along with Rs.1,000 per month maintenance allowance for the period of two years for milking her suckling baby i.e. from 18-9-2007 to 18-9-2009 and suit for maintenance allowance to the extent of plaintiff No.2 is decreed for Rs.1,000 from 18-9-2007 till her marriage. However, the maintenance allowance to the extent of minor plaintiff No.2 shall stand increased automatically @ of 10% per annum and to the extent of remaining the suit of the plaintiffs is dismissed with cost.\"",
+        "label": "lower_court_orders",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 18,
+        "text": "However, in appeal the decree was modified in the following terms:\n\n\"(1) Mst. Humaira Yasmeen appellant shall be maintained by the respondent at Rs.1500 a month w.e.f. 19-11-2007 to the completion of the period of her Iddat.\n\n(2) She would be entitled to be maintained for breast feeding the minor appellant at Rs.1000 a month w.e.f. 19-11-2007 for a period of two years.\n\n(3) The minor appellant shall be provided maintenance allowance by the respondent at Rs.2000 a month until she is given in marriage with 10% annual enhancement.\"",
+        "label": "lower_court_orders",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 20,
+        "text": "It may be noted that the original decree, dated 29-11-2008 passed by the learned Judge, Family Court was challenged by both the parties.\n\n2. The present writ petition has been filed by Muhammad Sharif, the defendant in the suit.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "3. It was argued by learned counsel for the petitioner that the learned appellate Court had misdirected himself while increasing the amount of maintenance and that his findings suffered from misreading or non-reading of the evidence resulting in miscarriage of justice. It was also argued that the financial position of the petitioner-defendant was not kept in view.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "text": "4. I am afraid the above contentions have no force at all. I have gone through the evidence as also the impugned judgments/decrees passed by both the Courts below. A father is bound to maintain his children irrespective of his financial position, whether tight or easy. In the present case the rate of maintenance as fixed by the learned Additional District Judge was neither excessive nor in travesty of evidence. The Court of learned Additional District Judge was the final Court of fact. His findings were based on evidence and thus, the judgment and decree rendered by him were with lawful authority.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "text": "5. Before striking down the orders of the Courts having exclusive jurisdiction, the High Court in writ jurisdiction must explore every possible explanation for their validity, and examine the entire field of power and all efforts should be made to uphold them. Where the orders are reasonable, just and proper, the High Court should not allow a situation to arise, which would amount to deflecting the normal powers mandated by law. In other words, the High Court while sitting in writ jurisdiction, should not substitute judgments, which are otherwise reasonable, just and proper.",
+        "label": "authorities_cited",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 24,
+        "paragraph_end": 24,
+        "text": "6. In the present case I am not persuaded that any case is made out for interference in the judgments/decrees rendered by the final Court of fact. Consequently, the writ petition is dismissed.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 25,
+        "paragraph_end": 25,
+        "text": "H.B.T./M-191/I Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

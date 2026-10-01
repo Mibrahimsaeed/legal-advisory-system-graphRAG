@@ -1,0 +1,139 @@
+{
+  "doc_id": "c0e9bcc1db2474205324e109",
+  "metadata": {
+    "doc_id": "c0e9bcc1db2474205324e109",
+    "case_title": "1986 C L C 2381",
+    "citation": "1986 C L C 2381",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Manzoor Hussain Sial"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Provisional Constitution Order (1 of 1981)"
+    ],
+    "provisions_cited": [
+      "S. 13",
+      "section 13",
+      "Section 13",
+      "Art.9"
+    ],
+    "source_relpath": "1986L443",
+    "content_hash": "65dd4ed0182b5cf936f9c1590581f9e61218f80c75fd241b091f3f8bb36f13a6"
+  },
+  "full_text": "1986 C L C 2381\n\n[Lahore]\n\nBefore Manzoor Hussain Sial, J\n\nNASIR KHAN--Petitioner\n\nversus\n\nTAHIRA RASHIDA--Respondent\n\nWrit Petition No. 3695 of 1985, decided on 12th January, 1986.\n\nWest Pakistan Family Courts Act (XXXV of 1964)--\n\n---S. 13(3)--Provisional Constitution Order (1 of 1981), Art.9--Execution of money decree--Executing Court without resorting to procedure prescribed by law for execution of money decree passed by Family Court, committed judgment-debtor to civil prison for non-payment of decretal amount--High Court in its constitutional jurisdiction set aside illegal order of executing Court.\n\nWaheedur Rehman Gillani for Petitioner.\n\nRehmat Ali Malik for Respondent.\n\nDate of hearing: 12th January, 1986.\n\nJUDGMENT\n\nNasir Khan petitioner has challenged the impugned orders passed by respondents Nos. 1 and 2 in execution of the decree passed by the Judge Family Court, Lahore in favour of respondent No.4.\n\n2. Learned counsel for the petitioner contended that the learned Civil Judge acted in excess of his jurisdiction by committing the petitioner to civil prison. The procedure provided for execution of money decrees passed by the Family Courts is prescribed under section 13(3) of the West Pakistan Family Courts Act, 1964, the petitioner, therefore, could not have been committed to civil prison by respondent No.2. It was also submitted that the order of the learned Additional District Judge in rejecting petitioner's revision petition also suffered for lack of jurisdiction.\n\n3. Learned counsel for respondent No.4 did not join issue with the learned counsel for the petitioner on the point raised by him, and stated that the impugned orders are untenable.\n\nSection 13(3) of the West Pakistan Family Courts Act, 1964 provides:-\n\n\"(3) Where a decree relates to the payment of money and the decretal amount is not paid within the time specified by the Court, the same shall, if the Court so directs, b ~ recovered as arrears of land revenue, and on recovery shall be paid to the decree-holder.\"\n\nUndoubtedly, in the instant case, the above-mentioned procedure nrescribed for execution of money decree was not resorted to, and the petitioner was committed to civil prison illegally.\n\nIn this view of the matter the impugned orders passed by the respondents Nos. l and 2 are set aside and declared to be of no legal consequence.\n\n3. In the result, this petition is allowed with the observation that the executing Court shall proceed in the matter in accordance with law:\n\n4. There shall be no order as to costs.\n\nH.B.T. Writ issued.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "1986 C L C 2381\n\n[Lahore]\n\nBefore Manzoor Hussain Sial, J\n\nNASIR KHAN--Petitioner\n\nversus\n\nTAHIRA RASHIDA--Respondent\n\nWrit Petition No. 3695 of 1985, decided on 12th January, 1986.\n\nWest Pakistan Family Courts Act (XXXV of 1964)--\n\n---S. 13(3)--Provisional Constitution Order (1 of 1981), Art.9--Execution of money decree--Executing Court without resorting to procedure prescribed by law for execution of money decree passed by Family Court, committed judgment-debtor to civil prison for non-payment of decretal amount--High Court in its constitutional jurisdiction set aside illegal order of executing Court.\n\nWaheedur Rehman Gillani for Petitioner.\n\nRehmat Ali Malik for Respondent.\n\nDate of hearing: 12th January, 1986."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "Nasir Khan petitioner has challenged the impugned orders passed by respondents Nos. 1 and 2 in execution of the decree passed by the Judge Family Court, Lahore in favour of respondent No.4.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. Learned counsel for the petitioner contended that the learned Civil Judge acted in excess of his jurisdiction by committing the petitioner to civil prison. The procedure provided for execution of money decrees passed by the Family Courts is prescribed under section 13(3) of the West Pakistan Family Courts Act, 1964, the petitioner, therefore, could not have been committed to civil prison by respondent No.2. It was also submitted that the order of the learned Additional District Judge in rejecting petitioner's revision petition also suffered for lack of jurisdiction.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "3. Learned counsel for respondent No.4 did not join issue with the learned counsel for the petitioner on the point raised by him, and stated that the impugned orders are untenable.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "Section 13(3) of the West Pakistan Family Courts Act, 1964 provides:-",
+        "label": "applicable_law",
+        "confidence": 0.95
+      },
+      {
+        "type": "quoted_material",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "\"(3) Where a decree relates to the payment of money and the decretal amount is not paid within the time specified by the Court, the same shall, if the Court so directs, b ~ recovered as arrears of land revenue, and on recovery shall be paid to the decree-holder.\"",
+        "label": "quoted_material",
+        "confidence": 0.95,
+        "attribution": "unknown"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "Undoubtedly, in the instant case, the above-mentioned procedure nrescribed for execution of money decree was not resorted to, and the petitioner was committed to civil prison illegally.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "In this view of the matter the impugned orders passed by the respondents Nos. l and 2 are set aside and declared to be of no legal consequence.",
+        "label": "final_order",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "3. In the result, this petition is allowed with the observation that the executing Court shall proceed in the matter in accordance with law:",
+        "label": "final_order",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "4. There shall be no order as to costs.",
+        "label": "final_order",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "text": "H.B.T. Writ issued.",
+        "label": "final_order",
+        "confidence": 0.95
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

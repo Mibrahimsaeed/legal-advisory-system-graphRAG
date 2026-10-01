@@ -1,0 +1,94 @@
+{
+  "doc_id": "9b0603e4f616804cad4e3e0b",
+  "metadata": {
+    "doc_id": "9b0603e4f616804cad4e3e0b",
+    "case_title": "Syed AHMED DANISH vs Mst. MARIAM BAIG and another",
+    "citation": "2019 Y L R 2362",
+    "court": "Sindh (Hyderabad Bench)",
+    "court_location": "Hyderabad",
+    "decision_date": null,
+    "judges": [
+      "Mrs. Kausar Sultana Hussain"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)",
+      "Limitation Act (IX of 1908)"
+    ],
+    "provisions_cited": [
+      "Ss. 8 & 14",
+      "S. 5",
+      "Section 14",
+      "S. 2",
+      "section 5",
+      "Section 5",
+      "Section 2"
+    ],
+    "source_relpath": "2019K4135",
+    "content_hash": "8a20a47874611301256c5828f3624656a447b076418abdf43ba507064ece8f1c"
+  },
+  "full_text": "2019 Y L R 2362\n\n[Sindh (Hyderabad Bench)]\n\nBefore Mrs. Kausar Sultana Hussain, J\n\nSyed AHMED DANISH---Petitioner\n\nVersus\n\nMst. MARIAM BAIG and another---Respondents\n\nConstitutional Petition No.S-837 of 2016, decided on 23rd April, 2018.\n\nFamily Courts Act (XXXV of 1964)---\n\n----Ss. 8 & 14---Limitation Act (IX of 1908), S. 5---Suit for dissolution of marriage---Ex parte decree, setting aside of---Limitation---Condonation of delay---Sufficient cause---Appeal---Scope---Petitioner (husband) assailed order of Family Court whereby it had dismissed his application for setting aside ex-parte judgment and decree for dissolution of marriage---Validity---Petitioner had filed application for setting aside the judgment and decree of khula' after delay of more than 30 days---Conduct of petitioner towards suit of respondent showed that he deliberately avoided to appear inspite of service of notice through different modes including publication---Petitioner again delayed the application for setting aside ex-parte judgment and decree within stipulated period of 30 days---Petitioner was required to explain delay of each day but he failed to do so by not filing application for condonation of delay under S. 5 of Limitation Act, 1908---Section 14(2)(a), Family Courts Act, 1964 prohibited filing of appeal in case of dissolution of marriage on any ground except the one in clause (a) of item (viii) of S. 2 of Dissolution of Muslim Marriages Act, 1939---Object of legislature behind not providing provision as to appeal in case of dissolution of marriage is to protect women from prolonged and costly litigation---Constitutional petition, being not maintainable, was dismissed in limine.\n\nSyed Anayat Hussain Shah for Petitioner.\n\nDate of hearing: 9th April, 2018.\n\nORDER\n\nMRS. KAUSAR SULTANA HUSSAIN, J.---Instant petition was taken-up for hearing on 09.04.2018, when the learned counsel for the petitioner was directed to satisfy this court, as to maintainability of instant petition, particularly against the impugned order dated 30.03.2016, passed by the learned IInd Family Judge Karachi Central on an application filed by the petitioner before the said court with the prayer that the Ex parte judgment and decree, passed by it on 19.08.2015 may be recalled, whereby marriage of the petitioner and respondent No. 1 was dissolved by way of Khulla on the condition of forgoing dower amount by the respondent No. 1 in favour of the petitioner. While dismissing the said application of the petitioner, the learned Family Judge observed that it is time barred application and filed without an application for condonation of such delay. Besides, the contention raised by the petitioner for setting aside the judgment and decree dated 19.08.2015, was that the decree has been obtained by giving false address by the respondent No. 1/plaintiff which was also not proved from the said record itself. It is an admitted position that the petitioner has filed an application for setting aside the judgment and decree of Khulla after delay of more than 30 days. However, law provides to be within 30 days period and for condonation of delay petitioner did not prefer an application under section 5 of the Limitation Act. The conduct of the petitioner towards the Family Suit of the respondent shows that he deliberately at initial stage avoided to appear before learned Family Court inspite of service of notice through different modes including publication and subsequently after passing judgment and decree of dissolution of marriage by way of Khulla, he again delayed the application before the Court to challenge the Ex parte judgment and decree within stipulated period of 30 days. After lapse of statutory period, applying to set aside judgment and decree for Khulla seems to be a deliberate attempt to avoid getting condonation of such delay by adopting prescribed legal procedure in relevant laws, although the learned counsel for the petitioner presumptly knows the procedure of obtaining condonation of delay. It appears that the petitioner knowingly and deliberately adopting this attitude in order to defeat the relief granted by the Family Court to the respondent No. 1. According to law of limitation, petitioner was required to explain delay of each day but he failed to do so by not filing such application for condonation under Section 5 of Limitation Act. Section 14(2)(a) of Family Courts Act 1964 prohibits filing of appeal in case of dissolution of marriage on any ground except the one in clause (d) of item (viii) of Section 2 of the Dissolution of Muslim Marriages Act, 1939. The object of legislature behind not providing provision as to appeal in case of Dissolution of Marriage, is to protect women, an under privileged and generally oppressed section of our society from prolonged and costly litigation. Therefore, the present Constitution Petition filed by the petitioner without assigning any cogent reason of his avoidance to follow provision of Family Courts Act, 1964 make the present petition not maintainable. I, therefore, dismissed it in limini.\n\nSA/A-40/Sindh Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "sentence": "It appears that the petitioner knowingly and deliberately adopting this attitude in order to defeat the relief granted by the Family Court to the respondent No.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "sentence": "I, therefore, dismissed it in limini.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "sentence": "SA/A-40/Sindh Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": false,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "2019 Y L R 2362\n\n[Sindh (Hyderabad Bench)]\n\nBefore Mrs. Kausar Sultana Hussain, J\n\nSyed AHMED DANISH---Petitioner\n\nVersus\n\nMst. MARIAM BAIG and another---Respondents\n\nConstitutional Petition No.S-837 of 2016, decided on 23rd April, 2018.\n\nFamily Courts Act (XXXV of 1964)---\n\n----Ss. 8 & 14---Limitation Act (IX of 1908), S. 5---Suit for dissolution of marriage---Ex parte decree, setting aside of---Limitation---Condonation of delay---Sufficient cause---Appeal---Scope---Petitioner (husband) assailed order of Family Court whereby it had dismissed his application for setting aside ex-parte judgment and decree for dissolution of marriage---Validity---Petitioner had filed application for setting aside the judgment and decree of khula' after delay of more than 30 days---Conduct of petitioner towards suit of respondent showed that he deliberately avoided to appear inspite of service of notice through different modes including publication---Petitioner again delayed the application for setting aside ex-parte judgment and decree within stipulated period of 30 days---Petitioner was required to explain delay of each day but he failed to do so by not filing application for condonation of delay under S. 5 of Limitation Act, 1908---Section 14(2)(a), Family Courts Act, 1964 prohibited filing of appeal in case of dissolution of marriage on any ground except the one in clause (a) of item (viii) of S. 2 of Dissolution of Muslim Marriages Act, 1939---Object of legislature behind not providing provision as to appeal in case of dissolution of marriage is to protect women from prolonged and costly litigation---Constitutional petition, being not maintainable, was dismissed in limine.\n\nSyed Anayat Hussain Shah for Petitioner.\n\nDate of hearing: 9th April, 2018."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "MRS. KAUSAR SULTANA HUSSAIN, J.---Instant petition was taken-up for hearing on 09.04.2018, when the learned counsel for the petitioner was directed to satisfy this court, as to maintainability of instant petition, particularly against the impugned order dated 30.03.2016, passed by the learned IInd Family Judge Karachi Central on an application filed by the petitioner before the said court with the prayer that the Ex parte judgment and decree, passed by it on 19.08.2015 may be recalled, whereby marriage of the petitioner and respondent No. 1 was dissolved by way of Khulla on the condition of forgoing dower amount by the respondent No. 1 in favour of the petitioner. While dismissing the said application of the petitioner, the learned Family Judge observed that it is time barred application and filed without an application for condonation of such delay. Besides, the contention raised by the petitioner for setting aside the judgment and decree dated 19.08.2015, was that the decree has been obtained by giving false address by the respondent No. 1/plaintiff which was also not proved from the said record itself. It is an admitted position that the petitioner has filed an application for setting aside the judgment and decree of Khulla after delay of more than 30 days. However, law provides to be within 30 days period and for condonation of delay petitioner did not prefer an application under section 5 of the Limitation Act. The conduct of the petitioner towards the Family Suit of the respondent shows that he deliberately at initial stage avoided to appear before learned Family Court inspite of service of notice through different modes including publication and subsequently after passing judgment and decree of dissolution of marriage by way of Khulla, he again delayed the application before the Court to challenge the Ex parte judgment and decree within stipulated period of 30 days. After lapse of statutory period, applying to set aside judgment and decree for Khulla seems to be a deliberate attempt to avoid getting condonation of such delay by adopting prescribed legal procedure in relevant laws, although the learned counsel for the petitioner presumptly knows the procedure of obtaining condonation of delay. It appears that the petitioner knowingly and deliberately adopting this attitude in order to defeat the relief granted by the Family Court to the respondent No. 1. According to law of limitation, petitioner was required to explain delay of each day but he failed to do so by not filing such application for condonation under Section 5 of Limitation Act. Section 14(2)(a) of Family Courts Act 1964 prohibits filing of appeal in case of dissolution of marriage on any ground except the one in clause (d) of item (viii) of Section 2 of the Dissolution of Muslim Marriages Act, 1939. The object of legislature behind not providing provision as to appeal in case of Dissolution of Marriage, is to protect women, an under privileged and generally oppressed section of our society from prolonged and costly litigation. Therefore, the present Constitution Petition filed by the petitioner without assigning any cogent reason of his avoidance to follow provision of Family Courts Act, 1964 make the present petition not maintainable. I, therefore, dismissed it in limini.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "SA/A-40/Sindh Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

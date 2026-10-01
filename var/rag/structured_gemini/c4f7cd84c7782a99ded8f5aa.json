@@ -1,0 +1,124 @@
+{
+  "doc_id": "c4f7cd84c7782a99ded8f5aa",
+  "metadata": {
+    "doc_id": "c4f7cd84c7782a99ded8f5aa",
+    "case_title": "HAIBAT NAWAZ KHAN- vs Mst. NAJMA BIBI alias NAJMA PARVEEN and others-",
+    "citation": "2006 C L C 554",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Sh. Azmat Saeed"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "Ss. 5",
+      "section 9",
+      "Art.199"
+    ],
+    "source_relpath": "2006L262",
+    "content_hash": "719fd8199a4ce830c6a3d773bebeacd753088c71e615e47d75a4b760f8d8f262"
+  },
+  "full_text": "2006 C L C 554\n\n[Lahore]\n\nBefore Sh. Azmat Saeed, J\n\nHAIBAT NAWAZ KHAN----Petitioner\n\nVersus\n\nMst. NAJMA BIBI alias NAJMA PARVEEN and others----Respondents\n\nWrit Petition No.9254 of 2005, decided on 4th July, 2005.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss. 5, Sched & 9--Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of maintenance amount---Documentary evidence, production of--Evidence was led by respondents, whereafter petitioner produced his oral evidence and case was adjourned for production of documentary evidence---Petitioner, on the adjourned date of hearing, attempted to produce certified copy of a certificate allegedly issued by Chairman, Union Council concerned and attempted to prove that he had divorced the respondent---Family Court, on the objection of respondent, vide impugned order declined permission to petitioner to produce said document--Petitioner had contended that the document sought to be produced was certified copy of a public document and Family Court was vested with jurisdiction and discretion to permit him to produce said document---Specific issue was framed by Family Court as to whether petitioner had divorced the respondent---Evidence of petitioner had not been closed and case was fixed for production of documentary evidence---Document sought to be produced by petitioner being relevant, impugned order of Family Court, was set aside in the interest of justice and petitioner was permitted to present said document in the Court subject to payment of costs---Family Court, however, would examine admissibility and legal effect of said document.\n\nMst. Faiza Firdous v. Ghulam Sabir 2002 CLC 1801 ref.\n\nHasnat Ahmad Khan for Petitioner.\n\nRespondent No.1 in person.\n\nMalik Zafar Iqbal Awan, Addl. A.-G. for Respondents.\n\nDate of hearing: 4th July, 2005.\n\nORDER\n\nSH. AZMAT SAEED, J.---This constitutional petition is directed against the order, dated 3-5-2005, passed by Judge Family Court, Faisalabad (respondent No.3).\n\n2. Brief facts leading to the filing of this petition are that respondents Nos.1 and 2 filed a suit for maintenance allowance against the petitioner, which is pending adjudication before respondent No.3. The petitioner entered appearance and contested the suit while inter alia contending that he was no longer married to respondent No.1. On the pleadings of the parties, issues were framed including an issue as to whether the petitioner had divorced respondent No.1. However, no document in support of such divorce is appended with the written statement. It appears that the evidence was led by respondents Nos.1 and 2, whereafter, the petitioner produced his oral evidence and the case was adjourned for production of documentary evidence. On the said date, the petitioner attempted to produce certified copy of a certificate allegedly issued by Chairman, Union Council, Jaranwala and attempted to prove that he had divorced respondent No.1. This was objected to by the counsel for respondents Nos.1 and 2 and the Family Court vide impugned order declined permission to petitioner to produce the said document.\n\n3. In response to a notice issued by this Court, respondent No.1 had entered appearance and had expressed her inability to engage a counsel. In the circumstances, Additional Advocate-General, present in Court, has been directed to assist this Court on behalf of the respondents.\n\n4. Counsel for the petitioner and Additional Advocate-General have been heard.\n\n5. It is contended on behalf of learned counsel for the petitioner that a document sought to be produced is certified copy of a public document and the Family Court was vested with the jurisdiction and the discretion to permit him to produce the said document. In this behalf, learned counsel relied upon Mst. Faiza Firdous v. Ghulam Sabir 2002 CLC 1801. Relying on the aforesaid judgment, learned counsel for the petitioner further contended that an order, in this behalf, passed by the Family Court can be interfered with by this Court in its constitutional jurisdiction.\n\nOn the other hand, learned Additional Advocate-General contends that under section 9 of the Family Courts Act, 1964, it is mandatory requirement of law that copies of available documents must be presented in the Court along with written statement and if not in that possession of such party must be relied upon. Neither the document nor the copy is filed with the written statement nor relied upon, hence, respondent No.3 rightly refused to accept the said document in evidence.\n\n6. There is specific issue framed by the Family Court as to whether the petitioner had divorced respondent No.1, evidence of the petitioner had not been closed and the case was fixed for production of documentary evidence. There can be no escape from the fact that the document is relevant, therefore, in the interest of justice, the impugned c order is set aside and the petitioner is permitted to present the said document in Court subject to the payment of Rs.2,000 (Rupees two thousand only) as costs. However, the Family Court shall examine its admissibility and legal effect. The Family Court is directed to dispose of the suit expeditiously within a period of fifteen days, on receipt of this order.\n\nH.B.T./H-92/L Order accordingly.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "sentence": "There can be no escape from the fact that the document is relevant, therefore, in the interest of justice, the impugned c order is set aside and the petitioner is permitted to present the said document in Court subject to the payment of Rs.2,000 (Rupees two thousand only) as costs.",
+        "label": "set_aside"
+      },
+      {
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "sentence": "H.B.T./H-92/L Order accordingly.",
+        "label": "disposed_accordingly"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 13,
+        "text": "2006 C L C 554\n\n[Lahore]\n\nBefore Sh. Azmat Saeed, J\n\nHAIBAT NAWAZ KHAN----Petitioner\n\nVersus\n\nMst. NAJMA BIBI alias NAJMA PARVEEN and others----Respondents\n\nWrit Petition No.9254 of 2005, decided on 4th July, 2005.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss. 5, Sched & 9--Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of maintenance amount---Documentary evidence, production of--Evidence was led by respondents, whereafter petitioner produced his oral evidence and case was adjourned for production of documentary evidence---Petitioner, on the adjourned date of hearing, attempted to produce certified copy of a certificate allegedly issued by Chairman, Union Council concerned and attempted to prove that he had divorced the respondent---Family Court, on the objection of respondent, vide impugned order declined permission to petitioner to produce said document--Petitioner had contended that the document sought to be produced was certified copy of a public document and Family Court was vested with jurisdiction and discretion to permit him to produce said document---Specific issue was framed by Family Court as to whether petitioner had divorced the respondent---Evidence of petitioner had not been closed and case was fixed for production of documentary evidence---Document sought to be produced by petitioner being relevant, impugned order of Family Court, was set aside in the interest of justice and petitioner was permitted to present said document in the Court subject to payment of costs---Family Court, however, would examine admissibility and legal effect of said document.\n\nMst. Faiza Firdous v. Ghulam Sabir 2002 CLC 1801 ref.\n\nHasnat Ahmad Khan for Petitioner.\n\nRespondent No.1 in person.\n\nMalik Zafar Iqbal Awan, Addl. A.-G. for Respondents.\n\nDate of hearing: 4th July, 2005."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "SH. AZMAT SAEED, J.---This constitutional petition is directed against the order, dated 3-5-2005, passed by Judge Family Court, Faisalabad (respondent No.3).",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "2. Brief facts leading to the filing of this petition are that respondents Nos.1 and 2 filed a suit for maintenance allowance against the petitioner, which is pending adjudication before respondent No.3. The petitioner entered appearance and contested the suit while inter alia contending that he was no longer married to respondent No.1. On the pleadings of the parties, issues were framed including an issue as to whether the petitioner had divorced respondent No.1. However, no document in support of such divorce is appended with the written statement. It appears that the evidence was led by respondents Nos.1 and 2, whereafter, the petitioner produced his oral evidence and the case was adjourned for production of documentary evidence. On the said date, the petitioner attempted to produce certified copy of a certificate allegedly issued by Chairman, Union Council, Jaranwala and attempted to prove that he had divorced respondent No.1. This was objected to by the counsel for respondents Nos.1 and 2 and the Family Court vide impugned order declined permission to petitioner to produce the said document.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 18,
+        "text": "3. In response to a notice issued by this Court, respondent No.1 had entered appearance and had expressed her inability to engage a counsel. In the circumstances, Additional Advocate-General, present in Court, has been directed to assist this Court on behalf of the respondents.\n\n4. Counsel for the petitioner and Additional Advocate-General have been heard.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "5. It is contended on behalf of learned counsel for the petitioner that a document sought to be produced is certified copy of a public document and the Family Court was vested with the jurisdiction and the discretion to permit him to produce the said document. In this behalf, learned counsel relied upon Mst. Faiza Firdous v. Ghulam Sabir 2002 CLC 1801. Relying on the aforesaid judgment, learned counsel for the petitioner further contended that an order, in this behalf, passed by the Family Court can be interfered with by this Court in its constitutional jurisdiction.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "On the other hand, learned Additional Advocate-General contends that under section 9 of the Family Courts Act, 1964, it is mandatory requirement of law that copies of available documents must be presented in the Court along with written statement and if not in that possession of such party must be relied upon. Neither the document nor the copy is filed with the written statement nor relied upon, hence, respondent No.3 rightly refused to accept the said document in evidence.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "6. There is specific issue framed by the Family Court as to whether the petitioner had divorced respondent No.1, evidence of the petitioner had not been closed and the case was fixed for production of documentary evidence. There can be no escape from the fact that the document is relevant, therefore, in the interest of justice, the impugned c order is set aside and the petitioner is permitted to present the said document in Court subject to the payment of Rs.2,000 (Rupees two thousand only) as costs. However, the Family Court shall examine its admissibility and legal effect. The Family Court is directed to dispose of the suit expeditiously within a period of fifteen days, on receipt of this order.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "text": "H.B.T./H-92/L Order accordingly.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

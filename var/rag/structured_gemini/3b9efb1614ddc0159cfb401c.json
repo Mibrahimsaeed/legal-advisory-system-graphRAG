@@ -1,0 +1,141 @@
+{
+  "doc_id": "3b9efb1614ddc0159cfb401c",
+  "metadata": {
+    "doc_id": "3b9efb1614ddc0159cfb401c",
+    "case_title": "1993 M L D 433",
+    "citation": "1993 M L D 433",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": "1993-01-01",
+    "judges": [
+      "Malik Muhammad Qayyum"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S.5"
+    ],
+    "source_relpath": "1993L2563",
+    "content_hash": "471647523503e18f8d75b54c0fc5ae53b5ffd3d3541de3823b78861873765b8a"
+  },
+  "full_text": "1993 M L D 433\n\n[Lahore]\n\nBefore Malik Muhammad Qayyum, J\n\nMst. PARVEEN BIBI‐‐‐Petitioner\n\nVersus\n\nAKBAR ALI and 2 others‐‐‐Respondents\n\nW.P. No.4239 of 901 heard on 18th May, 1992.\n\n(a) West Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐S.5 & Sched,‐‐‐Dissolution of marriage ‐‐‐ Khula'‐‐‐Zar‐e‐;KhuIa'‐‐‐In the ,5sence of any evidence that husband had conferred benefits to wife to the extent of Zar‐e‐Khula` and without mentioning the reasons, Family Court ordered to pay a sum of amount as Zar‐e‐Khula'‐‐‐Such order being without jurisdiction and arbitrary in nature was quashed.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐\n\n------S.5 & Sched.‐‐‐Dissolution of marriage ‐‐‐Khula'‐‐‐Order of maintenance,' validity of‐‐‐Order of maintenance was passed by Arbitration Council against petitioner‐husband‐‐‐High Court quashed the order, as the marriage being dissolved on the basis of Khula`, wife could not claim any maintenance from husband.\n\nCh. Irshad Ahmad Virk for Petitioner.\n\nFarooq Mahmood Kahloon for Respondent No.l.\n\nNemo for Respondents Nos.2 and 3.\n\nDate of hearing: 18th May, 1992.\n\nJUDGMENT\n\nThis judgment shall dispose of Writ Petition No.4239 of 1991 and 2662 of 1992 which are between the same parties.\n\n2‐ Mst. Parween Bibi, petitioner in W.P. No.4239 of 1991, was married to Akbar Ali, respondent No.l on 21‐11‐1986. Unfortunately, the spouses could not live happily and on 19‐6‐1988, Mst. Parveen Bibi filed a suit against the respondent No.l for dissolution of marriage, inter alia, on the ground of Khula`. In the written statement filed by respondent No.l, apart froth repudiating the allegations in the plaint, it was stated by the respondent No.l that the petitioner, at the time when she went to the house of her parents, took away ornaments, clothes as also a sum of Rs.6,000 or 7,000.\n\n3. The learned Family Judge, after framing relevant issues, recorded the evidence of the parties on the basis of which 10 found that the parties cannot live together as husband and wife within the limits prescribed by the Allah Almighty. He, therefore, on 17‐12‐1989, dissolved the marriage on the ground of Khula`. However, while doing so, he imposed a condition that the petitioner should pay a sum of Rs.8,000 as Zar‐e‐Khula` to the respondent No.1. The imposition of this condition has been challenged by the petitioner by filing Writ Petition No.4239 of 1991.\n\n4. The other petition bearing No.2662 of 1992 has been instituted by Akbar Ali, respondent No.1, in which he has assailed an order of maintenance passed by the Arbitration Council, Ward No.II, Tehsil Chunian, District Kasur A on 17‐6‐1988, directing him to pay maintenance at the rate of Rs.900 per month with effect from 5‐3‐1987 to the petitioner. On revision filed by the petitioner, the rate of maintenance was reducted from Rs.900 to 500 by the Collector.\n\n5. It is contended by the learned counsel for the petitioner that there was' no justification for the Family Court to direct the petitioner to pay maintenance amounting to Rs.8,000 in the absence of any evidence that the respondent No.l has conferred benefits to the petitioner to the extent of that amount. This contention of the learned counsel is well‐founded. It is surprising B that in the judgment of the Family Court, it has not been indicated as to on what basis the petitioner was ordered to pay Rs.8,000 as Zar‐e‐Khula`. There is no discussion on this aspect of the matter nor any finding by the Family Court that the petitioner had taken away ornaments or the money in question. That being so, direction to pay Rs.8,000 appears to be arbitrary in nature.\n\n6. As regards the W.P. No.2662 of 1992, suffice to say that as the marriage has been dissolved on the basis of Khula`, the petitioner cannot claim any maintenance from the husband and on that score alone, the order of the arbitration council as modified by revision is liable to be quashed.\n\nFor the reasons aforesaid, petitions are allowed with no order as to costs.\n\nF.R./P‐21/L Petitions allowed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "sentence": "For the reasons aforesaid, petitions are allowed with no order as to costs.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "sentence": "F.R./P‐21/L Petitions allowed.",
+        "label": "allowed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "1993 M L D 433\n\n[Lahore]\n\nBefore Malik Muhammad Qayyum, J\n\nMst. PARVEEN BIBI‐‐‐Petitioner\n\nVersus\n\nAKBAR ALI and 2 others‐‐‐Respondents\n\nW.P. No.4239 of 901 heard on 18th May, 1992."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 7,
+        "text": "(a) West Pakistan Family Courts Act (XXXV of 1964)‐‐‐"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 8,
+        "paragraph_end": 14,
+        "text": "‐‐S.5 & Sched,‐‐‐Dissolution of marriage ‐‐‐ Khula'‐‐‐Zar‐e‐;KhuIa'‐‐‐In the ,5sence of any evidence that husband had conferred benefits to wife to the extent of Zar‐e‐Khula` and without mentioning the reasons, Family Court ordered to pay a sum of amount as Zar‐e‐Khula'‐‐‐Such order being without jurisdiction and arbitrary in nature was quashed.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐\n\n------S.5 & Sched.‐‐‐Dissolution of marriage ‐‐‐Khula'‐‐‐Order of maintenance,' validity of‐‐‐Order of maintenance was passed by Arbitration Council against petitioner‐husband‐‐‐High Court quashed the order, as the marriage being dissolved on the basis of Khula`, wife could not claim any maintenance from husband.\n\nCh. Irshad Ahmad Virk for Petitioner.\n\nFarooq Mahmood Kahloon for Respondent No.l.\n\nNemo for Respondents Nos.2 and 3.\n\nDate of hearing: 18th May, 1992."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "This judgment shall dispose of Writ Petition No.4239 of 1991 and 2662 of 1992 which are between the same parties.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "2‐ Mst. Parween Bibi, petitioner in W.P. No.4239 of 1991, was married to Akbar Ali, respondent No.l on 21‐11‐1986. Unfortunately, the spouses could not live happily and on 19‐6‐1988, Mst. Parveen Bibi filed a suit against the respondent No.l for dissolution of marriage, inter alia, on the ground of Khula`. In the written statement filed by respondent No.l, apart froth repudiating the allegations in the plaint, it was stated by the respondent No.l that the petitioner, at the time when she went to the house of her parents, took away ornaments, clothes as also a sum of Rs.6,000 or 7,000.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "3. The learned Family Judge, after framing relevant issues, recorded the evidence of the parties on the basis of which 10 found that the parties cannot live together as husband and wife within the limits prescribed by the Allah Almighty. He, therefore, on 17‐12‐1989, dissolved the marriage on the ground of Khula`. However, while doing so, he imposed a condition that the petitioner should pay a sum of Rs.8,000 as Zar‐e‐Khula` to the respondent No.1. The imposition of this condition has been challenged by the petitioner by filing Writ Petition No.4239 of 1991.",
+        "label": "lower_court_orders",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "4. The other petition bearing No.2662 of 1992 has been instituted by Akbar Ali, respondent No.1, in which he has assailed an order of maintenance passed by the Arbitration Council, Ward No.II, Tehsil Chunian, District Kasur A on 17‐6‐1988, directing him to pay maintenance at the rate of Rs.900 per month with effect from 5‐3‐1987 to the petitioner. On revision filed by the petitioner, the rate of maintenance was reducted from Rs.900 to 500 by the Collector.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "5. It is contended by the learned counsel for the petitioner that there was' no justification for the Family Court to direct the petitioner to pay maintenance amounting to Rs.8,000 in the absence of any evidence that the respondent No.l has conferred benefits to the petitioner to the extent of that amount. This contention of the learned counsel is well‐founded. It is surprising B that in the judgment of the Family Court, it has not been indicated as to on what basis the petitioner was ordered to pay Rs.8,000 as Zar‐e‐Khula`. There is no discussion on this aspect of the matter nor any finding by the Family Court that the petitioner had taken away ornaments or the money in question. That being so, direction to pay Rs.8,000 appears to be arbitrary in nature.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "6. As regards the W.P. No.2662 of 1992, suffice to say that as the marriage has been dissolved on the basis of Khula`, the petitioner cannot claim any maintenance from the husband and on that score alone, the order of the arbitration council as modified by revision is liable to be quashed.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "text": "For the reasons aforesaid, petitions are allowed with no order as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "text": "F.R./P‐21/L Petitions allowed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

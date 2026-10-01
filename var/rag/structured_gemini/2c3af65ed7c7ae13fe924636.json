@@ -1,0 +1,92 @@
+{
+  "doc_id": "2c3af65ed7c7ae13fe924636",
+  "metadata": {
+    "doc_id": "2c3af65ed7c7ae13fe924636",
+    "case_title": "1986 S C M R 1556",
+    "citation": "1986 S C M R 1556",
+    "court": null,
+    "court_location": null,
+    "decision_date": null,
+    "judges": [
+      "Karam Elahee Chauhan",
+      "M.S.H. Quraishi"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.12",
+      "section 12",
+      "Art. 185"
+    ],
+    "source_relpath": "1986S1415",
+    "content_hash": "fbcbff74a44d39808c8d4ed1207bf3af1c0b55d118cc9d013b51afe471661568"
+  },
+  "full_text": "1986 S C M R 1556\n\nPresent: Karam Elahee Chauhan and M.S.H. Quraishi, JJ\n\nRASHID TARIQ KHAN‐‐Petitioner\n\nversus\n\nADDITIONAL DISTRICT JUDGE, LAHORE and others‐‐Respondents\n\nCivil Petition No. 666 of 1979, decided on 10th August, 1984.\n\nConstitution of Pakistan (1973)‐‐\n\n‐‐‐Art. 185(3)‐‐West Pakistan Family Courts Act (XXXV of 1964), S.12‐‐‐ Decree passed against petitioner for dower and maintenance challenged in Writ Petition but petition failed‐‐Contention that Family Court had not complied with provisions of S.12, West Pakistan Family Courts Act, 1964, which required an attempt at reconciliation to be made at close of evidence‐‐Family Court as well as High Court holding that in view of conduct of petitioner and behavior of parties there existed no possibility of reconciliation‐‐View taken by Courts, held, could not be taken exception to‐‐Leave refused.\n\nMian Saeedur Rahman Farrukh, Advocate Supreme Court with Sh. Salah‐ud‐Din, Advocate‐on‐Record for Petitioner.\n\nNemo for Respondents.\n\nDate of hearing: 10th August, 1981.\n\nORDER\n\nM.S.H. QURAISHI, J.‐‐The petitioner had challenged a decree passed against him for dower and maintenance in a Writ Petition before the High Court. The only ground urged had been the Family Court's non‐compliance of the provision of section 12 of the West Pakistan Family Courts Act (XXXV of 1964) which required an attempt at reconciliation to be made at the close of the evidence. The Family Court, for reasons recorded, held that there was no need 'for calling the parties for a reconciliation. The High Court also found that in view of the conduct of the petitioner and the behavior of the parties, there existed no possibility of reconciliation. In this connection it noted that as many as nine opportunities had been granted to the petitioner for arguments in the case and that he had shown similar attitude in the connected suit for dissolution of marriage. The High Court, therefore, declined to issue a writ in favour of the petitioner.\n\n2. The same point, that is, the non‐compliance of the provision of section 12 has been urged before us. We feel that in the circumstance of the case, the view taken by the High Court cannot be taken exception to. This petition for grant of leave to appeal is, therefore, rejected.\n\nM . Y . H . Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "sentence": "This petition for grant of leave to appeal is, therefore, rejected.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": "1 batch(es) fell back to paragraph_group",
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "1986 S C M R 1556\n\nPresent: Karam Elahee Chauhan and M.S.H. Quraishi, JJ\n\nRASHID TARIQ KHAN‐‐Petitioner\n\nversus\n\nADDITIONAL DISTRICT JUDGE, LAHORE and others‐‐Respondents\n\nCivil Petition No. 666 of 1979, decided on 10th August, 1984.\n\nConstitution of Pakistan (1973)‐‐\n\n‐‐‐Art. 185(3)‐‐West Pakistan Family Courts Act (XXXV of 1964), S.12‐‐‐ Decree passed against petitioner for dower and maintenance challenged in Writ Petition but petition failed‐‐Contention that Family Court had not complied with provisions of S.12, West Pakistan Family Courts Act, 1964, which required an attempt at reconciliation to be made at close of evidence‐‐Family Court as well as High Court holding that in view of conduct of petitioner and behavior of parties there existed no possibility of reconciliation‐‐View taken by Courts, held, could not be taken exception to‐‐Leave refused.\n\nMian Saeedur Rahman Farrukh, Advocate Supreme Court with Sh. Salah‐ud‐Din, Advocate‐on‐Record for Petitioner.\n\nNemo for Respondents.\n\nDate of hearing: 10th August, 1981."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "M.S.H. QURAISHI, J.‐‐The petitioner had challenged a decree passed against him for dower and maintenance in a Writ Petition before the High Court. The only ground urged had been the Family Court's non‐compliance of the provision of section 12 of the West Pakistan Family Courts Act (XXXV of 1964) which required an attempt at reconciliation to be made at the close of the evidence. The Family Court, for reasons recorded, held that there was no need 'for calling the parties for a reconciliation. The High Court also found that in view of the conduct of the petitioner and the behavior of the parties, there existed no possibility of reconciliation. In this connection it noted that as many as nine opportunities had been granted to the petitioner for arguments in the case and that he had shown similar attitude in the connected suit for dissolution of marriage. The High Court, therefore, declined to issue a writ in favour of the petitioner.",
+        "label": "unclassified"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "2. The same point, that is, the non‐compliance of the provision of section 12 has been urged before us. We feel that in the circumstance of the case, the view taken by the High Court cannot be taken exception to. This petition for grant of leave to appeal is, therefore, rejected.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "M . Y . H . Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

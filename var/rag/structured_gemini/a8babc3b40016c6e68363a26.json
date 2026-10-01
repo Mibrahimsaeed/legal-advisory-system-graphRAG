@@ -1,0 +1,108 @@
+{
+  "doc_id": "a8babc3b40016c6e68363a26",
+  "metadata": {
+    "doc_id": "a8babc3b40016c6e68363a26",
+    "case_title": "Constitution of Pakistan (1973)â€‘â€‘",
+    "citation": "1987 S C M R 684",
+    "court": null,
+    "court_location": null,
+    "decision_date": null,
+    "judges": [
+      "Muhammad Afzal Zullah",
+      "Javid Iqbal"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "Ss.5 & 1",
+      "Art. 185"
+    ],
+    "source_relpath": "1987S996",
+    "content_hash": "35c465bf183f87e6ec6a163e3fc86f62f4780c3140db14433fac37cf4b1d4f8c"
+  },
+  "full_text": "1987 S C M R 684\n\nPresent: Muhammad Afzal Zullah and Javid Iqbal, JJ\n\nMst. KANIZ MAI‐‐Petitioner\n\nVersus\n\nMUHAMMAD NAWAZ and another‐‐Respondents\n\nCivil Petition for Special Leave to Appeal No.944 of 1986, decided on 24th January, 1987.\n\n(From the judgment/order of the Lahore High Court, Multan Bench, dated 28‐4‐1986 passed in Writ Petition No.366 of 1986).\n\nConstitution of Pakistan (1973)‐‐\n\n‐‐‐Art. 185(3)‐‐West Pakistan Family Courts Act (XXXV of 1964), Ss.5 & 1‐4‐‐West Pakistan Family Courts Rules, 1965, Rr.3 & 13‐‐Jurisdiction‐ Leave to appeal granted to examine inter alia the question of jurisdiction of civil Court as to whether it could set aside an ex parte decree for dissolution of marriage passed by a Family Court and in such behalf, effect of judgments of Supreme Court in 1983 S C M R 569 and P L D 1984 SC 95 could also be examined.\n\nMst. Kaneez Fatima v. Mumtaz Khan and others 1983 S C M R 569 and Muhammad Azam v. Muhammad Iqbal and others P L D 1984 SC 95 ref.\n\nMobashir Latif Ahmad, Advocate Supreme Court with Hamid Aslam Qureshi Advocate‐on‐Record for Petitioners.\n\nCh. M. Ashraf, Advocate Supreme Court with M.A. Kadri, Advocate‐on‐Record for Respondent No.1.\n\nDate of ‐searing: 24th January, 1987.\n\nORDER\n\nMUHAMMAD AFZAL ZULLAH, J.‐‐Leave to appeal has been sought from judgment dated 28‐4‐1986 of the Lahore High Court; whereby petitioner's Constitutional Petition arising out of a matrimonial matter, was dismissed.\n\n2. An ex parte decree for dissolution of marriage was passed in favour of the petitioner against respondent No.1 by a Family Court on 15‐1‐1979. The said respondent instead of seeking the reversal of ex parte decree from the Family Court itself by making an application under the rules in that behalf, filed a suit for declaration in a civil Court that the ex parte decree was obtained by fraud and that the petitioner continued to be his legally‐wedded wife. This suit was contested by the petitioner, inter alia, on the ground that the civil Court had no jurisdiction in the matter. The suit was decreed, against her, on 22‐9‐1981. Her appeal failed. She also filed a Revision but it was withdrawn on 17‐5‐1983. The petitioner again filed a suit for dissolution of marriage in the Family Court on 31‐5‐1983 but the same was also withdrawn. She filed a suit for jactitation of marriage before the Family Court out of which the present proceedings have arisen alleging that an out of Court settlement having reached, a Talaqnama was executed on 6‐5‐1980 and that thereafter she married Yousaf. There were some criminal proceedings on account thereof, and because the respondent had again started claiming her to be his wife, she filed a suit for jactitation of marriage. This suit was decreed by a learned Family Judge with a finding that the civil Court had no jurisdiction to set aside the ex parte decree for dissolution of marriage earlier passed by the Family Court. It was, therefore, held that notwithstanding the civil Court's decree the ex parte for dissolution of marriage passed on 15‐1‐1979 held the field. On the question of Talaqnama also the finding was rendered against the respondent who filed an appeal which was allowed by a learned Additional District Judge and the petitioner's suit for jactitation of marriage, was dismissed on 3‐3‐1986, both on the question of Talaqnama as also on the jurisdiction of the civil Court. The matter having then been brought before the High Court by the petitioner in a writ petition, the same has been dismissed on 28‐4‐1986. Leave to appeal has now been sought by the petitioner.\n\n3. After hearing the learned counsel we consider it a fit case for examining, inter alia, the question of the jurisdiction of the civil Court as to whether it could set aside an ex parte decree for dissolution of marriage passed by a Family Court. In this behalf, the effect of the judgments of this Court in Mst. Kaneez Fatima v. Mumtaz Khan and others 1983 S C M R 569 and Muhammad Azam v. Muhammad Iqbal and others P L D 1984 S C 95 could also be examined.\n\n4.Leave to appeal accordingly, is granted. Security Rs.2,500. Stay order passed on 23‐12‐1986 shall remain in operation.\n\nS.Q./K‐6/S Leave granted.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "4.Leave to appeal accordingly, is granted.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "S.Q./K‐6/S Leave granted.",
+        "label": "allowed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 12,
+        "text": "1987 S C M R 684\n\nPresent: Muhammad Afzal Zullah and Javid Iqbal, JJ\n\nMst. KANIZ MAI‐‐Petitioner\n\nVersus\n\nMUHAMMAD NAWAZ and another‐‐Respondents\n\nCivil Petition for Special Leave to Appeal No.944 of 1986, decided on 24th January, 1987.\n\n(From the judgment/order of the Lahore High Court, Multan Bench, dated 28‐4‐1986 passed in Writ Petition No.366 of 1986).\n\nConstitution of Pakistan (1973)‐‐\n\n‐‐‐Art. 185(3)‐‐West Pakistan Family Courts Act (XXXV of 1964), Ss.5 & 1‐4‐‐West Pakistan Family Courts Rules, 1965, Rr.3 & 13‐‐Jurisdiction‐ Leave to appeal granted to examine inter alia the question of jurisdiction of civil Court as to whether it could set aside an ex parte decree for dissolution of marriage passed by a Family Court and in such behalf, effect of judgments of Supreme Court in 1983 S C M R 569 and P L D 1984 SC 95 could also be examined.\n\nMst. Kaneez Fatima v. Mumtaz Khan and others 1983 S C M R 569 and Muhammad Azam v. Muhammad Iqbal and others P L D 1984 SC 95 ref.\n\nMobashir Latif Ahmad, Advocate Supreme Court with Hamid Aslam Qureshi Advocate‐on‐Record for Petitioners.\n\nCh. M. Ashraf, Advocate Supreme Court with M.A. Kadri, Advocate‐on‐Record for Respondent No.1.\n\nDate of ‐searing: 24th January, 1987."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "MUHAMMAD AFZAL ZULLAH, J.‐‐Leave to appeal has been sought from judgment dated 28‐4‐1986 of the Lahore High Court; whereby petitioner's Constitutional Petition arising out of a matrimonial matter, was dismissed.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. An ex parte decree for dissolution of marriage was passed in favour of the petitioner against respondent No.1 by a Family Court on 15‐1‐1979. The said respondent instead of seeking the reversal of ex parte decree from the Family Court itself by making an application under the rules in that behalf, filed a suit for declaration in a civil Court that the ex parte decree was obtained by fraud and that the petitioner continued to be his legally‐wedded wife. This suit was contested by the petitioner, inter alia, on the ground that the civil Court had no jurisdiction in the matter. The suit was decreed, against her, on 22‐9‐1981. Her appeal failed. She also filed a Revision but it was withdrawn on 17‐5‐1983. The petitioner again filed a suit for dissolution of marriage in the Family Court on 31‐5‐1983 but the same was also withdrawn. She filed a suit for jactitation of marriage before the Family Court out of which the present proceedings have arisen alleging that an out of Court settlement having reached, a Talaqnama was executed on 6‐5‐1980 and that thereafter she married Yousaf. There were some criminal proceedings on account thereof, and because the respondent had again started claiming her to be his wife, she filed a suit for jactitation of marriage. This suit was decreed by a learned Family Judge with a finding that the civil Court had no jurisdiction to set aside the ex parte decree for dissolution of marriage earlier passed by the Family Court. It was, therefore, held that notwithstanding the civil Court's decree the ex parte for dissolution of marriage passed on 15‐1‐1979 held the field. On the question of Talaqnama also the finding was rendered against the respondent who filed an appeal which was allowed by a learned Additional District Judge and the petitioner's suit for jactitation of marriage, was dismissed on 3‐3‐1986, both on the question of Talaqnama as also on the jurisdiction of the civil Court. The matter having then been brought before the High Court by the petitioner in a writ petition, the same has been dismissed on 28‐4‐1986. Leave to appeal has now been sought by the petitioner.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "3. After hearing the learned counsel we consider it a fit case for examining, inter alia, the question of the jurisdiction of the civil Court as to whether it could set aside an ex parte decree for dissolution of marriage passed by a Family Court. In this behalf, the effect of the judgments of this Court in Mst. Kaneez Fatima v. Mumtaz Khan and others 1983 S C M R 569 and Muhammad Azam v. Muhammad Iqbal and others P L D 1984 S C 95 could also be examined.",
+        "label": "issues",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "4.Leave to appeal accordingly, is granted. Security Rs.2,500. Stay order passed on 23‐12‐1986 shall remain in operation.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "S.Q./K‐6/S Leave granted.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "doc_id": "74fd638155063f751763bc02",
+  "metadata": {
+    "doc_id": "74fd638155063f751763bc02",
+    "case_title": "MUHAMMAD FAISAL KHAN vs Mst. YUSRA ABID and others",
+    "citation": "2009 Y L R 1139",
+    "court": "Peshawar",
+    "court_location": "Peshawar",
+    "decision_date": null,
+    "judges": [
+      "Jehan Zaib Rahim",
+      "Shahji Rehman Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.14",
+      "section 14",
+      "Art.199"
+    ],
+    "source_relpath": "2009P4026",
+    "content_hash": "cad4265ef83871d5ee1d87c4a33bac2aaf0fc21d22bbaaae7975516fce6352a8"
+  },
+  "full_text": "2009 Y L R 1139\n\n[Peshawar]\n\nBefore Jehan Zaib Rahim and Shahji Rehman Khan, JJ\n\nMUHAMMAD FAISAL KHAN---Petitioner\n\nVersus\n\nMst. YUSRA ABID and others---Respondents\n\nWrit Petition No.1900 of 2007, decided on 26th November, 2008.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. S, Sched. & S.14---Constitution of Pakistan (1973), Art.199---Suit for dissolution of marriage, recovery of dower amount, past and future maintenance amount and recovery of dowry articles--Suit filed by the plaintiff having been decreed by the Family Court, defendant had challenged same in constitutional petition--Family Court, after taking pains and giving due weight to all the essential aspects of the case, decreed the suit of the plaintiff, allowing dower amount and maintenance allowance along with dowry articles etc.---Such findings of the Family Court having been given after thorough sifting the evidence on record, could not be said to be unwarranted in the eye of law---Keeping in view the decretal amount, defendant was required to avail his remedy before the Appellate Court by way of appeal---Having not availed the remedy of appeal under S.14 of the West Pakistan Family Courts Act, 1964, impugned judgment and decree of the Trial Court, which was free from any jurisdictional error, was not open to any interference in the exercise of extraordinary equitable discretionary constitutional\n\njurisdiction of High Court.\n\nAsad Jan for Respondents.\n\nDate of hearing: 26th November, 2008.\n\nJUDGMENT\n\nSHAHJI RAHMAN KHAN, J.--Muhammad Faisal Khan, petitioner herein, through the instant Writ Petition has assailed the judgment and decree dated 11-9-2007 of the learned Family Judge-III Peshawar, whereby she decreed the suit of respondent No.1 for dissolution of marriage, recovery of dower of Rs.5,00,000 (Rs. Five Lacs) and past and future maintenance allowance at the rate of Rs.3000 per month from January, 2006 till the period of `Iddat' and recovery of dowry articles as per the list annexed with the plaint.\n\n2. Learned counsel for the petitioner, vehemently argued that the impugned judgment and decree in respect of the dower amount, maintenance amount and in respect of the dowry articles is against law and facts available on the record, when respondent No.1 herself deserted from the house of the petitioner and refused to come back to the house of the petitioner. He further argued that the main plea of cruelty of the respondent is also without force as respondent No.1 did her M.Sc. after her marriage in the house of the petitioner as regular student and this fact was admitted by the attorney of respondent No.1 in the statement recorded in Court meaning thereby that the' relationship as husband and wife between both the spouses were cordial. The learned counsel in order to substantiate his contention next submitted that respondent No.1 failed to prove the allegations of cruelty on the part of the petitioner through any sound, cogent and independent evidence. He, by concluding his arguments, further submitted that the dower amount of respondent No.1, which was fixed at the time of `Nikah' has already been paid to the respondent by the petitioner and, therefore, he should not be saddled with the responsibility to pay the same to her for the second time. The learned counsel, therefore, prayed that for having ignored all these aspects of the case, the judgment and decree of the learned Judge Family Court may be declared as illegal, without lawful authority and of no legal effect.\n\n3. We have gone through the material available on record carefully and considered the submissions of the learned counsel for the petitioner.\n\n4. A perusal of the material available on the record and the impugned judgment would reveal that the learned Family Judge after taking pain and giving due weight to all the essential aspects of the case decreed the suit of the respondent for dower and maintenance allowance along with dowry articles as per list attached with the plaint. The finding handed down by the learned trial Court after thoroughly sifting the evidence on record cannot be said to be unwarranted in the eye of law. We would, however, like to endorse here that keeping in view the decretal amount, the petitioner was required to avail his remedy before the lower appellate forum by way of appeal. Having not availed the remedy of appeal under section 14 of the Family Courts Act, 1964, the impugned judgment and decree of the learned trial Court, which is free from any jurisdictional error, is not open to any interference in the exercise of extraordinary equitable discretionary constitutional jurisdiction of this Court.\n\n5. For the reasons discussed above, this writ petition being without force and substance is dismissed in limine.\n\nH.B.T./60/P Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "For the reasons discussed above, this writ petition being without force and substance is dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "H.B.T./60/P Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "2009 Y L R 1139\n\n[Peshawar]\n\nBefore Jehan Zaib Rahim and Shahji Rehman Khan, JJ\n\nMUHAMMAD FAISAL KHAN---Petitioner\n\nVersus\n\nMst. YUSRA ABID and others---Respondents\n\nWrit Petition No.1900 of 2007, decided on 26th November, 2008.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. S, Sched. & S.14---Constitution of Pakistan (1973), Art.199---Suit for dissolution of marriage, recovery of dower amount, past and future maintenance amount and recovery of dowry articles--Suit filed by the plaintiff having been decreed by the Family Court, defendant had challenged same in constitutional petition--Family Court, after taking pains and giving due weight to all the essential aspects of the case, decreed the suit of the plaintiff, allowing dower amount and maintenance allowance along with dowry articles etc.---Such findings of the Family Court having been given after thorough sifting the evidence on record, could not be said to be unwarranted in the eye of law---Keeping in view the decretal amount, defendant was required to avail his remedy before the Appellate Court by way of appeal---Having not availed the remedy of appeal under S.14 of the West Pakistan Family Courts Act, 1964, impugned judgment and decree of the Trial Court, which was free from any jurisdictional error, was not open to any interference in the exercise of extraordinary equitable discretionary constitutional\n\njurisdiction of High Court.\n\nAsad Jan for Respondents.\n\nDate of hearing: 26th November, 2008."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "SHAHJI RAHMAN KHAN, J.--Muhammad Faisal Khan, petitioner herein, through the instant Writ Petition has assailed the judgment and decree dated 11-9-2007 of the learned Family Judge-III Peshawar, whereby she decreed the suit of respondent No.1 for dissolution of marriage, recovery of dower of Rs.5,00,000 (Rs. Five Lacs) and past and future maintenance allowance at the rate of Rs.3000 per month from January, 2006 till the period of `Iddat' and recovery of dowry articles as per the list annexed with the plaint.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. Learned counsel for the petitioner, vehemently argued that the impugned judgment and decree in respect of the dower amount, maintenance amount and in respect of the dowry articles is against law and facts available on the record, when respondent No.1 herself deserted from the house of the petitioner and refused to come back to the house of the petitioner. He further argued that the main plea of cruelty of the respondent is also without force as respondent No.1 did her M.Sc. after her marriage in the house of the petitioner as regular student and this fact was admitted by the attorney of respondent No.1 in the statement recorded in Court meaning thereby that the' relationship as husband and wife between both the spouses were cordial. The learned counsel in order to substantiate his contention next submitted that respondent No.1 failed to prove the allegations of cruelty on the part of the petitioner through any sound, cogent and independent evidence. He, by concluding his arguments, further submitted that the dower amount of respondent No.1, which was fixed at the time of `Nikah' has already been paid to the respondent by the petitioner and, therefore, he should not be saddled with the responsibility to pay the same to her for the second time. The learned counsel, therefore, prayed that for having ignored all these aspects of the case, the judgment and decree of the learned Judge Family Court may be declared as illegal, without lawful authority and of no legal effect.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "3. We have gone through the material available on record carefully and considered the submissions of the learned counsel for the petitioner.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "4. A perusal of the material available on the record and the impugned judgment would reveal that the learned Family Judge after taking pain and giving due weight to all the essential aspects of the case decreed the suit of the respondent for dower and maintenance allowance along with dowry articles as per list attached with the plaint. The finding handed down by the learned trial Court after thoroughly sifting the evidence on record cannot be said to be unwarranted in the eye of law. We would, however, like to endorse here that keeping in view the decretal amount, the petitioner was required to avail his remedy before the lower appellate forum by way of appeal. Having not availed the remedy of appeal under section 14 of the Family Courts Act, 1964, the impugned judgment and decree of the learned trial Court, which is free from any jurisdictional error, is not open to any interference in the exercise of extraordinary equitable discretionary constitutional jurisdiction of this Court.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "5. For the reasons discussed above, this writ petition being without force and substance is dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "H.B.T./60/P Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "expected_corpus_size": 2088,
+  "found_in_structured_gemini": 2088,
+  "missing_count": 0,
+  "missing_doc_ids_sample": [],
+  "unexpected_count": 0,
+  "unexpected_doc_ids": [],
+  "documents_audited": 2088,
+  "documents_with_output_present": 2088,
+  "structure_status_distribution": {
+    "structured": 2056,
+    "non_judgment_text": 29,
+    "incomplete_source": 2
+  },
+  "preservation_distribution": {
+    "exact_preservation": 2087,
+    "unverifiable": 1
+  },
+  "readiness_distribution": {
+    "ready_with_caution": 893,
+    "ready": 1060,
+    "manual_review_required": 134,
+    "not_ready": 1
+  },
+  "readiness_percentages": {
+    "ready_with_caution": 42.77,
+    "ready": 50.77,
+    "manual_review_required": 6.42,
+    "not_ready": 0.05
+  },
+  "docs_with_llm_fallback": 147,
+  "docs_with_llm_fallback_pct_of_present": 7.04,
+  "docs_used_llm": 2050,
+  "docs_no_llm_needed": 37,
+  "total_issues_found": 3631,
+  "issues_by_severity": {
+    "low": 3630,
+    "high": 1
+  },
+  "issues_by_category": {
+    "semantic_quality": 838,
+    "metadata": 2792,
+    "completeness": 1
+  },
+  "known_hard_cases_present": {
+    "8dd0ca3d14364404d75b76fe": "ready",
+    "00ad7248bf77883e6b5975ed": "ready_with_caution",
+    "a3ec28ba4900855d15a6e870": "ready_with_caution",
+    "1d0a3afecc805e3d71cb54b9": "ready_with_caution",
+    "0513f7c1139b729f4cccf83d": "ready_with_caution",
+    "04139076ff36792b38b72f8b": "ready_with_caution",
+    "177dbfa9f6115c8c4bb0cdcf": "ready_with_caution",
+    "f7afd3f61f59d8f9798b8742": "ready_with_caution",
+    "b3b83bb2ceb23d88cf08394a": "ready_with_caution",
+    "ae4a07835728a54c3dddb4ad": "ready_with_caution",
+    "2ee9704f426892ca99e2b92e": "ready_with_caution",
+    "008d928c2926b2a5855bcc36": "manual_review_required"
+  },
+  "note": "All expected documents were present at audit time."
+}

@@ -1,0 +1,140 @@
+{
+  "doc_id": "aa87d0cf811c35091275c3b2",
+  "metadata": {
+    "doc_id": "aa87d0cf811c35091275c3b2",
+    "case_title": "1968 S C M R 1236",
+    "citation": "1968 S C M R 1236",
+    "court": null,
+    "court_location": null,
+    "decision_date": null,
+    "judges": [
+      ": Hamoodur Rahman",
+      "Abdus Sattar"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Criminal Procedure Code (V of 1898)",
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Cr. P. C. Exclusive jurisdiction of Family Court under Act (XXXV of 1964)",
+      "Appeal granted by Supreme Court to consider question--Criminal Procedure Code (V of 1898)"
+    ],
+    "provisions_cited": [
+      "S. 488",
+      "Ss. 5, 20",
+      "S. 20",
+      "section 5",
+      "Section 20",
+      "section 488",
+      "S. 5",
+      "section 20"
+    ],
+    "source_relpath": "1968S1397",
+    "content_hash": "5090fbdc6a165162009276731789a7c95d2aed3914fa4bc61297a8a5146ac95c"
+  },
+  "full_text": "1968 S C M R 1236\n\nPresent : Hamoodur Rahman and Abdus Sattar, JJ\n\nADNAN AFZAL‐Petitioner\n\nversus\n\nCAPT. (NOW MAJOR) SHER AFZAL‐Respondent\n\nCriminal Petitions for Special Leave to Appeals Nos. 178, 179 and 180 of 1968, decided on 5th June 1968.\n\n(On appeal from order of the High Court of West Pakistan, Lahore, dated the 6th May 1968, in Criminal Revision No. 15 of 1968, Criminal Revision No. 766 of 1967, and Criminal Revision No. 765 of 1967).\n\n(a) Criminal Procedure Code (V of 1898)---\n\n--S. 488 and West Pakistan Family Courts Act (XXXV of 1964), Ss. 5, 20 & Sch. Power to grant maintenance under S. 488, Cr. P. C. Exclusive jurisdiction of Family Court under Act (XXXV of 1964)‐Provision of S. 20 of Act authorises a Family Court Judge to follow procedure contemplated by S. 488, Cr. P. C.\n\nThe Schedule to the West Pakistan Family Courts Act, 1964 read with section 5 clearly gives exclusive jurisdiction to the Family Court to deal with the question of maintenance. Section 20 empowers the Provincial Government to invest any Judge of a Family Court with powers of a Magistrate of the First Class to make order for maintenance under section 488, Cr. P. C. The underlying idea appears to be to authorise a Judge to follow the procedure contemplated by section 488. This provision, however, does not indicate that the powers of Magistrates under section 488, Cr. P. C. have not been taken away by the Act.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)---\n\n---S. 5 read with Schedule‐Maintenance‐Provision of S. 5 read with Schedule whether affects pending proceedings before Magistrate under S. 488, Cr. P. C.‐Special Leave to Appeal granted by Supreme Court to consider question--Criminal Procedure Code (V of 1898), S. 488.\n\nSheikh Abdur Rehman, Advocate Supreme Court instructed by Muhammad Khalid,\n\nAttorney Supreme Court for Petitioner.\n\nNemo for Respondent.\n\nDate of hearing :5th June 1968.\n\nJUDGMENT\n\nABDUS SATTAR, J.‐These three petitions arise out of a proceeding under section 488 of the Code of Criminal Procedure, started in the Court of the City Magistrate, Sialkot at the instance of the petitioner, a minor son against his father Captain (now Major) Sher Afzal, the respondent.\n\nThe case ultimately stood transferred to the Court of the District Magistrate, Sialkot, who by his order dated the 9th December 1967, dismissed the same on the ground that his jurisdiction to deal with the question of maintenance under section 488, Cr. P. C. had been ousted by the West Pakistan Family Courts Act, 1964. This decision has been upheld by a learned Single Judge of the High Court of West Pakistan, Lahore, in Criminal Revision No. 15 of 1968. The first Petition is directed against this order.\n\nLearned counsel has raised two contentions. It has first been argued that the Act has not affected the jurisdiction of Magistrates under section 488, Cr. P. C. and that appears clear from the provisions of section 20 of the Act. We do not find any force in this argument as the Schedule to the Act read with section 5, clearly gives exclusive jurisdiction to the Family Court to deal with the question of maintenance. Section 20, empowers the Provincial Government to invest any Judge of a Family Court with powers of a Magistrate of the First Class to, make order for maintenance under section 488, Cr. P. C. The underlying idea appears to be to authorise a Judge to follow the procedure contemplated by section 488. This provision, however, does not indicate that the powers of Magistrates under section 488, Cr. P. C. have not been taken away by the Act.\n\nIt has then been contended that the Act in the absence of any clear provision to that affect could not affect proceedings which were pending before the Act came into force. This question is of general importance. We accordingly grant leave to consider this question.\n\nPetition No. 179 of 1968 is directed against an order passed by the District Magistrate on 20‐2‐1967 by which he set aside the order of the trying Magistrate to proceed ex parte against the respondent.\n\nPetition No. 180 of 1968 is directed against an order dated the 30th March 1967, transferring the case from the Court of the City Magistrate, Sialkot to the Court of the Sub‐Divisional Magistrate.\n\nThe revision applications against these orders were dismissed by the High Court with the observation that in view of the order passed in Criminal Revision No. 15 of 1968, ‐these applications had become infructuous. Leave is granted in these two cases also to consider what consequential orders should be passed in case of success in the first case.\n\nLeave granted.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "sentence": "The revision applications against these orders were dismissed by the High Court with the observation that in view of the order passed in Criminal Revision No.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "sentence": "15 of 1968, ‐these applications had become infructuous.",
+        "label": "infructuous"
+      },
+      {
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "sentence": "Leave is granted in these two cases also to consider what consequential orders should be passed in case of success in the first case.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 24,
+        "paragraph_end": 24,
+        "sentence": "Leave granted.",
+        "label": "allowed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "1968 S C M R 1236\n\nPresent : Hamoodur Rahman and Abdus Sattar, JJ\n\nADNAN AFZAL‐Petitioner\n\nversus\n\nCAPT. (NOW MAJOR) SHER AFZAL‐Respondent\n\nCriminal Petitions for Special Leave to Appeals Nos. 178, 179 and 180 of 1968, decided on 5th June 1968.\n\n(On appeal from order of the High Court of West Pakistan, Lahore, dated the 6th May 1968, in Criminal Revision No. 15 of 1968, Criminal Revision No. 766 of 1967, and Criminal Revision No. 765 of 1967)."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 7,
+        "text": "(a) Criminal Procedure Code (V of 1898)---"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 8,
+        "paragraph_end": 15,
+        "text": "--S. 488 and West Pakistan Family Courts Act (XXXV of 1964), Ss. 5, 20 & Sch. Power to grant maintenance under S. 488, Cr. P. C. Exclusive jurisdiction of Family Court under Act (XXXV of 1964)‐Provision of S. 20 of Act authorises a Family Court Judge to follow procedure contemplated by S. 488, Cr. P. C.\n\nThe Schedule to the West Pakistan Family Courts Act, 1964 read with section 5 clearly gives exclusive jurisdiction to the Family Court to deal with the question of maintenance. Section 20 empowers the Provincial Government to invest any Judge of a Family Court with powers of a Magistrate of the First Class to make order for maintenance under section 488, Cr. P. C. The underlying idea appears to be to authorise a Judge to follow the procedure contemplated by section 488. This provision, however, does not indicate that the powers of Magistrates under section 488, Cr. P. C. have not been taken away by the Act.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)---\n\n---S. 5 read with Schedule‐Maintenance‐Provision of S. 5 read with Schedule whether affects pending proceedings before Magistrate under S. 488, Cr. P. C.‐Special Leave to Appeal granted by Supreme Court to consider question--Criminal Procedure Code (V of 1898), S. 488.\n\nSheikh Abdur Rehman, Advocate Supreme Court instructed by Muhammad Khalid,\n\nAttorney Supreme Court for Petitioner.\n\nNemo for Respondent.\n\nDate of hearing :5th June 1968."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 18,
+        "text": "ABDUS SATTAR, J.‐These three petitions arise out of a proceeding under section 488 of the Code of Criminal Procedure, started in the Court of the City Magistrate, Sialkot at the instance of the petitioner, a minor son against his father Captain (now Major) Sher Afzal, the respondent.\n\nThe case ultimately stood transferred to the Court of the District Magistrate, Sialkot, who by his order dated the 9th December 1967, dismissed the same on the ground that his jurisdiction to deal with the question of maintenance under section 488, Cr. P. C. had been ousted by the West Pakistan Family Courts Act, 1964. This decision has been upheld by a learned Single Judge of the High Court of West Pakistan, Lahore, in Criminal Revision No. 15 of 1968. The first Petition is directed against this order.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 20,
+        "text": "Learned counsel has raised two contentions. It has first been argued that the Act has not affected the jurisdiction of Magistrates under section 488, Cr. P. C. and that appears clear from the provisions of section 20 of the Act. We do not find any force in this argument as the Schedule to the Act read with section 5, clearly gives exclusive jurisdiction to the Family Court to deal with the question of maintenance. Section 20, empowers the Provincial Government to invest any Judge of a Family Court with powers of a Magistrate of the First Class to, make order for maintenance under section 488, Cr. P. C. The underlying idea appears to be to authorise a Judge to follow the procedure contemplated by section 488. This provision, however, does not indicate that the powers of Magistrates under section 488, Cr. P. C. have not been taken away by the Act.\n\nIt has then been contended that the Act in the absence of any clear provision to that affect could not affect proceedings which were pending before the Act came into force. This question is of general importance. We accordingly grant leave to consider this question.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 21,
+        "paragraph_end": 22,
+        "text": "Petition No. 179 of 1968 is directed against an order passed by the District Magistrate on 20‐2‐1967 by which he set aside the order of the trying Magistrate to proceed ex parte against the respondent.\n\nPetition No. 180 of 1968 is directed against an order dated the 30th March 1967, transferring the case from the Court of the City Magistrate, Sialkot to the Court of the Sub‐Divisional Magistrate.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "text": "The revision applications against these orders were dismissed by the High Court with the observation that in view of the order passed in Criminal Revision No. 15 of 1968, ‐these applications had become infructuous. Leave is granted in these two cases also to consider what consequential orders should be passed in case of success in the first case.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 24,
+        "paragraph_end": 24,
+        "text": "Leave granted.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

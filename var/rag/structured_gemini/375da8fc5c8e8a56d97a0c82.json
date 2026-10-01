@@ -1,0 +1,146 @@
+{
+  "doc_id": "375da8fc5c8e8a56d97a0c82",
+  "metadata": {
+    "doc_id": "375da8fc5c8e8a56d97a0c82",
+    "case_title": "KALSOOM FATIMA vs DISTRICT JUDGE, KHUSHAB and 2 others",
+    "citation": "2003 M L D 1046",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": "2003-01-01",
+    "judges": [
+      "Mrs. Nasira Iqbal"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S.14",
+      "Section 14",
+      "section 14"
+    ],
+    "source_relpath": "2003L2667",
+    "content_hash": "7c309f67fd50c3ee46f262ff2f58b6c639932467df77afd3d78b045b7c342506"
+  },
+  "full_text": "2003 M L D 1046\n\n[Lahore]\n\nBefore Mrs. Nasira Iqbal, J\n\nKALSOOM FATIMA ---Petitioner\n\nVersus\n\nDISTRICT JUDGE, KHUSHAB and 2 others---Respondents\n\nWrit Petition No. 14465 of 2002, decided on 12th September,2002.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.14---Appeal against order of Family Court---Forum of appeal-- West Pakistan Family Courts Act, 1964 being a special law, appeals from Family Court would be governed by provision of said Act itself-- Section 14 of West Pakistan Family Courts Act, 1964 containing a \"non obstante clause\" no provision of any other law would stand in way of appeal being heard by forum which had been specified in S.14 of West Pakistan Family Courts Act, 1964 wherein it had been specified that where the Family Court was presided over by any person other than District Judge or Additional District Judge or a person of corresponding rank, appeal would lie to the District 'Court.\n\nShabbir Hussain v. Mst. Ansar Fatima and 3 others PLD 1985 Lah. 491 ref.\n\nCh. Nisar Ahmad Dhiloon for Petitioner.\n\nRana Javed Anwar, Law Officer.\n\nORDER\n\nPetitioner, Mst. Kalsoom Fatima, had filed a suit for return of, dowry articles in the amount of Rs.3,69,360 before respondent No.2, learned Jude Family Court, Khushab who vide judgment dated 12-6-2002 decreed her suit to the extent of Rs.44,000. The petitioner filed an appeal before respondent No. 1, learned District Judge, Khushab who returned the memorandum of appeal vide order dated 16-7-2002 with the observation that it should be presented before the Court of competent jurisdiction.\n\n2. Learned counsel for the petitioner has argued that according to the Family Courts Act, 1964 the Court of competent jurisdiction for filing of appeal against the judgment of respondent No.2 is the District Court and, therefore, respondent No. 1 had erred in law while returning the appeal under the misconception that he does not have pecuniary jurisdiction to entertain and adjudicate upon an appeal where the subject matter of the claim is Rs.3,69,360.\n\n3. Learned Law Officer, who is present in the Court, has also examined the matter and has stated that the grievance of the petitioner is well-founded since the forum of appeal against the judgment and decree of the Family Court is the District Court and there is no limit on the pecuniary jurisdiction of District Court while ,sitting as Appellate Court.\n\n4. I have heard the learned counsel for the petitioner as well as the learned Law Officer. The Family Courts Act, 1964 is a special law and. therefore, appeal from the Family Court will be governed by the provisions of the Family Courts Act itself. Section 14 of the Family Courts Act provides:\n\n\"14(i) Notwithstanding anything provided in any other law for the time being in force, a decision given or decree passed by a Family Court shall be appealable--\n\n(a) to the High Court, where the Family Court is presided over by a District Judge, an Additional District Judge or any person notified by Government to be of the rank and status of a District Judge or an Additional District Judge; and\n\n(b) to the District Court, in any other case.\"\n\n5. It is crystal clear from the wording of section 14 that forum of appeals for matters decided by the Family Courts has been specified in this particular section. This is a 'non obstante clause' and no provision of B any other law would stand in the way of the appeal being heard by the forum which has been specified in section 14. It has been specified therein that where the Family Court is presided over by any person other than the District Judge or Additional District Judge or a person of corresponding rank the appeal would lie to the District Court.\n\n6. I am fortified in this view by the judgment cited as Shabbir Hussain v. Mst. Ansar Fatima and 3 others (PLD 1985 Lah. 491) wherein it has been held that the Family Courts constituted under the Family Courts Act are not ordinary Courts, therefore, their jurisdiction is not to be limited by the Civil Courts Ordinance and pecuniary jurisdiction of the District Judge would not be limited in the case of an appeal being filed against the judgment and decree of the Family Court irrespective of the amount of the decree.\n\n7. In view of the above discussion, this writ petition is accepted. The learned District Judge, Khushab shall entertain the appeal of the petitioner. The memorandum of appeal is available on the file of this petition and court-fee ad-valorem had been affixed on the same. The original memorandum shall be returned to the petitioner to present it again to the learned District Court who shall entertain the same and if earlier filed within time, the same shall be considered as filed within the period of limitation.\n\nH.B.T./K-169/L Petition accepted.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "sentence": "In view of the above discussion, this writ petition is accepted.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "sentence": "The original memorandum shall be returned to the petitioner to present it again to the learned District Court who shall entertain the same and if earlier filed within time, the same shall be considered as filed within the period of limitation.",
+        "label": "returned"
+      },
+      {
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "sentence": "H.B.T./K-169/L Petition accepted.",
+        "label": "allowed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "2003 M L D 1046\n\n[Lahore]\n\nBefore Mrs. Nasira Iqbal, J\n\nKALSOOM FATIMA ---Petitioner\n\nVersus\n\nDISTRICT JUDGE, KHUSHAB and 2 others---Respondents\n\nWrit Petition No. 14465 of 2002, decided on 12th September,2002.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.14---Appeal against order of Family Court---Forum of appeal-- West Pakistan Family Courts Act, 1964 being a special law, appeals from Family Court would be governed by provision of said Act itself-- Section 14 of West Pakistan Family Courts Act, 1964 containing a \"non obstante clause\" no provision of any other law would stand in way of appeal being heard by forum which had been specified in S.14 of West Pakistan Family Courts Act, 1964 wherein it had been specified that where the Family Court was presided over by any person other than District Judge or Additional District Judge or a person of corresponding rank, appeal would lie to the District 'Court.\n\nShabbir Hussain v. Mst. Ansar Fatima and 3 others PLD 1985 Lah. 491 ref.\n\nCh. Nisar Ahmad Dhiloon for Petitioner.\n\nRana Javed Anwar, Law Officer."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "Petitioner, Mst. Kalsoom Fatima, had filed a suit for return of, dowry articles in the amount of Rs.3,69,360 before respondent No.2, learned Jude Family Court, Khushab who vide judgment dated 12-6-2002 decreed her suit to the extent of Rs.44,000. The petitioner filed an appeal before respondent No. 1, learned District Judge, Khushab who returned the memorandum of appeal vide order dated 16-7-2002 with the observation that it should be presented before the Court of competent jurisdiction.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. Learned counsel for the petitioner has argued that according to the Family Courts Act, 1964 the Court of competent jurisdiction for filing of appeal against the judgment of respondent No.2 is the District Court and, therefore, respondent No. 1 had erred in law while returning the appeal under the misconception that he does not have pecuniary jurisdiction to entertain and adjudicate upon an appeal where the subject matter of the claim is Rs.3,69,360.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "3. Learned Law Officer, who is present in the Court, has also examined the matter and has stated that the grievance of the petitioner is well-founded since the forum of appeal against the judgment and decree of the Family Court is the District Court and there is no limit on the pecuniary jurisdiction of District Court while ,sitting as Appellate Court.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "4. I have heard the learned counsel for the petitioner as well as the learned Law Officer. The Family Courts Act, 1964 is a special law and. therefore, appeal from the Family Court will be governed by the provisions of the Family Courts Act itself. Section 14 of the Family Courts Act provides:",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "quoted_material",
+        "paragraph_start": 17,
+        "paragraph_end": 19,
+        "text": "\"14(i) Notwithstanding anything provided in any other law for the time being in force, a decision given or decree passed by a Family Court shall be appealable--\n\n(a) to the High Court, where the Family Court is presided over by a District Judge, an Additional District Judge or any person notified by Government to be of the rank and status of a District Judge or an Additional District Judge; and\n\n(b) to the District Court, in any other case.\"",
+        "label": "quoted_material",
+        "confidence": 0.98,
+        "attribution": "unknown"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "5. It is crystal clear from the wording of section 14 that forum of appeals for matters decided by the Family Courts has been specified in this particular section. This is a 'non obstante clause' and no provision of B any other law would stand in the way of the appeal being heard by the forum which has been specified in section 14. It has been specified therein that where the Family Court is presided over by any person other than the District Judge or Additional District Judge or a person of corresponding rank the appeal would lie to the District Court.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "6. I am fortified in this view by the judgment cited as Shabbir Hussain v. Mst. Ansar Fatima and 3 others (PLD 1985 Lah. 491) wherein it has been held that the Family Courts constituted under the Family Courts Act are not ordinary Courts, therefore, their jurisdiction is not to be limited by the Civil Courts Ordinance and pecuniary jurisdiction of the District Judge would not be limited in the case of an appeal being filed against the judgment and decree of the Family Court irrespective of the amount of the decree.",
+        "label": "authorities_cited",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "text": "7. In view of the above discussion, this writ petition is accepted. The learned District Judge, Khushab shall entertain the appeal of the petitioner. The memorandum of appeal is available on the file of this petition and court-fee ad-valorem had been affixed on the same. The original memorandum shall be returned to the petitioner to present it again to the learned District Court who shall entertain the same and if earlier filed within time, the same shall be considered as filed within the period of limitation.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "text": "H.B.T./K-169/L Petition accepted.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

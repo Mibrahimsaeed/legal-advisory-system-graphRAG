@@ -1,0 +1,118 @@
+{
+  "doc_id": "2660dce1ae7f699f93f0a0da",
+  "metadata": {
+    "doc_id": "2660dce1ae7f699f93f0a0da",
+    "case_title": "MUHAMMAD SABIR vs Mst. AZRA BIBI and 2 others",
+    "citation": "2011 CLC 417",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Syed Akhlaq Ahmad"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "S.14",
+      "section 14",
+      "Art.199",
+      "Art. 199",
+      "Article 199"
+    ],
+    "source_relpath": "2011L223",
+    "content_hash": "a79ce435b2dfb204f9f20912d62812830ff71bc6b1ce0b9bdff9e332245f7037"
+  },
+  "full_text": "2011 CLC 417\n\n[Lahore]\n\nBefore Syed Akhlaq Ahmad, J\n\nMUHAMMAD SABIR---Petitioner\n\nVersus\n\nMst. AZRA BIBI and 2 others---Respondents\n\nWrit Petition No. 20575 of 2010, decided on 28th September, 2010.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched. & S.14---Constitution of Pakistan, Art.199---Constitutional petition---Suit for recovery of dowry articles---Striking off defence of defendant---Defence of defendant having been struck off by the Family Court, defendant filed revision petition which was also dismissed on the ground that no appeal or revision was competent against interim order---Validity---Contention of defendant was that under S.14(3) of West Pakistan Family Courts Act, 1964, no appeal or revision being maintainable against the interlocutory order, only a constitutional petition under Art. 199 of the Constitution was competent---Such contention was without any force---Admittedly under S.14(3) of West Pakistan Family Courts Act, 1964 no appeal or revision was competent against the interlocutory order by the Family Court; likewise an interim order of the Family Court also could not be legally challenged before the High Court through constitutional petition---Constitutional petition was dismissed.\n\nS. Azharul Hassan Naqvi v. Mst. Hamida Bibi and 2 others 1979 CLC 754 and Muhammad Akram v. Mst. Raheela Aslam and 2 others PLD 1999 Lah. 33 ref.\n\nMian Muhammad Ali for Petitioner.\n\nORDER\n\nSYED AKHLAQ AHMAD, J.---The dispute in this writ arises out of a pending suit for recovery of dowry articles valuing Rs.3,50,000 under the West Pakistan Family Courts Act, 1964 filed, by respondent No.1/Azra Bibi against the petitioner/defendant in which his defence was struck off on 9-7-2010 and the case was adjourned for evidence of the respondent No. 1/plaintiff. This order was challenged by the petitioner/defendant by filing a revision which was dismissed by the Additional District Judge on 20-9-2010 on the ground that no appeal or revision is competent against the interim order.\n\n2. Learned counsel for the petitioner contends that under section 14(3) of the West Pakistan Family Courts Act, 1964, no appeal or revision is maintainable against the interlocutory order. This being so, only a writ petition under Article 199 of the Constitution of Islamic Republic of Pakistan is competent.\n\n3. The contention of the learned counsel for the petitioner is without any force. Admittedly under section 14(3) of the Family Court Act, no appeal or revision is competent against the interlocutory order passed by the Family Judge. Likewise an interim order of the Family Court also cannot be legally challenged before the High Court through the writ petition under Article 199 of the Constitution of Islamic Republic of Pakistan. If any authority is needed, reference may be made to S. Azharul Hassan Naqvi v. Mst. Hamida Bibi and 2 others (1979 CLC 754) and Muhammad Akram v. Mst. Raheela Aslam and 2 others (PLD 1999 Lahore 33).\n\n4. Be that as it may, the petitioner is not without any remedy in as much as, if a decree is ultimately passed against the decision or the decree wherein he may challenge the interim order, if he so desires.\n\n5. In view of above, the writ petition filed by the petitioner is not maintainable and the same is dismissed in limine.\n\nH.B.T./M-550/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "In view of above, the writ petition filed by the petitioner is not maintainable and the same is dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "H.B.T./M-550/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "2011 CLC 417\n\n[Lahore]\n\nBefore Syed Akhlaq Ahmad, J\n\nMUHAMMAD SABIR---Petitioner\n\nVersus\n\nMst. AZRA BIBI and 2 others---Respondents\n\nWrit Petition No. 20575 of 2010, decided on 28th September, 2010.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched. & S.14---Constitution of Pakistan, Art.199---Constitutional petition---Suit for recovery of dowry articles---Striking off defence of defendant---Defence of defendant having been struck off by the Family Court, defendant filed revision petition which was also dismissed on the ground that no appeal or revision was competent against interim order---Validity---Contention of defendant was that under S.14(3) of West Pakistan Family Courts Act, 1964, no appeal or revision being maintainable against the interlocutory order, only a constitutional petition under Art. 199 of the Constitution was competent---Such contention was without any force---Admittedly under S.14(3) of West Pakistan Family Courts Act, 1964 no appeal or revision was competent against the interlocutory order by the Family Court; likewise an interim order of the Family Court also could not be legally challenged before the High Court through constitutional petition---Constitutional petition was dismissed.\n\nS. Azharul Hassan Naqvi v. Mst. Hamida Bibi and 2 others 1979 CLC 754 and Muhammad Akram v. Mst. Raheela Aslam and 2 others PLD 1999 Lah. 33 ref.\n\nMian Muhammad Ali for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "SYED AKHLAQ AHMAD, J.---The dispute in this writ arises out of a pending suit for recovery of dowry articles valuing Rs.3,50,000 under the West Pakistan Family Courts Act, 1964 filed, by respondent No.1/Azra Bibi against the petitioner/defendant in which his defence was struck off on 9-7-2010 and the case was adjourned for evidence of the respondent No. 1/plaintiff. This order was challenged by the petitioner/defendant by filing a revision which was dismissed by the Additional District Judge on 20-9-2010 on the ground that no appeal or revision is competent against the interim order.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "2. Learned counsel for the petitioner contends that under section 14(3) of the West Pakistan Family Courts Act, 1964, no appeal or revision is maintainable against the interlocutory order. This being so, only a writ petition under Article 199 of the Constitution of Islamic Republic of Pakistan is competent.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "3. The contention of the learned counsel for the petitioner is without any force. Admittedly under section 14(3) of the Family Court Act, no appeal or revision is competent against the interlocutory order passed by the Family Judge. Likewise an interim order of the Family Court also cannot be legally challenged before the High Court through the writ petition under Article 199 of the Constitution of Islamic Republic of Pakistan. If any authority is needed, reference may be made to S. Azharul Hassan Naqvi v. Mst. Hamida Bibi and 2 others (1979 CLC 754) and Muhammad Akram v. Mst. Raheela Aslam and 2 others (PLD 1999 Lahore 33).",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "4. Be that as it may, the petitioner is not without any remedy in as much as, if a decree is ultimately passed against the decision or the decree wherein he may challenge the interim order, if he so desires.",
+        "label": "final_order",
+        "confidence": 0.85
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "5. In view of above, the writ petition filed by the petitioner is not maintainable and the same is dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "H.B.T./M-550/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

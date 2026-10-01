@@ -1,0 +1,100 @@
+{
+  "doc_id": "e86375cd6ae047ba3146cb72",
+  "metadata": {
+    "doc_id": "e86375cd6ae047ba3146cb72",
+    "case_title": "NAVEED AMJAD vs ABDULLAH NAVEED and others",
+    "citation": "2011 S C M R 1296",
+    "court": "Supreme Court of Pakistan",
+    "court_location": null,
+    "decision_date": null,
+    "judges": [
+      "Muhammad Sair Ali",
+      "Khilji Arif Hussain",
+      "Mian Saqib Nisar"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "Arts. 185"
+    ],
+    "source_relpath": "2011S987",
+    "content_hash": "9cf8cd644f2a96892624d67b5d4b2c450d086faa0702e8405e1816b3a8eeedc1"
+  },
+  "full_text": "2011 S C M R 1296\n\n[Supreme Court of Pakistan]\n\nPresent: Muhammad Sair Ali, Khilji Arif Hussain and Mian Saqib Nisar, JJ\n\nNAVEED AMJAD---Petitioner\n\nVersus\n\nABDULLAH NAVEED and others---Respondents\n\nCivil Petitions Nos. 463-L to 465-L of 2011, decided on 9th June, 2011.\n\n(Against judgment dated 2-2-2011 of Lahore High Court, Lahore, passed in Writ Petitions Nos. 2203, 2206 and 2207 of 2011).\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5 & Sched.---Constitution of Pakistan, Arts. 185(3) & 199---Suit for recovery of maintenance of minor children---Granting of maintenance by Family Court vide judgment dated 10-5-2010---Appellate Court in appeal filed by father fixed maintenance at different rate with 10% annual increase therein from date of their desertion in year 2003 by their father---Dismissal of father's constitutional petition by High Court- --Father's plea that High Court could not fix maintenance with retrospective effect---Validity---Mother of children did not object to modify impugned judgment to extent that father would pay maintenance at rate fixed in impugned judgment with 10% annual increase with effect from date of judgment of Family Court instead of with annual increase from year 2003---Supreme Court with consent of parties modified the impugned judgment.\n\nMehmud-ul-Islam, Advocate-on-Record for Petitioner (in all cases).\n\nMst. Saadia Anwar, Respondents No. 3 in person and for Respondent No. 1 (in C.P. No.465-L of 2011) (in all cases).\n\nDate of hearing: 9th June, 2011.\n\nORDER\n\nThe petitioner impugns the judgment dated 2-2-2011, passed by a learned Single Judge in Chambers of Lahore High Court, Lahore, whereby Constitutional Petitions (W.Ps. Nos.2203, 2206 and 2207 of 2011) filed by him were dismissed, and the judgment of the learned Additional District Judge, dated 25-11-2010, while fixing the maintenance allowance of the minors namely Abdullah Naveed and Nafay Naveed at the rate of Rs.10,000 and Rs.8,000 respectively, with 10% annual increase from the date of desertion of Abdullah i.e., May, 2003 and from the date of birth of Nafay i.e., 3-10-2003, was maintained.\n\n2. The petitioner called in question the impugned judgment to the extent of allowing 10 % annual increase with retrospective effect. Notice was issued to the respondents. Mst. Saadia Anwar, mother of the minor-sons, and respondent No. 3 in Civil Petition No.465-L of 2011, has frankly conceded that she will have no objection, if the impugned judgment is modified only to the extent that the petitioner shall maintain the minors according to the judgment of the learned Additional District Judge, dated 25-11-2010, with an annual increase of 10% with effect from the date of judgment and decree passed by the learned Judge, Family Court, i.e. 10-5-2010 instead of annual increase with effect from 2003, as mentioned in the preceding paragraph, to which the learned Advocate-on-Record, appearing for the petitioner, has no objection.\n\n3. In view of the above statement, all the present petitions are converted into appeals and disposed of. The judgments passed by the learned Single Judge in Chambers of the High Court as well as the learned Additional District Judge are modified only to the extent that the petitioner Naveed Amjad, father of the minor-sons, will pay monthly maintenance allowance at the rate of Rs.10,000 and Rs.8,000 to respondent No.1 (Abdullah Naveed) and respondent No.2 (Nafay Naveed), respectively, with 10% annual enhancement from the date of the judgment and decree passed by the learned Judge, Family Court, i.e., 10-5-2010.\n\nS.A.K./N-7/SC Order accordingly.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "In view of the above statement, all the present petitions are converted into appeals and disposed of.",
+        "label": "disposed_accordingly"
+      },
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "S.A.K./N-7/SC Order accordingly.",
+        "label": "disposed_accordingly"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 12,
+        "text": "2011 S C M R 1296\n\n[Supreme Court of Pakistan]\n\nPresent: Muhammad Sair Ali, Khilji Arif Hussain and Mian Saqib Nisar, JJ\n\nNAVEED AMJAD---Petitioner\n\nVersus\n\nABDULLAH NAVEED and others---Respondents\n\nCivil Petitions Nos. 463-L to 465-L of 2011, decided on 9th June, 2011.\n\n(Against judgment dated 2-2-2011 of Lahore High Court, Lahore, passed in Writ Petitions Nos. 2203, 2206 and 2207 of 2011).\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5 & Sched.---Constitution of Pakistan, Arts. 185(3) & 199---Suit for recovery of maintenance of minor children---Granting of maintenance by Family Court vide judgment dated 10-5-2010---Appellate Court in appeal filed by father fixed maintenance at different rate with 10% annual increase therein from date of their desertion in year 2003 by their father---Dismissal of father's constitutional petition by High Court- --Father's plea that High Court could not fix maintenance with retrospective effect---Validity---Mother of children did not object to modify impugned judgment to extent that father would pay maintenance at rate fixed in impugned judgment with 10% annual increase with effect from date of judgment of Family Court instead of with annual increase from year 2003---Supreme Court with consent of parties modified the impugned judgment.\n\nMehmud-ul-Islam, Advocate-on-Record for Petitioner (in all cases).\n\nMst. Saadia Anwar, Respondents No. 3 in person and for Respondent No. 1 (in C.P. No.465-L of 2011) (in all cases).\n\nDate of hearing: 9th June, 2011."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "The petitioner impugns the judgment dated 2-2-2011, passed by a learned Single Judge in Chambers of Lahore High Court, Lahore, whereby Constitutional Petitions (W.Ps. Nos.2203, 2206 and 2207 of 2011) filed by him were dismissed, and the judgment of the learned Additional District Judge, dated 25-11-2010, while fixing the maintenance allowance of the minors namely Abdullah Naveed and Nafay Naveed at the rate of Rs.10,000 and Rs.8,000 respectively, with 10% annual increase from the date of desertion of Abdullah i.e., May, 2003 and from the date of birth of Nafay i.e., 3-10-2003, was maintained.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. The petitioner called in question the impugned judgment to the extent of allowing 10 % annual increase with retrospective effect. Notice was issued to the respondents. Mst. Saadia Anwar, mother of the minor-sons, and respondent No. 3 in Civil Petition No.465-L of 2011, has frankly conceded that she will have no objection, if the impugned judgment is modified only to the extent that the petitioner shall maintain the minors according to the judgment of the learned Additional District Judge, dated 25-11-2010, with an annual increase of 10% with effect from the date of judgment and decree passed by the learned Judge, Family Court, i.e. 10-5-2010 instead of annual increase with effect from 2003, as mentioned in the preceding paragraph, to which the learned Advocate-on-Record, appearing for the petitioner, has no objection.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "3. In view of the above statement, all the present petitions are converted into appeals and disposed of. The judgments passed by the learned Single Judge in Chambers of the High Court as well as the learned Additional District Judge are modified only to the extent that the petitioner Naveed Amjad, father of the minor-sons, will pay monthly maintenance allowance at the rate of Rs.10,000 and Rs.8,000 to respondent No.1 (Abdullah Naveed) and respondent No.2 (Nafay Naveed), respectively, with 10% annual enhancement from the date of the judgment and decree passed by the learned Judge, Family Court, i.e., 10-5-2010.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "S.A.K./N-7/SC Order accordingly.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

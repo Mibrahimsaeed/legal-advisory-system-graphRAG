@@ -1,0 +1,114 @@
+{
+  "doc_id": "3b084a0211e6a2ad0556470c",
+  "metadata": {
+    "doc_id": "3b084a0211e6a2ad0556470c",
+    "case_title": "ZULFIQAR AHMED vs SHAGUFTA PARVEEN and others",
+    "citation": "P L D 2016 Lahore 516",
+    "court": null,
+    "court_location": null,
+    "decision_date": null,
+    "judges": [
+      "Muhammad Farrukh Irfan Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "Article 199"
+    ],
+    "source_relpath": "2016L67",
+    "content_hash": "27a748eb05fd7c811f3d04ee4994594a69cef1f81cb58f76394320cfcdd2c637"
+  },
+  "full_text": "P L D 2016 Lahore 516\n\nBefore Muhammad Farrukh Irfan Khan, J\n\nZULFIQAR AHMED---Petitioner\n\nVersus\n\nSHAGUFTA PARVEEN and others---Respondents\n\nWrit Petition No.8427 of 2015, decided on 7th March, 2016.\n\nFamily Courts Act (XXXV of 1964)--\n\n----S. 5, Sched---Recovery of maintenance allowance for children---\"Past\" and \"future\" maintenance---Scope---Non-mentioning of \"future maintenance\" in the plaint---Effect---Law did not make any distinction between \"past\" and \"future maintenance\"---Father was bound to pay maintenance allowance to his minor children till their legal entitlement---Mere non-mentioning of the word \"future maintenance\" in the plaint neither disentitled the minors from future maintenance nor absolved the father from the duty to pay maintenance to his minor children---Court had power to grant such relief for administration of justice even if plaintiffs omitted to claim future maintenance along with past maintenance---Nothing was on record that minor or their mother were living with the father/husband after passing the impugned judgment and decrees---Child who was entitled to past maintenance was also entitled to future maintenance---No illegality or jurisdictional defect had been pointed out in the impugned judgment and decree passed by the courts below---Constitutional petition was dismissed in circumstances.\n\nAurangzeb v. Judge Family Court, Khanewal and others 2004 MLD 8; Samar Gul v. Central Government and others PLD 1986 SC 35 and Ahmad Nawaz Khan v. Muhammad Jaffar Khan and others 2010 SCMR 984 rel.\n\nMuhammad Ashraf and Javaid Mahmood Sandhu for Petitioner.\n\nNemo for Respondents.\n\nORDER\n\nMUHAMMAD FARRUKH IRFAN KHAN, J.---Through the instant petition under Article 199 of the Constitution of Islamic Republic of Pakistan, 1973 the petitioner has assailed the judgments dated 22.2.2014 and 20.1.2015, passed by the learned Judge Family Court, Tehsil Shapur, Sargodha, and the learned Additional District Judge, Sargodha, respectively whereby suit filed by respondents Nos. 1 to 4 has been decreed to the extent of allowing maintenance allowance @ Rs.2000/- per month each to respondents Nos.2 to 4 w.e.f. the date of institution of the suit till their entitlement.\n\n2. The only grievance of the petitioner as pleaded in the writ petition and pressed by his learned counsel during course of hearing of the instant petition is that both the courts below have erred in law while granting future maintenance to respondents Nos.2 to 4. Learned counsel has argued that by grant of future maintenance to the minors/respondents Nos.2 to 4 both the courts below have travelled beyond their jurisdiction. He has further argued that both the impugned judgments of the courts below being contrary to law and facts on record are liable to be set aside.\n\n3. Arguments heard. Record perused.\n\n4. The petitioner has no objection to the grant of past maintenance to his minor children/respondents Nos.2 to 4. He has only challenged the impugned decree only to the extent of grant of future maintenance to the minors. The law does not make any distinction between \"past\" and \"future maintenance\". In this regard reliance is placed on the case of Aurangzeb v. Judge Family Court, Khanewal and others (2004 MLD 8). As per settled law a father is bound to pay maintenance allowance to his minor children till their legal entitlement. Mere non-mentioning of the word \"future maintenance\" in the plaint neither disentitles the minors from future maintenance nor absolves the petitioner father from the duty of providing maintenance to his minor children till their entitlement. There is nothing on the record to show that the minors or their mother/respondent No.1 are living with the petitioner after passing the impugned judgments and decrees, so they are not entitled to future maintenance. A child who is entitled to past maintenance is also entitled to/future maintenance. If the plaintiffs-respondents in their plaint omitted to claim future maintenance along with the past maintenance, the Court itself is empowered to grant such relief for complete administration of justice. Reliance in this regard is placed on the cases of Samar Gul v. Central Government and others (PLD 1986 SC 35) and Ahmad Nawaz Khan v. Muhammad Jaffar Khan and others (2010 SCMR 984). In these circumstances, this Court is of the considered view that both the courts below have not committed any illegality or travelled beyond their jurisdiction by granting future maintenance to the minors, which is their undeniable, legal and vested right.\n\n5. For what has been discussed above, I see no force in the instant writ petition, which is accordingly dismissed.\n\nZC/Z-15/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "For what has been discussed above, I see no force in the instant writ petition, which is accordingly dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "ZC/Z-15/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "P L D 2016 Lahore 516\n\nBefore Muhammad Farrukh Irfan Khan, J\n\nZULFIQAR AHMED---Petitioner\n\nVersus\n\nSHAGUFTA PARVEEN and others---Respondents\n\nWrit Petition No.8427 of 2015, decided on 7th March, 2016.\n\nFamily Courts Act (XXXV of 1964)--\n\n----S. 5, Sched---Recovery of maintenance allowance for children---\"Past\" and \"future\" maintenance---Scope---Non-mentioning of \"future maintenance\" in the plaint---Effect---Law did not make any distinction between \"past\" and \"future maintenance\"---Father was bound to pay maintenance allowance to his minor children till their legal entitlement---Mere non-mentioning of the word \"future maintenance\" in the plaint neither disentitled the minors from future maintenance nor absolved the father from the duty to pay maintenance to his minor children---Court had power to grant such relief for administration of justice even if plaintiffs omitted to claim future maintenance along with past maintenance---Nothing was on record that minor or their mother were living with the father/husband after passing the impugned judgment and decrees---Child who was entitled to past maintenance was also entitled to future maintenance---No illegality or jurisdictional defect had been pointed out in the impugned judgment and decree passed by the courts below---Constitutional petition was dismissed in circumstances.\n\nAurangzeb v. Judge Family Court, Khanewal and others 2004 MLD 8; Samar Gul v. Central Government and others PLD 1986 SC 35 and Ahmad Nawaz Khan v. Muhammad Jaffar Khan and others 2010 SCMR 984 rel.\n\nMuhammad Ashraf and Javaid Mahmood Sandhu for Petitioner.\n\nNemo for Respondents."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "MUHAMMAD FARRUKH IRFAN KHAN, J.---Through the instant petition under Article 199 of the Constitution of Islamic Republic of Pakistan, 1973 the petitioner has assailed the judgments dated 22.2.2014 and 20.1.2015, passed by the learned Judge Family Court, Tehsil Shapur, Sargodha, and the learned Additional District Judge, Sargodha, respectively whereby suit filed by respondents Nos. 1 to 4 has been decreed to the extent of allowing maintenance allowance @ Rs.2000/- per month each to respondents Nos.2 to 4 w.e.f. the date of institution of the suit till their entitlement.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "2. The only grievance of the petitioner as pleaded in the writ petition and pressed by his learned counsel during course of hearing of the instant petition is that both the courts below have erred in law while granting future maintenance to respondents Nos.2 to 4. Learned counsel has argued that by grant of future maintenance to the minors/respondents Nos.2 to 4 both the courts below have travelled beyond their jurisdiction. He has further argued that both the impugned judgments of the courts below being contrary to law and facts on record are liable to be set aside.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "3. Arguments heard. Record perused.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "4. The petitioner has no objection to the grant of past maintenance to his minor children/respondents Nos.2 to 4. He has only challenged the impugned decree only to the extent of grant of future maintenance to the minors. The law does not make any distinction between \"past\" and \"future maintenance\". In this regard reliance is placed on the case of Aurangzeb v. Judge Family Court, Khanewal and others (2004 MLD 8). As per settled law a father is bound to pay maintenance allowance to his minor children till their legal entitlement. Mere non-mentioning of the word \"future maintenance\" in the plaint neither disentitles the minors from future maintenance nor absolves the petitioner father from the duty of providing maintenance to his minor children till their entitlement. There is nothing on the record to show that the minors or their mother/respondent No.1 are living with the petitioner after passing the impugned judgments and decrees, so they are not entitled to future maintenance. A child who is entitled to past maintenance is also entitled to/future maintenance. If the plaintiffs-respondents in their plaint omitted to claim future maintenance along with the past maintenance, the Court itself is empowered to grant such relief for complete administration of justice. Reliance in this regard is placed on the cases of Samar Gul v. Central Government and others (PLD 1986 SC 35) and Ahmad Nawaz Khan v. Muhammad Jaffar Khan and others (2010 SCMR 984). In these circumstances, this Court is of the considered view that both the courts below have not committed any illegality or travelled beyond their jurisdiction by granting future maintenance to the minors, which is their undeniable, legal and vested right.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "5. For what has been discussed above, I see no force in the instant writ petition, which is accordingly dismissed.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "ZC/Z-15/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

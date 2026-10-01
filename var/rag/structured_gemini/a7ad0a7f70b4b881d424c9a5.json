@@ -1,0 +1,124 @@
+{
+  "doc_id": "a7ad0a7f70b4b881d424c9a5",
+  "metadata": {
+    "doc_id": "a7ad0a7f70b4b881d424c9a5",
+    "case_title": "West Pakistan Family Courts Act (XXXV of 1964)â€‘â€‘â€‘",
+    "citation": "2004 S C M R 858",
+    "court": "Supreme Court of Pakistan",
+    "court_location": null,
+    "decision_date": null,
+    "judges": [
+      "Mian Muhammad Ajmal",
+      "Faqir Muhammad Khokhar"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "Art.185"
+    ],
+    "source_relpath": "2004S977",
+    "content_hash": "a0b21157a2343c04b91eb7fb5ca3d5cc1326c84b18d4b649ac2d5824a9735eb2"
+  },
+  "full_text": "2004 S C M R 858\n\n[Supreme Court of Pakistan]\n\nPresent: Mian Muhammad Ajmal and Faqir Muhammad Khokhar, JJ\n\nMUHAMMAD WASEEM alias KHUSHI MUHAMMAD ‐‐‐Petitioner\n\nVersus\n\nALI AHMAD and others‐‐‐Respondents\n\nCivil Petition No.3990‐L of 2001, decided on 12th July, 2002.\n\n(On appeal from the order dated 27‐9‐2001 passed by the Lahore High Court, Lahore in Writ Petition No.21951 of 2000).\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐S.5 & Sched.‐‐‐Constitution of Pakistan (1973), Art.185(3)‐‐ Maintenance allowance‐‐‐Concurrent findings of fact by the Courts below‐‐‐Source of income‐‐‐Determination‐‐‐Family Court fixed monthly maintenance allowance for two minor children at the rate of Rs.2000 per child‐‐‐Father assailed the allowance but Appellate Court as well as High Court declined to interfere with the judgment and decree passed by Family Court‐‐‐Plea raised by the father of the minors was that the maintenance was fixed without determining his source of income‐‐ Validity‐‐‐All the Courts recorded concurrent findings of fact that the father had sufficient means of income and was under obligation to make the payment of maintenance to each of his children at the rate of Rs.2000 per month‐‐‐No substantial question of law of public importance was involved in the case‐‐‐Judgment passed by High Court did not suffer from any infirmity so as to call for interference by Supreme Court‐‐ Leave to appeal was refused.\n\nMuhammad Aslam Chaudhry, Advocate‐on‐Record for Petitioner.\n\nMst. Rukhsana Bibi (mother of respondents Nos.1 to 3) for Respondents.\n\nDate of hearing: 12th July, 2002.\n\nJUDGMENT\n\nFAQIR MUHAMMAD KHOKHAR‐‐‐The petitioner seeks leave to appeal against judgment dated 27‐9‐2001 passed by the Lahore High Court, Lahore in Writ Petition No.21951 of 2000.\n\n2. The petitioner had married Mst. Rukhsana Bibi on 16‐11‐1990. The respondents Nos.1 to 3 were born out of this wedlock. The suit for maintenance filed by the respondents Nos. 1 to 3 against the petitioner was decreed by the Judge, Family Court allowing them maintenance at the monthly rate of Rs.2000 each. The appeal of the petitioner was dismissed by the Additional District Judge vide judgment dated 11‐5‐2000. The Writ Petition No.21951 of 2000 filed by him was also dismissed by the impugned judgment dated 27‐9‐2001.\n\n3. Learned counsel for the petitioner argued that without determining the source of income of the petitioner the excessive amount of maintenance could not be fixed. It was further argued that there was no sufficient evidence on record to support the findings of the Courts fixing the quantum of maintenance on hearsay evidence.\n\n4. On the other hand, Mst. Rukhsana Bibi (mother of respondents Nos. 1 to 3) stated that the petitioner was a goldsmith. He possessed sufficient means of income and was under obligation to maintain his children adequately. She further stated that the quantum of monthly maintenance of Rs.2000 to each of the respondents was quite reasonable in the circumstances.\n\n5. We have heard the learned counsel for the petitioner as also Mst. Rukhsana Bibi in person. All the Courts recorded concurrent findings of fact that the petitioner had sufficient means of income and was under obligation to make the payment of maintenance to each of his children at the rate of Rs.2000 per month. No substantial question of law of public importance is involved in this case. The impugned judgment does not suffer from any infirmity so as to call for interference by this Court. This is not a fit case for grant of leave to appeal.\n\n6. We do not find any merit in this petition and the same is dismissed accordingly.\n\nM.H./M‐632/S Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "We do not find any merit in this petition and the same is dismissed accordingly.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "M.H./M‐632/S Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 12,
+        "text": "2004 S C M R 858\n\n[Supreme Court of Pakistan]\n\nPresent: Mian Muhammad Ajmal and Faqir Muhammad Khokhar, JJ\n\nMUHAMMAD WASEEM alias KHUSHI MUHAMMAD ‐‐‐Petitioner\n\nVersus\n\nALI AHMAD and others‐‐‐Respondents\n\nCivil Petition No.3990‐L of 2001, decided on 12th July, 2002.\n\n(On appeal from the order dated 27‐9‐2001 passed by the Lahore High Court, Lahore in Writ Petition No.21951 of 2000).\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐S.5 & Sched.‐‐‐Constitution of Pakistan (1973), Art.185(3)‐‐ Maintenance allowance‐‐‐Concurrent findings of fact by the Courts below‐‐‐Source of income‐‐‐Determination‐‐‐Family Court fixed monthly maintenance allowance for two minor children at the rate of Rs.2000 per child‐‐‐Father assailed the allowance but Appellate Court as well as High Court declined to interfere with the judgment and decree passed by Family Court‐‐‐Plea raised by the father of the minors was that the maintenance was fixed without determining his source of income‐‐ Validity‐‐‐All the Courts recorded concurrent findings of fact that the father had sufficient means of income and was under obligation to make the payment of maintenance to each of his children at the rate of Rs.2000 per month‐‐‐No substantial question of law of public importance was involved in the case‐‐‐Judgment passed by High Court did not suffer from any infirmity so as to call for interference by Supreme Court‐‐ Leave to appeal was refused.\n\nMuhammad Aslam Chaudhry, Advocate‐on‐Record for Petitioner.\n\nMst. Rukhsana Bibi (mother of respondents Nos.1 to 3) for Respondents.\n\nDate of hearing: 12th July, 2002."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "FAQIR MUHAMMAD KHOKHAR‐‐‐The petitioner seeks leave to appeal against judgment dated 27‐9‐2001 passed by the Lahore High Court, Lahore in Writ Petition No.21951 of 2000.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. The petitioner had married Mst. Rukhsana Bibi on 16‐11‐1990. The respondents Nos.1 to 3 were born out of this wedlock. The suit for maintenance filed by the respondents Nos. 1 to 3 against the petitioner was decreed by the Judge, Family Court allowing them maintenance at the monthly rate of Rs.2000 each. The appeal of the petitioner was dismissed by the Additional District Judge vide judgment dated 11‐5‐2000. The Writ Petition No.21951 of 2000 filed by him was also dismissed by the impugned judgment dated 27‐9‐2001.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "3. Learned counsel for the petitioner argued that without determining the source of income of the petitioner the excessive amount of maintenance could not be fixed. It was further argued that there was no sufficient evidence on record to support the findings of the Courts fixing the quantum of maintenance on hearsay evidence.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "4. On the other hand, Mst. Rukhsana Bibi (mother of respondents Nos. 1 to 3) stated that the petitioner was a goldsmith. He possessed sufficient means of income and was under obligation to maintain his children adequately. She further stated that the quantum of monthly maintenance of Rs.2000 to each of the respondents was quite reasonable in the circumstances.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "5. We have heard the learned counsel for the petitioner as also Mst. Rukhsana Bibi in person. All the Courts recorded concurrent findings of fact that the petitioner had sufficient means of income and was under obligation to make the payment of maintenance to each of his children at the rate of Rs.2000 per month. No substantial question of law of public importance is involved in this case. The impugned judgment does not suffer from any infirmity so as to call for interference by this Court. This is not a fit case for grant of leave to appeal.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "6. We do not find any merit in this petition and the same is dismissed accordingly.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "M.H./M‐632/S Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

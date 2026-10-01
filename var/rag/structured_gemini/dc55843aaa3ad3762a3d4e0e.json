@@ -1,0 +1,121 @@
+{
+  "doc_id": "dc55843aaa3ad3762a3d4e0e",
+  "metadata": {
+    "doc_id": "dc55843aaa3ad3762a3d4e0e",
+    "case_title": "Muhammad Arif vs Sehrish Ikram and 2 others",
+    "citation": "2002 Y L R",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": "2002-01-01",
+    "judges": [
+      "Abid Hussain Chattha"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "partly_allowed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5"
+    ],
+    "source_relpath": "2026L4068",
+    "content_hash": "1b3266443d5459e6cbbca11f7a8f389136f0ecf7d3e611f1cb11b8a934d89b4e"
+  },
+  "full_text": "2026 Y L R 1534\n\n[Lahore]\n\nBefore Abid Hussain Chattha, J\n\nMuhammad Arif---Petitioner\n\nVersus\n\nSehrish Ikram and 2 others---Respondents\n\nWrit Petition No. 29631 of 2021, heard on 12th February, 2026.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 5, Sched.---Dissolution of marriage, recovery of dowry and maintenance---Concurrent findings of courts below---Reappraisal of evidence---Scope---In essence, the respondent (wife) filed a suit for dissolution of marriage, recovery of dowry articles and maintenance---Marriage was dissolved, dowry claim was partly decreed (Rs. 500,000) but maintenance was initially declined---On cross-appeals, the Appellate Court granted maintenance limited to iddat period (Rs. 10,000 per month) while maintaining other findings---Held: Claims of the respondent were concurrently adjudicated and decided against the petitioner in accordance with law after appraisal and reappraisal of evidence on record---The fact of rukhsati was established---Further appraisal of evidence was not warranted as no tangible ground regarding any illegality, infirmity or jurisdictional defect was raised---Constitutional petition was dismissed, in circumstances.\n\nM. Hamad Hassan v. Mst. Isma Bukhari and 2 others 2023 SCMR 1434 rel.\n\nJaved Gill for Petitioner.\n\nBarrister Asim Malik for Respondent No. 1.\n\nDate of hearing: 12th February, 2026.\n\nJudgment\n\nAbid Hussain Chattha, J.---This constitutional Petition is directed against the impugned Judgments and Decrees dated 04.01.2021 and 06.03.2021 passed by Judge Family Court and Additional District Judge, Mandi Bahauddin, respectively.\n\n2. Briefly, Respondent No. 1 (the \"Respondent\") instituted a suit for dissolution of marriage, recovery of maintenance allowance and dowry articles against the Petitioner and another. The suit to the extent of dissolution of marriage was decreed in her favour vide order dated 24.01.2020. The remaining claims were also partially decreed by the Family Court vide impugned Judgment dated 04.01.2021 and the Respondent was held entitled to receive some of the dowry articles or in the alternative, its value Rs. 500,000/-. However, her claim for maintenance allowance was declined.\n\n3. Both the parties preferred cross Appeals against the decision of the Family Court which were decided by the Appellate Court vide impugned consolidated Judgment dated 06.03.2021 in the manner that Appeal of the Petitioner was dismissed, whereas, that of the Respondent was partially allowed and she was also held entitled to recover maintenance allowance @ Rs. 10,000/- per month for her Iddat period i.e. Rs. 30,000/- in total. The rest of the findings of the Family Court were kept intact.\n\n4. Learned counsel for the Petitioner submitted that Rukhsati between the parties was never effected which fact has been overlooked by the Courts below. As such, the impugned Judgments are liable to be set aside. Conversely, learned counsel for the Respondent vehemently defended and supported the impugned Judgments.\n\n5. Suffice is to hold that claims of the Respondent were concurrently adjudicated and decided against the Petitioner in accordance with law after appraisal and reappraisal of evidence on record. The fact of Rukhsati was established. Further appraisal of evidence is not warranted as no tangible ground regarding any illegality, infirmity or jurisdictional defect is raised. Even otherwise, further appraisal is deprecated by the Supreme Court of Pakistan in case titled, \"M. Hamad Hassan v. Mst. Isma Bukhari and 2 others\" (2023 SCMR 1434).\n\n6. In view of the above, this Petition is devoid of any merit and the same is hereby dismissed.\n\nUN/M-63/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "In view of the above, this Petition is devoid of any merit and the same is hereby dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "UN/M-63/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 12,
+        "text": "2026 Y L R 1534\n\n[Lahore]\n\nBefore Abid Hussain Chattha, J\n\nMuhammad Arif---Petitioner\n\nVersus\n\nSehrish Ikram and 2 others---Respondents\n\nWrit Petition No. 29631 of 2021, heard on 12th February, 2026.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 5, Sched.---Dissolution of marriage, recovery of dowry and maintenance---Concurrent findings of courts below---Reappraisal of evidence---Scope---In essence, the respondent (wife) filed a suit for dissolution of marriage, recovery of dowry articles and maintenance---Marriage was dissolved, dowry claim was partly decreed (Rs. 500,000) but maintenance was initially declined---On cross-appeals, the Appellate Court granted maintenance limited to iddat period (Rs. 10,000 per month) while maintaining other findings---Held: Claims of the respondent were concurrently adjudicated and decided against the petitioner in accordance with law after appraisal and reappraisal of evidence on record---The fact of rukhsati was established---Further appraisal of evidence was not warranted as no tangible ground regarding any illegality, infirmity or jurisdictional defect was raised---Constitutional petition was dismissed, in circumstances.\n\nM. Hamad Hassan v. Mst. Isma Bukhari and 2 others 2023 SCMR 1434 rel.\n\nJaved Gill for Petitioner.\n\nBarrister Asim Malik for Respondent No. 1.\n\nDate of hearing: 12th February, 2026."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "Judgment",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "Abid Hussain Chattha, J.---This constitutional Petition is directed against the impugned Judgments and Decrees dated 04.01.2021 and 06.03.2021 passed by Judge Family Court and Additional District Judge, Mandi Bahauddin, respectively.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. Briefly, Respondent No. 1 (the \"Respondent\") instituted a suit for dissolution of marriage, recovery of maintenance allowance and dowry articles against the Petitioner and another. The suit to the extent of dissolution of marriage was decreed in her favour vide order dated 24.01.2020. The remaining claims were also partially decreed by the Family Court vide impugned Judgment dated 04.01.2021 and the Respondent was held entitled to receive some of the dowry articles or in the alternative, its value Rs. 500,000/-. However, her claim for maintenance allowance was declined.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "3. Both the parties preferred cross Appeals against the decision of the Family Court which were decided by the Appellate Court vide impugned consolidated Judgment dated 06.03.2021 in the manner that Appeal of the Petitioner was dismissed, whereas, that of the Respondent was partially allowed and she was also held entitled to recover maintenance allowance @ Rs. 10,000/- per month for her Iddat period i.e. Rs. 30,000/- in total. The rest of the findings of the Family Court were kept intact.",
+        "label": "lower_court_orders",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "4. Learned counsel for the Petitioner submitted that Rukhsati between the parties was never effected which fact has been overlooked by the Courts below. As such, the impugned Judgments are liable to be set aside. Conversely, learned counsel for the Respondent vehemently defended and supported the impugned Judgments.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "5. Suffice is to hold that claims of the Respondent were concurrently adjudicated and decided against the Petitioner in accordance with law after appraisal and reappraisal of evidence on record. The fact of Rukhsati was established. Further appraisal of evidence is not warranted as no tangible ground regarding any illegality, infirmity or jurisdictional defect is raised. Even otherwise, further appraisal is deprecated by the Supreme Court of Pakistan in case titled, \"M. Hamad Hassan v. Mst. Isma Bukhari and 2 others\" (2023 SCMR 1434).",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "6. In view of the above, this Petition is devoid of any merit and the same is hereby dismissed.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "UN/M-63/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

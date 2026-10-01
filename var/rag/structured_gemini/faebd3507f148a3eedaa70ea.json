@@ -1,0 +1,133 @@
+{
+  "doc_id": "faebd3507f148a3eedaa70ea",
+  "metadata": {
+    "doc_id": "faebd3507f148a3eedaa70ea",
+    "case_title": "Constitution of Pakistan (1973)--",
+    "citation": "1989 M L D 3051",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Lehrasap Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Muslim Family Laws Ordinance (VIII of 1961)",
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.9",
+      "Ss.5 & 7",
+      "section 9"
+    ],
+    "source_relpath": "1989LAH3093",
+    "content_hash": "817c3a12a8b9003b82fb244d86dea68149758ca1fa11f109787d30ed6c8656b3"
+  },
+  "full_text": "1989 M L D 3051\n\n[Lahore]\n\nBefore Lehrasap Khan, J\n\nMUNAWAR HUSSAIN NAQVI--Petitioner\n\nVersus\n\nMst. BALQEES SADDIQA and others--Respondents\n\nWrit Petition No. 4919 of 1987, decided on 10th April, 1989.\n\nConstitution of Pakistan (1973)--\n\n---Art.l99--Muslim Family Laws Ordinance (VIII of 1961), S.9--West Pakistan Family Courts Act (XXXV of 1964), Ss.5 & 7--Suit for maintenance- Respondent-wife filed application for grant of maintenance before Arbitration Council and during pendency of proceedings she also filed suit for maintenance before Family Court which was stayed by Family Court pending decision of proceedings before Arbitration Council--Wife had stated during hearing of Constitutional petition that she did not want to prosecute her application before Chairman, Arbitration Council but would like to have dispute decided by Family Court--Constitutional petition filed by husband against remand order passed by Collector having fructified no further proceedings were called for--Family Court was directed to decide the case pending before it within specified time.\n\nMuhammad Nasrullah Waraich for Petitioner.\n\nMuhammad Sibtain Bokhari for Respondent No. 1.\n\nNemo for Respondents Nos. 2 and 3.\n\nDate of hearing: 10th April, 1989.\n\nJUDGMENT\n\nThis Constitutional petition is directed against the order, dated 22nd of September, 1987 passed by the Collector Lahore District, Lahore whereby the revision petition filed by the respondent against the order of the Arbitration Counsil, dated 3rd of July, 1986, was accepted and the case was remanded to the Arbitration Council for its re-decision in accordance with law.\n\n2. The facts necessary for disposal of this petition are that the respondent was married with the petitioner on 22nd of March, 1978. Out of this wedlock two issues were born, one of whom is, unfortunately, dead. It appears that the parties later on fell apart and are living separately.\n\n3. On 3rd of June, 1986 the respondent filed an application before the Chairman, Arbitration Council Ward No. 49 Nawan Kot, Islamia Park, Lahore for the grant of maintenance to her and her minor child. This application was rejected by the Council on 3rd of July, 1986. The respondent went in revision which was accepted on 22-9-1987 and the case was remanded for its decision to the Arbitration Council. This order of remand is the subject-matter of the present Constitutional petition filed by the petitioner husband.\n\n4. During the course of proceedings before lower forums, the respondent filed two separate suits for maintenance; one for the child and the other for herself in the Family Courts at Lahore. This suit for the maintenance for the child has since been decreed but the other suit for maintenance of the respondent was stayed by the Family Court pending the decision of the proceedings before the Arbitration Council under section 9 of the Muslim Family Laws Ordinance 1961.\n\n5. Today it has been stated by Mst. Balqis Siddiqa who is present in person and her learned counsel that she does not want to prosecute the application under section 9 of the Muslim Family Laws Ordinance 1961 before the Chairman Arbitration Council and would like to have the dispute decided by the Judge Family Court, under Family Courts Act, 1964. This being the position this Constitutional petition hall' fructified and no further proceedings are called for.\n\nThe Family Court shall now proceed to decide the suit for maintenance within a period of two months from today. The petition is disposed of in above terms with no order as to cost.\n\nH.B.T./M-1316/L\n\nOrder accordingly.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "sentence": "Order accordingly.",
+        "label": "disposed_accordingly"
+      },
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "H.B.T./M-1316/L",
+        "label": "unclassified"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 12,
+        "text": "1989 M L D 3051\n\n[Lahore]\n\nBefore Lehrasap Khan, J\n\nMUNAWAR HUSSAIN NAQVI--Petitioner\n\nVersus\n\nMst. BALQEES SADDIQA and others--Respondents\n\nWrit Petition No. 4919 of 1987, decided on 10th April, 1989.\n\nConstitution of Pakistan (1973)--\n\n---Art.l99--Muslim Family Laws Ordinance (VIII of 1961), S.9--West Pakistan Family Courts Act (XXXV of 1964), Ss.5 & 7--Suit for maintenance- Respondent-wife filed application for grant of maintenance before Arbitration Council and during pendency of proceedings she also filed suit for maintenance before Family Court which was stayed by Family Court pending decision of proceedings before Arbitration Council--Wife had stated during hearing of Constitutional petition that she did not want to prosecute her application before Chairman, Arbitration Council but would like to have dispute decided by Family Court--Constitutional petition filed by husband against remand order passed by Collector having fructified no further proceedings were called for--Family Court was directed to decide the case pending before it within specified time.\n\nMuhammad Nasrullah Waraich for Petitioner.\n\nMuhammad Sibtain Bokhari for Respondent No. 1.\n\nNemo for Respondents Nos. 2 and 3.\n\nDate of hearing: 10th April, 1989."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "This Constitutional petition is directed against the order, dated 22nd of September, 1987 passed by the Collector Lahore District, Lahore whereby the revision petition filed by the respondent against the order of the Arbitration Counsil, dated 3rd of July, 1986, was accepted and the case was remanded to the Arbitration Council for its re-decision in accordance with law.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. The facts necessary for disposal of this petition are that the respondent was married with the petitioner on 22nd of March, 1978. Out of this wedlock two issues were born, one of whom is, unfortunately, dead. It appears that the parties later on fell apart and are living separately.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "3. On 3rd of June, 1986 the respondent filed an application before the Chairman, Arbitration Council Ward No. 49 Nawan Kot, Islamia Park, Lahore for the grant of maintenance to her and her minor child. This application was rejected by the Council on 3rd of July, 1986. The respondent went in revision which was accepted on 22-9-1987 and the case was remanded for its decision to the Arbitration Council. This order of remand is the subject-matter of the present Constitutional petition filed by the petitioner husband.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "4. During the course of proceedings before lower forums, the respondent filed two separate suits for maintenance; one for the child and the other for herself in the Family Courts at Lahore. This suit for the maintenance for the child has since been decreed but the other suit for maintenance of the respondent was stayed by the Family Court pending the decision of the proceedings before the Arbitration Council under section 9 of the Muslim Family Laws Ordinance 1961.",
+        "label": "facts",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "5. Today it has been stated by Mst. Balqis Siddiqa who is present in person and her learned counsel that she does not want to prosecute the application under section 9 of the Muslim Family Laws Ordinance 1961 before the Chairman Arbitration Council and would like to have the dispute decided by the Judge Family Court, under Family Courts Act, 1964. This being the position this Constitutional petition hall' fructified and no further proceedings are called for.",
+        "label": "court_reasoning",
+        "confidence": 0.85
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "The Family Court shall now proceed to decide the suit for maintenance within a period of two months from today. The petition is disposed of in above terms with no order as to cost.",
+        "label": "final_order",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "H.B.T./M-1316/L",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "Order accordingly.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

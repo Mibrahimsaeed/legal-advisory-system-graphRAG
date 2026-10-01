@@ -1,0 +1,133 @@
+{
+  "doc_id": "fcf18f16751b4b3c467f3f99",
+  "metadata": {
+    "doc_id": "fcf18f16751b4b3c467f3f99",
+    "case_title": "ADDITIONAL DISTRICT JUDGE--Respondent",
+    "citation": "1985 M L D 1250",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Lehrasap Khan",
+      "J"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Provisional Constitution Order (1 of 1981)",
+      "Dissolution of Muslim Marriages Act (VIII of 1939)"
+    ],
+    "provisions_cited": [
+      "S. 14",
+      "S. 2",
+      "Art. 9"
+    ],
+    "source_relpath": "1985L2837",
+    "content_hash": "1577d3ff1330c0a1e728944419241d4c85aa189ecf6c102607c12d6875d7e235"
+  },
+  "full_text": "1985 M L D 1250\n\n[Lahore]\n\nBefore Lehrasap Khan, J,\n\nMUHAMMAD SHARIF--Petitioner\n\nversus\n\nADDITIONAL DISTRICT JUDGE--Respondent\n\nWrit Petition No. 433 of 1985 decided on 3rd February, 1985.\n\n(a) West Pakistan Family Courts Act (XXXV of 1964)--\n\n---S. 14--Provisional Constitution Order (1 of 1981), Art. 9--Reappraisal of evidence--Court of appeal, held, could competently reverse findings even on issues of facts by reappraising evidence led at trial--High Court, however, in exercise of its extraordinary jurisdiction, could not reappraise evidence once appraised by Court/Tribunal of competent jurisdiction.\n\n(b) Dissolution of Muslim Marriages Act (VIII of 1939)--\n\n---S. 2(ix)--Khula', plea of--Plea that marriage could not be dissolved on ground of Khula', without making an order about return of benefits received by wife from husband, held, was without any substance- Husband could have recourse to independent action for recovery of such benefits.\n\nM. Aslam Riaz for Petitioner.\n\nDate of hearing: 3rd February, 1985.\n\nORDER\n\nThis Constitutional petition assails the judgment and decree, dated 29-10-1984, passed by a learned Additional District Judge, Toba Tek Singh, whereby he has dissolved the marriage of (Mat.) Hajran Bibi, respondent No. 2, with the petitioner, inter alia, on the ground of 'Khula'.\n\n2. Mst. Hajran Bibi, aforesaid, filed a suit for dissolution of marriage against the petitioner before a learned Judge Family Court, Toba Tek Singh, on the grounds of cruelty, non-maintenance, false a6cusation of adultery and 'Khula'. The suit was, of course, resisted by the petitioner. Necessary issues, arising out of the parties, pleadings, were framed and the learned Judge, Family Court, after recording the parties evidence, dismissed the suit of Mst. Hajran Bibi on 21-2-1984. She preferred an appeal before a learned Additional District Judge, Toba Tek Singh, who, vide his impugned judgment, dated 29-10-1984, set aside the judgment passed by the learned Judge, Family Court, and decreed the suit of respondent No. 2. Thus the present Constitutional Petition.\n\n3. It has been mainly contended on behalf of the petitioner that the learned trial Court had found that the dower had already been paid by the petitioner to respondent No. 2, although the said respondent, while appearing as her own witness stated that she would forego her claim regarding dower if the parties marriage was dissolved. It has thus been urged that, without making an order about the return of benefits, including the dower, received by the wife from the husband, marriage could not be dissolved on the ground of 'Khula'.\n\nIt is noteworthy that in the circumstances of the under consideration case, the learned Judge, Family Court, had returned the verdict on the issues pertaining to on-maintenance and cruelty against the wife, but the learned Additional District Judge has reversed the findings of the learned trial Court on these issues in appeal. A Court of appeal can competently reverse the findings even on issues of fact by re-appraising the evidence led at the trial. The High Court, however, in exercise of its extraordinary jurisdiction, cannot re-appraise the, evidence once appraised by a Court/tribunal of competent jurisdiction. In this view of the matter, apart from the ground of 'Khula' the learned Additional District Judge has dissolved the marriage of the petitioner with respondent No. 2 on the grounds of cruelty and non-maintenance. The findings arrived at by the learned Additional District Judge in this behalf cannot be interfered with by this Court, in exercise of its writ jurisdiction. The plea that marriage could not b dissolved on the ground of 'Khula' without making an order about the return of benefits received by the wife from, the husband, is also without any substance. The husband, if so advised, can have recourse to an independent action for recovery of benefits provided by him to the wife. There is nothing on the records to suggest that the wife in this case received such benefits from the husband. Regarding the dower, she has expressly deposed that the dower was not yet paid to her and, that she would forego her claim for the dower if her marriage with the petitioner was dissolved.\n\nIn the light of the above observations, there is no merit in the instant writ petition which is, therefore dismissed in limine.\n\nA . A .\n\nPetition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "Petition dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "A . A .",
+        "label": "unclassified"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": "1 batch(es) fell back to paragraph_group",
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "1985 M L D 1250\n\n[Lahore]\n\nBefore Lehrasap Khan, J,\n\nMUHAMMAD SHARIF--Petitioner\n\nversus\n\nADDITIONAL DISTRICT JUDGE--Respondent\n\nWrit Petition No. 433 of 1985 decided on 3rd February, 1985."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 9,
+        "text": "(a) West Pakistan Family Courts Act (XXXV of 1964)--\n\n---S. 14--Provisional Constitution Order (1 of 1981), Art. 9--Reappraisal of evidence--Court of appeal, held, could competently reverse findings even on issues of facts by reappraising evidence led at trial--High Court, however, in exercise of its extraordinary jurisdiction, could not reappraise evidence once appraised by Court/Tribunal of competent jurisdiction.\n\n(b) Dissolution of Muslim Marriages Act (VIII of 1939)--"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 10,
+        "paragraph_end": 12,
+        "text": "---S. 2(ix)--Khula', plea of--Plea that marriage could not be dissolved on ground of Khula', without making an order about return of benefits received by wife from husband, held, was without any substance- Husband could have recourse to independent action for recovery of such benefits.\n\nM. Aslam Riaz for Petitioner.\n\nDate of hearing: 3rd February, 1985."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "This Constitutional petition assails the judgment and decree, dated 29-10-1984, passed by a learned Additional District Judge, Toba Tek Singh, whereby he has dissolved the marriage of (Mat.) Hajran Bibi, respondent No. 2, with the petitioner, inter alia, on the ground of 'Khula'.",
+        "label": "unclassified"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. Mst. Hajran Bibi, aforesaid, filed a suit for dissolution of marriage against the petitioner before a learned Judge Family Court, Toba Tek Singh, on the grounds of cruelty, non-maintenance, false a6cusation of adultery and 'Khula'. The suit was, of course, resisted by the petitioner. Necessary issues, arising out of the parties, pleadings, were framed and the learned Judge, Family Court, after recording the parties evidence, dismissed the suit of Mst. Hajran Bibi on 21-2-1984. She preferred an appeal before a learned Additional District Judge, Toba Tek Singh, who, vide his impugned judgment, dated 29-10-1984, set aside the judgment passed by the learned Judge, Family Court, and decreed the suit of respondent No. 2. Thus the present Constitutional Petition.",
+        "label": "unclassified"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "3. It has been mainly contended on behalf of the petitioner that the learned trial Court had found that the dower had already been paid by the petitioner to respondent No. 2, although the said respondent, while appearing as her own witness stated that she would forego her claim regarding dower if the parties marriage was dissolved. It has thus been urged that, without making an order about the return of benefits, including the dower, received by the wife from the husband, marriage could not be dissolved on the ground of 'Khula'.",
+        "label": "unclassified"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "It is noteworthy that in the circumstances of the under consideration case, the learned Judge, Family Court, had returned the verdict on the issues pertaining to on-maintenance and cruelty against the wife, but the learned Additional District Judge has reversed the findings of the learned trial Court on these issues in appeal. A Court of appeal can competently reverse the findings even on issues of fact by re-appraising the evidence led at the trial. The High Court, however, in exercise of its extraordinary jurisdiction, cannot re-appraise the, evidence once appraised by a Court/tribunal of competent jurisdiction. In this view of the matter, apart from the ground of 'Khula' the learned Additional District Judge has dissolved the marriage of the petitioner with respondent No. 2 on the grounds of cruelty and non-maintenance. The findings arrived at by the learned Additional District Judge in this behalf cannot be interfered with by this Court, in exercise of its writ jurisdiction. The plea that marriage could not b dissolved on the ground of 'Khula' without making an order about the return of benefits received by the wife from, the husband, is also without any substance. The husband, if so advised, can have recourse to an independent action for recovery of benefits provided by him to the wife. There is nothing on the records to suggest that the wife in this case received such benefits from the husband. Regarding the dower, she has expressly deposed that the dower was not yet paid to her and, that she would forego her claim for the dower if her marriage with the petitioner was dissolved.",
+        "label": "unclassified"
+      },
+      {
+        "type": "paragraph_group",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "In the light of the above observations, there is no merit in the instant writ petition which is, therefore dismissed in limine.",
+        "label": "unclassified"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "A . A .",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

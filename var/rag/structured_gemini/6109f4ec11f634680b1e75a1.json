@@ -1,0 +1,134 @@
+{
+  "doc_id": "6109f4ec11f634680b1e75a1",
+  "metadata": {
+    "doc_id": "6109f4ec11f634680b1e75a1",
+    "case_title": "KAMRAN AHMED ANSARI vs Syeda MUNAZZA SHAHEEN and another",
+    "citation": "2008 M L D 914",
+    "court": "Karachi",
+    "court_location": "Karachi",
+    "decision_date": null,
+    "judges": [
+      "Agha Rafiq Ahmed Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "S.10",
+      "section 10",
+      "Art.199"
+    ],
+    "source_relpath": "2008K2564",
+    "content_hash": "644f64407c8d2d91eed238f7e309743d7c348a91bc536fbbb23cb01a2a7a9821"
+  },
+  "full_text": "2008 M L D 914\n\n[Karachi]\n\nBefore Agha Rafiq Ahmed Khan, J\n\nKAMRAN AHMED ANSARI---Petitioner\n\nVersus\n\nSyeda MUNAZZA SHAHEEN and another---Respondents\n\nConstitutional Petition No. S-471 of 2007, decided on 1st April, 2008.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched. & S.10(4)---Constitution of Pakistan (1973), Art.199---Constitutional petition---Dissolution of marriage on ground of khula--Family Court having dissolved the marriage of petitioner husband with respondent wife by way of khula in lieu of dower amount, petitioner had filed constitutional petition against judgment of the Family Court---Order passed by the Family Court had shown that petitioner did not appear in the Family Court and his counsel moved application for adjournment, which was dismissed---Since it was admitted that dower amount was not paid by the petitioner to respondent, she insisted for khula and marriage was dissolved under proviso to subsection (4) of S.10 of West Pakistan Family Courts Act, 1964---Respondent lady after dissolution of marriage having contracted marriage with someone else, petition had become infructuous---Family Court having rightly exercised its jurisdiction as provided in West Pakistan Family Courts Act, 1964, no illegality was found in impugned order passed by the Family Court---Constitutional petition was dismissed.\n\n2007 CLC 505 and PLD 1993 Quetta 1 rel.\n\nMansoorul Haq Ansari for Petitioner.\n\nSardaruddin Qureshi for Respondent No.1.\n\nORDER\n\nAGHA RAFIQ AIMED KHAN, J.-This constitutional petition has been filed by petitioner Kamran Ahmed Ansari against the order, dated 13-9-2007 passed by 1st Civil and Family Judge, Karachi Central in Family Suit No.375 of 2007 whereby the learned Family Judge dissolved the marriage of the petitioner with respondent No.1 by way of Khula in lieu of dower amount.\n\n2. Mr. Mansoorul Haq Ansari, Advocate for the petitioner has argued that this is an illegal order passed by the learned Family Judge as the petitioner was not given chance to appear before the Court and participate pre-trial proceedings. He has relied upon the judgments reported in 2007 CLC 505 and PLD 1993 Quetta 1.\n\n3. Mr. Sardaruddin Qureshi, advocate for respondent No.1 has argued that date was fixed for pre-trial proceedings and on that date respondent Mst. Syeda Munazza Shaheen was present but the petitioner did not appear and in the written statement the petitioner had admitted not have been paid the dower amount to the respondent, therefore, the learned Family Judge rightly dissolved the marriage by way of Khula. He has made statement at the bar that after the expiry of Iddat period the respondent has contracted marriage on 28-2-2008 with one Syed Basit Akhtar.\n\n4. I have gone through 'the material available before me and the case-law cited by the learned counsel for the petitioner. The facts of the present case are distinguishable from the facts mentioned in the above authorities. Order, dated 13-9-2007 of the Family Judge shows that the petitioner did not appear and his Advocate moved application for adjournment which was dismissed. The learned Judge had heard the respondent and since it was admitted that the dower amount was not paid and she insisted for Khula, therefore marriage was dissolved under the proviso to subsection (4) of section 10 of the West Pakistan Family Courts Act, 1964. It would be advantageous to reproduce the said proviso which reads as under:-\n\n\"Provided that notwithstanding any decision or judgment of any Court, Tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.\"\n\n5. Since the Advocate of the respondent has made statement at the bar that now the respondent lady has contracted marriage with one Syed Basit Akhtar on 28-2-2008, therefore, this petition has become infructuous. Even otherwise I do not see any illegality in the order passed by the learned Family Judge who has rightly exercised his jurisdiction provided in the Family Courts Act, 1964.\n\n6. For these reasons this petition has got no force which is accordingly dismissed in limine along with listed application.\n\nH.B.T./K-10/K Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "For these reasons this petition has got no force which is accordingly dismissed in limine along with listed application.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "H.B.T./K-10/K Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "2008 M L D 914\n\n[Karachi]\n\nBefore Agha Rafiq Ahmed Khan, J\n\nKAMRAN AHMED ANSARI---Petitioner\n\nVersus\n\nSyeda MUNAZZA SHAHEEN and another---Respondents\n\nConstitutional Petition No. S-471 of 2007, decided on 1st April, 2008.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched. & S.10(4)---Constitution of Pakistan (1973), Art.199---Constitutional petition---Dissolution of marriage on ground of khula--Family Court having dissolved the marriage of petitioner husband with respondent wife by way of khula in lieu of dower amount, petitioner had filed constitutional petition against judgment of the Family Court---Order passed by the Family Court had shown that petitioner did not appear in the Family Court and his counsel moved application for adjournment, which was dismissed---Since it was admitted that dower amount was not paid by the petitioner to respondent, she insisted for khula and marriage was dissolved under proviso to subsection (4) of S.10 of West Pakistan Family Courts Act, 1964---Respondent lady after dissolution of marriage having contracted marriage with someone else, petition had become infructuous---Family Court having rightly exercised its jurisdiction as provided in West Pakistan Family Courts Act, 1964, no illegality was found in impugned order passed by the Family Court---Constitutional petition was dismissed.\n\n2007 CLC 505 and PLD 1993 Quetta 1 rel.\n\nMansoorul Haq Ansari for Petitioner.\n\nSardaruddin Qureshi for Respondent No.1."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "AGHA RAFIQ AIMED KHAN, J.-This constitutional petition has been filed by petitioner Kamran Ahmed Ansari against the order, dated 13-9-2007 passed by 1st Civil and Family Judge, Karachi Central in Family Suit No.375 of 2007 whereby the learned Family Judge dissolved the marriage of the petitioner with respondent No.1 by way of Khula in lieu of dower amount.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. Mr. Mansoorul Haq Ansari, Advocate for the petitioner has argued that this is an illegal order passed by the learned Family Judge as the petitioner was not given chance to appear before the Court and participate pre-trial proceedings. He has relied upon the judgments reported in 2007 CLC 505 and PLD 1993 Quetta 1.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "3. Mr. Sardaruddin Qureshi, advocate for respondent No.1 has argued that date was fixed for pre-trial proceedings and on that date respondent Mst. Syeda Munazza Shaheen was present but the petitioner did not appear and in the written statement the petitioner had admitted not have been paid the dower amount to the respondent, therefore, the learned Family Judge rightly dissolved the marriage by way of Khula. He has made statement at the bar that after the expiry of Iddat period the respondent has contracted marriage on 28-2-2008 with one Syed Basit Akhtar.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "4. I have gone through 'the material available before me and the case-law cited by the learned counsel for the petitioner. The facts of the present case are distinguishable from the facts mentioned in the above authorities. Order, dated 13-9-2007 of the Family Judge shows that the petitioner did not appear and his Advocate moved application for adjournment which was dismissed. The learned Judge had heard the respondent and since it was admitted that the dower amount was not paid and she insisted for Khula, therefore marriage was dissolved under the proviso to subsection (4) of section 10 of the West Pakistan Family Courts Act, 1964. It would be advantageous to reproduce the said proviso which reads as under:-",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "quoted_material",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "\"Provided that notwithstanding any decision or judgment of any Court, Tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.\"",
+        "label": "quoted_material",
+        "confidence": 0.95,
+        "attribution": "unknown"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "5. Since the Advocate of the respondent has made statement at the bar that now the respondent lady has contracted marriage with one Syed Basit Akhtar on 28-2-2008, therefore, this petition has become infructuous. Even otherwise I do not see any illegality in the order passed by the learned Family Judge who has rightly exercised his jurisdiction provided in the Family Courts Act, 1964.",
+        "label": "final_order",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "6. For these reasons this petition has got no force which is accordingly dismissed in limine along with listed application.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "H.B.T./K-10/K Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

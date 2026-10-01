@@ -1,0 +1,131 @@
+{
+  "doc_id": "71015e7892e90dbcdba401f7",
+  "metadata": {
+    "doc_id": "71015e7892e90dbcdba401f7",
+    "case_title": "TARIQ JAVED vs Mst. TAHIRA BIBI and 2 others",
+    "citation": "2006 M L D 1956",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Syed Asghar Haider"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "partly_allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "Ss. 5",
+      "Art.199"
+    ],
+    "source_relpath": "2006L2859",
+    "content_hash": "aee9aaae2946bacb9caeb7fa4275f576b97a3aa5342f7ce098a7bb21c47c4dd0"
+  },
+  "full_text": "2006 M L D 1956\n\n[Lahore]\n\nBefore Syed Asghar Haider, J\n\nTARIQ JAVED---Petitioner\n\nVersus\n\nMst. TAHIRA BIBI and 2 others---Respondents\n\nWrit Petition No.2866 of 2006, decided on 29th March, 2006.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss. 5, Sched. & 14---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of maintenance amount and dowry articles---Enhancement of amount---Petitioner being father of minor, was bound to maintain minor---Maintenance amount for minor, in circumstances of the case had rightly been enhanced by appellate court from Rs.600 P.M. to Rs.1000 P.M. as same was in consonance with the evidence led by the parties, which needed no interference---Enhancement in dowry articles was also made by appellate court keeping in view list of dowry and also considering evidence led by the parties---Appellate court had enhanced decretal amount after considering evidence---Detailed inquiry could not be held into factual aspect of the matter and re-appraisal of evidence could not be undertaken in constitutional jurisdiction of High Court---No un-lawful or illegal exercise of jurisdiction having been pointed out by petitioner, in the absence of any infirmity or illegality in impugned judgment, constitutional petition was dismissed.\n\nMalik Muhammad Imtiaz Mahl for Petitioner.\n\nORDER\n\nSYED ASGHAR HAIDER, J.---The petitioner was married to respondent No.1 on 19-8-2003. Of the wed-lock, a minor son namely Khurram Shahzad was born. Respondent No.1 filed a Suit for recovery of dowry articles while the petitioner/defendant filed a Suit for Restitution of Conjugal Rights. The petitioner's suit for Restitution of Conjugal Rights was dismissed while the suit of respondent No.1 was decreed as follows:--\n\n\"Maintenance allowance at the rate of Rs.600 per month with increase of 10% for the minor and the Suit for dowry articles was decreed to the extent of Rs.30,000\".\n\nRespondent No.1 filed an appeal against the judgment pertaining to decree of dowry articles, the appeal was partly accepted by the learned Additional District Judge, Sargodha, maintenance of minor was enhanced to Rs. 1000 and the quantum of dowry articles was enhanced to Rs.60,000 on the ground that besides dowry articles, a buffalo was also given to the respondent.\n\n2. The petitioner is aggrieved of this judgment and has filed the present petition.\n\n3. The learned counsel for the petitioner contended that impugned judgment is bad in law as there was absolutely no material with the learned lower Appellate Court to enhance the decretal amount and the enhancement is not in consonance with the evidence. The petitioner is very poor man and he cannot pay this amount, the Court has wrongly considered his financial status which is contrary to the evidence led by him.\n\n4. I have heard the learned counsel for the petitioner and with his assistance also perused the relevant record and judgments passed by both the Courts below.\n\n5. The petitioner is bound to maintain the minor, therefore, the maintenance for the minor has been rightly enhanced by the learned Appellate Court from Rs.600 to Rs.1000. This is in consonance with the evidence led by the parties and needs no interference. The enhancement to dowry articles was made by the lower Appellate Court keeping in view Exh. P.1. the list of dowry articles and also considering the A evidence led by the parties, the factum of giving a buffalo stands established from record, the learned lower Appellate Court has enhanced the decretal amount after considering the evidence. A detailed inquiry cannot be held into factual aspect of the matter. Likewise reappraisal of evidence cannot be undertaken in the constitutional jurisdiction of this Court. No un-lawful or illegal exercise of jurisdiction has been pointed out by the learned counsel for the petitioner. Therefore, there is no infirmity or illegality in the impugned judgment, this petition has no merits, and is dismissed in limine.\n\nH.B.T./T-22/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "Therefore, there is no infirmity or illegality in the impugned judgment, this petition has no merits, and is dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "H.B.T./T-22/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 9,
+        "text": "2006 M L D 1956\n\n[Lahore]\n\nBefore Syed Asghar Haider, J\n\nTARIQ JAVED---Petitioner\n\nVersus\n\nMst. TAHIRA BIBI and 2 others---Respondents\n\nWrit Petition No.2866 of 2006, decided on 29th March, 2006.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss. 5, Sched. & 14---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of maintenance amount and dowry articles---Enhancement of amount---Petitioner being father of minor, was bound to maintain minor---Maintenance amount for minor, in circumstances of the case had rightly been enhanced by appellate court from Rs.600 P.M. to Rs.1000 P.M. as same was in consonance with the evidence led by the parties, which needed no interference---Enhancement in dowry articles was also made by appellate court keeping in view list of dowry and also considering evidence led by the parties---Appellate court had enhanced decretal amount after considering evidence---Detailed inquiry could not be held into factual aspect of the matter and re-appraisal of evidence could not be undertaken in constitutional jurisdiction of High Court---No un-lawful or illegal exercise of jurisdiction having been pointed out by petitioner, in the absence of any infirmity or illegality in impugned judgment, constitutional petition was dismissed.\n\nMalik Muhammad Imtiaz Mahl for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 10,
+        "paragraph_end": 10,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "SYED ASGHAR HAIDER, J.---The petitioner was married to respondent No.1 on 19-8-2003. Of the wed-lock, a minor son namely Khurram Shahzad was born. Respondent No.1 filed a Suit for recovery of dowry articles while the petitioner/defendant filed a Suit for Restitution of Conjugal Rights. The petitioner's suit for Restitution of Conjugal Rights was dismissed while the suit of respondent No.1 was decreed as follows:--",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "\"Maintenance allowance at the rate of Rs.600 per month with increase of 10% for the minor and the Suit for dowry articles was decreed to the extent of Rs.30,000\".",
+        "label": "lower_court_orders",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "Respondent No.1 filed an appeal against the judgment pertaining to decree of dowry articles, the appeal was partly accepted by the learned Additional District Judge, Sargodha, maintenance of minor was enhanced to Rs. 1000 and the quantum of dowry articles was enhanced to Rs.60,000 on the ground that besides dowry articles, a buffalo was also given to the respondent.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. The petitioner is aggrieved of this judgment and has filed the present petition.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "3. The learned counsel for the petitioner contended that impugned judgment is bad in law as there was absolutely no material with the learned lower Appellate Court to enhance the decretal amount and the enhancement is not in consonance with the evidence. The petitioner is very poor man and he cannot pay this amount, the Court has wrongly considered his financial status which is contrary to the evidence led by him.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "4. I have heard the learned counsel for the petitioner and with his assistance also perused the relevant record and judgments passed by both the Courts below.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "5. The petitioner is bound to maintain the minor, therefore, the maintenance for the minor has been rightly enhanced by the learned Appellate Court from Rs.600 to Rs.1000. This is in consonance with the evidence led by the parties and needs no interference. The enhancement to dowry articles was made by the lower Appellate Court keeping in view Exh. P.1. the list of dowry articles and also considering the A evidence led by the parties, the factum of giving a buffalo stands established from record, the learned lower Appellate Court has enhanced the decretal amount after considering the evidence. A detailed inquiry cannot be held into factual aspect of the matter. Likewise reappraisal of evidence cannot be undertaken in the constitutional jurisdiction of this Court. No un-lawful or illegal exercise of jurisdiction has been pointed out by the learned counsel for the petitioner. Therefore, there is no infirmity or illegality in the impugned judgment, this petition has no merits, and is dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "H.B.T./T-22/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "doc_id": "73bc34a8dc9a2c1a64242568",
+  "metadata": {
+    "doc_id": "73bc34a8dc9a2c1a64242568",
+    "case_title": "ORDER",
+    "citation": "1989 M L D 4598",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Muhammad Munir Khan"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Pakistan Family Courts Act (XXXV of 1964)",
+      "Muslim Family Laws Ordinance (VIII of 1961)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "Art. 199"
+    ],
+    "source_relpath": "1989LAH3409",
+    "content_hash": "04a6a301257f21b737ab0d8fdb5b4b0ac6ecfb18ac99606828f7a23a80ef92d6"
+  },
+  "full_text": "1989 M L D 4598\n\n[Lahore]\n\nBefore Muhammad Munir Khan, J\n\nGHULAM MUHAMMAD‐‐Petitioner\n\nversus\n\nSYED IMAM ALI SHAH and others‐‐Respondents\n\nWrit Petition No. 809‐F/BWP of 1989, decided on 27th June, 1989.\n\n(a) Constitution of Pakistan (1973)---\n\n‐‐‐Art. 199‐‐Constitutional jurisdiction, exercise of‐‐Finding on issue of fact, concurrently arrived at by two Courts below, held, could not be interfered with, in constitutional jurisdiction of High Court when no misreading/non‐reading of evidence by them was pointed out.\n\n(b) West\n\nPakistan Family Courts Act (XXXV of 1964)---\n\n‐‐‐S.5‐‐‐Muslim Family Laws Ordinance (VIII of 1961), P010‐‐Suit for recovery of dower‐ ‐Separation of consolidated suits‐‐Trial Court after having consolidated three suits filed by wife against husband, separated suit for recovery of dower money and after framing fresh issues in case proceeded in accordance with law‐. Court, held, was quite competent to try suit for recovery of dower money separately in view of fact that separate trial is a rule d consolidated trial is an exception.\n\nRao Abdul Rauf Najmee for Petitioner.\n\nORDER\n\nThrough this Constitutional Petition, Ghulam Muhammad petitioner wants this Court to declare the judgments and decrees dated 25‐3‐1988 and 14‐3-1989 passed by Judge Family Court, Bahawalnagar, respondent No.1 and District Judge, Bahawalnagar, respondent No. 2, respectively, to be without lawful authority and of no legal effect.\n\n2. The facts leading to this petition briefly are that on 23‐4‐1984 Nasim Akhtar, respondent No.3, filed a suit for the recovery of Rs. 5 000 as dower amount, against Ghulam Muhammad petitioner before Judge Family Court, Bahawalnagar. The suit was resisted. The parties led evidence. The learned Judge Family Court decreed the suit on 23‐5‐1988. The appeal filed by the petitioner against this judgment and decree was dismissed by the learned District Judge, Bahawalnagar on 14‐3‐1989, hence this petition.\n\n3. Before me, the learned counsel has challenged the findings of the Courts below on issue No. 1, which is as under:‐‐\n\n\"Whether the plaintiff has relinquished her claim of dower as per preliminary objection No. 1 of written statement ? \"OPD\n\nLearned counsel submitted that the judgments of the Courts below on this issue suffer from misreading of evidence; that the petitioner has produced sufficient evidence in proof of relinquishment of dower amount by the respondent and that the trial Court after having consolidated the three suits filed by the respondent against the petitioner, had illegally separated the suit for the recovery of dower money, therefore, the entire trial was illegal.\n\n4. I have considered the submissions made by the learned counsel with care. Preliminary objection No. I may be reproduced conveniently:‐‐\n\nIssue No. 1 is thus an issue of fact. Both the Courts have. concurrently found the issue against the petitioner. The learned counsel has not been able to point out any misreading/non‐reading of material evidence by the Courts below. There is no legal bar to the separation of already consolidated cases. Learned counsel has not been able to show as to how the order of separate trial of suit for the recovery of dower money was illegal. It is well settled that separate trial is a rule and consolidated trial is an exception. The Court was quite competent to try the suit for the recovery of dower money separately. After having separated the case, the trial Court framed fresh issues in the suit and proceeded in accordance with law. So, the submissions made by the learned counsel are devoid of force and substance. The petitioner has not produced any receipt of the payment of dower money to the respondent. He also not produced the alleged agreement of the transfer of house in lieu of dower money m favour of the respondent. Admittedly, Rs. 5,000 were fixed as dower money at the time of Nikah. There is no reliable evidence to show that the dower money was relinquished by the wife or was actually paid by the petitioner to her. The Courts below have not flouted the B provisions of relevant law. I do not see any legal infirmity in the judgments of the Courts below.\n\nFor what has been said above, there being no merit, the petition is dismissed in limine.\n\nH.B.T./G‐278/L ?????????\n\nPetition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "sentence": "Petition dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "sentence": "H.B.T./G‐278/L ?????????",
+        "label": "unclassified"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "1989 M L D 4598\n\n[Lahore]\n\nBefore Muhammad Munir Khan, J\n\nGHULAM MUHAMMAD‐‐Petitioner\n\nversus\n\nSYED IMAM ALI SHAH and others‐‐Respondents\n\nWrit Petition No. 809‐F/BWP of 1989, decided on 27th June, 1989."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 9,
+        "text": "(a) Constitution of Pakistan (1973)---\n\n‐‐‐Art. 199‐‐Constitutional jurisdiction, exercise of‐‐Finding on issue of fact, concurrently arrived at by two Courts below, held, could not be interfered with, in constitutional jurisdiction of High Court when no misreading/non‐reading of evidence by them was pointed out.\n\n(b) West"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 10,
+        "paragraph_end": 12,
+        "text": "Pakistan Family Courts Act (XXXV of 1964)---\n\n‐‐‐S.5‐‐‐Muslim Family Laws Ordinance (VIII of 1961), P010‐‐Suit for recovery of dower‐ ‐Separation of consolidated suits‐‐Trial Court after having consolidated three suits filed by wife against husband, separated suit for recovery of dower money and after framing fresh issues in case proceeded in accordance with law‐. Court, held, was quite competent to try suit for recovery of dower money separately in view of fact that separate trial is a rule d consolidated trial is an exception.\n\nRao Abdul Rauf Najmee for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "Through this Constitutional Petition, Ghulam Muhammad petitioner wants this Court to declare the judgments and decrees dated 25‐3‐1988 and 14‐3-1989 passed by Judge Family Court, Bahawalnagar, respondent No.1 and District Judge, Bahawalnagar, respondent No. 2, respectively, to be without lawful authority and of no legal effect.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. The facts leading to this petition briefly are that on 23‐4‐1984 Nasim Akhtar, respondent No.3, filed a suit for the recovery of Rs. 5 000 as dower amount, against Ghulam Muhammad petitioner before Judge Family Court, Bahawalnagar. The suit was resisted. The parties led evidence. The learned Judge Family Court decreed the suit on 23‐5‐1988. The appeal filed by the petitioner against this judgment and decree was dismissed by the learned District Judge, Bahawalnagar on 14‐3‐1989, hence this petition.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 17,
+        "text": "3. Before me, the learned counsel has challenged the findings of the Courts below on issue No. 1, which is as under:‐‐\n\n\"Whether the plaintiff has relinquished her claim of dower as per preliminary objection No. 1 of written statement ? \"OPD",
+        "label": "issues",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "Learned counsel submitted that the judgments of the Courts below on this issue suffer from misreading of evidence; that the petitioner has produced sufficient evidence in proof of relinquishment of dower amount by the respondent and that the trial Court after having consolidated the three suits filed by the respondent against the petitioner, had illegally separated the suit for the recovery of dower money, therefore, the entire trial was illegal.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "quoted_material",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "4. I have considered the submissions made by the learned counsel with care. Preliminary objection No. I may be reproduced conveniently:‐‐",
+        "label": "quoted_material",
+        "confidence": 0.8,
+        "attribution": "unknown"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "Issue No. 1 is thus an issue of fact. Both the Courts have. concurrently found the issue against the petitioner. The learned counsel has not been able to point out any misreading/non‐reading of material evidence by the Courts below. There is no legal bar to the separation of already consolidated cases. Learned counsel has not been able to show as to how the order of separate trial of suit for the recovery of dower money was illegal. It is well settled that separate trial is a rule and consolidated trial is an exception. The Court was quite competent to try the suit for the recovery of dower money separately. After having separated the case, the trial Court framed fresh issues in the suit and proceeded in accordance with law. So, the submissions made by the learned counsel are devoid of force and substance. The petitioner has not produced any receipt of the payment of dower money to the respondent. He also not produced the alleged agreement of the transfer of house in lieu of dower money m favour of the respondent. Admittedly, Rs. 5,000 were fixed as dower money at the time of Nikah. There is no reliable evidence to show that the dower money was relinquished by the wife or was actually paid by the petitioner to her. The Courts below have not flouted the B provisions of relevant law. I do not see any legal infirmity in the judgments of the Courts below.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "For what has been said above, there being no merit, the petition is dismissed in limine.",
+        "label": "final_order",
+        "confidence": 0.99
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "text": "H.B.T./G‐278/L ?????????",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "text": "Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

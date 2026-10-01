@@ -1,0 +1,127 @@
+{
+  "doc_id": "13f37f2c940d9f6c3e626ac6",
+  "metadata": {
+    "doc_id": "13f37f2c940d9f6c3e626ac6",
+    "case_title": "JUDGMENT",
+    "citation": "1991 C L C 1425",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": "1991-01-01",
+    "judges": [
+      "Malik Muhammad Qayyum"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "Art. 199"
+    ],
+    "source_relpath": "1991L409",
+    "content_hash": "23de05fb14977da1b37830508ce68902c56017e668e051c9d23ccd6096e9216d"
+  },
+  "full_text": "1991 C L C 1425\n\n[Lahore]\n\nBefore Malik Muhammad Qayyum, J\n\nGHULAM QADIR‐‐‐Petitioner\n\nversus\n\nZEESHAN AHMAD and others‐‐‐Respondents\n\nWrit Petition No.7697 of 1990, heard 31st March, 1991.\n\n(a) West Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐S.5‐‐‐Constitution of Pakistan (1973), Art. 199‐‐‐Maintenance‐‐‐Wife's suit for maintenance decreed‐‐‐Husband did not file appeal against decree of Family Court‐‐‐Wife, however, filed appeal for enhancement of amount of maintenance which was enhanced by Appellate Court‐‐‐‐Husband could not challenge Family Court's decree in Constitutional petition for his failure to challenge the same in appeal.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐S.5‐‐‐Constitution of Pakistan (1973), Art. 199‐‐‐Constitutional jurisdiction, exercise of‐‐‐Appellate Court on wife's appeal had enhanced amount of maintenance purportedly on consent of counsel of parties‐‐‐Counsel who had appeared for husband in Appellate Court, filing affidavit that he had' not consented ‐to such enhancement‐‐‐Wife's side having remained absent in Constitutional petition, allegations on behalf of husband as to enhancement of rate of maintenance remained unrebutted‐‐‐Appellate Court having proceeded wholly on basis of consent of husband's counsel, judgment rendered by it was without lawful authority and same was set aside‐‐‐Judgment and decree rendered by Trial Court was, however, restored.\n\nCh. MA. Majid Bajwa for Petitioner.\n\nNemo for Respondents.\n\nDate of hearing: 31st March, 1991.\n\nJUDGMENT\n\nIn the suit filed by him, respondent No.l had claimed maintenance w.e.f. 14th of October, 1984 at the rate of Rs. 1,200 per month. By means of his judgment and decree dated 20th December, 1989 the learned Judge Family Court found respondent No.l entitled to receive maintenance from the petitioner at the rate of Rs.300 per month w.e.f. 14th October, 1987,\n\n2. No appeal was filed by the petitioner against the aforesaid decree which was however challenged by respondent No.l by filing an appeal on the ground that the rate at which the maintenance had been awarded was inadequate. The appeal was heard by Mr. Muhammad Ahmad Afghani, Addl. District Judge, Sialkot who on 1st of July, 1990 enhanced the rate at which future maintenance was payable from Rs.300 to Rs.400 per month in view of an agreement between the counsel for the parties during arguments. Hence this petition.\n\n3. The learned counsel for the petitioner attempted to challenge the decree of the Family Court awarding maintenance at the rate of Rs.300 but he was A unable to satisfy this Court as to how he could do so in view of the fact that no appeal was filed by the petitioner against the decree of the Family Court before the District Judge.\n\n4. The learned counsel for the petitioner next vehemently contended that the Additional District Judge has acted illegally in enhancing the rate of future maintenance w.e.f 1st of July, 1990 from Rs.300 to Rs.400 per month. It was argued that the counsel for the petitioner had never agreed before the Additional District Judge to the enhancement and the Additional District Judge acted illegally in: observing to the contrary. An affidavit sworn by Ch. Shahbaz Ahmad, Advocate who appeared on behalf of the petitioner has been placed on record wherein he has deposed that he never consented to the enhancement in the rate of maintenance.\n\n5. No one has appeared on behalf of the respondent to contest this petition. Therefore, these allegations have gone unrebutted. In view of the affidavit of the learned counsel and in absence of any rebuttal, this contention has to be accepted. As the Additional District Judge proceeded wholly on the basis of the alleged consent of the learned counsel for the petitioner, the judgment rendered by him is without lawful authority.\n\nAs a result of what has been stated above, this petition is accepted, the judgment of the Additional District Judge, dated 1st of July.1990 is declared to be without lawful authority and of no legal effect with the result that the judgment and decree of the Family Court stands restored with no order as to costs.\n\nAA./G‐452/L.????????????????????????????????????????????????????????????????????????? Petition accepted.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "As a result of what has been stated above, this petition is accepted, the judgment of the Additional District Judge, dated 1st of July.1990 is declared to be without lawful authority and of no legal effect with the result that the judgment and decree of the Family Court stands restored with no order as to costs.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "sentence": "AA./G‐452/L.????????????????????????????????????????????????????????????????????????? Petition accepted.",
+        "label": "allowed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "1991 C L C 1425\n\n[Lahore]\n\nBefore Malik Muhammad Qayyum, J\n\nGHULAM QADIR‐‐‐Petitioner\n\nversus\n\nZEESHAN AHMAD and others‐‐‐Respondents\n\nWrit Petition No.7697 of 1990, heard 31st March, 1991."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 9,
+        "text": "(a) West Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐S.5‐‐‐Constitution of Pakistan (1973), Art. 199‐‐‐Maintenance‐‐‐Wife's suit for maintenance decreed‐‐‐Husband did not file appeal against decree of Family Court‐‐‐Wife, however, filed appeal for enhancement of amount of maintenance which was enhanced by Appellate Court‐‐‐‐Husband could not challenge Family Court's decree in Constitutional petition for his failure to challenge the same in appeal.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)‐‐‐"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 10,
+        "paragraph_end": 13,
+        "text": "‐‐‐‐S.5‐‐‐Constitution of Pakistan (1973), Art. 199‐‐‐Constitutional jurisdiction, exercise of‐‐‐Appellate Court on wife's appeal had enhanced amount of maintenance purportedly on consent of counsel of parties‐‐‐Counsel who had appeared for husband in Appellate Court, filing affidavit that he had' not consented ‐to such enhancement‐‐‐Wife's side having remained absent in Constitutional petition, allegations on behalf of husband as to enhancement of rate of maintenance remained unrebutted‐‐‐Appellate Court having proceeded wholly on basis of consent of husband's counsel, judgment rendered by it was without lawful authority and same was set aside‐‐‐Judgment and decree rendered by Trial Court was, however, restored.\n\nCh. MA. Majid Bajwa for Petitioner.\n\nNemo for Respondents.\n\nDate of hearing: 31st March, 1991."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 16,
+        "text": "In the suit filed by him, respondent No.l had claimed maintenance w.e.f. 14th of October, 1984 at the rate of Rs. 1,200 per month. By means of his judgment and decree dated 20th December, 1989 the learned Judge Family Court found respondent No.l entitled to receive maintenance from the petitioner at the rate of Rs.300 per month w.e.f. 14th October, 1987,\n\n2. No appeal was filed by the petitioner against the aforesaid decree which was however challenged by respondent No.l by filing an appeal on the ground that the rate at which the maintenance had been awarded was inadequate. The appeal was heard by Mr. Muhammad Ahmad Afghani, Addl. District Judge, Sialkot who on 1st of July, 1990 enhanced the rate at which future maintenance was payable from Rs.300 to Rs.400 per month in view of an agreement between the counsel for the parties during arguments. Hence this petition.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "3. The learned counsel for the petitioner attempted to challenge the decree of the Family Court awarding maintenance at the rate of Rs.300 but he was A unable to satisfy this Court as to how he could do so in view of the fact that no appeal was filed by the petitioner against the decree of the Family Court before the District Judge.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "4. The learned counsel for the petitioner next vehemently contended that the Additional District Judge has acted illegally in enhancing the rate of future maintenance w.e.f 1st of July, 1990 from Rs.300 to Rs.400 per month. It was argued that the counsel for the petitioner had never agreed before the Additional District Judge to the enhancement and the Additional District Judge acted illegally in: observing to the contrary. An affidavit sworn by Ch. Shahbaz Ahmad, Advocate who appeared on behalf of the petitioner has been placed on record wherein he has deposed that he never consented to the enhancement in the rate of maintenance.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "5. No one has appeared on behalf of the respondent to contest this petition. Therefore, these allegations have gone unrebutted. In view of the affidavit of the learned counsel and in absence of any rebuttal, this contention has to be accepted. As the Additional District Judge proceeded wholly on the basis of the alleged consent of the learned counsel for the petitioner, the judgment rendered by him is without lawful authority.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "As a result of what has been stated above, this petition is accepted, the judgment of the Additional District Judge, dated 1st of July.1990 is declared to be without lawful authority and of no legal effect with the result that the judgment and decree of the Family Court stands restored with no order as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "AA./G‐452/L.????????????????????????????????????????????????????????????????????????? Petition accepted.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

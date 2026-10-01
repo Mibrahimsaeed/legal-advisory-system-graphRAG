@@ -1,0 +1,158 @@
+{
+  "doc_id": "05c9109a43646f6748f7a76b",
+  "metadata": {
+    "doc_id": "05c9109a43646f6748f7a76b",
+    "case_title": "1982 C L C 2295",
+    "citation": "1982 C L C 2295",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Muhammad Afzal Lone"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Dissolution of Muslim Marriages Act (VIII of 1939)",
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 3"
+    ],
+    "source_relpath": "1982L560",
+    "content_hash": "a25a908f23fd71a8a5bd013bca1253395dd79db45ee9294ec326255ece4972fd"
+  },
+  "full_text": "1982 C L C 2295\n\n[Lahore]\n\nBefore Muhammad Afzal Lone, J\n\nAAS MUHAMMAD‐Petitioner\n\nversus\n\nSAKINA BIBI AND OTHERS‐Respondents\n\nWrit Petition No. 5761 of 1981, decided on 22nd February 1982.\n\n(a) Muhammadan Law‐\n\n‐‐:‐ Marriage‐Minor's marriage, held, can be validly contracted by guardian.\n\n(b) Dissolution of Muslim Marriages Act (VIII of 1939)‐\n\n‐‐ S. 3 read with West Pakistan Family Courts Act (XXXV of 1964), S, 14‐‐‐Dissolution of marriage‐Right of option of puberty Exercise of‐Family Court giving incorrect finding that `nikah' solemnized during minority such marriage illegal and void ‐‐Merely because Family Court went wrong in one respect, held, no ground to set aside whole judgment.\n\nMuhammad Hussain Munir v. Sikandar and others P L D 1974 S C 139 rel.\n\nRao Hamid Mukhtar Khan for Petitioner.\n\nMohammad Nasim Khan for Respondent No. 1.\n\nNemo for Respondent No. 2.\n\nDate of hearing : 22nd February, 1982.\n\nJUDGMENT\n\nMst. Sakina Bibi respondent filed a suit for dissolution of marriage in exercise of her right of option at puberty. It was pleaded that she was married to the petitioner, at the age of eight years, the marriage was never consummated but repudiated by her on attaining the age of 18 years. The petitioner on his part, brought a suit for restitution of conjugal rights and also contested the suit tiled by the respondent.\n\n2. The learned Judge Family Court consolidated the two suits and1‐ou 26th October,1981 dissolved the marriage Consequently, the suit for restitution of conjugal rights stood dismissed. Hence this writ petition by the husband.\n\n3. The learned Family Court framed the following issues, arising out of the pleading of the parties :‐\n\n(1) Whether the suit of the plaintiff bearing No. 200/79 is not maintainable in its present form, in view of preliminary objec tion No. 1 raised in the written statement filed in this suit ?\n\n(2) Whether the form of Suit No. 200/79 is incorrect ?\n\n(3) Whether the plaintiff has validly repudiated her `nikah' by exercising her right of option of puberty ?\n\n(4) For non‐proof of issue No. 3, whether the defendant is entitled to a decree for restitution of conjugal rights ?\n\n(5) Relief.\n\nOn evaluation of the material before .it, the Court rejected the petitioner's evidence but accepted that of the respondent. It came to the conclusion that the marriage took place during her minority and there was no consummation. While deciding issue No. 3 the learned Court observed that as the `nikah' was solemnized during the respondent's minority, the marriage was illegal and void.\n\n4. I have heard the learned counsel for the parties and examined the record. The only point urged on behalf of the petitioner is that under the Muslim Law, a minor's marriage with the consent of his guardian is not invalid and that, therefore, the learned Judge Family Court, took an erroneous view of the law. According to him, as issue No. 3 was not properly decide, the entire judgment was rendered as illegal.\n\n5. I am inclined to agree with the petitioner's learned counsel, that a minor may be validly. contracted in marriage by his guardian and the learned Judge Family Court fell in error in holding otherwise but this incorrect assumption of law does not vitiate the whole judgment. In the written statement, the petitioner raised preliminary objections to the effect that the respondent performed her matrimonial obligations; she was 23 years old and thus the suit in its present form did not lie. The first two issues cover these objections. It is, however, evident from the impugned judgment that the learned Judge was fully conscious, as to the age at which, the respondent exercised the right of option of puberty and while deciding issue No. 1 he differ to the evidence of the parties on this point. The objection now raised by the petitioner's learned counsel is fully answered when the judgment is read as a whole. Merely because in one respect the learned Judge Family Court, went wrong, is no ground to set aside the whole judgment and the decree; in exercise .of writ jurisdiction. In Muhammad Hussain Munir v. Sikandar and others (PLD1974SC139) it has been laid, down :‐\n\nIt is well settled that where a Court or a tribunal has jurisdic tion and it determines that question, it cannot be said that it acted illegally or with material irregularity merely because it came to an erroneous decision on a question of fact or even of law ......\n\nIt is not the petitioner's case that the Family Court had no jLlrisdic tion in the matter. The error in the judgment, if any, thus, does not furnish a valid basis for judicial review.\n\n6. For all these reasons this writ petition having been found without any merit, is dismissed but with no order as to costs.\n\nM Y H. Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 30,
+        "paragraph_end": 30,
+        "sentence": "For all these reasons this writ petition having been found without any merit, is dismissed but with no order as to costs.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 31,
+        "paragraph_end": 31,
+        "sentence": "Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "1982 C L C 2295\n\n[Lahore]\n\nBefore Muhammad Afzal Lone, J\n\nAAS MUHAMMAD‐Petitioner\n\nversus\n\nSAKINA BIBI AND OTHERS‐Respondents\n\nWrit Petition No. 5761 of 1981, decided on 22nd February 1982."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 11,
+        "text": "(a) Muhammadan Law‐\n\n‐‐:‐ Marriage‐Minor's marriage, held, can be validly contracted by guardian.\n\n(b) Dissolution of Muslim Marriages Act (VIII of 1939)‐\n\n‐‐ S. 3 read with West Pakistan Family Courts Act (XXXV of 1964), S, 14‐‐‐Dissolution of marriage‐Right of option of puberty Exercise of‐Family Court giving incorrect finding that `nikah' solemnized during minority such marriage illegal and void ‐‐Merely because Family Court went wrong in one respect, held, no ground to set aside whole judgment.\n\nMuhammad Hussain Munir v. Sikandar and others P L D 1974 S C 139 rel."
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 12,
+        "paragraph_end": 15,
+        "text": "Rao Hamid Mukhtar Khan for Petitioner.\n\nMohammad Nasim Khan for Respondent No. 1.\n\nNemo for Respondent No. 2.\n\nDate of hearing : 22nd February, 1982."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "Mst. Sakina Bibi respondent filed a suit for dissolution of marriage in exercise of her right of option at puberty. It was pleaded that she was married to the petitioner, at the age of eight years, the marriage was never consummated but repudiated by her on attaining the age of 18 years. The petitioner on his part, brought a suit for restitution of conjugal rights and also contested the suit tiled by the respondent.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "2. The learned Judge Family Court consolidated the two suits and1‐ou 26th October,1981 dissolved the marriage Consequently, the suit for restitution of conjugal rights stood dismissed. Hence this writ petition by the husband.",
+        "label": "lower_court_orders",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 24,
+        "text": "3. The learned Family Court framed the following issues, arising out of the pleading of the parties :‐\n\n(1) Whether the suit of the plaintiff bearing No. 200/79 is not maintainable in its present form, in view of preliminary objec tion No. 1 raised in the written statement filed in this suit ?\n\n(2) Whether the form of Suit No. 200/79 is incorrect ?\n\n(3) Whether the plaintiff has validly repudiated her `nikah' by exercising her right of option of puberty ?\n\n(4) For non‐proof of issue No. 3, whether the defendant is entitled to a decree for restitution of conjugal rights ?\n\n(5) Relief.",
+        "label": "issues",
+        "confidence": 0.98
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 25,
+        "paragraph_end": 25,
+        "text": "On evaluation of the material before .it, the Court rejected the petitioner's evidence but accepted that of the respondent. It came to the conclusion that the marriage took place during her minority and there was no consummation. While deciding issue No. 3 the learned Court observed that as the `nikah' was solemnized during the respondent's minority, the marriage was illegal and void.",
+        "label": "findings",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 26,
+        "paragraph_end": 26,
+        "text": "4. I have heard the learned counsel for the parties and examined the record. The only point urged on behalf of the petitioner is that under the Muslim Law, a minor's marriage with the consent of his guardian is not invalid and that, therefore, the learned Judge Family Court, took an erroneous view of the law. According to him, as issue No. 3 was not properly decide, the entire judgment was rendered as illegal.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 27,
+        "paragraph_end": 27,
+        "text": "5. I am inclined to agree with the petitioner's learned counsel, that a minor may be validly. contracted in marriage by his guardian and the learned Judge Family Court fell in error in holding otherwise but this incorrect assumption of law does not vitiate the whole judgment. In the written statement, the petitioner raised preliminary objections to the effect that the respondent performed her matrimonial obligations; she was 23 years old and thus the suit in its present form did not lie. The first two issues cover these objections. It is, however, evident from the impugned judgment that the learned Judge was fully conscious, as to the age at which, the respondent exercised the right of option of puberty and while deciding issue No. 1 he differ to the evidence of the parties on this point. The objection now raised by the petitioner's learned counsel is fully answered when the judgment is read as a whole. Merely because in one respect the learned Judge Family Court, went wrong, is no ground to set aside the whole judgment and the decree; in exercise .of writ jurisdiction. In Muhammad Hussain Munir v. Sikandar and others (PLD1974SC139) it has been laid, down :‐",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 28,
+        "paragraph_end": 28,
+        "text": "It is well settled that where a Court or a tribunal has jurisdic tion and it determines that question, it cannot be said that it acted illegally or with material irregularity merely because it came to an erroneous decision on a question of fact or even of law ......",
+        "label": "authorities_cited",
+        "confidence": 0.85
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 29,
+        "paragraph_end": 29,
+        "text": "It is not the petitioner's case that the Family Court had no jLlrisdic tion in the matter. The error in the judgment, if any, thus, does not furnish a valid basis for judicial review.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 30,
+        "paragraph_end": 30,
+        "text": "6. For all these reasons this writ petition having been found without any merit, is dismissed but with no order as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 31,
+        "paragraph_end": 31,
+        "text": "M Y H. Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

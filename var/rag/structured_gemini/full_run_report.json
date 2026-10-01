@@ -1,0 +1,24 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "corpus_size": 2088,
+  "documents_completed": 2088,
+  "status_counts": {
+    "structured": 2057,
+    "non_judgment_text": 29,
+    "incomplete_source": 2
+  },
+  "validation_ok": 2088,
+  "validation_failed": 0,
+  "docs_with_fallback_batches": 148,
+  "total_spans": 34408,
+  "this_session_usage": {
+    "model": "gemini-3.5-flash-lite",
+    "call_count": 0,
+    "failed_call_count": 0,
+    "total_prompt_tokens": 0,
+    "total_completion_tokens": 0,
+    "total_tokens": 0,
+    "total_latency_seconds": 0.0
+  },
+  "this_session_elapsed_seconds": 0.0
+}

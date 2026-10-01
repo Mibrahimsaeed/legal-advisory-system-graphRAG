@@ -1,0 +1,125 @@
+{
+  "doc_id": "569079f73703a55390cbe635",
+  "metadata": {
+    "doc_id": "569079f73703a55390cbe635",
+    "case_title": "ORDER",
+    "citation": "1982 C L C 1295",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Muhammad Ilyas"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 20"
+    ],
+    "source_relpath": "1982L389",
+    "content_hash": "2760ee01d8c6adfdb8479f357c3a5c2bc844709828f3852659390e3110c52cc4"
+  },
+  "full_text": "1982 C L C 1295\n\n[Lahore]\n\nBefore Muhammad Ilyas, J\n\nBASHIR AHMAD‐Petitioner\n\nversus\n\nMst. ABIDA AND others---‐Respondents;\n\nWrit Petition No. 1496 of 198,2, decided on 11th May, 1982.\n\n(a) West Pakistan Family Courts Act (XXXV of 1964)‐----‐\n\n‐‐ S. 20‐Past maintenance‐Held, can be awarded to minors.\n\nMst. Ghulam Fatima v. Sheikh Muhammad Bashir P L D 1958 Lab. 5967 ref.\n\nMuhammad Nawaz v. fist. Khurshid Begum and 3 others P L D 1972 S C 302 fol.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)‐-----\n\n----S. 20‐Minor children‐Maintenance‐Father, regardless of his financial position, held, bound to maintain his minor children.\n\nMst. Ghulam Fatima v. Sheikh Muhammad Bashir P L ‐D 1958 Lab. 596 fol.\n\nShahid Hussain Kadri for Petitioner.\n\nDate of hearing : 11th May, 1982.\n\nORDER\n\nThe petitioner, Bashir Ahmed, is father of the respondents, Mst. Abida and two others. The respondents, who are minors, sued the petitioner through their mother. They not only asked for future maintenance but also claimed past maintenance. Although they had claimed maintenance at the rate of Rs. 600 P. M. yet the Family Court, which decided the suit, allowed them past and future maintenance at the rate of Rs. 150 P. M. The judgment and decree of the learned trial Court were challenged by the petitioner by taking an appeal before the learned Additional District Judge but in vain. He has, therefore, filed this writ petition.\n\n2. It was contended by learned counsel for the petitioner that the learned Family Court had no jurisdiction to grant past maintenance. He cited Mst. Ghulam Fatima v. Sheikh Muhammad Bashir (P L D 1958 Lah. 596) to support his argument. This plea was also raised before the learned Additional District Judge but was‐ repelled by him by placing reliance on Muhammad Nawaz v. Mst. Khurshid Begum and 3 others (P L, D 1972 S C 302). In the case of Mst. Ghulam Fatima it was held by the learned Single Judge of the Erstwhile High Court of West Pakistan that past maintenance cannot be claimed from the father unless maintenance is previously fixed by the Court. In the case of Muhammad Nawaz decided by the Supreme Court, it was held that past maintenance can also be allowed. The case of Mst. Ghulam Fatima was decided before the coming into force of the Family Courts Act whereunder the suit giving rise to the present petition was decided. Also, for obvious reasons, the dictum in the case of Muhammad Nawaz is to be followed in preference to the view expressed in the case of Mst. Ghulam Fatima because the former case was decided by the Supreme Court whereas the latter was disposed of by a High Court. Relying on the decision in the case of Muhammad Nawaz, therefore, I agree with the learned Additional District Judge that past maintenance could also be awarded to the respondents.\n\n3. Another point canvassed by learned counsel was that there was no evidence showing that the petitioner had no means of livelihood. The judgment of the learned Family Court would reveal that although some of the witnesses of the respondents were not aware of the means of his livelihood yet it was stated by the petitioner (defendant) himself that be had monthly income of Rs. 500 to Rs. 600. In view of this statement of the petitioner, therefore, the learned trial Court was justified in obliging him to pay maintenance to his minor children. It has also been ruled in the case of Mst. Ghulam Fatima, cited by learned counsel for the petitioner that the' plaintiff is bound to maintain his wife regardless of his own financial position. This rule, to e my mind, can be made use of by the minor children as well. There is thus little force in the argument of the learned counsel relating to the means of the livelihood of the petitioner.\n\n4. Lastly, it was complained by learned counsel that no separate issue relating to the past maintenance was struck by the learned trial Court. The issue framed by the said Court in regard to the maintenance was to the following effect :‐-----\n\n\"Whether the plaintiffs are entitled to get maintenance from the defen dant ? If so at what rate? O. P. P.\"\n\nSince the respondents had claimed past maintenance as well as the future one, the learned trial Court was not far wrong in framing the issue as done by it. The petitioner was well aware of their claim qua the past maintenance and, therefore, the framing of a separate issue in this behalf did not prejudice his case. In his statement as D. W. 3 it was not denied by the petitioner that the respondents had not lived with him during the period for which the past maintenance had been claimed. In the circumstances, the non‐framing of a separate issue relating to past maintenance is of no consequence.\n\n5. There is no force in this petition. It is dismissed in limine.\n\nM. Y. M. Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "sentence": "It is dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 24,
+        "paragraph_end": 24,
+        "sentence": "Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "1982 C L C 1295\n\n[Lahore]\n\nBefore Muhammad Ilyas, J\n\nBASHIR AHMAD‐Petitioner\n\nversus\n\nMst. ABIDA AND others---‐Respondents;\n\nWrit Petition No. 1496 of 198,2, decided on 11th May, 1982."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 11,
+        "text": "(a) West Pakistan Family Courts Act (XXXV of 1964)‐----‐\n\n‐‐ S. 20‐Past maintenance‐Held, can be awarded to minors.\n\nMst. Ghulam Fatima v. Sheikh Muhammad Bashir P L D 1958 Lab. 5967 ref.\n\nMuhammad Nawaz v. fist. Khurshid Begum and 3 others P L D 1972 S C 302 fol.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)‐-----"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 12,
+        "paragraph_end": 15,
+        "text": "----S. 20‐Minor children‐Maintenance‐Father, regardless of his financial position, held, bound to maintain his minor children.\n\nMst. Ghulam Fatima v. Sheikh Muhammad Bashir P L ‐D 1958 Lab. 596 fol.\n\nShahid Hussain Kadri for Petitioner.\n\nDate of hearing : 11th May, 1982."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "The petitioner, Bashir Ahmed, is father of the respondents, Mst. Abida and two others. The respondents, who are minors, sued the petitioner through their mother. They not only asked for future maintenance but also claimed past maintenance. Although they had claimed maintenance at the rate of Rs. 600 P. M. yet the Family Court, which decided the suit, allowed them past and future maintenance at the rate of Rs. 150 P. M. The judgment and decree of the learned trial Court were challenged by the petitioner by taking an appeal before the learned Additional District Judge but in vain. He has, therefore, filed this writ petition.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "2. It was contended by learned counsel for the petitioner that the learned Family Court had no jurisdiction to grant past maintenance. He cited Mst. Ghulam Fatima v. Sheikh Muhammad Bashir (P L D 1958 Lah. 596) to support his argument. This plea was also raised before the learned Additional District Judge but was‐ repelled by him by placing reliance on Muhammad Nawaz v. Mst. Khurshid Begum and 3 others (P L, D 1972 S C 302). In the case of Mst. Ghulam Fatima it was held by the learned Single Judge of the Erstwhile High Court of West Pakistan that past maintenance cannot be claimed from the father unless maintenance is previously fixed by the Court. In the case of Muhammad Nawaz decided by the Supreme Court, it was held that past maintenance can also be allowed. The case of Mst. Ghulam Fatima was decided before the coming into force of the Family Courts Act whereunder the suit giving rise to the present petition was decided. Also, for obvious reasons, the dictum in the case of Muhammad Nawaz is to be followed in preference to the view expressed in the case of Mst. Ghulam Fatima because the former case was decided by the Supreme Court whereas the latter was disposed of by a High Court. Relying on the decision in the case of Muhammad Nawaz, therefore, I agree with the learned Additional District Judge that past maintenance could also be awarded to the respondents.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "3. Another point canvassed by learned counsel was that there was no evidence showing that the petitioner had no means of livelihood. The judgment of the learned Family Court would reveal that although some of the witnesses of the respondents were not aware of the means of his livelihood yet it was stated by the petitioner (defendant) himself that be had monthly income of Rs. 500 to Rs. 600. In view of this statement of the petitioner, therefore, the learned trial Court was justified in obliging him to pay maintenance to his minor children. It has also been ruled in the case of Mst. Ghulam Fatima, cited by learned counsel for the petitioner that the' plaintiff is bound to maintain his wife regardless of his own financial position. This rule, to e my mind, can be made use of by the minor children as well. There is thus little force in the argument of the learned counsel relating to the means of the livelihood of the petitioner.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 20,
+        "paragraph_end": 22,
+        "text": "4. Lastly, it was complained by learned counsel that no separate issue relating to the past maintenance was struck by the learned trial Court. The issue framed by the said Court in regard to the maintenance was to the following effect :‐-----\n\n\"Whether the plaintiffs are entitled to get maintenance from the defen dant ? If so at what rate? O. P. P.\"\n\nSince the respondents had claimed past maintenance as well as the future one, the learned trial Court was not far wrong in framing the issue as done by it. The petitioner was well aware of their claim qua the past maintenance and, therefore, the framing of a separate issue in this behalf did not prejudice his case. In his statement as D. W. 3 it was not denied by the petitioner that the respondents had not lived with him during the period for which the past maintenance had been claimed. In the circumstances, the non‐framing of a separate issue relating to past maintenance is of no consequence.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "text": "5. There is no force in this petition. It is dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 24,
+        "paragraph_end": 24,
+        "text": "M. Y. M. Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

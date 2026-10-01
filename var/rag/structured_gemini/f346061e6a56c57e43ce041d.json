@@ -1,0 +1,123 @@
+{
+  "doc_id": "f346061e6a56c57e43ce041d",
+  "metadata": {
+    "doc_id": "f346061e6a56c57e43ce041d",
+    "case_title": "Constitution of Pakistan (1973)â€‘â€‘â€‘",
+    "citation": "1993CLC351",
+    "court": "Karachi",
+    "court_location": "Karachi",
+    "decision_date": null,
+    "judges": [
+      "Imam Ali G. Kazi"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "Art. 199"
+    ],
+    "source_relpath": "1993K227",
+    "content_hash": "39ff881605d0be48558c493e620a1760ee133a2da38d7815d7f1473b6f681874"
+  },
+  "full_text": "1993CLC351\n\n[Karachi]\n\nBefore Imam Ali G. Kazi, J\n\nMst. ASMAT‐‐‐Petitioner\n\nversus\n\nSyed HASAN MEHTAB JAFRI and another‐‐‐Respondents\n\nC.Ps. Nos.S‐99 and S‐100 of 1990, decided on 4th December, 1991.\n\nConstitution of Pakistan (1973)‐‐‐\n\n‐‐‐‐Art. 199‐‐‐West Pakistan Family Courts Act (XXXV of 1964), S.5 & Sched.‐‐‐Wife's suit for recovery of prompt dower was decreed while husband's suit for restitution of conjugal rights was dismissed by Trial Court‐‐‐First Appellate Court reversed Trial Court's findings‐‐‐Validity‐‐‐High Court with consent of parties declared impugned judgment to have been passed without lawful authority and set it aside‐‐‐Family Court was directed to decide suits afresh after hearing parties and recording of additional evidence if allowed by law.\n\nAbdul Majeed Khan for Petitioner.\n\nSabihuddin Ahmad for Respondent No.l.\n\nDate of hearing: 4th December, 1991.\n\nJUDGMENT\n\nThe petitioner, Mst. Asmat, is the wife of Syed Hasan Mehtab Jafri. They were married on 5‐4‐1985 and a daughter was born out of the wedlock on 20‐124986. In 1987 their matrimonial relations got estranged. Petitioner Mst. Asmat filed a suit against her husband for recovery of Rs.75,0W being the amount of prompt dower payable by her husband. Syed Hasan Mehtab Jafri, her husband, filed a suit for restitution of conjugal rights. Both the suits were consolidated and ultimately the VII Civil and Family Judge, Karachi (East) passed a judgment whereby he decreed the suit filed by the petitioner while dismissed the suit filed by her husband.\n\nSyed Hasan Mehtab Jafri, the respondent No.l herein, filed two appeals against the judgment referred to in the preceding para. The District Judge, Karachi (East) passed a common judgment in two appeals on 15th August, 1990, whereby he reversed the finding of the Family Judge. By that judgment he dismissed the suit of the petitioner while decreed the suit filed by the husband.\n\nMst. Asmat has filed these two petitions against the judgment passed by the Appellate Court in the two suits mentioned above.\n\nMr. Abdul Majid, the Advocate for the petitioner, in these two petitions contended that the Appellate Judge has dismissed the suit filed by the petitioner on the basis of conjectures and inferences which cannot legally be drawn. The Appellate Judge decreed the suit filed by respondent (husband) for restitution of conjugal rights in spite of overwhelming evidence on record to the effect that the petitioner could not possibly live with her husband due to conduct of her husband. In presence of such evidence husband will not be entitled to a decree of such type which is granted in exercise of discretion by a Court. Mr. Sabihuddin Ahmed, Advocate for the respondent No.l, after arguing the case of the husband stated that at best the judgments of both the Courts below can be declared to have been passed without lawful authority and Family Judge directed to decide both the suits afresh either on the evidence already recorded or the basis of additional evidence that may be adduced by the parties.\n\nBy consent the judgment impugned in these petitions is declared to have been passed without lawful authority and is set aside. The Family Judge is directed to decide the two suits afresh after hearing the parties and recording of additional evidence if allowed by law.\n\nThese petitions are accordingly allowed as to the costs.\n\nA.A./A‐1190/K Case remanded.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "These petitions are accordingly allowed as to the costs.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "A.A./A‐1190/K Case remanded.",
+        "label": "remanded"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "1993CLC351\n\n[Karachi]\n\nBefore Imam Ali G. Kazi, J\n\nMst. ASMAT‐‐‐Petitioner\n\nversus\n\nSyed HASAN MEHTAB JAFRI and another‐‐‐Respondents\n\nC.Ps. Nos.S‐99 and S‐100 of 1990, decided on 4th December, 1991.\n\nConstitution of Pakistan (1973)‐‐‐\n\n‐‐‐‐Art. 199‐‐‐West Pakistan Family Courts Act (XXXV of 1964), S.5 & Sched.‐‐‐Wife's suit for recovery of prompt dower was decreed while husband's suit for restitution of conjugal rights was dismissed by Trial Court‐‐‐First Appellate Court reversed Trial Court's findings‐‐‐Validity‐‐‐High Court with consent of parties declared impugned judgment to have been passed without lawful authority and set it aside‐‐‐Family Court was directed to decide suits afresh after hearing parties and recording of additional evidence if allowed by law.\n\nAbdul Majeed Khan for Petitioner.\n\nSabihuddin Ahmad for Respondent No.l.\n\nDate of hearing: 4th December, 1991."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "The petitioner, Mst. Asmat, is the wife of Syed Hasan Mehtab Jafri. They were married on 5‐4‐1985 and a daughter was born out of the wedlock on 20‐124986. In 1987 their matrimonial relations got estranged. Petitioner Mst. Asmat filed a suit against her husband for recovery of Rs.75,0W being the amount of prompt dower payable by her husband. Syed Hasan Mehtab Jafri, her husband, filed a suit for restitution of conjugal rights. Both the suits were consolidated and ultimately the VII Civil and Family Judge, Karachi (East) passed a judgment whereby he decreed the suit filed by the petitioner while dismissed the suit filed by her husband.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "Syed Hasan Mehtab Jafri, the respondent No.l herein, filed two appeals against the judgment referred to in the preceding para. The District Judge, Karachi (East) passed a common judgment in two appeals on 15th August, 1990, whereby he reversed the finding of the Family Judge. By that judgment he dismissed the suit of the petitioner while decreed the suit filed by the husband.",
+        "label": "lower_court_orders",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "Mst. Asmat has filed these two petitions against the judgment passed by the Appellate Court in the two suits mentioned above.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "Mr. Abdul Majid, the Advocate for the petitioner, in these two petitions contended that the Appellate Judge has dismissed the suit filed by the petitioner on the basis of conjectures and inferences which cannot legally be drawn. The Appellate Judge decreed the suit filed by respondent (husband) for restitution of conjugal rights in spite of overwhelming evidence on record to the effect that the petitioner could not possibly live with her husband due to conduct of her husband. In presence of such evidence husband will not be entitled to a decree of such type which is granted in exercise of discretion by a Court. Mr. Sabihuddin Ahmed, Advocate for the respondent No.l, after arguing the case of the husband stated that at best the judgments of both the Courts below can be declared to have been passed without lawful authority and Family Judge directed to decide both the suits afresh either on the evidence already recorded or the basis of additional evidence that may be adduced by the parties.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "By consent the judgment impugned in these petitions is declared to have been passed without lawful authority and is set aside. The Family Judge is directed to decide the two suits afresh after hearing the parties and recording of additional evidence if allowed by law.",
+        "label": "final_order",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "These petitions are accordingly allowed as to the costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "A.A./A‐1190/K Case remanded.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "doc_id": "19e768bdf34d0edf10e5bd12",
+  "metadata": {
+    "doc_id": "19e768bdf34d0edf10e5bd12",
+    "case_title": "MUHAMMAD YASIN vs JUDGE FAMILY COURT, SHAKARGARH and another",
+    "citation": "2017 M L D 2010",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Shahid Mubeen"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "allowed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "S.14",
+      "section 10",
+      "section 14",
+      "Art. 199"
+    ],
+    "source_relpath": "2017L2626",
+    "content_hash": "b08cca10dc0abc77469f65a562308d22ad3eccf1db97bcb4c154c2d493501cda"
+  },
+  "full_text": "2017 M L D 2010\n\n[Lahore]\n\nBefore Shahid Mubeen, J\n\nMUHAMMAD YASIN---Petitioner\n\nVersus\n\nJUDGE FAMILY COURT, SHAKARGARH and another---Respondents\n\nW.P. No.28781 of 2015, decided on 30th September, 2015.\n\n(a) Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched & S.14(2)(b)---Constitution of Pakistan, Art. 199---Constitutional petition---Maintainability---Recovery of dowry articles---Appeal---Scope---Family Court decreed suit for dowry articles to the extent of Rs. 1,00,000/- as alternate price---Contention of husband was that appeal was not competent before the District Judge---Validity---Appeal was not merely a matter of procedure but same was substantive vested right---Appeal was a continuation of a suit---Institution of suit would carry an implication that all rights of appeal then in force were available to the litigants till the end---Right of appeal was available when suit was filed---Constitutional petition against the impugned judgment and decree was unwarranted---Constitutional petition was not competent which was disposed of accordingly---Husband might file appeal before the court of competent jurisdiction.\n\nMuhammad Saleem v. Muhammad Ali through real mother and 2 others 2007 MLD 1533 and Mst. Ghulam Fatima v. Fazal and others 1986 CLC 2057 rel.\n\n(b) Appeal---\n\n----Appeal was not merely a matter of procedure but same was substantive vested right---Appeal was a continuation of a proceedings.\n\nCh. Shah Nawaz Ismail for Petitioner.\n\nORDER\n\nSHAHID MUBEEN, J.--- Through the instant writ petition the petitioner has called into question the legality and validity of impugned judgment and decree dated 01.07.2015 passed by the learned Judge Family Court Shakargarh.\n\n2. Briefly the facts of the case are that respondent No.2 instituted a suit for dissolution of marriage, recovery of maintenance, dower amount and dowry articles. The suit was contested by the petitioner by filing a written statement. Pre-trial reconciliation proceedings were conducted and the suit of respondent No.2 for dissolution of marriage was decreed on 28.03.2014 under subsection (4) of section 10 of the Family Courts Act, 1964 and for the rest of the controversy, the following issues were framed:--\n\n\"1. Whether the plaintiff is entitled to recover the maintenance allowance as prayed for? OPP\n\n2. Whether the plaintiff is entitled to recover the dowry articles as per list annexed with the plaint or its alternate value Rs.2,60,975/-? OPP\n\n3. Whether the plaintiff has no cause of action to file the instant suit?\n\n4. Relief.\"\n\nThe parties led their evidence pro and contra to prove their respective contentions. On 16.06.2015 the petitioner was proceeded against ex-parte. The learned trial court vide impugned judgment and decree dated 01.07.2015 decreed the suit of respondent No.2 for dowry articles and she was held entitled to get back dowry articles to the extent of Rs.1,00,000/- as alternate price. Hence this writ petition.\n\n3. At the very outset, a question was put to the learned counsel for the petitioner that against impugned judgment and decree an appeal is competent under section 14 subsection 2(b) of Family Courts Act, 1964 before the District Judge, he states that appeal is not competent before the District Judge as section 14 subsection 2(b) of Family Courts Act, 1964 has been amended through (Amendment) Act, 2015 whereby Rs.30,000/- has been substituted as Rs.1,00,000/-.\n\n4. Heard. Record perused.\n\n5. The suit was filed on 21.12.2013 and was decreed on 01.07.2015 and the amendment was introduced through (Amendment) Act, 2015 on 18.3.2015 whereby words \"30,000\" was substituted as words \"100,000\".\n\n6. It is an established principle of law that appeal is not merely a matter of procedure but substantive vested right. An appeal is a continuation of a suit. The institution of a suit carries an implication that all rights of appeal then in force are available to the litigants till the end. Reference may be made to the case laws titled as \"Muhammad Saleem v. Muhammad Ali through real mother and 2 others\" (2007 MLD 1533) and \"Mst. Ghulam Fatima v. Fazal and others\" (1986 CLC 2057).\n\n7. As the suit was instituted on 21.12.2013 when the right of appeal was available to the petitioner under Clause-B of subsection (2) of Section-14 of Family Courts Act, 1964, hence, filing of writ petition against the impugned judgment and decree passed by the learned Judge Family Court, is unwarranted.\n\n8. Sequel to the above, this writ petition is not competent, hence, disposed of with the observation that petitioner may file appeal before Court of competent jurisdiction.\n\nZC/M-343/L Order accordingly.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 26,
+        "paragraph_end": 26,
+        "sentence": "Sequel to the above, this writ petition is not competent, hence, disposed of with the observation that petitioner may file appeal before Court of competent jurisdiction.",
+        "label": "disposed_accordingly"
+      },
+      {
+        "paragraph_start": 27,
+        "paragraph_end": 27,
+        "sentence": "ZC/M-343/L Order accordingly.",
+        "label": "disposed_accordingly"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "2017 M L D 2010\n\n[Lahore]\n\nBefore Shahid Mubeen, J\n\nMUHAMMAD YASIN---Petitioner\n\nVersus\n\nJUDGE FAMILY COURT, SHAKARGARH and another---Respondents\n\nW.P. No.28781 of 2015, decided on 30th September, 2015."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 10,
+        "text": "(a) Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched & S.14(2)(b)---Constitution of Pakistan, Art. 199---Constitutional petition---Maintainability---Recovery of dowry articles---Appeal---Scope---Family Court decreed suit for dowry articles to the extent of Rs. 1,00,000/- as alternate price---Contention of husband was that appeal was not competent before the District Judge---Validity---Appeal was not merely a matter of procedure but same was substantive vested right---Appeal was a continuation of a suit---Institution of suit would carry an implication that all rights of appeal then in force were available to the litigants till the end---Right of appeal was available when suit was filed---Constitutional petition against the impugned judgment and decree was unwarranted---Constitutional petition was not competent which was disposed of accordingly---Husband might file appeal before the court of competent jurisdiction.\n\nMuhammad Saleem v. Muhammad Ali through real mother and 2 others 2007 MLD 1533 and Mst. Ghulam Fatima v. Fazal and others 1986 CLC 2057 rel.\n\n(b) Appeal---"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 11,
+        "paragraph_end": 12,
+        "text": "----Appeal was not merely a matter of procedure but same was substantive vested right---Appeal was a continuation of a proceedings.\n\nCh. Shah Nawaz Ismail for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "SHAHID MUBEEN, J.--- Through the instant writ petition the petitioner has called into question the legality and validity of impugned judgment and decree dated 01.07.2015 passed by the learned Judge Family Court Shakargarh.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 20,
+        "text": "2. Briefly the facts of the case are that respondent No.2 instituted a suit for dissolution of marriage, recovery of maintenance, dower amount and dowry articles. The suit was contested by the petitioner by filing a written statement. Pre-trial reconciliation proceedings were conducted and the suit of respondent No.2 for dissolution of marriage was decreed on 28.03.2014 under subsection (4) of section 10 of the Family Courts Act, 1964 and for the rest of the controversy, the following issues were framed:--\n\n\"1. Whether the plaintiff is entitled to recover the maintenance allowance as prayed for? OPP\n\n2. Whether the plaintiff is entitled to recover the dowry articles as per list annexed with the plaint or its alternate value Rs.2,60,975/-? OPP\n\n3. Whether the plaintiff has no cause of action to file the instant suit?\n\n4. Relief.\"\n\nThe parties led their evidence pro and contra to prove their respective contentions. On 16.06.2015 the petitioner was proceeded against ex-parte. The learned trial court vide impugned judgment and decree dated 01.07.2015 decreed the suit of respondent No.2 for dowry articles and she was held entitled to get back dowry articles to the extent of Rs.1,00,000/- as alternate price. Hence this writ petition.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "3. At the very outset, a question was put to the learned counsel for the petitioner that against impugned judgment and decree an appeal is competent under section 14 subsection 2(b) of Family Courts Act, 1964 before the District Judge, he states that appeal is not competent before the District Judge as section 14 subsection 2(b) of Family Courts Act, 1964 has been amended through (Amendment) Act, 2015 whereby Rs.30,000/- has been substituted as Rs.1,00,000/-.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 22,
+        "paragraph_end": 23,
+        "text": "4. Heard. Record perused.\n\n5. The suit was filed on 21.12.2013 and was decreed on 01.07.2015 and the amendment was introduced through (Amendment) Act, 2015 on 18.3.2015 whereby words \"30,000\" was substituted as words \"100,000\".",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 24,
+        "paragraph_end": 24,
+        "text": "6. It is an established principle of law that appeal is not merely a matter of procedure but substantive vested right. An appeal is a continuation of a suit. The institution of a suit carries an implication that all rights of appeal then in force are available to the litigants till the end. Reference may be made to the case laws titled as \"Muhammad Saleem v. Muhammad Ali through real mother and 2 others\" (2007 MLD 1533) and \"Mst. Ghulam Fatima v. Fazal and others\" (1986 CLC 2057).",
+        "label": "authorities_cited",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 25,
+        "paragraph_end": 25,
+        "text": "7. As the suit was instituted on 21.12.2013 when the right of appeal was available to the petitioner under Clause-B of subsection (2) of Section-14 of Family Courts Act, 1964, hence, filing of writ petition against the impugned judgment and decree passed by the learned Judge Family Court, is unwarranted.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 26,
+        "paragraph_end": 26,
+        "text": "8. Sequel to the above, this writ petition is not competent, hence, disposed of with the observation that petitioner may file appeal before Court of competent jurisdiction.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 27,
+        "paragraph_end": 27,
+        "text": "ZC/M-343/L Order accordingly.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

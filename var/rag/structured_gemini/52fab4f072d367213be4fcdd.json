@@ -1,0 +1,137 @@
+{
+  "doc_id": "52fab4f072d367213be4fcdd",
+  "metadata": {
+    "doc_id": "52fab4f072d367213be4fcdd",
+    "case_title": "1999 Y L R 1941",
+    "citation": "1999 Y L R 1941",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Jawwad S. Khawaja"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Muslim Family Laws Ordinance (VIII of 1961)",
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "Ss. 8 & 10",
+      "S. 5",
+      "Art. 199"
+    ],
+    "source_relpath": "1999L4235",
+    "content_hash": "c30b5be6d65b8bb92440d8d84bd06f16a64aad66a2a1e3f81bff6c06b052f01c"
+  },
+  "full_text": "1999 Y L R 1941\n\n[Lahore]\n\nBefore Jawwad S. Khawaja, J\n\nTAUQIR AHMED SHAH‐‐‐Petitioner\n\nversus\n\nMst. YASMEEN AKHTAR and 2 others‐‐‐Respondents\n\nWrit Petition No.944 of 1999, decided on 19th July, 1999.\n\n(a) Muslim Family Laws Ordinance (VIII of 1961)‐‐‐\n\n‐‐‐‐Ss. 8 & 10‐‐‐West Pakistan Family Courts Act (XXXV of 1964), S. 5 & Sched.‐‐‐West Pakistan Family Courts Rules, 1965, R.22(3)‐‐‐Suit for dissolution of marriage and dower‐‐‐Appeal‐‐‐Competency‐‐‐Suit for dissolution of marriage and dower by wife having been decreed by Family Court, husband filed appeal against said judgment and decree by filing certified copy of decree for dower only‐‐‐Admissibility‐‐‐Filing of certified copies of all decrees in consolidated litigation at the time of preferring a single appeal, was an essential requirement of law which could not be dispensed with by Appellate Court‐‐‐Grounds of appeal had shown that only challenge made by husband was in respect of decree passed against him in suit for recovery of dower and he did not challenge decree of dissolution of marriage‐‐ Such appeal was not competent, in circumstances.\n\nAbdullah v. Faqir Ullah 1981 SCMR 585; Muhammad Zaman v. Inzar Gull PLD 1957 Pesh. 129 and Allah Ditta v. Muhammad Shafi 1990 MLD 2094 ref.\n\n(b) Constitution of Pakistan (1973)‐‐‐\n\n‐‐‐‐Art. 199‐‐‐Constitutional jurisdiction, exercise of‐‐‐Scope‐‐‐Judgment of Court below passed in accordance with law could not be interfered with by High Court in exercise of its Constitutional jurisdiction.\n\nBasharat Ullah Khan for Petitioner.\n\nAjmal Kamal Mirza for Respondent No. 1.\n\nORDER\n\nThe facts constituting the background of the litigation between the petitioner and the respondent No. I have been set out in the judgment of the lower Appellate Court and need not therefore, be reproduced here. As a preliminary point, learned counsel for respondent No. l has argued that the petitioner did not challenge the decree passed against him in the respondent No.1's suit for dissolution of marriage. The only decree, which he challenged, was in the suit for dower filed by respondent No. 1.\n\n2. Learned counsel for the petitioner referred to the case of Abdullah v. Faqir Ullah (1981 SCMR 585) to contend where two or more suits have been consolidated and decided by means of the judgment, it was open to a party to challenge all decrees passed on the basis of the consolidated judgment by means of one appeal. The cited precedent thus supports the contention of the petitioner but only if certified copies of all decrees, which are challenged in the appeal, are filed with the appeal. In the instant case, admittedly, the petitioner did not file a certified copy of the decree for dissolution of marriage before the lower Appellate Court. Furthermore, as contended by the learned counsel for respondent No. l even the grounds of appeal show that the only challenge made by the petitioner was in respect of the decree passed against him in the suit for recovery of dower and he did not challenge the decree of dissolution of marriage on the basis thereof.\n\n3. Learned counsel for respondent No. l further referred to Rule 22(3) of the Family Courts Rules which makes it obligatory on a party preferring an appeal against a decree of dissolution of marriage to file a certified copy of such decree before the Appellate Court which as noted above, has not been done in the present case.\n\n4. The judgment in the case of Abdullah v. Faqir Ullah, as such, is of no avail to the petitioner. On the other hand, learned counsel for respondent No. l has cited the case of Muhammad Zaman v. Inzar Gull (PLD 1957 Peshawar 129) and the case titled Allah Ditta v. Muhammad Shafi (1990 MLD 2094) to argue that filing of certified copies of all decrees in consolidated litigation at the time of preferring a single appeal, is an essential requirement of law which cannot be dispensed with by an Appellate Court. The arguments of learned counsel for respondent No.1 have merit and are supported by the precedent cases cited by him.\n\n5. Learned counsel for respondent No. l also contended that in writ jurisdiction this Court would not interfere with the impugned judgment which has been passed in accordance with law. This contention also has merit as I do not find the judgment of the lower Appellate Court, dated 3‐3‐1999 to be open to exception. For the foregoing reasons, this writ petition is dismissed with costs.\n\nH.B.T./T‐73/L\n\nPetition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "sentence": "Petition dismissed.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "sentence": "H.B.T./T‐73/L",
+        "label": "unclassified"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "1999 Y L R 1941\n\n[Lahore]\n\nBefore Jawwad S. Khawaja, J\n\nTAUQIR AHMED SHAH‐‐‐Petitioner\n\nversus\n\nMst. YASMEEN AKHTAR and 2 others‐‐‐Respondents\n\nWrit Petition No.944 of 1999, decided on 19th July, 1999."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 10,
+        "text": "(a) Muslim Family Laws Ordinance (VIII of 1961)‐‐‐\n\n‐‐‐‐Ss. 8 & 10‐‐‐West Pakistan Family Courts Act (XXXV of 1964), S. 5 & Sched.‐‐‐West Pakistan Family Courts Rules, 1965, R.22(3)‐‐‐Suit for dissolution of marriage and dower‐‐‐Appeal‐‐‐Competency‐‐‐Suit for dissolution of marriage and dower by wife having been decreed by Family Court, husband filed appeal against said judgment and decree by filing certified copy of decree for dower only‐‐‐Admissibility‐‐‐Filing of certified copies of all decrees in consolidated litigation at the time of preferring a single appeal, was an essential requirement of law which could not be dispensed with by Appellate Court‐‐‐Grounds of appeal had shown that only challenge made by husband was in respect of decree passed against him in suit for recovery of dower and he did not challenge decree of dissolution of marriage‐‐ Such appeal was not competent, in circumstances.\n\nAbdullah v. Faqir Ullah 1981 SCMR 585; Muhammad Zaman v. Inzar Gull PLD 1957 Pesh. 129 and Allah Ditta v. Muhammad Shafi 1990 MLD 2094 ref.\n\n(b) Constitution of Pakistan (1973)‐‐‐"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 11,
+        "paragraph_end": 13,
+        "text": "‐‐‐‐Art. 199‐‐‐Constitutional jurisdiction, exercise of‐‐‐Scope‐‐‐Judgment of Court below passed in accordance with law could not be interfered with by High Court in exercise of its Constitutional jurisdiction.\n\nBasharat Ullah Khan for Petitioner.\n\nAjmal Kamal Mirza for Respondent No. 1."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "The facts constituting the background of the litigation between the petitioner and the respondent No. I have been set out in the judgment of the lower Appellate Court and need not therefore, be reproduced here. As a preliminary point, learned counsel for respondent No. l has argued that the petitioner did not challenge the decree passed against him in the respondent No.1's suit for dissolution of marriage. The only decree, which he challenged, was in the suit for dower filed by respondent No. 1.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "2. Learned counsel for the petitioner referred to the case of Abdullah v. Faqir Ullah (1981 SCMR 585) to contend where two or more suits have been consolidated and decided by means of the judgment, it was open to a party to challenge all decrees passed on the basis of the consolidated judgment by means of one appeal. The cited precedent thus supports the contention of the petitioner but only if certified copies of all decrees, which are challenged in the appeal, are filed with the appeal. In the instant case, admittedly, the petitioner did not file a certified copy of the decree for dissolution of marriage before the lower Appellate Court. Furthermore, as contended by the learned counsel for respondent No. l even the grounds of appeal show that the only challenge made by the petitioner was in respect of the decree passed against him in the suit for recovery of dower and he did not challenge the decree of dissolution of marriage on the basis thereof.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "3. Learned counsel for respondent No. l further referred to Rule 22(3) of the Family Courts Rules which makes it obligatory on a party preferring an appeal against a decree of dissolution of marriage to file a certified copy of such decree before the Appellate Court which as noted above, has not been done in the present case.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "4. The judgment in the case of Abdullah v. Faqir Ullah, as such, is of no avail to the petitioner. On the other hand, learned counsel for respondent No. l has cited the case of Muhammad Zaman v. Inzar Gull (PLD 1957 Peshawar 129) and the case titled Allah Ditta v. Muhammad Shafi (1990 MLD 2094) to argue that filing of certified copies of all decrees in consolidated litigation at the time of preferring a single appeal, is an essential requirement of law which cannot be dispensed with by an Appellate Court. The arguments of learned counsel for respondent No.1 have merit and are supported by the precedent cases cited by him.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "5. Learned counsel for respondent No. l also contended that in writ jurisdiction this Court would not interfere with the impugned judgment which has been passed in accordance with law. This contention also has merit as I do not find the judgment of the lower Appellate Court, dated 3‐3‐1999 to be open to exception. For the foregoing reasons, this writ petition is dismissed with costs.",
+        "label": "final_order",
+        "confidence": 1.0
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "H.B.T./T‐73/L",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

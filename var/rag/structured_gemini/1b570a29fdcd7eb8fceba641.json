@@ -1,0 +1,115 @@
+{
+  "doc_id": "1b570a29fdcd7eb8fceba641",
+  "metadata": {
+    "doc_id": "1b570a29fdcd7eb8fceba641",
+    "case_title": "West Pakistan Family Courts Act (XXXV of 1964)--",
+    "citation": "1987 M L D 367",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Khizar Hayat"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S.7"
+    ],
+    "source_relpath": "1987L2562",
+    "content_hash": "a2f5418c2ec70f1f14f8d03bf02081d5851bf40cdb50e19c166e6ddb438cc850"
+  },
+  "full_text": "1987 M L D 367\n\n[Lahore]\n\nBefore Khizar Hayat, J\n\nMst. SHABAB AKHTAR--Petitioner\n\nversus\n\nJUDGE FAMILY COURT, FAISALABAD and another--Respondents\n\nWrit Petitions Nos. 2949 and 2950 of 1986, decided on 6th August, 1986.\n\nWest Pakistan Family Courts Act (XXXV of 1964)--\n\n---S.7--Request for production of witnesses other than those mentioned in list of witnesses--Such request refused by Family Court--Order impugned in constitutional petition--No objection raised by respondent to production of fresh list of witnesses if same be examined on one date--High Court setting aside order of Family Court allowed petitioner to produce required witnesses on one date of hearing as agreed to by respondent.\n\nMalik Muhammad Rashid Awan for Petitioner.\n\nRespondent No. 2 in person.\n\nORDER\n\nThis order shall dispose of two writ petitions, namely, Writ Petition No.2949 of 1986 and Writ Petition No.2950 of 1986, as the parties in both the writ petitions are same and the two impugned orders, dated 26th June, 1986 are also identical in nature. The petitioner herein has challenged the validity of both the impugned orders, whereby the learned Family Judge refused to the petitioner to produce witnesses other than those mentioned in her list filed earlier in Court with her plaints.\n\n2. The petitioner has filed two suits, one for recovery of dowery and the other for recovery of maintenance allowance for herself and her children in the Court of Family Judge, Faisalabad. 20th May, 1985 was fixed .by the learned Family Judge for recording evidence of the petitioner but the petitioner moved an application on 5-5-1985 to the effect that since her witnesses mentioned in list submitted by her earlier have resiled, therefore, she be permitted to produce other witnesses. This application was resisted by the respondent and learned Family Judge vide impugned orders, dated 26-6-1986 declined the prayer which has been challenged through instant writ petitions.\n\n3. I have heard both the parties. It is argued that learned Family Judge in the interest of justice should have allowed production of witnesses other than those mentioned in petitioner's list rather than rejecting her prayer on technical grounds. Zahid Hussain respondent states that he has no objection to the acceptance of the writ petitions and granting of permission to the petitioner to produce witnesses other than those mentioned in her list provided she undertakes to produce her entire evidence on one date. The petitioner has accepted the offer. In view of the consent expressed by the parties this petition is allowed, the impugned order is set aside and it is directed that the petitioner shall produce her witnesses or one date i.e. 25-9-1986 as the cases are already fixed for that date. Both writ petitions are accordingly disposed of.\n\nH.B.T./U-4/L Order accordingly.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "It is argued that learned Family Judge in the interest of justice should have allowed production of witnesses other than those mentioned in petitioner's list rather than rejecting her prayer on technical grounds.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "The petitioner has accepted the offer.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "In view of the consent expressed by the parties this petition is allowed, the impugned order is set aside and it is directed that the petitioner shall produce her witnesses or one date i.e.",
+        "label": "allowed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "Both writ petitions are accordingly disposed of.",
+        "label": "disposed_accordingly"
+      },
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "H.B.T./U-4/L Order accordingly.",
+        "label": "disposed_accordingly"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "1987 M L D 367\n\n[Lahore]\n\nBefore Khizar Hayat, J\n\nMst. SHABAB AKHTAR--Petitioner\n\nversus\n\nJUDGE FAMILY COURT, FAISALABAD and another--Respondents\n\nWrit Petitions Nos. 2949 and 2950 of 1986, decided on 6th August, 1986.\n\nWest Pakistan Family Courts Act (XXXV of 1964)--\n\n---S.7--Request for production of witnesses other than those mentioned in list of witnesses--Such request refused by Family Court--Order impugned in constitutional petition--No objection raised by respondent to production of fresh list of witnesses if same be examined on one date--High Court setting aside order of Family Court allowed petitioner to produce required witnesses on one date of hearing as agreed to by respondent.\n\nMalik Muhammad Rashid Awan for Petitioner.\n\nRespondent No. 2 in person."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "This order shall dispose of two writ petitions, namely, Writ Petition No.2949 of 1986 and Writ Petition No.2950 of 1986, as the parties in both the writ petitions are same and the two impugned orders, dated 26th June, 1986 are also identical in nature. The petitioner herein has challenged the validity of both the impugned orders, whereby the learned Family Judge refused to the petitioner to produce witnesses other than those mentioned in her list filed earlier in Court with her plaints.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "2. The petitioner has filed two suits, one for recovery of dowery and the other for recovery of maintenance allowance for herself and her children in the Court of Family Judge, Faisalabad. 20th May, 1985 was fixed .by the learned Family Judge for recording evidence of the petitioner but the petitioner moved an application on 5-5-1985 to the effect that since her witnesses mentioned in list submitted by her earlier have resiled, therefore, she be permitted to produce other witnesses. This application was resisted by the respondent and learned Family Judge vide impugned orders, dated 26-6-1986 declined the prayer which has been challenged through instant writ petitions.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "3. I have heard both the parties. It is argued that learned Family Judge in the interest of justice should have allowed production of witnesses other than those mentioned in petitioner's list rather than rejecting her prayer on technical grounds. Zahid Hussain respondent states that he has no objection to the acceptance of the writ petitions and granting of permission to the petitioner to produce witnesses other than those mentioned in her list provided she undertakes to produce her entire evidence on one date. The petitioner has accepted the offer. In view of the consent expressed by the parties this petition is allowed, the impugned order is set aside and it is directed that the petitioner shall produce her witnesses or one date i.e. 25-9-1986 as the cases are already fixed for that date. Both writ petitions are accordingly disposed of.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "H.B.T./U-4/L Order accordingly.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

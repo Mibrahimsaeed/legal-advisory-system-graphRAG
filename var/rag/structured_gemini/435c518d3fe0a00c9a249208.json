@@ -1,0 +1,106 @@
+{
+  "doc_id": "435c518d3fe0a00c9a249208",
+  "metadata": {
+    "doc_id": "435c518d3fe0a00c9a249208",
+    "case_title": "ORDER",
+    "citation": "1987 M L D 2621",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Falak Sher"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "Art.199"
+    ],
+    "source_relpath": "1987L2960",
+    "content_hash": "ac4eb33de4b578b55398c72d7fcc16a9bb7c54ecf907ee8e17c9d68efc68bb77"
+  },
+  "full_text": "1987 M L D 2621\n\n[Lahore]\n\nBefore Falak Sher, J\n\nFATEH MUHAMMAD--Petitioner\n\nversus\n\nMst. KHUDIJA BIBI and another--Respondents\n\nWrit Petition No.3255 of 1987, decided on 19th July, 1987.\n\nWest Pakistan Family Courts Act (XXXV of 1964)--\n\n---S.5 & Sched.-- Constitution .of Pakistan (1973),Art.199--Maintenance--Custody of minor--Guardian Judge giving custody of minor girl to mother--Father not having been appointed legal guardian, residence of minor, with him, held, was not a condition precedent for father's obligation to pay the maintenance--No illegality found with the impugned order fixing maintenance of minor--Petition of father dismissed.\n\nDinsab Kaisamsab v. Muhammad Hussain Dinsab and another AIR1945 Bom. 390 ref.\n\nRao Hamid Mukhtar Khan for Petitioner.\n\nORDER\n\nPetitioner and respondent No.2 are stated to have been married in the year 1972, and out of the wedlock, a daughter, named Mst. Munawar Bibi, was born. After couple of years, parties experienced matrimonial difficulties and ever since, they are living apart. The petitioner had filed a suit for restitution of conjugal rights, which was decreed in his favour. Respondent No.2 instituted a suit on 22-2-1986 before Judge Family Court, Mianwali, claiming maintenance on her own behalf as well as on behalf of her minor daughter, Mst. Munawar Bibi, at the rate of Rs.250 p.m. each'. The suit was decreed, concerning the minor, fixing amount of maintenance at Rs.100 p.m. however, the same was dismissed vis-a-vis respondent No.2, Both the parties preferred appeal, being Civil Appeals Nos.82 and 85 of 1986. Both the appeals were dismissed by the learned, .Additional District Judge, Mianwali vide order dated 25-6-1987. Hence, the present petition.\n\nLearned counsel for the petitioner, inter alia, contends that since suit for restitution of conjugal rights has been decreed in favour of the petitioner, and respondent No.2 is wilfully not living with him, she is not entitled to maintenance, even for the minor. He has placed reliance on the case of Dinsab Kaisamsab v. Muhammad Hussain Dinsab and another (A I R 1945 Bom. 390). I have gone through the judgment. The rational thereof is that in cases where father is not legally or appointed guardian of his children, and, therefore, not entitled to their custody their residence with him is not condition precedent to his obligation to maintain them. This judgment actually goes against the case of the petitioner. In the A instant case the learned Guardian Judge has given custody of the minor, Munawar Bibi, to respondent No.2; therefore, petitioner has not been appointed as legal guardian. Thus residence of the minor is not a condition precedent for the petitioner's obligation to pay the maintenance.\n\nIn this view of the matter, no illegality has been found out with the impugned order fixing a meagre amount of Rs .100 p.m. as maintenance of the minor daughter of the petitioner.\n\nThe writ petition has no merit. It is dismissed in limine.\n\nS.Q. /F-37/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "It is dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "sentence": "/F-37/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "1987 M L D 2621\n\n[Lahore]\n\nBefore Falak Sher, J\n\nFATEH MUHAMMAD--Petitioner\n\nversus\n\nMst. KHUDIJA BIBI and another--Respondents\n\nWrit Petition No.3255 of 1987, decided on 19th July, 1987.\n\nWest Pakistan Family Courts Act (XXXV of 1964)--\n\n---S.5 & Sched.-- Constitution .of Pakistan (1973),Art.199--Maintenance--Custody of minor--Guardian Judge giving custody of minor girl to mother--Father not having been appointed legal guardian, residence of minor, with him, held, was not a condition precedent for father's obligation to pay the maintenance--No illegality found with the impugned order fixing maintenance of minor--Petition of father dismissed.\n\nDinsab Kaisamsab v. Muhammad Hussain Dinsab and another AIR1945 Bom. 390 ref.\n\nRao Hamid Mukhtar Khan for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "Petitioner and respondent No.2 are stated to have been married in the year 1972, and out of the wedlock, a daughter, named Mst. Munawar Bibi, was born. After couple of years, parties experienced matrimonial difficulties and ever since, they are living apart. The petitioner had filed a suit for restitution of conjugal rights, which was decreed in his favour. Respondent No.2 instituted a suit on 22-2-1986 before Judge Family Court, Mianwali, claiming maintenance on her own behalf as well as on behalf of her minor daughter, Mst. Munawar Bibi, at the rate of Rs.250 p.m. each'. The suit was decreed, concerning the minor, fixing amount of maintenance at Rs.100 p.m. however, the same was dismissed vis-a-vis respondent No.2, Both the parties preferred appeal, being Civil Appeals Nos.82 and 85 of 1986. Both the appeals were dismissed by the learned, .Additional District Judge, Mianwali vide order dated 25-6-1987. Hence, the present petition.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "Learned counsel for the petitioner, inter alia, contends that since suit for restitution of conjugal rights has been decreed in favour of the petitioner, and respondent No.2 is wilfully not living with him, she is not entitled to maintenance, even for the minor. He has placed reliance on the case of Dinsab Kaisamsab v. Muhammad Hussain Dinsab and another (A I R 1945 Bom. 390). I have gone through the judgment. The rational thereof is that in cases where father is not legally or appointed guardian of his children, and, therefore, not entitled to their custody their residence with him is not condition precedent to his obligation to maintain them. This judgment actually goes against the case of the petitioner. In the A instant case the learned Guardian Judge has given custody of the minor, Munawar Bibi, to respondent No.2; therefore, petitioner has not been appointed as legal guardian. Thus residence of the minor is not a condition precedent for the petitioner's obligation to pay the maintenance.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "In this view of the matter, no illegality has been found out with the impugned order fixing a meagre amount of Rs .100 p.m. as maintenance of the minor daughter of the petitioner.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "The writ petition has no merit. It is dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "S.Q. /F-37/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

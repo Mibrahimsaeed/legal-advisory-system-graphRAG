@@ -1,0 +1,115 @@
+{
+  "doc_id": "74636af5601a7f46a447c373",
+  "metadata": {
+    "doc_id": "74636af5601a7f46a447c373",
+    "case_title": "Mst. MAMOONA BIBI vs Syed MUHAMMAD UMAIR and others",
+    "citation": "2020 Y L R 2086",
+    "court": "Lahore (Rawalpindi Bench)",
+    "court_location": "Rawalpindi",
+    "decision_date": null,
+    "judges": [
+      "Mujahid Mustaqeem Ahmad"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "objection_sustained",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 25",
+      "Section 25"
+    ],
+    "source_relpath": "2020L4081",
+    "content_hash": "6e885f33f509ec85edad84af3f46f92a41ebef4de6e058394a18979f0eb9bce2"
+  },
+  "full_text": "2020 Y L R 2086\n\n[Lahore (Rawalpindi Bench)]\n\nBefore Mujahid Mustaqeem Ahmad, J\n\nMst. MAMOONA BIBI---Petitioner\n\nVersus\n\nSyed MUHAMMAD UMAIR and others---Respondents\n\nDiary No. 1263 of 2020, decided on 7th February, 2020.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 25-A---Transfer of cases---Scope---Petitioner sought transfer of suit from one Province to another---Validity---Section 25-A of Family Courts Act, 1964, dealt with transfers of cases pending before Family Court---Subsection (2b) of S. 25-A of Family Courts Act, 1964, was of relevance for the purpose of determination of objection raised by the office---Petition before the High Court was not competent in the wake of express provision of law---Office objection was sustained.\n\nSardar Muhammad Irshad for Petitioner.\n\nORDER\n\nOBJECTION CASE\n\nMUJAHID MUSTAQEEM AHMAD, J.---By way of captioned petition the petitioner seeks transfer of suit titled \"Syed Muhammad Umair v. Mamoona Bibi\" pending before learned Family Court, Taxila Distt. Rawalpindi (Punjab) to the learned Family Court, Haripur Distt. Abbottabad (Khyber Pakhtunkhwa) where suit filed by the petitioner titled \"Mamoona Bibi v. Syed Muhammad Umair\" is pending.\n\n2. Office has raised objection to file the petition before \"Proper Bench/ Court\".\n\n3. Learned counsel for the petitioner could not satisfy as to how this Court has jurisdiction to transfer a case pending before a subordinate Court within territorial jurisdiction of this Court to a subordinate Court within territorial jurisdiction of another High Court.\n\n4. Section 25-A of the West Pakistan Family Courts Act, 1964 deals with transfers of cases pending before different Family Courts. Subsection (2B) of Section 25-A of the Act is of relevance for the purpose of determination of objection raised in this petition. Said provision of law reads as under:\n\n\"(2B) On the application of any of the parties and after notice to the parties and after hearing such of them as desired to be heard, or of its own motion without such notice, the Supreme Court may at any stage transfer any suit, appeal or other proceedings under this Act pending before a Court in one Province to a Court in another Province, competent to try or dispose of the same.\n\n5. In the wake of above expressed provision of law this petition is not competent before this court. Office object is, therefore, sustained.\n\nSA/M-36/L Objection sustained.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "SA/M-36/L Objection sustained.",
+        "label": "objection_sustained"
+      },
+      {
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "sentence": "5. In the wake of above expressed provision of law this petition is not competent before this court. Office object is, therefore, sustained.",
+        "label": "unclassified"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 9,
+        "text": "2020 Y L R 2086\n\n[Lahore (Rawalpindi Bench)]\n\nBefore Mujahid Mustaqeem Ahmad, J\n\nMst. MAMOONA BIBI---Petitioner\n\nVersus\n\nSyed MUHAMMAD UMAIR and others---Respondents\n\nDiary No. 1263 of 2020, decided on 7th February, 2020.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 25-A---Transfer of cases---Scope---Petitioner sought transfer of suit from one Province to another---Validity---Section 25-A of Family Courts Act, 1964, dealt with transfers of cases pending before Family Court---Subsection (2b) of S. 25-A of Family Courts Act, 1964, was of relevance for the purpose of determination of objection raised by the office---Petition before the High Court was not competent in the wake of express provision of law---Office objection was sustained.\n\nSardar Muhammad Irshad for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 10,
+        "paragraph_end": 10,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 13,
+        "text": "OBJECTION CASE\n\nMUJAHID MUSTAQEEM AHMAD, J.---By way of captioned petition the petitioner seeks transfer of suit titled \"Syed Muhammad Umair v. Mamoona Bibi\" pending before learned Family Court, Taxila Distt. Rawalpindi (Punjab) to the learned Family Court, Haripur Distt. Abbottabad (Khyber Pakhtunkhwa) where suit filed by the petitioner titled \"Mamoona Bibi v. Syed Muhammad Umair\" is pending.\n\n2. Office has raised objection to file the petition before \"Proper Bench/ Court\".",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "3. Learned counsel for the petitioner could not satisfy as to how this Court has jurisdiction to transfer a case pending before a subordinate Court within territorial jurisdiction of this Court to a subordinate Court within territorial jurisdiction of another High Court.",
+        "label": "arguments",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "4. Section 25-A of the West Pakistan Family Courts Act, 1964 deals with transfers of cases pending before different Family Courts. Subsection (2B) of Section 25-A of the Act is of relevance for the purpose of determination of objection raised in this petition. Said provision of law reads as under:",
+        "label": "applicable_law",
+        "confidence": 0.95
+      },
+      {
+        "type": "quoted_material",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "\"(2B) On the application of any of the parties and after notice to the parties and after hearing such of them as desired to be heard, or of its own motion without such notice, the Supreme Court may at any stage transfer any suit, appeal or other proceedings under this Act pending before a Court in one Province to a Court in another Province, competent to try or dispose of the same.",
+        "label": "quoted_material",
+        "confidence": 0.99,
+        "attribution": "unknown"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "5. In the wake of above expressed provision of law this petition is not competent before this court. Office object is, therefore, sustained.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "SA/M-36/L Objection sustained.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

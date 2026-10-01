@@ -1,0 +1,89 @@
+{
+  "doc_id": "38246618080361999ff53c9c",
+  "metadata": {
+    "doc_id": "38246618080361999ff53c9c",
+    "case_title": "1994 C L C 172",
+    "citation": "1994 C L C 172",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Zia Mahmood Mirza"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "S. 5"
+    ],
+    "source_relpath": "1994L243",
+    "content_hash": "842907c52fd8074d501ea0ceae0ff0a8baa83aa9f5ee1b5cda3ff5d3ad6af36a"
+  },
+  "full_text": "1994 C L C 172\n\n[Lahore]\n\nBefore Zia Mahmood Mirza,J\n\nMUHAMMAD RIAZ‐‐‐Petitioner\n\nversus\n\nJUDGE, FAMILY COURT and another‐‐‐Respondents\n\nWrit Petition No. 4851. of 1992, decided on 31st October, 1992.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐‐S. 5 & Sched: ‐‐Dissolution of marriage on ground of Khula'‐‐‐Husband had contended that his wife had filed suit for dissolution of marriage at instance of her parents and requested that she could be summoned to enable him to make an effort for reconciliation‐‐‐Wife appeared in Court and stated very firmly in reply to a Court question that she was not at all willing to live with her husband and that there was no possibility of reconciliation between them‐‐‐Petition filed by husband against judgment of Court dissolving marriage of wife on ground of Khula` was dismissed in circumstances.\n\nQazi Muhammad Saleem for Petitioner.\n\nAkhtar Masood Khan for Respondent No.2.\n\nDate of hearing: 31st October, 1992.\n\nORDER\n\nThis Constitutional petition directed against the judgment of the Family Court, Shahpur, dissolving marriage of respondent No.2 on the ground of `Khula' was placed before me on 30‐5‐1992. Learned counsel for the petitioner after arguing the case for quite some time submitted that the respondent filed the suit at the instance of her parents and requested that she may be summoned to enable the petitioner to make an effort at reconciliation in this Court. He further submitted that if the respondent appeared and stated that she was not at all willing to live with the petitioner, he would not press the writ petition.\n\n2. In view of the statement of the learned counsel, notice for pre admission hearing was sent to Mst. Zainab Bibi, respondent No.2. She has today appeared and stated very firmly in reply to a Court question that she was not at all willing to live with the petitioner and that there was no possibility of reconciliation between the parties. In the circumstances, the writ petition is dismissed in limine.\n\nH.B.T./M.1191/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "In the circumstances, the writ petition is dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "H.B.T./M.1191/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "1994 C L C 172\n\n[Lahore]\n\nBefore Zia Mahmood Mirza,J\n\nMUHAMMAD RIAZ‐‐‐Petitioner\n\nversus\n\nJUDGE, FAMILY COURT and another‐‐‐Respondents\n\nWrit Petition No. 4851. of 1992, decided on 31st October, 1992.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐‐S. 5 & Sched: ‐‐Dissolution of marriage on ground of Khula'‐‐‐Husband had contended that his wife had filed suit for dissolution of marriage at instance of her parents and requested that she could be summoned to enable him to make an effort for reconciliation‐‐‐Wife appeared in Court and stated very firmly in reply to a Court question that she was not at all willing to live with her husband and that there was no possibility of reconciliation between them‐‐‐Petition filed by husband against judgment of Court dissolving marriage of wife on ground of Khula` was dismissed in circumstances.\n\nQazi Muhammad Saleem for Petitioner.\n\nAkhtar Masood Khan for Respondent No.2.\n\nDate of hearing: 31st October, 1992."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "This Constitutional petition directed against the judgment of the Family Court, Shahpur, dissolving marriage of respondent No.2 on the ground of `Khula' was placed before me on 30‐5‐1992. Learned counsel for the petitioner after arguing the case for quite some time submitted that the respondent filed the suit at the instance of her parents and requested that she may be summoned to enable the petitioner to make an effort at reconciliation in this Court. He further submitted that if the respondent appeared and stated that she was not at all willing to live with the petitioner, he would not press the writ petition.",
+        "label": "procedural_history",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "2. In view of the statement of the learned counsel, notice for pre admission hearing was sent to Mst. Zainab Bibi, respondent No.2. She has today appeared and stated very firmly in reply to a Court question that she was not at all willing to live with the petitioner and that there was no possibility of reconciliation between the parties. In the circumstances, the writ petition is dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "H.B.T./M.1191/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "doc_id": "f13063ba602061a62d029ac3",
+  "metadata": {
+    "doc_id": "f13063ba602061a62d029ac3",
+    "case_title": "West Pakistan Family Courts Act (XXXV of 1964)--",
+    "citation": "1987 M L D 659",
+    "court": "Karachi",
+    "court_location": "Karachi",
+    "decision_date": "1987-01-01",
+    "judges": [
+      "Saeeduzzaman Siddiqui"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "Art. 199"
+    ],
+    "source_relpath": "1987K2639",
+    "content_hash": "e5a13826c129a6c031df595b00494b3124131c1bd3eeb838d734f1152476ac48"
+  },
+  "full_text": "1987 M L D 659\n\n[Karachi]\n\nBefore Saeeduzzaman Siddiqui, J\n\nMst. PHOOL BANO--Petitioner\n\nversus\n\nMrs. KHALIDA YASIN and another--Respondents\n\nConstitutional Petition No. S-78 of 1985, heard on 29th January, 1987.\n\nWest Pakistan Family Courts Act (XXXV of 1964)--\n\n---S.5--Constitution of Pakistan (1973), Art. 199--Khula'--Return of benefits derived by wife during subsistence of marriage--Order of Family Court, allowing Khula' to wife with condition that house which was purchased in her name by husband would be returned to him, neither based on misreading of evidence or perverse appreciation of evidence nor suffering from any jurisdictional defect--Interference declined by High Court in constitutional jurisdiction--Question as to the title of property in question, however could not be decided under Constitutional jurisdiction.\n\nAmir Ahmed Khan for Petitioner.\n\nCh. Muhammad Sadiq for Respondent No.2.\n\nDate of hearing: 29th January, 1987.\n\nJUDGMENT\n\nThe petitioner who was married to respondent No.2 claimed dissolution of marriage by way of Khula before the 8th Civil Judge and Family Court, East, Karachi. The suit for dissolution of marriage was decreed in favour of the petitioner on condition of relinquishment of her dower and return of quarter/house No.62/1, 4B-Landhi. Learned counsel for the petitioner contends that in so far the direction of the Family Court that the petitioner is bound to return the Quarter No. 62/1 4-B, Landhi, to the respondent No.2 as a condition for dissolution of her marriage by way of Khula is concerned, it is arbitrary and based on no evidence. It is alternatively contended by the learned counsel for the petitioner that the dispute with regard to the quarter being in the nature of a civil liability the petitioner could not be compelled to return the quarter to respondent No. 2. It is also contended that not a single document was produced by respondent No.2, before the Family Court in support of his claim that the quarter which stands in the name of the petitioner was purchased \"Benami\". Learned counsel for respondent No.2 on the other hand contended that the question of appraisal of evidence cannot be agitated in this petition as the jurisdiction of this Court is limited to examine only such defects which are of jurisdictional character. After hearing the learned counsel for the parties I am of the view that no case for interference with the judgment and decree of the Court below is made out in the extraordinary jurisdiction of this Court.\n\nThe petitioner who was plaintiff in the suit examined herself and two witnesses in support of her case and it appears from the cross-examination of the plaintiff that she was suggested in clear terms that the house which is subject matter of the dispute was purchased by the defendant after selling his another quarter in New Karachi. One of the witnesses of the plaintiff namely Niralay Khan, who is also the cousin of the petitioner in his cross-examination admitted that the respondent No.2 had a quarter in New Karachi and after selling that quarter he purchased the present quarter but he immediately made another statement that the quarter purchased by the defendant was not this quarter which' is in the name of the petitioner but another quarter bearing No 4-B Block 2 Landhi. It is significant that the defendant who was examined in the case after the close of evidence of the petitioner/ plaintiff, in his statement made a categorical statement that he sold his quarter at New Karachi and purchased the disputed quarter in the name of the petitioner/ plaintiff. Not a single question in the cross-examination was put to the defendant suggesting either that the statement made by him was incorrect or that the quarter which he had purchased was another quarter and not the quarter in dispute. In this state of evidence it cannot be said that the order passed by the Judge of Family Court is either based on mis-reading of evidence or perverse appreciation of evidence. As neither any question of jurisdiction is involved nor the judgment and decree is based on any perverse appreciation or mis-reading of evidence, no case for interference in the writ jurisdiction is made out. Learned counsel also contended that the dispute with regard to the title of the quarter is a civil liability which should have been left to be decided by a civil Court. It is true that the grant of Khula by the Court cannot be nullified on the ground that the petitioner/ plaintiff has failed to return the benefits derived during the course of marriage but in the present case this question does not arise as the respondent No.2 namely the husband of the petitioner has not challenged the decree passed by the learned family Court on the ground that it is ineffective as the petitioner has failed to restore the benefits derived by her during the course of marriage. It is, therefore, quite unnecessary to decide this contention of the petitioner in these proceedings. If such a dispute arises in future it will be resolved in accordance with law. With these observations the petition is dismissed but there will be no order as to costs.\n\nM.Y.H./P-14/K Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "JUDGMENT",
+    "final_orders": [
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "With these observations the petition is dismissed but there will be no order as to costs.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "M.Y.H./P-14/K Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 11,
+        "text": "1987 M L D 659\n\n[Karachi]\n\nBefore Saeeduzzaman Siddiqui, J\n\nMst. PHOOL BANO--Petitioner\n\nversus\n\nMrs. KHALIDA YASIN and another--Respondents\n\nConstitutional Petition No. S-78 of 1985, heard on 29th January, 1987.\n\nWest Pakistan Family Courts Act (XXXV of 1964)--\n\n---S.5--Constitution of Pakistan (1973), Art. 199--Khula'--Return of benefits derived by wife during subsistence of marriage--Order of Family Court, allowing Khula' to wife with condition that house which was purchased in her name by husband would be returned to him, neither based on misreading of evidence or perverse appreciation of evidence nor suffering from any jurisdictional defect--Interference declined by High Court in constitutional jurisdiction--Question as to the title of property in question, however could not be decided under Constitutional jurisdiction.\n\nAmir Ahmed Khan for Petitioner.\n\nCh. Muhammad Sadiq for Respondent No.2.\n\nDate of hearing: 29th January, 1987."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "JUDGMENT",
+        "label": "JUDGMENT"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "The petitioner who was married to respondent No.2 claimed dissolution of marriage by way of Khula before the 8th Civil Judge and Family Court, East, Karachi. The suit for dissolution of marriage was decreed in favour of the petitioner on condition of relinquishment of her dower and return of quarter/house No.62/1, 4B-Landhi. Learned counsel for the petitioner contends that in so far the direction of the Family Court that the petitioner is bound to return the Quarter No. 62/1 4-B, Landhi, to the respondent No.2 as a condition for dissolution of her marriage by way of Khula is concerned, it is arbitrary and based on no evidence. It is alternatively contended by the learned counsel for the petitioner that the dispute with regard to the quarter being in the nature of a civil liability the petitioner could not be compelled to return the quarter to respondent No. 2. It is also contended that not a single document was produced by respondent No.2, before the Family Court in support of his claim that the quarter which stands in the name of the petitioner was purchased \"Benami\". Learned counsel for respondent No.2 on the other hand contended that the question of appraisal of evidence cannot be agitated in this petition as the jurisdiction of this Court is limited to examine only such defects which are of jurisdictional character. After hearing the learned counsel for the parties I am of the view that no case for interference with the judgment and decree of the Court below is made out in the extraordinary jurisdiction of this Court.",
+        "label": "unclassified",
+        "confidence": 1.0
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "The petitioner who was plaintiff in the suit examined herself and two witnesses in support of her case and it appears from the cross-examination of the plaintiff that she was suggested in clear terms that the house which is subject matter of the dispute was purchased by the defendant after selling his another quarter in New Karachi. One of the witnesses of the plaintiff namely Niralay Khan, who is also the cousin of the petitioner in his cross-examination admitted that the respondent No.2 had a quarter in New Karachi and after selling that quarter he purchased the present quarter but he immediately made another statement that the quarter purchased by the defendant was not this quarter which' is in the name of the petitioner but another quarter bearing No 4-B Block 2 Landhi. It is significant that the defendant who was examined in the case after the close of evidence of the petitioner/ plaintiff, in his statement made a categorical statement that he sold his quarter at New Karachi and purchased the disputed quarter in the name of the petitioner/ plaintiff. Not a single question in the cross-examination was put to the defendant suggesting either that the statement made by him was incorrect or that the quarter which he had purchased was another quarter and not the quarter in dispute. In this state of evidence it cannot be said that the order passed by the Judge of Family Court is either based on mis-reading of evidence or perverse appreciation of evidence. As neither any question of jurisdiction is involved nor the judgment and decree is based on any perverse appreciation or mis-reading of evidence, no case for interference in the writ jurisdiction is made out. Learned counsel also contended that the dispute with regard to the title of the quarter is a civil liability which should have been left to be decided by a civil Court. It is true that the grant of Khula by the Court cannot be nullified on the ground that the petitioner/ plaintiff has failed to return the benefits derived during the course of marriage but in the present case this question does not arise as the respondent No.2 namely the husband of the petitioner has not challenged the decree passed by the learned family Court on the ground that it is ineffective as the petitioner has failed to restore the benefits derived by her during the course of marriage. It is, therefore, quite unnecessary to decide this contention of the petitioner in these proceedings. If such a dispute arises in future it will be resolved in accordance with law. With these observations the petition is dismissed but there will be no order as to costs.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "M.Y.H./P-14/K Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

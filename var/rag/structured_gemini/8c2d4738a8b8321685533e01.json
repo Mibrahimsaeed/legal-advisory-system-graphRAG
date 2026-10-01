@@ -1,0 +1,119 @@
+{
+  "doc_id": "8c2d4738a8b8321685533e01",
+  "metadata": {
+    "doc_id": "8c2d4738a8b8321685533e01",
+    "case_title": "Constitution of Pakistan (1973)",
+    "citation": "1986 M L D 991",
+    "court": "Karachi",
+    "court_location": "Karachi",
+    "decision_date": null,
+    "judges": [
+      "Saeed-uz-zaman Siddiqui"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S.5",
+      "section 5",
+      "Art.199",
+      "Article 199"
+    ],
+    "source_relpath": "1986K2659",
+    "content_hash": "fff613dbff37078189e8510b97ee0a247ddf223b05092620c5950bfb7470319d"
+  },
+  "full_text": "1986 M L D 991\n\n[Karachi]\n\nBefore Saeed-uz-zaman Siddiqui, J\n\nSyeda SHAMS ZEHRA NAQVI‐‐Petitioner\n\nVersus\n\nMiss SOOFIA LATEEF and another‐‐‐Respondents\n\nConstitutional Petition No.S‐19 of 1986, decided on 13th April 1986.\n\nConstitution of Pakistan (1973)\n\n‐‐‐Art.199‐‐West Pakistan Family Courts Act (XXXV of 1964), S.5‐ Constitutional jurisdiction, exercise of‐‐Relationship of husband and wife‐‐Determination of‐‐Wife's contention that there being no relationship of husband and wife between parties as she had already been divorced by husband, suit for restitution of conjugal rights filed by husband was liable to be summarily dismissed‐‐Trial Court repelled contention, holding that isgue of existence or non‐existence of such relations between parties could be determined by recording evidence after framing preliminary issue in suit‐‐High Court in constitutional jurisdiction refused to interfere with such order of trial Court.\n\nS.M. Gharib Nawaz for Petitioner.\n\nA.Razzaq Khan for Respondents.\n\nORDER\n\nThis petition under Article 199 of the Constitution is filed by the petitioner to challenge the order of the Family Judge, dated 10‐2‐1986, dismissing the application of the petitioner filed under section 5 read with ‐rule 6 of the Family Court Rules to summarily dismiss the suit of the respondent for restitution of conjugal rights.‐\n\nThe learned counsel for the petitioner contends that the petitioner had already been divorced by the respondent, and no relationship of husband and wife exists between them. It is further contended by the learned counsel that in support of the contention of the petitioner, divorce deed and other documents were produced before the learned trial Judge, but, instead of relying on these documents, he dismissed the application\n\nI have gone through the order of the learned trial Judge, an it is quite clear that the plea of the petitioner had not been rejected but the learned Court had only observed that, in order to determine the contention of the petitioner, it is necessary to record evidence. On these considerations, the application moved by the petitioner for summar dismissal of the suit instituted by the respondent was rejected. The allegation made by the petitioner will certainly have0to be substantiate by evidence, and, therefore, in so far as the trial Judge directed that the issue had to be decided upon recording of the evidence, no exception can be taken. The learned counsel for the petitioner, however, contends that if the suit is proceeded in the normal course, and then decided after framing of issues in the suit, it will take a long time, and the petitioner, who is already intending for a second marriage, will have to wait until the final disposal of the suit. In view of the fact that the petitioner has denied between the parties, it will only that preliminary issue in the suit, and, after deciding the same, the suit may be proceeded further it' necessary. The learned trial Judge will accordingly first frame a preliminary issue before proceeding with the suit. 'With these observations this petition is dismissed summarily. Since the, relationship of husband and wife is disputed, the trial Judge will make every effort to dispose of the preliminary issue as quickly as possible.\n\nH . B . T. Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "I have gone through the order of the learned trial Judge, an it is quite clear that the plea of the petitioner had not been rejected but the learned Court had only observed that, in order to determine the contention of the petitioner, it is necessary to record evidence.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "On these considerations, the application moved by the petitioner for summar dismissal of the suit instituted by the respondent was rejected.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "The learned trial Judge will accordingly first frame a preliminary issue before proceeding with the suit.",
+        "label": "disposed_accordingly"
+      },
+      {
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "sentence": "'With these observations this petition is dismissed summarily.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "sentence": "Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 10,
+        "text": "1986 M L D 991\n\n[Karachi]\n\nBefore Saeed-uz-zaman Siddiqui, J\n\nSyeda SHAMS ZEHRA NAQVI‐‐Petitioner\n\nVersus\n\nMiss SOOFIA LATEEF and another‐‐‐Respondents\n\nConstitutional Petition No.S‐19 of 1986, decided on 13th April 1986.\n\nConstitution of Pakistan (1973)\n\n‐‐‐Art.199‐‐West Pakistan Family Courts Act (XXXV of 1964), S.5‐ Constitutional jurisdiction, exercise of‐‐Relationship of husband and wife‐‐Determination of‐‐Wife's contention that there being no relationship of husband and wife between parties as she had already been divorced by husband, suit for restitution of conjugal rights filed by husband was liable to be summarily dismissed‐‐Trial Court repelled contention, holding that isgue of existence or non‐existence of such relations between parties could be determined by recording evidence after framing preliminary issue in suit‐‐High Court in constitutional jurisdiction refused to interfere with such order of trial Court.\n\nS.M. Gharib Nawaz for Petitioner.\n\nA.Razzaq Khan for Respondents."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "text": "This petition under Article 199 of the Constitution is filed by the petitioner to challenge the order of the Family Judge, dated 10‐2‐1986, dismissing the application of the petitioner filed under section 5 read with ‐rule 6 of the Family Court Rules to summarily dismiss the suit of the respondent for restitution of conjugal rights.‐",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "The learned counsel for the petitioner contends that the petitioner had already been divorced by the respondent, and no relationship of husband and wife exists between them. It is further contended by the learned counsel that in support of the contention of the petitioner, divorce deed and other documents were produced before the learned trial Judge, but, instead of relying on these documents, he dismissed the application",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "I have gone through the order of the learned trial Judge, an it is quite clear that the plea of the petitioner had not been rejected but the learned Court had only observed that, in order to determine the contention of the petitioner, it is necessary to record evidence. On these considerations, the application moved by the petitioner for summar dismissal of the suit instituted by the respondent was rejected. The allegation made by the petitioner will certainly have0to be substantiate by evidence, and, therefore, in so far as the trial Judge directed that the issue had to be decided upon recording of the evidence, no exception can be taken. The learned counsel for the petitioner, however, contends that if the suit is proceeded in the normal course, and then decided after framing of issues in the suit, it will take a long time, and the petitioner, who is already intending for a second marriage, will have to wait until the final disposal of the suit. In view of the fact that the petitioner has denied between the parties, it will only that preliminary issue in the suit, and, after deciding the same, the suit may be proceeded further it' necessary. The learned trial Judge will accordingly first frame a preliminary issue before proceeding with the suit. 'With these observations this petition is dismissed summarily. Since the, relationship of husband and wife is disputed, the trial Judge will make every effort to dispose of the preliminary issue as quickly as possible.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "H . B . T. Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "doc_id": "5a46c21ab4b23438f0e7cdc1",
+  "metadata": {
+    "doc_id": "5a46c21ab4b23438f0e7cdc1",
+    "case_title": "JABRAN MUSTAFA vs JUDGE FAMILY COURT and others",
+    "citation": "2021 M L D 847",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Muzamil Akhtar Shabir"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "Family Courts Act (XXXV of 1964)"
+    ],
+    "provisions_cited": [
+      "Ss.5",
+      "S.14",
+      "section 14",
+      "Art. 199"
+    ],
+    "source_relpath": "2021L2530",
+    "content_hash": "fdea7fa832b5129e3bbf4b3bac7299eb35989bb9853967ca55e8792ed9cdd4d3"
+  },
+  "full_text": "2021 M L D 847\n\n[Lahore]\n\nBefore Muzamil Akhtar Shabir, J\n\nJABRAN MUSTAFA---Petitioner\n\nVersus\n\nJUDGE FAMILY COURT and others---Respondents\n\nWrit Petition No.69574 of 2020, decided on 1st January, 2021.\n\nFamily Courts Act (XXXV of 1964)---\n\n----Ss.5, Sched., 13 & 14---Constitution of Pakistan, Art. 199---Constitutional petition---Maintainability---Executing Court---Objection petition, dismissal of---Final decision---Scope---Executing Court , in wake of non-service of warrants of arrest of the judgment-debtor, issued warrants of arrest of the petitioner, who was brother/attorney of the judgment-debtor---Petitioner invoked constitutional jurisdiction of the High Court contending that his application for cancellation of warrants of his arrest was wrongly dismissed by the Executing Court and he was summoned through non-bailable warrants to appear in the said Court---Held, that petitioner's case was not a case wherein warrants of arrest against him had simpiliciter been issued for the High Court to treat the same as an interlocutory order to look into its legality, rather vide impugned order the Executing Court, while dismissing the application of the petitioner for cancellation of warrants of arrest issued against him, had refused to recall its earlier order of issuing warrant of arrest against him---Executing Court had applied its mind to the facts of the matter before it---Impugned order (of the dismissal) was \"a decision given\" on petitioner's objection petition (application for cancellation of warrants of arrest issued against him) against the execution of decree, hence the same amounted to a final decision , which was appealable before the Appellate Court in terms of S.14 of the Family Courts Act, 1964---Appellate Court could take into consideration the facts of the case of petitioner---Constitutional petition, was not maintainable in view of availability of alternate remedy before the Appellate Court---Constitutional petition was dismissed, in circumstances.\n\nMuhammad Pervez v. Mst. Nabila Yasmeen and 2 others 2004 SCMR 1352 and Rahim Bukhsh v. Mst. Shehzadi and others 2018 CLC 1789 ref.\n\nMirza Kazim Ali Baig for Petitioner.\n\nAdeel Ahmad Kamran, Assistant Attorney General and Sardar Qasim Hassan Khan, A.A.G.\n\nNasrullah Khan Babar, Ch. Muhamad Shahid Iqbal, Ch. Muhammad Naseer and Faisal Anwar Minhas (Amici curiae).\n\nORDER\n\nMUZAMIL AKHTAR SHABIR, J.----Through this constitutional petition, the petitioner, who is the brother and was attorney of the judgment debtor (Ghulam Murtaza) in the family suit filed by respondents Nos. 2 to 5/decree holders, has called in question orders dated 21.10.2020 and 09.12.2020 respectively, whereby due to non-service of warrants of arrest of the judgment debtor, at the request of the decree holders/respondents, warrants of arrest of the present petitioner in execution proceedings of decree passed by the Judge Family Court have been issued and the application of the petitioner for cancellation of warrants of arrest against him has been dismissed and he has been summoned through non-bailable warrants to appear in said court on 04.01.2021.\n\n2. It is contended by the learned counsel for the petitioner that as the petitioner was neither a judgment debtor nor stood as surety or guarantor for him, therefore, issuance of warrants of his arrest, initiating recovery proceedings against him were not justified.\n\n3. It is observed that it is not a case wherein warrants of arrest have been simpliciter issued against the petitioner for this Court to treat the same as an interlocutory order to look into its legality rather in the present case vide impugned order dated 09.12.2020 the learned executing court while dismissing the petitioner's application for cancellation of warrants of arrest, issued against him, has refused to recall its earlier order dated 21.10.2020 by application of its mind to the facts of the matter pending before it and placing reliance on judgment of the Supreme Court reported as Muhammad Pervez v. Mst. Nabila Yasmeen and 2 others (2004 SCMR 1352), which in the opinion of this Court is a \"decision given\" on the afore referred application/objection petition of the petitioner against execution of decree, hence, amounts to a final decision, therefore, the said order is appealable before the appellate court in terms of section 14 of the Family Courts Act, 1964. Reliance in this behalf may also be placed on the judgment reported as Rahim Bukhsh v. Mst. Shehzadi and others (2018 CLC 1789), wherein it has been held that dismissal of an objection petition is an appealable order.\n\n4. As regards the question whether the facts of the petitioner's case are distinguishable from the facts in the afore referred reported case (2004 SCMR 1352) is concerned, the same can be taken into consideration by the appellate court, in case any appeal is filed before it.\n\n5. For what has been discussed above, in view of availability of alternate remedy, this petition is dismissed as premature and not maintainable. However, the petitioner, if advised, is at liberty to approach the appropriate forum for redress of his grievance.\n\nMQ/J-3/L Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": false,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "sentence": "For what has been discussed above, in view of availability of alternate remedy, this petition is dismissed as premature and not maintainable.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "sentence": "MQ/J-3/L Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 12,
+        "text": "2021 M L D 847\n\n[Lahore]\n\nBefore Muzamil Akhtar Shabir, J\n\nJABRAN MUSTAFA---Petitioner\n\nVersus\n\nJUDGE FAMILY COURT and others---Respondents\n\nWrit Petition No.69574 of 2020, decided on 1st January, 2021.\n\nFamily Courts Act (XXXV of 1964)---\n\n----Ss.5, Sched., 13 & 14---Constitution of Pakistan, Art. 199---Constitutional petition---Maintainability---Executing Court---Objection petition, dismissal of---Final decision---Scope---Executing Court , in wake of non-service of warrants of arrest of the judgment-debtor, issued warrants of arrest of the petitioner, who was brother/attorney of the judgment-debtor---Petitioner invoked constitutional jurisdiction of the High Court contending that his application for cancellation of warrants of his arrest was wrongly dismissed by the Executing Court and he was summoned through non-bailable warrants to appear in the said Court---Held, that petitioner's case was not a case wherein warrants of arrest against him had simpiliciter been issued for the High Court to treat the same as an interlocutory order to look into its legality, rather vide impugned order the Executing Court, while dismissing the application of the petitioner for cancellation of warrants of arrest issued against him, had refused to recall its earlier order of issuing warrant of arrest against him---Executing Court had applied its mind to the facts of the matter before it---Impugned order (of the dismissal) was \"a decision given\" on petitioner's objection petition (application for cancellation of warrants of arrest issued against him) against the execution of decree, hence the same amounted to a final decision , which was appealable before the Appellate Court in terms of S.14 of the Family Courts Act, 1964---Appellate Court could take into consideration the facts of the case of petitioner---Constitutional petition, was not maintainable in view of availability of alternate remedy before the Appellate Court---Constitutional petition was dismissed, in circumstances.\n\nMuhammad Pervez v. Mst. Nabila Yasmeen and 2 others 2004 SCMR 1352 and Rahim Bukhsh v. Mst. Shehzadi and others 2018 CLC 1789 ref.\n\nMirza Kazim Ali Baig for Petitioner.\n\nAdeel Ahmad Kamran, Assistant Attorney General and Sardar Qasim Hassan Khan, A.A.G.\n\nNasrullah Khan Babar, Ch. Muhamad Shahid Iqbal, Ch. Muhammad Naseer and Faisal Anwar Minhas (Amici curiae)."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "MUZAMIL AKHTAR SHABIR, J.----Through this constitutional petition, the petitioner, who is the brother and was attorney of the judgment debtor (Ghulam Murtaza) in the family suit filed by respondents Nos. 2 to 5/decree holders, has called in question orders dated 21.10.2020 and 09.12.2020 respectively, whereby due to non-service of warrants of arrest of the judgment debtor, at the request of the decree holders/respondents, warrants of arrest of the present petitioner in execution proceedings of decree passed by the Judge Family Court have been issued and the application of the petitioner for cancellation of warrants of arrest against him has been dismissed and he has been summoned through non-bailable warrants to appear in said court on 04.01.2021.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "2. It is contended by the learned counsel for the petitioner that as the petitioner was neither a judgment debtor nor stood as surety or guarantor for him, therefore, issuance of warrants of his arrest, initiating recovery proceedings against him were not justified.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "3. It is observed that it is not a case wherein warrants of arrest have been simpliciter issued against the petitioner for this Court to treat the same as an interlocutory order to look into its legality rather in the present case vide impugned order dated 09.12.2020 the learned executing court while dismissing the petitioner's application for cancellation of warrants of arrest, issued against him, has refused to recall its earlier order dated 21.10.2020 by application of its mind to the facts of the matter pending before it and placing reliance on judgment of the Supreme Court reported as Muhammad Pervez v. Mst. Nabila Yasmeen and 2 others (2004 SCMR 1352), which in the opinion of this Court is a \"decision given\" on the afore referred application/objection petition of the petitioner against execution of decree, hence, amounts to a final decision, therefore, the said order is appealable before the appellate court in terms of section 14 of the Family Courts Act, 1964. Reliance in this behalf may also be placed on the judgment reported as Rahim Bukhsh v. Mst. Shehzadi and others (2018 CLC 1789), wherein it has been held that dismissal of an objection petition is an appealable order.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "4. As regards the question whether the facts of the petitioner's case are distinguishable from the facts in the afore referred reported case (2004 SCMR 1352) is concerned, the same can be taken into consideration by the appellate court, in case any appeal is filed before it.",
+        "label": "court_reasoning",
+        "confidence": 0.9
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "5. For what has been discussed above, in view of availability of alternate remedy, this petition is dismissed as premature and not maintainable. However, the petitioner, if advised, is at liberty to approach the appropriate forum for redress of his grievance.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "MQ/J-3/L Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}

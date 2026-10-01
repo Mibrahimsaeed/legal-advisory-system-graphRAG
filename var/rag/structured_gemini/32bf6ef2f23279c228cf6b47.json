@@ -1,0 +1,151 @@
+{
+  "doc_id": "32bf6ef2f23279c228cf6b47",
+  "metadata": {
+    "doc_id": "32bf6ef2f23279c228cf6b47",
+    "case_title": "JIND WADDA vs ARSHAD IQBAL, ADDITIONAL DISTRICT JUDGE, MULTAN and 3 others",
+    "citation": "2003 M L D 1131",
+    "court": "Lahore",
+    "court_location": "Lahore",
+    "decision_date": null,
+    "judges": [
+      "Farrukh Lateef"
+    ],
+    "case_number": null,
+    "primary_domain": "family_law",
+    "classification_status": "auto_accepted",
+    "disposition": "dismissed",
+    "statutes_cited": [
+      "West Pakistan Family Courts Act (XXXV of 1964)",
+      "Constitution of Pakistan (1973)"
+    ],
+    "provisions_cited": [
+      "S. 5",
+      "Art. 199"
+    ],
+    "source_relpath": "2003L2681",
+    "content_hash": "f9b16a51e9c558d802dd295d89275831b5693c020e3b8a11898b16dfa2448f77"
+  },
+  "full_text": "2003 M L D 1131\n\n[Lahore]\n\nBefore Farrukh Lateef, J\n\nJIND WADDA---Petitioner\n\nVersus\n\nARSHAD IQBAL, ADDITIONAL DISTRICT JUDGE, MULTAN and 3 others---Respondents\n\nWrit Petition No.930 of 2003, decided on 10th March, 2003.\n\n(a) West Pakistan Family Courts Act (XXXV of 1964)-----\n\n----S. 5---Constitution of Pakistan (1973), Art. 199---Constitutional petition---Maintenance allowance, determination of---Family Court has exclusive jurisdiction to decide such matters---No misreading of evidence nor any material piece of evidence having been overlooked while determining the amount of maintenance awarded, Constitutional petition was dismissed.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5---Constitution of Pakistan (1973), Art. 199---Constitutional petition---Constitutional jurisdiction of High Court---Scope---High Court can quash an order passed by a subordinate Court as without lawful authority and of no legal effect but cannot substitute its own findings for that of the lower Courts.\n\n(c) Constitution of Pakistan (1973)---\n\n----Art. 199---Constitutional jurisdiction of High Court---Scope---In the absence of any illegality, irregularity, material defects of procedure, errors of law or fact the judgment of the Court below could not be disturbed---Constitutional petition was dismissed in circumstances.\n\nManzoor Hussain Bhutta for Petitioner.\n\nORDER\n\nHe has been heard. Writ petition and its annexures perused.\n\n2. Respondents Nos.3 and 4, respectively wife and minor son, of the petitioner had filed a suit claiming maintenance from the petitioner at the rate of Rs.2,000 per month. It was contested by the Petitioner. After framing necessary issues and recording evidence, it was ultimately decreed by respondent- No.2, Judge Family Court, Multan and the said respondents were granted maintenance allowance at the rate of Rs.1,000 each per month vide judgment dated 18-6-2002. Petitioner's appeal against that decree was dismissed by respondent No. 1, the learned Additional District Judge, Multan on 21-1-2003.\n\n3. The aforesaid judgments of the two Courts below are called in question in this Constitutional petition as null and void and are prayed to be declared as such on the grounds that they are based on misreading and non-reading of evidence; that evidence was not properly appraised inasmuch as while determining the rate of maintenance, petitioner's financial position and his liabilities were not considered and that both the Courts below, while exercising jurisdiction, had acted illegally and with material irregularity in determining the amount of maintenance allowance which is excessive.\n\n4. Learned counsel for the petitioner could not draw my attention to any material piece of evidence which was misread or overlooked by any of the two Courts below.\n\n5. Assessment of evidence or to determine the amount of maintenance is the function of the Family Court and its Appellate Court which are vested with exclusive jurisdiction to decide such matters. A perusal of evidence coupled with impugned judgments reveals that neither there appears to be any misreading of evidence nor any material piece of evidence appears to have been overlooked while determining the amount of maintenance awarded.\n\n6. High Court in its extraordinary jurisdiction can quash an order passed by subordinate Court as without lawful authority and of no legal effect but it cannot substitute its own judgment for that of the subordinate Court in determining or reducing the quantum of maintenance fixed by the Family Court and affirmed by its Appellate Court. In writ jurisdiction finding of fact recorded by subordinate Courts can neither be substituted nor opinion regarding adequacy of evidence can be given.\n\n7. The words \"illegally or with material irregularity\", have reference to material defects of procedure in the course of trial and not to errors of law or fact, Counsel for the petitioner could not point out the breach of any provision of law or the commission of any error of procedure by any of the two Courts below.\n\n8. Being devoid of any merit, this petition is hereby dismissed in limine.\n\nF. M. /J-85/L?????????????????????????????????????????????????????????????????????????????????????? Petition dismissed.",
+  "structure": {
+    "structure_status": "structured",
+    "headnotes_detected": true,
+    "judgment_marker": "ORDER",
+    "final_orders": [
+      {
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "sentence": "Being devoid of any merit, this petition is hereby dismissed in limine.",
+        "label": "dismissed"
+      },
+      {
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "sentence": "/J-85/L?????????????????????????????????????????????????????????????????????????????????????? Petition dismissed.",
+        "label": "dismissed"
+      }
+    ],
+    "used_llm": true,
+    "llm_fallback_reason": null,
+    "spans": [
+      {
+        "type": "case_caption",
+        "paragraph_start": 0,
+        "paragraph_end": 6,
+        "text": "2003 M L D 1131\n\n[Lahore]\n\nBefore Farrukh Lateef, J\n\nJIND WADDA---Petitioner\n\nVersus\n\nARSHAD IQBAL, ADDITIONAL DISTRICT JUDGE, MULTAN and 3 others---Respondents\n\nWrit Petition No.930 of 2003, decided on 10th March, 2003."
+      },
+      {
+        "type": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 11,
+        "text": "(a) West Pakistan Family Courts Act (XXXV of 1964)-----\n\n----S. 5---Constitution of Pakistan (1973), Art. 199---Constitutional petition---Maintenance allowance, determination of---Family Court has exclusive jurisdiction to decide such matters---No misreading of evidence nor any material piece of evidence having been overlooked while determining the amount of maintenance awarded, Constitutional petition was dismissed.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5---Constitution of Pakistan (1973), Art. 199---Constitutional petition---Constitutional jurisdiction of High Court---Scope---High Court can quash an order passed by a subordinate Court as without lawful authority and of no legal effect but cannot substitute its own findings for that of the lower Courts.\n\n(c) Constitution of Pakistan (1973)---"
+      },
+      {
+        "type": "case_caption",
+        "paragraph_start": 12,
+        "paragraph_end": 13,
+        "text": "----Art. 199---Constitutional jurisdiction of High Court---Scope---In the absence of any illegality, irregularity, material defects of procedure, errors of law or fact the judgment of the Court below could not be disturbed---Constitutional petition was dismissed in circumstances.\n\nManzoor Hussain Bhutta for Petitioner."
+      },
+      {
+        "type": "judgment_marker",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "text": "ORDER",
+        "label": "ORDER"
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "text": "He has been heard. Writ petition and its annexures perused.",
+        "label": "procedural_history",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "text": "2. Respondents Nos.3 and 4, respectively wife and minor son, of the petitioner had filed a suit claiming maintenance from the petitioner at the rate of Rs.2,000 per month. It was contested by the Petitioner. After framing necessary issues and recording evidence, it was ultimately decreed by respondent- No.2, Judge Family Court, Multan and the said respondents were granted maintenance allowance at the rate of Rs.1,000 each per month vide judgment dated 18-6-2002. Petitioner's appeal against that decree was dismissed by respondent No. 1, the learned Additional District Judge, Multan on 21-1-2003.",
+        "label": "facts",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "text": "3. The aforesaid judgments of the two Courts below are called in question in this Constitutional petition as null and void and are prayed to be declared as such on the grounds that they are based on misreading and non-reading of evidence; that evidence was not properly appraised inasmuch as while determining the rate of maintenance, petitioner's financial position and his liabilities were not considered and that both the Courts below, while exercising jurisdiction, had acted illegally and with material irregularity in determining the amount of maintenance allowance which is excessive.",
+        "label": "arguments",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "text": "4. Learned counsel for the petitioner could not draw my attention to any material piece of evidence which was misread or overlooked by any of the two Courts below.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "text": "5. Assessment of evidence or to determine the amount of maintenance is the function of the Family Court and its Appellate Court which are vested with exclusive jurisdiction to decide such matters. A perusal of evidence coupled with impugned judgments reveals that neither there appears to be any misreading of evidence nor any material piece of evidence appears to have been overlooked while determining the amount of maintenance awarded.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "text": "6. High Court in its extraordinary jurisdiction can quash an order passed by subordinate Court as without lawful authority and of no legal effect but it cannot substitute its own judgment for that of the subordinate Court in determining or reducing the quantum of maintenance fixed by the Family Court and affirmed by its Appellate Court. In writ jurisdiction finding of fact recorded by subordinate Courts can neither be substituted nor opinion regarding adequacy of evidence can be given.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "semantic_section",
+        "paragraph_start": 21,
+        "paragraph_end": 21,
+        "text": "7. The words \"illegally or with material irregularity\", have reference to material defects of procedure in the course of trial and not to errors of law or fact, Counsel for the petitioner could not point out the breach of any provision of law or the commission of any error of procedure by any of the two Courts below.",
+        "label": "court_reasoning",
+        "confidence": 0.95
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 22,
+        "paragraph_end": 22,
+        "text": "8. Being devoid of any merit, this petition is hereby dismissed in limine.",
+        "label": "final_order"
+      },
+      {
+        "type": "final_order",
+        "paragraph_start": 23,
+        "paragraph_end": 23,
+        "text": "F. M. /J-85/L?????????????????????????????????????????????????????????????????????????????????????? Petition dismissed.",
+        "label": "final_order"
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "errors": []
+    }
+  }
+}
