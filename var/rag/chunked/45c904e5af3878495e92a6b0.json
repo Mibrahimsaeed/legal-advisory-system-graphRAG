@@ -1,0 +1,179 @@
+{
+  "parent": {
+    "doc_id": "45c904e5af3878495e92a6b0",
+    "metadata": {
+      "doc_id": "45c904e5af3878495e92a6b0",
+      "case_title": "SHABBIRAN BIBI vs FAQIR MUHAMMAD",
+      "citation": "1994 M L D 1550",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": "1994-01-01",
+      "judges": [
+        "Munir A. Shaikh"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "allowed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S.5",
+        "Art.199"
+      ],
+      "source_relpath": "1994L2790",
+      "content_hash": "02872ccf088eb603362304a2a7548e66dd812ab01bfd0eed2f65409d748fe434"
+    },
+    "full_text": "1994 M L D 1550\n\n[Lahore]\n\nBefore Munir A. Shaikh, J\n\nSHABBIRAN BIBI---Petitioner\n\nversus\n\nFAQIR MUHAMMAD ---Respondent\n\nWrit Petition No.5743 of 1993, heard on 17th October, 1993.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5 & Sched.---Constitution of Pakistan (1973), Art.199---Dissolution of marriage on ground of Khula'---Wife as per her own statement to the effect that on account of conduct of husband she had developed hatred against him and there was no possibility of re-union, was entitled to dissolution of marriage on ground of Khula'---Judgments and decrees passed by Courts below (dismissing wife's suit on ground of Khula`) were declared to have been passed without lawful authority and of no legal effect---Case was remanded to Trial Court only on the limited question as to what benefits if any wife had received in marriage and as to on what consideration decree of dissolution of marriage on ground of Khula` should be granted---Trial Court was directed to pass decree for dissolution of marriage on ground of Khula` and on the basis of evidence now to be recorded, he would determine consideration for such decree.\n\nZafar Pasha Ch. for Petitioner.\n\nNoor Muhammad Mustafa Paris for Respondent No.1.\n\nDate of hearing: 17th October, 1993.\n\nJUDGMENT\n\nIn this Constitutional petition the legality of judgment and decree dated 23-6-1990 passed by Judge Family Court, T.T. Singh through which the suit filed by the petitioner for dissolution of marriage was dismissed and judgment dated 24-2-1993 passed by learned District Judge, T.T. Singh by which her appeal against the said judgment and decree of the trial Court was also dismissed have been called in question.\n\n2. The only point raised by learned counsel for the petitioner was that the petitioner was entitled to decree for dissolution of marriage on the ground of `Khula\" inasmuch as she categorically stated that on account of the conduct of the respondent/husband, she had developed hatred against him and there was no possibility of re-union which was sufficient to justify separation and divorce through `Khula\". The argument has considerable force.\n\n3. It is in the evidence that the relations between the parties became strained within 3/4 months of the marriage and since then the petitioner was living separately from respondent No.1. The case of the respondent is that she was living separately without any legal justification, therefore, was not entitled to any amount in respect of maintenance allowance whereas the respondent's case was that she was ready to forego the right to recover the maintenance allowance as consideration of dissolution of marriage by way of `Khula\".\n\n4. The findings of the two Courts below on issue No.4 for the foregoing reasons, is not sustainable. The petitioner as per her statement is held to be entitled to dissolution of marriage on the ground of `Khula\". The question which requires determination was as to what should be the consideration for dissolution of marriage on account of `Khula\" for which the matter requires further inquiry and recording of evidence as this aspect of the case has not been properly dealt with.\n\n5. Both the judgments and decrees passed by two Courts below are hereby declared to have been passed without lawful authority and of no legal effect and quashed. The case is remitted to the trial Court to record evidence only on the limited question as to what benefits if any the petitioner received in marriage and as to on what consideration the decree of dissolution of marriage on the ground of `Khula\" should be granted.\n\n6. Both the parties shall be given opportunity to produce evidence. The trial Court shall pass decree for dissolution of marriage on the ground of `Khula\" and on the basis of evidence now to be recorded, he shall determine the consideration for such decree. The parties are left to bear their own costs.\n\nAA./S-448/L Case remanded.",
+    "chunks": [
+      {
+        "chunk_id": "45c904e5af3878495e92a6b0:0000",
+        "parent_id": "45c904e5af3878495e92a6b0",
+        "doc_id": "45c904e5af3878495e92a6b0",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1282,
+        "source_end": 1694,
+        "text": "In this Constitutional petition the legality of judgment and decree dated 23-6-1990 passed by Judge Family Court, T.T. Singh through which the suit filed by the petitioner for dissolution of marriage was dismissed and judgment dated 24-2-1993 passed by learned District Judge, T.T. Singh by which her appeal against the said judgment and decree of the trial Court was also dismissed have been called in question.",
+        "word_count": 66,
+        "prev_chunk_id": null,
+        "next_chunk_id": "45c904e5af3878495e92a6b0:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "45c904e5af3878495e92a6b0:0001",
+        "parent_id": "45c904e5af3878495e92a6b0",
+        "doc_id": "45c904e5af3878495e92a6b0",
+        "chunk_index": 1,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1696,
+        "source_end": 2140,
+        "text": "2. The only point raised by learned counsel for the petitioner was that the petitioner was entitled to decree for dissolution of marriage on the ground of `Khula\" inasmuch as she categorically stated that on account of the conduct of the respondent/husband, she had developed hatred against him and there was no possibility of re-union which was sufficient to justify separation and divorce through `Khula\". The argument has considerable force.",
+        "word_count": 70,
+        "prev_chunk_id": "45c904e5af3878495e92a6b0:0000",
+        "next_chunk_id": "45c904e5af3878495e92a6b0:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "45c904e5af3878495e92a6b0:0002",
+        "parent_id": "45c904e5af3878495e92a6b0",
+        "doc_id": "45c904e5af3878495e92a6b0",
+        "chunk_index": 2,
+        "section": "evidence",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2142,
+        "source_end": 2674,
+        "text": "3. It is in the evidence that the relations between the parties became strained within 3/4 months of the marriage and since then the petitioner was living separately from respondent No.1. The case of the respondent is that she was living separately without any legal justification, therefore, was not entitled to any amount in respect of maintenance allowance whereas the respondent's case was that she was ready to forego the right to recover the maintenance allowance as consideration of dissolution of marriage by way of `Khula\".",
+        "word_count": 86,
+        "prev_chunk_id": "45c904e5af3878495e92a6b0:0001",
+        "next_chunk_id": "45c904e5af3878495e92a6b0:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "45c904e5af3878495e92a6b0:0003",
+        "parent_id": "45c904e5af3878495e92a6b0",
+        "doc_id": "45c904e5af3878495e92a6b0",
+        "chunk_index": 3,
+        "section": "findings",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 2676,
+        "source_end": 3156,
+        "text": "4. The findings of the two Courts below on issue No.4 for the foregoing reasons, is not sustainable. The petitioner as per her statement is held to be entitled to dissolution of marriage on the ground of `Khula\". The question which requires determination was as to what should be the consideration for dissolution of marriage on account of `Khula\" for which the matter requires further inquiry and recording of evidence as this aspect of the case has not been properly dealt with.",
+        "word_count": 82,
+        "prev_chunk_id": "45c904e5af3878495e92a6b0:0002",
+        "next_chunk_id": "45c904e5af3878495e92a6b0:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "45c904e5af3878495e92a6b0:0004",
+        "parent_id": "45c904e5af3878495e92a6b0",
+        "doc_id": "45c904e5af3878495e92a6b0",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 3158,
+        "source_end": 3584,
+        "text": "5. Both the judgments and decrees passed by two Courts below are hereby declared to have been passed without lawful authority and of no legal effect and quashed. The case is remitted to the trial Court to record evidence only on the limited question as to what benefits if any the petitioner received in marriage and as to on what consideration the decree of dissolution of marriage on the ground of `Khula\" should be granted.",
+        "word_count": 75,
+        "prev_chunk_id": "45c904e5af3878495e92a6b0:0003",
+        "next_chunk_id": "45c904e5af3878495e92a6b0:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "45c904e5af3878495e92a6b0:0005",
+        "parent_id": "45c904e5af3878495e92a6b0",
+        "doc_id": "45c904e5af3878495e92a6b0",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 3586,
+        "source_end": 3889,
+        "text": "6. Both the parties shall be given opportunity to produce evidence. The trial Court shall pass decree for dissolution of marriage on the ground of `Khula\" and on the basis of evidence now to be recorded, he shall determine the consideration for such decree. The parties are left to bear their own costs.",
+        "word_count": 53,
+        "prev_chunk_id": "45c904e5af3878495e92a6b0:0004",
+        "next_chunk_id": "45c904e5af3878495e92a6b0:0006",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "45c904e5af3878495e92a6b0:0006",
+        "parent_id": "45c904e5af3878495e92a6b0",
+        "doc_id": "45c904e5af3878495e92a6b0",
+        "chunk_index": 6,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "source_start": 3891,
+        "source_end": 3917,
+        "text": "AA./S-448/L Case remanded.",
+        "word_count": 3,
+        "prev_chunk_id": "45c904e5af3878495e92a6b0:0005",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 7
+      },
+      "total_chunks": 7,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

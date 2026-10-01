@@ -1,0 +1,163 @@
+{
+  "parent": {
+    "doc_id": "d2306424582dcabdabbdd9f5",
+    "metadata": {
+      "doc_id": "d2306424582dcabdabbdd9f5",
+      "case_title": "2006 S C M R 662",
+      "citation": "2006 S C M R 662",
+      "court": "Supreme Court of Pakistan",
+      "court_location": null,
+      "decision_date": null,
+      "judges": [
+        "Khalil-ur-Rehman Ramday",
+        "Falak Sher",
+        "M. Javed Buttar"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "partly_allowed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S. 5",
+        "Art.199",
+        "Article 185"
+      ],
+      "source_relpath": "2006S844",
+      "content_hash": "c10ca6a2e0444570195555e8445a62a2159ae455f10d014ada1ed2c324c954ed"
+    },
+    "full_text": "2006 S C M R 662\n\n[Supreme Court of Pakistan]\n\nPresent: Khalil-ur-Rehman Ramday, Falak Sher and M. Javed Buttar, JJ\n\nZAFAR IQBAL-Petitioner\n\nVersus\n\nMst. TAHIRA PARVEEN and others---Respondents\n\nCivil Petition for Leave to Appeal No.2057(L) of 2003, decided on 29th October, 2004.\n\n(On appeal from the judgment, dated 29-5-2003 of the Lahore High Court, Lahore passed in Writ Petition No.8842 of 2000)\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n--S. 5 & Sched.---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of dowery articles or value thereof in alternative---Family Court decreed suit partly while declining claim for motorcycle or its value and gold ornaments---Appellate Court dismissed appeal of wife-Plea of wife was that motorcycle was purchased by her father through her brother, which was given to her at the time of marriage and was sold by husband for Rs.50,000---Husband's plea was that his brother-in-law had offered motorcycle for sale to him, which he purchased being a dealer of motorcycles and subsequently sold to someone else---High Court in Constitutional petition added price of motorcycle (Rs.50,000) to the amount of decree passed by Family Court---Validity---High Court had correctly added price of motorcycle in amount of decree after finding that motorcycle had been given to wife at the time of marriage as a dowry article, which had been sold by husband for Rs.50,000---No illegality or jurisdictional defect was found in impugned judgment----Controversy was merely factual in nature not involving any question of law---Supreme Court dismissed petition and refused leave to appeal.\n\nMalik Saeed Hassan, Senior Advocate Supreme Court with Mehdi Khan Mehtab, Advocate-on-Record for Petitioner.\n\nNemo for Respondents.\n\nDate of hearing: 29th October, 2004.\n\nJUDGMENT\n\nM. JAVED BUTTAR, J.--- The petitioner Zafar Iqbal through this petition under Article 185(3) of the Constitution of-Islamic Republic of Pakistan, 1973 has assailed the judgment, dated 29-5-2003 passed by a learned Single Judge of the Lahore High Court, Lahore whereby Writ Petition No.8842 of 2000 instituted by respondent No.1, Mst. Tahira Perveen has been partly allowed and the amount of Rs.50,000 being price of the motorcycle has been added to the amount of dowry articles, decreed by the trial Court.\n\n2. The marriage of respondent No.1 with the petitioner ended in a divorce. Respondent No.1 instituted a Suit (No.35911 of 1997) of recovery of dowry articles or their value amounting to Rs.1,83,390. The break-up of the articles and their value was given in the plaint. The suit was contested by the petitioner. The Family Court, Kasur vide its judgment and decree, dated 25-11-1998, after framing the issues and recording evidence produced by the parties, decreed her suit for Rs.75,000. Her claim for motorcycle or its value and the gold ornaments was declined. Both the parties assailed the trial Court's judgment through appeals (Civil Appeals Nos.95-96 of 1998), which were dismissed by the Additional District Judge, Kasur on 12-6-1999. The matter was further assailed only by respondent No.1 through Writ Petition No.8842 of 2000, which was disposed of by the High Court in the terms mentioned above.\n\n3. It is submitted by the learned counsel for the petitioner that giving of the motorcycle in the dowry was not proved and the trial Court as well as Appellate Court were justified in rejecting the respondent's claim.\n\n4. The learned Judge of the High Court after perusal of the record and the statements dated 3-6-1999 and 11-6-1999, made before the Appellate Court, during the pendency of the appeals, concluded that the motorcycle was purchased by father of the respondent No.1 through his son Tariq Mehmood which was given to her at the time of marriage, which was sold by the petitioner for Rs.50,000 and the petitioner's 'excuse that Tariq Mehmood himself offered it for sale to him and he purchased it being a Dealer of motorcycles and subsequently sold to someone else, is devoid of credibility. It was in this factual background, the learned Judge of the High Court (correctly) held that motorcycle was given to respondent at the time of marriage as a dowry article which was sold by her husband for Rs.50,000. An amount of Rs.50,000 was, therefore, correctly added in the amount of the decree passed in favour of respondent.\n\n5. Learned counsel for the petitioner has not been able to point out illegality and jurisdictional defect in the impugned judgment. Even otherwise the controversy is merely factual in nature and it does not involve any question of law. We find no merit in this petition which is dismissed and the leave is refused.\n\nS.A.K./Z-26/SC Leave refused.",
+    "chunks": [
+      {
+        "chunk_id": "d2306424582dcabdabbdd9f5:0000",
+        "parent_id": "d2306424582dcabdabbdd9f5",
+        "doc_id": "d2306424582dcabdabbdd9f5",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1843,
+        "source_end": 2349,
+        "text": "M. JAVED BUTTAR, J.--- The petitioner Zafar Iqbal through this petition under Article 185(3) of the Constitution of-Islamic Republic of Pakistan, 1973 has assailed the judgment, dated 29-5-2003 passed by a learned Single Judge of the Lahore High Court, Lahore whereby Writ Petition No.8842 of 2000 instituted by respondent No.1, Mst. Tahira Perveen has been partly allowed and the amount of Rs.50,000 being price of the motorcycle has been added to the amount of dowry articles, decreed by the trial Court.",
+        "word_count": 81,
+        "prev_chunk_id": null,
+        "next_chunk_id": "d2306424582dcabdabbdd9f5:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "d2306424582dcabdabbdd9f5:0001",
+        "parent_id": "d2306424582dcabdabbdd9f5",
+        "doc_id": "d2306424582dcabdabbdd9f5",
+        "chunk_index": 1,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2351,
+        "source_end": 3257,
+        "text": "2. The marriage of respondent No.1 with the petitioner ended in a divorce. Respondent No.1 instituted a Suit (No.35911 of 1997) of recovery of dowry articles or their value amounting to Rs.1,83,390. The break-up of the articles and their value was given in the plaint. The suit was contested by the petitioner. The Family Court, Kasur vide its judgment and decree, dated 25-11-1998, after framing the issues and recording evidence produced by the parties, decreed her suit for Rs.75,000. Her claim for motorcycle or its value and the gold ornaments was declined. Both the parties assailed the trial Court's judgment through appeals (Civil Appeals Nos.95-96 of 1998), which were dismissed by the Additional District Judge, Kasur on 12-6-1999. The matter was further assailed only by respondent No.1 through Writ Petition No.8842 of 2000, which was disposed of by the High Court in the terms mentioned above.",
+        "word_count": 146,
+        "prev_chunk_id": "d2306424582dcabdabbdd9f5:0000",
+        "next_chunk_id": "d2306424582dcabdabbdd9f5:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "d2306424582dcabdabbdd9f5:0002",
+        "parent_id": "d2306424582dcabdabbdd9f5",
+        "doc_id": "d2306424582dcabdabbdd9f5",
+        "chunk_index": 2,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 3259,
+        "source_end": 3476,
+        "text": "3. It is submitted by the learned counsel for the petitioner that giving of the motorcycle in the dowry was not proved and the trial Court as well as Appellate Court were justified in rejecting the respondent's claim.",
+        "word_count": 38,
+        "prev_chunk_id": "d2306424582dcabdabbdd9f5:0001",
+        "next_chunk_id": "d2306424582dcabdabbdd9f5:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "d2306424582dcabdabbdd9f5:0003",
+        "parent_id": "d2306424582dcabdabbdd9f5",
+        "doc_id": "d2306424582dcabdabbdd9f5",
+        "chunk_index": 3,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 3478,
+        "source_end": 4393,
+        "text": "4. The learned Judge of the High Court after perusal of the record and the statements dated 3-6-1999 and 11-6-1999, made before the Appellate Court, during the pendency of the appeals, concluded that the motorcycle was purchased by father of the respondent No.1 through his son Tariq Mehmood which was given to her at the time of marriage, which was sold by the petitioner for Rs.50,000 and the petitioner's 'excuse that Tariq Mehmood himself offered it for sale to him and he purchased it being a Dealer of motorcycles and subsequently sold to someone else, is devoid of credibility. It was in this factual background, the learned Judge of the High Court (correctly) held that motorcycle was given to respondent at the time of marriage as a dowry article which was sold by her husband for Rs.50,000. An amount of Rs.50,000 was, therefore, correctly added in the amount of the decree passed in favour of respondent.",
+        "word_count": 156,
+        "prev_chunk_id": "d2306424582dcabdabbdd9f5:0002",
+        "next_chunk_id": "d2306424582dcabdabbdd9f5:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "d2306424582dcabdabbdd9f5:0004",
+        "parent_id": "d2306424582dcabdabbdd9f5",
+        "doc_id": "d2306424582dcabdabbdd9f5",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 4395,
+        "source_end": 4709,
+        "text": "5. Learned counsel for the petitioner has not been able to point out illegality and jurisdictional defect in the impugned judgment. Even otherwise the controversy is merely factual in nature and it does not involve any question of law. We find no merit in this petition which is dismissed and the leave is refused.",
+        "word_count": 54,
+        "prev_chunk_id": "d2306424582dcabdabbdd9f5:0003",
+        "next_chunk_id": "d2306424582dcabdabbdd9f5:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "d2306424582dcabdabbdd9f5:0005",
+        "parent_id": "d2306424582dcabdabbdd9f5",
+        "doc_id": "d2306424582dcabdabbdd9f5",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "source_start": 4711,
+        "source_end": 4740,
+        "text": "S.A.K./Z-26/SC Leave refused.",
+        "word_count": 3,
+        "prev_chunk_id": "d2306424582dcabdabbdd9f5:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

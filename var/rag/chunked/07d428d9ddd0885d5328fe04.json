@@ -1,0 +1,104 @@
+{
+  "parent": {
+    "doc_id": "07d428d9ddd0885d5328fe04",
+    "metadata": {
+      "doc_id": "07d428d9ddd0885d5328fe04",
+      "case_title": "ANEELA KHAN vs TAHIR SAEED and others",
+      "citation": "2005 C L C 859",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Syed Zahid Hussain"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "allowed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S. 5",
+        "Art.199"
+      ],
+      "source_relpath": "2005L282",
+      "content_hash": "36bb84be0291e6f6c359d62f2533439ef5152dab40c34ef1538115e914988744"
+    },
+    "full_text": "2005 C L C 859\n\n[Lahore]\n\nBefore Syed Zahid Hussain, J\n\nANEELA KHAN---Petitioner\n\nversus\n\nTAHIR SAEED and others---Respondents\n\nWrit Petition No.7740 of 2004, decided on 4th March, 2005.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5---Constitution of Pakistan (1973), Art.199---Constitutional petition---Custody of minors---Welfare of minors---Determination---Choice of minors---On inquiry of High Court about the wishes of the children, all of them had stated that they would like to continue living with their mother---In view of the wishes of the children, the father preferred welfare of the minors and their interest overall---Father sought permission to have access to his children---Effect---Mother had no objection to access of the father to his children---High Court resolved the matter of the custody of the children in accord with the wishes of the children---Petition was disposed of accordingly.\n\nSyed Mukhtar Abbas for Petitioner.\n\nMuhammad Asif Ismail for Respondents.\n\nDate of hearing: 4th March, 2005.\n\nJUDGMENT\n\nThe petition concerns with the custody of children who are outcome of a marriage which took place in the year 1980. They are namely Mehvish (21 years), Arsheen (19 years), Hassan (14 years) (son) Palwasha (12 years) and Mehr (6 years). All are present in Court except Palwasha and Mehr. During the course of proceedings when I enquired about the wishes of the children as to where and with whom they like to live, all of them have stated in unequivocal terms that they would continue living with their mother in Lahore where they are getting education in respective institutions. Mr. Tahir Saeed (respondent No.1) has in view of the wishes of the children stated that he would prefer the welfare of the minors and their interest over all other things and was ready to make sacrifice for their betterment. He has stated that the children including Palwasha and Mehr (who are not present) may continue to live with their mother at Lahore but he may be allowed to have access to them. The petitioner has no objection to such a course who states that as a father of the children respondent No.1, will have free access to the children and at liberty even to take them out, which however, should not affect their education. The matter of custody of children thus, stands resolved in accord with the wishes of the children and the desire/cooperation of their parents.\n\nIt is stated by respondent No.1, that out of the arrears of maintenance, a sum of Rs.1,74,793 has been paid and he would make every possible effort to clear the arrears by the end of this year and that he would continue paying the current maintenance amount at the rate of Rs.9,000 per mensum effective from March, 2005 to the minors.\n\nIn view of the above consensual arrangement this petition is disposed of accordingly. No order as to costs.\n\nM.H./A-402/L Order accordingly.",
+    "chunks": [
+      {
+        "chunk_id": "07d428d9ddd0885d5328fe04:0000",
+        "parent_id": "07d428d9ddd0885d5328fe04",
+        "doc_id": "07d428d9ddd0885d5328fe04",
+        "chunk_index": 0,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 14,
+        "source_start": 1045,
+        "source_end": 2741,
+        "text": "The petition concerns with the custody of children who are outcome of a marriage which took place in the year 1980. They are namely Mehvish (21 years), Arsheen (19 years), Hassan (14 years) (son) Palwasha (12 years) and Mehr (6 years). All are present in Court except Palwasha and Mehr. During the course of proceedings when I enquired about the wishes of the children as to where and with whom they like to live, all of them have stated in unequivocal terms that they would continue living with their mother in Lahore where they are getting education in respective institutions. Mr. Tahir Saeed (respondent No.1) has in view of the wishes of the children stated that he would prefer the welfare of the minors and their interest over all other things and was ready to make sacrifice for their betterment. He has stated that the children including Palwasha and Mehr (who are not present) may continue to live with their mother at Lahore but he may be allowed to have access to them. The petitioner has no objection to such a course who states that as a father of the children respondent No.1, will have free access to the children and at liberty even to take them out, which however, should not affect their education. The matter of custody of children thus, stands resolved in accord with the wishes of the children and the desire/cooperation of their parents.\n\nIt is stated by respondent No.1, that out of the arrears of maintenance, a sum of Rs.1,74,793 has been paid and he would make every possible effort to clear the arrears by the end of this year and that he would continue paying the current maintenance amount at the rate of Rs.9,000 per mensum effective from March, 2005 to the minors.",
+        "word_count": 299,
+        "prev_chunk_id": null,
+        "next_chunk_id": "07d428d9ddd0885d5328fe04:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "07d428d9ddd0885d5328fe04:0001",
+        "parent_id": "07d428d9ddd0885d5328fe04",
+        "doc_id": "07d428d9ddd0885d5328fe04",
+        "chunk_index": 1,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2743,
+        "source_end": 2850,
+        "text": "In view of the above consensual arrangement this petition is disposed of accordingly. No order as to costs.",
+        "word_count": 18,
+        "prev_chunk_id": "07d428d9ddd0885d5328fe04:0000",
+        "next_chunk_id": "07d428d9ddd0885d5328fe04:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "07d428d9ddd0885d5328fe04:0002",
+        "parent_id": "07d428d9ddd0885d5328fe04",
+        "doc_id": "07d428d9ddd0885d5328fe04",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 2852,
+        "source_end": 2883,
+        "text": "M.H./A-402/L Order accordingly.",
+        "word_count": 3,
+        "prev_chunk_id": "07d428d9ddd0885d5328fe04:0001",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "250-499": 1,
+        "<250": 2
+      },
+      "total_chunks": 3,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

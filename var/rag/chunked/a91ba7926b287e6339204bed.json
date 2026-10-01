@@ -1,0 +1,162 @@
+{
+  "parent": {
+    "doc_id": "a91ba7926b287e6339204bed",
+    "metadata": {
+      "doc_id": "a91ba7926b287e6339204bed",
+      "case_title": "ABDUL HAYEE vs Mst. HALEEMA and another",
+      "citation": "2020 M L D 1523",
+      "court": "Sindh",
+      "court_location": "Sindh",
+      "decision_date": null,
+      "judges": [
+        "Nazar Akbar"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "Ss. 17",
+        "S.17",
+        "Section 17",
+        "Art.199",
+        "Article 199"
+      ],
+      "source_relpath": "2020K2595",
+      "content_hash": "d81c55f0b8708ffe2701d84277524afb5f5bec747a3f0ed435055128dcea0230"
+    },
+    "full_text": "2020 M L D 1523\n\n[Sindh]\n\nBefore Nazar Akbar, J\n\nABDUL HAYEE---Petitioner\n\nVersus\n\nMst. HALEEMA and another---Respondents\n\nConstitutional Petition No.1178 of 2019, decided on 19th February, 2020.\n\nFamily Courts Act (XXXV of 1964)---\n\n----Ss. 17-A & 14---Suit for maintenance---Interim order---Scope---Petitioner assailed by Constitutional petition, order passed by Judge Family Court whereby he, on an application under S.17-A of Family Courts Act, 1964, was directed to pay maintenance to the respondent/wife till she rejoined him---Validity---Interim order was not an appealable order---Legislature, while denying the appeal against interim order, did not mean that the aggrieved person could approach the High Court under Art.199 of the Constitution and against final order could file an appeal before the court subordinate to the High Court---Entertaining a constitutional petition in ordinary case against interim order, which was neither without jurisdiction nor contrary to law, would defeat the very purpose of not providing appeal against interim order---Aggrieved party had to wait for final order and after final order, he could impugn both the interim and final order in appeal before the appellate court---Constitutional petition was dismissed.\n\nShamshad Khan and another v. Arif Ashraf Khan and 2 others 2008 SCMR 269 rel.\n\nParvez Ahmed Memon for Petitioner.\n\nDate of hearing: 19th February, 2020.\n\nORDER\n\nNAZAR AKBAR, J.---This constitution petition is directed against an interim order dated 17.09.2019 passed by the 16th Family Judge, East Karachi on application under Section 17-A of West Pakistan Family Court Act, 1964, whereby the Petitioner was directed to pay maintenance at the rate of Rs.5000/- per month till defendant rejoins the plaintiff.\n\n2. Learned counsel for the Petitioner is unable to satisfy the Court that how an interim order can be challenged in constitution petition except by saying that no remedy lies. The interim order is not an appealable order does not mean that by denying appeal against interim order, the legislator wanted that the person aggrieved by interim orders to approach High Court under Article 199 of the Constitution and against final order file an appeal before the Court subordinate to the High Court. By entertaining constitution petition in ordinary case against interim orders which are neither without jurisdiction nor contrary to law, the Court defeats the very purpose of not providing appeal against the interim orders pending the final decision on merit. It was not the intention of the legislatures, therefore, the Petition does not lie. Even otherwise it is incorrect to believe that no remedy lies against the interim order. By now it is settled law that if any interim order is not appealable, the aggrieved party should wait for final order and after final order, he may impugn both the interim and the final orders in appeal before the appellate Court. In this context if any citation is needed one may refer to the case of Shamshad Khan and another v. Arif Ashraf Khan and 2 others reported in 2008 SCMR 269 in which the Hon'ble Supreme (Court in para-7 has observed as follows:-\n\n7. As regards the plea of learned counsel for the respondent that interim order, dated 13.9.2004 striking off petitioners' right of defence had attained finality. Suffice it to say that it is settled that interlocutory order merge in the final judgment and an aggrieved person may challenge interim orders while assailing the final judgment in appeal. We have also examined the memorandum of appeal and find that the petitioners, while filing the first appeal before the learned Additional District Judge, have also challenged the order dated 13.9.2004. Thus, the contention of the learned counsel is without force.\n\nI have already stated that remedy lies even against the interim Order, however, the aggrieved person has to patient and wait for the final order and then impugn both the orders in appeal.\n\n3. In view of the above, instant petition is dismissed along with listed application\n\nSA/A-43/Sindh Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "a91ba7926b287e6339204bed:0000",
+        "parent_id": "a91ba7926b287e6339204bed",
+        "doc_id": "a91ba7926b287e6339204bed",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1420,
+        "source_end": 1767,
+        "text": "NAZAR AKBAR, J.---This constitution petition is directed against an interim order dated 17.09.2019 passed by the 16th Family Judge, East Karachi on application under Section 17-A of West Pakistan Family Court Act, 1964, whereby the Petitioner was directed to pay maintenance at the rate of Rs.5000/- per month till defendant rejoins the plaintiff.",
+        "word_count": 53,
+        "prev_chunk_id": null,
+        "next_chunk_id": "a91ba7926b287e6339204bed:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "a91ba7926b287e6339204bed:0001",
+        "parent_id": "a91ba7926b287e6339204bed",
+        "doc_id": "a91ba7926b287e6339204bed",
+        "chunk_index": 1,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1769,
+        "source_end": 3156,
+        "text": "2. Learned counsel for the Petitioner is unable to satisfy the Court that how an interim order can be challenged in constitution petition except by saying that no remedy lies. The interim order is not an appealable order does not mean that by denying appeal against interim order, the legislator wanted that the person aggrieved by interim orders to approach High Court under Article 199 of the Constitution and against final order file an appeal before the Court subordinate to the High Court. By entertaining constitution petition in ordinary case against interim orders which are neither without jurisdiction nor contrary to law, the Court defeats the very purpose of not providing appeal against the interim orders pending the final decision on merit. It was not the intention of the legislatures, therefore, the Petition does not lie. Even otherwise it is incorrect to believe that no remedy lies against the interim order. By now it is settled law that if any interim order is not appealable, the aggrieved party should wait for final order and after final order, he may impugn both the interim and the final orders in appeal before the appellate Court. In this context if any citation is needed one may refer to the case of Shamshad Khan and another v. Arif Ashraf Khan and 2 others reported in 2008 SCMR 269 in which the Hon'ble Supreme (Court in para-7 has observed as follows:-",
+        "word_count": 236,
+        "prev_chunk_id": "a91ba7926b287e6339204bed:0000",
+        "next_chunk_id": "a91ba7926b287e6339204bed:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "a91ba7926b287e6339204bed:0002",
+        "parent_id": "a91ba7926b287e6339204bed",
+        "doc_id": "a91ba7926b287e6339204bed",
+        "chunk_index": 2,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 3158,
+        "source_end": 3773,
+        "text": "7. As regards the plea of learned counsel for the respondent that interim order, dated 13.9.2004 striking off petitioners' right of defence had attained finality. Suffice it to say that it is settled that interlocutory order merge in the final judgment and an aggrieved person may challenge interim orders while assailing the final judgment in appeal. We have also examined the memorandum of appeal and find that the petitioners, while filing the first appeal before the learned Additional District Judge, have also challenged the order dated 13.9.2004. Thus, the contention of the learned counsel is without force.",
+        "word_count": 97,
+        "prev_chunk_id": "a91ba7926b287e6339204bed:0001",
+        "next_chunk_id": "a91ba7926b287e6339204bed:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "a91ba7926b287e6339204bed:0003",
+        "parent_id": "a91ba7926b287e6339204bed",
+        "doc_id": "a91ba7926b287e6339204bed",
+        "chunk_index": 3,
+        "section": "final_order",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 3775,
+        "source_end": 3962,
+        "text": "I have already stated that remedy lies even against the interim Order, however, the aggrieved person has to patient and wait for the final order and then impugn both the orders in appeal.",
+        "word_count": 33,
+        "prev_chunk_id": "a91ba7926b287e6339204bed:0002",
+        "next_chunk_id": "a91ba7926b287e6339204bed:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "a91ba7926b287e6339204bed:0004",
+        "parent_id": "a91ba7926b287e6339204bed",
+        "doc_id": "a91ba7926b287e6339204bed",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 3964,
+        "source_end": 4048,
+        "text": "3. In view of the above, instant petition is dismissed along with listed application",
+        "word_count": 14,
+        "prev_chunk_id": "a91ba7926b287e6339204bed:0003",
+        "next_chunk_id": "a91ba7926b287e6339204bed:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "a91ba7926b287e6339204bed:0005",
+        "parent_id": "a91ba7926b287e6339204bed",
+        "doc_id": "a91ba7926b287e6339204bed",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 4050,
+        "source_end": 4083,
+        "text": "SA/A-43/Sindh Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "a91ba7926b287e6339204bed:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

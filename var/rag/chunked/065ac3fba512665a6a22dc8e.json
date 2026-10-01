@@ -1,0 +1,179 @@
+{
+  "parent": {
+    "doc_id": "065ac3fba512665a6a22dc8e",
+    "metadata": {
+      "doc_id": "065ac3fba512665a6a22dc8e",
+      "case_title": "MUHAMMAD AFZAL- vs Mst. IDREES BIBI and others-",
+      "citation": "2016 C L C 1337",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Muhammad Farrukh Irfan Khan"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 5",
+        "Art.199"
+      ],
+      "source_relpath": "2016L252",
+      "content_hash": "1e664a0eabea0354ccbfc4128a405d24b563b9b530bac3c9084c18248b977dc3"
+    },
+    "full_text": "2016 C L C 1337\n\n[Lahore]\n\nBefore Muhammad Farrukh Irfan Khan, J\n\nMUHAMMAD AFZAL----Petitioner\n\nVersus\n\nMst. IDREES BIBI and others----Respondents\n\nWrit Petition No.14544 of 2014, decided on 26th May, 2014.\n\nFamily Courts Act (XXXV of 1964)---\n\n----S. 5, Sched.---Constitution of Pakistan, Art.199---Constitutional petition---Maintenance allowance---Enhancement of quantum of maintenance for minor---Reasonable level of sustenance for minor---Contentions of the defendant (father) were that Family Court had misread and non-read the evidence on record; that the defendant (father) was a labourer and was working on daily wages while he had also to support his old parents; that plaintiff (respondent) failed to prove the income of the defendant by bringing on record any cogent evidence---Validity---Contention of the defendant that he was a labourer on daily wages was just a bald assertion as he had failed to bring any material or evidence in support of his claim---Family Court had awarded maintenance to the minor at the rate of Rs.1500/- per month, considering the version of the father that he was a labourer and could not afford to maintain his child on a higher level---Family Court had rightly taken into consideration the minimum needs of a five years old girl, but no one could deny the inflation rate and ever rising prices of commodities in the country---Appellate Court left with no option but to use its judicial mind to arrive at a reasonable level of sustenance for the minor, who could not be left to strive on the plea, which had not been proved by the father that he had very meagre resources---Even if the claim of the defendant was considered that he was a labourer, meaning thereby that he was an able-bodied person and he could undertake additional work to meet up with his obligation of providing maintenance to his minor child, at least, to a level that she was able to sustain herself---No illegality or perversity in the judgment of the appellate court was found---Constitutional petition was dismissed in limine.\n\nRana Zia Abdul Rehman for Petitioner.\n\nORDER\n\nMUHAMMAD FARRUKH IRFAN KHAN, J.--- The petitioner has assailed the judgment and decree dated 23.4.2014, passed by learned Additional District Judge, Arifwala, whereby the said learned Court has enhanced the quantum of maintenance of the minor/Afifa Batool from Rs.1,500/- to Rs.2,000/-, per month.\n\n2. It is contended by learned counsel that the learned Family Court has misread and non-read the evidence on record; that the petitioner is a labourer and is working on daily wages while he has also to support his old parents; that respondent No.1 had failed to prove the income of the petitioner by bringing on record any cogent evidence in respect thereof; that the learned Judge Family Court had rightly fixed the maintenance of the minor at the rate of Rs.1,500/-, per month, which the petitioner could easily pay.\n\n3. Arguments. heard. Record perused.\n\n4. The case of the petitioner is that he is a labourer on daily wages. This is just a bald assertion as he has failed to bring any material or evidence in support of this claim. The learned counsel has asserted that respondent No.1 has failed to prove her case while she has claimed that the petitioner is owner of five acres of agricultural land and besides obtaining land on lease he also deals in the trade of cattle as such, his approximate income is Rs.50,000/-, per month, however, she has not been able to bring on record any confidence inspiring evidence to prove the said claim. In the circumstances, the matter was adjudicated upon by the learned Courts below. The learned Family Court had awarded maintenance to the minor at the rate o Rs.1,500/-, per month, considering the version of the petitioner that he is a labourer and he cannot afford to maintain his child on a higher level. In my opinion, the learned Family Court had, at that time, rightly taken into consideration the minimum needs of a five years old girl but no one can deny the inflation rate and ever rising prices of commodities in our country. Therefore, in the absence of truth coming from either side, the Court was left with no option but to use its judicial mind to arrive at a reasonable level of sustenance for the minor, who cannot be left to strive on the plea, which has not been proved by the father, that he has very meager resources. Even if the claim of the petitioner-father is considered that he is a labourer, it means that he is an able-bodied person and he can undertake additional work to meet up with his obligation of providing maintenance to his minor child, at least, to a level that she is able to sustain herself.\n\n5. Learned counsel was also given an opportunity to come up with a list of basic food items including the articles which are required by a child for its sustenance along with their cost but he has not been able to satisfy this Court that a child, even belonging to a poor family, who requires only meal, clothing and medication, can be maintained in less than Rs.3,000/-, per month, apart from his/her school fee.\n\n6. In view of the above discussion, I do not find any illegality or perversity in the impugned judgment of learned Additional District Judge. Resultantly, this writ petition is dismissed in limine with no order as to costs.\n\nSA/276/L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "065ac3fba512665a6a22dc8e:0000",
+        "parent_id": "065ac3fba512665a6a22dc8e",
+        "doc_id": "065ac3fba512665a6a22dc8e",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "source_start": 2090,
+        "source_end": 2387,
+        "text": "MUHAMMAD FARRUKH IRFAN KHAN, J.--- The petitioner has assailed the judgment and decree dated 23.4.2014, passed by learned Additional District Judge, Arifwala, whereby the said learned Court has enhanced the quantum of maintenance of the minor/Afifa Batool from Rs.1,500/- to Rs.2,000/-, per month.",
+        "word_count": 43,
+        "prev_chunk_id": null,
+        "next_chunk_id": "065ac3fba512665a6a22dc8e:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "065ac3fba512665a6a22dc8e:0001",
+        "parent_id": "065ac3fba512665a6a22dc8e",
+        "doc_id": "065ac3fba512665a6a22dc8e",
+        "chunk_index": 1,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 2389,
+        "source_end": 2907,
+        "text": "2. It is contended by learned counsel that the learned Family Court has misread and non-read the evidence on record; that the petitioner is a labourer and is working on daily wages while he has also to support his old parents; that respondent No.1 had failed to prove the income of the petitioner by bringing on record any cogent evidence in respect thereof; that the learned Judge Family Court had rightly fixed the maintenance of the minor at the rate of Rs.1,500/-, per month, which the petitioner could easily pay.",
+        "word_count": 90,
+        "prev_chunk_id": "065ac3fba512665a6a22dc8e:0000",
+        "next_chunk_id": "065ac3fba512665a6a22dc8e:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "065ac3fba512665a6a22dc8e:0002",
+        "parent_id": "065ac3fba512665a6a22dc8e",
+        "doc_id": "065ac3fba512665a6a22dc8e",
+        "chunk_index": 2,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 2909,
+        "source_end": 2945,
+        "text": "3. Arguments. heard. Record perused.",
+        "word_count": 5,
+        "prev_chunk_id": "065ac3fba512665a6a22dc8e:0001",
+        "next_chunk_id": "065ac3fba512665a6a22dc8e:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "065ac3fba512665a6a22dc8e:0003",
+        "parent_id": "065ac3fba512665a6a22dc8e",
+        "doc_id": "065ac3fba512665a6a22dc8e",
+        "chunk_index": 3,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 2947,
+        "source_end": 4665,
+        "text": "4. The case of the petitioner is that he is a labourer on daily wages. This is just a bald assertion as he has failed to bring any material or evidence in support of this claim. The learned counsel has asserted that respondent No.1 has failed to prove her case while she has claimed that the petitioner is owner of five acres of agricultural land and besides obtaining land on lease he also deals in the trade of cattle as such, his approximate income is Rs.50,000/-, per month, however, she has not been able to bring on record any confidence inspiring evidence to prove the said claim. In the circumstances, the matter was adjudicated upon by the learned Courts below. The learned Family Court had awarded maintenance to the minor at the rate o Rs.1,500/-, per month, considering the version of the petitioner that he is a labourer and he cannot afford to maintain his child on a higher level. In my opinion, the learned Family Court had, at that time, rightly taken into consideration the minimum needs of a five years old girl but no one can deny the inflation rate and ever rising prices of commodities in our country. Therefore, in the absence of truth coming from either side, the Court was left with no option but to use its judicial mind to arrive at a reasonable level of sustenance for the minor, who cannot be left to strive on the plea, which has not been proved by the father, that he has very meager resources. Even if the claim of the petitioner-father is considered that he is a labourer, it means that he is an able-bodied person and he can undertake additional work to meet up with his obligation of providing maintenance to his minor child, at least, to a level that she is able to sustain herself.",
+        "word_count": 311,
+        "prev_chunk_id": "065ac3fba512665a6a22dc8e:0002",
+        "next_chunk_id": "065ac3fba512665a6a22dc8e:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "065ac3fba512665a6a22dc8e:0004",
+        "parent_id": "065ac3fba512665a6a22dc8e",
+        "doc_id": "065ac3fba512665a6a22dc8e",
+        "chunk_index": 4,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 4667,
+        "source_end": 5080,
+        "text": "5. Learned counsel was also given an opportunity to come up with a list of basic food items including the articles which are required by a child for its sustenance along with their cost but he has not been able to satisfy this Court that a child, even belonging to a poor family, who requires only meal, clothing and medication, can be maintained in less than Rs.3,000/-, per month, apart from his/her school fee.",
+        "word_count": 74,
+        "prev_chunk_id": "065ac3fba512665a6a22dc8e:0003",
+        "next_chunk_id": "065ac3fba512665a6a22dc8e:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "065ac3fba512665a6a22dc8e:0005",
+        "parent_id": "065ac3fba512665a6a22dc8e",
+        "doc_id": "065ac3fba512665a6a22dc8e",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 5082,
+        "source_end": 5305,
+        "text": "6. In view of the above discussion, I do not find any illegality or perversity in the impugned judgment of learned Additional District Judge. Resultantly, this writ petition is dismissed in limine with no order as to costs.",
+        "word_count": 38,
+        "prev_chunk_id": "065ac3fba512665a6a22dc8e:0004",
+        "next_chunk_id": "065ac3fba512665a6a22dc8e:0006",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "065ac3fba512665a6a22dc8e:0006",
+        "parent_id": "065ac3fba512665a6a22dc8e",
+        "doc_id": "065ac3fba512665a6a22dc8e",
+        "chunk_index": 6,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 5307,
+        "source_end": 5335,
+        "text": "SA/276/L Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "065ac3fba512665a6a22dc8e:0005",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6,
+        "250-499": 1
+      },
+      "total_chunks": 7,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

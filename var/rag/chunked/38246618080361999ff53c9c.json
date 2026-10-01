@@ -1,0 +1,101 @@
+{
+  "parent": {
+    "doc_id": "38246618080361999ff53c9c",
+    "metadata": {
+      "doc_id": "38246618080361999ff53c9c",
+      "case_title": "1994 C L C 172",
+      "citation": "1994 C L C 172",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Zia Mahmood Mirza"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 5"
+      ],
+      "source_relpath": "1994L243",
+      "content_hash": "842907c52fd8074d501ea0ceae0ff0a8baa83aa9f5ee1b5cda3ff5d3ad6af36a"
+    },
+    "full_text": "1994 C L C 172\n\n[Lahore]\n\nBefore Zia Mahmood Mirza,J\n\nMUHAMMAD RIAZ‐‐‐Petitioner\n\nversus\n\nJUDGE, FAMILY COURT and another‐‐‐Respondents\n\nWrit Petition No. 4851. of 1992, decided on 31st October, 1992.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐‐S. 5 & Sched: ‐‐Dissolution of marriage on ground of Khula'‐‐‐Husband had contended that his wife had filed suit for dissolution of marriage at instance of her parents and requested that she could be summoned to enable him to make an effort for reconciliation‐‐‐Wife appeared in Court and stated very firmly in reply to a Court question that she was not at all willing to live with her husband and that there was no possibility of reconciliation between them‐‐‐Petition filed by husband against judgment of Court dissolving marriage of wife on ground of Khula` was dismissed in circumstances.\n\nQazi Muhammad Saleem for Petitioner.\n\nAkhtar Masood Khan for Respondent No.2.\n\nDate of hearing: 31st October, 1992.\n\nORDER\n\nThis Constitutional petition directed against the judgment of the Family Court, Shahpur, dissolving marriage of respondent No.2 on the ground of `Khula' was placed before me on 30‐5‐1992. Learned counsel for the petitioner after arguing the case for quite some time submitted that the respondent filed the suit at the instance of her parents and requested that she may be summoned to enable the petitioner to make an effort at reconciliation in this Court. He further submitted that if the respondent appeared and stated that she was not at all willing to live with the petitioner, he would not press the writ petition.\n\n2. In view of the statement of the learned counsel, notice for pre admission hearing was sent to Mst. Zainab Bibi, respondent No.2. She has today appeared and stated very firmly in reply to a Court question that she was not at all willing to live with the petitioner and that there was no possibility of reconciliation between the parties. In the circumstances, the writ petition is dismissed in limine.\n\nH.B.T./M.1191/L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "38246618080361999ff53c9c:0000",
+        "parent_id": "38246618080361999ff53c9c",
+        "doc_id": "38246618080361999ff53c9c",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 976,
+        "source_end": 1595,
+        "text": "This Constitutional petition directed against the judgment of the Family Court, Shahpur, dissolving marriage of respondent No.2 on the ground of `Khula' was placed before me on 30‐5‐1992. Learned counsel for the petitioner after arguing the case for quite some time submitted that the respondent filed the suit at the instance of her parents and requested that she may be summoned to enable the petitioner to make an effort at reconciliation in this Court. He further submitted that if the respondent appeared and stated that she was not at all willing to live with the petitioner, he would not press the writ petition.",
+        "word_count": 103,
+        "prev_chunk_id": null,
+        "next_chunk_id": "38246618080361999ff53c9c:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "38246618080361999ff53c9c:0001",
+        "parent_id": "38246618080361999ff53c9c",
+        "doc_id": "38246618080361999ff53c9c",
+        "chunk_index": 1,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1597,
+        "source_end": 2000,
+        "text": "2. In view of the statement of the learned counsel, notice for pre admission hearing was sent to Mst. Zainab Bibi, respondent No.2. She has today appeared and stated very firmly in reply to a Court question that she was not at all willing to live with the petitioner and that there was no possibility of reconciliation between the parties. In the circumstances, the writ petition is dismissed in limine.",
+        "word_count": 70,
+        "prev_chunk_id": "38246618080361999ff53c9c:0000",
+        "next_chunk_id": "38246618080361999ff53c9c:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "38246618080361999ff53c9c:0002",
+        "parent_id": "38246618080361999ff53c9c",
+        "doc_id": "38246618080361999ff53c9c",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2002,
+        "source_end": 2037,
+        "text": "H.B.T./M.1191/L Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "38246618080361999ff53c9c:0001",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 3
+      },
+      "total_chunks": 3,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

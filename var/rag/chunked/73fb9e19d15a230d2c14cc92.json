@@ -1,0 +1,146 @@
+{
+  "parent": {
+    "doc_id": "73fb9e19d15a230d2c14cc92",
+    "metadata": {
+      "doc_id": "73fb9e19d15a230d2c14cc92",
+      "case_title": "ORDER",
+      "citation": "1969 S C M R 145",
+      "court": null,
+      "court_location": null,
+      "decision_date": null,
+      "judges": [
+        "Hamoodur Rahman",
+        "Muhammad Yaqub Ali"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Family Court acting under Act (XXXV of 1964)",
+        "Constitution of Pakistan (1962)"
+      ],
+      "provisions_cited": [
+        "S. 7",
+        "Ss. 17 & 11",
+        "section 17",
+        "Art. 102",
+        "Article 102"
+      ],
+      "source_relpath": "1969S806",
+      "content_hash": "7776ba69b856f468998baa8aad1f702ca1f0923c0529b9300ffbde3aa7e10f06"
+    },
+    "full_text": "1969 S C M R 145\n\nPresent: Hamoodur Rahman and Muhammad Yaqub Ali, JJ\n\nMUHAMMAD SAEED QURESHI, KARACHI Petitioner\n\nversus\n\nMst. IFFAT ARA‐Respondent\n\nCivil Petition for Special Leave to Appeal No. 246 of 1968, decided on 21st October 1968.\n\n(On appeal from the judgment and order of the High Court of West Pakistan, Lahore, dated the 22nd March 1968, in Civil Miscellaneous No. 1130 of 1968).\n\n(a) Constitution of Pakistan (1962)----\n\n---- Art. 102 and West Pakistan Family Courts Act (XXXV of 1964), S. 7‐Prayer for expungement of remarks from judgment of Family Court acting under Act (XXXV of 1964)‐Whether High Court could exercise judicial power of review under Art. 102 of Constitution‐Special Leave to Appeal granted by Supreme Court to consider question.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)\n\n--Ss. 17 & 11‐Suit for dissolution of marriage under Ordinance‐ Whether rules of evidence under Muhammadan Law should apply‐Special Leave to Appeal granted by Supreme Court to consider question.\n\nAziz Ahmed Bajwa, Senior Advocate Supreme Court (Masud Javid, Advocate Supreme Court with him) instructed by 4bid Nawaz Abid, Attorney for Petitioner.\n\nNemo for Respondent.\n\nPate of hearing : 21st October 1968.\n\nORDER\n\nMUHAMMAD YAQUB ALI, J.‐The Judge Family Court, Lahore, on being moved by the respondent dissolved her marriage with the petitioner on the ground of cruelty. A petition under Article 102 of the Constitution which confers on the High Court the power of superintendence and control over Courts subordinate to it was thereupon moved by the petitioner in the High Court for quashment of the order and expunction of certain remarks of damaging character contained therein. A learned Single Judge on examination of the evidence led by the petitioner maintained the order of dissolution, and declined to expunge the remarks and dismissed the petition. The petitioner now seeks leav: to appeal from the order of the High Court.\n\nThis appears to be the first case in which power of judicial review has been assumed by the High Court under Article 102 of the Constitution. It is arguable whether such a power exists. Learned counsel further urged that as the application of Evidence Act to proceedings before family Court is excluded by section 17 of the West Pakistan Family Courts Act, the rules of evidence under Muslim law should have been applied and in that view the findings recorded by the Judge, Family Court, being without any material on the record were liable to be set aside. Grievance is also made about remarks of damaging character appearing in the judgment of the Family Court against the petitioner as wholly' unwarranted and based on no evidence.\n\nQuestion raised require consideration. Leave is granted. Security‐Rs. 1,000. Necessary steps shall be taken by the petitioner to get the appeal ready. Thereafter either party may mention for an early date.\n\nLeave granted.",
+    "chunks": [
+      {
+        "chunk_id": "73fb9e19d15a230d2c14cc92:0000",
+        "parent_id": "73fb9e19d15a230d2c14cc92",
+        "doc_id": "73fb9e19d15a230d2c14cc92",
+        "chunk_index": 0,
+        "section": "headnotes",
+        "span_kind": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 9,
+        "source_start": 394,
+        "source_end": 814,
+        "text": "(a) Constitution of Pakistan (1962)----\n\n---- Art. 102 and West Pakistan Family Courts Act (XXXV of 1964), S. 7‐Prayer for expungement of remarks from judgment of Family Court acting under Act (XXXV of 1964)‐Whether High Court could exercise judicial power of review under Art. 102 of Constitution‐Special Leave to Appeal granted by Supreme Court to consider question.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)",
+        "word_count": 66,
+        "prev_chunk_id": null,
+        "next_chunk_id": "73fb9e19d15a230d2c14cc92:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "73fb9e19d15a230d2c14cc92:0001",
+        "parent_id": "73fb9e19d15a230d2c14cc92",
+        "doc_id": "73fb9e19d15a230d2c14cc92",
+        "chunk_index": 1,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 1231,
+        "source_end": 1949,
+        "text": "MUHAMMAD YAQUB ALI, J.‐The Judge Family Court, Lahore, on being moved by the respondent dissolved her marriage with the petitioner on the ground of cruelty. A petition under Article 102 of the Constitution which confers on the High Court the power of superintendence and control over Courts subordinate to it was thereupon moved by the petitioner in the High Court for quashment of the order and expunction of certain remarks of damaging character contained therein. A learned Single Judge on examination of the evidence led by the petitioner maintained the order of dissolution, and declined to expunge the remarks and dismissed the petition. The petitioner now seeks leav: to appeal from the order of the High Court.",
+        "word_count": 117,
+        "prev_chunk_id": "73fb9e19d15a230d2c14cc92:0000",
+        "next_chunk_id": "73fb9e19d15a230d2c14cc92:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "73fb9e19d15a230d2c14cc92:0002",
+        "parent_id": "73fb9e19d15a230d2c14cc92",
+        "doc_id": "73fb9e19d15a230d2c14cc92",
+        "chunk_index": 2,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 1951,
+        "source_end": 2685,
+        "text": "This appears to be the first case in which power of judicial review has been assumed by the High Court under Article 102 of the Constitution. It is arguable whether such a power exists. Learned counsel further urged that as the application of Evidence Act to proceedings before family Court is excluded by section 17 of the West Pakistan Family Courts Act, the rules of evidence under Muslim law should have been applied and in that view the findings recorded by the Judge, Family Court, being without any material on the record were liable to be set aside. Grievance is also made about remarks of damaging character appearing in the judgment of the Family Court against the petitioner as wholly' unwarranted and based on no evidence.",
+        "word_count": 126,
+        "prev_chunk_id": "73fb9e19d15a230d2c14cc92:0001",
+        "next_chunk_id": "73fb9e19d15a230d2c14cc92:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "73fb9e19d15a230d2c14cc92:0003",
+        "parent_id": "73fb9e19d15a230d2c14cc92",
+        "doc_id": "73fb9e19d15a230d2c14cc92",
+        "chunk_index": 3,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 2687,
+        "source_end": 2892,
+        "text": "Question raised require consideration. Leave is granted. Security‐Rs. 1,000. Necessary steps shall be taken by the petitioner to get the appeal ready. Thereafter either party may mention for an early date.",
+        "word_count": 31,
+        "prev_chunk_id": "73fb9e19d15a230d2c14cc92:0002",
+        "next_chunk_id": "73fb9e19d15a230d2c14cc92:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "73fb9e19d15a230d2c14cc92:0004",
+        "parent_id": "73fb9e19d15a230d2c14cc92",
+        "doc_id": "73fb9e19d15a230d2c14cc92",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 2894,
+        "source_end": 2908,
+        "text": "Leave granted.",
+        "word_count": 2,
+        "prev_chunk_id": "73fb9e19d15a230d2c14cc92:0003",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 5
+      },
+      "total_chunks": 5,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

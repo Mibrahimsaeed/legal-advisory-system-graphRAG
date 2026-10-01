@@ -1,0 +1,160 @@
+{
+  "parent": {
+    "doc_id": "e597406e35c7cff287d3c8b8",
+    "metadata": {
+      "doc_id": "e597406e35c7cff287d3c8b8",
+      "case_title": "West Pakistan Family Courts Act (XXXV of 1964)â€‘â€‘â€‘",
+      "citation": "2003 Y L R 883",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Farrukh Lateef"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S.5",
+        "Art.199"
+      ],
+      "source_relpath": "2003L4096",
+      "content_hash": "efb67515f08baeb093ceaafaada4869998a4d8e6d72a9af42562a48fb19fea33"
+    },
+    "full_text": "2003 Y L R 883\n\n[Lahore]\n\nBefore Farrukh Lateef, J\n\nMst. SAKINA‐‐‐Petitioner\n\nVersus\n\nMUHAMMAD EJAZ BUTT and another‐‐‐Respondents\n\nWrit Petition No.6500‐F of 2002, decided on 19th November, 2002.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐S.5 & Sched.‐‐‐Constitution of Pakistan (1973), Art.199‐‐‐Constitutional petition‐‐ Suit for dissolution of marriage‐‐‐Ex parse decree, setting aside of‐‐‐Restoration of suit‐‐‐Suit for dissolution of marriage by wife was decreed ex parte in her favour‐‐‐Plaintiff (wife) after observing 'Iddat' contracted second Nikah with another person‐‐‐ Defendant, thereafter moved an application for setting aside ex parte decree against him which was accepted by Family‐ Court and after setting aside ex parte decree, suit wets restored‐‐‐Plaintiff, however, withdrew the suit (which was restored) and order of setting aside ex parte decree and restoration of suit was assailed by her by a Constitutional petition‐‐‐Validity‐‐‐Suit for dissolution having been withdrawn by the plaintiff Constitutional petition had become infructuous‐‐‐Even if order impugned. in the Constitutional petition, was set aside, ex parte decree of dissolution of marriage passed in favour of plaintiff would not be restored because the very suit which had fructuated in form of ex parte decree, stood withdrawn, with the result that ex parte decree of dissolution of marriage which owed its existence by virtue of said suit, would also become non‐existent.\n\nMalik Javed Iqbal for Petitioner.\n\nBashir Ahmad Bhatti for Respondent No.2.\n\nORDER\n\nMst. Sakina has in this writ petition called in question order dated 4‐5‐2002 passed by respondent No. 1, Judge Family Court, Muzaffargarh as void, ineffective and without lawful authority.\n\n2. Brief facts culminating in this petition are that the petitioner filed a suit for Dissolution of Marriage against Ghulam Sarwar respondent No.2, which was decreed ex parte in her favour on 11‐9‐2001. After observing the period of \"Iddat\" on 26‐12‐2001 she contracted Nikah with Allah Yar. Thereafter on 12‐1‐2002 respondent No.2 moved an application for setting aside the ex parte decree which was accepted by the learned Family Court vide order dated 4‐5‐2002 and the aforesaid ex parte decree of dissolution of marriage was set aside and the suit was restored.\n\n3. The aforesaid order is assailed in this Constitutional petition as illegal, void and without lawful authority on various grounds which need not be stated because the writ petition has become infructuous as on 7‐9‐2002 the suit for dissolution of marriage was withdrawn by the petitioner.\n\n4. Now the position is that even if the order dated 4‐5‐2002 be set aside even then the ex parte decree of dissolution of marriage passed in favour of the plaintiff would not be restored because the very suit which had fructified in the form of the said ex parte decree stands withdrawn, with the result that the ex parte decree of E dissolution of marriage which owed its existence by virtue of the said suit would also become non‐existent.\n\n5. For the reasons stated above, writ petition is dismissed.\n\nH.B.T./S‐587/L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "e597406e35c7cff287d3c8b8:0000",
+        "parent_id": "e597406e35c7cff287d3c8b8",
+        "doc_id": "e597406e35c7cff287d3c8b8",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1564,
+        "source_end": 1753,
+        "text": "Mst. Sakina has in this writ petition called in question order dated 4‐5‐2002 passed by respondent No. 1, Judge Family Court, Muzaffargarh as void, ineffective and without lawful authority.",
+        "word_count": 29,
+        "prev_chunk_id": null,
+        "next_chunk_id": "e597406e35c7cff287d3c8b8:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e597406e35c7cff287d3c8b8:0001",
+        "parent_id": "e597406e35c7cff287d3c8b8",
+        "doc_id": "e597406e35c7cff287d3c8b8",
+        "chunk_index": 1,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1755,
+        "source_end": 2320,
+        "text": "2. Brief facts culminating in this petition are that the petitioner filed a suit for Dissolution of Marriage against Ghulam Sarwar respondent No.2, which was decreed ex parte in her favour on 11‐9‐2001. After observing the period of \"Iddat\" on 26‐12‐2001 she contracted Nikah with Allah Yar. Thereafter on 12‐1‐2002 respondent No.2 moved an application for setting aside the ex parte decree which was accepted by the learned Family Court vide order dated 4‐5‐2002 and the aforesaid ex parte decree of dissolution of marriage was set aside and the suit was restored.",
+        "word_count": 92,
+        "prev_chunk_id": "e597406e35c7cff287d3c8b8:0000",
+        "next_chunk_id": "e597406e35c7cff287d3c8b8:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e597406e35c7cff287d3c8b8:0002",
+        "parent_id": "e597406e35c7cff287d3c8b8",
+        "doc_id": "e597406e35c7cff287d3c8b8",
+        "chunk_index": 2,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 2322,
+        "source_end": 2612,
+        "text": "3. The aforesaid order is assailed in this Constitutional petition as illegal, void and without lawful authority on various grounds which need not be stated because the writ petition has become infructuous as on 7‐9‐2002 the suit for dissolution of marriage was withdrawn by the petitioner.",
+        "word_count": 46,
+        "prev_chunk_id": "e597406e35c7cff287d3c8b8:0001",
+        "next_chunk_id": "e597406e35c7cff287d3c8b8:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e597406e35c7cff287d3c8b8:0003",
+        "parent_id": "e597406e35c7cff287d3c8b8",
+        "doc_id": "e597406e35c7cff287d3c8b8",
+        "chunk_index": 3,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2614,
+        "source_end": 3055,
+        "text": "4. Now the position is that even if the order dated 4‐5‐2002 be set aside even then the ex parte decree of dissolution of marriage passed in favour of the plaintiff would not be restored because the very suit which had fructified in the form of the said ex parte decree stands withdrawn, with the result that the ex parte decree of E dissolution of marriage which owed its existence by virtue of the said suit would also become non‐existent.",
+        "word_count": 80,
+        "prev_chunk_id": "e597406e35c7cff287d3c8b8:0002",
+        "next_chunk_id": "e597406e35c7cff287d3c8b8:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e597406e35c7cff287d3c8b8:0004",
+        "parent_id": "e597406e35c7cff287d3c8b8",
+        "doc_id": "e597406e35c7cff287d3c8b8",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 3057,
+        "source_end": 3117,
+        "text": "5. For the reasons stated above, writ petition is dismissed.",
+        "word_count": 10,
+        "prev_chunk_id": "e597406e35c7cff287d3c8b8:0003",
+        "next_chunk_id": "e597406e35c7cff287d3c8b8:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e597406e35c7cff287d3c8b8:0005",
+        "parent_id": "e597406e35c7cff287d3c8b8",
+        "doc_id": "e597406e35c7cff287d3c8b8",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 3119,
+        "source_end": 3153,
+        "text": "H.B.T./S‐587/L Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "e597406e35c7cff287d3c8b8:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

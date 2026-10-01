@@ -1,0 +1,164 @@
+{
+  "parent": {
+    "doc_id": "7aa009fa4a306167d8cf1f49",
+    "metadata": {
+      "doc_id": "7aa009fa4a306167d8cf1f49",
+      "case_title": "MUHAMMAD NADEEM- vs ANEESA BIBI and others-",
+      "citation": "2016 C L C 81",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Ali Baqar Najafi"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "Ss. 14 & 17",
+        "S.17",
+        "S.14",
+        "section 17",
+        "section 14",
+        "Art. 199"
+      ],
+      "source_relpath": "2016L203",
+      "content_hash": "22c2407be9fca315ab94e9e25b02f33e6fc0fc79a487b7190eb1652b0156bcf9"
+    },
+    "full_text": "2016 C L C 81\n\n[Lahore]\n\nBefore Ali Baqar Najafi, J\n\nMUHAMMAD NADEEM----Petitioner\n\nVersus\n\nANEESA BIBI and others----Respondents\n\nW.P. No.17141 of 2015, decided on 6th October, 2015.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss. 14 & 17-A----Constitution of Pakistan, Art. 199---Constitutional petition---Suit for maintenance---Appeal---Appellate court upheld decree of maintenance of rupees thirty-five hundred per month on ground that no appeal was maintainable against maintenance for less than rupees five thousand---Validity---Maintenance as a whole would determine pecuniary jurisdiction of appellate court---Under S.17-A of West Pakistan Family Courts Act, 1964, if defendant had failed to pay interim maintenance fixed by trial court, then not only right of defence could be struck off but decree could also be passed---Appellate court had incorrectly found that order of maintenance passed by Family Court was interim order under S.14(3) of West Pakistan Family Courts Act, 1964, therefore no appeal could be preferred against the same---High Court, setting aside impugned judgment and decree, directed appellate court to decided appeal on merits---Constitutional petition was allowed in circumstances.\n\nMuhammad Naseer v. Fatima through her mother and 2 others 2000 MLD 802 rel.\n\nShaigan Ijaz Chadhar for Petitioner.\n\nRana Muhammad Afzal for Respondent No.1.\n\nORDER\n\nALI BAQAR NAJAFI, J.--- Through this Constitutional petition the petitioner challenges order and decree dated 20.04.2015 and order dated 08.05.2015 whereby the decree of Rs.3500/- each for the three minors (respondents Nos.2 to 4) with 15% annual increase granted by the learned Judge Family Court was upheld on the ground that no appeal was maintainable against the maintenance for less than Rs.5000/-.\n\n2. Arguments heard. File perused.\n\n3. Respondent No.1 filed a suit for dissolution of marriage and recovery of maintenance as well as dowry articles in which the written statement was submitted admitting the dowry articles to the extent of Rs.50,000/- and also admitting the parentage of the said two minors and had stated that he has the earning of only Rs.5000/- to Rs.6000/- in a month. On 11.09.2014, an interim maintenance of Rs.900/- per month was fixed by the learned Judge Family Court. On 20.04.2015, it was observed by the learned Judge Family Court that the petitioner has already paid Rs.9000/- up-till 16.06.2014 whereafter the maintenance of Rs.1000/- was fixed and as such total maintenance payable by the petitioner was Rs.30,000/-, out of which he had paid only Rs.12,000/- including Rs.3000/- which was paid on 20.04.2015. Consequently, defence of the petitioner was struck off under section 17-A of the West Pakistan Family Courts Act, 1964 and Rs.3500/- per month each for the two minors with 15% annual increase was fixed as maintenance. However, the case was adjourned to determine the remaining part of the claim. A separate decree sheet was prepared without specifying the amount of the decree. The appeal filed against the said judgment was dismissed being not maintainable as the maintenance of Rs.3500/- was considered not appealable under section 14(3) of the West Pakistan Family Courts Act, 1964.\n\n4. Precisely, two legal propositions have been raised before this Court i.e. whether the maintenance of the two minors at the rate of Rs.3500/- each with 15% annual increase was an appealable order under section 14(3) of the Act ibid and as to whether the decree in respect of maintenance of the minors could be passed without deciding the entire case. In order to find answer of these questions, I have been assisted by the learned counsel for the petitioner who relied upon the case reported as Muhammad Naseer versus Fatima through her mother and 2 others (2000 MLD 802) in which the Single Bench of this Court has interpreted section 14(2)(c) of the West Pakistan Family Courts Act, 1964 (Amendment Act, 2015) by holding that it would be the maintenance as a whole which would determine the pecuniary jurisdiction of the appellate court. This view is based on correct interpretation of the statutory provision, therefore, is re-enforced. However, the appellate court in its judgment dated 08.05.2015 has incorrectly held that it was an interim order under section 14(3) of the West Pakistan Family Courts Act, 1964 which was passed by the Family Court, therefore, no appeal could be preferred against the same. To my understanding, under section 17-A, if the petitioner had failed to pay an interim maintenance fixed by the court, not only the defect could be struck off but a decree could also be passed. Without discussing about the merits of the case as it would prejudice the case of either party, it is appropriate that the appellate court be directed to decide the appeal by setting aside the judgment dated 08.05.2015 passed by it.\n\n5. For the foregoing reasons, by allowing this writ petition the impugned judgment of the appellate court is set aside the case is remanded to it to decide the appeal on merits.\n\nSL/M-330/L Case remanded.",
+    "chunks": [
+      {
+        "chunk_id": "7aa009fa4a306167d8cf1f49:0000",
+        "parent_id": "7aa009fa4a306167d8cf1f49",
+        "doc_id": "7aa009fa4a306167d8cf1f49",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1392,
+        "source_end": 1795,
+        "text": "ALI BAQAR NAJAFI, J.--- Through this Constitutional petition the petitioner challenges order and decree dated 20.04.2015 and order dated 08.05.2015 whereby the decree of Rs.3500/- each for the three minors (respondents Nos.2 to 4) with 15% annual increase granted by the learned Judge Family Court was upheld on the ground that no appeal was maintainable against the maintenance for less than Rs.5000/-.",
+        "word_count": 62,
+        "prev_chunk_id": null,
+        "next_chunk_id": "7aa009fa4a306167d8cf1f49:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "7aa009fa4a306167d8cf1f49:0001",
+        "parent_id": "7aa009fa4a306167d8cf1f49",
+        "doc_id": "7aa009fa4a306167d8cf1f49",
+        "chunk_index": 1,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1797,
+        "source_end": 1830,
+        "text": "2. Arguments heard. File perused.",
+        "word_count": 5,
+        "prev_chunk_id": "7aa009fa4a306167d8cf1f49:0000",
+        "next_chunk_id": "7aa009fa4a306167d8cf1f49:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "7aa009fa4a306167d8cf1f49:0002",
+        "parent_id": "7aa009fa4a306167d8cf1f49",
+        "doc_id": "7aa009fa4a306167d8cf1f49",
+        "chunk_index": 2,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 1832,
+        "source_end": 3223,
+        "text": "3. Respondent No.1 filed a suit for dissolution of marriage and recovery of maintenance as well as dowry articles in which the written statement was submitted admitting the dowry articles to the extent of Rs.50,000/- and also admitting the parentage of the said two minors and had stated that he has the earning of only Rs.5000/- to Rs.6000/- in a month. On 11.09.2014, an interim maintenance of Rs.900/- per month was fixed by the learned Judge Family Court. On 20.04.2015, it was observed by the learned Judge Family Court that the petitioner has already paid Rs.9000/- up-till 16.06.2014 whereafter the maintenance of Rs.1000/- was fixed and as such total maintenance payable by the petitioner was Rs.30,000/-, out of which he had paid only Rs.12,000/- including Rs.3000/- which was paid on 20.04.2015. Consequently, defence of the petitioner was struck off under section 17-A of the West Pakistan Family Courts Act, 1964 and Rs.3500/- per month each for the two minors with 15% annual increase was fixed as maintenance. However, the case was adjourned to determine the remaining part of the claim. A separate decree sheet was prepared without specifying the amount of the decree. The appeal filed against the said judgment was dismissed being not maintainable as the maintenance of Rs.3500/- was considered not appealable under section 14(3) of the West Pakistan Family Courts Act, 1964.",
+        "word_count": 225,
+        "prev_chunk_id": "7aa009fa4a306167d8cf1f49:0001",
+        "next_chunk_id": "7aa009fa4a306167d8cf1f49:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "7aa009fa4a306167d8cf1f49:0003",
+        "parent_id": "7aa009fa4a306167d8cf1f49",
+        "doc_id": "7aa009fa4a306167d8cf1f49",
+        "chunk_index": 3,
+        "section": "issues",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 3225,
+        "source_end": 4867,
+        "text": "4. Precisely, two legal propositions have been raised before this Court i.e. whether the maintenance of the two minors at the rate of Rs.3500/- each with 15% annual increase was an appealable order under section 14(3) of the Act ibid and as to whether the decree in respect of maintenance of the minors could be passed without deciding the entire case. In order to find answer of these questions, I have been assisted by the learned counsel for the petitioner who relied upon the case reported as Muhammad Naseer versus Fatima through her mother and 2 others (2000 MLD 802) in which the Single Bench of this Court has interpreted section 14(2)(c) of the West Pakistan Family Courts Act, 1964 (Amendment Act, 2015) by holding that it would be the maintenance as a whole which would determine the pecuniary jurisdiction of the appellate court. This view is based on correct interpretation of the statutory provision, therefore, is re-enforced. However, the appellate court in its judgment dated 08.05.2015 has incorrectly held that it was an interim order under section 14(3) of the West Pakistan Family Courts Act, 1964 which was passed by the Family Court, therefore, no appeal could be preferred against the same. To my understanding, under section 17-A, if the petitioner had failed to pay an interim maintenance fixed by the court, not only the defect could be struck off but a decree could also be passed. Without discussing about the merits of the case as it would prejudice the case of either party, it is appropriate that the appellate court be directed to decide the appeal by setting aside the judgment dated 08.05.2015 passed by it.",
+        "word_count": 278,
+        "prev_chunk_id": "7aa009fa4a306167d8cf1f49:0002",
+        "next_chunk_id": "7aa009fa4a306167d8cf1f49:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "7aa009fa4a306167d8cf1f49:0004",
+        "parent_id": "7aa009fa4a306167d8cf1f49",
+        "doc_id": "7aa009fa4a306167d8cf1f49",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 4869,
+        "source_end": 5046,
+        "text": "5. For the foregoing reasons, by allowing this writ petition the impugned judgment of the appellate court is set aside the case is remanded to it to decide the appeal on merits.",
+        "word_count": 32,
+        "prev_chunk_id": "7aa009fa4a306167d8cf1f49:0003",
+        "next_chunk_id": "7aa009fa4a306167d8cf1f49:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "7aa009fa4a306167d8cf1f49:0005",
+        "parent_id": "7aa009fa4a306167d8cf1f49",
+        "doc_id": "7aa009fa4a306167d8cf1f49",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 5048,
+        "source_end": 5073,
+        "text": "SL/M-330/L Case remanded.",
+        "word_count": 3,
+        "prev_chunk_id": "7aa009fa4a306167d8cf1f49:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 5,
+        "250-499": 1
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

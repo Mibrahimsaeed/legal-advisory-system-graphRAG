@@ -1,0 +1,141 @@
+{
+  "parent": {
+    "doc_id": "678fd43b56bc853366f76791",
+    "metadata": {
+      "doc_id": "678fd43b56bc853366f76791",
+      "case_title": "Mst. SUGRA BIBI vs MUHAMMAD AKBAR ALI",
+      "citation": "2010 Y L R 12",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Sayed Zahid Hussain",
+        "C"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "transferred",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S.5",
+        "S.25"
+      ],
+      "source_relpath": "2010L4003",
+      "content_hash": "a59ff1baff36f672fd351c67ad12bdac2fca98e1a46c785344113bbdf311848e"
+    },
+    "full_text": "2010 Y L R 12\n\n[Lahore]\n\nBefore Sayed Zahid Hussain, C J\n\nMst. SUGRA BIBI---Applicant\n\nVersus\n\nMUHAMMAD AKBAR ALI---Respondent\n\nT.A. No.190-C of 2008, decided on 30th June, 2008.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5, Sched. & S.25-A---Suit for maintenance, recovery of dowry articles and dissolution of marriage---Transfer of suit---Application for---Applicant's suit was already being tried by the Family Court at place 'J'; whereas suit for restitution of conjugal rights was filed by respondent later on in the court at place `K'---Applicant was not only the resident of place but the marriage also had taken place at that place which assertions of the applicant remained unrebutted---Taking said aspects into consideration, transfer of suit of respondent from Family Court at place \"J\" where the Family Court was already seized of the suit of the applicant, would serve the ends of justice--Suit for restitution of conjugal rights, was ordered by the Family Court to be transferred to the court at place 'J' where suit filed by the applicant was pending---Both suits would be tried together by the Transferee Court who would proceed expeditiously and decide the matter in accordance with law after notice to respondent.\n\nMian Naseer Ahmad for Petitioner.\n\nORDER\n\nSAYED ZAHID HUSSAIN, C.J.--Despite personal service, the respondent has remained unrepresented.\n\nSeeks transfer of suit titled \"Muhammad Akbar Ali v. Mst. Sugra Bibi\" filed by the respondent for restitution of conjugal rights which is being tried by the Family Court at Pattoki, District Kasur.\n\nThe learned counsel contends that the petitioner's suit for maintenance (for herself and children), for recovery of dowry articles and for dissolution of marriage is already being tried by the Family Court, Jahanian, District Khanewal whereas the suit for restitution of conjugal rights was filed by the respondent later on, before Family Court, Pattoki District Kasur. It is stated by the learned counsel that the petitioner is not only resident of Jahanian but the marriage also had taken place at that place. All such assertions have remained unrefuted. Taking these aspects into consideration, the transfer of suit (filed by the respondent) from Family Court, Pattoki to Family Court, Jahanian where the Family Court is already seized of the suit of the petitioner, will serve the ends of justice. Let, therefore, the suit titled \"Muhammad Akbar Ali v. Mst. Sugra Bibi\" for restitution of conjugal rights be transmitted by the Judge Family Court, Pattoki to the Court of Mr. Munsaf Khan Awan, Judge Family Court, Jahanian. Both the suits will be tried together by the transferee Court who will proceed expeditiously and decide the matter in accordance with law after notice to the respondent.\n\nThe petition is disposed of accordingly.\n\nH.B.T./S-249/L Suit transferred.",
+    "chunks": [
+      {
+        "chunk_id": "678fd43b56bc853366f76791:0000",
+        "parent_id": "678fd43b56bc853366f76791",
+        "doc_id": "678fd43b56bc853366f76791",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "source_start": 1290,
+        "source_end": 1385,
+        "text": "SAYED ZAHID HUSSAIN, C.J.--Despite personal service, the respondent has remained unrepresented.",
+        "word_count": 11,
+        "prev_chunk_id": null,
+        "next_chunk_id": "678fd43b56bc853366f76791:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "678fd43b56bc853366f76791:0001",
+        "parent_id": "678fd43b56bc853366f76791",
+        "doc_id": "678fd43b56bc853366f76791",
+        "chunk_index": 1,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1387,
+        "source_end": 1584,
+        "text": "Seeks transfer of suit titled \"Muhammad Akbar Ali v. Mst. Sugra Bibi\" filed by the respondent for restitution of conjugal rights which is being tried by the Family Court at Pattoki, District Kasur.",
+        "word_count": 33,
+        "prev_chunk_id": "678fd43b56bc853366f76791:0000",
+        "next_chunk_id": "678fd43b56bc853366f76791:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "678fd43b56bc853366f76791:0002",
+        "parent_id": "678fd43b56bc853366f76791",
+        "doc_id": "678fd43b56bc853366f76791",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1586,
+        "source_end": 2782,
+        "text": "The learned counsel contends that the petitioner's suit for maintenance (for herself and children), for recovery of dowry articles and for dissolution of marriage is already being tried by the Family Court, Jahanian, District Khanewal whereas the suit for restitution of conjugal rights was filed by the respondent later on, before Family Court, Pattoki District Kasur. It is stated by the learned counsel that the petitioner is not only resident of Jahanian but the marriage also had taken place at that place. All such assertions have remained unrefuted. Taking these aspects into consideration, the transfer of suit (filed by the respondent) from Family Court, Pattoki to Family Court, Jahanian where the Family Court is already seized of the suit of the petitioner, will serve the ends of justice. Let, therefore, the suit titled \"Muhammad Akbar Ali v. Mst. Sugra Bibi\" for restitution of conjugal rights be transmitted by the Judge Family Court, Pattoki to the Court of Mr. Munsaf Khan Awan, Judge Family Court, Jahanian. Both the suits will be tried together by the transferee Court who will proceed expeditiously and decide the matter in accordance with law after notice to the respondent.",
+        "word_count": 193,
+        "prev_chunk_id": "678fd43b56bc853366f76791:0001",
+        "next_chunk_id": "678fd43b56bc853366f76791:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "678fd43b56bc853366f76791:0003",
+        "parent_id": "678fd43b56bc853366f76791",
+        "doc_id": "678fd43b56bc853366f76791",
+        "chunk_index": 3,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 2784,
+        "source_end": 2824,
+        "text": "The petition is disposed of accordingly.",
+        "word_count": 6,
+        "prev_chunk_id": "678fd43b56bc853366f76791:0002",
+        "next_chunk_id": "678fd43b56bc853366f76791:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "678fd43b56bc853366f76791:0004",
+        "parent_id": "678fd43b56bc853366f76791",
+        "doc_id": "678fd43b56bc853366f76791",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2826,
+        "source_end": 2858,
+        "text": "H.B.T./S-249/L Suit transferred.",
+        "word_count": 3,
+        "prev_chunk_id": "678fd43b56bc853366f76791:0003",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 5
+      },
+      "total_chunks": 5,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "parent": {
+    "doc_id": "1d0dfe1f35bac9be583a70f3",
+    "metadata": {
+      "doc_id": "1d0dfe1f35bac9be583a70f3",
+      "case_title": "Zahid Ali shah vs Mst Azra",
+      "citation": "2025 Y L R 1452",
+      "court": "Peshawar",
+      "court_location": "Peshawar",
+      "decision_date": null,
+      "judges": [
+        "S M Attique Shah"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "Civil Procedure Code (V of 1908)",
+        "Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 115",
+        "S.5",
+        "Section 115"
+      ],
+      "source_relpath": "2025P4030",
+      "content_hash": "00be7b60d7bd8636ced73001ebc63416cdbd59b0a98fb3925f9b0d31d120adcb"
+    },
+    "full_text": "2025 Y L R 1452\n\n[Peshawar]\n\nBefore S M Attique Shah, J\n\nZahid Ali shah---Petitioner\n\nVersus\n\nMst Azra---Respondent\n\nCivil Revision No. 324-P of 2022, decided on 27th April, 2022.\n\nCivil Procedure Code (V of 1908),\n\n----S. 115, O. XX, R.11 & O.XXI, R.1---Family Courts Act (XXXV of 1964), S.5, Sched.---Revisional jurisdiction of High Court---Scope---Mode of execution of money decree---Payment in instalments in cash---Dilatory tactics of petitioner/judgment-debtor in executing a long-standing money decree in a family dispute---Judgment-debtor deposited cross-cheque instead of payment in cash owing to his apprehension of misuse of amount for personal benefit of attorney of decree-holder, who objected to such mode of payment---Executing court ordered payment in cash and upon appeal by the judgment-debtor Appellate Court concurred with the order of executing court---Validity---Judgment-debtor had no right to object to the alleged conduct of the attorney of decree-holder as he was delaying the execution of the decree on flimsy and irrational grounds, which tantamount to depriving the decree-holder of the benefits of the same by all means, which was certainly neither permissible nor desirable under the law---Increasing trend of false and frivolous litigation was held to be an abuse of the court process and an unnecessary burden on the judicial system, as easy access to justice does not bestow a right on a litigant to settle his affairs in a manner as he desires, which is certainly against the spirit of law and not permissible to be misused as a license to file misconceived or frivolous petitions---No illegality or irregularity was found in the findings of courts below requiring any interference by the High Court in its revisional jurisdiction, which was otherwise very narrow and limited in its scope---Civil revision was dismissed in limine with costs, in circumstances.\n\nSahibzada Muhammad Shoaib for Petitioner.\n\nOrder\n\nS M Attique Shah, J.---Through instant petition, the petitioner has challenged the validity and legality of the order dated 22.03.2022 rendered by learned Additional District Judge-XV, Peshawar, whereby he dismissed the appeal of the petitioner against the Order dated 06.01.2022 passed by the learned Judge Family Court-II, Peshawar.\n\n2. Heard.\n\n3. Perusal of record reflects that the suit of the respondent qua dissolution of marriage etc was decreed against the petitioner on 04.03.2013. Subsequently, the respondent filed execution petition and; upon his request, the decretal amount was directed to be deposited in installments. Record further reveals that to date only two installments were deposited in cash, whereafter, the petitioner submitted a cross cheque of rupees one lac before the learned executing Court instead of cash, which was regretted by the attorney of the decree-holder, therefore, the learned executing Court by way of impugned order directed the petitioner for payment of the installment of decretal amount in cash, which order was also confirmed by the learned appeal Court, while dismissing the appeal of the petitioner.\n\n4. It was vehemently contended by the learned counsel representing the petitioner that the cash amount would be utilized by the attorney for his benefit, instead of the DH, which contention of the petitioner is indeed misconceived on account that the petitioner has no right whatsoever to raise any objection on the alleged conduct of the attorney of DH. The decree in the case in hand had been passed against the petitioner in the year 2013, and; since then, the petitioner is playing hide and seek, to frustrate its execution through absurd objections raised before the worthy executing Court just to prolong the agonies of the DH. It appears from the conduct of the petitioner that he is delaying the execution of the decree on flimsy and irrational grounds, which tantamounts to depriving the respondent of the benefits of the same by all means, which is certainly, neither permissible nor desirable under the law.\n\n5. The findings rendered by the Courts below are not suffering from any illegality or irregularity; rather based on proper appreciation of material available on record of the case, hence, do not require any interference by this Court in its Revisional Jurisdiction under Section 115 C.P.C., which is otherwise very narrow and; limited in its scope. Besides, It is noted with great concern that false and frivolous litigation is multiplying with every passing day, which on one hand is the abuse of the process of Court and; on other hand is burdening the racks of the Courts unnecessarily, which, requires to be dealt with through a heavy hand. Indeed, easy access to justice does not bestow a right on a litigant to settle his affairs in a manner as he desires, which is certainly against the spirit of the law and, as such, not permissible to be misused as a license to file misconceived or frivolous petitions.\n\n6. In view thereof, instant petition; being frivolous and ill-conceived, is dismissed in limine with the cost of Rs. 50,000/- (Fifty thousand), which shall be recovered by the learned executing court from the JD, and shall be paid to DH, and report thereof be submitted to the office of worthy Additional Registrar of this Court. Office is directed to send the copy of this order to the learned executing Court.\n\nSA/149/P. Revision dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "1d0dfe1f35bac9be583a70f3:0000",
+        "parent_id": "1d0dfe1f35bac9be583a70f3",
+        "doc_id": "1d0dfe1f35bac9be583a70f3",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "source_start": 1946,
+        "source_end": 2280,
+        "text": "S M Attique Shah, J.---Through instant petition, the petitioner has challenged the validity and legality of the order dated 22.03.2022 rendered by learned Additional District Judge-XV, Peshawar, whereby he dismissed the appeal of the petitioner against the Order dated 06.01.2022 passed by the learned Judge Family Court-II, Peshawar.",
+        "word_count": 48,
+        "prev_chunk_id": null,
+        "next_chunk_id": "1d0dfe1f35bac9be583a70f3:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1d0dfe1f35bac9be583a70f3:0001",
+        "parent_id": "1d0dfe1f35bac9be583a70f3",
+        "doc_id": "1d0dfe1f35bac9be583a70f3",
+        "chunk_index": 1,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 2282,
+        "source_end": 2291,
+        "text": "2. Heard.",
+        "word_count": 2,
+        "prev_chunk_id": "1d0dfe1f35bac9be583a70f3:0000",
+        "next_chunk_id": "1d0dfe1f35bac9be583a70f3:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1d0dfe1f35bac9be583a70f3:0002",
+        "parent_id": "1d0dfe1f35bac9be583a70f3",
+        "doc_id": "1d0dfe1f35bac9be583a70f3",
+        "chunk_index": 2,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 2293,
+        "source_end": 3095,
+        "text": "3. Perusal of record reflects that the suit of the respondent qua dissolution of marriage etc was decreed against the petitioner on 04.03.2013. Subsequently, the respondent filed execution petition and; upon his request, the decretal amount was directed to be deposited in installments. Record further reveals that to date only two installments were deposited in cash, whereafter, the petitioner submitted a cross cheque of rupees one lac before the learned executing Court instead of cash, which was regretted by the attorney of the decree-holder, therefore, the learned executing Court by way of impugned order directed the petitioner for payment of the installment of decretal amount in cash, which order was also confirmed by the learned appeal Court, while dismissing the appeal of the petitioner.",
+        "word_count": 124,
+        "prev_chunk_id": "1d0dfe1f35bac9be583a70f3:0001",
+        "next_chunk_id": "1d0dfe1f35bac9be583a70f3:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1d0dfe1f35bac9be583a70f3:0003",
+        "parent_id": "1d0dfe1f35bac9be583a70f3",
+        "doc_id": "1d0dfe1f35bac9be583a70f3",
+        "chunk_index": 3,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 3097,
+        "source_end": 4015,
+        "text": "4. It was vehemently contended by the learned counsel representing the petitioner that the cash amount would be utilized by the attorney for his benefit, instead of the DH, which contention of the petitioner is indeed misconceived on account that the petitioner has no right whatsoever to raise any objection on the alleged conduct of the attorney of DH. The decree in the case in hand had been passed against the petitioner in the year 2013, and; since then, the petitioner is playing hide and seek, to frustrate its execution through absurd objections raised before the worthy executing Court just to prolong the agonies of the DH. It appears from the conduct of the petitioner that he is delaying the execution of the decree on flimsy and irrational grounds, which tantamounts to depriving the respondent of the benefits of the same by all means, which is certainly, neither permissible nor desirable under the law.",
+        "word_count": 154,
+        "prev_chunk_id": "1d0dfe1f35bac9be583a70f3:0002",
+        "next_chunk_id": "1d0dfe1f35bac9be583a70f3:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1d0dfe1f35bac9be583a70f3:0004",
+        "parent_id": "1d0dfe1f35bac9be583a70f3",
+        "doc_id": "1d0dfe1f35bac9be583a70f3",
+        "chunk_index": 4,
+        "section": "findings",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 4017,
+        "source_end": 4930,
+        "text": "5. The findings rendered by the Courts below are not suffering from any illegality or irregularity; rather based on proper appreciation of material available on record of the case, hence, do not require any interference by this Court in its Revisional Jurisdiction under Section 115 C.P.C., which is otherwise very narrow and; limited in its scope. Besides, It is noted with great concern that false and frivolous litigation is multiplying with every passing day, which on one hand is the abuse of the process of Court and; on other hand is burdening the racks of the Courts unnecessarily, which, requires to be dealt with through a heavy hand. Indeed, easy access to justice does not bestow a right on a litigant to settle his affairs in a manner as he desires, which is certainly against the spirit of the law and, as such, not permissible to be misused as a license to file misconceived or frivolous petitions.",
+        "word_count": 157,
+        "prev_chunk_id": "1d0dfe1f35bac9be583a70f3:0003",
+        "next_chunk_id": "1d0dfe1f35bac9be583a70f3:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1d0dfe1f35bac9be583a70f3:0005",
+        "parent_id": "1d0dfe1f35bac9be583a70f3",
+        "doc_id": "1d0dfe1f35bac9be583a70f3",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 4932,
+        "source_end": 5343,
+        "text": "6. In view thereof, instant petition; being frivolous and ill-conceived, is dismissed in limine with the cost of Rs. 50,000/- (Fifty thousand), which shall be recovered by the learned executing court from the JD, and shall be paid to DH, and report thereof be submitted to the office of worthy Additional Registrar of this Court. Office is directed to send the copy of this order to the learned executing Court.",
+        "word_count": 70,
+        "prev_chunk_id": "1d0dfe1f35bac9be583a70f3:0004",
+        "next_chunk_id": "1d0dfe1f35bac9be583a70f3:0006",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1d0dfe1f35bac9be583a70f3:0006",
+        "parent_id": "1d0dfe1f35bac9be583a70f3",
+        "doc_id": "1d0dfe1f35bac9be583a70f3",
+        "chunk_index": 6,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 5345,
+        "source_end": 5374,
+        "text": "SA/149/P. Revision dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "1d0dfe1f35bac9be583a70f3:0005",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 7
+      },
+      "total_chunks": 7,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

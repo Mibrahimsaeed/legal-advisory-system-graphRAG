@@ -1,0 +1,143 @@
+{
+  "parent": {
+    "doc_id": "75dc6ca7db4cc0a3847234eb",
+    "metadata": {
+      "doc_id": "75dc6ca7db4cc0a3847234eb",
+      "case_title": "IBRAHIM SHAH vs Mst. HAMEEDA and 2 others",
+      "citation": "1998 M L D 1252",
+      "court": "Peshawar",
+      "court_location": "Peshawar",
+      "decision_date": null,
+      "judges": [
+        "Abdur Rehman Khan",
+        "Qazi Muhammad Farooq"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S. 5",
+        "Arts. 30",
+        "Art. 199"
+      ],
+      "source_relpath": "1998P2543",
+      "content_hash": "35e74cd5cc578d020f25728cfe4a7335afdfc6f6a462d6c3b229e1d0291c3ac6"
+    },
+    "full_text": "1998 M L D 1252\n\n[Peshawar]\n\nBefore Abdur Rehman Khan and Qazi Muhammad Farooq, JJ\n\nIBRAHIM SHAH---Petitioner\n\nversus\n\nMst. HAMEEDA and 2 others---Respondents\n\nWrit Petition No. 743 of 1996, decided on 3rd December, 1996\n\n(a) Qanun-e-Shahadat (10 of 1984)---\n\n---Arts. 30 & 113---Fact admitted---Proof---Fact admitted need not be proved.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5 & Sched.---Constitution of Pakistan (1973), Art. 199---Constitutional petition---Suit for dower filed by plaintiff/respondent wife against defendant/petitioner husband, was concurrently decreed by Family Court and Appellate Court below---Petitioner having failed to point out any defect in proceedings of Courts below or non-reading or misreading of evidence, their concurrent judgments, could not be interfered with by High Court in its Constitutional jurisdiction.\n\nSaifullah Khan Khattak for Petitioner.\n\nORDER\n\nABDUR REHMAN KHAN, J.---The learned Judge family Court decreed the suit of plaintiff-respondent No. 1 in respect of her dower to the extent of Rs. 20,000 as cash and three Tolas golden ornaments or Rs. 15,000 as the price of the gold by her decision dated 13-2-1996 and the learned appellate Court confirmed this decision in appeal. Petitioner has, therefore, filed this writ petition to declare the agreed decisions of the two Courts below as without lawful authority.\n\n2. The factual background of the case is that the plaintiff brought a suit for dower and maintenance for herself as well as, for her minor child (respondent No. 2) before Judge Family Court. It was averred in the plaint that the plaintiff was married to the defendant on 14-12-1992 and a Nikah Nama was also executed, that the relations of the spouses remained cordial for 5 months but after that defendant without any lawful excuse turned her out from his house. It was in the house of her parents that she gave birth to a daughter who was 1-1/2 year of age at the time of the institution of the suit. It was also revealed that the defendant had married a second wife and during all this period did not bother to look after and maintain the plaintiff or his daughter. In the written statement it was stated that the dower fixed at Rs. 49 has been paid and plaintiff was held responsible for leaving the house and the defendant absolved himself of all the allegations. The learned Judge Family Court did not deem it proper to grant a decree for maintenance but a decree for dower as indicated above was passed in favour of the plaintiff which was confirmed in appeal.\n\n3. The learned counsel appearing for the petitioner, submitted that the plaintiff has not been able to prove the execution of dower deed as no marginal witness has been examined in the trial Court. It appears that the learned counsel was oblivious of the admission of the petitioner regarding dower in these words: \"a dower deed was written between us at the time of marriage, and I am bound by the terms and conditions of that Nikahnama.\" It is recognised principle of law that a fact admitted need not be proved. The learned Courts below were legally justified in relying on this admission. The learned counsel was not in a position to challenge in any manner the above reproduced portion of the cross-examination of his client. Moreover, neither any jurisdictional defect was pointed out in the proceedings nor any non-reading or misreading of evidence was referred to. We, therefore, find no substance in this writ petition and accordingly dismiss it in limine.\n\nH.B.T./45/P Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "75dc6ca7db4cc0a3847234eb:0000",
+        "parent_id": "75dc6ca7db4cc0a3847234eb",
+        "doc_id": "75dc6ca7db4cc0a3847234eb",
+        "chunk_index": 0,
+        "section": "headnotes",
+        "span_kind": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 9,
+        "source_start": 222,
+        "source_end": 392,
+        "text": "(a) Qanun-e-Shahadat (10 of 1984)---\n\n---Arts. 30 & 113---Fact admitted---Proof---Fact admitted need not be proved.\n\n(b) West Pakistan Family Courts Act (XXXV of 1964)---",
+        "word_count": 24,
+        "prev_chunk_id": null,
+        "next_chunk_id": "75dc6ca7db4cc0a3847234eb:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "75dc6ca7db4cc0a3847234eb:0001",
+        "parent_id": "75dc6ca7db4cc0a3847234eb",
+        "doc_id": "75dc6ca7db4cc0a3847234eb",
+        "chunk_index": 1,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 918,
+        "source_end": 1387,
+        "text": "ABDUR REHMAN KHAN, J.---The learned Judge family Court decreed the suit of plaintiff-respondent No. 1 in respect of her dower to the extent of Rs. 20,000 as cash and three Tolas golden ornaments or Rs. 15,000 as the price of the gold by her decision dated 13-2-1996 and the learned appellate Court confirmed this decision in appeal. Petitioner has, therefore, filed this writ petition to declare the agreed decisions of the two Courts below as without lawful authority.",
+        "word_count": 78,
+        "prev_chunk_id": "75dc6ca7db4cc0a3847234eb:0000",
+        "next_chunk_id": "75dc6ca7db4cc0a3847234eb:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "75dc6ca7db4cc0a3847234eb:0002",
+        "parent_id": "75dc6ca7db4cc0a3847234eb",
+        "doc_id": "75dc6ca7db4cc0a3847234eb",
+        "chunk_index": 2,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1389,
+        "source_end": 2556,
+        "text": "2. The factual background of the case is that the plaintiff brought a suit for dower and maintenance for herself as well as, for her minor child (respondent No. 2) before Judge Family Court. It was averred in the plaint that the plaintiff was married to the defendant on 14-12-1992 and a Nikah Nama was also executed, that the relations of the spouses remained cordial for 5 months but after that defendant without any lawful excuse turned her out from his house. It was in the house of her parents that she gave birth to a daughter who was 1-1/2 year of age at the time of the institution of the suit. It was also revealed that the defendant had married a second wife and during all this period did not bother to look after and maintain the plaintiff or his daughter. In the written statement it was stated that the dower fixed at Rs. 49 has been paid and plaintiff was held responsible for leaving the house and the defendant absolved himself of all the allegations. The learned Judge Family Court did not deem it proper to grant a decree for maintenance but a decree for dower as indicated above was passed in favour of the plaintiff which was confirmed in appeal.",
+        "word_count": 213,
+        "prev_chunk_id": "75dc6ca7db4cc0a3847234eb:0001",
+        "next_chunk_id": "75dc6ca7db4cc0a3847234eb:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "75dc6ca7db4cc0a3847234eb:0003",
+        "parent_id": "75dc6ca7db4cc0a3847234eb",
+        "doc_id": "75dc6ca7db4cc0a3847234eb",
+        "chunk_index": 3,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2558,
+        "source_end": 3523,
+        "text": "3. The learned counsel appearing for the petitioner, submitted that the plaintiff has not been able to prove the execution of dower deed as no marginal witness has been examined in the trial Court. It appears that the learned counsel was oblivious of the admission of the petitioner regarding dower in these words: \"a dower deed was written between us at the time of marriage, and I am bound by the terms and conditions of that Nikahnama.\" It is recognised principle of law that a fact admitted need not be proved. The learned Courts below were legally justified in relying on this admission. The learned counsel was not in a position to challenge in any manner the above reproduced portion of the cross-examination of his client. Moreover, neither any jurisdictional defect was pointed out in the proceedings nor any non-reading or misreading of evidence was referred to. We, therefore, find no substance in this writ petition and accordingly dismiss it in limine.",
+        "word_count": 162,
+        "prev_chunk_id": "75dc6ca7db4cc0a3847234eb:0002",
+        "next_chunk_id": "75dc6ca7db4cc0a3847234eb:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "75dc6ca7db4cc0a3847234eb:0004",
+        "parent_id": "75dc6ca7db4cc0a3847234eb",
+        "doc_id": "75dc6ca7db4cc0a3847234eb",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 3525,
+        "source_end": 3556,
+        "text": "H.B.T./45/P Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "75dc6ca7db4cc0a3847234eb:0003",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 5
+      },
+      "total_chunks": 5,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

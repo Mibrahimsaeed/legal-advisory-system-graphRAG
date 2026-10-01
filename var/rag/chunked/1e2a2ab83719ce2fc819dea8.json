@@ -1,0 +1,110 @@
+{
+  "parent": {
+    "doc_id": "1e2a2ab83719ce2fc819dea8",
+    "metadata": {
+      "doc_id": "1e2a2ab83719ce2fc819dea8",
+      "case_title": "JUDGMENT",
+      "citation": "1968 P Cr. L J 525",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Muhammad Siddiq"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "Criminal Procedure Code (V of 1898)",
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 488",
+        "Ss. 5 & 20",
+        "section 439",
+        "section 488",
+        "Section 5",
+        "Section 20",
+        "section 20",
+        "section 5"
+      ],
+      "source_relpath": "1968L3037",
+      "content_hash": "16f75005c92917ad43a8c441fa6a8db54565a2bbdac3c95b55df2368bcd28b39"
+    },
+    "full_text": "1968 P Cr. L J 525\n\n[Lahore]\n\nBefore Muhammad Siddiq, J\n\nSh. MUHAMMAD ASLAM‐Petitioner\n\nVersus\n\nJAVAID AKHTAR AND OTHERS‐Respondents\n\nCriminal Revision No. 1139 of 1967, decided on 24th January 1968.\n\nCriminal Procedure Code (V of 1898), S. 488 read with West Pakistan Family Courts Act (XXXV of 1964), Ss. 5 & 20 and (Vest Pakistan Government Notification No. Integ. 10‐31‐6411 dated 5‐4‐1966‐Jurisdiction of Criminal Courts under S. 488, Cr. P. C. Held, excluded 6y Family Courts Act, 1964.\n\nNoor Zaman v. Mst. Saidano P L D 1967 Pesh. 343 fol.\n\nSyed Tanseer Asghar for Appellant.\n\nIftikhar Ahmed Dar for Respondents.\n\nJUDGMENT\n\nThis is a petition for revision under section 439, Cr. P. C., directed against the order dated the 7th of September 1967, passed by Kh. Ihsanul Haq, Additional Sessions Judge, Lahore, whereby he dismissed the revision petition of the petitioner against the order of the Sub‐Divisional Magistrate, Kasur, holding that he had the jurisdiction to proceed with the application under section 488, Cr. P. C. filed in his Court by the respondent against the petitioner.\n\n2. It is alleged in the grounds of revision that the jurisdic tion of the ordinary Criminal Courts under section 488, Cr. P. C. is ousted by reason of the provisions of the Family Courts Act, 1964. According to the preamble of the Family Courts Act, 1964 the intention underlining the Act was to establish the Family Courts \"for the expeditious settlement and disposal of disputes relating to marriage and family affairs and for matters connected therewith.\" Section 5 of the Act lays down that \"Subject to the provisions of the Muslim Family Laws Ordinance, 1961, and the Conciliation Courts Ordinance, 1961, the Family Courts shall have exclusive jurisdiction to entertain, hear and adjudicate upon matters specified in the Schedule.\" The Schedule contains six items including \"maintenance\" mentioned at No. 3. There is no indication that the term \"maintenance\" is restricted only to proceedings taken for proper maintenance on the civil side and not on the criminal side. The matter has not rested at that. Section 20 of the Act lays down that \"Government may invest any Judge of a Family Court with powers of Magistrate First Class to hear the case under section 488 of the. Code of Criminal Procedure, 1898\". That clearly indicates the intention of the Legislature to bestow necessary powers on the Family Courts to be able to deal with maintenance cases contemplated by section 488, Cr. P. C. In exercise of the powers vesting in the Government under section 20 ibid. The Government of West Pakistan issued Notification No. Integ. 10‐31‐64/1, dated the 5th of April 1966, according to which \"The Governor of West Pakistan is pleased to invest all Judges of the Family Courts with powers of, Magistrate of First Class to make orders for mainten ance under section 488 of the Code of Criminal Procedure, 1898\". The intention of the Act was thus completed to enable the Presiding Officer of the Family Court to deal with cases under section 488 of the Criminal Procedure Code. According to section 5 of the Act, the Family Courts are Courts of exclusive jurisdiction in respect of the scheduled matters. Hence the jurisdiction of the ordinary Criminal Courts to proceed under section 488, Cr. P. C. is excluded. This matter has been dealt with in Noor Zaman v. Mst. Saidano (P L D 1967 Pesh. 343) in which my learned brother, Faizullah Khan, J. has dealt with the matter at consider able length and held that the jurisdiction of the ordinary Criminal Courts under section 488, Cr. P. C. is excluded by the provisions of the Family Courts Act, 1964. I am in respectful agreement with the afore‐mentioned pronouncement and hold that the learned Sub‐Divisional Magistrate, Kasur, was not competent to proceed with the maintenance case under section 488 of the Criminal Procedure Code. 1, therefore accept this petition for revision and hold that the learned S. D. M. Kasur has no jurisdiction to proceed with the case under section 488, Cr. P. C.,\n\nPetition accepted.",
+    "chunks": [
+      {
+        "chunk_id": "1e2a2ab83719ce2fc819dea8:0000",
+        "parent_id": "1e2a2ab83719ce2fc819dea8",
+        "doc_id": "1e2a2ab83719ce2fc819dea8",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 631,
+        "source_end": 1093,
+        "text": "This is a petition for revision under section 439, Cr. P. C., directed against the order dated the 7th of September 1967, passed by Kh. Ihsanul Haq, Additional Sessions Judge, Lahore, whereby he dismissed the revision petition of the petitioner against the order of the Sub‐Divisional Magistrate, Kasur, holding that he had the jurisdiction to proceed with the application under section 488, Cr. P. C. filed in his Court by the respondent against the petitioner.",
+        "word_count": 75,
+        "prev_chunk_id": null,
+        "next_chunk_id": "1e2a2ab83719ce2fc819dea8:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1e2a2ab83719ce2fc819dea8:0001",
+        "parent_id": "1e2a2ab83719ce2fc819dea8",
+        "doc_id": "1e2a2ab83719ce2fc819dea8",
+        "chunk_index": 1,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1095,
+        "source_end": 4042,
+        "text": "2. It is alleged in the grounds of revision that the jurisdic tion of the ordinary Criminal Courts under section 488, Cr. P. C. is ousted by reason of the provisions of the Family Courts Act, 1964. According to the preamble of the Family Courts Act, 1964 the intention underlining the Act was to establish the Family Courts \"for the expeditious settlement and disposal of disputes relating to marriage and family affairs and for matters connected therewith.\" Section 5 of the Act lays down that \"Subject to the provisions of the Muslim Family Laws Ordinance, 1961, and the Conciliation Courts Ordinance, 1961, the Family Courts shall have exclusive jurisdiction to entertain, hear and adjudicate upon matters specified in the Schedule.\" The Schedule contains six items including \"maintenance\" mentioned at No. 3. There is no indication that the term \"maintenance\" is restricted only to proceedings taken for proper maintenance on the civil side and not on the criminal side. The matter has not rested at that. Section 20 of the Act lays down that \"Government may invest any Judge of a Family Court with powers of Magistrate First Class to hear the case under section 488 of the. Code of Criminal Procedure, 1898\". That clearly indicates the intention of the Legislature to bestow necessary powers on the Family Courts to be able to deal with maintenance cases contemplated by section 488, Cr. P. C. In exercise of the powers vesting in the Government under section 20 ibid. The Government of West Pakistan issued Notification No. Integ. 10‐31‐64/1, dated the 5th of April 1966, according to which \"The Governor of West Pakistan is pleased to invest all Judges of the Family Courts with powers of, Magistrate of First Class to make orders for mainten ance under section 488 of the Code of Criminal Procedure, 1898\". The intention of the Act was thus completed to enable the Presiding Officer of the Family Court to deal with cases under section 488 of the Criminal Procedure Code. According to section 5 of the Act, the Family Courts are Courts of exclusive jurisdiction in respect of the scheduled matters. Hence the jurisdiction of the ordinary Criminal Courts to proceed under section 488, Cr. P. C. is excluded. This matter has been dealt with in Noor Zaman v. Mst. Saidano (P L D 1967 Pesh. 343) in which my learned brother, Faizullah Khan, J. has dealt with the matter at consider able length and held that the jurisdiction of the ordinary Criminal Courts under section 488, Cr. P. C. is excluded by the provisions of the Family Courts Act, 1964. I am in respectful agreement with the afore‐mentioned pronouncement and hold that the learned Sub‐Divisional Magistrate, Kasur, was not competent to proceed with the maintenance case under section 488 of the Criminal Procedure Code. 1, therefore accept this petition for revision and hold that the learned S. D. M. Kasur has no jurisdiction to proceed with the case under section 488, Cr. P. C.,",
+        "word_count": 497,
+        "prev_chunk_id": "1e2a2ab83719ce2fc819dea8:0000",
+        "next_chunk_id": "1e2a2ab83719ce2fc819dea8:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1e2a2ab83719ce2fc819dea8:0002",
+        "parent_id": "1e2a2ab83719ce2fc819dea8",
+        "doc_id": "1e2a2ab83719ce2fc819dea8",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 4044,
+        "source_end": 4062,
+        "text": "Petition accepted.",
+        "word_count": 2,
+        "prev_chunk_id": "1e2a2ab83719ce2fc819dea8:0001",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 2,
+        "250-499": 1
+      },
+      "total_chunks": 3,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

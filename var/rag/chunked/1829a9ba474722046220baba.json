@@ -1,0 +1,159 @@
+{
+  "parent": {
+    "doc_id": "1829a9ba474722046220baba",
+    "metadata": {
+      "doc_id": "1829a9ba474722046220baba",
+      "case_title": "1989 M L D 311",
+      "citation": "1989 M L D 311",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Munir A. Sheikh"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "partly_allowed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Ordinance (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 14",
+        "section 14"
+      ],
+      "source_relpath": "1989L2603",
+      "content_hash": "b721f0ef1be581d69d2b87cb0726414776d12aeb74e546826e37871befbe896c"
+    },
+    "full_text": "1989 M L D 311\n\n[Lahore]\n\nBefore Munir A. Sheikh, J\n\nMst. MAHMOODA BEGUM‐‐Petitioner\n\nversus\n\nMUHAMMAD IQBAL‐‐Respondent\n\nWrit Petition No. 1870 of 1985, decided on 11th January, 1989.\n\nWest Pakistan Family Courts Ordinance (XXXV of 1964)‐\n\n‐‐‐S. 14(2)‐‐Khula'‐‐Decree passed by Trial Court/Family Judge for dissolution of marriage on basis of Khula on payment of consideration by wife to husband‐ Finding of Appellate Court that part of decree of Trial Court relating to determination of amount of consideration to be paid to husband for dissolution of marriage was not appealable Held was without lawful‐‐Case remanded ‐to appellate Court to dispose of appeal of wife regarding part of judgment and decree of Trial Court fixing and determining amount to be paid by wife to husband as consideration for dissolution of marriage on ground of Khula.\n\nCh. Muzammal Khan for Petitioner.\n\nAwan Muhammad Hanif for Respondent No. 1.\n\nNemo for Respondents Nos. 2 and 3.\n\nDate of hearing: 11th January, 1989.\n\nJUDGMENT\n\nIn this Constitutional petition, the petitioner has called in question the judgment dated 26‐6‐1984 passed by learned Additional District Judge, Sialkot in which it was held that decree passed by learned trial Court/Judge Family Court Shakargarh, for dissolution of marriage on the basis of `Khula' in consideration of payment of Rs. 7,000 as penalty was not appealable under section 14(2) of the West Pakistan Family Courts Act, 1964, has been challenged.\n\n2. Learned counsel for the petitioner argued on the strength of judgments reported as Mst. Rushda Zareen v. Muhammad Saleh (PLD 1976 Lah. 1327) and Bashir Bibi v. Muhammad Rafiq and 2 others (1982 C L C 1200) that decree for dissolution of marriage on the ground of Khula' had two parts, one dissolving the marriage and the other the determination of consideration to be paid to the husband for the said dissolution therefore, the part of the decree determining the amount of consideration to be paid to the husband was appealable, though the decree for dissolution of marriage was not appealable.\n\n3. I have considered the arguments. Learned Additional District Judge in the impugned judgment held that though it was maintained that the learned trial Court could not have fixed the amount arbitrarily but he declined to adjudicate upon the said aspect of the case upholding the objection raised on behalf of respondent No. 1 that appeal against decree for dissolution of marriage on the ground of Khula' was not appealable. Learned counsel for the respondent No. 1, when questioned as to how he could support this finding of the learned lower appellate Court in view of the reported judgments relied upon by the learned counsel for the petitioner, he frankly conceded that the law deli red by this Court in these judgments supports the contention of the learned counsel for the petitioner that to the extent of payment of consideration and its quantum, the decree of the learned Judge Family Court was appealable.\n\n4. As has been noted above, the learned lower appellate Court declined to record decision on the question of payment of consideration to the husband by the petitioner for dissolution of marriage and its quantum taking erroneous view of law that the same could not be done because decree as a whole was not appealable has resulted in failure to exercise jurisdiction by him in this respect. The rule laid down in the reported judgments referred to by the learned Counsel for the petitioner is that in such decree the part of the decree relating to payment of consideration was appealable.\n\n5. For the foregoing reasons, this writ petition partly succeeds. It is accepted to the extent that impugned judgment of learned Additional District Judge, Sialkot holding that the part of the decree relating to, determination of amount of consideration to be paid by the petitioner for dissolution to marriage of respondent No. 1 on the ground of Khula was not appealable, is hereby declared to have been passed without lawful authority and is of no legal effect which is hereby quashed. The case is remanded to the learned lower appellate Court to dispose of the appeal of the petitioner regarding this part of the judgment and decree of the trial Court fixing and determining an amount of Rs. 7,000 to be paid by the petitioner to respondent No. as consideration of dissolution of marriage. The parties are directed to appear before the learned lower appellate Court on 18‐2‐1989. The parties are left to bear their own costs.\n\nM.Y.H./M‐1056/L Petition partly allowed.",
+    "chunks": [
+      {
+        "chunk_id": "1829a9ba474722046220baba:0000",
+        "parent_id": "1829a9ba474722046220baba",
+        "doc_id": "1829a9ba474722046220baba",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1011,
+        "source_end": 1467,
+        "text": "In this Constitutional petition, the petitioner has called in question the judgment dated 26‐6‐1984 passed by learned Additional District Judge, Sialkot in which it was held that decree passed by learned trial Court/Judge Family Court Shakargarh, for dissolution of marriage on the basis of `Khula' in consideration of payment of Rs. 7,000 as penalty was not appealable under section 14(2) of the West Pakistan Family Courts Act, 1964, has been challenged.",
+        "word_count": 71,
+        "prev_chunk_id": null,
+        "next_chunk_id": "1829a9ba474722046220baba:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1829a9ba474722046220baba:0001",
+        "parent_id": "1829a9ba474722046220baba",
+        "doc_id": "1829a9ba474722046220baba",
+        "chunk_index": 1,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 1469,
+        "source_end": 2066,
+        "text": "2. Learned counsel for the petitioner argued on the strength of judgments reported as Mst. Rushda Zareen v. Muhammad Saleh (PLD 1976 Lah. 1327) and Bashir Bibi v. Muhammad Rafiq and 2 others (1982 C L C 1200) that decree for dissolution of marriage on the ground of Khula' had two parts, one dissolving the marriage and the other the determination of consideration to be paid to the husband for the said dissolution therefore, the part of the decree determining the amount of consideration to be paid to the husband was appealable, though the decree for dissolution of marriage was not appealable.",
+        "word_count": 102,
+        "prev_chunk_id": "1829a9ba474722046220baba:0000",
+        "next_chunk_id": "1829a9ba474722046220baba:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1829a9ba474722046220baba:0002",
+        "parent_id": "1829a9ba474722046220baba",
+        "doc_id": "1829a9ba474722046220baba",
+        "chunk_index": 2,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 2068,
+        "source_end": 2983,
+        "text": "3. I have considered the arguments. Learned Additional District Judge in the impugned judgment held that though it was maintained that the learned trial Court could not have fixed the amount arbitrarily but he declined to adjudicate upon the said aspect of the case upholding the objection raised on behalf of respondent No. 1 that appeal against decree for dissolution of marriage on the ground of Khula' was not appealable. Learned counsel for the respondent No. 1, when questioned as to how he could support this finding of the learned lower appellate Court in view of the reported judgments relied upon by the learned counsel for the petitioner, he frankly conceded that the law deli red by this Court in these judgments supports the contention of the learned counsel for the petitioner that to the extent of payment of consideration and its quantum, the decree of the learned Judge Family Court was appealable.",
+        "word_count": 153,
+        "prev_chunk_id": "1829a9ba474722046220baba:0001",
+        "next_chunk_id": "1829a9ba474722046220baba:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1829a9ba474722046220baba:0003",
+        "parent_id": "1829a9ba474722046220baba",
+        "doc_id": "1829a9ba474722046220baba",
+        "chunk_index": 3,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 2985,
+        "source_end": 3572,
+        "text": "4. As has been noted above, the learned lower appellate Court declined to record decision on the question of payment of consideration to the husband by the petitioner for dissolution of marriage and its quantum taking erroneous view of law that the same could not be done because decree as a whole was not appealable has resulted in failure to exercise jurisdiction by him in this respect. The rule laid down in the reported judgments referred to by the learned Counsel for the petitioner is that in such decree the part of the decree relating to payment of consideration was appealable.",
+        "word_count": 101,
+        "prev_chunk_id": "1829a9ba474722046220baba:0002",
+        "next_chunk_id": "1829a9ba474722046220baba:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1829a9ba474722046220baba:0004",
+        "parent_id": "1829a9ba474722046220baba",
+        "doc_id": "1829a9ba474722046220baba",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 3574,
+        "source_end": 4503,
+        "text": "5. For the foregoing reasons, this writ petition partly succeeds. It is accepted to the extent that impugned judgment of learned Additional District Judge, Sialkot holding that the part of the decree relating to, determination of amount of consideration to be paid by the petitioner for dissolution to marriage of respondent No. 1 on the ground of Khula was not appealable, is hereby declared to have been passed without lawful authority and is of no legal effect which is hereby quashed. The case is remanded to the learned lower appellate Court to dispose of the appeal of the petitioner regarding this part of the judgment and decree of the trial Court fixing and determining an amount of Rs. 7,000 to be paid by the petitioner to respondent No. as consideration of dissolution of marriage. The parties are directed to appear before the learned lower appellate Court on 18‐2‐1989. The parties are left to bear their own costs.",
+        "word_count": 157,
+        "prev_chunk_id": "1829a9ba474722046220baba:0003",
+        "next_chunk_id": "1829a9ba474722046220baba:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "1829a9ba474722046220baba:0005",
+        "parent_id": "1829a9ba474722046220baba",
+        "doc_id": "1829a9ba474722046220baba",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "source_start": 4505,
+        "source_end": 4545,
+        "text": "M.Y.H./M‐1056/L Petition partly allowed.",
+        "word_count": 4,
+        "prev_chunk_id": "1829a9ba474722046220baba:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

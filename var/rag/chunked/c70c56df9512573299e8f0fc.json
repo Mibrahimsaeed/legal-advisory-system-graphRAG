@@ -1,0 +1,159 @@
+{
+  "parent": {
+    "doc_id": "c70c56df9512573299e8f0fc",
+    "metadata": {
+      "doc_id": "c70c56df9512573299e8f0fc",
+      "case_title": "ORDER",
+      "citation": "2000 Y L R 2624",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Mian Allah Nawaz",
+        "C"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "allowed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "Ss. 5"
+      ],
+      "source_relpath": "2000L4467",
+      "content_hash": "85be690b8adf217469decb8423f6d92337b171a60f06b652b268b0491553dd62"
+    },
+    "full_text": "2000 Y L R 2624\n\n[Lahore]\n\nBefore Mian Allah Nawaz, C J\n\nMst. NUZHAT REHMAN‐‐‐Applicant\n\nversus\n\nINAM UL HAQ‐‐‐Respondent\n\nTransfer Application No. 14‐C of 2000, decided on 26th May, 2000.\n\nWest Pakistan Family Courts Act (XXXV of 1964)\n\n‐‐‐‐Ss. 5, Sched. & 25‐A‐‐‐Application of transfer of suit‐‐‐Suit for dissolution of marriage and rival suit for restitution of conjugal rights‐‐‐Wife filed suit for dissolution of marriage against the husband at place \"B\" whereas husband filed suit for restitution of conjugal rights at place \"D\"‐‐ Wife had sought transfer of suit filed against her at place \"D\" to place \"B\" where her suit for dissolution of marriage was pending against the respondent‐‐‐Applicant was a Pardah‐observing lady and could not prosecute her case at place \"D \"‐‐‐Keeping in view the inconvenience of applicant, suit filed against her in Court at place \"D \" was ordered to be transferred to Court at place \"B\" where her suit for dissolution of marriage was pending.\n\nZahid Hussain Khan for Applicant.\n\nNemo for Respondent.\n\nORDER\n\nThis application, by Mst. Nuzhat Rehman, seeks transfer of a suit for restitution of conjugal rights from the Court of Judge Family Court, Depalpur, District Okara to the Court of learned Senior Civil Judge/Judge Family Court, Bahawalnagar where her suit for dissolution of marriage is pending adjudication.\n\n2. Facts are: that Mst. Nuzhat Rehman/applicant herein was married with Inam‐ul‐Haq/respondent on 1‐11‐1995. From this wedlock a child namely Usama was born in year 1997. In 1999, relations between the two became strained. Feeling aggrieved, applicant tiled a suit for dissolution of marriage in the Court of Senior Civil Judge/Judge Family Court, Bahawalnagar on 17‐12‐1999. The respondent also did not lag behind. He too tiled a suit for restitution of conjugal rights in the Court of Mian Muhammad Abdur Rafique, Judge Family Court, Depalpur, District Okara on 13‐12‐1999. This is how this application has come to this Court.\n\n3. It is contended that applicant is a Pardah‐observing lady; that she is residing. in Bahawalnagar District and that she cannot defend her cause at Depalpur, District Okara. Respondent, despite service, has not entered appearance. He is, therefore, proceeded against ex part.\n\n4. Manifestly, applicant is a Pardah observing lady; that she is residing in Bahawalnagar District and that she cannot prosecute her cause at Depalpur, District Okara. None has entered appearance to controvert this position. Taking the aforesaid circumstances into consideration, I am inclined to allow this application with the result that suit for restitution of conjugal rights is withdrawn from the Court of Mian M. Abdul Rafique, Judge Family Court, Depalpur and entrusted to Senior Civil Judge/Judge Family Court, Bahawalnagar. The first Court shall send immediately the record of restitution suit to the transferee Court and the learned transferee Court shall decide the matter as quickly as possible after affording opportunity of hearing to both sides.\n\nH.B.T./N‐33/L\n\nApplication allowed.",
+    "chunks": [
+      {
+        "chunk_id": "c70c56df9512573299e8f0fc:0000",
+        "parent_id": "c70c56df9512573299e8f0fc",
+        "doc_id": "c70c56df9512573299e8f0fc",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1049,
+        "source_end": 1356,
+        "text": "This application, by Mst. Nuzhat Rehman, seeks transfer of a suit for restitution of conjugal rights from the Court of Judge Family Court, Depalpur, District Okara to the Court of learned Senior Civil Judge/Judge Family Court, Bahawalnagar where her suit for dissolution of marriage is pending adjudication.",
+        "word_count": 47,
+        "prev_chunk_id": null,
+        "next_chunk_id": "c70c56df9512573299e8f0fc:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "c70c56df9512573299e8f0fc:0001",
+        "parent_id": "c70c56df9512573299e8f0fc",
+        "doc_id": "c70c56df9512573299e8f0fc",
+        "chunk_index": 1,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1358,
+        "source_end": 1986,
+        "text": "2. Facts are: that Mst. Nuzhat Rehman/applicant herein was married with Inam‐ul‐Haq/respondent on 1‐11‐1995. From this wedlock a child namely Usama was born in year 1997. In 1999, relations between the two became strained. Feeling aggrieved, applicant tiled a suit for dissolution of marriage in the Court of Senior Civil Judge/Judge Family Court, Bahawalnagar on 17‐12‐1999. The respondent also did not lag behind. He too tiled a suit for restitution of conjugal rights in the Court of Mian Muhammad Abdur Rafique, Judge Family Court, Depalpur, District Okara on 13‐12‐1999. This is how this application has come to this Court.",
+        "word_count": 99,
+        "prev_chunk_id": "c70c56df9512573299e8f0fc:0000",
+        "next_chunk_id": "c70c56df9512573299e8f0fc:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "c70c56df9512573299e8f0fc:0002",
+        "parent_id": "c70c56df9512573299e8f0fc",
+        "doc_id": "c70c56df9512573299e8f0fc",
+        "chunk_index": 2,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1988,
+        "source_end": 2264,
+        "text": "3. It is contended that applicant is a Pardah‐observing lady; that she is residing. in Bahawalnagar District and that she cannot defend her cause at Depalpur, District Okara. Respondent, despite service, has not entered appearance. He is, therefore, proceeded against ex part.",
+        "word_count": 42,
+        "prev_chunk_id": "c70c56df9512573299e8f0fc:0001",
+        "next_chunk_id": "c70c56df9512573299e8f0fc:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "c70c56df9512573299e8f0fc:0003",
+        "parent_id": "c70c56df9512573299e8f0fc",
+        "doc_id": "c70c56df9512573299e8f0fc",
+        "chunk_index": 3,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2266,
+        "source_end": 3027,
+        "text": "4. Manifestly, applicant is a Pardah observing lady; that she is residing in Bahawalnagar District and that she cannot prosecute her cause at Depalpur, District Okara. None has entered appearance to controvert this position. Taking the aforesaid circumstances into consideration, I am inclined to allow this application with the result that suit for restitution of conjugal rights is withdrawn from the Court of Mian M. Abdul Rafique, Judge Family Court, Depalpur and entrusted to Senior Civil Judge/Judge Family Court, Bahawalnagar. The first Court shall send immediately the record of restitution suit to the transferee Court and the learned transferee Court shall decide the matter as quickly as possible after affording opportunity of hearing to both sides.",
+        "word_count": 116,
+        "prev_chunk_id": "c70c56df9512573299e8f0fc:0002",
+        "next_chunk_id": "c70c56df9512573299e8f0fc:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "c70c56df9512573299e8f0fc:0004",
+        "parent_id": "c70c56df9512573299e8f0fc",
+        "doc_id": "c70c56df9512573299e8f0fc",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 3029,
+        "source_end": 3042,
+        "text": "H.B.T./N‐33/L",
+        "word_count": 1,
+        "prev_chunk_id": "c70c56df9512573299e8f0fc:0003",
+        "next_chunk_id": "c70c56df9512573299e8f0fc:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "c70c56df9512573299e8f0fc:0005",
+        "parent_id": "c70c56df9512573299e8f0fc",
+        "doc_id": "c70c56df9512573299e8f0fc",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 3044,
+        "source_end": 3064,
+        "text": "Application allowed.",
+        "word_count": 2,
+        "prev_chunk_id": "c70c56df9512573299e8f0fc:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

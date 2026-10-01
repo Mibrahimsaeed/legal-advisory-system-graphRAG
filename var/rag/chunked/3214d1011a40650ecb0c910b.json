@@ -1,0 +1,178 @@
+{
+  "parent": {
+    "doc_id": "3214d1011a40650ecb0c910b",
+    "metadata": {
+      "doc_id": "3214d1011a40650ecb0c910b",
+      "case_title": "1980 S C M R 933",
+      "citation": "1980 S C M R 933",
+      "court": null,
+      "court_location": null,
+      "decision_date": null,
+      "judges": [
+        "Dorab Patel",
+        "G. Safdar Shah"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "Art. 199"
+      ],
+      "source_relpath": "1980S1032",
+      "content_hash": "03c1e432163fe4b5c9a4e9bf00ce35ae9a3688249e4c0869c7f35af4d906dfcd"
+    },
+    "full_text": "1980 S C M R 933\n\nPresent: Dorab Patel and G. Safdar Shah, JJ\n\nGRULAM MUHAMMAD AND ANOTHER‐Petitioners\n\nVersus\n\nMst. NOOR BIBI AND 5 OTHERS‐Respondents\n\nCivil Petition for Special Leave to Appeal No. 21‐R of 1979, decided on 11th February, 1980.\n\n(On appeal from the judgment and order of the Baluchistan High Court dated 21‐11‐1978 in C. P. 357 of 1978).\n\n(a) Constitution of Pakistan (1973)‐‐\n\n----Art. 199‐Writ jurisdiction‐Concurrent findings‐‐High Court cannot in its limited constitutional jurisdiction, interfere with concurrent findings of fact supported by evidence.‐‐[Finding of fact).\n\n(b) West Pakistan Family Courts Act of (XXXV of 1964)-----\n\n----Jurisdiction of Family Court‐‐Objection about jurisdiction not raised earlier but pressed for first time in Supreme Court‐.Held, cannot be examined by Supreme Court,‐[Jurisdiction].\n\nMuhammad Bilal, Advocate and Y. H. Zaidi Advocate‐on‐Record for Petitioners.\n\nNemo for Respondent\n\nDates of hearing: 20th November, 1979 and 11th February, 1980.\n\nORDER\n\nDORAB PATEL, J.‐‐‐The petitioners are the sons of the fifth respondent. This respondent has two wives, the first respondent and the third respondent. And, as there was a dispute between the wives about property, which the first respondent claimed as having been gifted to her in lieu of dower, she filed a suit in the Family Court, Tomp (Baluchistan), to enforce her rights about the property in dispute. We were informed that the suit was filed only against the third and the fifth respondent and it was decreed therefore, these respondents had filed an appeal in the District Court, Kalat. The learned Distric Judge, Kalat had remanded the case and in the events that happened, the petitioners were impleaded as defendants in the first respondent's suit. But, on remand, the first j respondent was successful again and as the Family Court had her suit, the petitioners and the third and the fifth respondents an appeal in the Court of the District Judge, which was on 4‐10‐198.\n\nThe petitioners then filed a writ petition in the Baluchistan High Court against the judgment of the Family Court and of the learned District Judge, Kalat. But, this writ petition was dismissed on the short ground that the High Court could not in its limited constitutional jurisdiction interfere with the concurrent findings against the petitioners, as these findings were supported by evidence. Hence this petition for leave.\n\nMr. Bilal submitted that the case of the petitioners was that the land in dispute had been gifted to the petitioners long before the fifth respondent's marriage with the first respondent. But, in support of this plea, be could only refer us to a copy of what he described as the sale deed by the fifth respondent to his own sons, namely the petitioners. It is not surprising that this document did not impress the High Court, the more so, as according the learned District Judge, the fifth respondent had not supported the claim of the petitioners. Additionally, as observed by the learned Judges of the High Court, the first respondent had examined witnesses in support of her claim, therefore, we agree with the view taken by the High Court that it could not in its limited constitutional Jurisdiction interfere with the concurrent findings against the petitioners on what was essentially a question of fact.\n\nMr. Bilal's only other argument was that the first respondent's suit had been decreed against her step sons and that the Family Court had no jurisdiction to entertain a claim except between parties married to each other. Now, the petitioners have not found it convenient to file their written statement and despite our repeated enquiries Mr. Bilal was not able to show us any observation in the judgments of the Family Judge and of the District Judge which could show that the petitioners had raised this objection about the jurisdiction of the Family Court, before the Family Judge. And, on the, contrary although three issues were framed, no issue was framed about, the Family Court's competence to entertain the first respondent's suit. Additionally, the judgment of the learned Judges of the High Court does not refer to this objection. In these circumstances, the only possible inference is that this objection about jurisdiction is being pressed for the first time in this Court and as it was not raised earlier, we would not be justified in granting special leave to examine this objection.\n\nThe petition is without merit and is dismissed.\n\nPetition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "3214d1011a40650ecb0c910b:0000",
+        "parent_id": "3214d1011a40650ecb0c910b",
+        "doc_id": "3214d1011a40650ecb0c910b",
+        "chunk_index": 0,
+        "section": "headnotes",
+        "span_kind": "headnotes",
+        "paragraph_start": 7,
+        "paragraph_end": 9,
+        "source_start": 357,
+        "source_end": 655,
+        "text": "(a) Constitution of Pakistan (1973)‐‐\n\n----Art. 199‐Writ jurisdiction‐Concurrent findings‐‐High Court cannot in its limited constitutional jurisdiction, interfere with concurrent findings of fact supported by evidence.‐‐[Finding of fact).\n\n(b) West Pakistan Family Courts Act of (XXXV of 1964)-----",
+        "word_count": 37,
+        "prev_chunk_id": null,
+        "next_chunk_id": "3214d1011a40650ecb0c910b:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3214d1011a40650ecb0c910b:0001",
+        "parent_id": "3214d1011a40650ecb0c910b",
+        "doc_id": "3214d1011a40650ecb0c910b",
+        "chunk_index": 1,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 1014,
+        "source_end": 1993,
+        "text": "DORAB PATEL, J.‐‐‐The petitioners are the sons of the fifth respondent. This respondent has two wives, the first respondent and the third respondent. And, as there was a dispute between the wives about property, which the first respondent claimed as having been gifted to her in lieu of dower, she filed a suit in the Family Court, Tomp (Baluchistan), to enforce her rights about the property in dispute. We were informed that the suit was filed only against the third and the fifth respondent and it was decreed therefore, these respondents had filed an appeal in the District Court, Kalat. The learned Distric Judge, Kalat had remanded the case and in the events that happened, the petitioners were impleaded as defendants in the first respondent's suit. But, on remand, the first j respondent was successful again and as the Family Court had her suit, the petitioners and the third and the fifth respondents an appeal in the Court of the District Judge, which was on 4‐10‐198.",
+        "word_count": 166,
+        "prev_chunk_id": "3214d1011a40650ecb0c910b:0000",
+        "next_chunk_id": "3214d1011a40650ecb0c910b:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3214d1011a40650ecb0c910b:0002",
+        "parent_id": "3214d1011a40650ecb0c910b",
+        "doc_id": "3214d1011a40650ecb0c910b",
+        "chunk_index": 2,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 1995,
+        "source_end": 2422,
+        "text": "The petitioners then filed a writ petition in the Baluchistan High Court against the judgment of the Family Court and of the learned District Judge, Kalat. But, this writ petition was dismissed on the short ground that the High Court could not in its limited constitutional jurisdiction interfere with the concurrent findings against the petitioners, as these findings were supported by evidence. Hence this petition for leave.",
+        "word_count": 67,
+        "prev_chunk_id": "3214d1011a40650ecb0c910b:0001",
+        "next_chunk_id": "3214d1011a40650ecb0c910b:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3214d1011a40650ecb0c910b:0003",
+        "parent_id": "3214d1011a40650ecb0c910b",
+        "doc_id": "3214d1011a40650ecb0c910b",
+        "chunk_index": 3,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 2424,
+        "source_end": 3334,
+        "text": "Mr. Bilal submitted that the case of the petitioners was that the land in dispute had been gifted to the petitioners long before the fifth respondent's marriage with the first respondent. But, in support of this plea, be could only refer us to a copy of what he described as the sale deed by the fifth respondent to his own sons, namely the petitioners. It is not surprising that this document did not impress the High Court, the more so, as according the learned District Judge, the fifth respondent had not supported the claim of the petitioners. Additionally, as observed by the learned Judges of the High Court, the first respondent had examined witnesses in support of her claim, therefore, we agree with the view taken by the High Court that it could not in its limited constitutional Jurisdiction interfere with the concurrent findings against the petitioners on what was essentially a question of fact.",
+        "word_count": 155,
+        "prev_chunk_id": "3214d1011a40650ecb0c910b:0002",
+        "next_chunk_id": "3214d1011a40650ecb0c910b:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3214d1011a40650ecb0c910b:0004",
+        "parent_id": "3214d1011a40650ecb0c910b",
+        "doc_id": "3214d1011a40650ecb0c910b",
+        "chunk_index": 4,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 3336,
+        "source_end": 4433,
+        "text": "Mr. Bilal's only other argument was that the first respondent's suit had been decreed against her step sons and that the Family Court had no jurisdiction to entertain a claim except between parties married to each other. Now, the petitioners have not found it convenient to file their written statement and despite our repeated enquiries Mr. Bilal was not able to show us any observation in the judgments of the Family Judge and of the District Judge which could show that the petitioners had raised this objection about the jurisdiction of the Family Court, before the Family Judge. And, on the, contrary although three issues were framed, no issue was framed about, the Family Court's competence to entertain the first respondent's suit. Additionally, the judgment of the learned Judges of the High Court does not refer to this objection. In these circumstances, the only possible inference is that this objection about jurisdiction is being pressed for the first time in this Court and as it was not raised earlier, we would not be justified in granting special leave to examine this objection.",
+        "word_count": 182,
+        "prev_chunk_id": "3214d1011a40650ecb0c910b:0003",
+        "next_chunk_id": "3214d1011a40650ecb0c910b:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3214d1011a40650ecb0c910b:0005",
+        "parent_id": "3214d1011a40650ecb0c910b",
+        "doc_id": "3214d1011a40650ecb0c910b",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "source_start": 4435,
+        "source_end": 4482,
+        "text": "The petition is without merit and is dismissed.",
+        "word_count": 8,
+        "prev_chunk_id": "3214d1011a40650ecb0c910b:0004",
+        "next_chunk_id": "3214d1011a40650ecb0c910b:0006",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3214d1011a40650ecb0c910b:0006",
+        "parent_id": "3214d1011a40650ecb0c910b",
+        "doc_id": "3214d1011a40650ecb0c910b",
+        "chunk_index": 6,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "source_start": 4484,
+        "source_end": 4503,
+        "text": "Petition dismissed.",
+        "word_count": 2,
+        "prev_chunk_id": "3214d1011a40650ecb0c910b:0005",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 7
+      },
+      "total_chunks": 7,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "parent": {
+    "doc_id": "202c486b3e2e42353a2d8bc7",
+    "metadata": {
+      "doc_id": "202c486b3e2e42353a2d8bc7",
+      "case_title": "2010 Y L R 1702",
+      "citation": "2010 Y L R 1702",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Ch. Muhammad Tariq"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S.17",
+        "sections 506",
+        "section 24",
+        "Art. 199"
+      ],
+      "source_relpath": "2010L4316",
+      "content_hash": "b914c5915eb4b0515fbfb523147580981dd94bcd406f5e5b6d44cc9588c1e59f"
+    },
+    "full_text": "2010 Y L R 1702\n\n[Lahore]\n\nBefore Ch. Muhammad Tariq, J\n\nRASHID KAREEM-Petitioner\n\nVersus\n\nJUDGE FAMILY COURT and 2 others---Respondents\n\nWrit Petition No. 7407 of 2010, decided on 14th April, 2010\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.17-A---Constitution of Pakistan (1973), Art. 199---Constitutional petition---Scope---Interlocutory order--- Interim maintenance---Petitioner was aggrieved of fixation of interim maintenance by Family Court with regard to his minor son---Validity---Family Court, to avoid families front miseries, had jurisdiction under the law to pass order for payment of interim maintenance till final disposal of the suit---Petitioner who claimed to be real father of minor son was also duty bound to provide adequate maintenance to his son---Petitioner could not point out any illegality or jurisdictional error in interim order, which had been passed under relevant law and the same could not be assailed in Constitutional petition---When a statute had not provided appeal against interlocutory order, the same could not be challenged by way of Constitutional petition as it would amount to negate the provisions of statute---Appeal was a statutory right which had not been provided under West Pakistan Family Courts Act, 1964, in relation to interim order passed by Family Court---Appropriate course for petitioner was to contest the suit and to wait for final order/ judgment of Family Court---If petitioner was not satisfied with the order, he could assail the judgment as well as interim order in appeal---High Court declined to interfere in interim maintenance fixed by Family Court---Petition was dismissed in circumstances.\n\nM.A. Ghaffar-ul-Haq for Petitioner.\n\nORDER\n\nCH. MUHAMMAD TARIQ, J.--Brief facts of the case are that the petitioner contracted marriage with respondent No.2 on 26-6-2005. Out of this wedlock, one son namely Muhammad Faiz was born on 2-1-2006. Soon after the marriage, relations between the spouses became strained and criminal case No.598/2009 dated 23-6-2009 under sections 506/337-L (ii), 148/149, P.P.C. was registered at Police Station, Sargodha Road, Faisalabad against the petitioner. In June, 2009, the respondent No.1 was turned out of petitioners house and since then, she has been living with her parents who have been providing maintenance and other livelihood to the respondents while the petitioner has not paid any amount to the respondents on account of maintenance. Resultantly, respondents filed a suit for recovery of maintenance before Judge Family Court, Faisalabad who fixed Rs.4000 on account of interim maintenance for the minor from the date of filing of suit.\n\n2. The petitioner has challenged the interim order for the payment of Rs.4000 as maintenance to the minor in this writ petition.\n\n3. Learned counsel for the petitioner contends that impugned order of fixation of interim maintenance of Rs.4000 is non-speaking order and is a clear violation of section 24-A of General Clauses Act. Interim maintenance is excessive and beyond the source of income of the petitioner who is now a days unemployed and living in a very difficult situation. Therefore, impugned order dated 15-3-2010 passed by respondent No.1 be set aside. The petitioner has relied on case law reported as 2009 CLC 980.\n\n4. Arguments heard, record perused.\n\n5. The Judge Family Court has the jurisdiction under the law to pass an order for the payment of interim maintenance till the final disposal of suit to avoid the families from miseries. The petitioner who\" claims to be real father of the minor is also duty bound to provide adequate maintenance to his children. The learned counsel for the petitioner could not point out any illegality or jurisdictional error in the impugned interim order.\n\n6. The impugned order has been passed under the relevant law which could not be assailed in writ petition because when a statute does not provide an appeal against interlocutory order, same could not be challenged by way of Constitutional petition as it will amount to negate the provision of statute. An appeal is a statutory right which has not been provided under the Family Courts Act in relation to interim order passed by the Family Court. The appropriate course for the petitioner is to contest the suit and to wait for the final order/judgment of the Family Court. Thereafter, if the petitioner is not satisfied, he can assail the judgment as well as interim order in appeal.\n\n7. In view of above discussion, writ petition is without any merit, same is dismissed in limine.\n\nM.H./-R-20/L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "202c486b3e2e42353a2d8bc7:0000",
+        "parent_id": "202c486b3e2e42353a2d8bc7",
+        "doc_id": "202c486b3e2e42353a2d8bc7",
+        "chunk_index": 0,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "source_start": 1720,
+        "source_end": 2660,
+        "text": "CH. MUHAMMAD TARIQ, J.--Brief facts of the case are that the petitioner contracted marriage with respondent No.2 on 26-6-2005. Out of this wedlock, one son namely Muhammad Faiz was born on 2-1-2006. Soon after the marriage, relations between the spouses became strained and criminal case No.598/2009 dated 23-6-2009 under sections 506/337-L (ii), 148/149, P.P.C. was registered at Police Station, Sargodha Road, Faisalabad against the petitioner. In June, 2009, the respondent No.1 was turned out of petitioners house and since then, she has been living with her parents who have been providing maintenance and other livelihood to the respondents while the petitioner has not paid any amount to the respondents on account of maintenance. Resultantly, respondents filed a suit for recovery of maintenance before Judge Family Court, Faisalabad who fixed Rs.4000 on account of interim maintenance for the minor from the date of filing of suit.",
+        "word_count": 145,
+        "prev_chunk_id": null,
+        "next_chunk_id": "202c486b3e2e42353a2d8bc7:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "202c486b3e2e42353a2d8bc7:0001",
+        "parent_id": "202c486b3e2e42353a2d8bc7",
+        "doc_id": "202c486b3e2e42353a2d8bc7",
+        "chunk_index": 1,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 2662,
+        "source_end": 2790,
+        "text": "2. The petitioner has challenged the interim order for the payment of Rs.4000 as maintenance to the minor in this writ petition.",
+        "word_count": 22,
+        "prev_chunk_id": "202c486b3e2e42353a2d8bc7:0000",
+        "next_chunk_id": "202c486b3e2e42353a2d8bc7:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "202c486b3e2e42353a2d8bc7:0002",
+        "parent_id": "202c486b3e2e42353a2d8bc7",
+        "doc_id": "202c486b3e2e42353a2d8bc7",
+        "chunk_index": 2,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 2792,
+        "source_end": 3291,
+        "text": "3. Learned counsel for the petitioner contends that impugned order of fixation of interim maintenance of Rs.4000 is non-speaking order and is a clear violation of section 24-A of General Clauses Act. Interim maintenance is excessive and beyond the source of income of the petitioner who is now a days unemployed and living in a very difficult situation. Therefore, impugned order dated 15-3-2010 passed by respondent No.1 be set aside. The petitioner has relied on case law reported as 2009 CLC 980.",
+        "word_count": 82,
+        "prev_chunk_id": "202c486b3e2e42353a2d8bc7:0001",
+        "next_chunk_id": "202c486b3e2e42353a2d8bc7:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "202c486b3e2e42353a2d8bc7:0003",
+        "parent_id": "202c486b3e2e42353a2d8bc7",
+        "doc_id": "202c486b3e2e42353a2d8bc7",
+        "chunk_index": 3,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 3293,
+        "source_end": 3328,
+        "text": "4. Arguments heard, record perused.",
+        "word_count": 5,
+        "prev_chunk_id": "202c486b3e2e42353a2d8bc7:0002",
+        "next_chunk_id": "202c486b3e2e42353a2d8bc7:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "202c486b3e2e42353a2d8bc7:0004",
+        "parent_id": "202c486b3e2e42353a2d8bc7",
+        "doc_id": "202c486b3e2e42353a2d8bc7",
+        "chunk_index": 4,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 16,
+        "source_start": 3330,
+        "source_end": 4455,
+        "text": "5. The Judge Family Court has the jurisdiction under the law to pass an order for the payment of interim maintenance till the final disposal of suit to avoid the families from miseries. The petitioner who\" claims to be real father of the minor is also duty bound to provide adequate maintenance to his children. The learned counsel for the petitioner could not point out any illegality or jurisdictional error in the impugned interim order.\n\n6. The impugned order has been passed under the relevant law which could not be assailed in writ petition because when a statute does not provide an appeal against interlocutory order, same could not be challenged by way of Constitutional petition as it will amount to negate the provision of statute. An appeal is a statutory right which has not been provided under the Family Courts Act in relation to interim order passed by the Family Court. The appropriate course for the petitioner is to contest the suit and to wait for the final order/judgment of the Family Court. Thereafter, if the petitioner is not satisfied, he can assail the judgment as well as interim order in appeal.",
+        "word_count": 193,
+        "prev_chunk_id": "202c486b3e2e42353a2d8bc7:0003",
+        "next_chunk_id": "202c486b3e2e42353a2d8bc7:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "202c486b3e2e42353a2d8bc7:0005",
+        "parent_id": "202c486b3e2e42353a2d8bc7",
+        "doc_id": "202c486b3e2e42353a2d8bc7",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 4457,
+        "source_end": 4553,
+        "text": "7. In view of above discussion, writ petition is without any merit, same is dismissed in limine.",
+        "word_count": 17,
+        "prev_chunk_id": "202c486b3e2e42353a2d8bc7:0004",
+        "next_chunk_id": "202c486b3e2e42353a2d8bc7:0006",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "202c486b3e2e42353a2d8bc7:0006",
+        "parent_id": "202c486b3e2e42353a2d8bc7",
+        "doc_id": "202c486b3e2e42353a2d8bc7",
+        "chunk_index": 6,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 4555,
+        "source_end": 4587,
+        "text": "M.H./-R-20/L Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "202c486b3e2e42353a2d8bc7:0005",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 7
+      },
+      "total_chunks": 7,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

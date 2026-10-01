@@ -1,0 +1,143 @@
+{
+  "parent": {
+    "doc_id": "8e38f297ea6ddfdebb3e2e8d",
+    "metadata": {
+      "doc_id": "8e38f297ea6ddfdebb3e2e8d",
+      "case_title": "1984 S C M R 1477",
+      "citation": "1984 S C M R 1477",
+      "court": null,
+      "court_location": null,
+      "decision_date": "1984-01-01",
+      "judges": [
+        "Muhammad Afzal Zullah",
+        "M.S.H. Quraishi"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S.14",
+        "section 14",
+        "Art.185"
+      ],
+      "source_relpath": "1984S1372",
+      "content_hash": "94e662c6a39ffea0a6f6c6cc9254c30461c8c63f92d59cb2e62f4b72957bc7ec"
+    },
+    "full_text": "1984 S C M R 1477\n\nPresent: Muhammad Afzal Zullah and M.S.H. Quraishi, JJ\n\nMUHAMMAD IQBAL‐‐Petitioner\n\nVersus\n\nMst. SHAKILA KHATOON and another‐‐Respondents\n\nCivil Petition for Special Leave to Appeal No. 618‐R of 1983, decided on 191h February, 1984.\n\n(On appeal from the judgment of Peshawar High Court dated 19‐7‐1983 in Writ Petition No.37 of 1979) .\n\nConstitution of Pakistan (1973)‐‐\n\n‐‐‐Art.185(3)‐‐West Pakistan Family Courts Act (XXXV of 1964), S.14‐ Decree for dissolution of marriage and for dower amount‐‐District Court in appeal modifying decree in violation of intention and language of bar in S.t. of Act, 1964‐‐Held, appellate judgment was rightly set aside by High Court‐‐Leave to appeal refused.\n\nMaulvi Sirajul Haq, Advocate Supreme Court and M. Afzal Siddiqi, Advoiate‐on‐Record for Petitioner.\n\nNemo for Respondents.\n\nDate of hearing: 19th February, 1984.\n\nORDER\n\nMUHAMMAD AFZAL ZULLAH, J.‐‐ This petition for leave to appeal is directed against the judgment dated 19‐7‐1983 of the Peshawar High Court whereby, on a constitutional petition filed by the respondent (wife! a two‐fold decree for dissolution of her marriage with the petitioner, and also for dower amount of Rs. 10,000 was restored.\n\nThe decree regarding dower was earlier set a side in appeal by the District Court on the ground that the decree for dissolution should have peen on ground of Khulah in addition to grounds of non‐maintenance and cruelty. That being so the said modified decree, would oblige her to forgo the dower amount as compensation for Khulah. The High Court however held that the decree for dissolution of marriage on ground of non‐maintenance and cruelty not being appeal able it could not have been modified by the District Court in exercise of appellate jurisdiction so as to add the ground of Khulah.\n\nLearned counsel for the petitioner has tried to defend the appellate judgd'e4t by the argument that the appeal against decree for dower being competent, the District Court, notwithstanding the bar in section 14 of the Family Courts Act could allow the said appeal on any ground avail9ble to the petitioner.\n\nWe do not agree with him. The bar in section 14 is such that, in the circumstances of the case the decree for dissolution of marriage could not have been modified (sic) in a collateral manner. The intention as also the language of the bar in section 14 have been violated by the appellate judgment. It was rightly set aside. This petition accordingly is dismissed.\n\nS.Q. Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "8e38f297ea6ddfdebb3e2e8d:0000",
+        "parent_id": "8e38f297ea6ddfdebb3e2e8d",
+        "doc_id": "8e38f297ea6ddfdebb3e2e8d",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 885,
+        "source_end": 1216,
+        "text": "MUHAMMAD AFZAL ZULLAH, J.‐‐ This petition for leave to appeal is directed against the judgment dated 19‐7‐1983 of the Peshawar High Court whereby, on a constitutional petition filed by the respondent (wife! a two‐fold decree for dissolution of her marriage with the petitioner, and also for dower amount of Rs. 10,000 was restored.",
+        "word_count": 53,
+        "prev_chunk_id": null,
+        "next_chunk_id": "8e38f297ea6ddfdebb3e2e8d:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "8e38f297ea6ddfdebb3e2e8d:0001",
+        "parent_id": "8e38f297ea6ddfdebb3e2e8d",
+        "doc_id": "8e38f297ea6ddfdebb3e2e8d",
+        "chunk_index": 1,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1218,
+        "source_end": 1810,
+        "text": "The decree regarding dower was earlier set a side in appeal by the District Court on the ground that the decree for dissolution should have peen on ground of Khulah in addition to grounds of non‐maintenance and cruelty. That being so the said modified decree, would oblige her to forgo the dower amount as compensation for Khulah. The High Court however held that the decree for dissolution of marriage on ground of non‐maintenance and cruelty not being appeal able it could not have been modified by the District Court in exercise of appellate jurisdiction so as to add the ground of Khulah.",
+        "word_count": 102,
+        "prev_chunk_id": "8e38f297ea6ddfdebb3e2e8d:0000",
+        "next_chunk_id": "8e38f297ea6ddfdebb3e2e8d:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "8e38f297ea6ddfdebb3e2e8d:0002",
+        "parent_id": "8e38f297ea6ddfdebb3e2e8d",
+        "doc_id": "8e38f297ea6ddfdebb3e2e8d",
+        "chunk_index": 2,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 1812,
+        "source_end": 2118,
+        "text": "Learned counsel for the petitioner has tried to defend the appellate judgd'e4t by the argument that the appeal against decree for dower being competent, the District Court, notwithstanding the bar in section 14 of the Family Courts Act could allow the said appeal on any ground avail9ble to the petitioner.",
+        "word_count": 50,
+        "prev_chunk_id": "8e38f297ea6ddfdebb3e2e8d:0001",
+        "next_chunk_id": "8e38f297ea6ddfdebb3e2e8d:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "8e38f297ea6ddfdebb3e2e8d:0003",
+        "parent_id": "8e38f297ea6ddfdebb3e2e8d",
+        "doc_id": "8e38f297ea6ddfdebb3e2e8d",
+        "chunk_index": 3,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 2120,
+        "source_end": 2484,
+        "text": "We do not agree with him. The bar in section 14 is such that, in the circumstances of the case the decree for dissolution of marriage could not have been modified (sic) in a collateral manner. The intention as also the language of the bar in section 14 have been violated by the appellate judgment. It was rightly set aside. This petition accordingly is dismissed.",
+        "word_count": 65,
+        "prev_chunk_id": "8e38f297ea6ddfdebb3e2e8d:0002",
+        "next_chunk_id": "8e38f297ea6ddfdebb3e2e8d:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "8e38f297ea6ddfdebb3e2e8d:0004",
+        "parent_id": "8e38f297ea6ddfdebb3e2e8d",
+        "doc_id": "8e38f297ea6ddfdebb3e2e8d",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 2486,
+        "source_end": 2510,
+        "text": "S.Q. Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "8e38f297ea6ddfdebb3e2e8d:0003",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 5
+      },
+      "total_chunks": 5,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

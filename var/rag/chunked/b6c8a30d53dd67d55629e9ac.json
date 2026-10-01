@@ -1,0 +1,162 @@
+{
+  "parent": {
+    "doc_id": "b6c8a30d53dd67d55629e9ac",
+    "metadata": {
+      "doc_id": "b6c8a30d53dd67d55629e9ac",
+      "case_title": "MUHAMMAD FAISAL vs MUHAMMAD HAFEEZ-UL-REHMAN KHAN and 3 others",
+      "citation": "2009 M L D 724",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "S. Ali Hassan Rizvi"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S.5",
+        "S.25",
+        "section 25",
+        "Art.199"
+      ],
+      "source_relpath": "2009L2584",
+      "content_hash": "bc23849273ca306f1d311e91c351a27435bc54a1b10aa9a968a2b1d6c6b65f75"
+    },
+    "full_text": "2009 M L D 724\n\n[Lahore]\n\nBefore S. Ali Hassan Rizvi, J\n\nMUHAMMAD FAISAL---Petitioner\n\nVersus\n\nMUHAMMAD HAFEEZ-UL-REHMAN KHAN and 3 others---Respondents\n\nWrit Petition No. 15224 of 2008, decided on 15th January, 2009.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5---Constitution of Pakistan (1973), Art.199---Constitutional petition---Interim maintenance---Duty of father---Plea raised by petitioner was that his wife was living separately without any justification and he did not have enough sources to provide interim maintenance fixed by Family Court---Validity---Minors had their independent right to ask maintenance from their father, which right of minors could not be declined merely on the ground that father was not having sources to provide maintenance---Father was legally obliged to provide maintenance---Petitioner asserted that he was a cancer patient whereas he had entered into second marriage---Petitioner, in application, filed under S.25 of Guardians and Wards Act, 1890, for the custody of minors, raised the ground that he had sufficient financial resources to maintain and nourish his son and daughter---Such grounds raised stood belied from petitioner's own version and his conduct for non-compliance of the orders could entail penal action---Interim maintenance to the tune of Rs.2000 per month per child was justified and was maintained by High Court in exercise of constitutional jurisdiction--Petition was dismissed in circumstances.\n\n2004 MLD 794; 2006 YLR 1708; 2007 YLR 1401 and 1972 PCr.LJ 1286 ref.\n\nSaqib Gardner for Petitioner.\n\nNadeem Iqbal Malik for Respondents.\n\nORDER\n\nS. ALI HASSAN RIZVI, J.---The petitioner has filed this writ petition as is aggrieved from the order, dated 30-7-2008 passed by the learned Judge, Family Court wherein he passed the order for interim maintenance allowance of minors at the rate of Rs.2000 each per month which shall be paid by the petitioner before 15th of every month in Court in a suit pending for recovery of maintenance allowance, dower and dowry articles mainly on the ground that the petitioner is a retired (compulsorily) from Army on medical ground as he is a cancer patient and under treatment. He had not been paid dues from the army as yet and lacks the source of income.\n\n2. It is argued that in case of retired Army personnel education and medical treatment is available free of costs. Further that respondent No.2 Mst. Shazia Zaheer wife of the petitioner is residing separately from the petitioner without any justification, hence interim maintenance order passed is illegal and at exorbitant rate.\n\n3. The learned counsel for the respondents controverted that the petitioner had approached the learned Guardian judge for custody of minors alleging therein that he is having sufficient financial resources to maintain and nourish his son and daughter. That the petitioner has entered into second marriage and running a business after taking loan. That father is bound to provide the maintenance to his children, which he has refused. That the conduct of the petitioner dis-entitles him for any relief and there is no illegality in the impugned interim order, which cannot be interfered in exercise of constitutional jurisdiction of this Court. Reliance is placed on 2004 MLD 794 Lahore, 2006 YLR 1708 Lahore, 2007 YLR 1401 Lahore and 1972 PCr.LJ 1286 Lahore.\n\n4. Heard.\n\n5. The minors had their independent right to ask maintenance from the father. This right of the minors cannot be declined merely on the ground that father is not having source to provide them maintenance. It is a legal obligation that a father must provide maintenance and the duty rests upon him. The prayer made through this writ petition to recall the order for interim maintenance on the sole ground raised that the petitioner is a cancer patient whereas he has entered into second marriage very recently and also in a application filed under section 25 of the Guardian and Wards Act, 1890 for the custody of minors has raised the ground that he is having sufficient financial resources to maintain and nourish his son and daughter. These grounds raised stand belied from his own version. The conduct of the petitioner for non-compliance of the orders may also entail penal action. The interim maintenance in the tune of Rs.2000 each per month, is not exorbitant in these days. The impugned interim maintenance order was justified and in the circumstances cannot be interfered with by exercise of constitutional jurisdiction of this Court. Petition stands dismissed.\n\nM.H./M-87/L Petition allowed.",
+    "chunks": [
+      {
+        "chunk_id": "b6c8a30d53dd67d55629e9ac:0000",
+        "parent_id": "b6c8a30d53dd67d55629e9ac",
+        "doc_id": "b6c8a30d53dd67d55629e9ac",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1621,
+        "source_end": 2269,
+        "text": "S. ALI HASSAN RIZVI, J.---The petitioner has filed this writ petition as is aggrieved from the order, dated 30-7-2008 passed by the learned Judge, Family Court wherein he passed the order for interim maintenance allowance of minors at the rate of Rs.2000 each per month which shall be paid by the petitioner before 15th of every month in Court in a suit pending for recovery of maintenance allowance, dower and dowry articles mainly on the ground that the petitioner is a retired (compulsorily) from Army on medical ground as he is a cancer patient and under treatment. He had not been paid dues from the army as yet and lacks the source of income.",
+        "word_count": 114,
+        "prev_chunk_id": null,
+        "next_chunk_id": "b6c8a30d53dd67d55629e9ac:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "b6c8a30d53dd67d55629e9ac:0001",
+        "parent_id": "b6c8a30d53dd67d55629e9ac",
+        "doc_id": "b6c8a30d53dd67d55629e9ac",
+        "chunk_index": 1,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 2271,
+        "source_end": 2600,
+        "text": "2. It is argued that in case of retired Army personnel education and medical treatment is available free of costs. Further that respondent No.2 Mst. Shazia Zaheer wife of the petitioner is residing separately from the petitioner without any justification, hence interim maintenance order passed is illegal and at exorbitant rate.",
+        "word_count": 51,
+        "prev_chunk_id": "b6c8a30d53dd67d55629e9ac:0000",
+        "next_chunk_id": "b6c8a30d53dd67d55629e9ac:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "b6c8a30d53dd67d55629e9ac:0002",
+        "parent_id": "b6c8a30d53dd67d55629e9ac",
+        "doc_id": "b6c8a30d53dd67d55629e9ac",
+        "chunk_index": 2,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2602,
+        "source_end": 3360,
+        "text": "3. The learned counsel for the respondents controverted that the petitioner had approached the learned Guardian judge for custody of minors alleging therein that he is having sufficient financial resources to maintain and nourish his son and daughter. That the petitioner has entered into second marriage and running a business after taking loan. That father is bound to provide the maintenance to his children, which he has refused. That the conduct of the petitioner dis-entitles him for any relief and there is no illegality in the impugned interim order, which cannot be interfered in exercise of constitutional jurisdiction of this Court. Reliance is placed on 2004 MLD 794 Lahore, 2006 YLR 1708 Lahore, 2007 YLR 1401 Lahore and 1972 PCr.LJ 1286 Lahore.",
+        "word_count": 122,
+        "prev_chunk_id": "b6c8a30d53dd67d55629e9ac:0001",
+        "next_chunk_id": "b6c8a30d53dd67d55629e9ac:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "b6c8a30d53dd67d55629e9ac:0003",
+        "parent_id": "b6c8a30d53dd67d55629e9ac",
+        "doc_id": "b6c8a30d53dd67d55629e9ac",
+        "chunk_index": 3,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 3362,
+        "source_end": 3371,
+        "text": "4. Heard.",
+        "word_count": 2,
+        "prev_chunk_id": "b6c8a30d53dd67d55629e9ac:0002",
+        "next_chunk_id": "b6c8a30d53dd67d55629e9ac:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "b6c8a30d53dd67d55629e9ac:0004",
+        "parent_id": "b6c8a30d53dd67d55629e9ac",
+        "doc_id": "b6c8a30d53dd67d55629e9ac",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 3373,
+        "source_end": 4543,
+        "text": "5. The minors had their independent right to ask maintenance from the father. This right of the minors cannot be declined merely on the ground that father is not having source to provide them maintenance. It is a legal obligation that a father must provide maintenance and the duty rests upon him. The prayer made through this writ petition to recall the order for interim maintenance on the sole ground raised that the petitioner is a cancer patient whereas he has entered into second marriage very recently and also in a application filed under section 25 of the Guardian and Wards Act, 1890 for the custody of minors has raised the ground that he is having sufficient financial resources to maintain and nourish his son and daughter. These grounds raised stand belied from his own version. The conduct of the petitioner for non-compliance of the orders may also entail penal action. The interim maintenance in the tune of Rs.2000 each per month, is not exorbitant in these days. The impugned interim maintenance order was justified and in the circumstances cannot be interfered with by exercise of constitutional jurisdiction of this Court. Petition stands dismissed.",
+        "word_count": 194,
+        "prev_chunk_id": "b6c8a30d53dd67d55629e9ac:0003",
+        "next_chunk_id": "b6c8a30d53dd67d55629e9ac:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "b6c8a30d53dd67d55629e9ac:0005",
+        "parent_id": "b6c8a30d53dd67d55629e9ac",
+        "doc_id": "b6c8a30d53dd67d55629e9ac",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 4545,
+        "source_end": 4574,
+        "text": "M.H./M-87/L Petition allowed.",
+        "word_count": 3,
+        "prev_chunk_id": "b6c8a30d53dd67d55629e9ac:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

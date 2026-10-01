@@ -1,0 +1,158 @@
+{
+  "parent": {
+    "doc_id": "0513f7c1139b729f4cccf83d",
+    "metadata": {
+      "doc_id": "0513f7c1139b729f4cccf83d",
+      "case_title": "West Pakistan Family Courts Act (XXXV of 1964) â€‘",
+      "citation": "1983 C L C 3098",
+      "court": "Karachi",
+      "court_location": "Karachi",
+      "decision_date": "1983-01-01",
+      "judges": [
+        "Saleem Akhtar"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 7"
+      ],
+      "source_relpath": "1983K604",
+      "content_hash": "fa3076c2d0c14f146c6f22d6ab4c7b944f0186ddb54ef189d877e1d3f1fccbae"
+    },
+    "full_text": "1983 C L C 3098\n\n[Karachi]\n\nBefore Saleem Akhtar, J\n\nMUHAMMAD AKRAM‐Petitioner\n\nversus\n\nMst. YASMIN AND ANOTHER‐‐Respondents\n\nConstitutional Petition No. S‐168 of 1982, decided on 22nd February,1983.\n\nWest Pakistan Family Courts Act (XXXV of 1964) ‐\n\n‐‐‐ S. 7‐Khula`‐Wife, held, entitled to Khula` as of right if she satisfies conscience of Court that it will otherwise mean forcing her into hateful union‐Wife developing hatred for husband and unable to live within limits of God‐Decree granting Khula' upheld.\n\nKhurshid Bibi v. Muhammad Amin P L D 1967 S C 97 and Msi Bilquis Fatima v. Najmul Ikram Qureshi P L D 1959 Lab. 566 rel.\n\nSamad Farooqi for Petitioner.\"\n\nDate of hearing 22nd February, 1983.\n\nORDER\n\nThis petition is directed against the judgment of the learned XVIIlth Civil Judge/Family Judge, whereby suit for dissolution of marriage by way of \"Khula\" filed by the respondent No. 1 has been decreed.\n\nBriefly the facts of the case are that the appellant who is a neighbour of respondent No. 1 married her, but Rukhsati did not take place. At the time of marriage the appellant was already married and had two children and a wife, The respondent No. 1 challenged it on the ground that her signature had been obtained on the Nikah Nama by force she further alleged that she has developed hatred for the petitioner and cannot accept him as her husband. The learned trial Court has disbelieved that the signature of the respondent was obtained by force or coercion and came to the conclusion that just after the Nikah, the respondent No. 1 started showing her dislike and developed hatred towards the petitioner. The appellant had also filed a suit for restitution of conjugal rights, which has been dismissed.\n\nBesides other grounds which the learned trial Court has taken into consideration the main ground is that the respondent No. 1 has deve loped hatred for the appellant and cannot live with him within the limits of God. This finding is based on clear statement made by the respon dent No. 1 and other witnesses, who were examined by her. Mr. Samad Farooqui, the learned counsel for the petitioner has contended that on this ground alone the Court cannot grant Khula. This contention devoid of any force. The law is clearly laid down in Khurshid Bibi v. Muhammad Amin P L D 1967 S C 97 which approved the view of Kaikaus, J. in Mst. Bilquis Fatima v. Najmul Ikram Qureshi P L D 1959 Lab. 566 that under Muslim Law the wife is entitled to Khula, as of right if she satisfies the conscience of the Court that it will otherwise mean `forcing her into a hateful union.' In Bilquis Fatima's case the principle for grant of Khula has been laid down as follows:‐\n\n\"Let it not be understood that our answer to the question referred grants a right to wife to come to the Court at any time and obtain Khula if she is prepared to restore the benefit she has received. There is an important limitation on her right of Khula. It is only if the Judge apprehends that the limits of God will not be observed that is, in their relation towards one another, the spouses will not obey God, that a harmonious married state, as envisaged by Islam, will not be possible that he will grant a dissolution. The wife cannot have a divorce for every passing impulse. The \"judge will to consider whether the rift between the parties is a serious one though he may not consider the reasons for the rift.\n\nThat the wife may go wrong if dissolution is not ordered is rather a reason for grant, of dissolution for Islam prefers divorce to adultery.\n\nThe rights of the spouses as regards dissolution may be summed up by saying by that the husband can effect a dissolution himself by pronouncing a divorce, while the wife has to approach the Court and she is to get a dissolution only if the Court regards further con tinuance of the marriage as not proper. But if it does regard con tinuance of marriage as improper, there is no further limitation on its jurisdiction to dissolve the marriage.\"\n\nThe petition is dismissed in limine.\n\nM. Y, H. Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "0513f7c1139b729f4cccf83d:0000",
+        "parent_id": "0513f7c1139b729f4cccf83d",
+        "doc_id": "0513f7c1139b729f4cccf83d",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 712,
+        "source_end": 914,
+        "text": "This petition is directed against the judgment of the learned XVIIlth Civil Judge/Family Judge, whereby suit for dissolution of marriage by way of \"Khula\" filed by the respondent No. 1 has been decreed.",
+        "word_count": 33,
+        "prev_chunk_id": null,
+        "next_chunk_id": "0513f7c1139b729f4cccf83d:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "0513f7c1139b729f4cccf83d:0001",
+        "parent_id": "0513f7c1139b729f4cccf83d",
+        "doc_id": "0513f7c1139b729f4cccf83d",
+        "chunk_index": 1,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 916,
+        "source_end": 1721,
+        "text": "Briefly the facts of the case are that the appellant who is a neighbour of respondent No. 1 married her, but Rukhsati did not take place. At the time of marriage the appellant was already married and had two children and a wife, The respondent No. 1 challenged it on the ground that her signature had been obtained on the Nikah Nama by force she further alleged that she has developed hatred for the petitioner and cannot accept him as her husband. The learned trial Court has disbelieved that the signature of the respondent was obtained by force or coercion and came to the conclusion that just after the Nikah, the respondent No. 1 started showing her dislike and developed hatred towards the petitioner. The appellant had also filed a suit for restitution of conjugal rights, which has been dismissed.",
+        "word_count": 140,
+        "prev_chunk_id": "0513f7c1139b729f4cccf83d:0000",
+        "next_chunk_id": "0513f7c1139b729f4cccf83d:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "0513f7c1139b729f4cccf83d:0002",
+        "parent_id": "0513f7c1139b729f4cccf83d",
+        "doc_id": "0513f7c1139b729f4cccf83d",
+        "chunk_index": 2,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 1723,
+        "source_end": 2674,
+        "text": "Besides other grounds which the learned trial Court has taken into consideration the main ground is that the respondent No. 1 has deve loped hatred for the appellant and cannot live with him within the limits of God. This finding is based on clear statement made by the respon dent No. 1 and other witnesses, who were examined by her. Mr. Samad Farooqui, the learned counsel for the petitioner has contended that on this ground alone the Court cannot grant Khula. This contention devoid of any force. The law is clearly laid down in Khurshid Bibi v. Muhammad Amin P L D 1967 S C 97 which approved the view of Kaikaus, J. in Mst. Bilquis Fatima v. Najmul Ikram Qureshi P L D 1959 Lab. 566 that under Muslim Law the wife is entitled to Khula, as of right if she satisfies the conscience of the Court that it will otherwise mean `forcing her into a hateful union.' In Bilquis Fatima's case the principle for grant of Khula has been laid down as follows:‐",
+        "word_count": 175,
+        "prev_chunk_id": "0513f7c1139b729f4cccf83d:0001",
+        "next_chunk_id": "0513f7c1139b729f4cccf83d:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "0513f7c1139b729f4cccf83d:0003",
+        "parent_id": "0513f7c1139b729f4cccf83d",
+        "doc_id": "0513f7c1139b729f4cccf83d",
+        "chunk_index": 3,
+        "section": "quoted_material",
+        "span_kind": "quoted_material",
+        "paragraph_start": 16,
+        "paragraph_end": 18,
+        "source_start": 2676,
+        "source_end": 3980,
+        "text": "\"Let it not be understood that our answer to the question referred grants a right to wife to come to the Court at any time and obtain Khula if she is prepared to restore the benefit she has received. There is an important limitation on her right of Khula. It is only if the Judge apprehends that the limits of God will not be observed that is, in their relation towards one another, the spouses will not obey God, that a harmonious married state, as envisaged by Islam, will not be possible that he will grant a dissolution. The wife cannot have a divorce for every passing impulse. The \"judge will to consider whether the rift between the parties is a serious one though he may not consider the reasons for the rift.\n\nThat the wife may go wrong if dissolution is not ordered is rather a reason for grant, of dissolution for Islam prefers divorce to adultery.\n\nThe rights of the spouses as regards dissolution may be summed up by saying by that the husband can effect a dissolution himself by pronouncing a divorce, while the wife has to approach the Court and she is to get a dissolution only if the Court regards further con tinuance of the marriage as not proper. But if it does regard con tinuance of marriage as improper, there is no further limitation on its jurisdiction to dissolve the marriage.\"",
+        "word_count": 237,
+        "prev_chunk_id": "0513f7c1139b729f4cccf83d:0002",
+        "next_chunk_id": "0513f7c1139b729f4cccf83d:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "0513f7c1139b729f4cccf83d:0004",
+        "parent_id": "0513f7c1139b729f4cccf83d",
+        "doc_id": "0513f7c1139b729f4cccf83d",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "source_start": 3982,
+        "source_end": 4018,
+        "text": "The petition is dismissed in limine.",
+        "word_count": 6,
+        "prev_chunk_id": "0513f7c1139b729f4cccf83d:0003",
+        "next_chunk_id": "0513f7c1139b729f4cccf83d:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "0513f7c1139b729f4cccf83d:0005",
+        "parent_id": "0513f7c1139b729f4cccf83d",
+        "doc_id": "0513f7c1139b729f4cccf83d",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "source_start": 4020,
+        "source_end": 4048,
+        "text": "M. Y, H. Petition dismissed.",
+        "word_count": 5,
+        "prev_chunk_id": "0513f7c1139b729f4cccf83d:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

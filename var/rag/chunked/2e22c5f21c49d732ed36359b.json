@@ -1,0 +1,104 @@
+{
+  "parent": {
+    "doc_id": "2e22c5f21c49d732ed36359b",
+    "metadata": {
+      "doc_id": "2e22c5f21c49d732ed36359b",
+      "case_title": "ASHFAQ AHMAD vs JUDGE, FAMILY COURT OKARA and another",
+      "citation": "2007 Y L R 1550",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Jawwad S. Khawaja"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S. 5",
+        "Ss.8 & 14",
+        "Art. 199"
+      ],
+      "source_relpath": "2007L4368",
+      "content_hash": "137f5ddcfac161731fdb95813b993ae3927da8dfd56b46fcfb2bb5d678037c17"
+    },
+    "full_text": "2007 Y L R 1550\n\n[Lahore]\n\nBefore Jawwad S. Khawaja, J\n\nASHFAQ AHMAD---Petitioner\n\nVersus\n\nJUDGE, FAMILY COURT OKARA and another---Respondents\n\nWrit Petition No.1300 of 2007, decided on 14th February, 2007.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched. Ss.8 & 14---Constitution of Pakistan (1973), Art. 199---Constitutional petition---Maintainability---Suit for recovery of maintenance allowance and dower---Failure of defendant to file written statement---Closing of defendant's right to file written statement on his such failure---Validity---High Court, while exercising constitutional jurisdiction would not interfere in interlocutory orders and to proceedings in a pending trial---If suit was decided against defendant and he wanted to file an appeal, then it would be open to him to assail impugned order in his appeal---Appellate jurisdiction being wider in scope than constitutional jurisdiction provided an adequate remedy to defendant---High Court dismissed constitutional petition in circumstances.\n\nSaleem Anwar Khan for Petitioner.\n\nORDER\n\nJAWWAD S. KHAWAJA, J.---The respondent-plaintiff Naseem Akhtar has filed a suit for recovery of maintenance allowance and dower amount against the petitioner-defendant Ashfaq Ahmad, which is pending adjudication. The petitioner did not file his written statement, whereupon the learned Family Court, vide order dated 3-10-2006, closed his right to file a written statement. The petitioner, impugns this order. It is not for this Court while exercising writ jurisdiction to interfere in interlocutory orders and to micromanage proceedings in a pending trial. Needless to say, if the suit is decided against the petitioner and the petitioner chooses to file an appeal, it will be open to him to assail the order dated 3-10-2006 in his appeal. The appellate jurisdiction, being wider in scope than writ jurisdiction, in the circumstances, provides an adequate remedy to the petitioner-defendant.\n\n2. In view of the above discussion, II this petition is dismissed.\n\nS.A.K./A-50/L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "2e22c5f21c49d732ed36359b:0000",
+        "parent_id": "2e22c5f21c49d732ed36359b",
+        "doc_id": "2e22c5f21c49d732ed36359b",
+        "chunk_index": 0,
+        "section": "unclassified",
+        "span_kind": "paragraph_group",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "source_start": 1076,
+        "source_end": 1968,
+        "text": "JAWWAD S. KHAWAJA, J.---The respondent-plaintiff Naseem Akhtar has filed a suit for recovery of maintenance allowance and dower amount against the petitioner-defendant Ashfaq Ahmad, which is pending adjudication. The petitioner did not file his written statement, whereupon the learned Family Court, vide order dated 3-10-2006, closed his right to file a written statement. The petitioner, impugns this order. It is not for this Court while exercising writ jurisdiction to interfere in interlocutory orders and to micromanage proceedings in a pending trial. Needless to say, if the suit is decided against the petitioner and the petitioner chooses to file an appeal, it will be open to him to assail the order dated 3-10-2006 in his appeal. The appellate jurisdiction, being wider in scope than writ jurisdiction, in the circumstances, provides an adequate remedy to the petitioner-defendant.",
+        "word_count": 135,
+        "prev_chunk_id": null,
+        "next_chunk_id": "2e22c5f21c49d732ed36359b:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "2e22c5f21c49d732ed36359b:0001",
+        "parent_id": "2e22c5f21c49d732ed36359b",
+        "doc_id": "2e22c5f21c49d732ed36359b",
+        "chunk_index": 1,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1970,
+        "source_end": 2036,
+        "text": "2. In view of the above discussion, II this petition is dismissed.",
+        "word_count": 12,
+        "prev_chunk_id": "2e22c5f21c49d732ed36359b:0000",
+        "next_chunk_id": "2e22c5f21c49d732ed36359b:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "2e22c5f21c49d732ed36359b:0002",
+        "parent_id": "2e22c5f21c49d732ed36359b",
+        "doc_id": "2e22c5f21c49d732ed36359b",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 2038,
+        "source_end": 2071,
+        "text": "S.A.K./A-50/L Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "2e22c5f21c49d732ed36359b:0001",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 3
+      },
+      "total_chunks": 3,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "parent": {
+    "doc_id": "4762e196ca07c8129a27247b",
+    "metadata": {
+      "doc_id": "4762e196ca07c8129a27247b",
+      "case_title": "Miss SABOOR through real Mother vs KASHIF SOHAIL and another",
+      "citation": "2010 C L C 828",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Ali Akbar Qureshi"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "allowed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S.5",
+        "Art.199"
+      ],
+      "source_relpath": "2010L304",
+      "content_hash": "b49d7cc6b6a49d9e682d661a868900c791b5edc3f9045ac1e5c1ede0b0fe8813"
+    },
+    "full_text": "2010 C L C 828\n\n[Lahore]\n\nBefore Ali Akbar Qureshi, J\n\nMiss SABOOR through real Mother---Petitioner\n\nVersus\n\nKASHIF SOHAIL and another---Respondents\n\nWrit Petition No.18168 of 2008, decided on 26th March, 2009.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5 & Sched.---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for recovery of maintenance of minor---Plaintiff minor girl demanded Rs.5, 000 per month for her maintenance, but Family Court decreed maintenance allowance Rs.800 per month and the minor plaintiff had filed constitutional petition---Plaintiff had claimed that defendant who was getting Rs.15,000 per month as salary, could easily pay the maintenance allowance, as Rs.5,000 per month---Validity---Maintenance allowance of Rs.800 as granted by the Family Court, was totally insufficient as compared to the necessities of the minor and the income of the defendant as Rs.15,000 per month-Minor who was 2-1/2 years old, was entitled to receive the maintenance amount of Rs.2500 per month for her financial survival---Judgment and decree passed by the Family Court was modified and maintenance allowance of the minor was fixed at Rs.2, 500 pre month.\n\nMahmood Tahir Chaudhry for Petitioner.\n\nRespondent No.1: Ex parte.\n\nORDER\n\nALI AKBAR QURESHI, J.---The petitioner calls in question the judgment and decree dated 14-4-2008 passed by the learned Judge Family Court, whereby the maintenance of the minor was decreed to the extent of Rs.800 per month, since her date of birth i.e. 2-11-2006 till her marriage with 10% annual enhancement.\n\n2. The learned counsel for the petitioner contended that the learned Judge Family Court has passed the decree, impugned herein in a slip-shod manner without adverting to the contentions made by the petitioner. Next contended that the petitioner demanded the maintenance allowance @ Rs.5000 per month whereas the learned Judge Family Court decreed the maintenance allowance @ Rs.800, which is totally insufficient and inadequate as compared to the prices of the commodities.\n\n3. The respondent despite service of notice did not appear, therefore, he was proceeded ex parte on 23-9-2009.\n\n4. I have heard the learned counsel for the petitioner and perused the record.\n\n5. The petitioner while filing the suit to recover the maintenance of the minor, has claimed that the respondent is getting Rs.15000 per month as salary, therefore, he can easily pay the maintenance allowance @ Rs.5000 per month to the minor. During the proceedings the learned Judge Family Court, fixed the interim maintenance of Rs.800 but the same was neither paid nor the respondent appeared before the learned Judge Family Court. Finally, the learned Judge Family Court decreed the suit to the extent of Rs.800 per month as maintenance of the minor which to my mind is totally insufficient as compared to the necessities of the minor and the income of the respondent i.e. Rs.15000 per month. The minor who is now 2 1/2 years old, is entitled to receive the maintenance allowance @ Rs.2500 per month for her financial survival.\n\n6. Resultantly, this petition is allowed and the judgment and decree dated 14-4-2008 passed by the learned Judge Family Court is modified and the maintenance of the minor is fixed at Rs.2500 per month from February, 2009. No order as to costs.\n\nH.B.T./S-25/L Order Accordingly.",
+    "chunks": [
+      {
+        "chunk_id": "4762e196ca07c8129a27247b:0000",
+        "parent_id": "4762e196ca07c8129a27247b",
+        "doc_id": "4762e196ca07c8129a27247b",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1278,
+        "source_end": 1586,
+        "text": "ALI AKBAR QURESHI, J.---The petitioner calls in question the judgment and decree dated 14-4-2008 passed by the learned Judge Family Court, whereby the maintenance of the minor was decreed to the extent of Rs.800 per month, since her date of birth i.e. 2-11-2006 till her marriage with 10% annual enhancement.",
+        "word_count": 50,
+        "prev_chunk_id": null,
+        "next_chunk_id": "4762e196ca07c8129a27247b:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "4762e196ca07c8129a27247b:0001",
+        "parent_id": "4762e196ca07c8129a27247b",
+        "doc_id": "4762e196ca07c8129a27247b",
+        "chunk_index": 1,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1588,
+        "source_end": 2061,
+        "text": "2. The learned counsel for the petitioner contended that the learned Judge Family Court has passed the decree, impugned herein in a slip-shod manner without adverting to the contentions made by the petitioner. Next contended that the petitioner demanded the maintenance allowance @ Rs.5000 per month whereas the learned Judge Family Court decreed the maintenance allowance @ Rs.800, which is totally insufficient and inadequate as compared to the prices of the commodities.",
+        "word_count": 72,
+        "prev_chunk_id": "4762e196ca07c8129a27247b:0000",
+        "next_chunk_id": "4762e196ca07c8129a27247b:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "4762e196ca07c8129a27247b:0002",
+        "parent_id": "4762e196ca07c8129a27247b",
+        "doc_id": "4762e196ca07c8129a27247b",
+        "chunk_index": 2,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 2063,
+        "source_end": 2173,
+        "text": "3. The respondent despite service of notice did not appear, therefore, he was proceeded ex parte on 23-9-2009.",
+        "word_count": 18,
+        "prev_chunk_id": "4762e196ca07c8129a27247b:0001",
+        "next_chunk_id": "4762e196ca07c8129a27247b:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "4762e196ca07c8129a27247b:0003",
+        "parent_id": "4762e196ca07c8129a27247b",
+        "doc_id": "4762e196ca07c8129a27247b",
+        "chunk_index": 3,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2175,
+        "source_end": 2253,
+        "text": "4. I have heard the learned counsel for the petitioner and perused the record.",
+        "word_count": 14,
+        "prev_chunk_id": "4762e196ca07c8129a27247b:0002",
+        "next_chunk_id": "4762e196ca07c8129a27247b:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "4762e196ca07c8129a27247b:0004",
+        "parent_id": "4762e196ca07c8129a27247b",
+        "doc_id": "4762e196ca07c8129a27247b",
+        "chunk_index": 4,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 2255,
+        "source_end": 3086,
+        "text": "5. The petitioner while filing the suit to recover the maintenance of the minor, has claimed that the respondent is getting Rs.15000 per month as salary, therefore, he can easily pay the maintenance allowance @ Rs.5000 per month to the minor. During the proceedings the learned Judge Family Court, fixed the interim maintenance of Rs.800 but the same was neither paid nor the respondent appeared before the learned Judge Family Court. Finally, the learned Judge Family Court decreed the suit to the extent of Rs.800 per month as maintenance of the minor which to my mind is totally insufficient as compared to the necessities of the minor and the income of the respondent i.e. Rs.15000 per month. The minor who is now 2 1/2 years old, is entitled to receive the maintenance allowance @ Rs.2500 per month for her financial survival.",
+        "word_count": 141,
+        "prev_chunk_id": "4762e196ca07c8129a27247b:0003",
+        "next_chunk_id": "4762e196ca07c8129a27247b:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "4762e196ca07c8129a27247b:0005",
+        "parent_id": "4762e196ca07c8129a27247b",
+        "doc_id": "4762e196ca07c8129a27247b",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 3088,
+        "source_end": 3331,
+        "text": "6. Resultantly, this petition is allowed and the judgment and decree dated 14-4-2008 passed by the learned Judge Family Court is modified and the maintenance of the minor is fixed at Rs.2500 per month from February, 2009. No order as to costs.",
+        "word_count": 42,
+        "prev_chunk_id": "4762e196ca07c8129a27247b:0004",
+        "next_chunk_id": "4762e196ca07c8129a27247b:0006",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "4762e196ca07c8129a27247b:0006",
+        "parent_id": "4762e196ca07c8129a27247b",
+        "doc_id": "4762e196ca07c8129a27247b",
+        "chunk_index": 6,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 3333,
+        "source_end": 3365,
+        "text": "H.B.T./S-25/L Order Accordingly.",
+        "word_count": 3,
+        "prev_chunk_id": "4762e196ca07c8129a27247b:0005",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 7
+      },
+      "total_chunks": 7,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

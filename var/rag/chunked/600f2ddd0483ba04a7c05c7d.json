@@ -1,0 +1,104 @@
+{
+  "parent": {
+    "doc_id": "600f2ddd0483ba04a7c05c7d",
+    "metadata": {
+      "doc_id": "600f2ddd0483ba04a7c05c7d",
+      "case_title": "1972 S C M R 131",
+      "citation": "1972 S C M R 131",
+      "court": null,
+      "court_location": null,
+      "decision_date": null,
+      "judges": [
+        ": Sajjad Ahmad",
+        "Waheeduddin Ahmad",
+        "Salahuddin Ahmed"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 25",
+        "Article 98"
+      ],
+      "source_relpath": "1972S750",
+      "content_hash": "1ced106ddd2e5d832c17291d587e0f7a513af5ae170d9ed3370fdf69f14dfb0a"
+    },
+    "full_text": "1972 S C M R 131\n\nPresent : Sajjad Ahmad, Waheeduddin Ahmad and Salahuddin Ahmed, JJ\n\nMUHAMMAD USMAN‐Petitioner\n\nversus\n\nMst. AMNA AND 4 OTHERS‐Respondents\n\nCivil Petition for Special Leave to Appeal No. K‐188 of 1971, decided on 17th February 1972.\n\n(On appeal from the judgment and order of the High Court of Sind & Baluchistan, Karachi, dated the 24th September 1971, in Constitutional Petition No. 575 of 1970).\n\nWest Pakistan Family Courts Act (XXXV of 1964), S. 25 & Sched., items 3 & 4‐Wife's suit for maintenance (at Karachi) and husband's suit, for restitution of conjugal rights and for custody of children (at Lahore) both decreed‐Maintenance order sought to be executed against husband and challenged by husband on ground that he had obtained decree for restitution of conjugal rights and custody of children‐Appellate Court setting aside order of maintenance on ground that \"if order for maintenance maintained it would encourage wife to disobey order of Guardian Court to have custody of minor children\"‐Held, proceedings before family Court for maintenance of children were separate from question of custody of children and as long as children not given to husband, he was liable to maintain them.\n\nS. Hamid Hussain, Advocate Supreme Court instructed by M. I. Memon, Advocate‐ on‐Record for Petitioner.\n\nNemo for Respondents.\n\nDate of hearing : 17th February 1972.\n\nORDER\n\nWAHEEDUDDIN AHMAD, J.‐The petitioner was married to respondent No. 1 and respondents Nos. 2 to 5 are his children from respondent No. 1. On the 31st May 1969, the Civil Judge, First Class, Karachi, in Family Suit No. 172 of 1969, granted maintenance to the respondents as the respondents were. living separately from the petitioner. The petitioner also obtained a decree for restitution of conjugal rights and for the custody of children in the guardianship proceedings at Lahore. When the order for maintenance was sought to be executed the petitioner challenged it before the Second Additional District Judge, Karachi, on the 14th October 1970. The learned Additional District Judge set aside the judgment and decree of the Family Court on the ground that if the order for maintenance was maintained, it would encourage respondent No. 1 to disobey the order of Guardian Court to hand over the custody of minor children. This order was challenged in Constitutional Petition No. 575 of 1970 and a Division Bench of the High Court of Sind and Baluchistan, Karachi, by judgment dated the 24th September 1971, has quashed the order of the Additional District Judge and upheld the decree of maintenance. The petitioner seeks permission to file an appeal against the said order.\n\nMr. Hamid Hussain, learned counsel for the petitioner, has contended that the High Court should not have exercised its jurisdiction under Article 98 of the Constitution as a competent Guardian Court has granted the request of the petitioner for the custody of the children and that order should have been given preference over the order of maintenance. He further contended that the order of the Additional District Judge was equitable and therefore, should not have been interfered with. The contention of the learned counsel has not impressed us. In our opinion, the proceedings before the Family Court for the maintenance of children were separate from the question of the custody of the children. As long as the custody of the children is not given to the petitioner he is liable to maintain his children under the orders of the Family Court. Mr. Hamid Hussain admitted that a suit has been filed at Karachi for setting aside the judgment of the Lahore Court about the custody of the children on the ground of fraud. In these circumstances, the High Court was perfectly justified in quashing the order of the Additional District Judge and upholding the order of the Family Court. The petition is dismissed.\n\nLeave refused.",
+    "chunks": [
+      {
+        "chunk_id": "600f2ddd0483ba04a7c05c7d:0000",
+        "parent_id": "600f2ddd0483ba04a7c05c7d",
+        "doc_id": "600f2ddd0483ba04a7c05c7d",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1388,
+        "source_end": 2661,
+        "text": "WAHEEDUDDIN AHMAD, J.‐The petitioner was married to respondent No. 1 and respondents Nos. 2 to 5 are his children from respondent No. 1. On the 31st May 1969, the Civil Judge, First Class, Karachi, in Family Suit No. 172 of 1969, granted maintenance to the respondents as the respondents were. living separately from the petitioner. The petitioner also obtained a decree for restitution of conjugal rights and for the custody of children in the guardianship proceedings at Lahore. When the order for maintenance was sought to be executed the petitioner challenged it before the Second Additional District Judge, Karachi, on the 14th October 1970. The learned Additional District Judge set aside the judgment and decree of the Family Court on the ground that if the order for maintenance was maintained, it would encourage respondent No. 1 to disobey the order of Guardian Court to hand over the custody of minor children. This order was challenged in Constitutional Petition No. 575 of 1970 and a Division Bench of the High Court of Sind and Baluchistan, Karachi, by judgment dated the 24th September 1971, has quashed the order of the Additional District Judge and upheld the decree of maintenance. The petitioner seeks permission to file an appeal against the said order.",
+        "word_count": 209,
+        "prev_chunk_id": null,
+        "next_chunk_id": "600f2ddd0483ba04a7c05c7d:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "600f2ddd0483ba04a7c05c7d:0001",
+        "parent_id": "600f2ddd0483ba04a7c05c7d",
+        "doc_id": "600f2ddd0483ba04a7c05c7d",
+        "chunk_index": 1,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 2663,
+        "source_end": 3873,
+        "text": "Mr. Hamid Hussain, learned counsel for the petitioner, has contended that the High Court should not have exercised its jurisdiction under Article 98 of the Constitution as a competent Guardian Court has granted the request of the petitioner for the custody of the children and that order should have been given preference over the order of maintenance. He further contended that the order of the Additional District Judge was equitable and therefore, should not have been interfered with. The contention of the learned counsel has not impressed us. In our opinion, the proceedings before the Family Court for the maintenance of children were separate from the question of the custody of the children. As long as the custody of the children is not given to the petitioner he is liable to maintain his children under the orders of the Family Court. Mr. Hamid Hussain admitted that a suit has been filed at Karachi for setting aside the judgment of the Lahore Court about the custody of the children on the ground of fraud. In these circumstances, the High Court was perfectly justified in quashing the order of the Additional District Judge and upholding the order of the Family Court. The petition is dismissed.",
+        "word_count": 203,
+        "prev_chunk_id": "600f2ddd0483ba04a7c05c7d:0000",
+        "next_chunk_id": "600f2ddd0483ba04a7c05c7d:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "600f2ddd0483ba04a7c05c7d:0002",
+        "parent_id": "600f2ddd0483ba04a7c05c7d",
+        "doc_id": "600f2ddd0483ba04a7c05c7d",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 3875,
+        "source_end": 3889,
+        "text": "Leave refused.",
+        "word_count": 2,
+        "prev_chunk_id": "600f2ddd0483ba04a7c05c7d:0001",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 3
+      },
+      "total_chunks": 3,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

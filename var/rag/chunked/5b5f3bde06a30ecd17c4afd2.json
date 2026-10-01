@@ -1,0 +1,161 @@
+{
+  "parent": {
+    "doc_id": "5b5f3bde06a30ecd17c4afd2",
+    "metadata": {
+      "doc_id": "5b5f3bde06a30ecd17c4afd2",
+      "case_title": "MUHAMMAD JAVED vs ADDITIONAL DISTRICT JUDGE, FAISALABAD and 2 others",
+      "citation": "2010 Y L R 445",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Khawaja Farooq Saeed"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S.5",
+        "S.14",
+        "Art.199"
+      ],
+      "source_relpath": "2010L4080",
+      "content_hash": "358e4254ceef2f1a3c5f009a37df74cc2522513a79a024896bcee817df98ff03"
+    },
+    "full_text": "2010 Y L R 445\n\n[Lahore]\n\nBefore Khawaja Farooq Saeed, J\n\nMUHAMMAD JAVED---Petitioner\n\nVersus\n\nADDITIONAL DISTRICT JUDGE, FAISALABAD and 2 others---Respondents\n\nWrit Petition No.160, of 2009, decided on 11th February, 2009.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5, Sched. & S.14---Constitution of Pakistan (1973), Art.199---Constitutional jurisdiction of High Court---Scope--Petitioner had sought relief from High Court for setting aside the order of Appellate Court wherein order passed by the Family Court was confirmed---All the facts of the case had duly been considered by the forums below---Final finding of the Appellate Court was arrived at after appreciation of the entire facts, which were neither unlawful nor perverse in any manner---Constitutional jurisdiction of High Court could not be invoked unless the order of the subordinate court was illegal, perverse or defective in terms of exercise of jurisdiction etc.---Fact that through an evidence one could reach to a different conclusion also, was no reason for invocation of constitutional jurisdiction---Misreading of evidence had to be such which resulted in a patent non-appreciation of the evidence---Evidence which could lead to various conclusions, would not be a valid reason for exercising constitutional jurisdiction.\n\nJaved Khan v. Mst. Fauzia Azam PLD 2005 Pesh. 89 and Rana Akram Javed v. Additional District Judge, Faisalabad: 2008 CLC 1526 rel.\n\nHaroon Qureshi for Petitioner.\n\nM. Sohail Majeed Ch. for Respondent.\n\nORDER\n\nKHAWAJA FAROOQ SAEED, J.---The petitioner seeks indulgence of this Court for setting aside of the order of the Addl. District Judge dated 30-10-2008 in which the order of the Judge Family Court dated 24-3-2008 has been confirmed.\n\n2. The only issue involved in the present writ petition is that as to whether the respondent had taken away Jewellery weighing 18 Tolas or not. The petitioner's counsel while supporting the claim brought attention of this Court to the order of the Additional District Judge who has in its para 22 given certain facts. Bringing our attention to the sentence that after the petitioner/respondent left Kuwait which is two months after his marriage the respondent/plaintiff left his house and shifted to her father's home, he argued that if the appellant had taken away the gold ornaments the same should have been mentioned in Talaknama or would have been agitated at the said stage. This therefore, in his opinion is a non-reading and misreading of the evidence. The attention of this Court was also brought to the statement recorded by Tanvir Ahmed son of Ghulam Rasul who admitted that respondent had suggested for transfer of the dowry articles subject to return of their Jewellery to them. This way he claimed that the Jewellery in fact was already with the respondent. The Judge Family Court and the Additional District Judge both have failed to notice this direct and valid evidence.\n\n3. All the facts of this case have duly been considered by the forums below. The final finding of Additional District Judge is after appreciating of the entire facts on para 22 which are neither unlawful nor perverse in any manner. This Court in a number of cases has held that the Constitutional jurisdiction cannot be invoked unless the order of the subordinate Court is illegal, perverse or defective in terms of exercise of jurisdiction etc.\n\n4. The fact that through an evidence one can reach to a different conclusion alone is no reason for invocation of a writ jurisdiction. The misreading of evidence had to be such which results in a patent non-appreciation of the evidence. The evidence which can lead to various conclusions therefore, would not be a valid reason for exercising writ juris diction. This Court therefore, rely upon PLD 2005 Pesh. 89 in the case of \"Javed Khan v. Mst. Fauzia Azam\" and 2008 CLC 1526 re: Rana Akram Javed v. Additional District Judge, Faisalabad\" and consider B the writ petition to be without any useful purposes.\n\n5. The writ petition is dismissed.\n\nH.B.T./M-606/L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "5b5f3bde06a30ecd17c4afd2:0000",
+        "parent_id": "5b5f3bde06a30ecd17c4afd2",
+        "doc_id": "5b5f3bde06a30ecd17c4afd2",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1522,
+        "source_end": 1751,
+        "text": "KHAWAJA FAROOQ SAEED, J.---The petitioner seeks indulgence of this Court for setting aside of the order of the Addl. District Judge dated 30-10-2008 in which the order of the Judge Family Court dated 24-3-2008 has been confirmed.",
+        "word_count": 37,
+        "prev_chunk_id": null,
+        "next_chunk_id": "5b5f3bde06a30ecd17c4afd2:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5b5f3bde06a30ecd17c4afd2:0001",
+        "parent_id": "5b5f3bde06a30ecd17c4afd2",
+        "doc_id": "5b5f3bde06a30ecd17c4afd2",
+        "chunk_index": 1,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1753,
+        "source_end": 2940,
+        "text": "2. The only issue involved in the present writ petition is that as to whether the respondent had taken away Jewellery weighing 18 Tolas or not. The petitioner's counsel while supporting the claim brought attention of this Court to the order of the Additional District Judge who has in its para 22 given certain facts. Bringing our attention to the sentence that after the petitioner/respondent left Kuwait which is two months after his marriage the respondent/plaintiff left his house and shifted to her father's home, he argued that if the appellant had taken away the gold ornaments the same should have been mentioned in Talaknama or would have been agitated at the said stage. This therefore, in his opinion is a non-reading and misreading of the evidence. The attention of this Court was also brought to the statement recorded by Tanvir Ahmed son of Ghulam Rasul who admitted that respondent had suggested for transfer of the dowry articles subject to return of their Jewellery to them. This way he claimed that the Jewellery in fact was already with the respondent. The Judge Family Court and the Additional District Judge both have failed to notice this direct and valid evidence.",
+        "word_count": 199,
+        "prev_chunk_id": "5b5f3bde06a30ecd17c4afd2:0000",
+        "next_chunk_id": "5b5f3bde06a30ecd17c4afd2:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5b5f3bde06a30ecd17c4afd2:0002",
+        "parent_id": "5b5f3bde06a30ecd17c4afd2",
+        "doc_id": "5b5f3bde06a30ecd17c4afd2",
+        "chunk_index": 2,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2942,
+        "source_end": 3387,
+        "text": "3. All the facts of this case have duly been considered by the forums below. The final finding of Additional District Judge is after appreciating of the entire facts on para 22 which are neither unlawful nor perverse in any manner. This Court in a number of cases has held that the Constitutional jurisdiction cannot be invoked unless the order of the subordinate Court is illegal, perverse or defective in terms of exercise of jurisdiction etc.",
+        "word_count": 76,
+        "prev_chunk_id": "5b5f3bde06a30ecd17c4afd2:0001",
+        "next_chunk_id": "5b5f3bde06a30ecd17c4afd2:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5b5f3bde06a30ecd17c4afd2:0003",
+        "parent_id": "5b5f3bde06a30ecd17c4afd2",
+        "doc_id": "5b5f3bde06a30ecd17c4afd2",
+        "chunk_index": 3,
+        "section": "authorities_cited",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 3389,
+        "source_end": 3997,
+        "text": "4. The fact that through an evidence one can reach to a different conclusion alone is no reason for invocation of a writ jurisdiction. The misreading of evidence had to be such which results in a patent non-appreciation of the evidence. The evidence which can lead to various conclusions therefore, would not be a valid reason for exercising writ juris diction. This Court therefore, rely upon PLD 2005 Pesh. 89 in the case of \"Javed Khan v. Mst. Fauzia Azam\" and 2008 CLC 1526 re: Rana Akram Javed v. Additional District Judge, Faisalabad\" and consider B the writ petition to be without any useful purposes.",
+        "word_count": 105,
+        "prev_chunk_id": "5b5f3bde06a30ecd17c4afd2:0002",
+        "next_chunk_id": "5b5f3bde06a30ecd17c4afd2:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5b5f3bde06a30ecd17c4afd2:0004",
+        "parent_id": "5b5f3bde06a30ecd17c4afd2",
+        "doc_id": "5b5f3bde06a30ecd17c4afd2",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 3999,
+        "source_end": 4033,
+        "text": "5. The writ petition is dismissed.",
+        "word_count": 6,
+        "prev_chunk_id": "5b5f3bde06a30ecd17c4afd2:0003",
+        "next_chunk_id": "5b5f3bde06a30ecd17c4afd2:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5b5f3bde06a30ecd17c4afd2:0005",
+        "parent_id": "5b5f3bde06a30ecd17c4afd2",
+        "doc_id": "5b5f3bde06a30ecd17c4afd2",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 4035,
+        "source_end": 4069,
+        "text": "H.B.T./M-606/L Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "5b5f3bde06a30ecd17c4afd2:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

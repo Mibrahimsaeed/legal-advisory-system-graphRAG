@@ -1,0 +1,103 @@
+{
+  "parent": {
+    "doc_id": "a0d8acc4029eef78fa448816",
+    "metadata": {
+      "doc_id": "a0d8acc4029eef78fa448816",
+      "case_title": "MUHAMMAD ASLAM vs DISTRICT JUDGE, BAHAWALPUR and others",
+      "citation": "2003 M L D 976",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": "2003-01-01",
+      "judges": [
+        "Mian Saqib Nisar"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S.5",
+        "Art. 199"
+      ],
+      "source_relpath": "2003L2658",
+      "content_hash": "94cc928c6ecbadedd64c5c470e37fb1276d2d4d1b487e22ac30f68fb714e0768"
+    },
+    "full_text": "2003 M L D 976\n\n[Lahore]\n\nBefore Mian Saqib Nisar, J\n\nMUHAMMAD ASLAM---Petitioner\n\nVersus\n\nDISTRICT JUDGE, BAHAWALPUR and others---Respondents\n\nWrit Petition No.5200 of 2000/BWP, decided on 2nd September,2002.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S.5 & Sched.---Constitution of Pakistan (1973), Art. 199-- Constitutional petition---Suit for dissolution of marriage on ground of Khula'---Family Court decreed the suit subject to return of house by wife---Appellate Court waived such condition---Contention of husband was that house purchased by him during subsistence of marriage was only benami in wife's name---Validity---Benefits derived by wife on account of marriage were to be returned as consideration of Khula'-- House could not be returned as consideration of Khula', unless and until same was proved to be a benami transaction---Husband had already filed civil suit in respect of the house, and if he was proved to be true and actual owner of house and wife as benamidar, then law would take its own course---Appellate Court had rightly waived the condition---High Court dismissed Constitutional petition.\n\nShamsher Iqbal Chughtai for Petitioner.\n\nMalik Muhammad Nawaz Nizami for Respondent No.3.\n\nORDER\n\nLearned counsel for the petitioner contends that the respondent had filed a suit for dissolution of her marriage on account of Khula, which was granted by the learned Judge, Family Court, subject to the condition that the house in the name of the respondent shall be returned to him as a consideration for Khula. Aggrieved thereby, the respondent preferred an appeal which has been accepted and the condition has been waived.\n\n2. It is the case of the petitioner that the house in question was purchased with the money belonging to the petitioner during the subsistence of marriage and is the property owned by the petitioner and was only Benami in the name of the respondent. I have been apprised by the learned counsel for the respondent that already a civil suit in this, respect filed by petitioner is pending between the parties. Let the petitioner pursue that civil suit because according to law at the time of the grant of Khula', the benefits which a wife has derived on account of a marriage are to be returned as consideration of Khula'. But if it is a Benami transaction and unless and until it is so proved, the house could not be returned as consideration for Khula'. The petitioner has already availed his remedy before the Civil Court and if he is proved to be true and actual owner of the property and the respondent a as Benamidar, the law shall take its own course. The learned Court of appeal has rightly waived the condition, calling for no interference by this Court in the exercise of its Constitutional jurisdiction. Dismissed.\n\nS.A.K./M-1781/L Writ petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "a0d8acc4029eef78fa448816:0000",
+        "parent_id": "a0d8acc4029eef78fa448816",
+        "doc_id": "a0d8acc4029eef78fa448816",
+        "chunk_index": 0,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1233,
+        "source_end": 1658,
+        "text": "Learned counsel for the petitioner contends that the respondent had filed a suit for dissolution of her marriage on account of Khula, which was granted by the learned Judge, Family Court, subject to the condition that the house in the name of the respondent shall be returned to him as a consideration for Khula. Aggrieved thereby, the respondent preferred an appeal which has been accepted and the condition has been waived.",
+        "word_count": 71,
+        "prev_chunk_id": null,
+        "next_chunk_id": "a0d8acc4029eef78fa448816:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "a0d8acc4029eef78fa448816:0001",
+        "parent_id": "a0d8acc4029eef78fa448816",
+        "doc_id": "a0d8acc4029eef78fa448816",
+        "chunk_index": 1,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1660,
+        "source_end": 2783,
+        "text": "2. It is the case of the petitioner that the house in question was purchased with the money belonging to the petitioner during the subsistence of marriage and is the property owned by the petitioner and was only Benami in the name of the respondent. I have been apprised by the learned counsel for the respondent that already a civil suit in this, respect filed by petitioner is pending between the parties. Let the petitioner pursue that civil suit because according to law at the time of the grant of Khula', the benefits which a wife has derived on account of a marriage are to be returned as consideration of Khula'. But if it is a Benami transaction and unless and until it is so proved, the house could not be returned as consideration for Khula'. The petitioner has already availed his remedy before the Civil Court and if he is proved to be true and actual owner of the property and the respondent a as Benamidar, the law shall take its own course. The learned Court of appeal has rightly waived the condition, calling for no interference by this Court in the exercise of its Constitutional jurisdiction. Dismissed.",
+        "word_count": 199,
+        "prev_chunk_id": "a0d8acc4029eef78fa448816:0000",
+        "next_chunk_id": "a0d8acc4029eef78fa448816:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "a0d8acc4029eef78fa448816:0002",
+        "parent_id": "a0d8acc4029eef78fa448816",
+        "doc_id": "a0d8acc4029eef78fa448816",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 2785,
+        "source_end": 2825,
+        "text": "S.A.K./M-1781/L Writ petition dismissed.",
+        "word_count": 4,
+        "prev_chunk_id": "a0d8acc4029eef78fa448816:0001",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 3
+      },
+      "total_chunks": 3,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

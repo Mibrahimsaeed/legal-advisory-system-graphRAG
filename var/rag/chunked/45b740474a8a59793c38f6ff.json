@@ -1,0 +1,104 @@
+{
+  "parent": {
+    "doc_id": "45b740474a8a59793c38f6ff",
+    "metadata": {
+      "doc_id": "45b740474a8a59793c38f6ff",
+      "case_title": "LIAQAT ALI vs JUDGE, FAMILY COURT, HAFIZABAD and 3 others",
+      "citation": "2010 Y L R 1136",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Muhammad Ashraf Bhatti"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S. 5",
+        "S.17A",
+        "Art.199"
+      ],
+      "source_relpath": "2010L4227",
+      "content_hash": "9b8201c61cca8c075a728fcedaaec96757613a19eb165f54f3258ef29e7f2f18"
+    },
+    "full_text": "2010 Y L R 1136\n\n[Lahore]\n\nBefore Muhammad Ashraf Bhatti, J\n\nLIAQAT ALI---Petitioner\n\nVersus\n\nJUDGE, FAMILY COURT, HAFIZABAD and 3 others---Respondents\n\nWrit Petition No.7654 of 2009, decided on 2nd July, 2009.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5 Sched. & S.17A---Constitution of Pakistan (1973), Art.199---Constitutional petition---Suit for maintenance---Maintenance allowance to two minors was awarded respectively at the rate of Rs.1200 and Rs.1000 with 20% annual increase, but defendant/judgment-debtor had failed to pay the same and the defence of defendant was struck off---Maintenance allowance granted to the mother of the minors was decreed ex parte, which could be challenged by the defendant before the appropriate forum---Counsel for the defendant had opted not to press constitutional petition to seek remedy before the court of competent jurisdiction--Constitutional petition was dismissed as having not been pressed.\n\nShahid Ali Shakir for Petitioner.\n\nMuhammad Shahid Usman for Respondents Nos.2 to 4.\n\nORDER\n\nMUHAMMAD ASHRAF BHATTI, J.---This is a petition filed by Liaqat Ali to challenge the vires of the order dated 20-12-2008 whereby the maintenance allowance at the rate of Rs.1,200 and Rs.1,000 with 20% annual increase was awarded to the minors children of the petitioner but failed to pay the same. The learned Trial Court struck off the defence of the petitioner on 28-10-2008. The application moved there against also met with the same fate.\n\n2. As regards the maintenance allowance granted to the mother of the minors, namely, Kausar Parveen respondent No.2 learned counsel for the respondent states at bar that the case was fixed for ex parte evidence on 21-1-2009 and was subsequently decreed in her favour which can be challenged by the petitioner before the appropriate forum.\n\n3. When confronted with the above position of the case, learned counsel for the petitioner has opted not to press this petition to seek remedy before the Court of competent jurisdiction. Accordingly this writ petition is dismissed as having not been pressed.\n\nH.B.T./L-6/L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "45b740474a8a59793c38f6ff:0000",
+        "parent_id": "45b740474a8a59793c38f6ff",
+        "doc_id": "45b740474a8a59793c38f6ff",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 13,
+        "source_start": 1052,
+        "source_end": 1834,
+        "text": "MUHAMMAD ASHRAF BHATTI, J.---This is a petition filed by Liaqat Ali to challenge the vires of the order dated 20-12-2008 whereby the maintenance allowance at the rate of Rs.1,200 and Rs.1,000 with 20% annual increase was awarded to the minors children of the petitioner but failed to pay the same. The learned Trial Court struck off the defence of the petitioner on 28-10-2008. The application moved there against also met with the same fate.\n\n2. As regards the maintenance allowance granted to the mother of the minors, namely, Kausar Parveen respondent No.2 learned counsel for the respondent states at bar that the case was fixed for ex parte evidence on 21-1-2009 and was subsequently decreed in her favour which can be challenged by the petitioner before the appropriate forum.",
+        "word_count": 129,
+        "prev_chunk_id": null,
+        "next_chunk_id": "45b740474a8a59793c38f6ff:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "45b740474a8a59793c38f6ff:0001",
+        "parent_id": "45b740474a8a59793c38f6ff",
+        "doc_id": "45b740474a8a59793c38f6ff",
+        "chunk_index": 1,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1836,
+        "source_end": 2094,
+        "text": "3. When confronted with the above position of the case, learned counsel for the petitioner has opted not to press this petition to seek remedy before the Court of competent jurisdiction. Accordingly this writ petition is dismissed as having not been pressed.",
+        "word_count": 42,
+        "prev_chunk_id": "45b740474a8a59793c38f6ff:0000",
+        "next_chunk_id": "45b740474a8a59793c38f6ff:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "45b740474a8a59793c38f6ff:0002",
+        "parent_id": "45b740474a8a59793c38f6ff",
+        "doc_id": "45b740474a8a59793c38f6ff",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2096,
+        "source_end": 2128,
+        "text": "H.B.T./L-6/L Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "45b740474a8a59793c38f6ff:0001",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 3
+      },
+      "total_chunks": 3,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

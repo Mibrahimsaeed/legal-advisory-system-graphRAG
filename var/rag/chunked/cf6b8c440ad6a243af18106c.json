@@ -1,0 +1,181 @@
+{
+  "parent": {
+    "doc_id": "cf6b8c440ad6a243af18106c",
+    "metadata": {
+      "doc_id": "cf6b8c440ad6a243af18106c",
+      "case_title": "West Pakistan Family Courts Act (XXXV of 1964)â€‘â€‘â€‘",
+      "citation": "1996 C L C 1896",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": "1996-01-01",
+      "judges": [
+        "Muhammad Aqil Mirza"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S. 14",
+        "section 14",
+        "Art. 199",
+        "Article 199"
+      ],
+      "source_relpath": "1996L325",
+      "content_hash": "e2a5c385d1d62c87666fc5b92aa0566992960cd840dd4366ae9569a7a3d459f9"
+    },
+    "full_text": "1996 C L C 1896\n\n[Lahore]\n\nBefore Muhammad Aqil Mirza, J\n\nMUHAMMAD MURAD‐‐‐Petitioner\n\nversus\n\nADDITIONAL DISTRICT JUDGE and others‐‐‐Respondents\n\nWrit Petition No. 1227‐F of 1996, decided on 12th.June, 1996.\n\nWest Pakistan Family Courts Act (XXXV of 1964)‐‐‐\n\n‐‐‐‐S. 14‐‐‐Constitution of Pakistan (1973), Art. 199‐‐‐Constitutional petition‐‐ Summoning specified person as witness in suit by Trial Court in its discretion‐‐ Validity‐‐‐Trial Court during trial of suit found it necessary to summon specified person as witness for just decision of case‐‐‐Such discretionary interlocutory order passed by Trial Court even if it was amenable to appeal could not be set aside in Constitutional jurisdiction of High Court under Art. '199 of the Constitution‐‐‐Discretionary order passed by competent Court, unless same was patently perverse or fanciful cannot be interfered with by High Court in Constitutional jurisdiction‐‐‐Order in question was maintained in circumstances.\n\nYasmin Zafar v. Muhammad Anwar Khan and others PLD 1989 Lah 38 ref.\n\nMalik Ghulam Farid for Appellant.\n\nORDER\n\nThis application for dispensing with certified copies of the documents is allowed.\n\nMain Case.\n\n2. Mst. Sharifan filed a suit for jactitation of marriage that she is not the wife of Murad. She made an application before the trial Court that Mashooq Khan who is her earlier husband may be summoned as a witness so that it may be ascertained as to how did she obtain divorce from him. The learned trial Court came to the conclusion that evidence of this witness was necessary for proper decision of the case and it was, therefore, directed that he be summoned as a court‐witness. Aggrieved by this order, an appeal was filed by the petitioner which was dismissed on the ground that appeal does not lie against such an interlocutory order.\n\n3. Learned counsel relying on Mst. Yasmin Zafar v. Muhammad Anwar Khan and others (PLD 1989 Lahore 38), submits that an appeal against an interlocutory order under section 14 of the Family Courts Act is competent and the learned Appellate Court has acted in gross ignorance of law.\n\n4. The precedent case cited by the learned counsel is distinguishable because therein a substantive order regarding the interim custody of a minor was passed by the Guardian Judge. In the instant case, the trial Court found it necessary that Mashooq be examined as Court witness for just decision of the case. Such a discretionary interlocutory order passed by the trial Court even if it was amenable to appeal cannot be set aside in the Constitutional jurisdiction of this Court under Article 199 of the Constitution. A discretionary order passed by a competent Court, unless it is patently perverse or fanciful cannot be interfered by this Court in the writ jurisdiction.\n\n5. For what has been stated above, this petition is dismissed in limine.\n\nA.A./M‐94/L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "cf6b8c440ad6a243af18106c:0000",
+        "parent_id": "cf6b8c440ad6a243af18106c",
+        "doc_id": "cf6b8c440ad6a243af18106c",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1083,
+        "source_end": 1165,
+        "text": "This application for dispensing with certified copies of the documents is allowed.",
+        "word_count": 12,
+        "prev_chunk_id": null,
+        "next_chunk_id": "cf6b8c440ad6a243af18106c:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "cf6b8c440ad6a243af18106c:0001",
+        "parent_id": "cf6b8c440ad6a243af18106c",
+        "doc_id": "cf6b8c440ad6a243af18106c",
+        "chunk_index": 1,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1167,
+        "source_end": 1177,
+        "text": "Main Case.",
+        "word_count": 2,
+        "prev_chunk_id": "cf6b8c440ad6a243af18106c:0000",
+        "next_chunk_id": "cf6b8c440ad6a243af18106c:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "cf6b8c440ad6a243af18106c:0002",
+        "parent_id": "cf6b8c440ad6a243af18106c",
+        "doc_id": "cf6b8c440ad6a243af18106c",
+        "chunk_index": 2,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1179,
+        "source_end": 1819,
+        "text": "2. Mst. Sharifan filed a suit for jactitation of marriage that she is not the wife of Murad. She made an application before the trial Court that Mashooq Khan who is her earlier husband may be summoned as a witness so that it may be ascertained as to how did she obtain divorce from him. The learned trial Court came to the conclusion that evidence of this witness was necessary for proper decision of the case and it was, therefore, directed that he be summoned as a court‐witness. Aggrieved by this order, an appeal was filed by the petitioner which was dismissed on the ground that appeal does not lie against such an interlocutory order.",
+        "word_count": 115,
+        "prev_chunk_id": "cf6b8c440ad6a243af18106c:0001",
+        "next_chunk_id": "cf6b8c440ad6a243af18106c:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "cf6b8c440ad6a243af18106c:0003",
+        "parent_id": "cf6b8c440ad6a243af18106c",
+        "doc_id": "cf6b8c440ad6a243af18106c",
+        "chunk_index": 3,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 1821,
+        "source_end": 2102,
+        "text": "3. Learned counsel relying on Mst. Yasmin Zafar v. Muhammad Anwar Khan and others (PLD 1989 Lahore 38), submits that an appeal against an interlocutory order under section 14 of the Family Courts Act is competent and the learned Appellate Court has acted in gross ignorance of law.",
+        "word_count": 48,
+        "prev_chunk_id": "cf6b8c440ad6a243af18106c:0002",
+        "next_chunk_id": "cf6b8c440ad6a243af18106c:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "cf6b8c440ad6a243af18106c:0004",
+        "parent_id": "cf6b8c440ad6a243af18106c",
+        "doc_id": "cf6b8c440ad6a243af18106c",
+        "chunk_index": 4,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 2104,
+        "source_end": 2777,
+        "text": "4. The precedent case cited by the learned counsel is distinguishable because therein a substantive order regarding the interim custody of a minor was passed by the Guardian Judge. In the instant case, the trial Court found it necessary that Mashooq be examined as Court witness for just decision of the case. Such a discretionary interlocutory order passed by the trial Court even if it was amenable to appeal cannot be set aside in the Constitutional jurisdiction of this Court under Article 199 of the Constitution. A discretionary order passed by a competent Court, unless it is patently perverse or fanciful cannot be interfered by this Court in the writ jurisdiction.",
+        "word_count": 111,
+        "prev_chunk_id": "cf6b8c440ad6a243af18106c:0003",
+        "next_chunk_id": "cf6b8c440ad6a243af18106c:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "cf6b8c440ad6a243af18106c:0005",
+        "parent_id": "cf6b8c440ad6a243af18106c",
+        "doc_id": "cf6b8c440ad6a243af18106c",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 2779,
+        "source_end": 2851,
+        "text": "5. For what has been stated above, this petition is dismissed in limine.",
+        "word_count": 13,
+        "prev_chunk_id": "cf6b8c440ad6a243af18106c:0004",
+        "next_chunk_id": "cf6b8c440ad6a243af18106c:0006",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "cf6b8c440ad6a243af18106c:0006",
+        "parent_id": "cf6b8c440ad6a243af18106c",
+        "doc_id": "cf6b8c440ad6a243af18106c",
+        "chunk_index": 6,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 2853,
+        "source_end": 2884,
+        "text": "A.A./M‐94/L Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "cf6b8c440ad6a243af18106c:0005",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 7
+      },
+      "total_chunks": 7,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

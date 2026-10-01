@@ -1,0 +1,159 @@
+{
+  "parent": {
+    "doc_id": "5db7155fccc2962afcf032ce",
+    "metadata": {
+      "doc_id": "5db7155fccc2962afcf032ce",
+      "case_title": "Mst. JAMILA BANO and others vs JAWAID IQBAL",
+      "citation": "2009 Y L R 2269",
+      "court": "Karachi",
+      "court_location": "Karachi",
+      "decision_date": null,
+      "judges": [
+        "Anwar Zaheer Jamali",
+        "C"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "allowed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 25"
+      ],
+      "source_relpath": "2009K4333",
+      "content_hash": "b0fc7e3337885feda8adb4ad6b1aff14ec7cae359f31316e3acca0444819ae41"
+    },
+    "full_text": "2009 Y L R 2269\n\n[Karachi]\n\nBefore Anwar Zaheer Jamali, C J\n\nMst. JAMILA BANO and others---Applicants\n\nVersus\n\nJAWAID IQBAL---Respondent\n\nC.T.A. No.45 of 2008, decided on 15th December, 2008.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 25-A---Transfer of case---Application for---Applicants had sought transfer of Guardianship Application pending before the court at place and family case pending before the court of Family Judge D' to place `K'---Respondent despite notices, had not turned up to oppose the grant of request for transfer of cases which otherwise seemed to be reasonable; and to avoid inconvenience to applicants and her two minor daughters who were reported to be living at `K'---Both the transfer applications were granted---Family suit pending before the Family Court was transferred to the Family Court `K', so that it could be proceeded along with Family suit instituted by the applicant---Guardianship Application was also transferred to same Family Court for its disposal according to law.\n\nJaved Ahmed Rajput for Applicant.\n\nORDER\n\nANWAR ZAHEER JAMALI, C.J.---Mr. Javed Ahmad Rajput Advocate has placed on record copies of two T.C.S. receipts to show that the service of notice of these transfer applications has been duly effected on respondent Jawaid Iqbal.\n\nNone present for the respondent, despite repeated calls.\n\nThrough these two transfer applications moved by the applicants, they have sought transfer of Guardianship Application No.21 of 2008 pending before the Court of II-Additional District Judge, Mirpurkhas, and Family No.20 of 2008 pending before the Court of Family Judge/Civil Judge Digri to Karachi.\n\nIn this regard, the case of applicants is that they are residing at Karachi and Family Suit No.1657 of 2008 instituted by Applicant No.1 Mst. Jamila Bano is already sub-judiced before the Court of XIX-Family Judge Karachi East, therefore, it will just and proper that two cases filed by the respondent at District Mirpurkhas are transferred to Karachi.\n\nRespondent despite notices has not turned up to oppose the grant of such request, which otherwise seems to be reasonable and to avoid inconvenience to the application and her two minor daughters Momal Jawaid and Maryam Jawaid, who are reported to be living at Karachi.\n\nThis being the position, both the Transfer applications are granted. Accordingly, Family Suit No.20 of 2008 presently pending before the Court of Family/Civil Judge Digri is transferred to the Court of XIX-Family Judge, Karachi East so that it may be proceeded along with Family Suit No.1657 of 2008 instituted by the Applicant No.1. Further Guardianship Application No.21 of 2008 is also transferred to the same Family Court for its disposal according to law.\n\nH.B.T./J-13/K Appeal allowed.",
+    "chunks": [
+      {
+        "chunk_id": "5db7155fccc2962afcf032ce:0000",
+        "parent_id": "5db7155fccc2962afcf032ce",
+        "doc_id": "5db7155fccc2962afcf032ce",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 12,
+        "source_start": 1071,
+        "source_end": 1356,
+        "text": "ANWAR ZAHEER JAMALI, C.J.---Mr. Javed Ahmad Rajput Advocate has placed on record copies of two T.C.S. receipts to show that the service of notice of these transfer applications has been duly effected on respondent Jawaid Iqbal.\n\nNone present for the respondent, despite repeated calls.",
+        "word_count": 44,
+        "prev_chunk_id": null,
+        "next_chunk_id": "5db7155fccc2962afcf032ce:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5db7155fccc2962afcf032ce:0001",
+        "parent_id": "5db7155fccc2962afcf032ce",
+        "doc_id": "5db7155fccc2962afcf032ce",
+        "chunk_index": 1,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1358,
+        "source_end": 1656,
+        "text": "Through these two transfer applications moved by the applicants, they have sought transfer of Guardianship Application No.21 of 2008 pending before the Court of II-Additional District Judge, Mirpurkhas, and Family No.20 of 2008 pending before the Court of Family Judge/Civil Judge Digri to Karachi.",
+        "word_count": 44,
+        "prev_chunk_id": "5db7155fccc2962afcf032ce:0000",
+        "next_chunk_id": "5db7155fccc2962afcf032ce:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5db7155fccc2962afcf032ce:0002",
+        "parent_id": "5db7155fccc2962afcf032ce",
+        "doc_id": "5db7155fccc2962afcf032ce",
+        "chunk_index": 2,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1658,
+        "source_end": 2010,
+        "text": "In this regard, the case of applicants is that they are residing at Karachi and Family Suit No.1657 of 2008 instituted by Applicant No.1 Mst. Jamila Bano is already sub-judiced before the Court of XIX-Family Judge Karachi East, therefore, it will just and proper that two cases filed by the respondent at District Mirpurkhas are transferred to Karachi.",
+        "word_count": 58,
+        "prev_chunk_id": "5db7155fccc2962afcf032ce:0001",
+        "next_chunk_id": "5db7155fccc2962afcf032ce:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5db7155fccc2962afcf032ce:0003",
+        "parent_id": "5db7155fccc2962afcf032ce",
+        "doc_id": "5db7155fccc2962afcf032ce",
+        "chunk_index": 3,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2012,
+        "source_end": 2280,
+        "text": "Respondent despite notices has not turned up to oppose the grant of such request, which otherwise seems to be reasonable and to avoid inconvenience to the application and her two minor daughters Momal Jawaid and Maryam Jawaid, who are reported to be living at Karachi.",
+        "word_count": 45,
+        "prev_chunk_id": "5db7155fccc2962afcf032ce:0002",
+        "next_chunk_id": "5db7155fccc2962afcf032ce:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5db7155fccc2962afcf032ce:0004",
+        "parent_id": "5db7155fccc2962afcf032ce",
+        "doc_id": "5db7155fccc2962afcf032ce",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 2282,
+        "source_end": 2742,
+        "text": "This being the position, both the Transfer applications are granted. Accordingly, Family Suit No.20 of 2008 presently pending before the Court of Family/Civil Judge Digri is transferred to the Court of XIX-Family Judge, Karachi East so that it may be proceeded along with Family Suit No.1657 of 2008 instituted by the Applicant No.1. Further Guardianship Application No.21 of 2008 is also transferred to the same Family Court for its disposal according to law.",
+        "word_count": 73,
+        "prev_chunk_id": "5db7155fccc2962afcf032ce:0003",
+        "next_chunk_id": "5db7155fccc2962afcf032ce:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "5db7155fccc2962afcf032ce:0005",
+        "parent_id": "5db7155fccc2962afcf032ce",
+        "doc_id": "5db7155fccc2962afcf032ce",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 2744,
+        "source_end": 2773,
+        "text": "H.B.T./J-13/K Appeal allowed.",
+        "word_count": 3,
+        "prev_chunk_id": "5db7155fccc2962afcf032ce:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

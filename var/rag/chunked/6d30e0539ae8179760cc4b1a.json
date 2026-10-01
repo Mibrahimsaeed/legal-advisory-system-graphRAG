@@ -1,0 +1,120 @@
+{
+  "parent": {
+    "doc_id": "6d30e0539ae8179760cc4b1a",
+    "metadata": {
+      "doc_id": "6d30e0539ae8179760cc4b1a",
+      "case_title": "JAM MEERAN- vs ADDITIONAL ADVOCATE GENERAL and others-",
+      "citation": "2019 C L C 1799",
+      "court": "Lahore (Bahawalpur Bench)",
+      "court_location": "Bahawalpur",
+      "decision_date": null,
+      "judges": [
+        "Muzamil Akhtar Shabir"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "Ss.13 & 5"
+      ],
+      "source_relpath": "2019L292",
+      "content_hash": "0320261b61ac4574f4eb332cd7f2362efe98ba0a9007e56f5c72543eea7edde5"
+    },
+    "full_text": "2019 C L C 1799\n\n[Lahore (Bahawalpur Bench)]\n\nBefore Muzamil Akhtar Shabir, J\n\nJAM MEERAN----Petitioner\n\nVersus\n\nADDITIONAL ADVOCATE GENERAL and others----Respondents\n\nW.P. No.9021 of 2018/BWP, decided on 18th October, 2018.\n\nFamily Courts Act (XXXV of 1964)---\n\n----Ss.13 & 5, Sched.---Suit for recovery of dower---Execution proceedings---Petitioner assailed orders of executing court and appellate court whereby both the courts below in proceedings for execution of decree refused to accept some other property as dower instead of the property which was decreed---Validity---Substituting the property would amount to the executing court amending the decree, which was not permissible in law---Constitutional petition was dismissed in limine.\n\nRao Nasir Mehmood Khan for Petitioner.\n\nORDER\n\nMUZAMIL AKHTAR SHABIR, J.----Through instant constitutional petition, the petitioner challenges the orders dated 19.07.2018 and 10.10.2018 passed by executing court and the appellate court, whereby both the courts below in proceedings for execution of decree refused the prayer of the petitioner to allow him to give some other property as dower instead of the property for which decree was passed and directed him to pay price of the decreed property in the alternate.\n\n2. It has been argued that both properties have equal value so the property may be substituted instead of directing to pay the alternate price of the decreed property.\n\n3. Substituting the property would amount to the executing court amending the decree, which is not permissible in law. As the executing court cannot go behind the decree, therefore, this Court while hearing constitutional petition against an order passed in execution petition can also not vary the terms of the decree, which can only be done by consent of the parties which has not been given by the respondents. Where the property decreed as dower was not available for transfer, the court was justified to fix its value of price to be paid in the alternate for the satisfaction of decree. Besides, the appellate court has observed that the question of value of price of gold ornaments may be raised before the court of first instance, therefore, this Court need not comment on said aspect of the matter. Consequently, there is no ground to interfere in the impugned orders and this constitutional petition is not maintainable. It is accordingly dismissed in limine.\n\nSA/J-2/L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "6d30e0539ae8179760cc4b1a:0000",
+        "parent_id": "6d30e0539ae8179760cc4b1a",
+        "doc_id": "6d30e0539ae8179760cc4b1a",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "source_start": 792,
+        "source_end": 1261,
+        "text": "MUZAMIL AKHTAR SHABIR, J.----Through instant constitutional petition, the petitioner challenges the orders dated 19.07.2018 and 10.10.2018 passed by executing court and the appellate court, whereby both the courts below in proceedings for execution of decree refused the prayer of the petitioner to allow him to give some other property as dower instead of the property for which decree was passed and directed him to pay price of the decreed property in the alternate.",
+        "word_count": 73,
+        "prev_chunk_id": null,
+        "next_chunk_id": "6d30e0539ae8179760cc4b1a:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "6d30e0539ae8179760cc4b1a:0001",
+        "parent_id": "6d30e0539ae8179760cc4b1a",
+        "doc_id": "6d30e0539ae8179760cc4b1a",
+        "chunk_index": 1,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1263,
+        "source_end": 1430,
+        "text": "2. It has been argued that both properties have equal value so the property may be substituted instead of directing to pay the alternate price of the decreed property.",
+        "word_count": 29,
+        "prev_chunk_id": "6d30e0539ae8179760cc4b1a:0000",
+        "next_chunk_id": "6d30e0539ae8179760cc4b1a:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "6d30e0539ae8179760cc4b1a:0002",
+        "parent_id": "6d30e0539ae8179760cc4b1a",
+        "doc_id": "6d30e0539ae8179760cc4b1a",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1432,
+        "source_end": 2400,
+        "text": "3. Substituting the property would amount to the executing court amending the decree, which is not permissible in law. As the executing court cannot go behind the decree, therefore, this Court while hearing constitutional petition against an order passed in execution petition can also not vary the terms of the decree, which can only be done by consent of the parties which has not been given by the respondents. Where the property decreed as dower was not available for transfer, the court was justified to fix its value of price to be paid in the alternate for the satisfaction of decree. Besides, the appellate court has observed that the question of value of price of gold ornaments may be raised before the court of first instance, therefore, this Court need not comment on said aspect of the matter. Consequently, there is no ground to interfere in the impugned orders and this constitutional petition is not maintainable. It is accordingly dismissed in limine.",
+        "word_count": 162,
+        "prev_chunk_id": "6d30e0539ae8179760cc4b1a:0001",
+        "next_chunk_id": "6d30e0539ae8179760cc4b1a:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "6d30e0539ae8179760cc4b1a:0003",
+        "parent_id": "6d30e0539ae8179760cc4b1a",
+        "doc_id": "6d30e0539ae8179760cc4b1a",
+        "chunk_index": 3,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 2402,
+        "source_end": 2430,
+        "text": "SA/J-2/L Petition dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "6d30e0539ae8179760cc4b1a:0002",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 4
+      },
+      "total_chunks": 4,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

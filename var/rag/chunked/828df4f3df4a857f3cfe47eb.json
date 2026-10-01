@@ -1,0 +1,105 @@
+{
+  "parent": {
+    "doc_id": "828df4f3df4a857f3cfe47eb",
+    "metadata": {
+      "doc_id": "828df4f3df4a857f3cfe47eb",
+      "case_title": "JAVAD IQBAL KHAN vs NAHID HUSSAIN and another",
+      "citation": "2011 P Cr",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Rauf Ahmad Sheikh"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "allowed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 5",
+        "Ss.10 & 11",
+        "section 10",
+        "section 11",
+        "Art.199"
+      ],
+      "source_relpath": "2011L3088",
+      "content_hash": "5f4c16f9412a1e33ff54ceac9920cee9598df1c7c02a015d43caadb7217695f5"
+    },
+    "full_text": "2011 P Cr. L J 1220\n\n[Lahore]\n\nBefore Rauf Ahmad Sheikh, J\n\nJAVAD IQBAL KHAN---Petitioner\n\nVersus\n\nNAHID HUSSAIN and another---Respondents\n\nWrit Petition No. 13364 of 2010, decided on 21th June, 2010.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched., Ss.10 & 11---Constitution of Pakistan, Art.199---Constitutional petition---Suit for dissolution of marriage on ground of Khula---Recording statement of plaintiff before filing of the written statement by the defendant---Plaintiff (wife) filed application under O.XVIII, R.16, C.P.C. and contended that she was proceeding abroad where she was serving as Doctor, so her statement be recorded---Family Court proceeded to record statement of the plaintiff before filing of the written statement of the defendant---Defendant had not been served till then in the suit and no notice of the application of the plaintiff was given to him before recording the statement of the plaintiff---Defendant was not afforded an opportunity of cross-examination---Family Court by not complying with provisions of Ss.10 & 11 of West Pakistan Family Courts Act, 1964 had committed irregularity in recording the evidence of the plaintiff without complying codal formalities and without giving notice to the defendant---Family Court should have allowed the defendant to file the written statement, fix a date for reconciliation; and if the reconciliation was not possible, should have proceeded further in accordance with law in passing the decree on principle of Khula---Order accordingly.\n\nZaheer-ud-Din Babar for Petitioner.\n\nORDER\n\nRAUF AHMAD SHEIKH, J.---The petitioner has assailed the vires of order dated 25-5-2010 whereby the statement of the respondent No.1 was recorded before filing of the written statement on an application submitted by her on 24-5-2010 under Order XVIII, Rule 16, C.P.C. She had contended that she was proceeding to Saudi Arabia, where she is serving as lady doctor so her statement be recorded. On this application, the learned trial Court proceeded on to record her statement.\n\n2. It is clear that the defendant/petitioner had not been served till then in the suit. No notice of the application was given to him before recording the statement. He was not afforded an opportunity of cross-examination. The Family Courts Act, 1964, provides a special procedure. Under section 10 of the Act ibid, after submission of the written statement, pre-trial hearing of the case is to be held and an effort, is to be made for reconciliation. If the reconciliation effort does not bear fruit then the court shall pass a decree for dissolution of marriage on the principle of Khula and the material propositions on which the parties are at variance are to be reduced into issues and then the evidence is to be recorded under section 11 thereof. This being so, the learned trial Court committed irregularity in recording the evidence of the respondent No.1 without completing codal formalities and without giving notice to the petitioner. The learned trial Court should allow the petitioner to file the written statement, fix a date for reconciliation and if the reconciliation is not possible should proceed further in accordance with law in passing the decree on principle of Khula and the remaining disputed matters be reduced into issues and thereafter the evidence be recorded in accordance with the provisions of law. With these observations, the writ petition stands disposed of.\n\nH.B.T./J-9/L Order accordingly.",
+    "chunks": [
+      {
+        "chunk_id": "828df4f3df4a857f3cfe47eb:0000",
+        "parent_id": "828df4f3df4a857f3cfe47eb",
+        "doc_id": "828df4f3df4a857f3cfe47eb",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 11,
+        "paragraph_end": 11,
+        "source_start": 1583,
+        "source_end": 2057,
+        "text": "RAUF AHMAD SHEIKH, J.---The petitioner has assailed the vires of order dated 25-5-2010 whereby the statement of the respondent No.1 was recorded before filing of the written statement on an application submitted by her on 24-5-2010 under Order XVIII, Rule 16, C.P.C. She had contended that she was proceeding to Saudi Arabia, where she is serving as lady doctor so her statement be recorded. On this application, the learned trial Court proceeded on to record her statement.",
+        "word_count": 77,
+        "prev_chunk_id": null,
+        "next_chunk_id": "828df4f3df4a857f3cfe47eb:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "828df4f3df4a857f3cfe47eb:0001",
+        "parent_id": "828df4f3df4a857f3cfe47eb",
+        "doc_id": "828df4f3df4a857f3cfe47eb",
+        "chunk_index": 1,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 2059,
+        "source_end": 3452,
+        "text": "2. It is clear that the defendant/petitioner had not been served till then in the suit. No notice of the application was given to him before recording the statement. He was not afforded an opportunity of cross-examination. The Family Courts Act, 1964, provides a special procedure. Under section 10 of the Act ibid, after submission of the written statement, pre-trial hearing of the case is to be held and an effort, is to be made for reconciliation. If the reconciliation effort does not bear fruit then the court shall pass a decree for dissolution of marriage on the principle of Khula and the material propositions on which the parties are at variance are to be reduced into issues and then the evidence is to be recorded under section 11 thereof. This being so, the learned trial Court committed irregularity in recording the evidence of the respondent No.1 without completing codal formalities and without giving notice to the petitioner. The learned trial Court should allow the petitioner to file the written statement, fix a date for reconciliation and if the reconciliation is not possible should proceed further in accordance with law in passing the decree on principle of Khula and the remaining disputed matters be reduced into issues and thereafter the evidence be recorded in accordance with the provisions of law. With these observations, the writ petition stands disposed of.",
+        "word_count": 229,
+        "prev_chunk_id": "828df4f3df4a857f3cfe47eb:0000",
+        "next_chunk_id": "828df4f3df4a857f3cfe47eb:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "828df4f3df4a857f3cfe47eb:0002",
+        "parent_id": "828df4f3df4a857f3cfe47eb",
+        "doc_id": "828df4f3df4a857f3cfe47eb",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 3454,
+        "source_end": 3485,
+        "text": "H.B.T./J-9/L Order accordingly.",
+        "word_count": 3,
+        "prev_chunk_id": "828df4f3df4a857f3cfe47eb:0001",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 3
+      },
+      "total_chunks": 3,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "parent": {
+    "doc_id": "3d01b44eabfc4b178a106349",
+    "metadata": {
+      "doc_id": "3d01b44eabfc4b178a106349",
+      "case_title": "ISRAR AHMED- vs Mst. PUKHRAJ AHAD-",
+      "citation": "2014 C L C 1029",
+      "court": "Sindh",
+      "court_location": "Sindh",
+      "decision_date": null,
+      "judges": [
+        "Farooq Ali Channa"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S.25"
+      ],
+      "source_relpath": "2014K240",
+      "content_hash": "33b0d28746ec6b1fba19d7bc972a3f32a6b2b40d98726979c82a44360025312e"
+    },
+    "full_text": "2014 C L C 1029\n\n[Sindh]\n\nBefore Farooq Ali Channa, J\n\nISRAR AHMED----Applicant\n\nVersus\n\nMst. PUKHRAJ AHAD----Respondent\n\nCivil Transfer Application No.S-20 of 2013 and C.M.A. No.415 of 2009, decided on 5th July, 2013.\n\nWest Pakistan Family Courts Rules, 1965---\n\n----R. 6---West Pakistan Family Courts Act (XXXV of 1964), S.25-A---Territorial jurisdiction of Family Court---Convenience of wife---Scope---Plea of husband that he faced inconvenience while coming to Family Court where case was being heard, therefore same should be transferred to any other Family Court at District Headquarters---Convenience of litigants was a main determining factor in family cases---Under Rule 6 of West Pakistan Family Courts Rules, 1965, the Family Court within the local limits of which wife ordinarily resided, had jurisdiction to entertain the suit---Normal rules providing for territorial jurisdiction for trial of cases in Family Courts had been relaxed in favour of females than the convenience of males, as females were generally put to great inconvenience if ordered to pursue their suit in a Family Court at some distance---Transfer application of husband was dismissed in circumstances.\n\nShahid Ali K. Memon for Applicant.\n\nMuhammad Yakoob Soomro for Respondent.\n\nORDER\n\nFAROOQ ALI CHANNA, J.--- Through this transfer application, the applicant seeks transfer of Family Suit No.10 of 2013 (Re-Mst. Pukhraj Ahad v. Israr Ahmed) pending adjudication before the Court of learned Family Judge, Pir-jo-Goth, on the sole ground that the applicant resides in Village -Dhamrah, Taluka and District Larkana and is facing inconvenience while coming to Court on the dates of hearing, therefore, he has prayed that the case may be transferred from Family. Court Pir-Jo-Goth to any other Family Court at District Headquarter, Khairpur Mirs.\n\nLearned counsel for the respondent has opposed the prayer and contended that in family matters the female litigants are to be accommodated, such suits are to be filed in Family Court in whose jurisdiction the female plaintiff resides temporarily or permanently. The applicant has also not challenged the jurisdiction of Family Court Learned counsel has further contended that Pir-Jo-Goth is at short distance in compare to the distance between the residential address of the applicant and District Headquarter, Khairpur Mirs. Learned counsel has further contended that transfer of family Suit from Pir-Jo-Goth to District Headquarter Khairpur Mirs will cause inconvenience to the respondent and she being lady will not be able to pursue her case properly, learned counsel has argued that the transfer application may be dismissed.\n\nI have considered the arguments and perused the record. Under Rule 6 of West Pakistan Family Courts Rules, 1965, the Family Court within the local limits of which wife ordinarily resides, has jurisdiction to entertain the suits Rule 6 of West Pakistan Family Courts Rules, 1965 reads as under:---\n\nRule 6. The Court which shall have jurisdiction to try a suit will be that within the local limits of which---\n\n(a) The cause of action wholly or in part has arisen, or\n\n(b) Where the parties reside or last resided together.\n\nProvided that in suits for dissolution of marriage or dower, the Court within the local limits of which the wife ordinarily resides shall also have jurisdiction.\n\nThe normal rules providing for territorial jurisdiction for trial of cases in family Courts have been relaxed in favour of female than to the convenience of the male as female are generally put to great inconvenience if ordered to pursue her suit in Family Court at some distance. Convenience of a litigants is main determining factor in family cases. In view of above, there is no legal justification for transfer, of family suit on the sole ground of inconvenience to the applicant in pursuing the case before Family Court Pir-Jo-Goth. Accordingly, the transfer application along with listed application is dismissed.\n\nMWA/I-18/Sindh Application dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "3d01b44eabfc4b178a106349:0000",
+        "parent_id": "3d01b44eabfc4b178a106349",
+        "doc_id": "3d01b44eabfc4b178a106349",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1269,
+        "source_end": 1825,
+        "text": "FAROOQ ALI CHANNA, J.--- Through this transfer application, the applicant seeks transfer of Family Suit No.10 of 2013 (Re-Mst. Pukhraj Ahad v. Israr Ahmed) pending adjudication before the Court of learned Family Judge, Pir-jo-Goth, on the sole ground that the applicant resides in Village -Dhamrah, Taluka and District Larkana and is facing inconvenience while coming to Court on the dates of hearing, therefore, he has prayed that the case may be transferred from Family. Court Pir-Jo-Goth to any other Family Court at District Headquarter, Khairpur Mirs.",
+        "word_count": 86,
+        "prev_chunk_id": null,
+        "next_chunk_id": "3d01b44eabfc4b178a106349:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3d01b44eabfc4b178a106349:0001",
+        "parent_id": "3d01b44eabfc4b178a106349",
+        "doc_id": "3d01b44eabfc4b178a106349",
+        "chunk_index": 1,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1827,
+        "source_end": 2657,
+        "text": "Learned counsel for the respondent has opposed the prayer and contended that in family matters the female litigants are to be accommodated, such suits are to be filed in Family Court in whose jurisdiction the female plaintiff resides temporarily or permanently. The applicant has also not challenged the jurisdiction of Family Court Learned counsel has further contended that Pir-Jo-Goth is at short distance in compare to the distance between the residential address of the applicant and District Headquarter, Khairpur Mirs. Learned counsel has further contended that transfer of family Suit from Pir-Jo-Goth to District Headquarter Khairpur Mirs will cause inconvenience to the respondent and she being lady will not be able to pursue her case properly, learned counsel has argued that the transfer application may be dismissed.",
+        "word_count": 127,
+        "prev_chunk_id": "3d01b44eabfc4b178a106349:0000",
+        "next_chunk_id": "3d01b44eabfc4b178a106349:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3d01b44eabfc4b178a106349:0002",
+        "parent_id": "3d01b44eabfc4b178a106349",
+        "doc_id": "3d01b44eabfc4b178a106349",
+        "chunk_index": 2,
+        "section": "applicable_law",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 2659,
+        "source_end": 2955,
+        "text": "I have considered the arguments and perused the record. Under Rule 6 of West Pakistan Family Courts Rules, 1965, the Family Court within the local limits of which wife ordinarily resides, has jurisdiction to entertain the suits Rule 6 of West Pakistan Family Courts Rules, 1965 reads as under:---",
+        "word_count": 49,
+        "prev_chunk_id": "3d01b44eabfc4b178a106349:0001",
+        "next_chunk_id": "3d01b44eabfc4b178a106349:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3d01b44eabfc4b178a106349:0003",
+        "parent_id": "3d01b44eabfc4b178a106349",
+        "doc_id": "3d01b44eabfc4b178a106349",
+        "chunk_index": 3,
+        "section": "quoted_material",
+        "span_kind": "quoted_material",
+        "paragraph_start": 15,
+        "paragraph_end": 18,
+        "source_start": 2957,
+        "source_end": 3344,
+        "text": "Rule 6. The Court which shall have jurisdiction to try a suit will be that within the local limits of which---\n\n(a) The cause of action wholly or in part has arisen, or\n\n(b) Where the parties reside or last resided together.\n\nProvided that in suits for dissolution of marriage or dower, the Court within the local limits of which the wife ordinarily resides shall also have jurisdiction.",
+        "word_count": 68,
+        "prev_chunk_id": "3d01b44eabfc4b178a106349:0002",
+        "next_chunk_id": "3d01b44eabfc4b178a106349:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3d01b44eabfc4b178a106349:0004",
+        "parent_id": "3d01b44eabfc4b178a106349",
+        "doc_id": "3d01b44eabfc4b178a106349",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 19,
+        "paragraph_end": 19,
+        "source_start": 3346,
+        "source_end": 3965,
+        "text": "The normal rules providing for territorial jurisdiction for trial of cases in family Courts have been relaxed in favour of female than to the convenience of the male as female are generally put to great inconvenience if ordered to pursue her suit in Family Court at some distance. Convenience of a litigants is main determining factor in family cases. In view of above, there is no legal justification for transfer, of family suit on the sole ground of inconvenience to the applicant in pursuing the case before Family Court Pir-Jo-Goth. Accordingly, the transfer application along with listed application is dismissed.",
+        "word_count": 100,
+        "prev_chunk_id": "3d01b44eabfc4b178a106349:0003",
+        "next_chunk_id": "3d01b44eabfc4b178a106349:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "3d01b44eabfc4b178a106349:0005",
+        "parent_id": "3d01b44eabfc4b178a106349",
+        "doc_id": "3d01b44eabfc4b178a106349",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 20,
+        "paragraph_end": 20,
+        "source_start": 3967,
+        "source_end": 4004,
+        "text": "MWA/I-18/Sindh Application dismissed.",
+        "word_count": 3,
+        "prev_chunk_id": "3d01b44eabfc4b178a106349:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

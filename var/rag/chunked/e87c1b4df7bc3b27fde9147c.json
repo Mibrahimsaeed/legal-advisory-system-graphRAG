@@ -1,0 +1,160 @@
+{
+  "parent": {
+    "doc_id": "e87c1b4df7bc3b27fde9147c",
+    "metadata": {
+      "doc_id": "e87c1b4df7bc3b27fde9147c",
+      "case_title": "HUSSAIN BAKHSH vs NASIM MAI and another",
+      "citation": "2011 YLR 1141",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Muhammad Khalid Mehmood Khan"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "allowed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)"
+      ],
+      "provisions_cited": [
+        "S. 5",
+        "S.14",
+        "Art. 199"
+      ],
+      "source_relpath": "2011L4148",
+      "content_hash": "c2f42ade1f600374c9c9b4332e9f6bc4930610605581091f1f7d7c25ebd7277a"
+    },
+    "full_text": "2011 YLR 1141\n\n[Lahore]\n\nBefore Muhammad Khalid Mehmood Khan, J\n\nHUSSAIN BAKHSH---Petitioner\n\nVersus\n\nNASIM MAI and another---Respondents\n\nWrit Petition No.21000 of 2009, decided on 14th May, 2010.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5, Sched. & S.14---Constitution of Pakistan, Art. 199--- Constitutional petition---Suit for recovery of dowry articles---Plaintiff filed suit for return of dowry articles or in alternative its price Rs.2,43,500---Family Court decreed the suit directing the defendant to pay Rs.50,000 as amount of dowry articles---On filing appeal by the plaintiff against judgment of the Family Court, Appellate Court decreed the suit for return of dowry articles or in alternate the price of Rs.2,43,500 as was claimed by the plaintiff in her suit---Marriage of parties was solemnized seven years ago from the date of institution of the suit and Appellate Court had failed to appreciate that the dowry articles had lost their value during said seven years---Judgment and decree passed by the Appellate Court was set aside and case was remanded to Appellate Court to consider the effect of depreciation of value of dowry articles and after hearing the parties decide the suit on merits.\n\nRana Muhammad Naeem Khan for Petitioner.\n\nRaja Aamir Aziz for Respondents.\n\nORDER\n\nMUHAMMAD KHALID MEHMOOD KHAN, J.---The petitioner has assailed the judgment and decree dated 10-7-2009 passed by learned Fancily Court and judgment and decree dated 1-10-2009 passed by learned Addl. District Judge Bhakkar.\n\n2. Facts relevant for the purpose of disposal of this writ petition are that Mst. Nasim Mai respondent filed a suit for recovery of maintenance allowance and return of dowry articles or in alternative its price Rs.2,43,500. The marriage between the parties was solemnized 7 years ago and a dead female child was born out of their wedlock. The petitioner turned her out from his house. The petitioner/defendant appeared and contested the suit, the learned trial Court framed six issues and after recording evidence of the parties and perusing the record, the learned Family Court decreed the suit and directed the petitioner/defendant to pay Rs.2,000 per month to the respondent her maintenance allowance from the date of institution of the still till the existence of Nikah and suit for recovery of dowry articles was decreed to the extent of Rs.50,000. The said judgment and decree was assailed by the respondent/ plaintiff and the learned appeal Court accepted the appeal and decreed the suit for return of dowry articles or in alternative its price of Rs.2,43,500 as per list (Alif). The petitioner/defendant assailed the judgment and decree of learned appeal Court through the present writ petition.\n\n3. Learned counsel for time petitioner argues that learned appeal Court has not properly appreciated the evidence available on record. He submits that it is an admitted fact between the parties that the marriage was solemnized 7 years ago from the date of institution of the suit and the learned appeal Court has failed to appreciate that the dowry articles have lost their value. He further submits that the list (Alif) is not exhibited on record and as such the same cannot be relied upon.\n\n4. Learned counsel for the respondents has supported the judgment and decree passed by the learned appellate Court.\n\n5. The argument of learned counsel for the petitioner has a weight when he submits that the marriage was solemnized 7 years ago from the date of institution of the suit and the dowry articles remained in use of both the parties and after the lapse of 7 years the value of the dowry articles are not which was claimed by the respondents. The learned appeal Court was bound to consider this fact that with the passage of time the house hold articles depreciates in value and the fact of depreciation of value of dowry articles should have been considered while granting the decree for return of dowry articles or in alternative its price. The respondent herself has claimed that the value of dowry articles is Rs.2,43,500 but this value was 7 years before the date of decree. Learned counsel for the respondent has no answer to this fact. In view of this, this writ petition is allowed. The judgment and decree passed by the learned appeal Court is set aside and the case is remanded to the learned appeal Court to consider the effect of depreciation in value of dowry articles and after hearing the parties decide d the suit on merits.\n\nH.B.T./H-12/L Case remanded.",
+    "chunks": [
+      {
+        "chunk_id": "e87c1b4df7bc3b27fde9147c:0000",
+        "parent_id": "e87c1b4df7bc3b27fde9147c",
+        "doc_id": "e87c1b4df7bc3b27fde9147c",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 1312,
+        "source_end": 1534,
+        "text": "MUHAMMAD KHALID MEHMOOD KHAN, J.---The petitioner has assailed the judgment and decree dated 10-7-2009 passed by learned Fancily Court and judgment and decree dated 1-10-2009 passed by learned Addl. District Judge Bhakkar.",
+        "word_count": 32,
+        "prev_chunk_id": null,
+        "next_chunk_id": "e87c1b4df7bc3b27fde9147c:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e87c1b4df7bc3b27fde9147c:0001",
+        "parent_id": "e87c1b4df7bc3b27fde9147c",
+        "doc_id": "e87c1b4df7bc3b27fde9147c",
+        "chunk_index": 1,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 1536,
+        "source_end": 2739,
+        "text": "2. Facts relevant for the purpose of disposal of this writ petition are that Mst. Nasim Mai respondent filed a suit for recovery of maintenance allowance and return of dowry articles or in alternative its price Rs.2,43,500. The marriage between the parties was solemnized 7 years ago and a dead female child was born out of their wedlock. The petitioner turned her out from his house. The petitioner/defendant appeared and contested the suit, the learned trial Court framed six issues and after recording evidence of the parties and perusing the record, the learned Family Court decreed the suit and directed the petitioner/defendant to pay Rs.2,000 per month to the respondent her maintenance allowance from the date of institution of the still till the existence of Nikah and suit for recovery of dowry articles was decreed to the extent of Rs.50,000. The said judgment and decree was assailed by the respondent/ plaintiff and the learned appeal Court accepted the appeal and decreed the suit for return of dowry articles or in alternative its price of Rs.2,43,500 as per list (Alif). The petitioner/defendant assailed the judgment and decree of learned appeal Court through the present writ petition.",
+        "word_count": 195,
+        "prev_chunk_id": "e87c1b4df7bc3b27fde9147c:0000",
+        "next_chunk_id": "e87c1b4df7bc3b27fde9147c:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e87c1b4df7bc3b27fde9147c:0002",
+        "parent_id": "e87c1b4df7bc3b27fde9147c",
+        "doc_id": "e87c1b4df7bc3b27fde9147c",
+        "chunk_index": 2,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 2741,
+        "source_end": 3232,
+        "text": "3. Learned counsel for time petitioner argues that learned appeal Court has not properly appreciated the evidence available on record. He submits that it is an admitted fact between the parties that the marriage was solemnized 7 years ago from the date of institution of the suit and the learned appeal Court has failed to appreciate that the dowry articles have lost their value. He further submits that the list (Alif) is not exhibited on record and as such the same cannot be relied upon.",
+        "word_count": 85,
+        "prev_chunk_id": "e87c1b4df7bc3b27fde9147c:0001",
+        "next_chunk_id": "e87c1b4df7bc3b27fde9147c:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e87c1b4df7bc3b27fde9147c:0003",
+        "parent_id": "e87c1b4df7bc3b27fde9147c",
+        "doc_id": "e87c1b4df7bc3b27fde9147c",
+        "chunk_index": 3,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 3234,
+        "source_end": 3349,
+        "text": "4. Learned counsel for the respondents has supported the judgment and decree passed by the learned appellate Court.",
+        "word_count": 18,
+        "prev_chunk_id": "e87c1b4df7bc3b27fde9147c:0002",
+        "next_chunk_id": "e87c1b4df7bc3b27fde9147c:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e87c1b4df7bc3b27fde9147c:0004",
+        "parent_id": "e87c1b4df7bc3b27fde9147c",
+        "doc_id": "e87c1b4df7bc3b27fde9147c",
+        "chunk_index": 4,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 3351,
+        "source_end": 4485,
+        "text": "5. The argument of learned counsel for the petitioner has a weight when he submits that the marriage was solemnized 7 years ago from the date of institution of the suit and the dowry articles remained in use of both the parties and after the lapse of 7 years the value of the dowry articles are not which was claimed by the respondents. The learned appeal Court was bound to consider this fact that with the passage of time the house hold articles depreciates in value and the fact of depreciation of value of dowry articles should have been considered while granting the decree for return of dowry articles or in alternative its price. The respondent herself has claimed that the value of dowry articles is Rs.2,43,500 but this value was 7 years before the date of decree. Learned counsel for the respondent has no answer to this fact. In view of this, this writ petition is allowed. The judgment and decree passed by the learned appeal Court is set aside and the case is remanded to the learned appeal Court to consider the effect of depreciation in value of dowry articles and after hearing the parties decide d the suit on merits.",
+        "word_count": 203,
+        "prev_chunk_id": "e87c1b4df7bc3b27fde9147c:0003",
+        "next_chunk_id": "e87c1b4df7bc3b27fde9147c:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "e87c1b4df7bc3b27fde9147c:0005",
+        "parent_id": "e87c1b4df7bc3b27fde9147c",
+        "doc_id": "e87c1b4df7bc3b27fde9147c",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 4487,
+        "source_end": 4515,
+        "text": "H.B.T./H-12/L Case remanded.",
+        "word_count": 3,
+        "prev_chunk_id": "e87c1b4df7bc3b27fde9147c:0004",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 6
+      },
+      "total_chunks": 6,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

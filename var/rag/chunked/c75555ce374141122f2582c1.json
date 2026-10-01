@@ -1,0 +1,109 @@
+{
+  "parent": {
+    "doc_id": "c75555ce374141122f2582c1",
+    "metadata": {
+      "doc_id": "c75555ce374141122f2582c1",
+      "case_title": "IRFAN AHMED vs II-JUDICIAL MAGISTRATE EAST, AT KARACHI and another",
+      "citation": "2006 M L D 135",
+      "court": "Karachi",
+      "court_location": "Karachi",
+      "decision_date": null,
+      "judges": [
+        "Sabihuddin Ahmed",
+        "C"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "disposed_accordingly",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "Ss.5",
+        "Section 14",
+        "section 14",
+        "section 17",
+        "section 115",
+        "Art. 199"
+      ],
+      "source_relpath": "2006K2510",
+      "content_hash": "b8482bc2c2fb2946a63e0b3fe89a5cc8eccf756f690dc598eb8f76601cc294d3"
+    },
+    "full_text": "2006 M L D 135\n\n[Karachi]\n\nBefore Sabihuddin Ahmed, CJ\n\nIRFAN AHMED---Petitioner\n\nVersus\n\nII-JUDICIAL MAGISTRATE EAST, AT KARACHI and another---Respondents\n\nConstitutional Petition No.460 of 2005, decided on 20th October, 2005.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----Ss.5 & Sched., 14(3) [as amended by Family Courts Act (Amendment) Ordinance (LV of 2002).] & 17---Constitution of Pakistan (1973), Art. 199---Constitutional petition, maintainability of----Custody of minors---Section 14(3) of West Pakistan Family Courts Act, 1964 had provided no appeal or revision against an interim order of Family Court, constitutional petition being the only remedy same was maintainable---Petition was admitted to regular hearing by consent, and date of hearing was fixed---Both counsel of parties agreed that they would make efforts to work out amenable `settlement' between the parties---Petitioner undertook that he would comply with impugned order subject to result of present constitutional petition---Respondent also agreed that visitation rights would be available to petitioner for four hours on every Friday so that he could collect the minors.\n\nZaibun Nisa v. Muhammad Muzzamil PLD 1972 Karachi 401 ref.\n\nSathi M. Ishaque for Petitioner.\n\nNehal Hashmi for Respondent.\n\nORDER\n\nSABIHUDDIN AHMED, CJ.---To be filed before the next date.\n\nAs regards the maintainability of this petition, learned counsel has urged that under the newly added section 14(3) of the Family Courts Act, an appeal or a revision does not lie against an interim order of a Family Court and therefore, this petition appears to be the only remedy. I am also conscious that a Full Bench of this Court in Zaibun Nisa v. Muhammad Muzzamil (PLD 1972 Karachi 401) has clearly held that in view of section 17 of the Family Courts Act, section 115, C.P.C. will not apply and therefore a revision will not be maintainable. Considering the above Full Bench judgment of this Court, it is not possible to rely on the view taken by some Indian Courts and this petition is found to be maintainable. By consent the petition is admitted to regular hearing and fixed on 28-10-2005 and both learned counsel agree that they will make efforts to work out amicable settlement. The petitioner undertakes that he will comply with the impugned order subject to the result of this petition instantly and the respondent agree that visitation rights will be available to the petitioner for four hours every Friday so that he may collect the minors from the house between 4 and 5 p.m. and re-deliver them at the house of the respondent's father before 9-00 p.m. The petitioner may also visit the respondent or the minors at the residence of her father at any other time by mutual agreement but will not remove the children except as stated above.\n\n3. To come up along with main petition.\n\nH.B.T./I-38/K????????????????????????????????????????????????????????????????????????????????????? Order accordingly.",
+    "chunks": [
+      {
+        "chunk_id": "c75555ce374141122f2582c1:0000",
+        "parent_id": "c75555ce374141122f2582c1",
+        "doc_id": "c75555ce374141122f2582c1",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 14,
+        "source_start": 1292,
+        "source_end": 2804,
+        "text": "SABIHUDDIN AHMED, CJ.---To be filed before the next date.\n\nAs regards the maintainability of this petition, learned counsel has urged that under the newly added section 14(3) of the Family Courts Act, an appeal or a revision does not lie against an interim order of a Family Court and therefore, this petition appears to be the only remedy. I am also conscious that a Full Bench of this Court in Zaibun Nisa v. Muhammad Muzzamil (PLD 1972 Karachi 401) has clearly held that in view of section 17 of the Family Courts Act, section 115, C.P.C. will not apply and therefore a revision will not be maintainable. Considering the above Full Bench judgment of this Court, it is not possible to rely on the view taken by some Indian Courts and this petition is found to be maintainable. By consent the petition is admitted to regular hearing and fixed on 28-10-2005 and both learned counsel agree that they will make efforts to work out amicable settlement. The petitioner undertakes that he will comply with the impugned order subject to the result of this petition instantly and the respondent agree that visitation rights will be available to the petitioner for four hours every Friday so that he may collect the minors from the house between 4 and 5 p.m. and re-deliver them at the house of the respondent's father before 9-00 p.m. The petitioner may also visit the respondent or the minors at the residence of her father at any other time by mutual agreement but will not remove the children except as stated above.",
+        "word_count": 264,
+        "prev_chunk_id": null,
+        "next_chunk_id": "c75555ce374141122f2582c1:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "c75555ce374141122f2582c1:0001",
+        "parent_id": "c75555ce374141122f2582c1",
+        "doc_id": "c75555ce374141122f2582c1",
+        "chunk_index": 1,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2806,
+        "source_end": 2845,
+        "text": "3. To come up along with main petition.",
+        "word_count": 8,
+        "prev_chunk_id": "c75555ce374141122f2582c1:0000",
+        "next_chunk_id": "c75555ce374141122f2582c1:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "c75555ce374141122f2582c1:0002",
+        "parent_id": "c75555ce374141122f2582c1",
+        "doc_id": "c75555ce374141122f2582c1",
+        "chunk_index": 2,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 2847,
+        "source_end": 2964,
+        "text": "H.B.T./I-38/K????????????????????????????????????????????????????????????????????????????????????? Order accordingly.",
+        "word_count": 3,
+        "prev_chunk_id": "c75555ce374141122f2582c1:0001",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "250-499": 1,
+        "<250": 2
+      },
+      "total_chunks": 3,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}

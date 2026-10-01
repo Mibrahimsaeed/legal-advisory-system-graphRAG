@@ -1,0 +1,179 @@
+{
+  "parent": {
+    "doc_id": "6c9ac4371554365c2927128e",
+    "metadata": {
+      "doc_id": "6c9ac4371554365c2927128e",
+      "case_title": "Mst. BALQEES BIBI vs MUMTAZ ALI and 2 others",
+      "citation": "2010 Y L R 2313",
+      "court": "Lahore",
+      "court_location": "Lahore",
+      "decision_date": null,
+      "judges": [
+        "Muhammad Farrukh Irfan Khan"
+      ],
+      "case_number": null,
+      "primary_domain": "family_law",
+      "classification_status": "auto_accepted",
+      "disposition": "dismissed",
+      "statutes_cited": [
+        "West Pakistan Family Courts Act (XXXV of 1964)",
+        "Constitution of Pakistan (1973)"
+      ],
+      "provisions_cited": [
+        "S. 5",
+        "Art. 199"
+      ],
+      "source_relpath": "2010L4418",
+      "content_hash": "eefa4746f6bb0e15895003b57f1eccf8f777fcbafe51af943ba0a3f70c47e868"
+    },
+    "full_text": "2010 Y L R 2313\n\n[Lahore]\n\nBefore Muhammad Farrukh Irfan Khan, J\n\nMst. BALQEES BIBI---Petitioner\n\nVersus\n\nMUMTAZ ALI and 2 others---Respondents\n\nWrit Petition No. 16419 of 2003, decided on 17th May, 2010.\n\nWest Pakistan Family Courts Act (XXXV of 1964)---\n\n----S. 5 & Sched.---Constitution of Pakistan (1973), Art. 199---Constitutional jurisdiction--- Scope--- Suit for dissolution of marriage, maintenance allowance and dowry articles--- Finding of facts---High Court, in its extraordinary jurisdiction, could neither substitute finding of facts recorded by Family Court nor give its opinion about adequacy or quality of evidence.\n\nMian Muhammad Haneef for Petitioner.\n\nRespondent No.1 proceeded ex parte.\n\nORDER\n\nMUHAMMAD FARRUKH IRFAN KHAN, J.---Petitioner through this Constitutional petition assails the findings of Courts below recorded against the petitioner on issue No.4 in the impugned judgments and decree dated 17-3-2003 and 16-6-2003.\n\n2. Facts of the case in brief are that the petitioner filed a suit for dissolution of marriage along with two other suits one for recovery of maintenance allowance and other for dowry articles. Respondent No.1 contested all the three suits by filing written statement. Learned trial Court framed issues Nos. 1 to 4 in the suit for dissolution of marriage. Both the parties led their respective evidence and learned Judge Family Court through the impugned judgment and decree dated 17-3-2003 proceeded to decree the suit of the petitioner on the ground of Khula in lieu of her deferred dower, the maintenance allowance and six tolas gold ornaments valuing Rs. 60,000. Being aggrieved, the petitioner preferred an appeal before the learned appellate Court, which also met the same fate, vide judgment and decree dated 16-6-2003. Hence, this writ petition.\n\n2-A. Learned counsel for the petitioner submits that judgments and decree of both the Courts below on issue No.4 are based on surmises and conjectures; that from the evidence it has not been proved that said gold ornaments were in possession of petitioner; that the petitioner through her evidence proved that respondent No.1 is a man of bad character, involved in criminal activities, treated the petitioner with habitual cruelty, failed to pay her maintenance allowance, thus, her marriage is liable to be dissolved on the basis of cruelty and non-maintenance and not on the ground of Khula; that both the Courts below fell in error while recording findings on issue No. 4 through the impugned judgments and decree.\n\n3. Arguments heard. Record perused.\n\n4. Bare perusal of contents of Nikahnama shows that at the time of Nikah six tolas of gold ornaments were given to the petitioner and this very fact was also admitted by the petitioner while appearing in the witness box as P.W.1 during her cross-examination. However, the stance of the petitioner is that respondent No.1 snatched the same, when she was kicked out. Both the Courts below while recording findings on issue No.4 have duly appreciated the evidence available on record and come to the conclusion that the petitioner failed to prove her stance through cogent evidence. So far as decree of dissolution of marriage on the grounds of cruelty and non-payment of maintenance allowance is concerned, appreciation, appraisal and interpretation of evidence available on record made by the learned trial Court and affirmed by the learned appellate Court are based on correct analysis thereof. View so taken by the Courts below is absolutely justified from the law applicable. This Court in its extraordinary jurisdiction can neither substitute finding of fact recorded by family Court nor give its opinion about adequacy or quality of evidence. Learned counsel for the petitioner failed to point out any illegality or irregularity in the concurrent findings of Courts below warranting interference by this Court.\n\n5. Resultantly, I find no merits in this petition and the same is hereby dismissed.\n\nM. U. Y. /B-11 /L Petition dismissed.",
+    "chunks": [
+      {
+        "chunk_id": "6c9ac4371554365c2927128e:0000",
+        "parent_id": "6c9ac4371554365c2927128e",
+        "doc_id": "6c9ac4371554365c2927128e",
+        "chunk_index": 0,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 12,
+        "paragraph_end": 12,
+        "source_start": 715,
+        "source_end": 947,
+        "text": "MUHAMMAD FARRUKH IRFAN KHAN, J.---Petitioner through this Constitutional petition assails the findings of Courts below recorded against the petitioner on issue No.4 in the impugned judgments and decree dated 17-3-2003 and 16-6-2003.",
+        "word_count": 32,
+        "prev_chunk_id": null,
+        "next_chunk_id": "6c9ac4371554365c2927128e:0001",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "6c9ac4371554365c2927128e:0001",
+        "parent_id": "6c9ac4371554365c2927128e",
+        "doc_id": "6c9ac4371554365c2927128e",
+        "chunk_index": 1,
+        "section": "facts",
+        "span_kind": "semantic_section",
+        "paragraph_start": 13,
+        "paragraph_end": 13,
+        "source_start": 949,
+        "source_end": 1802,
+        "text": "2. Facts of the case in brief are that the petitioner filed a suit for dissolution of marriage along with two other suits one for recovery of maintenance allowance and other for dowry articles. Respondent No.1 contested all the three suits by filing written statement. Learned trial Court framed issues Nos. 1 to 4 in the suit for dissolution of marriage. Both the parties led their respective evidence and learned Judge Family Court through the impugned judgment and decree dated 17-3-2003 proceeded to decree the suit of the petitioner on the ground of Khula in lieu of her deferred dower, the maintenance allowance and six tolas gold ornaments valuing Rs. 60,000. Being aggrieved, the petitioner preferred an appeal before the learned appellate Court, which also met the same fate, vide judgment and decree dated 16-6-2003. Hence, this writ petition.",
+        "word_count": 139,
+        "prev_chunk_id": "6c9ac4371554365c2927128e:0000",
+        "next_chunk_id": "6c9ac4371554365c2927128e:0002",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "6c9ac4371554365c2927128e:0002",
+        "parent_id": "6c9ac4371554365c2927128e",
+        "doc_id": "6c9ac4371554365c2927128e",
+        "chunk_index": 2,
+        "section": "arguments",
+        "span_kind": "semantic_section",
+        "paragraph_start": 14,
+        "paragraph_end": 14,
+        "source_start": 1804,
+        "source_end": 2521,
+        "text": "2-A. Learned counsel for the petitioner submits that judgments and decree of both the Courts below on issue No.4 are based on surmises and conjectures; that from the evidence it has not been proved that said gold ornaments were in possession of petitioner; that the petitioner through her evidence proved that respondent No.1 is a man of bad character, involved in criminal activities, treated the petitioner with habitual cruelty, failed to pay her maintenance allowance, thus, her marriage is liable to be dissolved on the basis of cruelty and non-maintenance and not on the ground of Khula; that both the Courts below fell in error while recording findings on issue No. 4 through the impugned judgments and decree.",
+        "word_count": 118,
+        "prev_chunk_id": "6c9ac4371554365c2927128e:0001",
+        "next_chunk_id": "6c9ac4371554365c2927128e:0003",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "6c9ac4371554365c2927128e:0003",
+        "parent_id": "6c9ac4371554365c2927128e",
+        "doc_id": "6c9ac4371554365c2927128e",
+        "chunk_index": 3,
+        "section": "procedural_history",
+        "span_kind": "semantic_section",
+        "paragraph_start": 15,
+        "paragraph_end": 15,
+        "source_start": 2523,
+        "source_end": 2558,
+        "text": "3. Arguments heard. Record perused.",
+        "word_count": 5,
+        "prev_chunk_id": "6c9ac4371554365c2927128e:0002",
+        "next_chunk_id": "6c9ac4371554365c2927128e:0004",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "6c9ac4371554365c2927128e:0004",
+        "parent_id": "6c9ac4371554365c2927128e",
+        "doc_id": "6c9ac4371554365c2927128e",
+        "chunk_index": 4,
+        "section": "court_reasoning",
+        "span_kind": "semantic_section",
+        "paragraph_start": 16,
+        "paragraph_end": 16,
+        "source_start": 2560,
+        "source_end": 3874,
+        "text": "4. Bare perusal of contents of Nikahnama shows that at the time of Nikah six tolas of gold ornaments were given to the petitioner and this very fact was also admitted by the petitioner while appearing in the witness box as P.W.1 during her cross-examination. However, the stance of the petitioner is that respondent No.1 snatched the same, when she was kicked out. Both the Courts below while recording findings on issue No.4 have duly appreciated the evidence available on record and come to the conclusion that the petitioner failed to prove her stance through cogent evidence. So far as decree of dissolution of marriage on the grounds of cruelty and non-payment of maintenance allowance is concerned, appreciation, appraisal and interpretation of evidence available on record made by the learned trial Court and affirmed by the learned appellate Court are based on correct analysis thereof. View so taken by the Courts below is absolutely justified from the law applicable. This Court in its extraordinary jurisdiction can neither substitute finding of fact recorded by family Court nor give its opinion about adequacy or quality of evidence. Learned counsel for the petitioner failed to point out any illegality or irregularity in the concurrent findings of Courts below warranting interference by this Court.",
+        "word_count": 210,
+        "prev_chunk_id": "6c9ac4371554365c2927128e:0003",
+        "next_chunk_id": "6c9ac4371554365c2927128e:0005",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "6c9ac4371554365c2927128e:0005",
+        "parent_id": "6c9ac4371554365c2927128e",
+        "doc_id": "6c9ac4371554365c2927128e",
+        "chunk_index": 5,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 17,
+        "paragraph_end": 17,
+        "source_start": 3876,
+        "source_end": 3959,
+        "text": "5. Resultantly, I find no merits in this petition and the same is hereby dismissed.",
+        "word_count": 15,
+        "prev_chunk_id": "6c9ac4371554365c2927128e:0004",
+        "next_chunk_id": "6c9ac4371554365c2927128e:0006",
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      },
+      {
+        "chunk_id": "6c9ac4371554365c2927128e:0006",
+        "parent_id": "6c9ac4371554365c2927128e",
+        "doc_id": "6c9ac4371554365c2927128e",
+        "chunk_index": 6,
+        "section": "final_order",
+        "span_kind": "final_order",
+        "paragraph_start": 18,
+        "paragraph_end": 18,
+        "source_start": 3961,
+        "source_end": 3998,
+        "text": "M. U. Y. /B-11 /L Petition dismissed.",
+        "word_count": 7,
+        "prev_chunk_id": "6c9ac4371554365c2927128e:0005",
+        "next_chunk_id": null,
+        "is_overlap": false,
+        "overlap_paragraph_count": 0,
+        "oversized_single_paragraph": false
+      }
+    ]
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "diagnostics": {
+      "size_histogram": {
+        "<250": 7
+      },
+      "total_chunks": 7,
+      "overlap_chunk_count": 0,
+      "oversized_single_paragraph_count": 0,
+      "coverage_and_section_checks_run": true
+    }
+  }
+}
