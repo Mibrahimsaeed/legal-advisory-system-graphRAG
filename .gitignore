@@ -39,3 +39,5 @@ var/checkpoints/
 
 # Scratch workspace (if used)
 var/scratch/
+var/
+var/
