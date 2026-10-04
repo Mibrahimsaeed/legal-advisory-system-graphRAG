@@ -1,0 +1,15 @@
+# Curated domain for the statute ingestion pipeline (src/rag_prep/statute_ingestion.py).
+#
+# Deliberately NOT part of config/domains.yaml (the case-law classification
+# taxonomy registry, owned by src/classification/taxonomy_registry.py) --
+# statutes are never run through the case-law classifier, so their domain
+# is a hand-curated value, not a classification output. Kept in its own
+# file, loaded only by statute_ingestion.py, so the two domain concepts
+# (classified case-law domain vs. curated statute domain) never share a
+# registry or an entry point. This also keeps the literal domain string
+# out of Python source, per the project-wide invariant enforced by
+# tests/test_phase1_foundation.py::test_domains_are_not_hardcoded_in_python
+# (domain ids live in config, not as Python constants).
+
+domain: family_law
+domain_source: curated
