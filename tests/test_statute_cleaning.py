@@ -111,6 +111,24 @@ def test_date_generation_stamp_removed():
     assert "1. Short title." in cleaned
 
 
+def test_rgn_prefixed_date_stamp_removed():
+    # Confirmed in 2 of 9 real documents: "RGN Date: DD-MM-YYYY",
+    # sometimes with a leading horizontal-rule-style underscore run.
+    text = "1. Short title.\n\nRGN Date: 06-05-2024\n\n1Omitted by some Ordinance."
+    cleaned, _ = clean_statute_text(text)
+    assert "RGN" not in cleaned
+    assert "1. Short title." in cleaned
+    assert "1Omitted by some Ordinance." in cleaned
+
+
+def test_underscore_prefixed_rgn_date_stamp_removed():
+    text = "6. [Repealed].\n\n________                    RGN Date: 24-03-2025\n\n1Omitted by West Pakistan Act."
+    cleaned, _ = clean_statute_text(text)
+    assert "RGN" not in cleaned
+    assert "6. [Repealed]." in cleaned
+    assert "1Omitted by West Pakistan Act." in cleaned
+
+
 def test_final_copy_stamp_removed():
     text = "FINAL COPY Updated till 17.1.2025\n\n1. Short title. Real content here."
     cleaned, _ = clean_statute_text(text)
@@ -303,6 +321,281 @@ def test_no_unexpected_large_deletion_for_text_with_no_noise_patterns():
     assert "1. Short title." in cleaned
     assert "2. Definitions." in cleaned
     assert "3. Jurisdiction of the Family Court." in cleaned
+
+
+# -- inline amendment markers / amendment notes / section-looking text ------------
+# (confirmed against the real Child Marriage Restraint Act text, which
+# exposed the RGN-stamp gap this task was specifically about)
+
+def test_inline_amendment_markers_preserved_verbatim():
+    text = ('1. Short title. X.\n\n'
+            '2. Definitions. A "child" is under 3[sixteen] years. '
+            '1[* * *] 4[or is about to be] 2[Magistrate of the first class].')
+    cleaned, _ = clean_statute_text(text)
+    for marker in ('3[sixteen]', '1[* * *]', '4[or is about to be]', '2[Magistrate of the first class]'):
+        assert marker in cleaned
+
+
+def test_amendment_markers_are_never_interpreted_or_stripped():
+    # The cleaner must not transform "2[Magistrate of the first class]"
+    # into "Magistrate of the first class" -- that is a retrieval-
+    # specific representation that belongs to a later stage, not cleaning.
+    text = '1. Short title. No Court other than a 2[Magistrate of the first class] shall act.'
+    cleaned, _ = clean_statute_text(text)
+    assert "2[Magistrate of the first class]" in cleaned
+    assert cleaned.count("Magistrate of the first class]") == cleaned.count("2[Magistrate of the first class]")
+
+
+def test_amendment_notes_preserved_as_a_coherent_block():
+    text = ('4. Punishment. Whoever contracts a marriage shall be punishable.\n\n'
+            '1Subs. by the Repealing and Amending Act No. VIII of 1930, s.2 and 1st Sch.\n'
+            '2Subs. by the Central Laws (Statute Reforms) Ordinance No. XXI of 1960, s.3.\n'
+            '3Sub. and Omitted by the Muslim Family Laws Ordinance No. VIII of 1961, s.12.\n'
+            '4Ins. by Act No. XIX of 1938, s.2.')
+    cleaned, _ = clean_statute_text(text)
+    assert "1Subs. by the Repealing and Amending Act No. VIII of 1930, s.2 and 1st Sch." in cleaned
+    assert "2Subs. by the Central Laws (Statute Reforms) Ordinance No. XXI of 1960, s.3." in cleaned
+    assert "3Sub. and Omitted by the Muslim Family Laws Ordinance No. VIII of 1961, s.12." in cleaned
+    assert "4Ins. by Act No. XIX of 1938, s.2." in cleaned
+
+
+def test_amendment_notes_at_the_bottom_of_a_page_are_not_deleted():
+    # Page position alone is not evidence of disposability -- amendment
+    # notes immediately following substantive text, right where a page
+    # break would fall, must survive exactly like any other.
+    text = ('4. Punishment for male adult marrying a child. Whoever, being a male, '
+            'contracts a child marriage shall be punishable with simple imprisonment.\n\n'
+            '1Subs. by the Federal Laws (Revision and Declaration) Ordinance, 1981.\n'
+            '2Ins. by the Guardians and Wards (Amdt.) Act, 1926.')
+    cleaned, _ = clean_statute_text(text)
+    assert "1Subs. by the Federal Laws (Revision and Declaration) Ordinance, 1981." in cleaned
+    assert "2Ins. by the Guardians and Wards (Amdt.) Act, 1926." in cleaned
+
+
+def test_section_looking_amendment_prefixed_text_left_textually_intact():
+    # The cleaner must NOT "fix" "2[9." into "9." or otherwise touch it --
+    # that structural interpretation belongs entirely to the chunker.
+    text = ('8. Jurisdiction under this Act. No Court shall take cognizance.\n\n'
+            '2[9. No Court shall take cognizance of any offence under this Act '
+            '3[except on a complaint made by the Union Council] after one year.]')
+    cleaned, _ = clean_statute_text(text)
+    assert '2[9. No Court shall take cognizance of any offence under this Act ' \
+           '3[except on a complaint made by the Union Council] after one year.]' in cleaned
+    assert "\n9. No Court shall" not in cleaned  # never rewritten to a bare "9."
+
+
+def test_repealed_and_omitted_language_untouched():
+    text = ('3.\n3[Omitted.]\n\n'
+            '6. 1[Repealed].\n\n'
+            '1Rep. by the Repealing and Amending Act, 1942 (XXV of 1942), s. 2 and 1st Sch.')
+    cleaned, _ = clean_statute_text(text)
+    assert "3[Omitted.]" in cleaned
+    assert "1[Repealed]" in cleaned
+    assert "1Rep. by the Repealing and Amending Act, 1942 (XXV of 1942), s. 2 and 1st Sch." in cleaned
+
+
+# -- footnote relocation -----------------------------------------------------------
+
+def test_footnote_lines_removed_from_their_original_location():
+    text = ('4. Punishment. Whoever contracts a marriage shall be punishable.\n\n'
+            '1Subs. by the Repealing and Amending Act No. VIII of 1930, s.2 and 1st Sch.\n\n'
+            '5. Next section. Something else entirely.')
+    cleaned, _ = clean_statute_text(text)
+    body = cleaned.split("[FOOTNOTES]")[0]
+    assert "1Subs. by the Repealing and Amending Act No. VIII of 1930, s.2 and 1st Sch." not in body
+    assert "4. Punishment." in body
+    assert "5. Next section." in body
+
+
+def test_footnotes_appear_exactly_once_inside_a_single_footnotes_block():
+    text = ('4. Punishment. Something.\n\n'
+            '1Subs. by the Repealing and Amending Act No. VIII of 1930, s.2 and 1st Sch.\n'
+            '2Ins. by Act No. XIX of 1938, s.2.')
+    cleaned, diag = clean_statute_text(text)
+    assert cleaned.count("[FOOTNOTES]") == 1
+    assert cleaned.count("[/FOOTNOTES]") == 1
+    assert cleaned.index("[FOOTNOTES]") < cleaned.index("1Subs.")
+    assert cleaned.index("1Subs.") < cleaned.index("[/FOOTNOTES]")
+    assert diag.footnotes_relocated_count == 2
+
+
+def test_footnote_order_is_preserved():
+    text = ('4. Punishment. Something.\n\n'
+            '1Subs. by the Repealing and Amending Act No. VIII of 1930, s.2 and 1st Sch.\n'
+            '2Ins. by Act No. XIX of 1938, s.2.\n'
+            '3Omitted by Act No. X of 1996, s.2.')
+    cleaned, _ = clean_statute_text(text)
+    footnote_block = cleaned.split("[FOOTNOTES]")[1]
+    pos_1 = footnote_block.index("1Subs.")
+    pos_2 = footnote_block.index("2Ins.")
+    pos_3 = footnote_block.index("3Omitted")
+    assert pos_1 < pos_2 < pos_3
+
+
+def test_no_empty_footnotes_block_when_there_are_no_footnotes():
+    cleaned, diag = clean_statute_text(_SAMPLE_WITH_TOC)
+    assert "[FOOTNOTES]" not in cleaned
+    assert diag.footnotes_relocated_count == 0
+
+
+def test_legitimate_numbered_provisions_are_not_classified_as_footnotes():
+    text = ('1. Short title. This Act may be called the Sample Act.\n\n'
+            '2. Definitions. In this Act--\n(a) "Court" means a Family Court.\n\n'
+            '1A. Saving. Nothing in this Act shall affect pending proceedings.')
+    cleaned, diag = clean_statute_text(text)
+    assert diag.footnotes_relocated_count == 0
+    assert "1. Short title." in cleaned
+    assert "2. Definitions." in cleaned
+    assert "1A. Saving." in cleaned
+    assert "[FOOTNOTES]" not in cleaned
+
+
+def test_footnote_continuation_line_absorbed_into_the_same_entry():
+    # Real-corpus-shaped: a footnote's citation wraps onto a second,
+    # lowercase-starting line with no digit prefix of its own.
+    text = ('1. Short title.\n\n'
+            '1This Act was passed by the West Pakistan Assembly on 30th June, 1964; and,\n'
+            '  published in the West Pakistan Gazette on 18th July, 1964.\n\n'
+            '2. Definitions.')
+    cleaned, diag = clean_statute_text(text)
+    assert diag.footnotes_relocated_count == 1
+    footnote_block = cleaned.split("[FOOTNOTES]")[1]
+    assert "published in the West Pakistan Gazette on 18th July, 1964." in footnote_block
+    assert "1This Act was passed by the West Pakistan Assembly on 30th June, 1964; and," in footnote_block
+
+
+def test_footnote_continuation_stops_at_a_new_footnote_not_absorbed_into_prior_entry():
+    text = ('1Subs. by the Central Laws (Statute Reform) Ordinance, 1960.\n'
+            '2Ins. by the Muslim Family Laws Ordinance, 1961.')
+    cleaned, diag = clean_statute_text(text)
+    assert diag.footnotes_relocated_count == 2
+    footnote_block = cleaned.split("[FOOTNOTES]")[1]
+    assert "1Subs. by the Central Laws (Statute Reform) Ordinance, 1960." in footnote_block
+    assert "2Ins. by the Muslim Family Laws Ordinance, 1961." in footnote_block
+
+
+def test_footnote_continuation_stops_at_resumed_inline_amendment_marker():
+    text = ('1Omitted by A.O., 1949.\n'
+            '2[9. No Court shall take cognizance of any offence under this Act.]')
+    cleaned, diag = clean_statute_text(text)
+    assert diag.footnotes_relocated_count == 1
+    body, footnote_block = cleaned.split("[FOOTNOTES]")
+    assert "2[9. No Court shall take cognizance of any offence under this Act.]" in body
+    assert "2[9." not in footnote_block
+
+
+def test_real_affected_document_footnotes_relocated_without_losing_content():
+    # Guard against the real bug class this requirement targets: an
+    # amendment footnote sitting between two definitions/subsections.
+    # Skips if the real fixture isn't present (CI/sandbox without var/).
+    import json
+    from pathlib import Path
+
+    fixture = Path("var/rag/statutes_ingested/0425160ffedaefd8c79b3241.json")
+    if not fixture.exists():
+        import pytest
+        pytest.skip("real fixture not present in this environment")
+    raw = json.loads(fixture.read_text(encoding="utf-8"))
+    cleaned = clean_statute_document(raw)
+    assert cleaned["full_text"] == raw["full_text"]
+    assert cleaned["cleaning_diagnostics"]["footnotes_relocated_count"] > 0
+    assert "[FOOTNOTES]" in cleaned["cleaned_text"]
+
+
+# -- divider-line removal -----------------------------------------------------------
+
+def test_standalone_underscore_divider_removed():
+    text = "3. Interpretation.\n\n________\n\nII.—JURISDICTION\n\n4. Something."
+    cleaned, _ = clean_statute_text(text)
+    assert "________" not in cleaned
+    assert "3. Interpretation." in cleaned
+    assert "II.—JURISDICTION" in cleaned
+    assert "4. Something." in cleaned
+
+
+def test_long_underscore_divider_removed():
+    text = "Some text.\n\n" + ("_" * 60) + "\n\nMore text."
+    cleaned, _ = clean_statute_text(text)
+    assert "_" * 60 not in cleaned
+    assert "Some text." in cleaned
+    assert "More text." in cleaned
+
+
+def test_short_underscore_run_in_substantive_text_preserved():
+    # Only a STANDALONE line of 5+ underscores is layout noise; a short
+    # run embedded in real text (e.g. a fill-in-the-blank form field)
+    # must survive untouched.
+    text = "The applicant's name is ___ and address is ___."
+    cleaned, _ = clean_statute_text(text)
+    assert "___" in cleaned
+
+
+# -- soft-wrapped clause/definition header repair ------------------------------------
+
+def test_soft_wrapped_clause_marker_with_curly_double_quote_joined():
+    text = '2. Definitions. In this Act--\n(b)\n‘Chairman’ means the Chairman of the Union Council.'
+    cleaned, _ = clean_statute_text(text)
+    assert "(b) ‘Chairman’ means the Chairman of the Union Council." in cleaned
+    assert "(b)\n" not in cleaned
+
+
+def test_soft_wrapped_clause_marker_with_curly_single_quote_joined():
+    text = '2. Definitions.\n(d)\n“Prescribed authority” means the authority prescribed by rules.'
+    cleaned, _ = clean_statute_text(text)
+    assert "(d) “Prescribed authority” means the authority prescribed by rules." in cleaned
+    assert "(d)\n" not in cleaned
+
+
+def test_ordinary_paragraph_newline_after_clause_text_is_unaffected():
+    # A normal paragraph break -- the clause marker is NOT the last thing
+    # on its line, so this must not be touched at all.
+    text = "(a) “Court” means a Family Court;\n(b) “minor” means a person under eighteen."
+    cleaned, _ = clean_statute_text(text)
+    assert "(a) “Court” means a Family Court;" in cleaned
+    assert "(b) “minor” means a person under eighteen." in cleaned
+
+
+def test_clause_marker_followed_by_ordinary_prose_on_next_line_unaffected():
+    # The next line does NOT start with a quote/bracket -- must not be
+    # joined; this is an ordinary (if slightly unusual) line wrap, not
+    # the specific soft-wrap pattern this rule targets.
+    text = "(c)\nGovernment means the Provincial Government."
+    cleaned, _ = clean_statute_text(text)
+    assert "(c)\nGovernment means the Provincial Government." in cleaned
+
+
+# -- conservative hyphenation repair (allowlist-based) -------------------------------
+
+def test_known_broken_token_mujtahid_e_alam_is_repaired():
+    text = "The Court shall maintain a panel of Mujtahid-\ne-Alam having the prescribed qualifications."
+    cleaned, _ = clean_statute_text(text)
+    assert "Mujtahid-e-Alam" in cleaned
+    assert "Mujtahid-\ne-Alam" not in cleaned
+
+
+def test_dwelling_house_is_not_collapsed_into_one_word():
+    text = "When my wife left my dwelling-\nhouse on the day of the marriage."
+    cleaned, _ = clean_statute_text(text)
+    assert "dwelling-house" in cleaned
+    assert "dwellinghouse" not in cleaned
+
+
+def test_unknown_hyphenated_compound_line_break_keeps_its_hyphen():
+    # "sub-section" is always hyphenated elsewhere in real statute text
+    # (never "subsection") -- an unknown broken token defaults to
+    # keeping its hyphen rather than guessing it should be removed.
+    text = "The evidence referred to in sub-\nsection (1) shall be recorded."
+    cleaned, _ = clean_statute_text(text)
+    assert "sub-section (1)" in cleaned
+    assert "subsection" not in cleaned
+
+
+def test_known_single_word_break_education_is_still_fully_joined():
+    text = "Every child has a right to educa-\ntion under this Act."
+    cleaned, _ = clean_statute_text(text)
+    assert "education" in cleaned
+    assert "educa-tion" not in cleaned
+    assert "educa-\ntion" not in cleaned
 
 
 # -- pipeline isolation ------------------------------------------------------------
