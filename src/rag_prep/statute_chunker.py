@@ -92,17 +92,18 @@ class StatuteChunkingError(ValueError):
 # genuine, swallowed section headers and zero false positives (e.g. no
 # indented numbered sub-list item anywhere takes this exact shape).
 #
-# The trailing "[ \t]*(.*)$" (not "[ \t]+(.+)$") also tolerates a BARE
-# "<id>." with nothing else on that line -- a second real PDF-wrap
-# artifact, confirmed swallowing three real sections across two real
-# documents (doc 24520c344d2285555aa10988/its duplicate: "18.\n
-# Appearance through agents..." two lines instead of one; doc
-# 470c476c4195cbc08e94a6da: "3.\n3[Omitted.]" and "11.\n1[Omitted.]").
-# The title is simply empty for these (picked up by _split_title_body's
-# own empty-input fallback); the chunk's start/end/text are unaffected
-# either way, since they are already derived from the whole match's
-# span, not from the captured title text.
-_SECTION_HEADER_RE = re.compile(r"^[ \t]*(?:\d+\[)?(\d+-?[A-Za-z]{0,2})\.[ \t]*(.*)$", re.MULTILINE)
+# NOTE -- a further, real artifact is known and deliberately NOT fixed
+# here: a bare "<id>." with its title pushed to the next line entirely
+# ("18.\nAppearance through agents...") swallows 3 sections across 2
+# real documents. Relaxing the trailing "[ \t]+(.+)$" to allow an empty
+# same-line title was tried and reverted -- it also matched a bare
+# citation-year line ("1882.") as a bogus "section 1882" in a different
+# real document, which is worse than the 3 known swallows it fixed.
+# Per "prefer a narrow documented exception over an unsafe broad regex":
+# left as a known gap, surfaced via statute_chunk_validate.py's
+# non-blocking "possible swallowed section(s)" warning rather than
+# patched with a regex that trades one real bug for another.
+_SECTION_HEADER_RE = re.compile(r"^[ \t]*(?:\d+\[)?(\d+-?[A-Za-z]{0,2})\.[ \t]+(.+)$", re.MULTILINE)
 
 # A section's TITLE is the text up to the first sentence-ending period
 # (statute section titles never contain an internal period); whatever
