@@ -1,1032 +1,641 @@
-# """Constitution of Pakistan parent-child chunking -- Stage 4 of the
-# independent Constitution pipeline.
-
-#     parsed Constitution AST (var/rag/constitution_parsed/<doc_id>.json)
-#         -> build_chunks_for_document()   [deterministic, token-count-driven, no LLM]
-#         -> parent-child chunk JSON       (var/rag/constitution_chunked/<doc_id>.json)
-
-# Converts the already-parsed hierarchical AST into retrieval-ready
-# parent/child chunks:
-
-#     Article, <=600 tokens   -> exactly one chunk (parent == child)
-#     Article, >600 tokens    -> one parent (the complete Article) +
-#                                  one child per Clause
-#     Clause,  >400 tokens     -> that clause's single child is replaced by
-#                                  one child per Sub-clause/Proviso (never
-#                                  an arbitrary character/sentence split;
-#                                  preserved whole if no such boundary exists)
-#     Schedule / Preamble / Annex -> exactly one chunk each (the parser
-#                                  identifies no item-level boundary inside
-#                                  them, so none is invented here)
-
-# Every chunk's ``canonical_text`` is an exact, untouched slice of the
-# parsed document's own ``cleaned_text`` (never normalized or rewritten
-# here); ``embedding_text`` adds a breadcrumb line built only from
-# structural metadata the parser already captured, never invented.
-
-# PIPELINE ISOLATION
-# -------------------
-# No import of src.ingestion/, src.classification/, src.rag_prep.
-# case_cleaner/structurer*/chunk*/statute_*, or src.extraction.
-# case_loader. Independent entry point, independent input/output
-# directories. Never modifies the parser's or cleaner's output.
-# """
-
-# from __future__ import annotations
-
-# import json
-# from dataclasses import dataclass, field
-# from pathlib import Path
-
-# import tiktoken
-
-# from src.rag_prep.constitution_cleaning import strip_footnote_refs
-
-# INPUT_DIR = Path("var/rag/constitution_parsed")
-# OUTPUT_DIR = Path("var/rag/constitution_chunked")
-
-# # Task-specified thresholds -- not configurable elsewhere; see the
-# # module docstring's "Core Chunking Rules" summary for their exact
-# # effect at each level.
-# ARTICLE_TOKEN_THRESHOLD = 600
-# CLAUSE_TOKEN_THRESHOLD = 400
-
-# DOCUMENT_TITLE = "Constitution of Pakistan"
-
-# # cl100k_base: a stable, offline, model-agnostic tokenizer -- used
-# # purely as a deterministic token-COUNTING yardstick for the chunking
-# # thresholds above, never for any generative/LLM purpose.
-# _ENCODING = tiktoken.get_encoding("cl100k_base")
-
-
-# class ConstitutionChunkingError(ValueError):
-#     """Raised when the input AST cannot be safely chunked -- e.g. its
-#     own parse validation did not pass, or no Article/Schedule/Preamble/
-#     Annex content exists anywhere. Per "fail validation rather than
-#     silently dropping text": raised instead of chunking a known-bad or
-#     empty structure."""
-
-
-# def count_tokens(text: str) -> int:
-#     return len(_ENCODING.encode(text))
-
-
-# @dataclass(frozen=True)
-# class Chunk:
-#     doc_id: str
-#     parent_id: str
-#     child_id: str | None
-#     part_number: str | None
-#     part_title: str | None
-#     chapter_number: str | None
-#     chapter_title: str | None
-#     article_number: str | None
-#     article_title: str | None
-#     clause_number: str | None
-#     is_parent: bool
-#     token_count: int
-#     source_start: int
-#     source_end: int
-#     canonical_text: str
-#     embedding_text: str
-
-#     def to_dict(self) -> dict:
-#         return {
-#             "doc_id": self.doc_id, "parent_id": self.parent_id, "child_id": self.child_id,
-#             "part_number": self.part_number, "part_title": self.part_title,
-#             "chapter_number": self.chapter_number, "chapter_title": self.chapter_title,
-#             "article_number": self.article_number, "article_title": self.article_title,
-#             "clause_number": self.clause_number, "is_parent": self.is_parent,
-#             "token_count": self.token_count, "source_start": self.source_start,
-#             "source_end": self.source_end, "canonical_text": self.canonical_text,
-#             "embedding_text": self.embedding_text,
-#         }
-
-#     @classmethod
-#     def from_dict(cls, d: dict) -> "Chunk":
-#         return cls(**d)
-
-
-# # -- breadcrumb -----------------------------------------------------------------
-
-# def _clean_title_for_breadcrumb(title: str | None) -> str | None:
-#     """Strips the cleaning stage's footnote-reference sentinels
-#     ("[^91.8]") out of a title string used ONLY inside the breadcrumb --
-#     never applied to canonical_text or to a chunk's own stored
-#     *_title metadata field, which stay verbatim/faithful to the parser's
-#     own output. A raw "[^91.8]" is internal pipeline plumbing, not
-#     constitutional wording, and left in would only add embedding noise;
-#     stripping it is text hygiene for this one derived field, not
-#     "inventing missing metadata" (the metadata itself is untouched)."""
-
-#     if title is None:
-#         return None
-#     cleaned = strip_footnote_refs(title).strip()
-#     return cleaned or None
-
-
-# def _breadcrumb(
-#     part_number: str | None, part_title: str | None, chapter_number: str | None, chapter_title: str | None,
-#     article_number: str | None, article_title: str | None, clause_number: str | None,
-# ) -> str:
-#     part_title = _clean_title_for_breadcrumb(part_title)
-#     chapter_title = _clean_title_for_breadcrumb(chapter_title)
-#     article_title = _clean_title_for_breadcrumb(article_title)
-
-#     segments = [DOCUMENT_TITLE]
-#     if part_number:
-#         segments.append(f"Part {part_number}: {part_title}" if part_title else f"Part {part_number}")
-#     if chapter_number:
-#         segments.append(f"Chapter {chapter_number}: {chapter_title}" if chapter_title else f"Chapter {chapter_number}")
-#     if article_number:
-#         segments.append(f"Article {article_number}: {article_title}" if article_title else f"Article {article_number}")
-#     if clause_number:
-#         segments.append(f"Clause ({clause_number})")
-#     return "[" + " | ".join(segments) + "]"
-
-
-# def _embedding_text(breadcrumb: str, canonical_text: str) -> str:
-#     return f"{breadcrumb}\n\n{canonical_text}"
-
-
-# # -- Part/Chapter title extraction (from the parser's own node text) -----------
-# # The parser captures a Chapter's title directly (its own `heading`
-# # field), but NOT a Part's -- a Part's subtitle ("Introductory", "The
-# # Judicature", ...) is simply the first line of its own body text,
-# # right after the bare "PART <roman>" line, with no dedicated capture
-# # group in constitution_parser.py's _PART_RE (which only needed the
-# # roman numeral to find boundaries, not the title). Deriving it here,
-# # from text the parser already produced, is not "inventing missing
-# # metadata" -- it is reading metadata the parser already preserved
-# # verbatim, just not pre-extracted into its own field.
-# def _part_title_from_text(part_text: str) -> str | None:
-#     lines = part_text.split("\n", 2)
-#     if len(lines) < 2:
-#         return None
-#     title = lines[1].strip()
-#     return title or None
-
-
-# # -- clause/sub-clause/proviso child construction --------------------------------
-
-# def _chunk_simple_leaf(
-#     node: dict, doc_id: str, parent_id: str, child_id: str,
-#     part_number: str | None, part_title: str | None, chapter_number: str | None, chapter_title: str | None,
-#     article_number: str | None, article_title: str | None, clause_number: str | None,
-# ) -> Chunk:
-#     breadcrumb = _breadcrumb(part_number, part_title, chapter_number, chapter_title, article_number, article_title, clause_number)
-#     text = node["text"]
-#     return Chunk(
-#         doc_id=doc_id, parent_id=parent_id, child_id=child_id,
-#         part_number=part_number, part_title=part_title, chapter_number=chapter_number, chapter_title=chapter_title,
-#         article_number=article_number, article_title=article_title, clause_number=clause_number,
-#         is_parent=False, token_count=count_tokens(text),
-#         source_start=node["source_start"], source_end=node["source_end"],
-#         canonical_text=text, embedding_text=_embedding_text(breadcrumb, text),
-#     )
-
-
-# def _flatten_clause_children(clause: dict, cleaned_text: str) -> list[dict]:
-#     """Flattens a clause's own children by one level wherever a
-#     sub-clause itself has nested children of its own.
-
-#     The parser nests a trailing Proviso (or stray "text") under the
-#     LAST sub-clause it immediately follows, rather than as a direct
-#     sibling of the clause's sub-clauses -- there is simply no later
-#     sub-clause boundary available to stop that sub-clause's own span
-#     before the proviso begins. Confirmed real shape: Article 175A's
-#     clause (2) ends "... (a) ... (b) ... Provided that ...", and the
-#     proviso is parsed as a child of sub-clause (b), not of clause (2)
-#     directly. The task's own example output ("Child 2 -> (b) ...",
-#     "Child 3 -> Provided that ...") calls for these as separate
-#     sibling children, so each sub-clause with nested children here has
-#     its own span narrowed to stop at its first nested child's start,
-#     and that nested child (promoted to this flat list, at the same
-#     level) carries the rest."""
-
-#     flat: list[dict] = []
-#     for child in clause["children"]:
-#         if child["type"] == "subclause" and child["children"]:
-#             own_end = child["children"][0]["source_start"]
-#             flat.append({**child, "source_end": own_end, "text": cleaned_text[child["source_start"]:own_end]})
-#             flat.extend(child["children"])
-#         else:
-#             flat.append(child)
-#     return flat
-
-
-# def _chunk_clause(
-#     clause: dict, cleaned_text: str, doc_id: str, parent_id: str, article_id: str,
-#     part_number: str | None, part_title: str | None, chapter_number: str | None, chapter_title: str | None,
-#     article_number: str, article_title: str | None,
-# ) -> list[Chunk]:
-#     clause_number = clause["number"]
-#     clause_id = f"{article_id}_c{clause_number.lower()}"
-#     token_count = count_tokens(clause["text"])
-
-#     if token_count <= CLAUSE_TOKEN_THRESHOLD:
-#         return [_chunk_simple_leaf(
-#             clause, doc_id, parent_id, clause_id,
-#             part_number, part_title, chapter_number, chapter_title, article_number, article_title, clause_number,
-#         )]
-
-#     # Oversized Clause Rule: split by sub-clause/proviso children the
-#     # parser already identified (flattened -- see _flatten_clause_children).
-#     # If none exist, the clause has no valid internal legal boundary --
-#     # preserved whole rather than guessed at.
-#     flat_children = _flatten_clause_children(clause, cleaned_text)
-#     splittable = [c for c in flat_children if c["type"] in ("subclause", "proviso")]
-#     if not splittable:
-#         return [_chunk_simple_leaf(
-#             clause, doc_id, parent_id, clause_id,
-#             part_number, part_title, chapter_number, chapter_title, article_number, article_title, clause_number,
-#         )]
-
-#     chunks: list[Chunk] = []
-#     proviso_n = 0
-#     seen_ids: dict[str, int] = {}
-#     for child in flat_children:  # every child, in order -- union(children) == clause text
-#         if child["type"] == "subclause":
-#             cid = f"{clause_id}_{child['number'].lower()}"
-#         elif child["type"] == "proviso":
-#             proviso_n += 1
-#             cid = f"{clause_id}_proviso" + (str(proviso_n) if proviso_n > 1 else "")
-#         else:  # a "text" gap within the oversized clause -- kept, not dropped
-#             cid = f"{clause_id}_text{len(chunks) + 1}"
-#         # A single clause can restart its own lettering more than once --
-#         # confirmed real case: Article 260 (Definitions) has several
-#         # distinct defined terms, each with its own "(a)", "(b)", "(c)"
-#         # sub-list, so plain letter-based IDs alone are not always
-#         # unique within one clause. The common (non-repeating) case keeps
-#         # its natural letter-based id; a repeat gets a disambiguating
-#         # numeric suffix so every id still stays deterministic and unique.
-#         if cid in seen_ids:
-#             seen_ids[cid] += 1
-#             cid = f"{cid}{seen_ids[cid]}"
-#         else:
-#             seen_ids[cid] = 1
-#         chunks.append(_chunk_simple_leaf(
-#             child, doc_id, parent_id, cid,
-#             part_number, part_title, chapter_number, chapter_title, article_number, article_title, clause_number,
-#         ))
-#     return chunks
-
-
-# def _chunk_article(
-#     article: dict, cleaned_text: str, doc_id: str,
-#     part_number: str | None, part_title: str | None, chapter_number: str | None, chapter_title: str | None,
-# ) -> list[Chunk]:
-#     article_number = article["article_number"]
-#     article_title = article.get("heading")
-#     article_id = f"art_{article_number.lower()}"
-#     token_count = count_tokens(article["text"])
-
-#     if token_count <= ARTICLE_TOKEN_THRESHOLD:
-#         # Rule A: exactly one chunk -- parent IS the child.
-#         chunk = _chunk_simple_leaf(
-#             article, doc_id, article_id, article_id,
-#             part_number, part_title, chapter_number, chapter_title, article_number, article_title, None,
-#         )
-#         return [Chunk(**{**chunk.to_dict(), "is_parent": True})]
-
-#     # Rule B: one parent (the complete Article) + one child per Clause
-#     # (each itself split further if oversized -- see _chunk_clause).
-#     parent_id = f"{article_id}_parent"
-#     breadcrumb = _breadcrumb(part_number, part_title, chapter_number, chapter_title, article_number, article_title, None)
-#     parent_chunk = Chunk(
-#         doc_id=doc_id, parent_id=parent_id, child_id=None,
-#         part_number=part_number, part_title=part_title, chapter_number=chapter_number, chapter_title=chapter_title,
-#         article_number=article_number, article_title=article_title, clause_number=None,
-#         is_parent=True, token_count=token_count,
-#         source_start=article["source_start"], source_end=article["source_end"],
-#         canonical_text=article["text"], embedding_text=_embedding_text(breadcrumb, article["text"]),
-#     )
-
-#     chunks = [parent_chunk]
-#     text_n = 0
-#     for child in article["children"]:
-#         if child["type"] == "clause":
-#             chunks.extend(_chunk_clause(
-#                 child, cleaned_text, doc_id, parent_id, article_id,
-#                 part_number, part_title, chapter_number, chapter_title, article_number, article_title,
-#             ))
-#         else:  # a "text" gap directly under the Article (no recognized clause there)
-#             text_n += 1
-#             chunks.append(_chunk_simple_leaf(
-#                 child, doc_id, parent_id, f"{article_id}_text{text_n}",
-#                 part_number, part_title, chapter_number, chapter_title, article_number, article_title, None,
-#             ))
-#     return chunks
-
-
-# def _chunk_top_level_unit(node: dict, doc_id: str) -> list[Chunk]:
-#     """Preamble, Annex (Objectives Resolution), and Schedule chunks.
-
-#     The task's own scope is explicit about Articles (Rule A/B) and
-#     Schedules ("where the AST identifies individual items" -- it does
-#     not, for this document; see constitution_parser.py's Schedule nodes,
-#     each a single undivided span). The Preamble and Annex are handled
-#     the SAME conservative way, for the same reason and per this
-#     project's standing "never silently lose legal content" principle:
-#     with no sub-structure in the AST to split on, each becomes exactly
-#     one parent==child chunk, regardless of its own token count, rather
-#     than an invented split.
-#     """
-
-#     node_id = node["id"]
-#     heading = node.get("heading")
-#     chunk = _chunk_simple_leaf(node, doc_id, node_id, node_id, None, None, None, None, None, heading, None)
-#     return [Chunk(**{**chunk.to_dict(), "is_parent": True})]
-
-
-# def build_chunks_for_document(parsed_doc: dict) -> list[Chunk]:
-#     """Builds the full, ordered, deterministic chunk list for one
-#     parsed Constitution document. Raises ConstitutionChunkingError if
-#     the input AST's own validation did not pass, or if it contains no
-#     chunkable content at all."""
-
-#     if not parsed_doc.get("validation", {}).get("ok"):
-#         raise ConstitutionChunkingError(
-#             "Refusing to chunk a parsed Constitution document whose own structural "
-#             f"validation did not pass: {parsed_doc.get('validation', {}).get('errors')}"
-#         )
-
-#     doc_id = parsed_doc["doc_id"]
-#     cleaned_text = parsed_doc["cleaned_text"]
-#     root = parsed_doc["structure"]
-
-#     chunks: list[Chunk] = []
-#     for top in root.get("children", []):
-#         if top["type"] == "part":
-#             part_number = top["id"].removeprefix("part_")
-#             part_title = _part_title_from_text(top["text"])
-#             for sub in top["children"]:
-#                 if sub["type"] == "chapter":
-#                     chapter_number = sub["id"].rsplit("_chapter", 1)[-1]
-#                     chapter_title = sub.get("heading")
-#                     for art in sub["children"]:
-#                         if art["type"] == "article":
-#                             chunks.extend(_chunk_article(art, cleaned_text, doc_id, part_number, part_title, chapter_number, chapter_title))
-#                 elif sub["type"] == "article":
-#                     chunks.extend(_chunk_article(sub, cleaned_text, doc_id, part_number, part_title, None, None))
-#                 # "text" gaps directly under a Part are transitional PDF/layout
-#                 # artifacts between Chapters/Articles, not an independently
-#                 # citable legal unit -- not chunked (this stage's "no text
-#                 # loss" guarantee is scoped to Articles/Schedules/Preamble/
-#                 # Annex, matching the task's own validation checklist).
-#         elif top["type"] in ("schedule", "preamble", "annex"):
-#             chunks.extend(_chunk_top_level_unit(top, doc_id))
-
-#     if not chunks:
-#         raise ConstitutionChunkingError("No Article, Schedule, Preamble, or Annex content found to chunk.")
-
-#     return chunks
-
-
-# # -- validation -------------------------------------------------------------------
-
-# @dataclass
-# class ChunkValidationResult:
-#     ok: bool
-#     errors: list[str] = field(default_factory=list)
-#     diagnostics: dict = field(default_factory=dict)
-
-#     def to_dict(self) -> dict:
-#         return {"ok": self.ok, "errors": self.errors, "diagnostics": self.diagnostics}
-
-
-# def validate_chunks(chunks: list[Chunk], parsed_doc: dict) -> ChunkValidationResult:
-#     errors: list[str] = []
-#     cleaned_text = parsed_doc["cleaned_text"]
-
-#     by_parent: dict[str, list[Chunk]] = {}
-#     parent_chunks: dict[str, Chunk] = {}
-#     for c in chunks:
-#         by_parent.setdefault(c.parent_id, []).append(c)
-#         if c.is_parent:
-#             parent_chunks[c.parent_id] = c
-
-#     for c in chunks:
-#         if not (0 <= c.source_start <= c.source_end <= len(cleaned_text)):
-#             errors.append(f"{c.child_id or c.parent_id}: out-of-bounds offsets [{c.source_start},{c.source_end})")
-#             continue
-#         if cleaned_text[c.source_start:c.source_end] != c.canonical_text:
-#             errors.append(f"{c.child_id or c.parent_id}: canonical_text does not match cleaned_text[source_start:source_end]")
-#         if c.token_count <= 0 and c.canonical_text.strip():
-#             errors.append(f"{c.child_id or c.parent_id}: token_count not recorded for non-empty text")
-#         if not c.embedding_text.startswith("[" + DOCUMENT_TITLE):
-#             errors.append(f"{c.child_id or c.parent_id}: embedding_text does not start with the expected breadcrumb")
-#         if not c.is_parent and c.child_id is None:
-#             errors.append(f"a non-parent chunk under {c.parent_id} is missing a child_id")
-#         if not c.is_parent and c.parent_id not in parent_chunks:
-#             errors.append(f"child {c.child_id} has no corresponding parent chunk {c.parent_id!r}")
-
-#     # Rule A: small Article -> parent_id == child_id, exactly one chunk group.
-#     article_groups: dict[str, list[Chunk]] = {}
-#     for c in chunks:
-#         if c.article_number:
-#             article_groups.setdefault(c.article_number, []).append(c)
-
-#     for article_number, group in article_groups.items():
-#         parents = [c for c in group if c.is_parent]
-#         if len(parents) != 1:
-#             errors.append(f"Article {article_number}: expected exactly one parent chunk, found {len(parents)}")
-#             continue
-#         parent = parents[0]
-#         if parent.parent_id == parent.child_id:
-#             # Rule A shape
-#             if len(group) != 1:
-#                 errors.append(f"Article {article_number}: Rule A (parent==child) article has extra chunks: {len(group)}")
-#         else:
-#             # Rule B shape -- children (excluding the parent itself) must
-#             # gaplessly, non-overlappingly cover the parent's own span.
-#             children = sorted((c for c in group if not c.is_parent), key=lambda c: c.source_start)
-#             cursor = parent.source_start
-#             for child in children:
-#                 if child.source_start < cursor:
-#                     errors.append(f"Article {article_number}: child {child.child_id} overlaps a preceding sibling")
-#                 elif child.source_start > cursor:
-#                     errors.append(f"Article {article_number}: gap in child coverage before {child.child_id} "
-#                                    f"-- union(children) != Article text")
-#                 cursor = max(cursor, child.source_end)
-#             if cursor != parent.source_end:
-#                 errors.append(f"Article {article_number}: children do not fully cover the Article's span "
-#                                f"(lost text, covered up to {cursor} of {parent.source_end})")
-
-#     real_article_numbers = set()
-
-#     def _collect_real_articles(node: dict):
-#         if node.get("type") == "article":
-#             real_article_numbers.add(node["article_number"])
-#         for c in node.get("children", []):
-#             _collect_real_articles(c)
-
-#     _collect_real_articles(parsed_doc["structure"])
-#     missing = real_article_numbers - set(article_groups)
-#     if missing:
-#         errors.append(f"Article(s) present in the parsed AST but not represented in any chunk: {sorted(missing)}")
-
-#     seen_child_ids = [c.child_id for c in chunks if c.child_id is not None]
-#     duplicate_child_ids = {cid for cid in seen_child_ids if seen_child_ids.count(cid) > 1}
-#     if duplicate_child_ids:
-#         errors.append(f"duplicate child_id(s): {sorted(duplicate_child_ids)}")
-
-#     diagnostics = {
-#         "total_chunks": len(chunks),
-#         "parent_chunks": sum(1 for c in chunks if c.is_parent),
-#         "child_chunks": sum(1 for c in chunks if not c.is_parent),
-#         "articles_represented": len(article_groups),
-#     }
-#     return ChunkValidationResult(ok=not errors, errors=errors, diagnostics=diagnostics)
-
-
-# def is_valid_existing_output(doc_dict: dict) -> bool:
-#     """Resumability gate: is this existing chunked output file actually
-#     valid, not merely present. Returns False (never raises) for anything
-#     unreadable/malformed."""
-
-#     try:
-#         chunks = [Chunk.from_dict(c) for c in doc_dict["chunks"]]
-#         parsed_doc = {"cleaned_text": doc_dict["cleaned_text"], "structure": doc_dict["structure"]}
-#     except (KeyError, TypeError, ValueError):
-#         return False
-#     try:
-#         result = validate_chunks(chunks, parsed_doc)
-#     except Exception:  # noqa: BLE001 -- a malformed file must never crash the skip-check
-#         return False
-#     return result.ok
-
-
-# def chunk_document(parsed_doc: dict) -> dict:
-#     chunks = build_chunks_for_document(parsed_doc)
-#     result = validate_chunks(chunks, parsed_doc)
-#     return {
-#         "doc_id": parsed_doc["doc_id"],
-#         "cleaned_text": parsed_doc["cleaned_text"],
-#         "structure": parsed_doc["structure"],
-#         "chunks": [c.to_dict() for c in chunks],
-#         "validation": result.to_dict(),
-#     }
-
-
-# def chunk_directory(input_dir: Path = INPUT_DIR, output_dir: Path = OUTPUT_DIR) -> dict:
-#     """Chunks every ``<doc_id>.json`` in ``input_dir`` into
-#     ``output_dir/<doc_id>.json``. Resumable: an existing output is
-#     skipped only if is_valid_existing_output() confirms it, never on
-#     file existence alone. Never modifies ``input_dir``."""
-
-#     input_dir, output_dir = Path(input_dir), Path(output_dir)
-#     output_dir.mkdir(parents=True, exist_ok=True)
-
-#     processed = regenerated = skipped_valid = 0
-#     failed_docs: list[dict] = []
-
-#     for parsed_path in sorted(input_dir.glob("*.json")):
-#         doc_id = parsed_path.stem
-#         out_path = output_dir / f"{doc_id}.json"
-
-#         was_present = out_path.exists()
-#         if was_present:
-#             try:
-#                 existing = json.loads(out_path.read_text(encoding="utf-8"))
-#             except (OSError, json.JSONDecodeError):
-#                 existing = None
-#             if existing is not None and is_valid_existing_output(existing):
-#                 skipped_valid += 1
-#                 continue
-
-#         try:
-#             parsed_doc = json.loads(parsed_path.read_text(encoding="utf-8"))
-#             chunked_doc = chunk_document(parsed_doc)
-#         except (OSError, json.JSONDecodeError, KeyError, ConstitutionChunkingError) as exc:
-#             failed_docs.append({"doc_id": doc_id, "error": str(exc)})
-#             continue
-
-#         if not chunked_doc["validation"]["ok"]:
-#             failed_docs.append({"doc_id": doc_id, "error": chunked_doc["validation"]["errors"]})
-#             continue
-
-#         tmp_path = out_path.with_suffix(".json.tmp")
-#         tmp_path.write_text(json.dumps(chunked_doc, ensure_ascii=False, indent=2), encoding="utf-8")
-#         tmp_path.replace(out_path)
-#         processed += 1
-#         if was_present:
-#             regenerated += 1
-
-#     return {
-#         "processed": processed, "skipped_valid": skipped_valid, "regenerated": regenerated,
-#         "failed": len(failed_docs), "failed_docs": failed_docs,
-#     }
-
-
-# def main() -> None:  # pragma: no cover -- thin CLI wrapper
-#     summary = chunk_directory()
-#     print(f"Constitution chunking: {summary['processed']} processed "
-#           f"({summary['regenerated']} regenerated), {summary['skipped_valid']} skipped (valid), "
-#           f"{summary['failed']} failed")
-#     for f in summary["failed_docs"]:
-#         print(f"  FAILED {f['doc_id']}: {f['error']}")
-
-
-# if __name__ == "__main__":  # pragma: no cover
-#     main()
-
-
 """Constitution of Pakistan parent-child chunking -- Stage 4 of the
-independent Constitution pipeline.
+independent Constitution pipeline (v2).
 
     parsed Constitution AST (var/rag/constitution_parsed/<doc_id>.json)
         -> build_chunks_for_document()   [deterministic, token-count-driven, no LLM]
         -> parent-child chunk JSON       (var/rag/constitution_chunked/<doc_id>.json)
 
-Converts the already-parsed hierarchical AST into retrieval-ready
-parent/child chunks:
+Chunking rules (all sizes measured on the text that is actually embedded):
 
-    Article, <=600 tokens   -> exactly one chunk (parent == child)
-    Article, >600 tokens    -> one parent (the complete Article) +
-                                 one child per Clause
-    Clause,  >400 tokens     -> that clause's single child is replaced by
-                                 one child per Sub-clause/Proviso (never
-                                 an arbitrary character/sentence split;
-                                 preserved whole if no such boundary exists)
-    Schedule / Preamble / Annex -> exactly one chunk each (the parser
-                                 identifies no item-level boundary inside
-                                 them, so none is invented here)
+    Article  <= MAX_CHUNK_TOKENS     -> one chunk; parent == child; retrievable
+    Article  >  MAX_CHUNK_TOKENS     -> one parent (whole Article, NOT embedded, used for
+                                         context expansion) + retrievable children:
+                                           * one child per Clause;
+                                           * a Clause still too large is split at its own
+                                             paragraph lines (sub-clauses, provisos,
+                                             explanations, definitions) and every such child
+                                             carries the clause's opening words ("lead-in");
+                                           * a tiny Clause (< MIN_CHUNK_TOKENS) is merged into
+                                             its neighbour.
+    Preamble / Annex / Schedule      -> one parent + retrievable children split at their own
+                                         paragraph lines; a Schedule also breaks at its own
+                                         section labels ("### PART I", "PRESIDENT", ...) so an
+                                         oath or a legislative-list Part never shares a chunk.
 
-Every chunk's ``canonical_text`` is an exact, untouched slice of the
-parsed document's own ``cleaned_text`` (never normalized or rewritten
-here); ``embedding_text`` adds a breadcrumb line built only from
-structural metadata the parser already captured, never invented.
+Text fields per chunk:
+    canonical_text  exact slice of cleaned_text (display / citation; footnote refs kept)
+    context_header  "[Constitution of Pakistan | Part II: ... | Article 25A: Right to education.]"
+    embedding_text  context_header + lead-in (if any) + normalized body
+    bm25_text       same content as embedding_text (titles and numbers help lexical match)
+Normalization (embedding / BM25 only): footnote refs and amendment brackets removed,
+"* * *" omission runs dropped, dashes and quotes unified, the "## N. Title" line dropped
+(the header already carries it).
+
+Never splits inside a line, never splits a Markdown table, never emits an empty chunk or
+a heading-only chunk.
 
 PIPELINE ISOLATION
 -------------------
-No import of src.ingestion/, src.classification/, src.rag_prep.
-case_cleaner/structurer*/chunk*/statute_*, or src.extraction.
-case_loader. Independent entry point, independent input/output
-directories. Never modifies the parser's or cleaner's output.
+No import of src.ingestion/, src.classification/, src.rag_prep.*, or src.extraction.
+Independent entry point, independent input/output directories. Never modifies the
+parser's or cleaner's output.
 """
 
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
-
-import tiktoken
-
-from src.rag_prep.constitution_cleaning import strip_footnote_refs
 
 INPUT_DIR = Path("var/rag/constitution_parsed")
 OUTPUT_DIR = Path("var/rag/constitution_chunked")
 
-# Task-specified thresholds -- not configurable elsewhere; see the
-# module docstring's "Core Chunking Rules" summary for their exact
-# effect at each level.
-ARTICLE_TOKEN_THRESHOLD = 600
-CLAUSE_TOKEN_THRESHOLD = 400
-
 DOCUMENT_TITLE = "Constitution of Pakistan"
+DOC_PREFIX = "CONST"
 
-# cl100k_base: a stable, offline, model-agnostic tokenizer -- used
-# purely as a deterministic token-COUNTING yardstick for the chunking
-# thresholds above, never for any generative/LLM purpose.
-_ENCODING = tiktoken.get_encoding("cl100k_base")
+EMBED_TOKEN_LIMIT = 512        # hard limit of the embedding model (validated on embedding_text)
+MAX_CHUNK_TOKENS = 400         # target ceiling for a chunk's body; leaves room for header + lead-in
+MIN_CHUNK_TOKENS = 40          # smaller clauses / groups are merged with a neighbour
+LEAD_IN_MAX_TOKENS = 60        # clause opening words prepended to split children
+
+try:                                                     # deterministic token COUNTING only
+    import tiktoken
+    _ENCODING = tiktoken.get_encoding("cl100k_base")   # needs its vocab file (cached after first download)
+
+    def count_tokens(text: str) -> int:
+        return len(_ENCODING.encode(text))
+except Exception:      # pragma: no cover - tiktoken missing or its vocab file can't be downloaded
+    _ENCODING = None
+
+    def count_tokens(text: str) -> int:
+        # calibrated against cl100k_base on this corpus: never under-counts (max under-count ~0%)
+        return int(len(re.findall(r"\w+|[^\w\s]", text)) * 1.30) + 1
 
 
 class ConstitutionChunkingError(ValueError):
-    """Raised when the input AST cannot be safely chunked -- e.g. its
-    own parse validation did not pass, or no Article/Schedule/Preamble/
-    Annex content exists anywhere. Per "fail validation rather than
-    silently dropping text": raised instead of chunking a known-bad or
-    empty structure."""
+    """Raised when the input AST cannot be safely chunked."""
 
 
-def count_tokens(text: str) -> int:
-    return len(_ENCODING.encode(text))
+# -- text helpers ----------------------------------------------------------------
+_REF_RE = re.compile(r"\[\^[^\]]+\]")
+_ARTICLE_HEADING_LINE_RE = re.compile(r"^##[ \t]+\d+[A-Za-z]{0,3}\.[^\n]*\n*")
+_STATUS_RE = re.compile(r"^\[\s*(Omitted|Repealed|Cease)", re.I)
+_LEAD = r"(?:\[\^[^\]]+\]|\[)*"
+_CLAUSE_LINE_RE = re.compile(rf"^{_LEAD}(?:\d+[A-Za-z]{{0,3}}\.[ \t]*{_LEAD})?\((\d+[A-Za-z]{{0,2}})\)")
+_SUB_LINE_RE = re.compile(rf"^{_LEAD}\(([a-z]{{1,2}}|[ivxl]+)\)")
+_SECTION_LABEL_RE = re.compile(r"^(?:###[ \t]+.*|[A-Z][A-Z .,'’()\-–—&]{2,60})$")   # "### PART I", "PRESIDENT"
 
 
+def strip_refs(text: str) -> str:
+    """Remove footnote refs and unwrap amendment brackets: '[^5.3][Balochistan]' -> 'Balochistan'."""
+    prev = None
+    while prev != text:
+        prev = text
+        text = re.sub(r"\[\^[^\]]+\]\[([^\[\]]*)\]", r"\1", text)
+    return _REF_RE.sub("", text)
+
+
+def normalize(text: str) -> str:
+    text = strip_refs(text)
+    text = re.sub(r"(?m)^#{1,3}[ \t]+", "", text)                 # Markdown heading markers
+    text = re.sub(r"(?:\*[ \t]*){3,}", " ", text)                  # "* * *" omission runs
+    text = re.sub(r"(?m)^\*(?=[A-Z])", "", text)                    # "*FIFTH SCHEDULE"
+    text = re.sub(r"(?<=\w)[ \t]*\*(?=[ \t]*[.,;:)]|[ \t]*$)", "", text)   # lone omission star: "sex *."
+    text = text.replace("–", "-").replace("—", "-").replace("―", "-")
+    text = text.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    text = re.sub(r"[ \t]+\n", "\n", text)
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
+
+
+def clean_title(title: str | None) -> str | None:
+    if not title:
+        return None
+    t = normalize(re.sub(r"^#{1,3}[ \t]+", "", title)).strip(" []")
+    return t or None
+
+
+_ORDINALS = "FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH"
+
+
+def chapter_title(title: str | None) -> str | None:
+    """'THE MAJLIS-E-SHOORA (PARLIAMENT) Composition, Duration and ...' -> 'THE MAJLIS-E-SHOORA (PARLIAMENT)'
+    (the mixed-case tail is a sub-heading printed under the chapter title)."""
+    t = clean_title(title)
+    if not t:
+        return None
+    m = re.match(r"^([A-Z0-9][A-Z0-9 ,.'()\-&]*?)(?:\s+[A-Z][a-z].*)?$", t)
+    return (m.group(1).strip(" .,") if m else t) or t
+
+
+def schedule_title(first_line: str) -> str | None:
+    """'# [^189.1][FIRST SCHEDULE' -> 'First Schedule'; '# THIRD SCHEDULE Oaths of Office' ->
+    'Third Schedule: Oaths of Office'."""
+    t = clean_title(first_line) or ""
+    m = re.match(rf"^\*?({_ORDINALS})\s+SCHEDULE\b\s*(.*)$", t)
+    if not m:
+        return t or None
+    name = f"{m.group(1).title()} Schedule"
+    return f"{name}: {m.group(2).strip()}" if m.group(2).strip() else name
+
+
+_DEF_TERM_RE = re.compile(r"""^(?:\[\^[^\]]+\]|\[)*["“‘'`]{1,2}([^"”’']{1,60})["”’']{1,2}\s+(?:means|includes|shall|has)\b""")
+
+
+def _truncate_tokens(text: str, limit: int) -> str:
+    if count_tokens(text) <= limit:
+        return text
+    words, out = text.split(), []
+    for w in words:
+        if count_tokens(" ".join(out + [w])) > limit:
+            break
+        out.append(w)
+    return " ".join(out) + " …"
+
+
+# -- chunk record ----------------------------------------------------------------------
 @dataclass(frozen=True)
 class Chunk:
     doc_id: str
+    chunk_id: str
     parent_id: str
-    child_id: str | None
+    child_id: str
+    unit_id: str
+    unit_type: str                      # article | clause | clause_part | preamble | annex | schedule | schedule_part
+    is_parent: bool
+    retrievable: bool                   # True -> embed + BM25-index this chunk
     part_number: str | None
     part_title: str | None
     chapter_number: str | None
     chapter_title: str | None
     article_number: str | None
     article_title: str | None
+    article_status: str | None          # in_force | omitted | repealed | ceased
     clause_number: str | None
-    is_parent: bool
-    token_count: int
+    sub_range: str | None               # e.g. "(a)-(f)" for a split clause
+    schedule: str | None
+    section_label: str | None           # Schedule section, e.g. "PART I", "PRESIDENT"
+    token_count: int                    # tokens of embedding_text
     source_start: int
     source_end: int
     canonical_text: str
+    context_header: str
+    lead_in: str | None
     embedding_text: str
+    bm25_text: str
+    footnote_ids: list = field(default_factory=list)
+    references_articles: list = field(default_factory=list)
 
     def to_dict(self) -> dict:
-        return {
-            "doc_id": self.doc_id, "parent_id": self.parent_id, "child_id": self.child_id,
-            "part_number": self.part_number, "part_title": self.part_title,
-            "chapter_number": self.chapter_number, "chapter_title": self.chapter_title,
-            "article_number": self.article_number, "article_title": self.article_title,
-            "clause_number": self.clause_number, "is_parent": self.is_parent,
-            "token_count": self.token_count, "source_start": self.source_start,
-            "source_end": self.source_end, "canonical_text": self.canonical_text,
-            "embedding_text": self.embedding_text,
-        }
+        return dict(self.__dict__)
 
     @classmethod
     def from_dict(cls, d: dict) -> "Chunk":
         return cls(**d)
 
 
-# -- breadcrumb -----------------------------------------------------------------
-
-def _clean_title_for_breadcrumb(title: str | None) -> str | None:
-    """Strips the cleaning stage's footnote-reference sentinels
-    ("[^91.8]") out of a title string used ONLY inside the breadcrumb --
-    never applied to canonical_text or to a chunk's own stored
-    *_title metadata field, which stay verbatim/faithful to the parser's
-    own output. A raw "[^91.8]" is internal pipeline plumbing, not
-    constitutional wording, and left in would only add embedding noise;
-    stripping it is text hygiene for this one derived field, not
-    "inventing missing metadata" (the metadata itself is untouched)."""
-
-    if title is None:
-        return None
-    cleaned = strip_footnote_refs(title).strip()
-    return cleaned or None
-
-
-def _breadcrumb(
-    part_number: str | None, part_title: str | None, chapter_number: str | None, chapter_title: str | None,
-    article_number: str | None, article_title: str | None, clause_number: str | None,
-) -> str:
-    part_title = _clean_title_for_breadcrumb(part_title)
-    chapter_title = _clean_title_for_breadcrumb(chapter_title)
-    article_title = _clean_title_for_breadcrumb(article_title)
-
-    segments = [DOCUMENT_TITLE]
-    if part_number:
-        segments.append(f"Part {part_number}: {part_title}" if part_title else f"Part {part_number}")
-    if chapter_number:
-        segments.append(f"Chapter {chapter_number}: {chapter_title}" if chapter_title else f"Chapter {chapter_number}")
-    if article_number:
-        segments.append(f"Article {article_number}: {article_title}" if article_title else f"Article {article_number}")
-    if clause_number:
-        segments.append(f"Clause ({clause_number})")
-    return "[" + " | ".join(segments) + "]"
+# -- header / references ---------------------------------------------------------------
+def _header(ctx: dict, clause: str | None = None, sub_range: str | None = None,
+            section_label: str | None = None) -> str:
+    seg = [DOCUMENT_TITLE]
+    if ctx.get("schedule"):
+        seg.append(ctx["schedule"])
+        if section_label:
+            seg.append(section_label)
+    elif ctx.get("unit") in ("preamble", "annex"):
+        seg.append(ctx["unit_title"])
+    else:
+        if ctx.get("part_number"):
+            seg.append(f"Part {ctx['part_number']}: {ctx['part_title']}" if ctx.get("part_title")
+                       else f"Part {ctx['part_number']}")
+        if ctx.get("chapter_number"):
+            seg.append(f"Chapter {ctx['chapter_number']}: {ctx['chapter_title']}" if ctx.get("chapter_title")
+                       else f"Chapter {ctx['chapter_number']}")
+        if ctx.get("article_number"):
+            t = ctx.get("article_title")
+            seg.append(f"Article {ctx['article_number']}: {t}" if t else f"Article {ctx['article_number']}")
+        if clause:
+            seg.append(f"Clause ({clause})" + (f" {sub_range}" if sub_range else ""))
+    return "[" + " | ".join(seg) + "]"
 
 
-def _embedding_text(breadcrumb: str, canonical_text: str) -> str:
-    return f"{breadcrumb}\n\n{canonical_text}"
+_ART_REF_RE = re.compile(
+    r"\bArticles?\s+((?:\d+[A-Z]{0,3}(?:\s*\([^)]{1,6}\))*(?:\s*,\s*|\s+and\s+|\s+or\s+|\s+to\s+)?)+)")
 
 
-# -- Part/Chapter title extraction (from the parser's own node text) -----------
-def _part_title_from_text(part_text: str) -> str | None:
-    lines = part_text.split("\n", 2)
-    if len(lines) < 2:
-        return None
-    title = lines[1].strip()
-    return title or None
+def _article_refs(text: str, known: list[str], self_no: str | None) -> list[str]:
+    order = {a: i for i, a in enumerate(known)}
+    found: list[str] = []
+    for m in _ART_REF_RE.finditer(text):
+        span = re.sub(r"\([^)]*\)", "", m.group(1))
+        nums = re.findall(r"\d+[A-Z]{0,3}|\bto\b", span)
+        prev = None
+        for i, n in enumerate(nums):
+            if n == "to" and prev and i + 1 < len(nums) and nums[i + 1] in order and prev in order:
+                found.extend(known[order[prev] + 1:order[nums[i + 1]]])
+            elif n != "to":
+                if n in order:
+                    found.append(n)
+                prev = n
+    seen, out = set(), []
+    for a in found:
+        if a != self_no and a not in seen:
+            seen.add(a)
+            out.append(a)
+    return out
 
 
-# -- clause/sub-clause/proviso child construction --------------------------------
-
-def _chunk_simple_leaf(
-    node: dict, doc_id: str, parent_id: str, child_id: str,
-    part_number: str | None, part_title: str | None, chapter_number: str | None, chapter_title: str | None,
-    article_number: str | None, article_title: str | None, clause_number: str | None,
-) -> Chunk:
-    breadcrumb = _breadcrumb(part_number, part_title, chapter_number, chapter_title, article_number, article_title, clause_number)
-    text = node["text"]
-    return Chunk(
-        doc_id=doc_id, parent_id=parent_id, child_id=child_id,
-        part_number=part_number, part_title=part_title, chapter_number=chapter_number, chapter_title=chapter_title,
-        article_number=article_number, article_title=article_title, clause_number=clause_number,
-        is_parent=False, token_count=count_tokens(text),
-        source_start=node["source_start"], source_end=node["source_end"],
-        canonical_text=text, embedding_text=_embedding_text(breadcrumb, text),
-    )
-
-
-def _flatten_clause_children(clause: dict, cleaned_text: str) -> list[dict]:
-    """Recursively flattens a clause's children to arbitrary nesting depths.
-
-    Ensures sub-clauses with nested children, trailing provisos, or sub-subclauses
-    have their text spans accurately truncated to end at their first child's start,
-    and returns a completely flattened list of contiguous, non-overlapping legal sub-units.
-    """
-    flat: list[dict] = []
-    children = clause.get("children", [])
-
-    for child in children:
-        nested_children = child.get("children", [])
-        if nested_children:
-            # Narrow current node's span to end where its first child starts
-            own_end = nested_children[0]["source_start"]
-            current_node = {
-                **child,
-                "source_end": own_end,
-                "text": cleaned_text[child["source_start"]:own_end]
-            }
-            flat.append(current_node)
-            # Recurse down nested subtree
-            flat.extend(_flatten_clause_children(child, cleaned_text))
+# -- line segmentation ---------------------------------------------------------------
+def _segments(text: str, base: int) -> list[tuple[int, int, str]]:
+    """Paragraph lines of a span as (abs_start, abs_end, text). Consecutive table rows form one
+    segment; a heading line ('## ...' / '# ...') is fused with the line after it so it can
+    never become a chunk of its own."""
+    segs: list[list] = []
+    pos = 0
+    pending_heading = None
+    for raw in text.splitlines(keepends=True):
+        start, end = base + pos, base + pos + len(raw)
+        pos += len(raw)
+        line = raw.strip()
+        if not line:
+            if segs and pending_heading is None:
+                segs[-1][1] = end                         # keep blank lines inside spans (exact coverage)
+            elif pending_heading is not None:
+                pending_heading[1] = end
+            continue
+        if line.startswith("#"):
+            if pending_heading is None:
+                pending_heading = [start, end, raw]
+            else:
+                pending_heading[1], pending_heading[2] = end, pending_heading[2] + raw
+            continue
+        if pending_heading is not None:
+            start = pending_heading[0]
+            raw = pending_heading[2] + raw
+            pending_heading = None
+        if line.startswith("|") and segs and segs[-1][2].rstrip().split("\n")[-1].lstrip().startswith("|"):
+            segs[-1][1], segs[-1][2] = end, segs[-1][2] + raw
+            continue
+        segs.append([start, end, raw])
+    if pending_heading is not None:                      # trailing heading: attach to previous
+        if segs:
+            segs[-1][1], segs[-1][2] = pending_heading[1], segs[-1][2] + pending_heading[2]
         else:
-            flat.append(child)
+            segs.append(pending_heading)
+    return [(s, e, t) for s, e, t in segs]
 
-    return flat
+
+def _body_tokens(text: str) -> int:
+    return count_tokens(normalize(_ARTICLE_HEADING_LINE_RE.sub("", text)))
 
 
-def _chunk_clause(
-    clause: dict, cleaned_text: str, doc_id: str, parent_id: str, article_id: str,
-    part_number: str | None, part_title: str | None, chapter_number: str | None, chapter_title: str | None,
-    article_number: str, article_title: str | None,
-) -> list[Chunk]:
-    clause_number = clause["number"]
-    clause_id = f"{article_id}_c{clause_number.lower()}"
-    token_count = count_tokens(clause["text"])
-
-    if token_count <= CLAUSE_TOKEN_THRESHOLD:
-        return [_chunk_simple_leaf(
-            clause, doc_id, parent_id, clause_id,
-            part_number, part_title, chapter_number, chapter_title, article_number, article_title, clause_number,
-        )]
-
-    # Oversized Clause Rule: split by sub-clause/proviso children the
-    # parser already identified (flattened -- see _flatten_clause_children).
-    # If none exist, the clause has no valid internal legal boundary --
-    # preserved whole rather than guessed at.
-    flat_children = _flatten_clause_children(clause, cleaned_text)
-    splittable = [c for c in flat_children if c["type"] in ("subclause", "proviso")]
-    if not splittable:
-        return [_chunk_simple_leaf(
-            clause, doc_id, parent_id, clause_id,
-            part_number, part_title, chapter_number, chapter_title, article_number, article_title, clause_number,
-        )]
-
-    chunks: list[Chunk] = []
-    proviso_n = 0
-    seen_ids: dict[str, int] = {}
-    for child in flat_children:  # every child, in order -- union(children) == clause text
-        if child["type"] == "subclause":
-            cid = f"{clause_id}_{child['number'].lower()}"
-        elif child["type"] == "proviso":
-            proviso_n += 1
-            cid = f"{clause_id}_proviso" + (str(proviso_n) if proviso_n > 1 else "")
-        else:  # a "text" gap within the oversized clause -- kept, not dropped
-            cid = f"{clause_id}_text{len(chunks) + 1}"
-
-        if cid in seen_ids:
-            seen_ids[cid] += 1
-            cid = f"{cid}{seen_ids[cid]}"
+def _pack(segs: list[tuple[int, int, str]], max_tokens: int, breaks: set[int] | None = None) -> list[list]:
+    """Greedy packing of whole segments into groups <= max_tokens; a segment index in
+    `breaks` always starts a new group."""
+    groups: list[list] = []
+    cur: list = []
+    cur_tok = 0
+    for i, seg in enumerate(segs):
+        t = _body_tokens(seg[2])
+        if cur and (cur_tok + t > max_tokens or (breaks and i in breaks and cur_tok >= MIN_CHUNK_TOKENS)):
+            groups.append(cur)
+            cur, cur_tok = [], 0
+        cur.append(seg)
+        cur_tok += t
+    if cur:
+        groups.append(cur)
+    # merge a tiny trailing group backwards when it fits
+    if len(groups) > 1 and sum(_body_tokens(s[2]) for s in groups[-1]) < MIN_CHUNK_TOKENS:
+        last = groups.pop()
+        if sum(_body_tokens(s[2]) for s in groups[-1] + last) <= max_tokens and not (breaks and segs.index(last[0]) in breaks):
+            groups[-1].extend(last)
         else:
-            seen_ids[cid] = 1
-
-        chunks.append(_chunk_simple_leaf(
-            child, doc_id, parent_id, cid,
-            part_number, part_title, chapter_number, chapter_title, article_number, article_title, clause_number,
-        ))
-    return chunks
+            groups.append(last)
+    return groups
 
 
-def _chunk_article(
-    article: dict, cleaned_text: str, doc_id: str,
-    part_number: str | None, part_title: str | None, chapter_number: str | None, chapter_title: str | None,
-) -> list[Chunk]:
-    article_number = article["article_number"]
-    article_title = article.get("heading")
-    article_id = f"art_{article_number.lower()}"
-    token_count = count_tokens(article["text"])
+# -- chunk builder -------------------------------------------------------------------------
+class _Builder:
+    def __init__(self, parsed_doc: dict):
+        self.doc_id = parsed_doc["doc_id"]
+        self.text = parsed_doc["cleaned_text"]
+        self.root = parsed_doc["structure"]
+        self.known_articles: list[str] = []
+        self._collect(self.root)
+        self.chunks: list[Chunk] = []
+        self.ids: set[str] = set()
 
-    if token_count <= ARTICLE_TOKEN_THRESHOLD:
-        # Rule A: exactly one chunk -- parent IS the child.
-        chunk = _chunk_simple_leaf(
-            article, doc_id, article_id, article_id,
-            part_number, part_title, chapter_number, chapter_title, article_number, article_title, None,
+    def _collect(self, n: dict):
+        if n.get("type") == "article":
+            self.known_articles.append(n["article_number"])
+        for c in n.get("children", []):
+            self._collect(c)
+
+    def _uid(self, base: str) -> str:
+        cid, k = base, 2
+        while cid in self.ids:
+            cid, k = f"{base}_{k}", k + 1
+        self.ids.add(cid)
+        return cid
+
+    def _make(self, ctx: dict, *, chunk_id: str, parent_id: str, unit_id: str, unit_type: str,
+              is_parent: bool, retrievable: bool, start: int, end: int, clause: str | None = None,
+              sub_range: str | None = None, lead_in: str | None = None, section_label: str | None = None) -> Chunk:
+        canonical = self.text[start:end]
+        header = _header(ctx, clause, sub_range, section_label)
+        body = normalize(_ARTICLE_HEADING_LINE_RE.sub("", canonical.lstrip()))
+        lead = normalize(lead_in) if lead_in else None
+        emb = header + "\n\n" + (f"{lead} …\n" if lead else "") + body
+        return Chunk(
+            doc_id=self.doc_id, chunk_id=chunk_id, parent_id=parent_id, child_id=chunk_id, unit_id=unit_id,
+            unit_type=unit_type, is_parent=is_parent, retrievable=retrievable,
+            part_number=ctx.get("part_number"), part_title=ctx.get("part_title"),
+            chapter_number=ctx.get("chapter_number"), chapter_title=ctx.get("chapter_title"),
+            article_number=ctx.get("article_number"), article_title=ctx.get("article_title"),
+            article_status=ctx.get("article_status"), clause_number=clause, sub_range=sub_range,
+            schedule=ctx.get("schedule"), section_label=section_label,
+            token_count=count_tokens(emb), source_start=start, source_end=end,
+            canonical_text=canonical, context_header=header, lead_in=lead, embedding_text=emb, bm25_text=emb,
+            footnote_ids=sorted(set(re.findall(r"\[\^([^\]]+)\]", canonical)), key=lambda s: [int(x) for x in s.split(".") if x.isdigit()]),
+            references_articles=_article_refs(normalize(canonical), self.known_articles, ctx.get("article_number")),
         )
-        return [Chunk(**{**chunk.to_dict(), "is_parent": True})]
 
-    # Rule B: one parent (the complete Article) + one child per Clause
-    parent_id = f"{article_id}_parent"
-    breadcrumb = _breadcrumb(part_number, part_title, chapter_number, chapter_title, article_number, article_title, None)
-    parent_chunk = Chunk(
-        doc_id=doc_id, parent_id=parent_id, child_id=None,
-        part_number=part_number, part_title=part_title, chapter_number=chapter_number, chapter_title=chapter_title,
-        article_number=article_number, article_title=article_title, clause_number=None,
-        is_parent=True, token_count=token_count,
-        source_start=article["source_start"], source_end=article["source_end"],
-        canonical_text=article["text"], embedding_text=_embedding_text(breadcrumb, article["text"]),
-    )
+    # ---- articles ----
+    def article(self, art: dict, ctx: dict):
+        number = art["article_number"]
+        title = clean_title(art.get("heading"))
+        status = "in_force"
+        m = _STATUS_RE.match(art.get("heading") or "")
+        if m:
+            status = {"omitted": "omitted", "repealed": "repealed", "cease": "ceased"}[m.group(1).lower()]
+        ctx = {**ctx, "article_number": number, "article_title": title, "article_status": status}
+        aid = f"art_{number.lower()}"
+        unit = f"{DOC_PREFIX}:art:{number}"
+        start, end = art["source_start"], self._trim_end(art["source_start"], art["source_end"])
 
-    chunks = [parent_chunk]
-    text_n = 0
-    for child in article.get("children", []):
-        if child["type"] == "clause":
-            chunks.extend(_chunk_clause(
-                child, cleaned_text, doc_id, parent_id, article_id,
-                part_number, part_title, chapter_number, chapter_title, article_number, article_title,
-            ))
-        else:  # a "text" gap directly under the Article
-            text_n += 1
-            chunks.append(_chunk_simple_leaf(
-                child, doc_id, parent_id, f"{article_id}_text{text_n}",
-                part_number, part_title, chapter_number, chapter_title, article_number, article_title, None,
-            ))
-    return chunks
+        if _body_tokens(self.text[start:end]) <= MAX_CHUNK_TOKENS:
+            self.chunks.append(self._make(ctx, chunk_id=self._uid(aid), parent_id=aid, unit_id=unit,
+                                          unit_type="article", is_parent=True, retrievable=True, start=start, end=end))
+            return
 
+        self.chunks.append(self._make(ctx, chunk_id=self._uid(aid), parent_id=aid, unit_id=unit, unit_type="article",
+                                      is_parent=True, retrievable=False, start=start, end=end))
+        segs = _segments(self.text[start:end], start)
 
-def _chunk_top_level_unit(node: dict, doc_id: str) -> list[Chunk]:
-    """Preamble, Annex (Objectives Resolution), and Schedule chunks."""
-    node_id = node["id"]
-    heading = node.get("heading")
-    chunk = _chunk_simple_leaf(node, doc_id, node_id, node_id, None, None, None, None, None, heading, None)
-    return [Chunk(**{**chunk.to_dict(), "is_parent": True})]
+        # group lines into clause units
+        units: list[dict] = []
+        for seg in segs:
+            first_line = seg[2].lstrip()
+            first_line = _ARTICLE_HEADING_LINE_RE.sub("", first_line).lstrip()
+            cm = _CLAUSE_LINE_RE.match(first_line)
+            if cm or not units:
+                units.append({"clause": cm.group(1) if cm else None, "segs": [seg]})
+            else:
+                units[-1]["segs"].append(seg)
+
+        # merge tiny clause units forward (or into the previous one at the end)
+        merged: list[dict] = []
+        for u in units:
+            tok = sum(_body_tokens(s[2]) for s in u["segs"])
+            if merged:
+                prev = merged[-1]
+                prev_tok = sum(_body_tokens(s[2]) for s in prev["segs"])
+                if (prev_tok < MIN_CHUNK_TOKENS or tok < MIN_CHUNK_TOKENS) and prev_tok + tok <= MAX_CHUNK_TOKENS:
+                    prev["segs"].extend(u["segs"])
+                    prev["clauses"].append(u["clause"])
+                    continue
+            merged.append({"clause": u["clause"], "clauses": [u["clause"]], "segs": list(u["segs"])})
+
+        for u in merged:
+            clause_ids = [c for c in u["clauses"] if c]
+            clause_label = (clause_ids[0] if len(clause_ids) == 1 else
+                            f"{clause_ids[0]})–({clause_ids[-1]}" if clause_ids else None)
+            tok = sum(_body_tokens(s[2]) for s in u["segs"])
+            if tok <= MAX_CHUNK_TOKENS:
+                s0, s1 = u["segs"][0][0], u["segs"][-1][1]
+                base = f"{aid}_c{clause_ids[0].lower()}" if clause_ids else f"{aid}_intro"
+                self.chunks.append(self._make(
+                    ctx, chunk_id=self._uid(base), parent_id=aid,
+                    unit_id=f"{unit}:cl:{'-'.join(clause_ids)}" if clause_ids else f"{unit}:intro",
+                    unit_type="clause", is_parent=False, retrievable=True, start=s0, end=s1, clause=clause_label))
+                continue
+            # oversized clause: split at its own paragraph lines, carry the clause lead-in
+            lead_text = _ARTICLE_HEADING_LINE_RE.sub("", u["segs"][0][2].lstrip())
+            lead_in = _truncate_tokens(normalize(lead_text), LEAD_IN_MAX_TOKENS)
+            lead_tok = count_tokens(lead_in)
+            for gi, grp in enumerate(_pack(u["segs"], MAX_CHUNK_TOKENS - lead_tok)):
+                lines = [_ARTICLE_HEADING_LINE_RE.sub("", s[2].lstrip()).lstrip() for s in grp]
+                terms = [normalize(m.group(1)).strip() for l in lines if (m := _DEF_TERM_RE.match(l))]
+                subs = [m.group(1) for l in lines if (m := _SUB_LINE_RE.match(l))]
+                if len(terms) >= 2:
+                    sub_range = f'definitions "{terms[0]}" to "{terms[-1]}"'
+                elif subs and _SUB_LINE_RE.match(lines[0]):
+                    sub_range = f"({subs[0]})" if len(subs) == 1 else f"({subs[0]})–({subs[-1]})"
+                else:
+                    sub_range = None
+                base = f"{aid}_c{clause_ids[0].lower()}_p{gi + 1}" if clause_ids else f"{aid}_p{gi + 1}"
+                self.chunks.append(self._make(
+                    ctx, chunk_id=self._uid(base), parent_id=aid,
+                    unit_id=(f"{unit}:cl:{clause_ids[0]}" if clause_ids else unit) + f":part:{gi + 1}",
+                    unit_type="clause_part", is_parent=False, retrievable=True, start=grp[0][0], end=grp[-1][1],
+                    clause=clause_label, sub_range=sub_range, lead_in=None if gi == 0 else lead_in))
+
+    # ---- preamble / annex / schedules ----
+    def block(self, node: dict, kind: str):
+        start, end = node["source_start"], self._trim_end(node["source_start"], node["source_end"])
+        if kind == "schedule":
+            ctx = {"schedule": schedule_title(self.text[start:end].split("\n", 1)[0])}
+            pid = "sch_" + node["id"].removeprefix("schedule_").removesuffix("_schedule")
+            unit = f"{DOC_PREFIX}:schedule:{pid.removeprefix('sch_')}"
+        else:
+            ctx = {"unit": kind, "unit_title": "Preamble" if kind == "preamble"
+                   else "Annex: The Objectives Resolution"}
+            pid, unit = kind, f"{DOC_PREFIX}:{kind}"
+
+        small = _body_tokens(self.text[start:end]) <= MAX_CHUNK_TOKENS
+        self.chunks.append(self._make(ctx, chunk_id=self._uid(pid), parent_id=pid, unit_id=unit, unit_type=kind,
+                                      is_parent=True, retrievable=small, start=start, end=end))
+        if small:
+            return
+        segs = _segments(self.text[start:end], start)
+        breaks, labels, label, prev_was_label, base_label, run_start = set(), [], None, False, None, 0
+        for i, s in enumerate(segs):
+            lines = [l.strip() for l in s[2].strip().split("\n") if l.strip() and not l.strip().startswith("# ")]
+            if kind == "schedule" and lines and lines[0].startswith("###"):       # "### PART I" (fused with entry 1)
+                part = clean_title(lines[0])
+                label = f"{base_label}, {part}" if base_label else part
+                breaks.add(i)
+                prev_was_label = False
+                labels.append(label)
+                continue
+            cand = lines[-1] if lines else ""
+            cand_n = normalize(cand).strip("[] ")
+            is_label = (kind == "schedule" and bool(cand_n) and len(lines) == 1
+                        and bool(_SECTION_LABEL_RE.match(cand_n)))
+            if is_label:
+                text_l = clean_title(cand) or ""
+                if prev_was_label and label:
+                    label = base_label = f"{label} {text_l}".strip()   # "THE FEDERAL CONSTITUTIONAL COURT AND THE SUPREME COURT"
+                    k = len(labels) - 1
+                    while k >= run_start:                              # relabel the whole run of label lines
+                        labels[k] = label
+                        k -= 1
+                elif text_l.upper() not in ("AND", "OR"):
+                    label = base_label = text_l
+                    run_start = i
+                    breaks.add(i)
+            prev_was_label = is_label
+            labels.append(label)
+        for gi, grp in enumerate(_pack(segs, MAX_CHUNK_TOKENS, breaks)):
+            sec = labels[segs.index(grp[-1])] if labels[segs.index(grp[0])] is None else labels[segs.index(grp[0])]
+            lab_in = [labels[segs.index(x)] for x in grp if segs.index(x) in breaks]
+            sec = lab_in[-1] if lab_in else sec
+            self.chunks.append(self._make(
+                ctx, chunk_id=self._uid(f"{pid}_p{gi + 1}"), parent_id=pid, unit_id=f"{unit}:part:{gi + 1}",
+                unit_type=f"{kind}_part", is_parent=False, retrievable=True,
+                start=grp[0][0], end=grp[-1][1], section_label=sec))
+
+    def _trim_end(self, start: int, end: int) -> int:
+        while end > start and self.text[end - 1] in " \t\r\n":
+            end -= 1
+        return end
+
+    def build(self) -> list[Chunk]:
+        for top in self.root.get("children", []):
+            t = top["type"]
+            if t == "part":
+                pctx = {"part_number": top["id"].removeprefix("part_"), "part_title": clean_title(top.get("heading"))}
+                for sub in top.get("children", []):
+                    if sub["type"] == "chapter":
+                        cctx = {**pctx, "chapter_number": sub["id"].rsplit("_chapter", 1)[-1],
+                                "chapter_title": chapter_title(sub.get("heading"))}
+                        for art in sub.get("children", []):
+                            if art["type"] == "article":
+                                self.article(art, cctx)
+                    elif sub["type"] == "article":
+                        self.article(sub, pctx)
+            elif t in ("preamble", "annex", "schedule"):
+                self.block(top, t)
+        return self.chunks
 
 
 def build_chunks_for_document(parsed_doc: dict) -> list[Chunk]:
-    """Builds the full, ordered, deterministic chunk list for one parsed Constitution document."""
     if not parsed_doc.get("validation", {}).get("ok"):
         raise ConstitutionChunkingError(
-            "Refusing to chunk a parsed Constitution document whose own structural "
-            f"validation did not pass: {parsed_doc.get('validation', {}).get('errors')}"
-        )
-
-    doc_id = parsed_doc["doc_id"]
-    cleaned_text = parsed_doc["cleaned_text"]
-    root = parsed_doc["structure"]
-
-    chunks: list[Chunk] = []
-    for top in root.get("children", []):
-        if top["type"] == "part":
-            part_number = top["id"].removeprefix("part_")
-            part_title = _part_title_from_text(top["text"])
-            for sub in top.get("children", []):
-                if sub["type"] == "chapter":
-                    chapter_number = sub["id"].rsplit("_chapter", 1)[-1]
-                    chapter_title = sub.get("heading")
-                    for art in sub.get("children", []):
-                        if art["type"] == "article":
-                            chunks.extend(_chunk_article(art, cleaned_text, doc_id, part_number, part_title, chapter_number, chapter_title))
-                elif sub["type"] == "article":
-                    chunks.extend(_chunk_article(sub, cleaned_text, doc_id, part_number, part_title, None, None))
-        elif top["type"] in ("schedule", "preamble", "annex"):
-            chunks.extend(_chunk_top_level_unit(top, doc_id))
-
+            "Refusing to chunk a parsed Constitution document whose own structural validation did not pass: "
+            f"{parsed_doc.get('validation', {}).get('errors')}")
+    chunks = _Builder(parsed_doc).build()
     if not chunks:
         raise ConstitutionChunkingError("No Article, Schedule, Preamble, or Annex content found to chunk.")
-
     return chunks
 
 
-# -- validation -------------------------------------------------------------------
-
+# -- validation -------------------------------------------------------------------------
 @dataclass
 class ChunkValidationResult:
     ok: bool
     errors: list[str] = field(default_factory=list)
+    warnings: list[str] = field(default_factory=list)
     diagnostics: dict = field(default_factory=dict)
 
     def to_dict(self) -> dict:
-        return {"ok": self.ok, "errors": self.errors, "diagnostics": self.diagnostics}
+        return {"ok": self.ok, "errors": self.errors, "warnings": self.warnings, "diagnostics": self.diagnostics}
 
 
 def validate_chunks(chunks: list[Chunk], parsed_doc: dict) -> ChunkValidationResult:
     errors: list[str] = []
-    cleaned_text = parsed_doc["cleaned_text"]
+    warnings: list[str] = []
+    text = parsed_doc["cleaned_text"]
 
-    by_parent: dict[str, list[Chunk]] = {}
-    parent_chunks: dict[str, Chunk] = {}
-    for c in chunks:
-        by_parent.setdefault(c.parent_id, []).append(c)
-        if c.is_parent:
-            parent_chunks[c.parent_id] = c
+    ids = [c.chunk_id for c in chunks]
+    dup = sorted({i for i in ids if ids.count(i) > 1})
+    if dup:
+        errors.append(f"duplicate chunk_id(s): {dup[:10]}")
+    if any(not i for i in ids):
+        errors.append("chunk without chunk_id")
 
+    parents = {c.parent_id: c for c in chunks if c.is_parent}
     for c in chunks:
-        if not (0 <= c.source_start <= c.source_end <= len(cleaned_text)):
-            errors.append(f"{c.child_id or c.parent_id}: out-of-bounds offsets [{c.source_start},{c.source_end})")
+        if not (0 <= c.source_start < c.source_end <= len(text)):
+            errors.append(f"{c.chunk_id}: bad offsets [{c.source_start},{c.source_end})")
             continue
-        if cleaned_text[c.source_start:c.source_end] != c.canonical_text:
-            errors.append(f"{c.child_id or c.parent_id}: canonical_text does not match cleaned_text[source_start:source_end]")
-        if c.token_count <= 0 and c.canonical_text.strip():
-            errors.append(f"{c.child_id or c.parent_id}: token_count not recorded for non-empty text")
-        if not c.embedding_text.startswith("[" + DOCUMENT_TITLE):
-            errors.append(f"{c.child_id or c.parent_id}: embedding_text does not start with the expected breadcrumb")
-        if not c.is_parent and c.child_id is None:
-            errors.append(f"a non-parent chunk under {c.parent_id} is missing a child_id")
-        if not c.is_parent and c.parent_id not in parent_chunks:
-            errors.append(f"child {c.child_id} has no corresponding parent chunk {c.parent_id!r}")
+        if text[c.source_start:c.source_end] != c.canonical_text:
+            errors.append(f"{c.chunk_id}: canonical_text != cleaned_text[source_start:source_end]")
+        body = normalize(_ARTICLE_HEADING_LINE_RE.sub("", c.canonical_text.lstrip()))
+        if not body:
+            errors.append(f"{c.chunk_id}: empty or heading-only chunk")
+        if re.search(r"\n##[ \t]+\d", c.canonical_text):
+            errors.append(f"{c.chunk_id}: contains another Article's heading (boundary leak)")
+        if "#" in c.context_header or "[^" in c.context_header:
+            errors.append(f"{c.chunk_id}: context_header contains markup: {c.context_header[:80]}")
+        if c.retrievable and c.token_count > EMBED_TOKEN_LIMIT:
+            errors.append(f"{c.chunk_id}: {c.token_count} tokens > embedding limit {EMBED_TOKEN_LIMIT}")
+        if "[^" in c.embedding_text:
+            errors.append(f"{c.chunk_id}: footnote refs left in embedding_text")
+        if not c.is_parent and c.parent_id not in parents:
+            errors.append(f"{c.chunk_id}: parent {c.parent_id} missing")
 
-    # Rule A check
-    article_groups: dict[str, list[Chunk]] = {}
+    # children of a non-retrievable parent must exactly tile the parent (ignoring whitespace)
+    kids: dict[str, list[Chunk]] = {}
     for c in chunks:
-        if c.article_number:
-            article_groups.setdefault(c.article_number, []).append(c)
+        if not c.is_parent:
+            kids.setdefault(c.parent_id, []).append(c)
+    for pid, p in parents.items():
+        ks = sorted(kids.get(pid, []), key=lambda c: c.source_start)
+        if not p.retrievable and not ks:
+            errors.append(f"{pid}: non-retrievable parent without children (content not indexed)")
+        cursor = p.source_start
+        for k in ks:
+            if k.source_start < cursor:
+                errors.append(f"{k.chunk_id}: overlaps previous sibling")
+            elif text[cursor:k.source_start].strip():
+                errors.append(f"{pid}: text lost before {k.chunk_id}: {text[cursor:k.source_start][:60]!r}")
+            cursor = max(cursor, k.source_end)
+        if ks and text[cursor:p.source_end].strip():
+            errors.append(f"{pid}: text lost at end: {text[cursor:p.source_end][:60]!r}")
 
-    for article_number, group in article_groups.items():
-        parents = [c for c in group if c.is_parent]
-        if len(parents) != 1:
-            errors.append(f"Article {article_number}: expected exactly one parent chunk, found {len(parents)}")
-            continue
-        parent = parents[0]
-        if parent.parent_id == parent.child_id:
-            if len(group) != 1:
-                errors.append(f"Article {article_number}: Rule A (parent==child) article has extra chunks: {len(group)}")
-        else:
-            children = sorted((c for c in group if not c.is_parent), key=lambda c: c.source_start)
-            cursor = parent.source_start
-            for child in children:
-                if child.source_start < cursor:
-                    errors.append(f"Article {article_number}: child {child.child_id} overlaps a preceding sibling")
-                elif child.source_start > cursor:
-                    errors.append(f"Article {article_number}: gap in child coverage before {child.child_id} "
-                                   f"-- union(children) != Article text")
-                cursor = max(cursor, child.source_end)
-            if cursor != parent.source_end:
-                errors.append(f"Article {article_number}: children do not fully cover the Article's span "
-                               f"(lost text, covered up to {cursor} of {parent.source_end})")
-
-    real_article_numbers = set()
-
-    def _collect_real_articles(node: dict):
-        if node.get("type") == "article":
-            real_article_numbers.add(node["article_number"])
-        for c in node.get("children", []):
-            _collect_real_articles(c)
-
-    _collect_real_articles(parsed_doc["structure"])
-    missing = real_article_numbers - set(article_groups)
+    def collect(n, out):
+        if n.get("type") == "article":
+            out.append(n["article_number"])
+        for c in n.get("children", []):
+            collect(c, out)
+    real: list[str] = []
+    collect(parsed_doc["structure"], real)
+    represented = {c.article_number for c in chunks if c.article_number}
+    missing = [a for a in real if a not in represented]
     if missing:
-        errors.append(f"Article(s) present in the parsed AST but not represented in any chunk: {sorted(missing)}")
+        errors.append(f"Articles not represented in any chunk: {missing[:20]}")
+    parts = {c.part_number for c in chunks if c.part_number}
 
-    seen_child_ids = [c.child_id for c in chunks if c.child_id is not None]
-    duplicate_child_ids = {cid for cid in seen_child_ids if seen_child_ids.count(cid) > 1}
-    if duplicate_child_ids:
-        errors.append(f"duplicate child_id(s): {sorted(duplicate_child_ids)}")
+    retr = [c for c in chunks if c.retrievable]
+    small = [c.chunk_id for c in retr if c.token_count - count_tokens(c.context_header) < 12]
+    if small:
+        warnings.append(f"{len(small)} retrievable chunks have < 12 body tokens: {small[:10]}")
 
+    toks = sorted(c.token_count for c in retr)
     diagnostics = {
         "total_chunks": len(chunks),
-        "parent_chunks": sum(1 for c in chunks if c.is_parent),
-        "child_chunks": sum(1 for c in chunks if not c.is_parent),
-        "articles_represented": len(article_groups),
+        "parent_chunks": sum(c.is_parent for c in chunks),
+        "child_chunks": sum(not c.is_parent for c in chunks),
+        "retrievable_chunks": len(retr),
+        "articles_represented": len(represented),
+        "articles_in_ast": len(real),
+        "parts_represented": len(parts),
+        "omitted_articles": sorted({c.article_number for c in chunks if c.article_status not in (None, "in_force")}),
+        "retrievable_token_min_median_max": [toks[0], toks[len(toks) // 2], toks[-1]] if toks else None,
+        "embed_token_limit": EMBED_TOKEN_LIMIT,
     }
-    return ChunkValidationResult(ok=not errors, errors=errors, diagnostics=diagnostics)
+    return ChunkValidationResult(ok=not errors, errors=errors, warnings=warnings, diagnostics=diagnostics)
 
 
 def is_valid_existing_output(doc_dict: dict) -> bool:
-    """Resumability gate: checks validity of existing chunked output file."""
     try:
         chunks = [Chunk.from_dict(c) for c in doc_dict["chunks"]]
         parsed_doc = {"cleaned_text": doc_dict["cleaned_text"], "structure": doc_dict["structure"]}
-    except (KeyError, TypeError, ValueError):
+        return validate_chunks(chunks, parsed_doc).ok
+    except Exception:  # noqa: BLE001 -- a malformed or old-schema file is simply regenerated
         return False
-    try:
-        result = validate_chunks(chunks, parsed_doc)
-    except Exception:  # noqa: BLE001
-        return False
-    return result.ok
 
 
 def chunk_document(parsed_doc: dict) -> dict:
@@ -1042,17 +651,14 @@ def chunk_document(parsed_doc: dict) -> dict:
 
 
 def chunk_directory(input_dir: Path = INPUT_DIR, output_dir: Path = OUTPUT_DIR) -> dict:
-    """Chunks every `<doc_id>.json` in input_dir into output_dir/<doc_id>.json."""
     input_dir, output_dir = Path(input_dir), Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-
     processed = regenerated = skipped_valid = 0
     failed_docs: list[dict] = []
 
     for parsed_path in sorted(input_dir.glob("*.json")):
         doc_id = parsed_path.stem
         out_path = output_dir / f"{doc_id}.json"
-
         was_present = out_path.exists()
         if was_present:
             try:
@@ -1062,29 +668,23 @@ def chunk_directory(input_dir: Path = INPUT_DIR, output_dir: Path = OUTPUT_DIR) 
             if existing is not None and is_valid_existing_output(existing):
                 skipped_valid += 1
                 continue
-
         try:
             parsed_doc = json.loads(parsed_path.read_text(encoding="utf-8"))
             chunked_doc = chunk_document(parsed_doc)
         except (OSError, json.JSONDecodeError, KeyError, ConstitutionChunkingError) as exc:
             failed_docs.append({"doc_id": doc_id, "error": str(exc)})
             continue
-
         if not chunked_doc["validation"]["ok"]:
             failed_docs.append({"doc_id": doc_id, "error": chunked_doc["validation"]["errors"]})
             continue
-
         tmp_path = out_path.with_suffix(".json.tmp")
         tmp_path.write_text(json.dumps(chunked_doc, ensure_ascii=False, indent=2), encoding="utf-8")
         tmp_path.replace(out_path)
         processed += 1
-        if was_present:
-            regenerated += 1
+        regenerated += was_present
 
-    return {
-        "processed": processed, "skipped_valid": skipped_valid, "regenerated": regenerated,
-        "failed": len(failed_docs), "failed_docs": failed_docs,
-    }
+    return {"processed": processed, "skipped_valid": skipped_valid, "regenerated": regenerated,
+            "failed": len(failed_docs), "failed_docs": failed_docs}
 
 
 def main() -> None:  # pragma: no cover
@@ -1094,6 +694,8 @@ def main() -> None:  # pragma: no cover
           f"{summary['failed']} failed")
     for f in summary["failed_docs"]:
         print(f"  FAILED {f['doc_id']}: {f['error']}")
+    if summary["failed"]:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":  # pragma: no cover

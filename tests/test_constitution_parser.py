@@ -163,6 +163,29 @@ def test_bare_year_at_end_of_citation_not_mistaken_for_an_article():
     assert numbers == ["239"]
 
 
+def test_wrapped_clause_cross_reference_not_mistaken_for_a_new_clause():
+    # Confirmed real false-positive, found across 5 real Articles
+    # (199, 270AA x2, 51, 59): an inline cross-reference like "...the
+    # powers referred to in clause\n(1), the High Court..." can have its
+    # line wrapped so the referenced number lands at a true line start,
+    # looking exactly like clause (1) starting over. A regressing clause
+    # number is never genuine (letter-suffixed insertions like "4, 4A,
+    # 4B" only ever increase), so it must be absorbed into the
+    # preceding clause, not spawn a duplicate "clause 1".
+    text = ("PREAMBLE\np\n\nPART I\nIntro\n"
+            "199. (1) Subject to the Constitution, a High Court may issue orders.\n"
+            "(2) The provisions of clause (1) shall not derogate from the powers.\n"
+            "(3) An interim order made in exercise of the powers referred to in clause\n"
+            "(1), the High Court has made shall be disposed of within six months.\n"
+            "(4) Nothing in this Article shall affect the jurisdiction.")
+    root = parse_constitution_structure(text)
+    article_199 = _find(root.to_dict(), article_number="199")
+    clause_numbers = [c["number"] for c in article_199["children"] if c["type"] == "clause"]
+    assert clause_numbers == ["1", "2", "3", "4"]
+    clause_3 = next(c for c in article_199["children"] if c.get("number") == "3")
+    assert "the High Court has made shall be disposed of within six months" in clause_3["text"]
+
+
 def test_numeric_subclause_reference_not_mistaken_for_an_article():
     text = "PREAMBLE\np\n\nPART I\nIntro\n5. Something refers to clause (1) and (2) of Article 48."
     root = parse_constitution_structure(text)

@@ -71,14 +71,19 @@ _FOOTNOTES_BLOCK_MARKER = "\n\n[FOOTNOTES]\n"
 # every real case found without requiring a fixed count.
 _LEADING_NOISE = r"(?:(?:\[\^[^\]]+\]|\[)[ \t]*)*"
 
+# The cleaner (v3+) emits structural headings with a Markdown prefix: "# PART I Introductory",
+# "# CHAPTER 1.–...", "# [^189.1][FIRST SCHEDULE", "# *FIFTH SCHEDULE", "### PART I" (inside a Schedule).
+# Older cleaned text had no prefix, so it stays optional.
+_HEADING_PREFIX = r"(?:#{1,3}[ \t]+)?"
+
 _PREAMBLE_RE = re.compile(rf"^[ \t]*{_LEADING_NOISE}PREAMBLE[ \t]*$", re.MULTILINE)
-_ANNEX_RE = re.compile(rf"^[ \t]*{_LEADING_NOISE}ANNEX\b.*$", re.MULTILINE)
-_PART_RE = re.compile(rf"^[ \t]*{_LEADING_NOISE}PART[ \t]+([IVXLCDM]+)\b.*$", re.MULTILINE)
-_CHAPTER_RE = re.compile(rf"^[ \t]*{_LEADING_NOISE}CHAPTER[ \t]+(\d+[A-Za-z]{{0,2}})\.[ \t–—.-]*(.*)$", re.MULTILINE)
+_ANNEX_RE = re.compile(rf"^[ \t]*{_HEADING_PREFIX}{_LEADING_NOISE}ANNEX\b.*$", re.MULTILINE)
+_PART_RE = re.compile(rf"^[ \t]*{_HEADING_PREFIX}{_LEADING_NOISE}PART[ \t]+([IVXLCDM]+)\b[ \t]*(.*)$", re.MULTILINE)
+_CHAPTER_RE = re.compile(rf"^[ \t]*{_HEADING_PREFIX}{_LEADING_NOISE}CHAPTER[ \t]+(\d+[A-Za-z]{{0,2}})\.[ \t–—.-]*(.*)$", re.MULTILINE)
 # A stray leading "*" (confirmed once, "*FIFTH SCHEDULE") or bracket is
 # tolerated in addition to the standard sentinel noise.
 _SCHEDULE_RE = re.compile(
-    rf"^[ \t]*{_LEADING_NOISE}\*?((?:FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH)[ \t]+SCHEDULE)\b.*$",
+    rf"^[ \t]*{_HEADING_PREFIX}{_LEADING_NOISE}\*?((?:FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH)[ \t]+SCHEDULE)\b.*$",
     re.MULTILINE,
 )
 
@@ -119,22 +124,14 @@ _ARTICLE_BARE_RE = re.compile(
 # never invented.
 _MARGINAL_NOTE_LINE_RE = re.compile(r"^##[ \t]+(\d+[A-Za-z]{0,3})\.[ \t]+(.+)$", re.MULTILINE)
 
-_CLAUSE_RE = re.compile(rf"^[ \t]*{_LEADING_NOISE}\((\d+[A-Za-z]{{0,2}})\)[ \t]*", re.MULTILINE)
+# Clause (1) usually sits on the Article's own first line ("[^5.1]1. (1) Pakistan shall ..."), so an
+# optional "<article no>. " prefix is accepted; without it clause (1) was left in a stray text node.
+_CLAUSE_RE = re.compile(
+    rf"^[ \t]*{_LEADING_NOISE}(?:\d+[A-Za-z]{{0,3}}\.[ \t]*{_LEADING_NOISE})?\((\d+[A-Za-z]{{0,2}})\)[ \t]*",
+    re.MULTILINE,
+)
 _SUBCLAUSE_RE = re.compile(rf"^[ \t]*{_LEADING_NOISE}\(([a-z]+)\)[ \t]*", re.MULTILINE)
 _PROVISO_RE = re.compile(rf"^[ \t]*{_LEADING_NOISE}Provided[ \t]+(?:further[ \t]+)?that\b", re.MULTILINE)
-
-# Clause (1) -- almost always the very FIRST clause of an Article --
-# very commonly sits immediately after the Article's own number on the
-# SAME line ("1. (1) Pakistan shall be Federal Republic...", confirmed
-# as the real Article 1's own exact shape), with no preceding newline
-# at all. _CLAUSE_RE's own "^" anchor can never match there -- this
-# companion pattern is tried ONLY once, at the exact start of whatever
-# span is being searched for clauses (an Article's or a Chapter-less
-# Part's own span start), to catch that one specific position. The
-# equivalent inline-subclause case ("(1) (a) ...") is handled the same
-# way in _parse_subclause_level.
-_INLINE_NUMBERED_RE = re.compile(rf"\((\d+[A-Za-z]{{0,2}})\)[ \t]*")
-_INLINE_LETTERED_RE = re.compile(rf"\(([a-z]+)\)[ \t]*")
 
 
 class ConstitutionParsingError(ValueError):
@@ -145,7 +142,7 @@ class ConstitutionParsingError(ValueError):
 
 @dataclass
 class Node:
-    type: str  # "root" | "preamble" | "annex" | "part" | "chapter" | "schedule" | "article" | "clause" | "subclause" | "proviso" | "text"
+    type: str  # "root" | "preamble" | "annex" | "part" | "chapter" | "schedule" | "article" | "heading" | "clause" | "subclause" | "proviso" | "text"
     id: str
     source_start: int
     source_end: int
@@ -236,29 +233,25 @@ def _fill_gaps(
     return result
 
 
-def _find_inline_first_marker(pattern: re.Pattern, cleaned_text: str, start: int, end: int) -> re.Match | None:
-    """Looks for `pattern` within `start`'s own line only (up to its
-    first newline) -- the inline-clause-(1)/inline-subclause-(a) case:
-    a confirmed real shape where clause (1) sits immediately after the
-    Article's own number on the SAME line ("1. (1) Pakistan shall be
-    Federal Republic...", Article 1's own real first line), which the
-    line-anchored _CLAUSE_RE/_SUBCLAUSE_RE can never match on their own
-    since there is no preceding newline at that position at all."""
-
-    newline_pos = cleaned_text.find("\n", start, end)
-    line_end = newline_pos if newline_pos != -1 else end
-    return pattern.search(cleaned_text, start, line_end)
-
-
 def _parse_clause_level(cleaned_text: str, start: int, end: int, id_prefix: str) -> list[Node]:
     """Parses clauses, sub-clauses (nested one level inside their
     clause), and provisos (children of whichever -- clause or bare
     article body -- they immediately follow) within [start, end)."""
 
     clause_matches = list(_CLAUSE_RE.finditer(cleaned_text, start, end))
-    inline = _find_inline_first_marker(_INLINE_NUMBERED_RE, cleaned_text, start, end)
-    if inline and (not clause_matches or inline.start() < clause_matches[0].start()):
-        clause_matches.insert(0, inline)
+    # Same structural safety net as _parse_articles' own monotonicity
+    # filter, now needed at clause level too: a cross-reference like
+    # "...the powers referred to in clause\n(1), the High Court..." can
+    # have its line wrapped so the referenced number lands at a true
+    # line start, looking exactly like a new clause boundary. Confirmed
+    # real cases (all the same shape -- "clause\n(N)" wrapped mid-
+    # reference, never a genuine renumbering): Article 199 ("...under
+    # clause\n(1)..." regressing after clause 4B), 270AA (twice), 51,
+    # and 59. A regressing clause number is never genuine in a
+    # well-formed Article (letter-suffixed insertions like "4, 4A, 4B"
+    # only ever increase), so this is rejected the same structural way,
+    # never by matching specific wording.
+    clause_matches = _filter_monotonic(clause_matches, lambda m: _base_number(m.group(1)))
     if not clause_matches:
         return _parse_proviso_level(cleaned_text, start, end, id_prefix)
 
@@ -277,9 +270,6 @@ def _parse_clause_level(cleaned_text: str, start: int, end: int, id_prefix: str)
 
 def _parse_subclause_level(cleaned_text: str, start: int, end: int, id_prefix: str) -> list[Node]:
     sub_matches = list(_SUBCLAUSE_RE.finditer(cleaned_text, start, end))
-    inline = _find_inline_first_marker(_INLINE_LETTERED_RE, cleaned_text, start, end)
-    if inline and (not sub_matches or inline.start() < sub_matches[0].start()):
-        sub_matches.insert(0, inline)
     if not sub_matches:
         return _parse_proviso_level(cleaned_text, start, end, id_prefix)
 
@@ -321,6 +311,32 @@ def _build_marginal_note_index(cleaned_text: str, end: int) -> dict[str, str]:
 
 
 def _parse_articles(cleaned_text: str, start: int, end: int, id_prefix: str, marginal_notes: dict[str, str]) -> list[Node]:
+    # Preferred path: the cleaner puts a "## <id>. <title>" heading line in front of EVERY Article
+    # (marginal note, or the TOC title for omitted Articles). An Article therefore starts AT its
+    # heading line -- starting at the body line instead left each heading at the end of the
+    # PREVIOUS Article's span (the "## 25A. Right to education." leak inside Article 25).
+    heads = _filter_monotonic(list(_MARGINAL_NOTE_LINE_RE.finditer(cleaned_text, start, end)),
+                              lambda m: _base_number(m.group(1)))
+    if heads:
+        articles: list[Node] = []
+        for i, m in enumerate(heads):
+            a_start = m.start()
+            a_end = heads[i + 1].start() if i + 1 < len(heads) else end
+            number, heading = m.group(1), m.group(2).strip()
+            a_id = f"{id_prefix}_article{number}"
+            body_start = m.end()
+            while body_start < a_end and cleaned_text[body_start] in "\r\n":
+                body_start += 1
+            heading_node = Node(type="heading", id=f"{a_id}_heading", source_start=a_start,
+                                source_end=body_start, text=cleaned_text[a_start:body_start], heading=heading)
+            children = [heading_node] + _parse_clause_level(cleaned_text, body_start, a_end, a_id)
+            articles.append(Node(
+                type="article", id=a_id, source_start=a_start, source_end=a_end,
+                text=cleaned_text[a_start:a_end], article_number=number, heading=heading, children=children,
+            ))
+        return _fill_gaps(cleaned_text, start, end, articles, id_prefix)
+
+    # Fallback for cleaned text without "## " headings (older cleaner output).
     same_line = list(_ARTICLE_SAME_LINE_RE.finditer(cleaned_text, start, end))
     bare = list(_ARTICLE_BARE_RE.finditer(cleaned_text, start, end))
     by_pos: dict[int, re.Match] = {}
@@ -445,7 +461,7 @@ def parse_constitution_structure(cleaned_text: str) -> Node:
             children = _parse_chapters_and_articles(cleaned_text, pos, node_end, node_id, marginal_notes)
             top_nodes.append(Node(
                 type="part", id=node_id, source_start=pos, source_end=node_end,
-                text=cleaned_text[pos:node_end], heading=None, children=children,
+                text=cleaned_text[pos:node_end], heading=(m.group(2).strip() or None), children=children,
             ))
         elif kind == "annex":
             children = _parse_proviso_level(cleaned_text, pos, node_end, "annex")
@@ -481,7 +497,8 @@ class ValidationResult:
         return {"ok": self.ok, "errors": self.errors, "warnings": self.warnings, "diagnostics": self.diagnostics}
 
 
-def validate_constitution_structure(root: Node, cleaned_text: str) -> ValidationResult:
+def validate_constitution_structure(root: Node, cleaned_text: str,
+                                    expected_articles: int | None = None) -> ValidationResult:
     """Deterministically checks the hard invariants STEP 9 requires:
     exact offsets, gapless/non-overlapping coverage at every level,
     Articles/clauses/sub-clauses never appearing outside their expected
@@ -516,7 +533,7 @@ def validate_constitution_structure(root: Node, cleaned_text: str) -> Validation
         # beneath them), so an empty children list is correct for them,
         # not a sign of lost text -- their own `text` field already is
         # their full span.
-        if node.type not in ("text", "proviso"):
+        if node.type not in ("text", "proviso", "heading"):
             cursor = node.source_start
             for child in node.children:
                 if child.source_start < cursor:
@@ -533,7 +550,7 @@ def validate_constitution_structure(root: Node, cleaned_text: str) -> Validation
             "root": {"preamble", "part", "annex", "schedule", "text"},
             "part": {"chapter", "article", "text"},
             "chapter": {"article", "text"},
-            "article": {"clause", "proviso", "text"},
+            "article": {"heading", "clause", "proviso", "text"},
             "clause": {"subclause", "proviso", "text"},
             "subclause": {"proviso", "text"},
         }
@@ -555,7 +572,33 @@ def validate_constitution_structure(root: Node, cleaned_text: str) -> Validation
         if nxt < prev:
             warnings.append(f"Article order decreases: {prev_id} is followed by {nxt_id}")
 
+    # -- hard structural checks: a tree with no Articles is a failed parse, not a valid one --------
+    footnotes_idx = cleaned_text.find(_FOOTNOTES_BLOCK_MARKER)
+    content_end = footnotes_idx if footnotes_idx != -1 else len(cleaned_text)
+    heading_lines = len(_MARGINAL_NOTE_LINE_RE.findall(cleaned_text, 0, content_end))
+    if not article_numbers:
+        errors.append("no Articles found -- structural headings were not recognised")
+    if counts.get("part", 0) == 0:
+        errors.append("no PART found -- structural headings were not recognised")
+    if heading_lines and len(article_numbers) != heading_lines:
+        errors.append(f"{len(article_numbers)} Articles parsed but the text has {heading_lines} '## <id>.' headings")
+    if expected_articles is not None and len(article_numbers) != expected_articles:
+        errors.append(f"{len(article_numbers)} Articles parsed, cleaning stage found {expected_articles}")
+
+    def _leaks(node: Node):
+        if node.type == "article" and re.search(r"\n##[ \t]+\d", node.text):
+            errors.append(f"{node.id}: contains another Article's '## ' heading (boundary leak)")
+        if node.type == "preamble" and node.source_end - node.source_start > 20000:
+            errors.append(f"{node.id}: preamble spans {node.source_end - node.source_start} chars -- Parts not detected")
+        for c in node.children:
+            _leaks(c)
+    _leaks(root)
+
     diagnostics = {
+        "part_count": counts.get("part", 0),
+        "chapter_count": counts.get("chapter", 0),
+        "schedule_count": counts.get("schedule", 0),
+        "annex_count": counts.get("annex", 0),
         "node_type_counts": counts,
         "article_count": len(article_numbers),
         "article_numbers": article_numbers,
@@ -588,7 +631,8 @@ def parse_constitution_document(cleaned_doc: dict) -> dict:
 
     cleaned_text = cleaned_doc["cleaned_text"]
     root = parse_constitution_structure(cleaned_text)
-    result = validate_constitution_structure(root, cleaned_text)
+    expected = (cleaned_doc.get("cleaning_diagnostics") or {}).get("articles_found")
+    result = validate_constitution_structure(root, cleaned_text, expected)
 
     return {
         "doc_id": cleaned_doc["doc_id"],
