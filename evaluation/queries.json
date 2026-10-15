@@ -1,0 +1,27 @@
+[
+  {
+    "query_id": "Q01",
+    "category": "khula_dower",
+    "query": "Can a wife obtain khula without returning dower?"
+  },
+  {
+    "query_id": "Q02",
+    "category": "child_custody",
+    "query": "Which court has jurisdiction over child custody disputes?"
+  },
+  {
+    "query_id": "Q03",
+    "category": "child_maintenance",
+    "query": "Is a father legally responsible for child maintenance?"
+  },
+  {
+    "query_id": "Q04",
+    "category": "dowry_recovery",
+    "query": "What evidence is required to recover dowry articles after separation?"
+  },
+  {
+    "query_id": "Q05",
+    "category": "marriage_dissolution",
+    "query": "What are the legal grounds for dissolution of a Muslim marriage?"
+  }
+]
