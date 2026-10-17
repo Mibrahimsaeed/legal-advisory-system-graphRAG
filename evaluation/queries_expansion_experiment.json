@@ -1,0 +1,52 @@
+[
+  {
+    "query_id": "Q01-L1",
+    "category": "khula_dower",
+    "query": "Under Muslim family law in Pakistan, can a wife obtain khula (judicial divorce) without returning her dower (haq mehr) to her husband?"
+  },
+  {
+    "query_id": "Q01-L2",
+    "category": "khula_dower",
+    "query": "Under the Family Courts Act, 1964 and the Muslim Family Laws Ordinance, 1961, can a wife obtain khula without returning dower?"
+  },
+  {
+    "query_id": "Q02-L1",
+    "category": "child_custody",
+    "query": "Which court in Pakistan has jurisdiction to decide disputes over the custody and guardianship of minor children?"
+  },
+  {
+    "query_id": "Q02-L2",
+    "category": "child_custody",
+    "query": "Under the Guardians and Wards Act, 1890 and the Family Courts Act, 1964, which court has jurisdiction over child custody disputes?"
+  },
+  {
+    "query_id": "Q03-L1",
+    "category": "child_maintenance",
+    "query": "Under Muslim family law in Pakistan, is a father responsible for maintaining and supporting his minor children?"
+  },
+  {
+    "query_id": "Q03-L2",
+    "category": "child_maintenance",
+    "query": "Under the Muslim Family Laws Ordinance, 1961 and the Guardians and Wards Act, 1890, is a father legally responsible for the maintenance and support of his children?"
+  },
+  {
+    "query_id": "Q04-L1",
+    "category": "dowry_recovery",
+    "query": "After a Muslim marriage ends, what is a wife's right to recover her dowry and bridal gifts, and what must be shown to establish ownership?"
+  },
+  {
+    "query_id": "Q04-L2",
+    "category": "dowry_recovery",
+    "query": "Under the Dowry and Bridal Gifts (Restriction) Act, 1976, what evidence is required to recover dowry and bridal gifts after separation?"
+  },
+  {
+    "query_id": "Q05-L1",
+    "category": "marriage_dissolution",
+    "query": "What are the legal grounds on which a Muslim wife may seek dissolution of her marriage in Pakistan?"
+  },
+  {
+    "query_id": "Q05-L2",
+    "category": "marriage_dissolution",
+    "query": "Under the Dissolution of Muslim Marriages Act, 1939, what are the legal grounds for dissolution of a Muslim marriage?"
+  }
+]
