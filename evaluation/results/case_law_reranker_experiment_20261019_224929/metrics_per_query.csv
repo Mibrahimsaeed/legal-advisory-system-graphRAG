@@ -1,0 +1,101 @@
+query_id,method,n_candidates,n_known_relevant_total,p_at_5,ndcg_at_5,ndcg_at_10,recall_at_5,recall_at_10,mrr_at_5,mrr_at_10,hit_rate_at_5,hit_rate_at_10,p_at_5_note,ndcg_at_5_note,ndcg_at_10_note
+CL01,baseline_hybrid,40,16,1.0,1.0,0.9959548051864799,0.1875,0.4375,1.0,1.0,1.0,1.0,,,
+CL01,reranked_hybrid,40,16,0.8,0.9047172294870752,,0.1875,0.3125,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [6, 7]"
+CL02,baseline_hybrid,40,14,1.0,1.0,1.0,0.2857142857142857,0.5714285714285714,1.0,1.0,1.0,1.0,,,
+CL02,reranked_hybrid,40,14,,,,0.2857142857142857,0.35714285714285715,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [2],missing relevance label(s) at rank(s) [2],"missing relevance label(s) at rank(s) [2, 6, 7]"
+CL03,baseline_hybrid,40,11,1.0,1.0,0.9842917035849112,0.45454545454545453,0.5454545454545454,1.0,1.0,1.0,1.0,,,
+CL03,reranked_hybrid,40,11,1.0,1.0,,0.36363636363636365,0.36363636363636365,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [7, 9]"
+CL04,baseline_hybrid,40,16,1.0,0.9686152031181796,0.9452902205982652,0.3125,0.625,1.0,1.0,1.0,1.0,,,
+CL04,reranked_hybrid,40,16,,,,0.1875,0.4375,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 4]","missing relevance label(s) at rank(s) [2, 4]","missing relevance label(s) at rank(s) [2, 4]"
+CL05,baseline_hybrid,40,12,1.0,0.9719643720954755,0.9633085349605691,0.25,0.5833333333333334,1.0,1.0,1.0,1.0,,,
+CL05,reranked_hybrid,40,12,1.0,1.0,,0.4166666666666667,0.6666666666666666,1.0,1.0,1.0,1.0,,,missing relevance label(s) at rank(s) [7]
+CL06,baseline_hybrid,40,12,1.0,0.9807710461847231,0.9519205478469303,0.4166666666666667,0.6666666666666666,1.0,1.0,1.0,1.0,,,
+CL06,reranked_hybrid,40,12,,,,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [3],missing relevance label(s) at rank(s) [3],"missing relevance label(s) at rank(s) [3, 7, 8, 9]"
+CL07,baseline_hybrid,40,16,1.0,1.0,0.9981666155888351,0.3125,0.5,1.0,1.0,1.0,1.0,,,
+CL07,reranked_hybrid,40,16,1.0,1.0,,0.1875,0.25,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [7, 9]"
+CL08,baseline_hybrid,40,12,1.0,1.0,0.9918954216801724,0.25,0.5,1.0,1.0,1.0,1.0,,,
+CL08,reranked_hybrid,40,12,,,,0.16666666666666666,0.3333333333333333,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 5]","missing relevance label(s) at rank(s) [2, 5]","missing relevance label(s) at rank(s) [2, 5, 7, 9]"
+CL09,baseline_hybrid,40,18,1.0,0.8166524211685232,0.8240289401420434,0.2777777777777778,0.4444444444444444,1.0,1.0,1.0,1.0,,,
+CL09,reranked_hybrid,40,18,,,,0.16666666666666666,0.3888888888888889,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 3]","missing relevance label(s) at rank(s) [2, 3]","missing relevance label(s) at rank(s) [2, 3]"
+CL10,baseline_hybrid,40,17,0.8,0.8893127636718536,0.8537311092296291,0.23529411764705882,0.35294117647058826,1.0,1.0,1.0,1.0,,,
+CL10,reranked_hybrid,40,17,1.0,1.0,,0.23529411764705882,0.29411764705882354,1.0,1.0,1.0,1.0,,,missing relevance label(s) at rank(s) [6]
+CL11,baseline_hybrid,40,16,1.0,0.989141344633751,0.976751041256402,0.3125,0.625,1.0,1.0,1.0,1.0,,,
+CL11,reranked_hybrid,40,16,1.0,1.0,,0.25,0.3125,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [7, 8, 9, 10]"
+CL12,baseline_hybrid,40,19,0.8,0.6841328453647075,0.7291916469747884,0.21052631578947367,0.47368421052631576,0.5,0.5,1.0,1.0,,,
+CL12,reranked_hybrid,40,19,0.8,1.0,,0.21052631578947367,0.3157894736842105,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [7, 9]"
+CL13,baseline_hybrid,40,15,1.0,0.9807710461847231,0.9549258412844813,0.26666666666666666,0.4,1.0,1.0,1.0,1.0,,,
+CL13,reranked_hybrid,40,15,,,,0.26666666666666666,0.3333333333333333,0.5,0.5,1.0,1.0,missing relevance label(s) at rank(s) [1],missing relevance label(s) at rank(s) [1],missing relevance label(s) at rank(s) [1]
+CL14,baseline_hybrid,40,14,0.8,0.813379843094004,0.7731978467570482,0.21428571428571427,0.5714285714285714,1.0,1.0,1.0,1.0,,,
+CL14,reranked_hybrid,40,14,1.0,0.9322978750325865,0.9180344236117798,0.35714285714285715,0.42857142857142855,1.0,1.0,1.0,1.0,,,
+CL15,baseline_hybrid,40,17,1.0,0.9719643720954755,0.9645632196545394,0.29411764705882354,0.5294117647058824,1.0,1.0,1.0,1.0,,,
+CL15,reranked_hybrid,40,17,,,,0.11764705882352941,0.23529411764705882,0.5,0.5,1.0,1.0,"missing relevance label(s) at rank(s) [1, 3]","missing relevance label(s) at rank(s) [1, 3]","missing relevance label(s) at rank(s) [1, 3, 6]"
+CL16,baseline_hybrid,40,13,1.0,0.7979168917078058,0.8014910969353672,0.3076923076923077,0.46153846153846156,1.0,1.0,1.0,1.0,,,
+CL16,reranked_hybrid,40,13,1.0,0.774487192150212,,0.3076923076923077,0.5384615384615384,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [7, 8]"
+CL17,baseline_hybrid,40,15,0.8,0.9630988000371629,0.9397389327141152,0.26666666666666666,0.5333333333333333,1.0,1.0,1.0,1.0,,,
+CL17,reranked_hybrid,40,15,,,,0.26666666666666666,0.4,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [2],missing relevance label(s) at rank(s) [2],"missing relevance label(s) at rank(s) [2, 7, 10]"
+CL18,baseline_hybrid,40,13,1.0,1.0,0.9765591430727597,0.15384615384615385,0.46153846153846156,1.0,1.0,1.0,1.0,,,
+CL18,reranked_hybrid,40,13,1.0,1.0,,0.15384615384615385,0.3076923076923077,1.0,1.0,1.0,1.0,,,missing relevance label(s) at rank(s) [6]
+CL19,baseline_hybrid,40,14,0.6,0.8145672023038535,0.8026600250591388,0.21428571428571427,0.5714285714285714,1.0,1.0,1.0,1.0,,,
+CL19,reranked_hybrid,40,14,0.8,0.7833815686333752,,0.2857142857142857,0.35714285714285715,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [7, 8, 9, 10]"
+CL20,baseline_hybrid,40,10,1.0,0.9355095261428396,0.8918224440564917,0.4,0.6,1.0,1.0,1.0,1.0,,,
+CL20,reranked_hybrid,40,10,1.0,1.0,,0.3,0.5,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [7, 8, 10]"
+CL21,baseline_hybrid,40,20,1.0,1.0,0.9840254140236462,0.25,0.5,1.0,1.0,1.0,1.0,,,
+CL21,reranked_hybrid,40,20,1.0,0.989141344633751,,0.25,0.4,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [6, 8]"
+CL22,baseline_hybrid,40,9,0.4,0.9639404333166532,0.8051024070834708,0.2222222222222222,0.4444444444444444,1.0,1.0,1.0,1.0,,,
+CL22,reranked_hybrid,40,9,,,,0.3333333333333333,0.5555555555555556,0.5,0.5,1.0,1.0,missing relevance label(s) at rank(s) [4],missing relevance label(s) at rank(s) [4],missing relevance label(s) at rank(s) [4]
+CL23,baseline_hybrid,40,12,1.0,0.9686152031181796,0.9468634269205126,0.25,0.4166666666666667,1.0,1.0,1.0,1.0,,,
+CL23,reranked_hybrid,40,12,,,,0.16666666666666666,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2]","missing relevance label(s) at rank(s) [1, 2]","missing relevance label(s) at rank(s) [1, 2, 8]"
+CL24,baseline_hybrid,40,15,1.0,0.989141344633751,0.9691436798968638,0.26666666666666666,0.5333333333333333,1.0,1.0,1.0,1.0,,,
+CL24,reranked_hybrid,40,15,1.0,1.0,0.9897119920294625,0.26666666666666666,0.4666666666666667,1.0,1.0,1.0,1.0,,,
+CL25,baseline_hybrid,40,15,1.0,0.8299250769438711,0.857764276425393,0.3333333333333333,0.5333333333333333,1.0,1.0,1.0,1.0,,,
+CL25,reranked_hybrid,40,15,,,,0.2,0.26666666666666666,0.5,0.5,1.0,1.0,"missing relevance label(s) at rank(s) [1, 3]","missing relevance label(s) at rank(s) [1, 3]","missing relevance label(s) at rank(s) [1, 3, 7, 8, 9]"
+CL26,baseline_hybrid,40,12,1.0,1.0,0.9909258663273284,0.4166666666666667,0.75,1.0,1.0,1.0,1.0,,,
+CL26,reranked_hybrid,40,12,1.0,1.0,,0.4166666666666667,0.6666666666666666,1.0,1.0,1.0,1.0,,,missing relevance label(s) at rank(s) [6]
+CL27,baseline_hybrid,40,16,0.8,0.9828920819566878,0.9652309030418371,0.25,0.5625,1.0,1.0,1.0,1.0,,,
+CL27,reranked_hybrid,40,16,,,,0.25,0.5,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [3],missing relevance label(s) at rank(s) [3],"missing relevance label(s) at rank(s) [3, 10]"
+CL28,baseline_hybrid,40,14,1.0,1.0,0.9959548051864799,0.35714285714285715,0.5714285714285714,1.0,1.0,1.0,1.0,,,
+CL28,reranked_hybrid,40,14,,,,0.14285714285714285,0.5,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [4, 5]","missing relevance label(s) at rank(s) [4, 5]","missing relevance label(s) at rank(s) [4, 5]"
+CL29,baseline_hybrid,40,7,0.4,0.9197207891481876,0.6114000487748404,0.14285714285714285,0.5714285714285714,1.0,1.0,1.0,1.0,,,
+CL29,reranked_hybrid,40,7,0.4,0.6240505200038379,,0.2857142857142857,0.42857142857142855,0.5,0.5,1.0,1.0,,,"missing relevance label(s) at rank(s) [8, 9]"
+CL30,baseline_hybrid,40,8,1.0,1.0,0.9577018199342151,0.5,0.75,1.0,1.0,1.0,1.0,,,
+CL30,reranked_hybrid,40,8,1.0,0.8389776660073724,,0.625,0.75,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [9, 10]"
+CL31,baseline_hybrid,40,7,1.0,1.0,1.0,0.14285714285714285,0.42857142857142855,1.0,1.0,1.0,1.0,,,
+CL31,reranked_hybrid,40,7,,,,0.2857142857142857,0.5714285714285714,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [5],missing relevance label(s) at rank(s) [5],"missing relevance label(s) at rank(s) [5, 7]"
+CL32,baseline_hybrid,40,4,0.2,0.6309297535714574,0.6042031670319338,0.25,0.5,0.5,0.5,1.0,1.0,,,
+CL32,reranked_hybrid,40,4,0.4,0.9639404333166532,0.9639404333166532,0.5,0.5,1.0,1.0,1.0,1.0,,,
+CL33,baseline_hybrid,40,9,0.6,0.8885994691336017,0.8335132955604982,0.3333333333333333,0.5555555555555556,1.0,1.0,1.0,1.0,,,
+CL33,reranked_hybrid,40,9,1.0,0.8420809200104147,,0.3333333333333333,0.4444444444444444,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [6, 8, 9]"
+CL34,baseline_hybrid,40,21,0.8,0.7369302591988794,0.7525345683409385,0.19047619047619047,0.38095238095238093,1.0,1.0,1.0,1.0,,,
+CL34,reranked_hybrid,40,21,,,,0.14285714285714285,0.23809523809523808,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [3],missing relevance label(s) at rank(s) [3],"missing relevance label(s) at rank(s) [3, 7, 9]"
+CL35,baseline_hybrid,40,13,0.8,0.7304241528943184,0.8033043880748156,0.3076923076923077,0.46153846153846156,0.5,0.5,1.0,1.0,,,
+CL35,reranked_hybrid,40,13,1.0,1.0,0.9793656319464776,0.23076923076923078,0.3076923076923077,1.0,1.0,1.0,1.0,,,
+CL36,baseline_hybrid,40,20,1.0,1.0,0.9905701067474235,0.25,0.5,1.0,1.0,1.0,1.0,,,
+CL36,reranked_hybrid,40,20,,,,0.2,0.4,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [4],missing relevance label(s) at rank(s) [4],"missing relevance label(s) at rank(s) [4, 7]"
+CL37,baseline_hybrid,40,13,0.8,0.7215634034161573,0.7185678432100069,0.3076923076923077,0.6153846153846154,1.0,1.0,1.0,1.0,,,
+CL37,reranked_hybrid,40,13,,,,0.15384615384615385,0.5384615384615384,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 3, 4]","missing relevance label(s) at rank(s) [2, 3, 4]","missing relevance label(s) at rank(s) [2, 3, 4]"
+CL38,baseline_hybrid,40,19,1.0,0.989141344633751,0.9783012898581852,0.21052631578947367,0.42105263157894735,1.0,1.0,1.0,1.0,,,
+CL38,reranked_hybrid,40,19,,,,0.15789473684210525,0.3157894736842105,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [5],missing relevance label(s) at rank(s) [5],"missing relevance label(s) at rank(s) [5, 7, 10]"
+CL39,baseline_hybrid,40,9,1.0,1.0,0.9957790273189691,0.3333333333333333,0.5555555555555556,1.0,1.0,1.0,1.0,,,
+CL39,reranked_hybrid,40,9,1.0,0.7698986984637216,,0.5555555555555556,0.5555555555555556,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [6, 10]"
+CL40,baseline_hybrid,40,15,0.6,0.924133208028394,0.802976193320416,0.2,0.5333333333333333,1.0,1.0,1.0,1.0,,,
+CL40,reranked_hybrid,40,15,0.6,0.8676182686276376,0.821244628419525,0.2,0.5333333333333333,1.0,1.0,1.0,1.0,,,
+CL41,baseline_hybrid,40,6,1.0,0.7743787950430012,0.8159401068236785,0.6666666666666666,0.8333333333333334,1.0,1.0,1.0,1.0,,,
+CL41,reranked_hybrid,40,6,0.6,1.0,0.9426522940459193,0.3333333333333333,0.8333333333333334,1.0,1.0,1.0,1.0,,,
+CL42,baseline_hybrid,40,12,1.0,1.0,1.0,0.3333333333333333,0.6666666666666666,1.0,1.0,1.0,1.0,,,
+CL42,reranked_hybrid,40,12,,,,0.3333333333333333,0.4166666666666667,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [2],missing relevance label(s) at rank(s) [2],missing relevance label(s) at rank(s) [2]
+CL43,baseline_hybrid,40,16,1.0,0.9444537180991301,0.9244599266586878,0.1875,0.4375,1.0,1.0,1.0,1.0,,,
+CL43,reranked_hybrid,40,16,,,,0.25,0.4375,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [5],missing relevance label(s) at rank(s) [5],"missing relevance label(s) at rank(s) [5, 6]"
+CL44,baseline_hybrid,40,19,1.0,1.0,1.0,0.21052631578947367,0.42105263157894735,1.0,1.0,1.0,1.0,,,
+CL44,reranked_hybrid,40,19,,,,0.15789473684210525,0.3684210526315789,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 3]","missing relevance label(s) at rank(s) [2, 3]","missing relevance label(s) at rank(s) [2, 3, 10]"
+CL45,baseline_hybrid,40,10,1.0,1.0,0.993216879066224,0.3,0.6,1.0,1.0,1.0,1.0,,,
+CL45,reranked_hybrid,40,10,,,,0.3,0.5,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [5],missing relevance label(s) at rank(s) [5],missing relevance label(s) at rank(s) [5]
+CL46,baseline_hybrid,40,17,1.0,0.8420809200104147,0.8651797396012889,0.29411764705882354,0.47058823529411764,1.0,1.0,1.0,1.0,,,
+CL46,reranked_hybrid,40,17,1.0,1.0,,0.23529411764705882,0.4117647058823529,1.0,1.0,1.0,1.0,,,"missing relevance label(s) at rank(s) [6, 8]"
+CL47,baseline_hybrid,40,14,1.0,0.7979168917078058,0.7724787974765709,0.2857142857142857,0.5714285714285714,1.0,1.0,1.0,1.0,,,
+CL47,reranked_hybrid,40,14,,,,0.21428571428571427,0.2857142857142857,1.0,1.0,1.0,1.0,missing relevance label(s) at rank(s) [5],missing relevance label(s) at rank(s) [5],"missing relevance label(s) at rank(s) [5, 9]"
+CL48,baseline_hybrid,40,13,1.0,0.9395225786842205,0.9470061337201197,0.3076923076923077,0.5384615384615384,1.0,1.0,1.0,1.0,,,
+CL48,reranked_hybrid,40,13,,,,0.07692307692307693,0.3076923076923077,0.3333333333333333,0.3333333333333333,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 5]","missing relevance label(s) at rank(s) [1, 2, 5]","missing relevance label(s) at rank(s) [1, 2, 5, 8]"
+CL49,baseline_hybrid,40,3,1.0,0.9578347709816888,0.9163383329019373,0.6666666666666666,1.0,1.0,1.0,1.0,1.0,,,
+CL49,reranked_hybrid,40,3,1.0,0.8389776660073724,0.8290749263000083,0.6666666666666666,1.0,1.0,1.0,1.0,1.0,,,
+CL50,baseline_hybrid,40,16,0.8,0.9312254242647038,0.8782902480007783,0.1875,0.4375,1.0,1.0,1.0,1.0,,,
+CL50,reranked_hybrid,40,16,,,,0.1875,0.3125,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 3]","missing relevance label(s) at rank(s) [2, 3]","missing relevance label(s) at rank(s) [2, 3, 7, 8, 9]"

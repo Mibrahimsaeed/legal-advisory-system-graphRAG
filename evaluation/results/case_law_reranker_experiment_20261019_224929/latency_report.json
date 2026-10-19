@@ -1,0 +1,273 @@
+{
+  "model": "BAAI/bge-reranker-v2-m3",
+  "device": "mps",
+  "dtype": "torch.float32",
+  "max_length": 512,
+  "batch_size": 16,
+  "n_queries": 50,
+  "n_candidates_total": 2000,
+  "n_truncated_candidates": 43,
+  "n_empty_text_candidates": 0,
+  "model_init_seconds": 9.015,
+  "total_inference_seconds": 240.797,
+  "mean_seconds_per_query": 4.8003,
+  "median_seconds_per_query": 4.7618,
+  "mean_seconds_per_candidate": 0.1204,
+  "per_query_timings": [
+    {
+      "query_id": "CL01",
+      "n_candidates": 40,
+      "seconds": 4.802104711532593
+    },
+    {
+      "query_id": "CL02",
+      "n_candidates": 40,
+      "seconds": 5.046137094497681
+    },
+    {
+      "query_id": "CL03",
+      "n_candidates": 40,
+      "seconds": 5.018265724182129
+    },
+    {
+      "query_id": "CL04",
+      "n_candidates": 40,
+      "seconds": 4.675908803939819
+    },
+    {
+      "query_id": "CL05",
+      "n_candidates": 40,
+      "seconds": 4.6617279052734375
+    },
+    {
+      "query_id": "CL06",
+      "n_candidates": 40,
+      "seconds": 4.448543071746826
+    },
+    {
+      "query_id": "CL07",
+      "n_candidates": 40,
+      "seconds": 4.7567198276519775
+    },
+    {
+      "query_id": "CL08",
+      "n_candidates": 40,
+      "seconds": 4.884248733520508
+    },
+    {
+      "query_id": "CL09",
+      "n_candidates": 40,
+      "seconds": 4.523668050765991
+    },
+    {
+      "query_id": "CL10",
+      "n_candidates": 40,
+      "seconds": 4.327871084213257
+    },
+    {
+      "query_id": "CL11",
+      "n_candidates": 40,
+      "seconds": 4.5254881381988525
+    },
+    {
+      "query_id": "CL12",
+      "n_candidates": 40,
+      "seconds": 4.757473945617676
+    },
+    {
+      "query_id": "CL13",
+      "n_candidates": 40,
+      "seconds": 4.43571138381958
+    },
+    {
+      "query_id": "CL14",
+      "n_candidates": 40,
+      "seconds": 4.482506036758423
+    },
+    {
+      "query_id": "CL15",
+      "n_candidates": 40,
+      "seconds": 4.425636053085327
+    },
+    {
+      "query_id": "CL16",
+      "n_candidates": 40,
+      "seconds": 4.241136789321899
+    },
+    {
+      "query_id": "CL17",
+      "n_candidates": 40,
+      "seconds": 4.411732912063599
+    },
+    {
+      "query_id": "CL18",
+      "n_candidates": 40,
+      "seconds": 4.581792116165161
+    },
+    {
+      "query_id": "CL19",
+      "n_candidates": 40,
+      "seconds": 4.42444109916687
+    },
+    {
+      "query_id": "CL20",
+      "n_candidates": 40,
+      "seconds": 4.883764982223511
+    },
+    {
+      "query_id": "CL21",
+      "n_candidates": 40,
+      "seconds": 4.687978982925415
+    },
+    {
+      "query_id": "CL22",
+      "n_candidates": 40,
+      "seconds": 4.787454843521118
+    },
+    {
+      "query_id": "CL23",
+      "n_candidates": 40,
+      "seconds": 4.873895168304443
+    },
+    {
+      "query_id": "CL24",
+      "n_candidates": 40,
+      "seconds": 3.8134729862213135
+    },
+    {
+      "query_id": "CL25",
+      "n_candidates": 40,
+      "seconds": 4.766127109527588
+    },
+    {
+      "query_id": "CL26",
+      "n_candidates": 40,
+      "seconds": 4.479708194732666
+    },
+    {
+      "query_id": "CL27",
+      "n_candidates": 40,
+      "seconds": 4.8398871421813965
+    },
+    {
+      "query_id": "CL28",
+      "n_candidates": 40,
+      "seconds": 4.035292148590088
+    },
+    {
+      "query_id": "CL29",
+      "n_candidates": 40,
+      "seconds": 4.502702951431274
+    },
+    {
+      "query_id": "CL30",
+      "n_candidates": 40,
+      "seconds": 4.703392028808594
+    },
+    {
+      "query_id": "CL31",
+      "n_candidates": 40,
+      "seconds": 4.503911256790161
+    },
+    {
+      "query_id": "CL32",
+      "n_candidates": 40,
+      "seconds": 4.897650241851807
+    },
+    {
+      "query_id": "CL33",
+      "n_candidates": 40,
+      "seconds": 4.829341173171997
+    },
+    {
+      "query_id": "CL34",
+      "n_candidates": 40,
+      "seconds": 4.4033308029174805
+    },
+    {
+      "query_id": "CL35",
+      "n_candidates": 40,
+      "seconds": 4.566625118255615
+    },
+    {
+      "query_id": "CL36",
+      "n_candidates": 40,
+      "seconds": 5.279644012451172
+    },
+    {
+      "query_id": "CL37",
+      "n_candidates": 40,
+      "seconds": 4.879311800003052
+    },
+    {
+      "query_id": "CL38",
+      "n_candidates": 40,
+      "seconds": 4.936083078384399
+    },
+    {
+      "query_id": "CL39",
+      "n_candidates": 40,
+      "seconds": 4.962318181991577
+    },
+    {
+      "query_id": "CL40",
+      "n_candidates": 40,
+      "seconds": 5.2858569622039795
+    },
+    {
+      "query_id": "CL41",
+      "n_candidates": 40,
+      "seconds": 4.726293087005615
+    },
+    {
+      "query_id": "CL42",
+      "n_candidates": 40,
+      "seconds": 5.322839021682739
+    },
+    {
+      "query_id": "CL43",
+      "n_candidates": 40,
+      "seconds": 4.868366956710815
+    },
+    {
+      "query_id": "CL44",
+      "n_candidates": 40,
+      "seconds": 5.282181978225708
+    },
+    {
+      "query_id": "CL45",
+      "n_candidates": 40,
+      "seconds": 4.7746827602386475
+    },
+    {
+      "query_id": "CL46",
+      "n_candidates": 40,
+      "seconds": 5.315586805343628
+    },
+    {
+      "query_id": "CL47",
+      "n_candidates": 40,
+      "seconds": 5.028581142425537
+    },
+    {
+      "query_id": "CL48",
+      "n_candidates": 40,
+      "seconds": 5.990453004837036
+    },
+    {
+      "query_id": "CL49",
+      "n_candidates": 40,
+      "seconds": 5.502601146697998
+    },
+    {
+      "query_id": "CL50",
+      "n_candidates": 40,
+      "seconds": 6.854797124862671
+    }
+  ],
+  "mps_memory_bytes": {
+    "current_allocated_bytes": 2271154944,
+    "driver_allocated_bytes": 6015549440
+  },
+  "note": "Measured on this machine's MPS (Apple Silicon) backend; not comparable to CPU/CUDA figures without re-measurement on that hardware."
+}
