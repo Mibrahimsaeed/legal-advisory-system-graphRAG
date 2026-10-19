@@ -1,0 +1,59 @@
+{
+  "audit": "full_corpus_retrieval_audit",
+  "run_timestamp": "2026-10-19",
+  "git_branch": "phase-1.2",
+  "initial_git_status_line_count": 95,
+  "initial_git_diff_stat": "",
+  "qdrant": {
+    "collection": "pk_legal",
+    "points_count": 26678,
+    "dense_vector": {"name": "dense", "size": 1024, "distance": "Cosine"},
+    "sparse_vector": {"name": "bm25", "modifier": "idf"},
+    "per_source_counts_live": {"case": 25891, "statute": 240, "constitution": 547},
+    "index_meta_json_counts": {"case": 25891, "statute": 240, "constitution": 547},
+    "index_meta_indexed_at": "2026-10-12T00:09:55",
+    "counts_match_live_vs_meta": true
+  },
+  "retrieval_implementation": {
+    "file": "src/rag_prep/embed_index.py",
+    "hybrid_search_signature": "hybrid_search(client, dense_model, sparse_model, query, per_source, candidates=40, extra_filter=None)",
+    "fusion": "Qdrant FusionQuery(fusion=Fusion.RRF), built-in, not reimplemented",
+    "prefetch": "one Prefetch(using='dense', limit=candidates) + one Prefetch(using='bm25', limit=candidates), both filtered by source_type",
+    "default_candidates": 40,
+    "query_embedding": "raw query text, encode_dense() -- normalize_embeddings=True, no instruction/prefix added",
+    "source_type_filtering": "supported via models.FieldCondition(key='source_type', match=MatchValue(value=st))"
+  },
+  "existing_evaluation_entry_points": [
+    "evaluation/run_retrieval.py", "evaluation/judge_results.py", "evaluation/calculate_metrics.py",
+    "evaluation/phase3a_additional_metrics.py (MRR, Recall@5, reuses calculate_metrics.recall_at_k unmodified)",
+    "evaluation/sri_phase3_branch_diagnostics.py (isolated dense-only/BM25-only branch diagnostic pattern, reused in this audit)"
+  ],
+  "existing_frozen_benchmarks_reused_unmodified": {
+    "statute_16_query_benchmark": {
+      "queries_file": "evaluation/queries_statute_benchmark16.json", "md5": "f98c113dc733bd1ea24ac98c3fe11ba9",
+      "qrels_file": "evaluation/results/sri_phase1_qrels.json", "md5": "3102c88b927835af449249f303958d7f",
+      "baseline_metrics_file": "evaluation/results/sri_phase2_baseline_metrics.json", "md5": "55446dc84fd269be1dcf3b95d04eac44"
+    },
+    "constitution_6_query_smoke_test": {
+      "source": "evaluation/results/phase2a_constitution_audit.json", "md5": "2e566f3f7a3131b342d771affc1b4aa8",
+      "note": "6 queries (C1-C6) with corpus-verified expected articles; was a smoke test, not scored with qrels at the time -- promoted to a scored benchmark in this audit's Phase 2, with qrels built fresh (not altering the original file)."
+    }
+  },
+  "existing_integrity_findings_reused_with_fresh_reverification": {
+    "source": "evaluation/results/chunking_embedding_integrity_audit.md (prior session, this project)",
+    "reverified_items": [
+      {"finding": "4 case-law docs completely absent from caselaw_chunked/ and the index (177dbfa9f6115c8c4bb0cdcf, 5816efa9297184a599e6e40b, 6e37d0e6d64fa457d8020333, c303283c9d19d50d623760de)", "status": "CONFIRMED STILL ABSENT (fresh file-existence check, this audit)"},
+      {"finding": "3 full-case duplicate pairs indexed as separate points (incl. 3ebe1e86de756077fb70c9b7 / 449cb69b290757a36add36c4)", "status": "CONFIRMED STILL INDEXED (fresh points/count check, this audit)"},
+      {"finding": "Constitution: 0 empty chunks, 0 duplicate chunk_id (resolved)", "status": "CONFIRMED (total chunk count still 594, unchanged)"}
+    ]
+  },
+  "existing_integrity_findings_reused_from_sri_phase3": {
+    "source": "evaluation/results/phase2b_constitution_clause_audit.md",
+    "finding": "4 confirmed + 1 probable clause-mislabeling instances in Constitution articles 59, 185, 199, 224A, 270AA",
+    "status": "CONFIRMED STILL PRESENT (art_199_c1_2, art_59_c1_2 both found in current chunk file, this audit)"
+  },
+  "limitations_disclosed": [
+    "Phase 1 of this audit reuses the prior sessions' exhaustive (not sampled) chunk-count/integrity sweeps for case law, statute, and Constitution, re-verifying the specific findings for drift rather than re-running every check from zero -- the underlying corpus files and Qdrant collection are confirmed unchanged (same counts, same docstore) since those audits, so re-deriving identical results would not produce new information.",
+    "This audit does not re-verify vector-value integrity (NaN/Inf/zero-vector scan) from scratch -- that exhaustive scan was already performed in evaluation/results/chunking_embedding_integrity_audit.md and the collection has not been reindexed since (indexed_at unchanged at 2026-10-12T00:09:55)."
+  ]
+}

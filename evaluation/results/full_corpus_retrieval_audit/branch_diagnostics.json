@@ -1,0 +1,502 @@
+[
+  {
+    "query_id": "Q01",
+    "corpus": "statute",
+    "query": "What are the grounds on which a Muslim woman can file a suit in court to obtain a decree for the dissolution of her marriage?",
+    "per_target": {
+      "0425160ffedaefd8c79b3241:s2_ssb-c": {
+        "dense_rank": 5,
+        "in_dense_top40": true,
+        "bm25_rank": 6,
+        "in_bm25_top40": true,
+        "fused_rank": 6,
+        "fused_in_top10": true
+      },
+      "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a": {
+        "dense_rank": 2,
+        "in_dense_top40": true,
+        "bm25_rank": 5,
+        "in_bm25_top40": true,
+        "fused_rank": 3,
+        "fused_in_top10": true
+      },
+      "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 2,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q02",
+    "corpus": "statute",
+    "query": "Dissolution of Muslim Marriages Act 1939 Section 2 grounds for decree for dissolution of marriage",
+    "per_target": {
+      "0425160ffedaefd8c79b3241:s2_ssb-c": {
+        "dense_rank": 5,
+        "in_dense_top40": true,
+        "bm25_rank": 4,
+        "in_bm25_top40": true,
+        "fused_rank": 6,
+        "fused_in_top10": true
+      },
+      "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a": {
+        "dense_rank": 2,
+        "in_dense_top40": true,
+        "bm25_rank": 5,
+        "in_bm25_top40": true,
+        "fused_rank": 4,
+        "fused_in_top10": true
+      },
+      "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 3,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q03",
+    "corpus": "statute",
+    "query": "How does the Family Court conduct pre-trial conciliation proceedings and pass a decree when reconciliation fails in a khula suit?",
+    "per_target": {
+      "24520c344d2285555aa10988:s9_ss1-1a-1b-2": {
+        "dense_rank": 3,
+        "in_dense_top40": true,
+        "bm25_rank": 6,
+        "in_bm25_top40": true,
+        "fused_rank": 3,
+        "fused_in_top10": true
+      },
+      "24520c344d2285555aa10988:s10": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q04",
+    "corpus": "statute",
+    "query": "Family Courts Act 1964 Section 10 pre-trial proceedings and decree on khula",
+    "per_target": {
+      "24520c344d2285555aa10988:s9_ss1-1a-1b-2": {
+        "dense_rank": 3,
+        "in_dense_top40": true,
+        "bm25_rank": 3,
+        "in_bm25_top40": true,
+        "fused_rank": 4,
+        "fused_in_top10": true
+      },
+      "24520c344d2285555aa10988:s10": {
+        "dense_rank": 2,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q05",
+    "corpus": "statute",
+    "query": "What is the legal maximum limit on the total value of dowry articles and bridal gifts that can be given at a wedding?",
+    "per_target": {
+      "417403be7fc29b06cafadbbe:s3": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      },
+      "417403be7fc29b06cafadbbe:s9": {
+        "dense_rank": 8,
+        "in_dense_top40": true,
+        "bm25_rank": 5,
+        "in_bm25_top40": true,
+        "fused_rank": 8,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q06",
+    "corpus": "statute",
+    "query": "Dowry and Bridal Gifts Restriction Act 1976 Section 3 restriction on dowry and presents",
+    "per_target": {
+      "417403be7fc29b06cafadbbe:s3": {
+        "dense_rank": 3,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 2,
+        "fused_in_top10": true
+      },
+      "417403be7fc29b06cafadbbe:s9": {
+        "dense_rank": 9,
+        "in_dense_top40": true,
+        "bm25_rank": 13,
+        "in_bm25_top40": true,
+        "fused_rank": 11,
+        "fused_in_top10": false
+      }
+    }
+  },
+  {
+    "query_id": "Q07",
+    "corpus": "statute",
+    "query": "Which court holds proper territorial jurisdiction to entertain an application for appointing or declaring a guardian of a minor's person?",
+    "per_target": {
+      "42769a60dc59c5473affbc32:s9": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 2,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q08",
+    "corpus": "statute",
+    "query": "Guardians and Wards Act 1890 Section 9 court having jurisdiction to entertain application",
+    "per_target": {
+      "42769a60dc59c5473affbc32:s9": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q09",
+    "corpus": "statute",
+    "query": "What are the legal penalties for a parent or guardian who permits or promotes the solemnization of a child marriage?",
+    "per_target": {
+      "470c476c4195cbc08e94a6da:s6": {
+        "dense_rank": 2,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q10",
+    "corpus": "statute",
+    "query": "Child Marriage Restraint Act 1929 Section 6 punishment for parent or guardian concerned in a child marriage",
+    "per_target": {
+      "470c476c4195cbc08e94a6da:s6": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q11",
+    "corpus": "statute",
+    "query": "What procedure must a husband follow to obtain permission from the Arbitration Council before contracting a second marriage?",
+    "per_target": {
+      "6867f44e86ef03cec19831c6:s6": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q12",
+    "corpus": "statute",
+    "query": "Muslim Family Laws Ordinance 1961 Section 6 polygamy permission arbitration council",
+    "per_target": {
+      "6867f44e86ef03cec19831c6:s6": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q13",
+    "corpus": "statute",
+    "query": "On what grounds can a husband or wife apply for a decree of judicial separation in court?",
+    "per_target": {
+      "8251b5f4daa92e5a22319fc4:s23": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 2,
+        "in_bm25_top40": true,
+        "fused_rank": 2,
+        "fused_in_top10": true
+      },
+      "8251b5f4daa92e5a22319fc4:s22": {
+        "dense_rank": 3,
+        "in_dense_top40": true,
+        "bm25_rank": 3,
+        "in_bm25_top40": true,
+        "fused_rank": 3,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q14",
+    "corpus": "statute",
+    "query": "Divorce Act 1869 Section 22 bar to decree for divorce judicial separation obtainable",
+    "per_target": {
+      "8251b5f4daa92e5a22319fc4:s23": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 5,
+        "in_bm25_top40": true,
+        "fused_rank": 2,
+        "fused_in_top10": true
+      },
+      "8251b5f4daa92e5a22319fc4:s22": {
+        "dense_rank": 2,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q15",
+    "corpus": "statute",
+    "query": "Which personal law applies to questions of intestate succession, guardianship, and marriage when the parties involved are Muslims?",
+    "per_target": {
+      "b11740afa5f050bea50c5f2d:s2": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "Q16",
+    "corpus": "statute",
+    "query": "West Pakistan Muslim Personal Law Shariat Application Act 1962 Section 2 application of the Muslim Personal Law",
+    "per_target": {
+      "b11740afa5f050bea50c5f2d:s2": {
+        "dense_rank": 3,
+        "in_dense_top40": true,
+        "bm25_rank": 5,
+        "in_bm25_top40": true,
+        "fused_rank": 4,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "C1",
+    "corpus": "constitution",
+    "query": "What does Article 199 of the Constitution say about the jurisdiction of the High Court?",
+    "per_target": {
+      "art_199_c1": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 8,
+        "in_bm25_top40": true,
+        "fused_rank": 2,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "C2",
+    "corpus": "constitution",
+    "query": "What right does the Constitution give a person regarding their life and personal liberty?",
+    "per_target": {
+      "art_9": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "C3",
+    "corpus": "constitution",
+    "query": "How is a Bill introduced and passed by Parliament?",
+    "per_target": {
+      "art_70": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 5,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "C4",
+    "corpus": "constitution",
+    "query": "How are judges of the High Courts appointed?",
+    "per_target": {
+      "art_175a_c1": {
+        "dense_rank": 11,
+        "in_dense_top40": true,
+        "bm25_rank": 14,
+        "in_bm25_top40": true,
+        "fused_rank": 14,
+        "fused_in_top10": false
+      }
+    }
+  },
+  {
+    "query_id": "C5",
+    "corpus": "constitution",
+    "query": "What is the subject-matter division between federal and provincial laws?",
+    "per_target": {
+      "art_142": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "C6",
+    "corpus": "constitution",
+    "query": "Under Article 63, what is the disqualification for a person sentenced to imprisonment, and what proviso limits it?",
+    "per_target": {
+      "art_63_c1_p1": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "CL1",
+    "corpus": "case",
+    "query": "What standard must a wife satisfy for a court to grant her khula as of right?",
+    "per_target": {
+      "0513f7c1139b729f4cccf83d:0001": {
+        "dense_rank": 208,
+        "in_dense_top40": false,
+        "bm25_rank": 12,
+        "in_bm25_top40": true,
+        "fused_rank": 25,
+        "fused_in_top10": false
+      }
+    }
+  },
+  {
+    "query_id": "CL2",
+    "corpus": "case",
+    "query": "How have courts defined the meaning of 'maintenance' under the Family Courts Act when the term itself is not defined in the Act?",
+    "per_target": {
+      "05291f26a9fd20f71fa5c917:0005": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 4,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "CL3",
+    "corpus": "case",
+    "query": "What evidentiary provisions apply, or do not apply, to proving a claim for recovery of dowry articles in a Family Court suit?",
+    "per_target": {
+      "19c6da49c09d2e4dec423ea1:0001": {
+        "dense_rank": 406,
+        "in_dense_top40": false,
+        "bm25_rank": 2,
+        "in_bm25_top40": true,
+        "fused_rank": 4,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "CL4",
+    "corpus": "case",
+    "query": "Can a High Court in its constitutional jurisdiction pre-empt a Guardian Judge's jurisdiction over custody of a minor?",
+    "per_target": {
+      "05af9d953bae57a42f852adc:0002": {
+        "dense_rank": 2,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "CL5",
+    "corpus": "case",
+    "query": "When a court grants khula without the parties' mutual agreement, can it require the wife to give up her unpaid dower in exchange?",
+    "per_target": {
+      "012f303c801f80859710ceb5:0001": {
+        "dense_rank": 283,
+        "in_dense_top40": false,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  },
+  {
+    "query_id": "CL6",
+    "corpus": "case",
+    "query": "How do courts determine the factum of hatred when a wife seeks khula?",
+    "per_target": {
+      "054f9a1dd74b517297fc6593:0003": {
+        "dense_rank": 1,
+        "in_dense_top40": true,
+        "bm25_rank": 1,
+        "in_bm25_top40": true,
+        "fused_rank": 1,
+        "fused_in_top10": true
+      }
+    }
+  }
+]

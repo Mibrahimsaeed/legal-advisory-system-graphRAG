@@ -1,0 +1,21 @@
+{
+  "collection": "pk_legal",
+  "dense_model": "BAAI/bge-m3",
+  "sparse_model": "Qdrant/bm25",
+  "qdrant_url": "http://localhost:6333",
+  "queries_file": "evaluation/queries.json",
+  "per_source_limit": {
+    "case": 10,
+    "statute": 8
+  },
+  "candidates_per_source": 100,
+  "run_timestamp": "2026-10-18T23:24:32",
+  "query_count": 5,
+  "result_counts": {
+    "case": 50,
+    "statute": 40
+  },
+  "excluded_from_metrics": [
+    "constitution"
+  ]
+}

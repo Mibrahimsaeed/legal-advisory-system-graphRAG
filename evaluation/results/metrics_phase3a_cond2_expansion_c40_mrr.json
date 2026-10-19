@@ -1,0 +1,90 @@
+{
+  "per_query": {
+    "Q01": {
+      "case": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 0.25,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q02": {
+      "case": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q03": {
+      "case": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 0.14285714285714285,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q04": {
+      "case": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 0.25,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q05": {
+      "case": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    }
+  },
+  "macro": {
+    "case": {
+      "mean_mrr": 1.0,
+      "mrr_n_queries": 5,
+      "mrr_excluded_queries": [],
+      "mean_recall_at_5": null,
+      "recall_at_5_note": "unavailable for all queries -- no qrels reference set exists in this project"
+    },
+    "statute": {
+      "mean_mrr": 0.5285714285714286,
+      "mrr_n_queries": 5,
+      "mrr_excluded_queries": [],
+      "mean_recall_at_5": null,
+      "recall_at_5_note": "unavailable for all queries -- no qrels reference set exists in this project"
+    }
+  }
+}

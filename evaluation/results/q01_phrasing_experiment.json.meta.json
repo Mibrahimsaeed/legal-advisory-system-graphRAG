@@ -1,0 +1,22 @@
+{
+  "run_timestamp": "2026-10-17T17:26:14",
+  "query_ids": [
+    "Q0",
+    "Q1",
+    "Q2",
+    "Q3"
+  ],
+  "methods_run": [
+    "dense_only",
+    "bm25_only",
+    "hybrid"
+  ],
+  "collection": "pk_legal",
+  "target_chunk_id": "24520c344d2285555aa10988:s10",
+  "source_filter": "statute",
+  "ranking_depth": 240,
+  "hybrid_candidates_depth": 40,
+  "output_path": "evaluation/results/q01_phrasing_experiment.json",
+  "run_completed_successfully": true,
+  "errors": []
+}

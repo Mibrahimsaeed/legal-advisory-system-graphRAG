@@ -1,0 +1,391 @@
+{
+  "experiment": "phase1_dense_vocab_diagnostic",
+  "run_timestamp": "2026-10-18T11:36:08",
+  "target_chunk_id": "24520c344d2285555aa10988:s10",
+  "target_point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+  "target_identity_source": "evaluation/results/q01_dense_vs_bm25_diagnostic.json",
+  "model_name": "BAAI/bge-m3",
+  "dense_vector_name": "dense",
+  "dense_dim": 1024,
+  "dense_distance": "Cosine",
+  "query_embedding_normalized": true,
+  "query_prefix_or_instruction": null,
+  "collection": "pk_legal",
+  "retrieval_depth": 240,
+  "source_filter": "statute",
+  "retrieval_method": "dense_only",
+  "fusion": null,
+  "sparse_model_used": null,
+  "queries": [
+    {
+      "query_id": "Q0",
+      "change_from_baseline": "Baseline",
+      "query": "Can a wife obtain khula without returning dower?",
+      "n_candidates_ranked": 240,
+      "target_rank": 81,
+      "target_score": 0.38252112,
+      "target_retrieved_within_depth": true,
+      "target_in_top10": false,
+      "top10": [
+        {
+          "rank": 1,
+          "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+          "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+          "score": 0.53084666,
+          "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+          "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+        },
+        {
+          "rank": 2,
+          "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+          "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+          "score": 0.5229555,
+          "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+          "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+        },
+        {
+          "rank": 3,
+          "point_id": "9f2bd02d-820c-5990-9a5c-7e021dce2f0f",
+          "chunk_id": "6867f44e86ef03cec19831c6:s10",
+          "score": 0.5153156,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 10: Dower]",
+          "canonical_text_preview": "10. Dower.⸺Where no details about the mode of payment of dower are specified in the nikah nama, or the marriage contract, the entire amount of the dower shall b"
+        },
+        {
+          "rank": 4,
+          "point_id": "dc795ffc-ef9c-5cab-9d77-a06344a0c883",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s27",
+          "score": 0.5061132,
+          "context_header": "[Divorce Act, 1869 | Chapter VI: Protection-orders | Section 27: Deserted wife may apply to Court for protection]",
+          "canonical_text_preview": "27. Deserted wife may apply to Court for protection. Any wife to whom section 4 of the Indian Succession Act, 1865,1 (X of 1865), does not apply, may, when dese"
+        },
+        {
+          "rank": 5,
+          "point_id": "315756f4-d34a-5b1a-b9e5-e703fb7f1e70",
+          "chunk_id": "0425160ffedaefd8c79b3241:s5",
+          "score": 0.5021663,
+          "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 5: Rights to dower not to be affected]",
+          "canonical_text_preview": "5. Rights to dower not to be affected. Nothing contained in this Act shall affect any right which a married woman may have under Muslim law to her dower or any "
+        },
+        {
+          "rank": 6,
+          "point_id": "858f8a01-4195-5ac5-ac3c-952149791add",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+          "score": 0.49959397,
+          "context_header": "[Divorce Act, 1869 | Chapter VII: Restitution of Conjugal Rights | Section 32: Petition for restitution of conjugal rights]",
+          "canonical_text_preview": "32. Petition for restitution of conjugal rights. When either the husband or the wife has, wothout reasonable excuse withdrawn from the society of the other, eit"
+        },
+        {
+          "rank": 7,
+          "point_id": "77a5f818-c239-5351-8f24-315beb6b57cc",
+          "chunk_id": "0425160ffedaefd8c79b3241:s4",
+          "score": 0.49342954,
+          "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 4: Effect of conversion to another faith]",
+          "canonical_text_preview": "4. Effect of conversion to another faith. The renunciation of Islam by a married Muslim woman or her conversion to a faith other than Islam shall not by itself "
+        },
+        {
+          "rank": 8,
+          "point_id": "156facd4-e757-595c-9051-a67331ffefb6",
+          "chunk_id": "6867f44e86ef03cec19831c6:s9",
+          "score": 0.48230517,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 9: Maintenance]",
+          "canonical_text_preview": "9. Maintenance.⸺(1) If any husband fails to maintain his wife adequately, or where there are more wives than one, fails to maintain them equitably, the wife, or"
+        },
+        {
+          "rank": 9,
+          "point_id": "9845be9f-6947-5a19-93d2-4d76de4a9d5f",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s22",
+          "score": 0.4766893,
+          "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Section 22: Bar to decree for divorce a mensa et toro but judicial separation obtainable by husband or wife]",
+          "canonical_text_preview": "22. Bar to decree for divorce a mensa et toro but judicial separation obtainable by husband or wife. No decree shall hereafter be made for a divorce a mensa et "
+        },
+        {
+          "rank": 10,
+          "point_id": "8a406c17-4de1-5571-9a71-ce1cf5b6600d",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s26",
+          "score": 0.47560918,
+          "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Reversal of Decree of Separation | Section 26: Decree of separation obtained during absence of husband or wife may be reversed]",
+          "canonical_text_preview": "26. Decree of separation obtained during absence of husband or wife may be reversed. Any husband or wife, upon the application of whose wife or husband, as the "
+        }
+      ]
+    },
+    {
+      "query_id": "Q1",
+      "change_from_baseline": "Replace dower with haq mehr",
+      "query": "Can a wife obtain khula without returning haq mehr?",
+      "n_candidates_ranked": 240,
+      "target_rank": 47,
+      "target_score": 0.41708714,
+      "target_retrieved_within_depth": true,
+      "target_in_top10": false,
+      "top10": [
+        {
+          "rank": 1,
+          "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+          "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+          "score": 0.5277155,
+          "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+          "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+        },
+        {
+          "rank": 2,
+          "point_id": "156facd4-e757-595c-9051-a67331ffefb6",
+          "chunk_id": "6867f44e86ef03cec19831c6:s9",
+          "score": 0.51759934,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 9: Maintenance]",
+          "canonical_text_preview": "9. Maintenance.⸺(1) If any husband fails to maintain his wife adequately, or where there are more wives than one, fails to maintain them equitably, the wife, or"
+        },
+        {
+          "rank": 3,
+          "point_id": "77a5f818-c239-5351-8f24-315beb6b57cc",
+          "chunk_id": "0425160ffedaefd8c79b3241:s4",
+          "score": 0.51064926,
+          "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 4: Effect of conversion to another faith]",
+          "canonical_text_preview": "4. Effect of conversion to another faith. The renunciation of Islam by a married Muslim woman or her conversion to a faith other than Islam shall not by itself "
+        },
+        {
+          "rank": 4,
+          "point_id": "53c0a1a6-4889-50f9-a489-6d8ff8fcb7de",
+          "chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+          "score": 0.5016333,
+          "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 2: Grounds for decree for dissolution of marriage | Clauses (i)–(vi)]",
+          "canonical_text_preview": "2. Grounds for decree for dissolution of marriage. A woman married under Muslim Law shall be entitled to obtain a decree for the dissolution of her marriage on "
+        },
+        {
+          "rank": 5,
+          "point_id": "86cf8050-3c6a-599b-b021-66f11a350ecd",
+          "chunk_id": "6867f44e86ef03cec19831c6:s8",
+          "score": 0.49889824,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 8: Dissolution of marriage otherwise than by talaq]",
+          "canonical_text_preview": "8. Dissolution of marriage otherwise than by talaq.⸺Where the right to divorce has been duly delegated to the wife and she wishes to exercise that right, or whe"
+        },
+        {
+          "rank": 6,
+          "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+          "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+          "score": 0.4920194,
+          "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+          "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+        },
+        {
+          "rank": 7,
+          "point_id": "86fb872f-6f7b-5e3c-b009-2f71e5f1c673",
+          "chunk_id": "6867f44e86ef03cec19831c6:s4_ss6-7-8",
+          "score": 0.49010748,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 4: Succession | Sub-sections (6)–(8)]",
+          "canonical_text_preview": "(6) Fiqah-e-Jafri recognizes right of a husband to get his share from the property left by his deceased wife, either movable or immovable, as follows:⸺\n(a) one-"
+        },
+        {
+          "rank": 8,
+          "point_id": "fad4beba-4b4f-5a37-a221-8eb28ab2dbd3",
+          "chunk_id": "6867f44e86ef03cec19831c6:s6",
+          "score": 0.4863382,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 6: Polygamy]",
+          "canonical_text_preview": "6. Polygamy.⸺(1) No man, during the subsistence of an existing marriage, shall, except with the previous permission in writing of the Arbitration Council, contr"
+        },
+        {
+          "rank": 9,
+          "point_id": "858f8a01-4195-5ac5-ac3c-952149791add",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+          "score": 0.48620862,
+          "context_header": "[Divorce Act, 1869 | Chapter VII: Restitution of Conjugal Rights | Section 32: Petition for restitution of conjugal rights]",
+          "canonical_text_preview": "32. Petition for restitution of conjugal rights. When either the husband or the wife has, wothout reasonable excuse withdrawn from the society of the other, eit"
+        },
+        {
+          "rank": 10,
+          "point_id": "4b498615-e46c-5eee-8901-5c7f25287e42",
+          "chunk_id": "6867f44e86ef03cec19831c6:s7_ss1A-2-3-4-5-6",
+          "score": 0.48552567,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 7: Talaq | Sub-sections (1A)–(6)]",
+          "canonical_text_preview": "[^6.1][(1A) As enshrined in Article 227 of the Constitution of the Islamic Republic of Pakistan, the divorce and matters connected therewith or ancillary theret"
+        }
+      ]
+    },
+    {
+      "query_id": "Q2",
+      "change_from_baseline": "Add Family Courts Act",
+      "query": "Can a wife obtain khula without returning dower under Family Courts Act?",
+      "n_candidates_ranked": 240,
+      "target_rank": 58,
+      "target_score": 0.46386606,
+      "target_retrieved_within_depth": true,
+      "target_in_top10": false,
+      "top10": [
+        {
+          "rank": 1,
+          "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+          "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+          "score": 0.6038616,
+          "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+          "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+        },
+        {
+          "rank": 2,
+          "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+          "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+          "score": 0.60357296,
+          "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+          "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+        },
+        {
+          "rank": 3,
+          "point_id": "761eb629-894b-5c70-ba08-7ed81ee3f6ae",
+          "chunk_id": "24520c344d2285555aa10988:s14",
+          "score": 0.557718,
+          "context_header": "[Family Courts Act, 1964 | Section 14: Appeals]",
+          "canonical_text_preview": "14. Appeals.―[^9.1][(1) Notwithstanding anything provided in any other law for the time being in force, a decision given or a decree passed by a Family Court sh"
+        },
+        {
+          "rank": 4,
+          "point_id": "dc795ffc-ef9c-5cab-9d77-a06344a0c883",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s27",
+          "score": 0.5498861,
+          "context_header": "[Divorce Act, 1869 | Chapter VI: Protection-orders | Section 27: Deserted wife may apply to Court for protection]",
+          "canonical_text_preview": "27. Deserted wife may apply to Court for protection. Any wife to whom section 4 of the Indian Succession Act, 1865,1 (X of 1865), does not apply, may, when dese"
+        },
+        {
+          "rank": 5,
+          "point_id": "858f8a01-4195-5ac5-ac3c-952149791add",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+          "score": 0.54595995,
+          "context_header": "[Divorce Act, 1869 | Chapter VII: Restitution of Conjugal Rights | Section 32: Petition for restitution of conjugal rights]",
+          "canonical_text_preview": "32. Petition for restitution of conjugal rights. When either the husband or the wife has, wothout reasonable excuse withdrawn from the society of the other, eit"
+        },
+        {
+          "rank": 6,
+          "point_id": "a8e84f18-77b6-538b-96db-260606f4b2a3",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s2",
+          "score": 0.54427147,
+          "context_header": "[Divorce Act, 1869 | Chapter I: Preliminary | Section 2: Extent of Act]",
+          "canonical_text_preview": "2. Extent of Act. [^5.2][This Act extends to the whole of Pakistan.]\nExtent of power to grant relief generally, and to make decrees of dissolution, or of nullit"
+        },
+        {
+          "rank": 7,
+          "point_id": "315756f4-d34a-5b1a-b9e5-e703fb7f1e70",
+          "chunk_id": "0425160ffedaefd8c79b3241:s5",
+          "score": 0.54282993,
+          "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 5: Rights to dower not to be affected]",
+          "canonical_text_preview": "5. Rights to dower not to be affected. Nothing contained in this Act shall affect any right which a married woman may have under Muslim law to her dower or any "
+        },
+        {
+          "rank": 8,
+          "point_id": "e90dd3b8-8c22-5dd4-a732-4f501e73c7d2",
+          "chunk_id": "24520c344d2285555aa10988:s4",
+          "score": 0.5364573,
+          "context_header": "[Family Courts Act, 1964 | Section 4]",
+          "canonical_text_preview": "[^4.1][4. No person shall be appointed as a Judge of a Family Court unless he is or has been [^4.2][or is qualified to be appointed as] a District Judge, an Add"
+        },
+        {
+          "rank": 9,
+          "point_id": "9f2bd02d-820c-5990-9a5c-7e021dce2f0f",
+          "chunk_id": "6867f44e86ef03cec19831c6:s10",
+          "score": 0.5215384,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 10: Dower]",
+          "canonical_text_preview": "10. Dower.⸺Where no details about the mode of payment of dower are specified in the nikah nama, or the marriage contract, the entire amount of the dower shall b"
+        },
+        {
+          "rank": 10,
+          "point_id": "eb0b03f9-dd6b-5f39-a994-8fd39ce33ec3",
+          "chunk_id": "417403be7fc29b06cafadbbe:s9",
+          "score": 0.52031523,
+          "context_header": "[Dowry and Bridal Gifts (Restriction) Act, 1976 | Section 9: Penalty and procedure]",
+          "canonical_text_preview": "9. Penalty and procedure.—(1) Whoever contravenes, or fails to comply with, any provision of this Act or the rules made thereunder shall be punishable with impr"
+        }
+      ]
+    },
+    {
+      "query_id": "Q3",
+      "change_from_baseline": "Both changes",
+      "query": "Can a wife obtain khula without returning haq mehr under Family Courts Act?",
+      "n_candidates_ranked": 240,
+      "target_rank": 23,
+      "target_score": 0.4904524,
+      "target_retrieved_within_depth": true,
+      "target_in_top10": false,
+      "top10": [
+        {
+          "rank": 1,
+          "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+          "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+          "score": 0.5968149,
+          "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+          "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+        },
+        {
+          "rank": 2,
+          "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+          "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+          "score": 0.56848013,
+          "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+          "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+        },
+        {
+          "rank": 3,
+          "point_id": "a8e84f18-77b6-538b-96db-260606f4b2a3",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s2",
+          "score": 0.55039096,
+          "context_header": "[Divorce Act, 1869 | Chapter I: Preliminary | Section 2: Extent of Act]",
+          "canonical_text_preview": "2. Extent of Act. [^5.2][This Act extends to the whole of Pakistan.]\nExtent of power to grant relief generally, and to make decrees of dissolution, or of nullit"
+        },
+        {
+          "rank": 4,
+          "point_id": "86fb872f-6f7b-5e3c-b009-2f71e5f1c673",
+          "chunk_id": "6867f44e86ef03cec19831c6:s4_ss6-7-8",
+          "score": 0.54312044,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 4: Succession | Sub-sections (6)–(8)]",
+          "canonical_text_preview": "(6) Fiqah-e-Jafri recognizes right of a husband to get his share from the property left by his deceased wife, either movable or immovable, as follows:⸺\n(a) one-"
+        },
+        {
+          "rank": 5,
+          "point_id": "4b498615-e46c-5eee-8901-5c7f25287e42",
+          "chunk_id": "6867f44e86ef03cec19831c6:s7_ss1A-2-3-4-5-6",
+          "score": 0.53733116,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 7: Talaq | Sub-sections (1A)–(6)]",
+          "canonical_text_preview": "[^6.1][(1A) As enshrined in Article 227 of the Constitution of the Islamic Republic of Pakistan, the divorce and matters connected therewith or ancillary theret"
+        },
+        {
+          "rank": 6,
+          "point_id": "858f8a01-4195-5ac5-ac3c-952149791add",
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+          "score": 0.5339401,
+          "context_header": "[Divorce Act, 1869 | Chapter VII: Restitution of Conjugal Rights | Section 32: Petition for restitution of conjugal rights]",
+          "canonical_text_preview": "32. Petition for restitution of conjugal rights. When either the husband or the wife has, wothout reasonable excuse withdrawn from the society of the other, eit"
+        },
+        {
+          "rank": 7,
+          "point_id": "761eb629-894b-5c70-ba08-7ed81ee3f6ae",
+          "chunk_id": "24520c344d2285555aa10988:s14",
+          "score": 0.5303582,
+          "context_header": "[Family Courts Act, 1964 | Section 14: Appeals]",
+          "canonical_text_preview": "14. Appeals.―[^9.1][(1) Notwithstanding anything provided in any other law for the time being in force, a decision given or a decree passed by a Family Court sh"
+        },
+        {
+          "rank": 8,
+          "point_id": "156facd4-e757-595c-9051-a67331ffefb6",
+          "chunk_id": "6867f44e86ef03cec19831c6:s9",
+          "score": 0.5298068,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 9: Maintenance]",
+          "canonical_text_preview": "9. Maintenance.⸺(1) If any husband fails to maintain his wife adequately, or where there are more wives than one, fails to maintain them equitably, the wife, or"
+        },
+        {
+          "rank": 9,
+          "point_id": "86cf8050-3c6a-599b-b021-66f11a350ecd",
+          "chunk_id": "6867f44e86ef03cec19831c6:s8",
+          "score": 0.52921784,
+          "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 8: Dissolution of marriage otherwise than by talaq]",
+          "canonical_text_preview": "8. Dissolution of marriage otherwise than by talaq.⸺Where the right to divorce has been duly delegated to the wife and she wishes to exercise that right, or whe"
+        },
+        {
+          "rank": 10,
+          "point_id": "53c0a1a6-4889-50f9-a489-6d8ff8fcb7de",
+          "chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+          "score": 0.5275376,
+          "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 2: Grounds for decree for dissolution of marriage | Clauses (i)–(vi)]",
+          "canonical_text_preview": "2. Grounds for decree for dissolution of marriage. A woman married under Muslim Law shall be entitled to obtain a decree for the dissolution of her marriage on "
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "run_completed_successfully": true
+}

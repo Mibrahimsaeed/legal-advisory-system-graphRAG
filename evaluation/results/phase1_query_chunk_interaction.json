@@ -1,0 +1,138 @@
+{
+  "experiment": "phase1_query_chunk_interaction",
+  "run_timestamp": "2026-10-18T11:50:10",
+  "script_version": 1,
+  "target_chunk_id": "24520c344d2285555aa10988:s10",
+  "target_point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+  "sources": {
+    "test1_artifact": "evaluation/results/phase1_dense_vocab_diagnostic.json",
+    "test2_artifact": "evaluation/results/phase1_chunk_dilution_diagnostic.json"
+  },
+  "model_name": "BAAI/bge-m3",
+  "dense_dim": 1024,
+  "similarity_metric": "cosine",
+  "document_representations": {
+    "D0_original": {
+      "source": "stored production vector (client.retrieve)",
+      "embedding_text": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]\n(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,\n(2) On the date so fixed, the Court shall examine the plaint, the written statement (if any) and the precis of evidence and documents filed by the parties and shall also, if it so deems fit, hear the parties and their counsel.\n(3) At the pre-trial, the Court shall ascertain the points at issue between the parties and attempt to effect a compromise or reconciliation between the parties, if this be possible.\n(4) If no compromise or reconciliation is possible the Court shall frame the issues in the case and fix a date for recording of evidence :\nProvided that notwithstanding any decision or judgement of any court or tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.",
+      "embedding_text_chars": 1067
+    },
+    "D1_isolated": {
+      "source": "verbatim from evaluation/results/phase1_chunk_dilution_diagnostic.json:isolated_passage.isolated_passage_text_embedded",
+      "embedding_text": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]\nProvided that notwithstanding any decision or judgement of any court or tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.",
+      "embedding_text_chars": 406
+    }
+  },
+  "queries": [
+    {
+      "query_id": "Q0",
+      "change_from_baseline": "Baseline",
+      "query": "Can a wife obtain khula without returning dower?"
+    },
+    {
+      "query_id": "Q1",
+      "change_from_baseline": "Vocabulary substitution",
+      "query": "Can a wife obtain khula without returning haq mehr?"
+    },
+    {
+      "query_id": "Q2",
+      "change_from_baseline": "Authority injection",
+      "query": "Can a wife obtain khula without returning dower under Family Courts Act?"
+    },
+    {
+      "query_id": "Q3",
+      "change_from_baseline": "Both modifications",
+      "query": "Can a wife obtain khula without returning haq mehr under Family Courts Act?"
+    }
+  ],
+  "similarity_matrix": {
+    "Q0": {
+      "D0": 0.3825210606959224,
+      "D1": 0.4708780230765613
+    },
+    "Q1": {
+      "D0": 0.4170870950248096,
+      "D1": 0.5396099412238617
+    },
+    "Q2": {
+      "D0": 0.46386598933970713,
+      "D1": 0.5498109227649352
+    },
+    "Q3": {
+      "D0": 0.49045242281561224,
+      "D1": 0.60801966558007
+    }
+  },
+  "validation": {
+    "sim_q0_d0_recomputed": 0.3825210606959224,
+    "test2_recorded_stored_similarity_to_q0": 0.3825210606959224,
+    "difference": 0.0,
+    "within_tolerance_1e-4": true
+  },
+  "effects": {
+    "isolation_effect_per_query": {
+      "Q0": 0.08835696238063889,
+      "Q1": 0.12252284619905213,
+      "Q2": 0.08594493342522802,
+      "Q3": 0.11756724276445779
+    },
+    "vocabulary_effect_per_doc_Q1_minus_Q0": {
+      "D0": 0.03456603432888722,
+      "D1": 0.06873191814730045
+    },
+    "vocabulary_effect_with_authority_per_doc_Q3_minus_Q2": {
+      "D0": 0.026586433475905114,
+      "D1": 0.058208742815134884
+    },
+    "authority_effect_per_doc_Q2_minus_Q0": {
+      "D0": 0.08134492864378473,
+      "D1": 0.07893289968837386
+    },
+    "authority_effect_with_haqmehr_per_doc_Q3_minus_Q1": {
+      "D0": 0.07336532779080263,
+      "D1": 0.06840972435620829
+    },
+    "interaction_contrast_per_doc": {
+      "D0": -0.007979600852982105,
+      "D1": -0.010523175332165569
+    },
+    "isolation_effect_difference_Q3_minus_Q0": 0.0292102803838189
+  },
+  "retrieval_comparison_optional": {
+    "Q0": {
+      "production_target_rank": 81,
+      "production_target_score": 0.38252112,
+      "n_candidates_ranked": 240,
+      "isolated_passage_experimental_comparative_rank": 11,
+      "experimental_candidate_pool_size": 241
+    },
+    "Q1": {
+      "production_target_rank": 47,
+      "production_target_score": 0.41708714,
+      "n_candidates_ranked": 240,
+      "isolated_passage_experimental_comparative_rank": 1,
+      "experimental_candidate_pool_size": 241
+    },
+    "Q2": {
+      "production_target_rank": 58,
+      "production_target_score": 0.46386606,
+      "n_candidates_ranked": 240,
+      "isolated_passage_experimental_comparative_rank": 5,
+      "experimental_candidate_pool_size": 241
+    },
+    "Q3": {
+      "production_target_rank": 23,
+      "production_target_score": 0.4904524,
+      "n_candidates_ranked": 240,
+      "isolated_passage_experimental_comparative_rank": 1,
+      "experimental_candidate_pool_size": 241
+    }
+  },
+  "retrieval_comparison_errors": [],
+  "deviations": [],
+  "limitations": [
+    "Single target chunk and single embedding model -- no statistical significance implied by any effect size.",
+    "D1's embedding text includes the production context_header prefix, matching Test 2's design; no header-free variant was tested here either."
+  ],
+  "run_completed_successfully": true
+}

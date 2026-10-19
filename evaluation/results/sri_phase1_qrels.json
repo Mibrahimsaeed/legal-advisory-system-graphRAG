@@ -1,0 +1,92 @@
+{
+  "Q01": {
+    "statute": [
+      "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+      "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a",
+      "0425160ffedaefd8c79b3241:s2_ssb-c"
+    ]
+  },
+  "Q02": {
+    "statute": [
+      "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+      "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a",
+      "0425160ffedaefd8c79b3241:s2_ssb-c"
+    ]
+  },
+  "Q03": {
+    "statute": [
+      "24520c344d2285555aa10988:s10",
+      "24520c344d2285555aa10988:s9_ss1-1a-1b-2"
+    ]
+  },
+  "Q04": {
+    "statute": [
+      "24520c344d2285555aa10988:s10",
+      "24520c344d2285555aa10988:s9_ss1-1a-1b-2"
+    ]
+  },
+  "Q05": {
+    "statute": [
+      "417403be7fc29b06cafadbbe:s3",
+      "417403be7fc29b06cafadbbe:s9"
+    ]
+  },
+  "Q06": {
+    "statute": [
+      "417403be7fc29b06cafadbbe:s3",
+      "417403be7fc29b06cafadbbe:s9"
+    ]
+  },
+  "Q07": {
+    "statute": [
+      "42769a60dc59c5473affbc32:s9"
+    ]
+  },
+  "Q08": {
+    "statute": [
+      "42769a60dc59c5473affbc32:s9"
+    ]
+  },
+  "Q09": {
+    "statute": [
+      "470c476c4195cbc08e94a6da:s6"
+    ]
+  },
+  "Q10": {
+    "statute": [
+      "470c476c4195cbc08e94a6da:s6"
+    ]
+  },
+  "Q11": {
+    "statute": [
+      "6867f44e86ef03cec19831c6:s6"
+    ]
+  },
+  "Q12": {
+    "statute": [
+      "6867f44e86ef03cec19831c6:s6"
+    ]
+  },
+  "Q13": {
+    "statute": [
+      "8251b5f4daa92e5a22319fc4:s22",
+      "8251b5f4daa92e5a22319fc4:s23"
+    ]
+  },
+  "Q14": {
+    "statute": [
+      "8251b5f4daa92e5a22319fc4:s22",
+      "8251b5f4daa92e5a22319fc4:s23"
+    ]
+  },
+  "Q15": {
+    "statute": [
+      "b11740afa5f050bea50c5f2d:s2"
+    ]
+  },
+  "Q16": {
+    "statute": [
+      "b11740afa5f050bea50c5f2d:s2"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "script_path": "evaluation/phase1_dense_vocab_diagnostic.py",
+  "output_json": "evaluation/results/phase1_dense_vocab_diagnostic.json",
+  "output_meta": "evaluation/results/phase1_dense_vocab_diagnostic.meta.json",
+  "target_identity_source": "evaluation/results/q01_dense_vs_bm25_diagnostic.json",
+  "collection": "pk_legal",
+  "model_name": "BAAI/bge-m3",
+  "dense_vector_name": "dense",
+  "dense_dim": 1024,
+  "retrieval_depth": 240,
+  "source_filter": "statute",
+  "run_timestamp": "2026-10-18T11:36:08",
+  "initial_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n",
+  "final_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n",
+  "run_completed_successfully": true,
+  "errors": [],
+  "note": "final_git_status_short is expected to show exactly this script's own two new output files (plus whatever was already untracked before this run) and nothing else -- no tracked file should differ between initial and final status."
+}

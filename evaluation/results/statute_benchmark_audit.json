@@ -1,0 +1,182 @@
+{
+  "audit": "statute_benchmark_audit",
+  "run_timestamp": "2026-10-18T23:38:01",
+  "scope": "Statutes only; case-law and Constitution out of scope and unchanged.",
+  "inspected_artifacts": [
+    "evaluation/results/phase3a_statute_retrieval_eval.json",
+    "evaluation/results/phase3a_statute_retrieval_eval.md",
+    "evaluation/queries.json",
+    "evaluation/queries_expansion_experiment.json",
+    "evaluation/queries_statute_expanded.json",
+    "evaluation/results/retrieval_20261015T201127.jsonl",
+    "evaluation/results/retrieval_phase3a_cond2_expansion_c40.jsonl",
+    "evaluation/results/retrieval_phase3a_cond3_original_c100.jsonl",
+    "evaluation/results/retrieval_phase3a_cond4_expansion_c100.jsonl",
+    "evaluation/results/judging_pilot.csv",
+    "evaluation/results/judging_expansion_experiment_manual_review.csv",
+    "evaluation/results/judging_phase3a_cond2_expansion_c40_prefilled.csv",
+    "evaluation/results/judging_phase3a_cond3_original_c100_prefilled.csv",
+    "evaluation/results/judging_phase3a_cond4_expansion_c100_prefilled.csv"
+  ],
+  "query_inventory": {
+    "total_entries_across_3_files": 20,
+    "unique_query_texts": 18,
+    "intentional_duplicates": [
+      {
+        "text": "Which court has jurisdiction over child custody disputes?",
+        "locations": [
+          [
+            "queries.json",
+            "Q02"
+          ],
+          [
+            "queries_statute_expanded.json",
+            "Q02"
+          ]
+        ],
+        "reason": "Q02 deliberately left unexpanded (no safe synonym found)"
+      },
+      {
+        "text": "What are the legal grounds for dissolution of a Muslim marriage?",
+        "locations": [
+          [
+            "queries.json",
+            "Q05"
+          ],
+          [
+            "queries_statute_expanded.json",
+            "Q05"
+          ]
+        ],
+        "reason": "Q05 deliberately left unexpanded (no safe synonym found)"
+      }
+    ],
+    "accidental_duplicates_found": 0,
+    "families": [
+      "Q01 (khula/dower)",
+      "Q02 (child custody)",
+      "Q03 (child maintenance)",
+      "Q04 (dowry recovery)",
+      "Q05 (marriage dissolution)"
+    ],
+    "variants_per_family": "each family has: 1 original + 2 phrasing variants (L1/L2) + 1 expansion variant (expanded or identical-to-original for Q02/Q05) = 4 query texts per family (3 distinct for Q02/Q05)"
+  },
+  "judgment_inventory": {
+    "independently_human_judged_files": [
+      {
+        "path": "evaluation/results/judging_pilot.csv",
+        "statute_rows": 40,
+        "relevance_distribution": {
+          "0": 29,
+          "1": 7,
+          "2": 4
+        },
+        "coverage": "100% judged, 0 blank"
+      },
+      {
+        "path": "evaluation/results/judging_expansion_experiment_manual_review.csv",
+        "statute_rows": 80,
+        "relevance_distribution": {
+          "0": 53,
+          "1": 18,
+          "2": 9
+        },
+        "coverage": "100% judged, 0 blank"
+      }
+    ],
+    "reuse_only_files_not_independently_judged": [
+      "evaluation/results/judging_phase3a_cond2_expansion_c40_prefilled.csv (84/90 rows reused, 6 genuinely unjudged)",
+      "evaluation/results/judging_phase3a_cond3_original_c100_prefilled.csv (88/90 rows reused, 2 genuinely unjudged)",
+      "evaluation/results/judging_phase3a_cond4_expansion_c100_prefilled.csv (83/90 rows reused, 7 genuinely unjudged)"
+    ],
+    "grounding_verification": {
+      "method": "Every judged statute chunk_id in both independently-judged files was checked for existence against the current var/rag/statutes_chunked/*.json corpus.",
+      "result": "0 of 120 judged statute chunk_ids failed to resolve to a real, current chunk -- no fabricated or stale chunk_id found in either judged file."
+    }
+  },
+  "corpus_representativeness_gap": {
+    "statutes_with_zero_queries_targeting_them": [
+      "Divorce Act, 1869 (Christian marriage procedure)",
+      "Child Marriage Restraint Act, 1929",
+      "West Pakistan Muslim Personal Law (Shariat) Application Act, 1962"
+    ],
+    "note": "These 3 of 8 indexed statutes have no query in any existing file whose EXPECTED target provision belongs to them, even though chunks from the Divorce Act in particular appear frequently as (usually irrelevant) top results for the 5 existing queries -- meaning its retrieval behavior is observed only as noise, never evaluated on its own merits."
+  },
+  "ambiguous_queries": [
+    {
+      "query_id": "Q01",
+      "issue": "No single statute/provision cleanly and completely answers the literal question. Family Courts Act s.10's proviso covers court-ordered dissolution with mandatory dower restoration, but 'khula' in the general/colloquial Islamic-law sense is not confined to that one codified clause. This ambiguity was already documented in an earlier read-only audit (evaluation/results/statute_coverage_audit.md) and is restated, not newly discovered, here."
+    }
+  ],
+  "q03_regression_root_cause": {
+    "observation": "Statute P@5 for Q03 dropped from 0.200 (baseline) to 0.000 (expansion, candidates=40) -- the only statute regression found in Phase 3A.",
+    "method": "Direct rank-by-rank diff of the two retrieval runs' Q03 statute top-8, cross-referenced against the fully-judged prefilled labels (no gap -- all 8 ranks have a real relevance value in both conditions).",
+    "finding": "Baseline rank 5 was 6867f44e86ef03cec19831c6:s9 (MFLO S.9 'Maintenance', relevance=1 -- the only positive in baseline's top-5). In the expanded run, this chunk is pushed out of the top-8 entirely. Its displacement is directly attributable to the appended 'support' term pulling in 8251b5f4daa92e5a22319fc4:schedule-of-forms:form13_p2 (a Divorce Act procedural form fragment, relevance=0) at rank 4 -- almost certainly matched on the generic English word 'support' rather than any substantive overlap. A second, more relevant chunk, 42769a60dc59c5473affbc32:s24 (Guardians and Wards Act S.24, 'must look to his support, health and education', relevance=1) DOES enter the ranking as a direct result of the 'support' term, but only at rank 7 -- too low to count toward P@5, and only partially offsetting the nDCG@10 drop (0.387 -> 0.333).",
+    "conclusion": "The regression is caused specifically by the 'support' expansion term being lexically generic enough to match irrelevant procedural boilerplate, not by the candidate-depth setting (which was held at the default 40 for this comparison) or by any change to fusion/ranking logic."
+  },
+  "dense_bm25_fused_availability_per_query": {
+    "Q01": "Available (dedicated diagnostics: q01_dense_vs_bm25_diagnostic.json, phase1_dense_vocab_diagnostic.json, phase1_query_chunk_interaction.json, plus the Phase 3A candidate-membership check)",
+    "Q04": "Available (q04_retrieval_diagnostic.md, plus the Phase 3A candidate-membership check)",
+    "Q02": "NOT available -- only fused/hybrid production results exist; no isolated dense-only or BM25-only breakdown has ever been run for this query.",
+    "Q03": "NOT available -- same gap as Q02.",
+    "Q05": "NOT available -- same gap as Q02.",
+    "reporting_rule_applied": "This gap is reported as a gap. No claim is made about which retrieval stage (dense, sparse, or fusion) is responsible for Q02/Q03/Q05's ranking behavior beyond what the fused result already shows."
+  },
+  "metrics_sufficiency": {
+    "baseline_statute": {
+      "P@5": "sufficient for all 5 queries",
+      "nDCG@10": "sufficient for all 5",
+      "MRR": "sufficient for all 5",
+      "Recall@5": "insufficient -- no qrels exist for any query",
+      "Recall@10": "insufficient -- same reason"
+    },
+    "cond2_expansion_c40_statute": {
+      "P@5": "sufficient for all 5",
+      "nDCG@10": "sufficient for all 5",
+      "MRR": "sufficient for all 5",
+      "Recall@5_10": "insufficient, same reason"
+    },
+    "cond3_original_c100_statute": {
+      "P@5": "sufficient for all 5",
+      "nDCG@10": "sufficient for 4 of 5 -- Q01 missing a label for a chunk newly surfaced at depth 100",
+      "MRR": "sufficient for all 5",
+      "Recall@5_10": "insufficient, same reason"
+    },
+    "cond4_expansion_c100_statute": {
+      "P@5": "sufficient for all 5",
+      "nDCG@10": "sufficient for all 5",
+      "MRR": "sufficient for all 5",
+      "Recall@5_10": "insufficient, same reason"
+    },
+    "note": "No recall metric is reported anywhere in this project's history, and none is reported here, because no complete relevance reference set (qrels) has ever been constructed for any query."
+  },
+  "recommended_benchmark": {
+    "target_size": "At least 16 queries (2 per indexed statute x 8 statutes), replacing or supplementing the current 5-query set",
+    "design": [
+      "One direct article/section lookup query per statute (e.g. 'What does Section 5 of the Dowry and Bridal Gifts (Restriction) Act say?')",
+      "One natural-language legal question per statute, grounded in that statute's actual, verified content (not invented)",
+      "Explicit coverage of the 3 currently-unqueried statutes (Divorce Act 1869, Child Marriage Restraint Act 1929, Application Act 1962)",
+      "A held-out qrels file (complete known-relevant set per query) built once, deliberately, so Recall@5/Recall@10 stop being permanently unavailable"
+    ]
+  },
+  "reproducible_baseline_protocol": {
+    "retrieval_function": "hybrid_search() in src/rag_prep/embed_index.py, unmodified",
+    "collection": "pk_legal",
+    "dense_model": "BAAI/bge-m3",
+    "sparse_model": "Qdrant/bm25",
+    "candidates_per_source": 40,
+    "k_statute": 8,
+    "k_case": 10,
+    "command": "python evaluation/run_retrieval.py --queries evaluation/queries.json --k-case 10 --k-statute 8 --candidates 40",
+    "judging_command": "python evaluation/judge_results.py --in <retrieval jsonl> --out <judging csv>",
+    "metrics_command": "python evaluation/calculate_metrics.py --judged <judging csv> --out <metrics json>",
+    "note": "This exact configuration is what every existing report (baseline, Phase 1, Phase 3A) already used -- stating it explicitly here so future experiments cite one documented reference point rather than re-deriving it from code each time."
+  },
+  "highest_priority_next_action": "Build the 16-query, 8-statute benchmark with a deliberate, one-time qrels file -- this is the single blocker preventing Recall@5/Recall@10 from ever being reported, and the current 5-query set structurally cannot evaluate 3 of 8 indexed statutes at all.",
+  "limitations": [
+    "Grounding verification confirmed chunk_id existence, not independent legal correctness of every one of the 120 judged labels -- a full relitigation of each human judgment's legal soundness was not performed.",
+    "This audit did not re-run any retrieval -- all findings are derived from already-existing Phase 3A and earlier artifacts, read-only."
+  ],
+  "run_completed_successfully": true,
+  "initial_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_chunk_dilution_diagnostic.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/phase1_query_chunk_interaction.py\n?? evaluation/phase2a_constitution_audit.py\n?? evaluation/phase2b_constitution_clause_audit.py\n?? evaluation/phase3a_additional_metrics.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/queries_statute_expanded.json\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/judging_phase3a_cond2_expansion_c40.csv\n?? evaluation/results/judging_phase3a_cond2_expansion_c40_prefilled.csv\n?? evaluation/results/judging_phase3a_cond3_original_c100.csv\n?? evaluation/results/judging_phase3a_cond3_original_c100_prefilled.csv\n?? evaluation/results/judging_phase3a_cond4_expansion_c100.csv\n?? evaluation/results/judging_phase3a_cond4_expansion_c100_prefilled.csv\n?? evaluation/results/metrics_phase3a_baseline_mrr.json\n?? evaluation/results/metrics_phase3a_cond2_expansion_c40.json\n?? evaluation/results/metrics_phase3a_cond2_expansion_c40_mrr.json\n?? evaluation/results/metrics_phase3a_cond3_original_c100.json\n?? evaluation/results/metrics_phase3a_cond3_original_c100_mrr.json\n?? evaluation/results/metrics_phase3a_cond4_expansion_c100.json\n?? evaluation/results/metrics_phase3a_cond4_expansion_c100_mrr.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.meta.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.meta.json\n?? evaluation/results/phase1_query_chunk_interaction.json\n?? evaluation/results/phase1_query_chunk_interaction.meta.json\n?? evaluation/results/phase2a_constitution_audit.json\n?? evaluation/results/phase2a_constitution_audit.md\n?? evaluation/results/phase2a_constitution_smoke_test.json\n?? evaluation/results/phase2b_constitution_clause_audit.csv\n?? evaluation/results/phase2b_constitution_clause_audit.json\n?? evaluation/results/phase2b_constitution_clause_audit.md\n?? evaluation/results/phase3a_statute_retrieval_eval.json\n?? evaluation/results/phase3a_statute_retrieval_eval.md\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/results/retrieval_phase3a_cond2_expansion_c40.jsonl\n?? evaluation/results/retrieval_phase3a_cond2_expansion_c40.jsonl.meta.json\n?? evaluation/results/retrieval_phase3a_cond3_original_c100.jsonl\n?? evaluation/results/retrieval_phase3a_cond3_original_c100.jsonl.meta.json\n?? evaluation/results/retrieval_phase3a_cond4_expansion_c100.jsonl\n?? evaluation/results/retrieval_phase3a_cond4_expansion_c100.jsonl.meta.json\n?? evaluation/retrieve_dense.py\n"
+}

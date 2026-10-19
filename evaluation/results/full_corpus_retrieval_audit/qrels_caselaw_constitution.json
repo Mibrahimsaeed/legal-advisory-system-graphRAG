@@ -1,0 +1,42 @@
+{
+  "relevance_scale": {"0": "not relevant", "1": "partially relevant / useful supporting context", "2": "directly relevant evidence answering the query"},
+  "methodology": "Every case-law judgment was made by reading the actual chunk's own headnote text (and, for CL1, the embedded case name 'Khurshid Bibi v. Muhammad Amin') directly from var/rag/caselaw_chunked/*.json -- not inferred from the query. Constitution judgments reuse the article/chunk mapping already verified by direct source reading in evaluation/results/phase2a_constitution_audit.json (Phase 2A of this project), now extended to a single primary representative chunk per query rather than the whole article -- explicitly marked incomplete/representative, not exhaustive, since several of these articles (e.g. 175A, 199) have many clauses beyond the one chosen chunk.",
+  "queries": {
+    "CL1": {"source_type": "case", "judgments": [
+      {"chunk_id": "0513f7c1139b729f4cccf83d:0001", "grade": 2, "rationale": "Headnote directly states the standard: wife entitled to khula as of right if she satisfies the court's conscience that living together would otherwise force her into a hateful union. Cites the landmark case Khurshid Bibi v. Muhammad Amin.", "verification_status": "verified"}
+    ], "completeness": "representative, not exhaustive -- other cases almost certainly restate or refine this standard; only this one verified instance is used."},
+    "CL2": {"source_type": "case", "judgments": [
+      {"chunk_id": "05291f26a9fd20f71fa5c917:0005", "grade": 2, "rationale": "Headnote states the Family Courts Act does not define 'maintenance' and that courts apply its dictionary meaning (financial support, typically after separation/divorce).", "verification_status": "verified"}
+    ], "completeness": "representative, not exhaustive."},
+    "CL3": {"source_type": "case", "judgments": [
+      {"chunk_id": "19c6da49c09d2e4dec423ea1:0001", "grade": 2, "rationale": "Headnote directly rules that Qanun-e-Shahadat, 1984 and the Civil Procedure Code, 1908 do NOT apply to proving a dowry-articles claim under Family Courts Act s.17(1) -- directly on-point evidentiary ruling.", "verification_status": "verified"}
+    ], "completeness": "representative, not exhaustive."},
+    "CL4": {"source_type": "case", "judgments": [
+      {"chunk_id": "05af9d953bae57a42f852adc:0002", "grade": 2, "rationale": "Headnote directly states: High Court in constitutional jurisdiction could not pre-empt the Guardian Judge's jurisdiction (Guardians and Wards Act ss.12 & 25, Constitution Art.199).", "verification_status": "verified"}
+    ], "completeness": "representative, not exhaustive."},
+    "CL5": {"source_type": "case", "judgments": [
+      {"chunk_id": "012f303c801f80859710ceb5:0001", "grade": 2, "rationale": "Headnote directly states: where parties did not mutually agree to khula, the court could still allow it in consideration of the wife giving up her unpaid dower.", "verification_status": "verified"}
+    ], "completeness": "representative, not exhaustive."},
+    "CL6": {"source_type": "case", "judgments": [
+      {"chunk_id": "054f9a1dd74b517297fc6593:0003", "grade": 2, "rationale": "Headnote directly states: no fixed yardstick for the factum of hatred; inferred from circumstances, especially the wife's own statement to the court.", "verification_status": "verified"}
+    ], "completeness": "representative, not exhaustive."},
+    "C1": {"source_type": "constitution", "judgments": [
+      {"chunk_id": "art_199_c1", "grade": 2, "rationale": "Clause (1) enumerates the High Court's writ-jurisdiction powers directly.", "verification_status": "verified"}
+    ], "completeness": "representative only -- Article 199 has additional clauses (3, 4, 4A, 4B, 5) not included here; see SRI Phase 2A/2B for the fuller clause-level audit of this article."},
+    "C2": {"source_type": "constitution", "judgments": [
+      {"chunk_id": "art_9", "grade": 2, "rationale": "Article 9, 'Security of person' -- the single, complete chunk directly answering the life/liberty right question.", "verification_status": "verified"}
+    ], "completeness": "complete -- Article 9 is a single short, unsplit article."},
+    "C3": {"source_type": "constitution", "judgments": [
+      {"chunk_id": "art_70", "grade": 2, "rationale": "Article 70, 'Introduction and passing of Bills' -- the single, complete chunk.", "verification_status": "verified"}
+    ], "completeness": "complete -- Article 70 is a single unsplit article."},
+    "C4": {"source_type": "constitution", "judgments": [
+      {"chunk_id": "art_175a_c1", "grade": 2, "rationale": "Clause (1) establishes the Judicial Commission that appoints judges -- the foundational provision.", "verification_status": "verified"}
+    ], "completeness": "representative only -- Article 175A has many further clauses on the appointment procedure; see SRI Phase 2A/2B."},
+    "C5": {"source_type": "constitution", "judgments": [
+      {"chunk_id": "art_142", "grade": 2, "rationale": "Article 142, 'Subject-matter of Federal and Provincial laws' -- the single, complete chunk.", "verification_status": "verified"}
+    ], "completeness": "complete -- Article 142 is a single unsplit article."},
+    "C6": {"source_type": "constitution", "judgments": [
+      {"chunk_id": "art_63_c1_p1", "grade": 2, "rationale": "Contains the imprisonment disqualification and the 'unless a period of five years has elapsed since his release' proviso verbatim.", "verification_status": "verified"}
+    ], "completeness": "complete for the specific proviso asked about -- Article 63 clause 1 has further sub-parts (p2-p4) covering other disqualification grounds not asked about here."}
+  }
+}

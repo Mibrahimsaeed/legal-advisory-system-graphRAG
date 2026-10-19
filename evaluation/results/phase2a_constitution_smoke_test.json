@@ -1,0 +1,125 @@
+{
+  "smoke_test_queries": [
+    {
+      "query_id": "C1",
+      "type": "specific article",
+      "query": "What does Article 199 of the Constitution say about the jurisdiction of the High Court?",
+      "expected_article": "199",
+      "expected_title_verified_from_corpus": "Jurisdiction of High Court.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.63211197,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_199_c1"
+      },
+      "hybrid": {
+        "rank": 2,
+        "score": 0.6111111,
+        "n_ranked": 64
+      }
+    },
+    {
+      "query_id": "C2",
+      "type": "right, ordinary language",
+      "query": "What right does the Constitution give a person regarding their life and personal liberty?",
+      "expected_article": "9",
+      "expected_title_verified_from_corpus": "Security of person.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.60166115,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_9"
+      },
+      "hybrid": {
+        "rank": 1,
+        "score": 1.0,
+        "n_ranked": 64
+      }
+    },
+    {
+      "query_id": "C3",
+      "type": "Parliament / legislative process",
+      "query": "How is a Bill introduced and passed by Parliament?",
+      "expected_article": "70",
+      "expected_title_verified_from_corpus": "Introduction and passing of Bills.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.67907274,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_70"
+      },
+      "hybrid": {
+        "rank": 1,
+        "score": 0.6666667,
+        "n_ranked": 58
+      }
+    },
+    {
+      "query_id": "C4",
+      "type": "judiciary / judicial appointments",
+      "query": "How are judges of the High Courts appointed?",
+      "expected_article": "175A",
+      "expected_title_verified_from_corpus": "Appointment of Judges to the Federal Constitutional Court, the Supreme Court, High Courts and the Federal Shariat Court.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 2,
+        "score": 0.6641807,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_193"
+      },
+      "hybrid": {
+        "rank": 3,
+        "score": 0.39215687,
+        "n_ranked": 54
+      }
+    },
+    {
+      "query_id": "C5",
+      "type": "federal/provincial powers",
+      "query": "What is the subject-matter division between federal and provincial laws?",
+      "expected_article": "142",
+      "expected_title_verified_from_corpus": "Subject-matter of Federal and Provincial laws.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.5665557,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_142"
+      },
+      "hybrid": {
+        "rank": 1,
+        "score": 1.0,
+        "n_ranked": 58
+      }
+    },
+    {
+      "query_id": "C6",
+      "type": "specific clause/proviso",
+      "query": "Under Article 63, what is the disqualification for a person sentenced to imprisonment, and what proviso limits it?",
+      "expected_article": "63",
+      "expected_title_verified_from_corpus": "Disqualifications for membership of Majlis-e-Shoora (Parliament).",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.5804379,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_63_c1_p1"
+      },
+      "hybrid": {
+        "rank": 1,
+        "score": 1.0,
+        "n_ranked": 61
+      }
+    }
+  ],
+  "qdrant_available": true
+}

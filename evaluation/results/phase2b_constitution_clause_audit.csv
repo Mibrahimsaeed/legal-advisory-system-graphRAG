@@ -1,0 +1,8 @@
+finding_type,category,confidence,article_number,chunk_id,current_label,expected_label_hint,preceding_chunk_id,content_status,text_excerpt
+clause_number_regression,confirmed_defect,high,59,art_59_c1_2,1,likely continuation of art_59_c3 (clause ~3),art_59_c3,mislabeled,"(1), seven shall retire after the expiration of the first three years and seven shall retire after the expiration of the next three years; [^32.1]* * * * * * *
+"
+clause_number_regression,confirmed_defect,high,185,art_185_c2_2,2,likely continuation of art_185_c2 (clause ~3),art_185_c2,mislabeled,"(2) does not apply shall lie only if the Supreme Court grants leave to appeal:
+Provided that no appeal shall lie to the Supreme Court in cases to which clause ("
+clause_number_regression,confirmed_defect,high,199,art_199_c1_2,1,likely continuation of art_199_c4a (clause ~4.02),art_199_c4a,mislabeled,"(1), the High Court has made an interim order shall be disposed of by the High Court on merits within six months from the day on which it is made, unless the Hi"
+clause_number_regression,confirmed_defect,high,224A,art_224a_c2_2,2,likely continuation of art_224a_c4 (clause ~5),art_224a_c4,mislabeled,"(2), if the members of the Opposition are less than five in the Majlis-e-Shoora (Parliament) and less than four in any Provincial Assembly, then all of them sha"
+backwards_range_label,probable_defect,medium,270AA,art_270aa_c5,5)–(2,range end likely spurious (declared end 2 < start 5),art_270aa_c4,mislabeled_range_end,"(5) No suit, prosecution or other legal proceedings, including writ petitions, shall lie in any court or forum against any authority or any person, for or on ac"

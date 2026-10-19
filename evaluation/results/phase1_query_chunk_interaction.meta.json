@@ -1,0 +1,17 @@
+{
+  "script_path": "evaluation/phase1_query_chunk_interaction.py",
+  "output_json": "evaluation/results/phase1_query_chunk_interaction.json",
+  "output_meta": "evaluation/results/phase1_query_chunk_interaction.meta.json",
+  "files_read": [
+    "evaluation/results/phase1_dense_vocab_diagnostic.json",
+    "evaluation/results/phase1_chunk_dilution_diagnostic.json"
+  ],
+  "collection": "pk_legal",
+  "model_name": "BAAI/bge-m3",
+  "run_timestamp": "2026-10-18T11:50:10",
+  "initial_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_chunk_dilution_diagnostic.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/phase1_query_chunk_interaction.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.meta.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.meta.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n",
+  "final_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_chunk_dilution_diagnostic.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/phase1_query_chunk_interaction.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.meta.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.meta.json\n?? evaluation/results/phase1_query_chunk_interaction.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n",
+  "run_completed_successfully": true,
+  "no_existing_file_overwritten": true,
+  "note": "The only Qdrant operations performed were client.retrieve() (read, one call) and client.query_points() (read, four calls, one per query, for the optional Section 7 comparison) -- no upsert/delete/recreate call exists anywhere in this script."
+}

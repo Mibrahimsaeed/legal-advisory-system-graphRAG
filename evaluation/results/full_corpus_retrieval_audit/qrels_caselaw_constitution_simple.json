@@ -1,0 +1,62 @@
+{
+  "CL1": {
+    "case": [
+      "0513f7c1139b729f4cccf83d:0001"
+    ]
+  },
+  "CL2": {
+    "case": [
+      "05291f26a9fd20f71fa5c917:0005"
+    ]
+  },
+  "CL3": {
+    "case": [
+      "19c6da49c09d2e4dec423ea1:0001"
+    ]
+  },
+  "CL4": {
+    "case": [
+      "05af9d953bae57a42f852adc:0002"
+    ]
+  },
+  "CL5": {
+    "case": [
+      "012f303c801f80859710ceb5:0001"
+    ]
+  },
+  "CL6": {
+    "case": [
+      "054f9a1dd74b517297fc6593:0003"
+    ]
+  },
+  "C1": {
+    "constitution": [
+      "art_199_c1"
+    ]
+  },
+  "C2": {
+    "constitution": [
+      "art_9"
+    ]
+  },
+  "C3": {
+    "constitution": [
+      "art_70"
+    ]
+  },
+  "C4": {
+    "constitution": [
+      "art_175a_c1"
+    ]
+  },
+  "C5": {
+    "constitution": [
+      "art_142"
+    ]
+  },
+  "C6": {
+    "constitution": [
+      "art_63_c1_p1"
+    ]
+  }
+}
