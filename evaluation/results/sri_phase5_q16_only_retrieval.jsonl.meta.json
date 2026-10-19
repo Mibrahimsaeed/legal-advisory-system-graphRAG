@@ -1,0 +1,21 @@
+{
+  "collection": "pk_legal",
+  "dense_model": "BAAI/bge-m3",
+  "sparse_model": "Qdrant/bm25",
+  "qdrant_url": "http://localhost:6333",
+  "queries_file": "evaluation/results/sri_phase5_q16_only_queries.json",
+  "per_source_limit": {
+    "case": 10,
+    "statute": 10
+  },
+  "candidates_per_source": 40,
+  "run_timestamp": "2026-10-19T00:01:13",
+  "query_count": 16,
+  "result_counts": {
+    "case": 160,
+    "statute": 160
+  },
+  "excluded_from_metrics": [
+    "constitution"
+  ]
+}

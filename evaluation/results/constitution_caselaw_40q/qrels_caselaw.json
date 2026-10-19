@@ -1,0 +1,20 @@
+{
+  "relevance_scale": {"2": "directly relevant (the headnote chunk directly stating the legal point asked about)"},
+  "methodology": "Every target verified by directly reading the actual chunk's canonical_text from var/rag/caselaw_chunked/*.json. Single-grade (2 only), representative not exhaustive -- as found in prior work on this corpus (evaluation/results/full_corpus_retrieval_audit), a single legal point is often restated across multiple chunks of the same case (headnote index vs. judgment body); only one verified chunk per query is named here.",
+  "queries": {
+    "CL01": {"grade2": ["05fd8f4997610de5f26d2360:0006"]},
+    "CL02": {"grade2": ["3f1e6f241a961729b9f18c31:0001"]},
+    "CL04": {"grade2": ["b592387f97dfa995ab0952b3:0002"]},
+    "CL07": {"grade2": ["05fd8f4997610de5f26d2360:0007"]},
+    "CL08": {"grade2": ["433f5d7df19b1da65bf4f42a:0003"]},
+    "CL11": {"grade2": ["8e2059846f6b77bd8ddd9a3a:0002"]},
+    "CL12": {"grade2": ["44bca0a557b84b71f89662a1:0003"]},
+    "CL13": {"grade2": ["ac1633bdcf2516ac6a7668d7:0002"]},
+    "CL14": {"grade2": ["3c285bd30ea33f4280ac5fbd:0001"]},
+    "CL15": {"grade2": ["012f303c801f80859710ceb5:0001"]},
+    "CL16": {"grade2": ["441e320b5531a1217fddf655:0002"]},
+    "CL17": {"grade2": ["05291f26a9fd20f71fa5c917:0005"]},
+    "CL18": {"grade2": ["271e7125df86baebc57dc205:0002"]}
+  },
+  "unsupported_not_scored": ["CL03", "CL05", "CL06", "CL09", "CL10", "CL19", "CL20"]
+}

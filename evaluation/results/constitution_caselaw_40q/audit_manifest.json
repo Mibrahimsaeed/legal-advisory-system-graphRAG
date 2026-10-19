@@ -1,0 +1,23 @@
+{
+  "audit": "constitution_caselaw_40q",
+  "scope": "20 Constitution queries (verbatim, task-specified) + 20 case-law queries (verbatim, task-specified, some replaced per explicit corpus-validation evidence)",
+  "retrieval_config_verified": {
+    "collection": "pk_legal", "dense_vector": {"name": "dense", "size": 1024, "distance": "Cosine"},
+    "sparse_vector": {"name": "bm25", "modifier": "idf"},
+    "hybrid_fusion": "Qdrant built-in FusionQuery(fusion=Fusion.RRF), via src/rag_prep/embed_index.py hybrid_search(), unmodified",
+    "candidates_per_source": 40, "cutoff_used_this_audit": 20,
+    "dense_only_and_sparse_only_support": "Not exposed as a flag by any existing production script; implemented in this audit as an isolated script (run_dense_sparse.py, inside this directory only) that issues the SAME raw client.query_points(using='dense'/'bm25', ...) calls hybrid_search() itself makes internally, just without the prefetch/FusionQuery wrapper -- same pattern already validated in this project's prior Phase 1/Phase 3 work.",
+    "k_statute_note": "run_retrieval.py's per_source dict always includes a 'statute' key with a Qdrant-enforced minimum of 1; set to 1 here since this audit's scope is Constitution+case law only -- the resulting 33 statute rows were not read or scored."
+  },
+  "file_scope_compliance": {
+    "PYTHONDONTWRITEBYTECODE": "set to 1 for every python invocation in this audit",
+    "all_outputs_confined_to": "evaluation/results/constitution_caselaw_40q/",
+    "scripts_created": ["run_dense_sparse.py", "compute_metrics.py"],
+    "scripts_reused_unmodified": ["evaluation/run_retrieval.py (read existing production code, not modified; output directed via --out flag to this directory only)",
+                                  "evaluation/calculate_metrics.py (loaded by file path for its pure functions only -- precision_at_k, ndcg_at_k, recall_at_k -- not executed as a CLI writing its own files)"]
+  },
+  "known_out_of_scope_limitations_documented_not_fixed": [
+    "4 case-law documents missing from the index (unrelated to this benchmark's specific targets, not repaired)",
+    "3 duplicate case pairs indexed as separate points (not repaired)"
+  ]
+}

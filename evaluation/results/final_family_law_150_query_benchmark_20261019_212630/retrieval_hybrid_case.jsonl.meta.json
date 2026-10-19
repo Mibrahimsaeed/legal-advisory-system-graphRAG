@@ -1,0 +1,23 @@
+{
+  "collection": "pk_legal",
+  "dense_model": "BAAI/bge-m3",
+  "sparse_model": "Qdrant/bm25",
+  "qdrant_url": "http://localhost:6333",
+  "queries_file": "evaluation/results/final_family_law_150_query_benchmark_20261019_212630/queries_case_input.json",
+  "per_source_limit": {
+    "case": 40,
+    "statute": 1,
+    "constitution": 1
+  },
+  "candidates_per_source": 40,
+  "run_timestamp": "2026-10-19T21:39:33",
+  "query_count": 50,
+  "result_counts": {
+    "case": 2000,
+    "statute": 50,
+    "constitution": 50
+  },
+  "excluded_from_metrics": [
+    "constitution"
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "per_query": {
+    "case": {
+      "CL1": {
+        "precision_at_5": 0.0,
+        "ndcg_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr": 0.0
+      },
+      "CL2": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "CL3": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 0.38685280723454163,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 0.2
+      },
+      "CL4": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "CL5": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 0.6309297535714574,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 0.5
+      },
+      "CL6": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      }
+    },
+    "statute": {
+      "Q01": {
+        "precision_at_5": 0.4,
+        "ndcg_at_10": 0.9005000848975748,
+        "recall_at_5": 0.6666666666666666,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q02": {
+        "precision_at_5": 0.4,
+        "ndcg_at_10": 0.8619355655504437,
+        "recall_at_5": 0.6666666666666666,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q03": {
+        "precision_at_5": 0.4,
+        "ndcg_at_10": 0.9639404333166532,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q04": {
+        "precision_at_5": 0.4,
+        "ndcg_at_10": 0.944847956559586,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q05": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 0.91311732856428,
+        "recall_at_5": 0.5,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q06": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 0.6309297535714574,
+        "recall_at_5": 0.5,
+        "recall_at_10": 0.5,
+        "mrr": 0.5
+      },
+      "Q07": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q08": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q09": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q10": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q11": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q12": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q13": {
+        "precision_at_5": 0.4,
+        "ndcg_at_10": 0.6885288809404666,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q14": {
+        "precision_at_5": 0.4,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q15": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "Q16": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 0.4306765580733931,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 0.25
+      }
+    },
+    "constitution": {
+      "C1": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 0.6309297535714574,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 0.5
+      },
+      "C2": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "C3": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "C4": {
+        "precision_at_5": 0.0,
+        "ndcg_at_10": 0.0,
+        "recall_at_5": 0.0,
+        "recall_at_10": 0.0,
+        "mrr": 0.0
+      },
+      "C5": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      },
+      "C6": {
+        "precision_at_5": 0.2,
+        "ndcg_at_10": 1.0,
+        "recall_at_5": 1.0,
+        "recall_at_10": 1.0,
+        "mrr": 1.0
+      }
+    }
+  },
+  "macro": {
+    "case": {
+      "precision_at_5": 0.1667,
+      "ndcg_at_10": 0.6696,
+      "recall_at_5": 0.8333,
+      "recall_at_10": 0.8333,
+      "mrr": 0.6167,
+      "n_queries": 6
+    },
+    "statute": {
+      "precision_at_5": 0.275,
+      "ndcg_at_10": 0.8959,
+      "recall_at_5": 0.8958,
+      "recall_at_10": 0.9688,
+      "mrr": 0.9219,
+      "n_queries": 16
+    },
+    "constitution": {
+      "precision_at_5": 0.1667,
+      "ndcg_at_10": 0.7718,
+      "recall_at_5": 0.8333,
+      "recall_at_10": 0.8333,
+      "mrr": 0.75,
+      "n_queries": 6
+    }
+  }
+}

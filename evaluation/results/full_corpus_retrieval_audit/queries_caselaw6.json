@@ -1,0 +1,14 @@
+[
+  {"query_id": "CL1", "category": "khula_standard", "corpus": "case", "type": "natural_language",
+   "query": "What standard must a wife satisfy for a court to grant her khula as of right?"},
+  {"query_id": "CL2", "category": "maintenance_meaning", "corpus": "case", "type": "natural_language",
+   "query": "How have courts defined the meaning of 'maintenance' under the Family Courts Act when the term itself is not defined in the Act?"},
+  {"query_id": "CL3", "category": "dowry_evidence_case", "corpus": "case", "type": "natural_language",
+   "query": "What evidentiary provisions apply, or do not apply, to proving a claim for recovery of dowry articles in a Family Court suit?"},
+  {"query_id": "CL4", "category": "custody_jurisdiction_case", "corpus": "case", "type": "natural_language",
+   "query": "Can a High Court in its constitutional jurisdiction pre-empt a Guardian Judge's jurisdiction over custody of a minor?"},
+  {"query_id": "CL5", "category": "khula_dower_case", "corpus": "case", "type": "natural_language",
+   "query": "When a court grants khula without the parties' mutual agreement, can it require the wife to give up her unpaid dower in exchange?"},
+  {"query_id": "CL6", "category": "khula_hatred_standard_case", "corpus": "case", "type": "natural_language",
+   "query": "How do courts determine the factum of hatred when a wife seeks khula?"}
+]

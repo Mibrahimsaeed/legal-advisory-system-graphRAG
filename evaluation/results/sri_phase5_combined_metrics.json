@@ -1,0 +1,399 @@
+{
+  "per_query": {
+    "Q01": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.4,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 0.9005000848975748,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q02": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.4,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 0.8619355655504437,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q03": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.4,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 0.9639404333166532,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q04": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.4,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 0.944847956559586,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q05": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 0.91311732856428,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q06": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 1.0,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 0.5,
+        "recall_at_10_note": null
+      }
+    },
+    "Q07": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 1.0,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q08": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 1.0,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q09": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 1.0,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q10": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 1.0,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q11": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 1.0,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q12": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 1.0,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q13": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.4,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 0.6885288809404666,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q14": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.4,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 1.0,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q15": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 1.0,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    },
+    "Q16": {
+      "case": {
+        "n_results": 10,
+        "precision_at_5": null,
+        "precision_at_5_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]",
+        "ndcg_at_10": null,
+        "ndcg_at_10_note": "missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "recall_at_10": null,
+        "recall_at_10_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "n_results": 10,
+        "precision_at_5": 0.2,
+        "precision_at_5_note": null,
+        "ndcg_at_10": 0.5,
+        "ndcg_at_10_note": null,
+        "recall_at_10": 1.0,
+        "recall_at_10_note": null
+      }
+    }
+  },
+  "macro": {
+    "case": {
+      "mean_precision_at_5": null,
+      "mean_ndcg_at_10": null,
+      "mean_recall_at_10": null,
+      "precision_at_5_n_queries": 0,
+      "precision_at_5_excluded_queries": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16"
+      ],
+      "ndcg_at_10_n_queries": 0,
+      "ndcg_at_10_excluded_queries": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16"
+      ],
+      "recall_at_10_n_queries": 0,
+      "recall_at_10_excluded_queries": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16"
+      ]
+    },
+    "statute": {
+      "mean_precision_at_5": 0.2750000000000001,
+      "mean_ndcg_at_10": 0.9233043906143128,
+      "mean_recall_at_10": 0.96875,
+      "precision_at_5_n_queries": 16,
+      "precision_at_5_excluded_queries": [],
+      "ndcg_at_10_n_queries": 16,
+      "ndcg_at_10_excluded_queries": [],
+      "recall_at_10_n_queries": 16,
+      "recall_at_10_excluded_queries": []
+    }
+  }
+}

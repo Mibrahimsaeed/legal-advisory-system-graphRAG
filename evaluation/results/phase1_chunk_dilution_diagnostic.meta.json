@@ -1,0 +1,13 @@
+{
+  "script_path": "evaluation/phase1_chunk_dilution_diagnostic.py",
+  "output_json": "evaluation/results/phase1_chunk_dilution_diagnostic.json",
+  "output_meta": "evaluation/results/phase1_chunk_dilution_diagnostic.meta.json",
+  "target_identity_source": "evaluation/results/q01_dense_vs_bm25_diagnostic.json",
+  "collection": "pk_legal",
+  "model_name": "BAAI/bge-m3",
+  "run_timestamp": "2026-10-18T11:45:26",
+  "initial_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_chunk_dilution_diagnostic.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.meta.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n",
+  "final_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_chunk_dilution_diagnostic.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.meta.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n",
+  "run_completed_successfully": true,
+  "note": "No point was inserted/upserted/deleted in the production collection at any point; the only Qdrant calls were client.retrieve() (read) and client.query_points() (read)."
+}

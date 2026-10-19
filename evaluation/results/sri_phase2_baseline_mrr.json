@@ -1,0 +1,261 @@
+{
+  "per_query": {
+    "Q01": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q02": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q03": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q04": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q05": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q06": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 0.5,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q07": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q08": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q09": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q10": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q11": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q12": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q13": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q14": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q15": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 1.0,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    },
+    "Q16": {
+      "case": {
+        "mrr": null,
+        "mrr_note": "first unjudged rank encountered at rank 1 before any judged-relevant rank was found",
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      },
+      "statute": {
+        "mrr": 0.25,
+        "mrr_note": null,
+        "recall_at_5": null,
+        "recall_at_5_note": "no complete relevance reference set available (no qrels entry for this query/source)"
+      }
+    }
+  },
+  "macro": {
+    "case": {
+      "mean_mrr": null,
+      "mrr_n_queries": 0,
+      "mrr_excluded_queries": [
+        "Q01",
+        "Q02",
+        "Q03",
+        "Q04",
+        "Q05",
+        "Q06",
+        "Q07",
+        "Q08",
+        "Q09",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q13",
+        "Q14",
+        "Q15",
+        "Q16"
+      ],
+      "mean_recall_at_5": null,
+      "recall_at_5_note": "unavailable for all queries -- no qrels reference set exists in this project"
+    },
+    "statute": {
+      "mean_mrr": 0.921875,
+      "mrr_n_queries": 16,
+      "mrr_excluded_queries": [],
+      "mean_recall_at_5": null,
+      "recall_at_5_note": "unavailable for all queries -- no qrels reference set exists in this project"
+    }
+  }
+}

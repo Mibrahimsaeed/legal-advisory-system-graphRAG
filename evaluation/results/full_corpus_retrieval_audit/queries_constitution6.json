@@ -1,0 +1,14 @@
+[
+  {"query_id": "C1", "category": "specific_article", "corpus": "constitution", "type": "direct_lookup",
+   "query": "What does Article 199 of the Constitution say about the jurisdiction of the High Court?"},
+  {"query_id": "C2", "category": "fundamental_right_nl", "corpus": "constitution", "type": "natural_language",
+   "query": "What right does the Constitution give a person regarding their life and personal liberty?"},
+  {"query_id": "C3", "category": "legislative_process", "corpus": "constitution", "type": "natural_language",
+   "query": "How is a Bill introduced and passed by Parliament?"},
+  {"query_id": "C4", "category": "judicial_appointments", "corpus": "constitution", "type": "natural_language",
+   "query": "How are judges of the High Courts appointed?"},
+  {"query_id": "C5", "category": "federal_provincial_powers", "corpus": "constitution", "type": "natural_language",
+   "query": "What is the subject-matter division between federal and provincial laws?"},
+  {"query_id": "C6", "category": "specific_clause_proviso", "corpus": "constitution", "type": "direct_lookup",
+   "query": "Under Article 63, what is the disqualification for a person sentenced to imprisonment, and what proviso limits it?"}
+]

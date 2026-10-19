@@ -1,0 +1,23 @@
+{
+  "collection": "pk_legal",
+  "dense_model": "BAAI/bge-m3",
+  "sparse_model": "Qdrant/bm25",
+  "qdrant_url": "http://localhost:6333",
+  "queries_file": "evaluation/results/constitution_caselaw_40q/queries_scored_for_retrieval.json",
+  "per_source_limit": {
+    "case": 20,
+    "statute": 1,
+    "constitution": 20
+  },
+  "candidates_per_source": 40,
+  "run_timestamp": "2026-10-19T20:08:23",
+  "query_count": 33,
+  "result_counts": {
+    "case": 660,
+    "statute": 33,
+    "constitution": 660
+  },
+  "excluded_from_metrics": [
+    "constitution"
+  ]
+}

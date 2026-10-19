@@ -1,0 +1,137 @@
+{
+  "audit": "phase2b_constitution_clause_audit",
+  "run_timestamp": "2026-10-18T12:54:17",
+  "source_file": "var/rag/constitution_chunked/b427a922990d75f027928c15.json",
+  "scope": {
+    "total_articles_found": 328,
+    "total_articles_expected_per_phase2a": 328,
+    "all_328_covered": true,
+    "total_chunks_examined": 594,
+    "chunks_with_clause_label": 216,
+    "chunks_excluded_no_article_number": 46,
+    "excluded_reason": "preamble/schedule/annex chunks carry no article_number and are structurally outside the per-article clause sequence",
+    "articles_with_at_least_one_clause_label": 39
+  },
+  "detection_method": "Per article, chunks with a clause_number were sorted by source_start. A running maximum of the highest clause value seen so far (letters A/B/.. treated as fractional sub-ordering, e.g. '4A' > 4, < 5) was tracked. A chunk was flagged as a 'clause_number_regression' if its own start value fell below that running max AND the chunk is textually contiguous with its immediate predecessor (source_start == predecessor's source_end) -- the exact signature of the two known Phase 2A defects. A chunk was separately flagged as a 'backwards_range_label' if its own declared range end was lower than its own declared start (e.g. '(5)-(2)'). Each flagged chunk was then classified by reading its actual canonical_text excerpt, not by regex alone, distinguishing a genuine new clause opening (capitalised text immediately after the number) from a bare, lowercase/comma continuation fragment (the two known defects' signature).",
+  "findings": [
+    {
+      "finding_type": "clause_number_regression",
+      "article_number": "59",
+      "chunk_id": "art_59_c1_2",
+      "current_label": "1",
+      "expected_label_hint": "likely continuation of art_59_c3 (clause ~3)",
+      "text_excerpt": "(1), seven shall retire after the expiration of the first three years and seven shall retire after the expiration of the next three years; [^32.1]* * * * * * *\n",
+      "source_location": "source_start=50394, source_end=51961",
+      "preceding_chunk_id": "art_59_c3",
+      "preceding_chunk_source_end": 50394,
+      "running_max_clause_before_this": 3.0,
+      "category": "confirmed_defect",
+      "confidence": "high",
+      "contiguous_with_prev_chunk": true,
+      "text_looks_like_bare_continuation": true,
+      "content_status": "mislabeled"
+    },
+    {
+      "finding_type": "clause_number_regression",
+      "article_number": "185",
+      "chunk_id": "art_185_c2_2",
+      "current_label": "2",
+      "expected_label_hint": "likely continuation of art_185_c2 (clause ~3)",
+      "text_excerpt": "(2) does not apply shall lie only if the Supreme Court grants leave to appeal:\nProvided that no appeal shall lie to the Supreme Court in cases to which clause (",
+      "source_location": "source_start=186603, source_end=186790",
+      "preceding_chunk_id": "art_185_c2",
+      "preceding_chunk_source_end": 186603,
+      "running_max_clause_before_this": 3.0,
+      "category": "confirmed_defect",
+      "confidence": "high",
+      "contiguous_with_prev_chunk": true,
+      "text_looks_like_bare_continuation": true,
+      "content_status": "mislabeled"
+    },
+    {
+      "finding_type": "clause_number_regression",
+      "article_number": "199",
+      "chunk_id": "art_199_c1_2",
+      "current_label": "1",
+      "expected_label_hint": "likely continuation of art_199_c4a (clause ~4.02)",
+      "text_excerpt": "(1), the High Court has made an interim order shall be disposed of by the High Court on merits within six months from the day on which it is made, unless the Hi",
+      "source_location": "source_start=199299, source_end=199532",
+      "preceding_chunk_id": "art_199_c4a",
+      "preceding_chunk_source_end": 199299,
+      "running_max_clause_before_this": 4.02,
+      "category": "confirmed_defect",
+      "confidence": "high",
+      "contiguous_with_prev_chunk": true,
+      "text_looks_like_bare_continuation": true,
+      "content_status": "mislabeled"
+    },
+    {
+      "finding_type": "clause_number_regression",
+      "article_number": "224A",
+      "chunk_id": "art_224a_c2_2",
+      "current_label": "2",
+      "expected_label_hint": "likely continuation of art_224a_c4 (clause ~5)",
+      "text_excerpt": "(2), if the members of the Opposition are less than five in the Majlis-e-Shoora (Parliament) and less than four in any Provincial Assembly, then all of them sha",
+      "source_location": "source_start=248301, source_end=248584",
+      "preceding_chunk_id": "art_224a_c4",
+      "preceding_chunk_source_end": 248301,
+      "running_max_clause_before_this": 5.0,
+      "category": "confirmed_defect",
+      "confidence": "high",
+      "contiguous_with_prev_chunk": true,
+      "text_looks_like_bare_continuation": true,
+      "content_status": "mislabeled"
+    },
+    {
+      "finding_type": "backwards_range_label",
+      "article_number": "270AA",
+      "chunk_id": "art_270aa_c5",
+      "current_label": "5)–(2",
+      "expected_label_hint": "range end likely spurious (declared end 2 < start 5)",
+      "text_excerpt": "(5) No suit, prosecution or other legal proceedings, including writ petitions, shall lie in any court or forum against any authority or any person, for or on ac",
+      "source_location": "source_start=312338, source_end=312793",
+      "preceding_chunk_id": "art_270aa_c4",
+      "preceding_chunk_source_end": 312338,
+      "running_max_clause_before_this": 4.0,
+      "category": "probable_defect",
+      "confidence": "medium",
+      "contiguous_with_prev_chunk": true,
+      "text_looks_like_bare_continuation": false,
+      "content_status": "mislabeled_range_end"
+    }
+  ],
+  "summary": {
+    "confirmed_defect_count": 4,
+    "probable_defect_count": 1,
+    "needs_manual_review_count": 0,
+    "not_a_defect_count": 0,
+    "total_flagged": 5,
+    "articles_flagged": [
+      "185",
+      "199",
+      "224A",
+      "270AA",
+      "59"
+    ],
+    "articles_with_confirmed_defect": [
+      "185",
+      "199",
+      "224A",
+      "59"
+    ],
+    "proportion_of_articles_with_clause_labels_flagged": "5/39",
+    "proportion_of_articles_with_confirmed_defect": "4/39",
+    "proportion_of_clause_labeled_chunks_flagged": "5/216"
+  },
+  "known_examples_cross_check": {
+    "art_199_c1_2_detected": true,
+    "art_224a_c2_2_detected": true
+  },
+  "limitations": [
+    "Detection relies on source-offset contiguity and a lowercase/comma-continuation text heuristic, not a full manual re-read of the original PDF for every flagged chunk -- 'confirmed_defect' here means the chunk's own stored text and offsets clearly support the conclusion, not that the original 1973 Constitution PDF was independently re-opened for each one.",
+    "The backwards_range_label check and the regression check can both fire on the same chunk; such chunks appear once per finding type in the findings list, not deduplicated into one row."
+  ],
+  "run_completed_successfully": true,
+  "initial_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_chunk_dilution_diagnostic.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/phase1_query_chunk_interaction.py\n?? evaluation/phase2a_constitution_audit.py\n?? evaluation/phase2b_constitution_clause_audit.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.meta.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.meta.json\n?? evaluation/results/phase1_query_chunk_interaction.json\n?? evaluation/results/phase1_query_chunk_interaction.meta.json\n?? evaluation/results/phase2a_constitution_audit.json\n?? evaluation/results/phase2a_constitution_audit.md\n?? evaluation/results/phase2a_constitution_smoke_test.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n",
+  "final_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_chunk_dilution_diagnostic.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/phase1_query_chunk_interaction.py\n?? evaluation/phase2a_constitution_audit.py\n?? evaluation/phase2b_constitution_clause_audit.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.meta.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.meta.json\n?? evaluation/results/phase1_query_chunk_interaction.json\n?? evaluation/results/phase1_query_chunk_interaction.meta.json\n?? evaluation/results/phase2a_constitution_audit.json\n?? evaluation/results/phase2a_constitution_audit.md\n?? evaluation/results/phase2a_constitution_smoke_test.json\n?? evaluation/results/phase2b_constitution_clause_audit.csv\n?? evaluation/results/phase2b_constitution_clause_audit.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n"
+}

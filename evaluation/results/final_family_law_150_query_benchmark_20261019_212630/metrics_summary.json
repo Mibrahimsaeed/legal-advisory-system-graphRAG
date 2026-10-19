@@ -1,0 +1,419 @@
+{
+  "generated_from": "metrics_per_query_raw.json",
+  "corpora": {
+    "constitution": {
+      "dense": {
+        "n_eligible_queries": 48,
+        "p_at_5": {
+          "macro_avg": 0.2542,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "ndcg_at_10": {
+          "macro_avg": 0.8788,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_5": {
+          "macro_avg": 0.7096,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.7358,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.8646,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.9375,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.9583,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        }
+      },
+      "sparse": {
+        "n_eligible_queries": 48,
+        "p_at_5": {
+          "macro_avg": 0.2375,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "ndcg_at_10": {
+          "macro_avg": 0.8213,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_5": {
+          "macro_avg": 0.6969,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.7087,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.7951,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.8958,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.8958,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        }
+      },
+      "hybrid": {
+        "n_eligible_queries": 48,
+        "p_at_5": {
+          "macro_avg": 0.2458,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "ndcg_at_10": {
+          "macro_avg": 0.8696,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_5": {
+          "macro_avg": 0.7096,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.7402,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.871,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.9167,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.9375,
+          "denominator": 48,
+          "n_missing_or_unavailable": 0
+        }
+      }
+    },
+    "statute": {
+      "dense": {
+        "n_eligible_queries": 50,
+        "p_at_5": {
+          "macro_avg": 0.284,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "ndcg_at_10": {
+          "macro_avg": 0.8322,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_5": {
+          "macro_avg": 0.8767,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.9333,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.779,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.92,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.94,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        }
+      },
+      "sparse": {
+        "n_eligible_queries": 50,
+        "p_at_5": {
+          "macro_avg": 0.252,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "ndcg_at_10": {
+          "macro_avg": 0.7009,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_5": {
+          "macro_avg": 0.8033,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.8933,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.6377,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.86,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.9,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        }
+      },
+      "hybrid": {
+        "n_eligible_queries": 50,
+        "p_at_5": {
+          "macro_avg": 0.288,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "ndcg_at_10": {
+          "macro_avg": 0.8333,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_5": {
+          "macro_avg": 0.8967,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.94,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.7912,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.92,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.94,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        }
+      }
+    },
+    "case": {
+      "dense": {
+        "n_eligible_queries": 50,
+        "p_at_5": {
+          "macro_avg": null,
+          "denominator": 0,
+          "n_missing_or_unavailable": 50
+        },
+        "ndcg_at_10": {
+          "macro_avg": null,
+          "denominator": 0,
+          "n_missing_or_unavailable": 50
+        },
+        "recall_at_5": {
+          "macro_avg": 0.0233,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.04,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.0462,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.06,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.08,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "doc_recall_at_5": {
+          "macro_avg": 0.0733,
+          "denominator": 50
+        },
+        "doc_recall_at_10": {
+          "macro_avg": 0.0967,
+          "denominator": 50
+        },
+        "doc_mrr_at_10": {
+          "macro_avg": 0.0929,
+          "denominator": 50
+        },
+        "doc_hit_rate_at_5": {
+          "macro_avg": 0.12,
+          "denominator": 50
+        },
+        "doc_hit_rate_at_10": {
+          "macro_avg": 0.18,
+          "denominator": 50
+        }
+      },
+      "sparse": {
+        "n_eligible_queries": 50,
+        "p_at_5": {
+          "macro_avg": null,
+          "denominator": 0,
+          "n_missing_or_unavailable": 50
+        },
+        "ndcg_at_10": {
+          "macro_avg": null,
+          "denominator": 0,
+          "n_missing_or_unavailable": 50
+        },
+        "recall_at_5": {
+          "macro_avg": 0.0367,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.09,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.0838,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.08,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.18,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "doc_recall_at_5": {
+          "macro_avg": 0.0867,
+          "denominator": 50
+        },
+        "doc_recall_at_10": {
+          "macro_avg": 0.1867,
+          "denominator": 50
+        },
+        "doc_mrr_at_10": {
+          "macro_avg": 0.1179,
+          "denominator": 50
+        },
+        "doc_hit_rate_at_5": {
+          "macro_avg": 0.14,
+          "denominator": 50
+        },
+        "doc_hit_rate_at_10": {
+          "macro_avg": 0.3,
+          "denominator": 50
+        }
+      },
+      "hybrid": {
+        "n_eligible_queries": 50,
+        "p_at_5": {
+          "macro_avg": null,
+          "denominator": 0,
+          "n_missing_or_unavailable": 50
+        },
+        "ndcg_at_10": {
+          "macro_avg": null,
+          "denominator": 0,
+          "n_missing_or_unavailable": 50
+        },
+        "recall_at_5": {
+          "macro_avg": 0.0433,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.0633,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.0665,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.1,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.12,
+          "denominator": 50,
+          "n_missing_or_unavailable": 0
+        },
+        "doc_recall_at_5": {
+          "macro_avg": 0.08,
+          "denominator": 50
+        },
+        "doc_recall_at_10": {
+          "macro_avg": 0.13,
+          "denominator": 50
+        },
+        "doc_mrr_at_10": {
+          "macro_avg": 0.1035,
+          "denominator": 50
+        },
+        "doc_hit_rate_at_5": {
+          "macro_avg": 0.14,
+          "denominator": 50
+        },
+        "doc_hit_rate_at_10": {
+          "macro_avg": 0.22,
+          "denominator": 50
+        }
+      }
+    }
+  },
+  "limitations": {
+    "constitution_statute_p5_ndcg10": "Fully computable (no missing labels) because relevance is structurally determined by provision identity (article_number / section root), verified by direct text reading -- not an approximation.",
+    "case_p5_ndcg10": "NOT reliably computable -- reported as unavailable for all case-law queries/methods. Only the pooled qrels chunk(s) per query have been read and judged; all other retrieved case-law chunks are UNJUDGED (not proven irrelevant), so P@5/nDCG@10 cannot be honestly computed under the strict missing-label rule. This is a disclosed limitation of pooling depth, not a retrieval failure.",
+    "case_recall_mrr_hitrate_chunk_level": "Computed against the exact qrels chunk_id(s) (typically the single headnote chunk read per case). Likely UNDERSTATES true performance because a case has many retrievable chunks (headnote/headnote_part/judgment/judgment_part) and retrieval may correctly surface a different chunk of the SAME relevant case.",
+    "case_recall_mrr_hitrate_doc_level": "Computed against the case_key (document identity) regardless of which chunk of that case was retrieved -- a more meaningful view for case law, but still likely understates true performance because the qrels pool (2-3 cases per query, found via one keyword-search pass) is small relative to a topically dense 2,084-document, 25,891-chunk family-law corpus. Spot-check confirmed this directly: for CL01, the dense-retrieval top-1 result (case pld-2024-fsc-9) is a genuine, on-point Khula judgment that was simply not included in this benchmark's qrels pool -- i.e. low doc-level recall here reflects incomplete pooling, not failed retrieval. Do not interpret case-law Recall/MRR/HitRate numbers in this benchmark as a reliable absolute measure of retrieval quality; they are only valid for comparing the THREE METHODS against each other on the SAME (incomplete) reference set, not for judging absolute retrieval adequacy."
+  }
+}

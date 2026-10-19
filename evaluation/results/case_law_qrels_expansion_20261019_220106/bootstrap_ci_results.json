@@ -1,0 +1,107 @@
+{
+  "seed": 42,
+  "n_resamples": 5000,
+  "procedure": "paired bootstrap over 50 case-law queries, percentile CI",
+  "results": [
+    {
+      "a": "hybrid",
+      "b": "dense",
+      "metric": "ndcg_at_10",
+      "n": 50,
+      "observed_diff_a_minus_b": 0.0098,
+      "ci95_lo": -0.0234,
+      "ci95_hi": 0.0492,
+      "significant_at_5pct": false
+    },
+    {
+      "a": "hybrid",
+      "b": "sparse",
+      "metric": "ndcg_at_10",
+      "n": 50,
+      "observed_diff_a_minus_b": 0.0074,
+      "ci95_lo": -0.0218,
+      "ci95_hi": 0.0372,
+      "significant_at_5pct": false
+    },
+    {
+      "a": "sparse",
+      "b": "dense",
+      "metric": "ndcg_at_10",
+      "n": 50,
+      "observed_diff_a_minus_b": 0.0024,
+      "ci95_lo": -0.0522,
+      "ci95_hi": 0.0678,
+      "significant_at_5pct": false
+    },
+    {
+      "a": "hybrid",
+      "b": "dense",
+      "metric": "recall_at_10",
+      "n": 50,
+      "observed_diff_a_minus_b": -0.0061,
+      "ci95_lo": -0.0437,
+      "ci95_hi": 0.034,
+      "significant_at_5pct": false
+    },
+    {
+      "a": "hybrid",
+      "b": "sparse",
+      "metric": "recall_at_10",
+      "n": 50,
+      "observed_diff_a_minus_b": 0.0608,
+      "ci95_lo": 0.0253,
+      "ci95_hi": 0.0962,
+      "significant_at_5pct": true
+    },
+    {
+      "a": "sparse",
+      "b": "dense",
+      "metric": "recall_at_10",
+      "n": 50,
+      "observed_diff_a_minus_b": -0.0669,
+      "ci95_lo": -0.1235,
+      "ci95_hi": -0.0102,
+      "significant_at_5pct": true
+    },
+    {
+      "a": "hybrid",
+      "b": "dense",
+      "metric": "mrr_at_10",
+      "n": 50,
+      "observed_diff_a_minus_b": 0.0238,
+      "ci95_lo": -0.03,
+      "ci95_hi": 0.0853,
+      "significant_at_5pct": false
+    },
+    {
+      "a": "hybrid",
+      "b": "sparse",
+      "metric": "mrr_at_10",
+      "n": 50,
+      "observed_diff_a_minus_b": 0.0133,
+      "ci95_lo": -0.02,
+      "ci95_hi": 0.0533,
+      "significant_at_5pct": false
+    },
+    {
+      "a": "hybrid",
+      "b": "dense",
+      "metric": "p_at_5",
+      "n": 50,
+      "observed_diff_a_minus_b": -0.004,
+      "ci95_lo": -0.04,
+      "ci95_hi": 0.036,
+      "significant_at_5pct": false
+    },
+    {
+      "a": "hybrid",
+      "b": "sparse",
+      "metric": "p_at_5",
+      "n": 50,
+      "observed_diff_a_minus_b": 0.016,
+      "ci95_lo": -0.028,
+      "ci95_hi": 0.06,
+      "significant_at_5pct": false
+    }
+  ]
+}

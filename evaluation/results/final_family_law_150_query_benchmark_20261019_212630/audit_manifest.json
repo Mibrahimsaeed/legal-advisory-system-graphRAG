@@ -1,0 +1,62 @@
+{
+  "task": "final_family_law_150_query_benchmark",
+  "timestamp_started": "2026-10-19T21:26:30",
+  "repo_root": "/Users/ibrahim/Desktop/legal_advisory_system/legal-advisory-system-graphRAG",
+  "branch": "phase-1.2",
+  "corpus_configuration_verified": {
+    "qdrant_collection": "pk_legal",
+    "dense_model": "BAAI/bge-m3",
+    "dense_vector": {"name": "dense", "size": 1024, "distance": "Cosine"},
+    "sparse_vector": {"name": "bm25", "modifier": "idf"},
+    "point_counts_before": {"case": 25891, "constitution": 547, "statute": 240, "total": 26678},
+    "point_counts_after": {"case": 25891, "constitution": 547, "statute": 240, "total": 26678},
+    "fusion": "Qdrant FusionQuery(fusion=Fusion.RRF), per-source_type filtered, no combined-corpus ranking path exists",
+    "candidate_depth": 40
+  },
+  "retrieval_implementation_files_inspected_not_modified": [
+    "src/rag_prep/embed_index.py",
+    "evaluation/run_retrieval.py",
+    "evaluation/calculate_metrics.py"
+  ],
+  "query_set": {
+    "total": 150,
+    "constitution": {"total": 50, "supported": 45, "partially_supported": 3, "unsupported": 2},
+    "case": {"total": 50, "supported": 47, "partially_supported": 3, "unsupported": 0},
+    "statute": {"total": 50, "supported": 46, "partially_supported": 4, "unsupported": 0},
+    "eligible_for_retrieval_and_metrics": 148,
+    "all_150_ids_and_text_preserved_verbatim": true
+  },
+  "qrels": {
+    "total_rows": 336,
+    "by_corpus": {"constitution": 147, "case": 125, "statute": 64},
+    "provenance": "researcher_judged / machine_assisted (keyword search + direct source-text reading)",
+    "NOT_lawyer_validated": true,
+    "pooling_status": {
+      "constitution": "representative_not_exhaustive (structurally exhaustive for the named target provision; alternative provisions not separately pooled)",
+      "statute": "representative_not_exhaustive (same basis)",
+      "case": "pooled_incomplete (2-3 case citations per query from one keyword-search pass over a 2,084-document corpus; confirmed incomplete by direct spot-check -- see comparison_report.md Section 6)"
+    }
+  },
+  "retrieval_methods_executed": ["dense_only_top40", "sparse_only_top40", "hybrid_production_unmodified"],
+  "all_methods_completed_without_error": true,
+  "metrics_computed": ["p_at_5", "recall_at_5", "recall_at_10", "mrr_at_10", "ndcg_at_10", "hit_rate_at_5", "hit_rate_at_10"],
+  "case_law_additional_doc_level_metrics": ["doc_recall_at_5", "doc_recall_at_10", "doc_mrr_at_10", "doc_hit_rate_at_5", "doc_hit_rate_at_10"],
+  "bootstrap": {"seed": 42, "n_resamples": 5000, "procedure": "paired, percentile CI, see bootstrap_ci_results.json"},
+  "artifacts": [
+    "README.md","audit_manifest.json","queries_150.jsonl","query_coverage.csv","qrels.jsonl",
+    "retrieval_rankings.jsonl","metrics_per_query.csv","metrics_summary.json","comparison_report.md",
+    "failure_diagnostics.csv","corpus_index_coverage.md","reproducibility.md","integrity_confirmation.md"
+  ],
+  "supporting_scripts_and_intermediates": [
+    "build_queries_and_qrels.py","build_qrels.py","build_summary.py","compute_metrics.py","bootstrap_ci.py",
+    "run_dense_sparse_150.py","search_caselaw.py","validate_constitution.py",
+    "queries_constitution_input.json","queries_statute_input.json","queries_case_input.json",
+    "retrieval_dense_constitution.jsonl","retrieval_sparse_constitution.jsonl","retrieval_hybrid_constitution.jsonl",
+    "retrieval_dense_statute.jsonl","retrieval_sparse_statute.jsonl","retrieval_hybrid_statute.jsonl",
+    "retrieval_dense_case.jsonl","retrieval_sparse_case.jsonl","retrieval_hybrid_case.jsonl",
+    "metrics_per_query_raw.json","bootstrap_ci_results.json","_initial_state.txt"
+  ],
+  "pythondontwritebytecode_set": true,
+  "qdrant_operations": "read-only query_points() / points/count / collections GET calls only; no upsert/delete/recreate",
+  "forbidden_changes_check": "see integrity_confirmation.md"
+}

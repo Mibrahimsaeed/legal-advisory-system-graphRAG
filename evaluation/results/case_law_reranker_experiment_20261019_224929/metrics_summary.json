@@ -1,0 +1,104 @@
+{
+  "grading": "document-level (case_id), propagated from judged case to every chunk of that case",
+  "qrels_source": "evaluation/results/case_law_qrels_expansion_20261019_220106/judgment_ledger.jsonl (frozen, read-only)",
+  "n_queries": 50,
+  "candidate_depth": 40,
+  "methods": {
+    "baseline_hybrid": {
+      "n_eligible_queries": 50,
+      "p_at_5": {
+        "macro_avg": 0.9,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "ndcg_at_5": {
+        "macro_avg": 0.9208,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "ndcg_at_10": {
+        "macro_avg": 0.8999,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "recall_at_5": {
+        "macro_avg": 0.2916,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "recall_at_10": {
+        "macro_avg": 0.5403,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "mrr_at_5": {
+        "macro_avg": 0.97,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "mrr_at_10": {
+        "macro_avg": 0.97,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "hit_rate_at_5": {
+        "macro_avg": 1.0,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "hit_rate_at_10": {
+        "macro_avg": 1.0,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      }
+    },
+    "reranked_hybrid": {
+      "n_eligible_queries": 50,
+      "p_at_5": {
+        "macro_avg": 0.896,
+        "denominator": 25,
+        "n_missing_or_unavailable": 25
+      },
+      "ndcg_at_5": {
+        "macro_avg": 0.9252,
+        "denominator": 25,
+        "n_missing_or_unavailable": 25
+      },
+      "ndcg_at_10": {
+        "macro_avg": 0.9206,
+        "denominator": 7,
+        "n_missing_or_unavailable": 43
+      },
+      "recall_at_5": {
+        "macro_avg": 0.27,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "recall_at_10": {
+        "macro_avg": 0.4322,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "mrr_at_5": {
+        "macro_avg": 0.9233,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "mrr_at_10": {
+        "macro_avg": 0.9233,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "hit_rate_at_5": {
+        "macro_avg": 1.0,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      },
+      "hit_rate_at_10": {
+        "macro_avg": 1.0,
+        "denominator": 50,
+        "n_missing_or_unavailable": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "query": "Can a wife obtain khula without returning dower?",
+  "target_chunk_id": "24520c344d2285555aa10988:s10",
+  "target_exists_in_qdrant": true,
+  "target_point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+  "target_payload": {
+    "source_type": "statute",
+    "chunk_id": "24520c344d2285555aa10988:s10",
+    "doc_id": "24520c344d2285555aa10988",
+    "parent_id": "24520c344d2285555aa10988:s10",
+    "unit_id": "family-courts-act-1964:s:10",
+    "base_unit_id": "family-courts-act-1964:s:10",
+    "unit_type": "section",
+    "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+    "lead_in": null,
+    "canonical_text": "10. Pre-trial proceedings.\u2014 [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the date so fixed, the Court shall examine the plaint, the written statement (if any) and the precis of evidence and documents filed by the parties and shall also, if it so deems fit, hear the parties and their counsel.\n(3) At the pre-trial, the Court shall ascertain the points at issue between the parties and attempt to effect a compromise or reconciliation between the parties, if this be possible.\n(4) If no compromise or reconciliation is possible the Court shall frame the issues in the case and fix a date for [^7.2][recording] of evidence [^7.1][:]\n[^7.1][Provided that notwithstanding any decision or judgement of any court or tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.]",
+    "token_count": 225,
+    "act_key": "family-courts-act-1964",
+    "act_name": "Family Courts Act, 1964",
+    "year": 1964,
+    "part_number": null,
+    "part_title": null,
+    "chapter_number": null,
+    "chapter_title": null,
+    "section_number": "10",
+    "section_title": "Pre-trial proceedings",
+    "section_status": "in_force",
+    "sub_range": null,
+    "schedule": null,
+    "schedule_unit": null,
+    "subsections": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "defined_terms": [],
+    "ref_unit_ids": [],
+    "ref_act_keys": [],
+    "primary_domain": "family_law",
+    "point_hash": "0fc70fbe1b4462823325458d520a3ff0e7c891b8"
+  },
+  "dense_only": {
+    "target_rank": 81,
+    "target_score": 0.38252112,
+    "n_candidates_ranked": 240,
+    "top10": [
+      {
+        "rank": 1,
+        "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+        "score": 0.53084666
+      },
+      {
+        "rank": 2,
+        "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+        "score": 0.5229555
+      },
+      {
+        "rank": 3,
+        "chunk_id": "6867f44e86ef03cec19831c6:s10",
+        "score": 0.5153156
+      },
+      {
+        "rank": 4,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s27",
+        "score": 0.5061132
+      },
+      {
+        "rank": 5,
+        "chunk_id": "0425160ffedaefd8c79b3241:s5",
+        "score": 0.5021663
+      },
+      {
+        "rank": 6,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+        "score": 0.49959397
+      },
+      {
+        "rank": 7,
+        "chunk_id": "0425160ffedaefd8c79b3241:s4",
+        "score": 0.49342954
+      },
+      {
+        "rank": 8,
+        "chunk_id": "6867f44e86ef03cec19831c6:s9",
+        "score": 0.48230517
+      },
+      {
+        "rank": 9,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s22",
+        "score": 0.4766893
+      },
+      {
+        "rank": 10,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s26",
+        "score": 0.47560918
+      }
+    ]
+  },
+  "bm25_only": {
+    "target_rank": 71,
+    "target_score": 1.6357101,
+    "n_candidates_ranked": 74,
+    "top10": [
+      {
+        "rank": 1,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s22",
+        "score": 10.642117
+      },
+      {
+        "rank": 2,
+        "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+        "score": 10.325746
+      },
+      {
+        "rank": 3,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s60",
+        "score": 10.046209
+      },
+      {
+        "rank": 4,
+        "chunk_id": "6867f44e86ef03cec19831c6:s6",
+        "score": 9.060911
+      },
+      {
+        "rank": 5,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s26",
+        "score": 7.9453745
+      },
+      {
+        "rank": 6,
+        "chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+        "score": 7.6602964
+      },
+      {
+        "rank": 7,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s31",
+        "score": 7.539524
+      },
+      {
+        "rank": 8,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s36",
+        "score": 6.5689173
+      },
+      {
+        "rank": 9,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:s19",
+        "score": 6.517096
+      },
+      {
+        "rank": 10,
+        "chunk_id": "8251b5f4daa92e5a22319fc4:schedule-of-forms:form10",
+        "score": 6.3966136
+      }
+    ]
+  }
+}

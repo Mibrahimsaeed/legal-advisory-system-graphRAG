@@ -1,0 +1,26 @@
+{
+  "run_timestamp": "2026-10-17T17:17:32",
+  "queries_file": "/private/tmp/claude-501/-Users-ibrahim-Desktop-legal-advisory-system-legal-advisory-system-graphRAG/ca4cdb88-2d24-4974-894b-267c31563799/scratchpad/q01_only.json",
+  "query_ids": [
+    "Q01"
+  ],
+  "collection": "pk_legal",
+  "dense_model": "BAAI/bge-m3",
+  "dense_vector_name": "dense",
+  "dense_dim": 1024,
+  "dense_distance": "Cosine",
+  "retrieval_method": "dense_only",
+  "fusion": null,
+  "sparse_model_used": null,
+  "source_filter": "statute",
+  "depth": 10,
+  "qdrant_url": "http://localhost:6333",
+  "output_path": "evaluation/results/dense_statute_results.jsonl",
+  "query_count": 1,
+  "result_counts": {
+    "statute": 10
+  },
+  "empty_result_queries": [],
+  "failed_queries": [],
+  "run_completed_successfully": true
+}

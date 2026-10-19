@@ -1,0 +1,1103 @@
+{
+  "target_chunk_id": "24520c344d2285555aa10988:s10",
+  "candidates_depth_hybrid": 40,
+  "ranking_depth": 240,
+  "source_filter": "statute",
+  "run_timestamp": "2026-10-17T17:26:14",
+  "queries": [
+    {
+      "query_id": "Q0",
+      "query": "Can a wife obtain khula without returning dower?",
+      "methods": {
+        "dense_only": {
+          "method": "dense_only",
+          "n_candidates_ranked": 240,
+          "target_rank": 81,
+          "target_score": 0.38252112,
+          "target_in_top10": false,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 0.53084666,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 2,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 0.5229555,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 3,
+              "point_id": "9f2bd02d-820c-5990-9a5c-7e021dce2f0f",
+              "chunk_id": "6867f44e86ef03cec19831c6:s10",
+              "score": 0.5153156,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 10: Dower]",
+              "canonical_text_preview": "10. Dower.⸺Where no details about the mode of payment of dower are specified in the nikah nama, or the marriage contract, the entire amount of the dower shall b"
+            },
+            {
+              "rank": 4,
+              "point_id": "dc795ffc-ef9c-5cab-9d77-a06344a0c883",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s27",
+              "score": 0.5061132,
+              "context_header": "[Divorce Act, 1869 | Chapter VI: Protection-orders | Section 27: Deserted wife may apply to Court for protection]",
+              "canonical_text_preview": "27. Deserted wife may apply to Court for protection. Any wife to whom section 4 of the Indian Succession Act, 1865,1 (X of 1865), does not apply, may, when dese"
+            },
+            {
+              "rank": 5,
+              "point_id": "315756f4-d34a-5b1a-b9e5-e703fb7f1e70",
+              "chunk_id": "0425160ffedaefd8c79b3241:s5",
+              "score": 0.5021663,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 5: Rights to dower not to be affected]",
+              "canonical_text_preview": "5. Rights to dower not to be affected. Nothing contained in this Act shall affect any right which a married woman may have under Muslim law to her dower or any "
+            },
+            {
+              "rank": 6,
+              "point_id": "858f8a01-4195-5ac5-ac3c-952149791add",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+              "score": 0.49959397,
+              "context_header": "[Divorce Act, 1869 | Chapter VII: Restitution of Conjugal Rights | Section 32: Petition for restitution of conjugal rights]",
+              "canonical_text_preview": "32. Petition for restitution of conjugal rights. When either the husband or the wife has, wothout reasonable excuse withdrawn from the society of the other, eit"
+            },
+            {
+              "rank": 7,
+              "point_id": "77a5f818-c239-5351-8f24-315beb6b57cc",
+              "chunk_id": "0425160ffedaefd8c79b3241:s4",
+              "score": 0.49342954,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 4: Effect of conversion to another faith]",
+              "canonical_text_preview": "4. Effect of conversion to another faith. The renunciation of Islam by a married Muslim woman or her conversion to a faith other than Islam shall not by itself "
+            },
+            {
+              "rank": 8,
+              "point_id": "156facd4-e757-595c-9051-a67331ffefb6",
+              "chunk_id": "6867f44e86ef03cec19831c6:s9",
+              "score": 0.48230517,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 9: Maintenance]",
+              "canonical_text_preview": "9. Maintenance.⸺(1) If any husband fails to maintain his wife adequately, or where there are more wives than one, fails to maintain them equitably, the wife, or"
+            },
+            {
+              "rank": 9,
+              "point_id": "9845be9f-6947-5a19-93d2-4d76de4a9d5f",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s22",
+              "score": 0.4766893,
+              "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Section 22: Bar to decree for divorce a mensa et toro but judicial separation obtainable by husband or wife]",
+              "canonical_text_preview": "22. Bar to decree for divorce a mensa et toro but judicial separation obtainable by husband or wife. No decree shall hereafter be made for a divorce a mensa et "
+            },
+            {
+              "rank": 10,
+              "point_id": "8a406c17-4de1-5571-9a71-ce1cf5b6600d",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s26",
+              "score": 0.47560918,
+              "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Reversal of Decree of Separation | Section 26: Decree of separation obtained during absence of husband or wife may be reversed]",
+              "canonical_text_preview": "26. Decree of separation obtained during absence of husband or wife may be reversed. Any husband or wife, upon the application of whose wife or husband, as the "
+            }
+          ]
+        },
+        "bm25_only": {
+          "method": "bm25_only",
+          "n_candidates_ranked": 74,
+          "target_rank": 71,
+          "target_score": 1.6357101,
+          "target_in_top10": false,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "9845be9f-6947-5a19-93d2-4d76de4a9d5f",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s22",
+              "score": 10.642117,
+              "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Section 22: Bar to decree for divorce a mensa et toro but judicial separation obtainable by husband or wife]",
+              "canonical_text_preview": "22. Bar to decree for divorce a mensa et toro but judicial separation obtainable by husband or wife. No decree shall hereafter be made for a divorce a mensa et "
+            },
+            {
+              "rank": 2,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 10.325746,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 3,
+              "point_id": "da5caf09-0868-56fa-bb3b-49c4c7bea92d",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s60",
+              "score": 10.046209,
+              "context_header": "[Divorce Act, 1869 | Chapter XIV: Miscellaneous | Section 60: Decree for separation or protection order valid as to persons dealing with wife before reversal]",
+              "canonical_text_preview": "60. Decree for separation or protection order valid as to persons dealing with wife before reversal. Every decree for judicial separation or order to protect pr"
+            },
+            {
+              "rank": 4,
+              "point_id": "fad4beba-4b4f-5a37-a221-8eb28ab2dbd3",
+              "chunk_id": "6867f44e86ef03cec19831c6:s6",
+              "score": 9.060911,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 6: Polygamy]",
+              "canonical_text_preview": "6. Polygamy.⸺(1) No man, during the subsistence of an existing marriage, shall, except with the previous permission in writing of the Arbitration Council, contr"
+            },
+            {
+              "rank": 5,
+              "point_id": "8a406c17-4de1-5571-9a71-ce1cf5b6600d",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s26",
+              "score": 7.9453745,
+              "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Reversal of Decree of Separation | Section 26: Decree of separation obtained during absence of husband or wife may be reversed]",
+              "canonical_text_preview": "26. Decree of separation obtained during absence of husband or wife may be reversed. Any husband or wife, upon the application of whose wife or husband, as the "
+            },
+            {
+              "rank": 6,
+              "point_id": "53c0a1a6-4889-50f9-a489-6d8ff8fcb7de",
+              "chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+              "score": 7.6602964,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 2: Grounds for decree for dissolution of marriage | Clauses (i)–(vi)]",
+              "canonical_text_preview": "2. Grounds for decree for dissolution of marriage. A woman married under Muslim Law shall be entitled to obtain a decree for the dissolution of her marriage on "
+            },
+            {
+              "rank": 7,
+              "point_id": "2018fa0a-c2dc-58d1-a33e-928c376067ee",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s31",
+              "score": 7.539524,
+              "context_header": "[Divorce Act, 1869 | Chapter VI: Protection-orders | Section 31: Wife's legal position during continuance of order]",
+              "canonical_text_preview": "31. Wife’s legal position during continuance of order. So long as any such order of protection remains in force, the wife shall be and be deemed to have been, d"
+            },
+            {
+              "rank": 8,
+              "point_id": "8d5e374d-d36c-5684-bd35-e00bfa7732fd",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s36",
+              "score": 6.5689173,
+              "context_header": "[Divorce Act, 1869 | Chapter IX: Alimony | Section 36: Alimony pendente lite]",
+              "canonical_text_preview": "36. Alimony pendente lite. In any suit under this Act, whether it be instituted by a husband or a wife, and whether or not she has obtained an order of protecti"
+            },
+            {
+              "rank": 9,
+              "point_id": "caa53b46-cb7e-5089-841e-f612204478b5",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s19",
+              "score": 6.517096,
+              "context_header": "[Divorce Act, 1869 | Chapter IV: Nullity of Marriage | Section 19: Grounds of decrees]",
+              "canonical_text_preview": "19. Grounds of decrees. Such decree may be made on any of the following grounds :―\n(1) that the respondent was impotent at the time of the marriage and at the t"
+            },
+            {
+              "rank": 10,
+              "point_id": "8476ba40-5d7c-514c-aec0-d8bbf4576205",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:schedule-of-forms:form10",
+              "score": 6.3966136,
+              "context_header": "[Divorce Act, 1869 | Schedule of Forms | Form No. 10: Petition for Reversal of Decree of Separation]",
+              "canonical_text_preview": "No. 10.—PETITION FOR REVERSAL OF DECREE OF SEPARATION (See section 24)\nIn the 2[*]\nCourt of\n[^23.1][*\n* * *\n*]\nThe\nday of , 186.\nThe petition of A. B., of\nSHEWE"
+            }
+          ]
+        },
+        "hybrid": {
+          "method": "hybrid",
+          "n_candidates_ranked": 61,
+          "target_rank": null,
+          "target_score": null,
+          "target_in_top10": false,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 0.6666667,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 2,
+              "point_id": "9845be9f-6947-5a19-93d2-4d76de4a9d5f",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s22",
+              "score": 0.6,
+              "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Section 22: Bar to decree for divorce a mensa et toro but judicial separation obtainable by husband or wife]",
+              "canonical_text_preview": "22. Bar to decree for divorce a mensa et toro but judicial separation obtainable by husband or wife. No decree shall hereafter be made for a divorce a mensa et "
+            },
+            {
+              "rank": 3,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 0.5555556,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 4,
+              "point_id": "da5caf09-0868-56fa-bb3b-49c4c7bea92d",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s60",
+              "score": 0.30555555,
+              "context_header": "[Divorce Act, 1869 | Chapter XIV: Miscellaneous | Section 60: Decree for separation or protection order valid as to persons dealing with wife before reversal]",
+              "canonical_text_preview": "60. Decree for separation or protection order valid as to persons dealing with wife before reversal. Every decree for judicial separation or order to protect pr"
+            },
+            {
+              "rank": 5,
+              "point_id": "9f2bd02d-820c-5990-9a5c-7e021dce2f0f",
+              "chunk_id": "6867f44e86ef03cec19831c6:s10",
+              "score": 0.28448275,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 10: Dower]",
+              "canonical_text_preview": "10. Dower.⸺Where no details about the mode of payment of dower are specified in the nikah nama, or the marriage contract, the entire amount of the dower shall b"
+            },
+            {
+              "rank": 6,
+              "point_id": "fad4beba-4b4f-5a37-a221-8eb28ab2dbd3",
+              "chunk_id": "6867f44e86ef03cec19831c6:s6",
+              "score": 0.28333333,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 6: Polygamy]",
+              "canonical_text_preview": "6. Polygamy.⸺(1) No man, during the subsistence of an existing marriage, shall, except with the previous permission in writing of the Arbitration Council, contr"
+            },
+            {
+              "rank": 7,
+              "point_id": "8a406c17-4de1-5571-9a71-ce1cf5b6600d",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s26",
+              "score": 0.25757575,
+              "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Reversal of Decree of Separation | Section 26: Decree of separation obtained during absence of husband or wife may be reversed]",
+              "canonical_text_preview": "26. Decree of separation obtained during absence of husband or wife may be reversed. Any husband or wife, upon the application of whose wife or husband, as the "
+            },
+            {
+              "rank": 8,
+              "point_id": "53c0a1a6-4889-50f9-a489-6d8ff8fcb7de",
+              "chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+              "score": 0.21428573,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 2: Grounds for decree for dissolution of marriage | Clauses (i)–(vi)]",
+              "canonical_text_preview": "2. Grounds for decree for dissolution of marriage. A woman married under Muslim Law shall be entitled to obtain a decree for the dissolution of her marriage on "
+            },
+            {
+              "rank": 9,
+              "point_id": "dc795ffc-ef9c-5cab-9d77-a06344a0c883",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s27",
+              "score": 0.2,
+              "context_header": "[Divorce Act, 1869 | Chapter VI: Protection-orders | Section 27: Deserted wife may apply to Court for protection]",
+              "canonical_text_preview": "27. Deserted wife may apply to Court for protection. Any wife to whom section 4 of the Indian Succession Act, 1865,1 (X of 1865), does not apply, may, when dese"
+            },
+            {
+              "rank": 10,
+              "point_id": "315756f4-d34a-5b1a-b9e5-e703fb7f1e70",
+              "chunk_id": "0425160ffedaefd8c79b3241:s5",
+              "score": 0.19791667,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 5: Rights to dower not to be affected]",
+              "canonical_text_preview": "5. Rights to dower not to be affected. Nothing contained in this Act shall affect any right which a married woman may have under Muslim law to her dower or any "
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "Q1",
+      "query": "Under the Family Courts Act, what happens to Haq Mehr in a suit for dissolution of marriage?",
+      "methods": {
+        "dense_only": {
+          "method": "dense_only",
+          "n_candidates_ranked": 240,
+          "target_rank": 1,
+          "target_score": 0.5676033,
+          "target_in_top10": true,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+              "chunk_id": "24520c344d2285555aa10988:s10",
+              "score": 0.5676033,
+              "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+              "canonical_text_preview": "10. Pre-trial proceedings.— [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the d"
+            },
+            {
+              "rank": 2,
+              "point_id": "a8e84f18-77b6-538b-96db-260606f4b2a3",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s2",
+              "score": 0.5633397,
+              "context_header": "[Divorce Act, 1869 | Chapter I: Preliminary | Section 2: Extent of Act]",
+              "canonical_text_preview": "2. Extent of Act. [^5.2][This Act extends to the whole of Pakistan.]\nExtent of power to grant relief generally, and to make decrees of dissolution, or of nullit"
+            },
+            {
+              "rank": 3,
+              "point_id": "4b498615-e46c-5eee-8901-5c7f25287e42",
+              "chunk_id": "6867f44e86ef03cec19831c6:s7_ss1A-2-3-4-5-6",
+              "score": 0.54854393,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 7: Talaq | Sub-sections (1A)–(6)]",
+              "canonical_text_preview": "[^6.1][(1A) As enshrined in Article 227 of the Constitution of the Islamic Republic of Pakistan, the divorce and matters connected therewith or ancillary theret"
+            },
+            {
+              "rank": 4,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 0.54697853,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 5,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 0.54612315,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 6,
+              "point_id": "315756f4-d34a-5b1a-b9e5-e703fb7f1e70",
+              "chunk_id": "0425160ffedaefd8c79b3241:s5",
+              "score": 0.54206,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 5: Rights to dower not to be affected]",
+              "canonical_text_preview": "5. Rights to dower not to be affected. Nothing contained in this Act shall affect any right which a married woman may have under Muslim law to her dower or any "
+            },
+            {
+              "rank": 7,
+              "point_id": "761eb629-894b-5c70-ba08-7ed81ee3f6ae",
+              "chunk_id": "24520c344d2285555aa10988:s14",
+              "score": 0.53519994,
+              "context_header": "[Family Courts Act, 1964 | Section 14: Appeals]",
+              "canonical_text_preview": "14. Appeals.―[^9.1][(1) Notwithstanding anything provided in any other law for the time being in force, a decision given or a decree passed by a Family Court sh"
+            },
+            {
+              "rank": 8,
+              "point_id": "0dbb17ec-80f7-55f0-94b5-97f94a3c3d69",
+              "chunk_id": "0425160ffedaefd8c79b3241:s3",
+              "score": 0.5300909,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 3: Notice to be served on heirs of the husband when the husbands' whereabout are not known]",
+              "canonical_text_preview": "3. Notice to be served on heirs of the husband when the husbands’ whereabout are not known. In a suit to which clause (i) of section 2 applies__\n(a) the names a"
+            },
+            {
+              "rank": 9,
+              "point_id": "c98f949e-c31e-504c-a3b8-0b1292bf7ba3",
+              "chunk_id": "24520c344d2285555aa10988:s12A",
+              "score": 0.5296728,
+              "context_header": "[Family Courts Act, 1964 | Section 12A: Cases to be disposed of within a specified period]",
+              "canonical_text_preview": "[^8.2][12A. Cases to be disposed of within a specified period.― A Family Court shall dispose of a case, including a suit for dissolution of marriage, within a p"
+            },
+            {
+              "rank": 10,
+              "point_id": "86cf8050-3c6a-599b-b021-66f11a350ecd",
+              "chunk_id": "6867f44e86ef03cec19831c6:s8",
+              "score": 0.52308327,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 8: Dissolution of marriage otherwise than by talaq]",
+              "canonical_text_preview": "8. Dissolution of marriage otherwise than by talaq.⸺Where the right to divorce has been duly delegated to the wife and she wishes to exercise that right, or whe"
+            }
+          ]
+        },
+        "bm25_only": {
+          "method": "bm25_only",
+          "n_candidates_ranked": 240,
+          "target_rank": 1,
+          "target_score": 15.914614,
+          "target_in_top10": true,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+              "chunk_id": "24520c344d2285555aa10988:s10",
+              "score": 15.914614,
+              "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+              "canonical_text_preview": "10. Pre-trial proceedings.— [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the d"
+            },
+            {
+              "rank": 2,
+              "point_id": "cbd68e71-baca-5e53-956e-13adc1310027",
+              "chunk_id": "0425160ffedaefd8c79b3241:preamble",
+              "score": 9.440153,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Preamble]",
+              "canonical_text_preview": "THE DISSOLUTION OF MUSLIM MARRIAGES ACT, 1939\nACT No. VIII OF 1939 [17th March, 1939] An Act to consolidate and clarify the provisions of Muslim law relating to"
+            },
+            {
+              "rank": 3,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 8.595502,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 4,
+              "point_id": "c0eedaf0-4261-580e-95fa-1ff9fac32b55",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s43",
+              "score": 8.378332,
+              "context_header": "[Divorce Act, 1869 | Chapter XI: Custody of Children | Section 43: Power to make orders as to custody of children in suits for dissolution or nullity]",
+              "canonical_text_preview": "[^13.1][43. Power to make orders as to custody of children in suits for dissolution or nullity.— In any suit for obtaining a dissolution of marriage or a decree"
+            },
+            {
+              "rank": 5,
+              "point_id": "5b6827b2-29b2-59e8-b971-0370a4d65c58",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s15",
+              "score": 8.248382,
+              "context_header": "[Divorce Act, 1869 | Chapter III: Dissolution of Marriage | Section 15: Relief in case of opposition on certain grounds]",
+              "canonical_text_preview": "15. Relief in case of opposition on certain grounds. In any suit instituted for dissolution of marriage, if the respondent opposes the relief sought on the grou"
+            },
+            {
+              "rank": 6,
+              "point_id": "326ce48c-ed94-5af2-ad2f-4854edb029d2",
+              "chunk_id": "417403be7fc29b06cafadbbe:s2",
+              "score": 8.225727,
+              "context_header": "[Dowry and Bridal Gifts (Restriction) Act, 1976 | Section 2: Definitions]",
+              "canonical_text_preview": "2. Definitions. In this Act, unless there is anything repugnant in the subject or context,\n(a) “bridal gift” means any property given as a gift before, at or af"
+            },
+            {
+              "rank": 7,
+              "point_id": "c98f949e-c31e-504c-a3b8-0b1292bf7ba3",
+              "chunk_id": "24520c344d2285555aa10988:s12A",
+              "score": 7.988776,
+              "context_header": "[Family Courts Act, 1964 | Section 12A: Cases to be disposed of within a specified period]",
+              "canonical_text_preview": "[^8.2][12A. Cases to be disposed of within a specified period.― A Family Court shall dispose of a case, including a suit for dissolution of marriage, within a p"
+            },
+            {
+              "rank": 8,
+              "point_id": "6ac26989-7597-5fce-b66b-143fc4f4e0bf",
+              "chunk_id": "0425160ffedaefd8c79b3241:s1",
+              "score": 7.5601397,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 1: Short title and extent]",
+              "canonical_text_preview": "1. Short title and extent.__(1) This Act may be called the Dissolution of Muslim Marriages Act, 1939.\n[^2.1][(2) It extends to the whole of Pakistan.]"
+            },
+            {
+              "rank": 9,
+              "point_id": "8d5e374d-d36c-5684-bd35-e00bfa7732fd",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s36",
+              "score": 7.4946556,
+              "context_header": "[Divorce Act, 1869 | Chapter IX: Alimony | Section 36: Alimony pendente lite]",
+              "canonical_text_preview": "36. Alimony pendente lite. In any suit under this Act, whether it be instituted by a husband or a wife, and whether or not she has obtained an order of protecti"
+            },
+            {
+              "rank": 10,
+              "point_id": "a8e84f18-77b6-538b-96db-260606f4b2a3",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s2",
+              "score": 7.408925,
+              "context_header": "[Divorce Act, 1869 | Chapter I: Preliminary | Section 2: Extent of Act]",
+              "canonical_text_preview": "2. Extent of Act. [^5.2][This Act extends to the whole of Pakistan.]\nExtent of power to grant relief generally, and to make decrees of dissolution, or of nullit"
+            }
+          ]
+        },
+        "hybrid": {
+          "method": "hybrid",
+          "n_candidates_ranked": 55,
+          "target_rank": 1,
+          "target_score": 1.0,
+          "target_in_top10": true,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+              "chunk_id": "24520c344d2285555aa10988:s10",
+              "score": 1.0,
+              "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+              "canonical_text_preview": "10. Pre-trial proceedings.— [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the d"
+            },
+            {
+              "rank": 2,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 0.45,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 3,
+              "point_id": "a8e84f18-77b6-538b-96db-260606f4b2a3",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s2",
+              "score": 0.42424244,
+              "context_header": "[Divorce Act, 1869 | Chapter I: Preliminary | Section 2: Extent of Act]",
+              "canonical_text_preview": "2. Extent of Act. [^5.2][This Act extends to the whole of Pakistan.]\nExtent of power to grant relief generally, and to make decrees of dissolution, or of nullit"
+            },
+            {
+              "rank": 4,
+              "point_id": "cbd68e71-baca-5e53-956e-13adc1310027",
+              "chunk_id": "0425160ffedaefd8c79b3241:preamble",
+              "score": 0.36666667,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Preamble]",
+              "canonical_text_preview": "THE DISSOLUTION OF MUSLIM MARRIAGES ACT, 1939\nACT No. VIII OF 1939 [17th March, 1939] An Act to consolidate and clarify the provisions of Muslim law relating to"
+            },
+            {
+              "rank": 5,
+              "point_id": "4b498615-e46c-5eee-8901-5c7f25287e42",
+              "chunk_id": "6867f44e86ef03cec19831c6:s7_ss1A-2-3-4-5-6",
+              "score": 0.25,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 7: Talaq | Sub-sections (1A)–(6)]",
+              "canonical_text_preview": "[^6.1][(1A) As enshrined in Article 227 of the Constitution of the Islamic Republic of Pakistan, the divorce and matters connected therewith or ancillary theret"
+            },
+            {
+              "rank": 6,
+              "point_id": "315756f4-d34a-5b1a-b9e5-e703fb7f1e70",
+              "chunk_id": "0425160ffedaefd8c79b3241:s5",
+              "score": 0.22619048,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 5: Rights to dower not to be affected]",
+              "canonical_text_preview": "5. Rights to dower not to be affected. Nothing contained in this Act shall affect any right which a married woman may have under Muslim law to her dower or any "
+            },
+            {
+              "rank": 7,
+              "point_id": "c98f949e-c31e-504c-a3b8-0b1292bf7ba3",
+              "chunk_id": "24520c344d2285555aa10988:s12A",
+              "score": 0.225,
+              "context_header": "[Family Courts Act, 1964 | Section 12A: Cases to be disposed of within a specified period]",
+              "canonical_text_preview": "[^8.2][12A. Cases to be disposed of within a specified period.― A Family Court shall dispose of a case, including a suit for dissolution of marriage, within a p"
+            },
+            {
+              "rank": 8,
+              "point_id": "c0eedaf0-4261-580e-95fa-1ff9fac32b55",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s43",
+              "score": 0.22439024,
+              "context_header": "[Divorce Act, 1869 | Chapter XI: Custody of Children | Section 43: Power to make orders as to custody of children in suits for dissolution or nullity]",
+              "canonical_text_preview": "[^13.1][43. Power to make orders as to custody of children in suits for dissolution or nullity.— In any suit for obtaining a dissolution of marriage or a decree"
+            },
+            {
+              "rank": 9,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 0.20833334,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 10,
+              "point_id": "761eb629-894b-5c70-ba08-7ed81ee3f6ae",
+              "chunk_id": "24520c344d2285555aa10988:s14",
+              "score": 0.20192307,
+              "context_header": "[Family Courts Act, 1964 | Section 14: Appeals]",
+              "canonical_text_preview": "14. Appeals.―[^9.1][(1) Notwithstanding anything provided in any other law for the time being in force, a decision given or a decree passed by a Family Court sh"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "Q2",
+      "query": "What does section 10 of the Family Courts Act say about Haq Mehr in a suit for dissolution of marriage?",
+      "methods": {
+        "dense_only": {
+          "method": "dense_only",
+          "n_candidates_ranked": 240,
+          "target_rank": 1,
+          "target_score": 0.56730676,
+          "target_in_top10": true,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+              "chunk_id": "24520c344d2285555aa10988:s10",
+              "score": 0.56730676,
+              "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+              "canonical_text_preview": "10. Pre-trial proceedings.— [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the d"
+            },
+            {
+              "rank": 2,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 0.5316548,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 3,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 0.5314814,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 4,
+              "point_id": "a8e84f18-77b6-538b-96db-260606f4b2a3",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s2",
+              "score": 0.5153223,
+              "context_header": "[Divorce Act, 1869 | Chapter I: Preliminary | Section 2: Extent of Act]",
+              "canonical_text_preview": "2. Extent of Act. [^5.2][This Act extends to the whole of Pakistan.]\nExtent of power to grant relief generally, and to make decrees of dissolution, or of nullit"
+            },
+            {
+              "rank": 5,
+              "point_id": "315756f4-d34a-5b1a-b9e5-e703fb7f1e70",
+              "chunk_id": "0425160ffedaefd8c79b3241:s5",
+              "score": 0.50868326,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 5: Rights to dower not to be affected]",
+              "canonical_text_preview": "5. Rights to dower not to be affected. Nothing contained in this Act shall affect any right which a married woman may have under Muslim law to her dower or any "
+            },
+            {
+              "rank": 6,
+              "point_id": "86cf8050-3c6a-599b-b021-66f11a350ecd",
+              "chunk_id": "6867f44e86ef03cec19831c6:s8",
+              "score": 0.49713874,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 8: Dissolution of marriage otherwise than by talaq]",
+              "canonical_text_preview": "8. Dissolution of marriage otherwise than by talaq.⸺Where the right to divorce has been duly delegated to the wife and she wishes to exercise that right, or whe"
+            },
+            {
+              "rank": 7,
+              "point_id": "4b498615-e46c-5eee-8901-5c7f25287e42",
+              "chunk_id": "6867f44e86ef03cec19831c6:s7_ss1A-2-3-4-5-6",
+              "score": 0.49513215,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 7: Talaq | Sub-sections (1A)–(6)]",
+              "canonical_text_preview": "[^6.1][(1A) As enshrined in Article 227 of the Constitution of the Islamic Republic of Pakistan, the divorce and matters connected therewith or ancillary theret"
+            },
+            {
+              "rank": 8,
+              "point_id": "53c0a1a6-4889-50f9-a489-6d8ff8fcb7de",
+              "chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+              "score": 0.49370188,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 2: Grounds for decree for dissolution of marriage | Clauses (i)–(vi)]",
+              "canonical_text_preview": "2. Grounds for decree for dissolution of marriage. A woman married under Muslim Law shall be entitled to obtain a decree for the dissolution of her marriage on "
+            },
+            {
+              "rank": 9,
+              "point_id": "357433b9-a3ad-5c2e-8df9-95b8d0705ee4",
+              "chunk_id": "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a",
+              "score": 0.4927724,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 2: Grounds for decree for dissolution of marriage | Clauses (vii)–(a)]",
+              "canonical_text_preview": "(vii) that she, having been given in marriage by her father or other guardian before she attained the age of [^3.1][sixteen] years, repudiated the marriage befo"
+            },
+            {
+              "rank": 10,
+              "point_id": "8476ba40-5d7c-514c-aec0-d8bbf4576205",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:schedule-of-forms:form10",
+              "score": 0.48775837,
+              "context_header": "[Divorce Act, 1869 | Schedule of Forms | Form No. 10: Petition for Reversal of Decree of Separation]",
+              "canonical_text_preview": "No. 10.—PETITION FOR REVERSAL OF DECREE OF SEPARATION (See section 24)\nIn the 2[*]\nCourt of\n[^23.1][*\n* * *\n*]\nThe\nday of , 186.\nThe petition of A. B., of\nSHEWE"
+            }
+          ]
+        },
+        "bm25_only": {
+          "method": "bm25_only",
+          "n_candidates_ranked": 240,
+          "target_rank": 1,
+          "target_score": 19.335262,
+          "target_in_top10": true,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+              "chunk_id": "24520c344d2285555aa10988:s10",
+              "score": 19.335262,
+              "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+              "canonical_text_preview": "10. Pre-trial proceedings.— [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the d"
+            },
+            {
+              "rank": 2,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 13.122651,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 3,
+              "point_id": "357433b9-a3ad-5c2e-8df9-95b8d0705ee4",
+              "chunk_id": "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a",
+              "score": 11.420422,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 2: Grounds for decree for dissolution of marriage | Clauses (vii)–(a)]",
+              "canonical_text_preview": "(vii) that she, having been given in marriage by her father or other guardian before she attained the age of [^3.1][sixteen] years, repudiated the marriage befo"
+            },
+            {
+              "rank": 4,
+              "point_id": "c0eedaf0-4261-580e-95fa-1ff9fac32b55",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s43",
+              "score": 10.309204,
+              "context_header": "[Divorce Act, 1869 | Chapter XI: Custody of Children | Section 43: Power to make orders as to custody of children in suits for dissolution or nullity]",
+              "canonical_text_preview": "[^13.1][43. Power to make orders as to custody of children in suits for dissolution or nullity.— In any suit for obtaining a dissolution of marriage or a decree"
+            },
+            {
+              "rank": 5,
+              "point_id": "5b6827b2-29b2-59e8-b971-0370a4d65c58",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s15",
+              "score": 10.170324,
+              "context_header": "[Divorce Act, 1869 | Chapter III: Dissolution of Marriage | Section 15: Relief in case of opposition on certain grounds]",
+              "canonical_text_preview": "15. Relief in case of opposition on certain grounds. In any suit instituted for dissolution of marriage, if the respondent opposes the relief sought on the grou"
+            },
+            {
+              "rank": 6,
+              "point_id": "c98f949e-c31e-504c-a3b8-0b1292bf7ba3",
+              "chunk_id": "24520c344d2285555aa10988:s12A",
+              "score": 10.053978,
+              "context_header": "[Family Courts Act, 1964 | Section 12A: Cases to be disposed of within a specified period]",
+              "canonical_text_preview": "[^8.2][12A. Cases to be disposed of within a specified period.― A Family Court shall dispose of a case, including a suit for dissolution of marriage, within a p"
+            },
+            {
+              "rank": 7,
+              "point_id": "6e1e6343-c012-58f2-8702-99003ae2fb34",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:schedule-of-forms:form1_p1",
+              "score": 9.991775,
+              "context_header": "[Divorce Act, 1869 | Schedule of Forms | Form No. 1: Petition by Husband for a Dissolution of Marriage with Damages Against Co-respondent, by Reason of Adultery | part 1 of 2]",
+              "canonical_text_preview": "SCHEDULE OF FORMS\nNo. 1.—PETITION BY HUSBAND FOR A DISSOLUTION OF MARRIAGE WITH\nDAMAGES AGAINST CO-RESPONDENT, BY REASON OF ADULTERY.\n(See sections 10 and 34)\nI"
+            },
+            {
+              "rank": 8,
+              "point_id": "6ac26989-7597-5fce-b66b-143fc4f4e0bf",
+              "chunk_id": "0425160ffedaefd8c79b3241:s1",
+              "score": 9.904991,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 1: Short title and extent]",
+              "canonical_text_preview": "1. Short title and extent.__(1) This Act may be called the Dissolution of Muslim Marriages Act, 1939.\n[^2.1][(2) It extends to the whole of Pakistan.]"
+            },
+            {
+              "rank": 9,
+              "point_id": "fb1c2a1f-1461-5a7d-9f7b-0388f75ccf4e",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:schedule-of-forms:form13_p1",
+              "score": 9.809373,
+              "context_header": "[Divorce Act, 1869 | Schedule of Forms | Form No. 13: Statement in Answer to No. 12 | part 1 of 2]",
+              "canonical_text_preview": "No. 13.—STATEMENT IN ANSWER TO No. 12\nIn the [^25.1][*] Court of\nB. against B.\nA. B., of , the above\nnamed respondent, in answer to the petition for alimony, Pe"
+            },
+            {
+              "rank": 10,
+              "point_id": "761eb629-894b-5c70-ba08-7ed81ee3f6ae",
+              "chunk_id": "24520c344d2285555aa10988:s14",
+              "score": 9.762823,
+              "context_header": "[Family Courts Act, 1964 | Section 14: Appeals]",
+              "canonical_text_preview": "14. Appeals.―[^9.1][(1) Notwithstanding anything provided in any other law for the time being in force, a decision given or a decree passed by a Family Court sh"
+            }
+          ]
+        },
+        "hybrid": {
+          "method": "hybrid",
+          "n_candidates_ranked": 53,
+          "target_rank": 1,
+          "target_score": 1.0,
+          "target_in_top10": true,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+              "chunk_id": "24520c344d2285555aa10988:s10",
+              "score": 1.0,
+              "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+              "canonical_text_preview": "10. Pre-trial proceedings.— [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the d"
+            },
+            {
+              "rank": 2,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 0.5833334,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 3,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 0.3627451,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 4,
+              "point_id": "357433b9-a3ad-5c2e-8df9-95b8d0705ee4",
+              "chunk_id": "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a",
+              "score": 0.35,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 2: Grounds for decree for dissolution of marriage | Clauses (vii)–(a)]",
+              "canonical_text_preview": "(vii) that she, having been given in marriage by her father or other guardian before she attained the age of [^3.1][sixteen] years, repudiated the marriage befo"
+            },
+            {
+              "rank": 5,
+              "point_id": "a8e84f18-77b6-538b-96db-260606f4b2a3",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s2",
+              "score": 0.24347827,
+              "context_header": "[Divorce Act, 1869 | Chapter I: Preliminary | Section 2: Extent of Act]",
+              "canonical_text_preview": "2. Extent of Act. [^5.2][This Act extends to the whole of Pakistan.]\nExtent of power to grant relief generally, and to make decrees of dissolution, or of nullit"
+            },
+            {
+              "rank": 6,
+              "point_id": "315756f4-d34a-5b1a-b9e5-e703fb7f1e70",
+              "chunk_id": "0425160ffedaefd8c79b3241:s5",
+              "score": 0.23809525,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 5: Rights to dower not to be affected]",
+              "canonical_text_preview": "5. Rights to dower not to be affected. Nothing contained in this Act shall affect any right which a married woman may have under Muslim law to her dower or any "
+            },
+            {
+              "rank": 7,
+              "point_id": "5b6827b2-29b2-59e8-b971-0370a4d65c58",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s15",
+              "score": 0.21014494,
+              "context_header": "[Divorce Act, 1869 | Chapter III: Dissolution of Marriage | Section 15: Relief in case of opposition on certain grounds]",
+              "canonical_text_preview": "15. Relief in case of opposition on certain grounds. In any suit instituted for dissolution of marriage, if the respondent opposes the relief sought on the grou"
+            },
+            {
+              "rank": 8,
+              "point_id": "c98f949e-c31e-504c-a3b8-0b1292bf7ba3",
+              "chunk_id": "24520c344d2285555aa10988:s12A",
+              "score": 0.20952383,
+              "context_header": "[Family Courts Act, 1964 | Section 12A: Cases to be disposed of within a specified period]",
+              "canonical_text_preview": "[^8.2][12A. Cases to be disposed of within a specified period.― A Family Court shall dispose of a case, including a suit for dissolution of marriage, within a p"
+            },
+            {
+              "rank": 9,
+              "point_id": "c0eedaf0-4261-580e-95fa-1ff9fac32b55",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s43",
+              "score": 0.2,
+              "context_header": "[Divorce Act, 1869 | Chapter XI: Custody of Children | Section 43: Power to make orders as to custody of children in suits for dissolution or nullity]",
+              "canonical_text_preview": "[^13.1][43. Power to make orders as to custody of children in suits for dissolution or nullity.— In any suit for obtaining a dissolution of marriage or a decree"
+            },
+            {
+              "rank": 10,
+              "point_id": "761eb629-894b-5c70-ba08-7ed81ee3f6ae",
+              "chunk_id": "24520c344d2285555aa10988:s14",
+              "score": 0.17424244,
+              "context_header": "[Family Courts Act, 1964 | Section 14: Appeals]",
+              "canonical_text_preview": "14. Appeals.―[^9.1][(1) Notwithstanding anything provided in any other law for the time being in force, a decision given or a decree passed by a Family Court sh"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "Q3",
+      "query": "When a marriage is dissolved through the Family Court, can the wife be required to return her Haq Mehr?",
+      "methods": {
+        "dense_only": {
+          "method": "dense_only",
+          "n_candidates_ranked": 240,
+          "target_rank": 21,
+          "target_score": 0.5403828,
+          "target_in_top10": false,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "a38a5a29-a297-5353-929e-81e28d466d71",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s37",
+              "score": 0.59160346,
+              "context_header": "[Divorce Act, 1869 | Chapter IX: Alimony | Section 37: Power to order permanent alimony]",
+              "canonical_text_preview": "37. Power to order permanent alimony.1[*\n* * *\n*]\n[^12.1][*\n* * *\n*]\n[^12.1][The Court may, if it thinks fit, on any decree declaring a marriage to be dissolved"
+            },
+            {
+              "rank": 2,
+              "point_id": "858f8a01-4195-5ac5-ac3c-952149791add",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+              "score": 0.58999735,
+              "context_header": "[Divorce Act, 1869 | Chapter VII: Restitution of Conjugal Rights | Section 32: Petition for restitution of conjugal rights]",
+              "canonical_text_preview": "32. Petition for restitution of conjugal rights. When either the husband or the wife has, wothout reasonable excuse withdrawn from the society of the other, eit"
+            },
+            {
+              "rank": 3,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 0.5870749,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 4,
+              "point_id": "86cf8050-3c6a-599b-b021-66f11a350ecd",
+              "chunk_id": "6867f44e86ef03cec19831c6:s8",
+              "score": 0.5843657,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 8: Dissolution of marriage otherwise than by talaq]",
+              "canonical_text_preview": "8. Dissolution of marriage otherwise than by talaq.⸺Where the right to divorce has been duly delegated to the wife and she wishes to exercise that right, or whe"
+            },
+            {
+              "rank": 5,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 0.57997316,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 6,
+              "point_id": "eb571ad4-3d3b-55ec-b429-fee6cc906160",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s39",
+              "score": 0.57907146,
+              "context_header": "[Divorce Act, 1869 | Chapter X: Settlements | Section 39: Power to order settlement of wife's property for benefit of husband and children]",
+              "canonical_text_preview": "39. Power to order settlement of wife’s property for benefit of husband and children. Whenever the Court pronounces a decree of dissolution of marriage or judic"
+            },
+            {
+              "rank": 7,
+              "point_id": "b514eaf8-e53b-5781-a87b-ad0e059eb84a",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s57",
+              "score": 0.57650495,
+              "context_header": "[Divorce Act, 1869 | Chapter XIII: Re-marriage | Section 57: Liberty to parties to marry again]",
+              "canonical_text_preview": "[^15.2][57. Liberty to parties to marry again.— After the expiry of six months from the date of a decree for the dissolution of a marriage, or, where an appeal "
+            },
+            {
+              "rank": 8,
+              "point_id": "77a5f818-c239-5351-8f24-315beb6b57cc",
+              "chunk_id": "0425160ffedaefd8c79b3241:s4",
+              "score": 0.56543076,
+              "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 4: Effect of conversion to another faith]",
+              "canonical_text_preview": "4. Effect of conversion to another faith. The renunciation of Islam by a married Muslim woman or her conversion to a faith other than Islam shall not by itself "
+            },
+            {
+              "rank": 9,
+              "point_id": "86fb872f-6f7b-5e3c-b009-2f71e5f1c673",
+              "chunk_id": "6867f44e86ef03cec19831c6:s4_ss6-7-8",
+              "score": 0.5599328,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 4: Succession | Sub-sections (6)–(8)]",
+              "canonical_text_preview": "(6) Fiqah-e-Jafri recognizes right of a husband to get his share from the property left by his deceased wife, either movable or immovable, as follows:⸺\n(a) one-"
+            },
+            {
+              "rank": 10,
+              "point_id": "761eb629-894b-5c70-ba08-7ed81ee3f6ae",
+              "chunk_id": "24520c344d2285555aa10988:s14",
+              "score": 0.55950654,
+              "context_header": "[Family Courts Act, 1964 | Section 14: Appeals]",
+              "canonical_text_preview": "14. Appeals.―[^9.1][(1) Notwithstanding anything provided in any other law for the time being in force, a decision given or a decree passed by a Family Court sh"
+            }
+          ]
+        },
+        "bm25_only": {
+          "method": "bm25_only",
+          "n_candidates_ranked": 209,
+          "target_rank": 1,
+          "target_score": 12.686739,
+          "target_in_top10": true,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+              "chunk_id": "24520c344d2285555aa10988:s10",
+              "score": 12.686739,
+              "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+              "canonical_text_preview": "10. Pre-trial proceedings.— [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the d"
+            },
+            {
+              "rank": 2,
+              "point_id": "c3de0b21-23d8-539e-819f-9701b23fccc9",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s10",
+              "score": 9.664669,
+              "context_header": "[Divorce Act, 1869 | Chapter III: Dissolution of Marriage | Section 10: When husband may petition for dissolution]",
+              "canonical_text_preview": "10. When husband may petition for dissolution. Any husband may present a petition to the [^7.1][Court of Civil Judge] praying that his marriage may be dissolved"
+            },
+            {
+              "rank": 3,
+              "point_id": "86cf8050-3c6a-599b-b021-66f11a350ecd",
+              "chunk_id": "6867f44e86ef03cec19831c6:s8",
+              "score": 9.641579,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 8: Dissolution of marriage otherwise than by talaq]",
+              "canonical_text_preview": "8. Dissolution of marriage otherwise than by talaq.⸺Where the right to divorce has been duly delegated to the wife and she wishes to exercise that right, or whe"
+            },
+            {
+              "rank": 4,
+              "point_id": "a5ff9f20-5caf-5c0e-96cd-4d04981bf49d",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s52",
+              "score": 8.557613,
+              "context_header": "[Divorce Act, 1869 | Chapter XII: Procedure | Section 52: Competence of husband and wife to give evidence as to cruelty or desertion]",
+              "canonical_text_preview": "52. Competence of husband and wife to give evidence as to cruelty or desertion. On any petition presented by a wife, praying that her marriage may be dissolved "
+            },
+            {
+              "rank": 5,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 8.0716305,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 6,
+              "point_id": "b514eaf8-e53b-5781-a87b-ad0e059eb84a",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s57",
+              "score": 7.6232247,
+              "context_header": "[Divorce Act, 1869 | Chapter XIII: Re-marriage | Section 57: Liberty to parties to marry again]",
+              "canonical_text_preview": "[^15.2][57. Liberty to parties to marry again.— After the expiry of six months from the date of a decree for the dissolution of a marriage, or, where an appeal "
+            },
+            {
+              "rank": 7,
+              "point_id": "a38a5a29-a297-5353-929e-81e28d466d71",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s37",
+              "score": 6.8658257,
+              "context_header": "[Divorce Act, 1869 | Chapter IX: Alimony | Section 37: Power to order permanent alimony]",
+              "canonical_text_preview": "37. Power to order permanent alimony.1[*\n* * *\n*]\n[^12.1][*\n* * *\n*]\n[^12.1][The Court may, if it thinks fit, on any decree declaring a marriage to be dissolved"
+            },
+            {
+              "rank": 8,
+              "point_id": "41abf58b-3992-5ce9-a5ca-66a44cd6e822",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s14",
+              "score": 6.657898,
+              "context_header": "[Divorce Act, 1869 | Chapter III: Dissolution of Marriage | Section 14: Power to Court to pronounce decree for dissolving marriage]",
+              "canonical_text_preview": "14. Power to Court to pronounce decree for dissolving marriage. In case the Court is satisfied on the evidence that the case of the petitioner has been proved,\n"
+            },
+            {
+              "rank": 9,
+              "point_id": "326ce48c-ed94-5af2-ad2f-4854edb029d2",
+              "chunk_id": "417403be7fc29b06cafadbbe:s2",
+              "score": 6.65107,
+              "context_header": "[Dowry and Bridal Gifts (Restriction) Act, 1976 | Section 2: Definitions]",
+              "canonical_text_preview": "2. Definitions. In this Act, unless there is anything repugnant in the subject or context,\n(a) “bridal gift” means any property given as a gift before, at or af"
+            },
+            {
+              "rank": 10,
+              "point_id": "f239f3eb-ae4c-5b71-a018-7a16d21a4451",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s58",
+              "score": 6.5309906,
+              "context_header": "[Divorce Act, 1869 | Chapter XIII: Re-marriage | Section 58: English clergyman not compelled to solemnize marriages of persons divorced for adultery]",
+              "canonical_text_preview": "58. English clergyman not compelled to solemnize marriages of persons divorced for adultery. No clergyman in Holy Orders of the [^15.3][*] Church of England [^1"
+            }
+          ]
+        },
+        "hybrid": {
+          "method": "hybrid",
+          "n_candidates_ranked": 58,
+          "target_rank": 2,
+          "target_score": 0.54545456,
+          "target_in_top10": true,
+          "top10": [
+            {
+              "rank": 1,
+              "point_id": "a38a5a29-a297-5353-929e-81e28d466d71",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s37",
+              "score": 0.625,
+              "context_header": "[Divorce Act, 1869 | Chapter IX: Alimony | Section 37: Power to order permanent alimony]",
+              "canonical_text_preview": "37. Power to order permanent alimony.1[*\n* * *\n*]\n[^12.1][*\n* * *\n*]\n[^12.1][The Court may, if it thinks fit, on any decree declaring a marriage to be dissolved"
+            },
+            {
+              "rank": 2,
+              "point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+              "chunk_id": "24520c344d2285555aa10988:s10",
+              "score": 0.54545456,
+              "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+              "canonical_text_preview": "10. Pre-trial proceedings.— [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the d"
+            },
+            {
+              "rank": 3,
+              "point_id": "86cf8050-3c6a-599b-b021-66f11a350ecd",
+              "chunk_id": "6867f44e86ef03cec19831c6:s8",
+              "score": 0.45,
+              "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 8: Dissolution of marriage otherwise than by talaq]",
+              "canonical_text_preview": "8. Dissolution of marriage otherwise than by talaq.⸺Where the right to divorce has been duly delegated to the wife and she wishes to exercise that right, or whe"
+            },
+            {
+              "rank": 4,
+              "point_id": "c3de0b21-23d8-539e-819f-9701b23fccc9",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s10",
+              "score": 0.4047619,
+              "context_header": "[Divorce Act, 1869 | Chapter III: Dissolution of Marriage | Section 10: When husband may petition for dissolution]",
+              "canonical_text_preview": "10. When husband may petition for dissolution. Any husband may present a petition to the [^7.1][Court of Civil Judge] praying that his marriage may be dissolved"
+            },
+            {
+              "rank": 5,
+              "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+              "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+              "score": 0.33333334,
+              "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+              "canonical_text_preview": "SCHEDULE\n[see SECTION 5] [^13.1][Part I]\n1. Dissolution of marriage [^13.1][, including Khula].\n2. Dower.\n3. Maintenance.\n4. Restitution of conjugal rights.\n5. "
+            },
+            {
+              "rank": 6,
+              "point_id": "858f8a01-4195-5ac5-ac3c-952149791add",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+              "score": 0.33333334,
+              "context_header": "[Divorce Act, 1869 | Chapter VII: Restitution of Conjugal Rights | Section 32: Petition for restitution of conjugal rights]",
+              "canonical_text_preview": "32. Petition for restitution of conjugal rights. When either the husband or the wife has, wothout reasonable excuse withdrawn from the society of the other, eit"
+            },
+            {
+              "rank": 7,
+              "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+              "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+              "score": 0.28333333,
+              "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+              "canonical_text_preview": "[^6.3][9. Written statement. (1) On the date fixed-under clause (a) of sub-section (1) of section 8, the plaintiff and the defendant shall appear before the Fam"
+            },
+            {
+              "rank": 8,
+              "point_id": "b514eaf8-e53b-5781-a87b-ad0e059eb84a",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s57",
+              "score": 0.26785713,
+              "context_header": "[Divorce Act, 1869 | Chapter XIII: Re-marriage | Section 57: Liberty to parties to marry again]",
+              "canonical_text_preview": "[^15.2][57. Liberty to parties to marry again.— After the expiry of six months from the date of a decree for the dissolution of a marriage, or, where an appeal "
+            },
+            {
+              "rank": 9,
+              "point_id": "a5ff9f20-5caf-5c0e-96cd-4d04981bf49d",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s52",
+              "score": 0.23125,
+              "context_header": "[Divorce Act, 1869 | Chapter XII: Procedure | Section 52: Competence of husband and wife to give evidence as to cruelty or desertion]",
+              "canonical_text_preview": "52. Competence of husband and wife to give evidence as to cruelty or desertion. On any petition presented by a wife, praying that her marriage may be dissolved "
+            },
+            {
+              "rank": 10,
+              "point_id": "eb571ad4-3d3b-55ec-b429-fee6cc906160",
+              "chunk_id": "8251b5f4daa92e5a22319fc4:s39",
+              "score": 0.1984127,
+              "context_header": "[Divorce Act, 1869 | Chapter X: Settlements | Section 39: Power to order settlement of wife's property for benefit of husband and children]",
+              "canonical_text_preview": "39. Power to order settlement of wife’s property for benefit of husband and children. Whenever the Court pronounces a decree of dissolution of marriage or judic"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "run_completed_successfully": true
+}

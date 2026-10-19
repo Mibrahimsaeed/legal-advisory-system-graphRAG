@@ -1,0 +1,78 @@
+{
+  "relevance_scale": {"0": "not relevant", "1": "partially relevant / useful supporting context", "2": "directly relevant evidence answering the query"},
+  "methodology": "Every chunk below was identified and graded by directly reading the current var/rag/statutes_chunked/*.json source text for the stated statute, independently of any retriever -- not derived from top-k results. A targeted keyword sweep across the full 8-statute, 240-retrievable-chunk corpus was run per query topic to check for additional relevant provisions beyond the one initially identified from the query's own section reference; this is a completeness check, not an exhaustive manual re-read of all 240 chunks, and is disclosed as such.",
+  "queries": {
+    "Q01": {"source_type": "statute", "statute": "Dissolution of Muslim Marriages Act, 1939", "judgments": [
+      {"chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi", "grade": 2, "rationale": "Contains grounds (i)-(vi) for the decree verbatim.", "verification_status": "verified"},
+      {"chunk_id": "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a", "grade": 2, "rationale": "Contains grounds (vii)-(ix) and sub-grounds (a)-(f) verbatim.", "verification_status": "verified"},
+      {"chunk_id": "0425160ffedaefd8c79b3241:s2_ssb-c", "grade": 1, "rationale": "Proviso qualifying how grounds (i) and (v) operate (6-month grace period; prior notice requirement) -- supporting context, not a distinct ground.", "verification_status": "verified"},
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s19", "grade": 0, "rationale": "Hard negative: Divorce Act 'Grounds of decrees' -- superficially similar heading, but governs NULLITY of a Christian marriage (impotence, consanguinity, bigamy, lunacy), a different legal concept from dissolution grounds under Muslim law.", "verification_status": "verified"}
+    ]},
+    "Q02": {"source_type": "statute", "statute": "Dissolution of Muslim Marriages Act, 1939", "judgments": [
+      {"chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi", "grade": 2, "rationale": "Same as Q01 -- direct lookup of the same section.", "verification_status": "verified"},
+      {"chunk_id": "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a", "grade": 2, "rationale": "Same as Q01.", "verification_status": "verified"},
+      {"chunk_id": "0425160ffedaefd8c79b3241:s2_ssb-c", "grade": 1, "rationale": "Same as Q01.", "verification_status": "verified"},
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s19", "grade": 0, "rationale": "Same hard negative as Q01.", "verification_status": "verified"}
+    ]},
+    "Q03": {"source_type": "statute", "statute": "Family Courts Act, 1964", "judgments": [
+      {"chunk_id": "24520c344d2285555aa10988:s10", "grade": 2, "rationale": "Pre-trial/conciliation procedure (ss.1-3) and the dissolution-decree-with-Haq-Mehr-restoration proviso (s.4) are both within this single chunk.", "verification_status": "verified"},
+      {"chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2", "grade": 1, "rationale": "Written-statement stage immediately preceding pre-trial under the same Act's procedure -- adjacent supporting context, not the operative decree provision itself.", "verification_status": "verified"},
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s22", "grade": 0, "rationale": "Hard negative: Divorce Act judicial-separation grounds -- same general 'marital relief procedure' domain, wrong Act and wrong specific relief (separation, not khula/dissolution under the Family Courts Act).", "verification_status": "verified"}
+    ]},
+    "Q04": {"source_type": "statute", "statute": "Family Courts Act, 1964", "judgments": [
+      {"chunk_id": "24520c344d2285555aa10988:s10", "grade": 2, "rationale": "Same as Q03 -- direct lookup of the same section.", "verification_status": "verified"},
+      {"chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2", "grade": 1, "rationale": "Same as Q03.", "verification_status": "verified"},
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s22", "grade": 0, "rationale": "Same hard negative as Q03.", "verification_status": "verified"}
+    ]},
+    "Q05": {"source_type": "statute", "statute": "Dowry and Bridal Gifts (Restriction) Act, 1976", "judgments": [
+      {"chunk_id": "417403be7fc29b06cafadbbe:s3", "grade": 2, "rationale": "States the Rs.5000 aggregate value ceiling on dowry/bridal gifts/presents verbatim.", "verification_status": "verified"},
+      {"chunk_id": "417403be7fc29b06cafadbbe:s9", "grade": 1, "rationale": "Penalty/procedure section references 'the maximum limits laid down in this Act' when computing fines -- confirms and reinforces the cap exists, but is not itself the cap provision.", "verification_status": "verified"}
+    ]},
+    "Q06": {"source_type": "statute", "statute": "Dowry and Bridal Gifts (Restriction) Act, 1976", "judgments": [
+      {"chunk_id": "417403be7fc29b06cafadbbe:s3", "grade": 2, "rationale": "Same as Q05 -- direct lookup of the same section.", "verification_status": "verified"},
+      {"chunk_id": "417403be7fc29b06cafadbbe:s9", "grade": 1, "rationale": "Same as Q05.", "verification_status": "verified"}
+    ]},
+    "Q07": {"source_type": "statute", "statute": "Guardians and Wards Act, 1890", "judgments": [
+      {"chunk_id": "42769a60dc59c5473affbc32:s9", "grade": 2, "rationale": "Sub-section (1) explicitly answers territorial jurisdiction for guardianship-of-the-person applications (District Court where the minor ordinarily resides).", "verification_status": "verified"},
+      {"chunk_id": "24520c344d2285555aa10988:s5", "grade": 0, "rationale": "Hard negative: Family Courts Act's own subject-matter jurisdiction clause -- matched on the word 'jurisdiction' generically, but concerns a different court system's subject-matter scope, not territorial jurisdiction for guardian-of-person applications under the Guardians and Wards Act.", "verification_status": "verified"}
+    ]},
+    "Q08": {"source_type": "statute", "statute": "Guardians and Wards Act, 1890", "judgments": [
+      {"chunk_id": "42769a60dc59c5473affbc32:s9", "grade": 2, "rationale": "Same as Q07 -- direct lookup of the same section.", "verification_status": "verified"},
+      {"chunk_id": "24520c344d2285555aa10988:s5", "grade": 0, "rationale": "Same hard negative as Q07.", "verification_status": "verified"}
+    ]},
+    "Q09": {"source_type": "statute", "statute": "Child Marriage Restraint Act, 1929", "judgments": [
+      {"chunk_id": "470c476c4195cbc08e94a6da:s6", "grade": 2, "rationale": "Directly titled and worded as the punishment for a parent or guardian concerned in a child marriage.", "verification_status": "verified"},
+      {"chunk_id": "470c476c4195cbc08e94a6da:s4", "grade": 0, "rationale": "Hard negative: punishes the adult male party to the marriage, not a parent/guardian -- same Act, same penalty scheme, different actor.", "verification_status": "verified"},
+      {"chunk_id": "470c476c4195cbc08e94a6da:s5", "grade": 0, "rationale": "Hard negative: punishes the person who solemnises the marriage, not a parent/guardian -- same reasoning as s.4.", "verification_status": "verified"}
+    ]},
+    "Q10": {"source_type": "statute", "statute": "Child Marriage Restraint Act, 1929", "judgments": [
+      {"chunk_id": "470c476c4195cbc08e94a6da:s6", "grade": 2, "rationale": "Same as Q09 -- direct lookup of the same section.", "verification_status": "verified"},
+      {"chunk_id": "470c476c4195cbc08e94a6da:s4", "grade": 0, "rationale": "Same hard negative as Q09.", "verification_status": "verified"},
+      {"chunk_id": "470c476c4195cbc08e94a6da:s5", "grade": 0, "rationale": "Same hard negative as Q09.", "verification_status": "verified"}
+    ]},
+    "Q11": {"source_type": "statute", "statute": "Muslim Family Laws Ordinance, 1961", "judgments": [
+      {"chunk_id": "6867f44e86ef03cec19831c6:s6", "grade": 2, "rationale": "Sub-sections (1)-(2) state the written-permission-from-the-Arbitration-Council requirement and application procedure verbatim.", "verification_status": "verified"},
+      {"chunk_id": "6867f44e86ef03cec19831c6:s9", "grade": 0, "rationale": "Hard negative: Arbitration Council's maintenance jurisdiction (wife/children support) -- same institution, unrelated purpose to polygamy permission.", "verification_status": "verified"}
+    ]},
+    "Q12": {"source_type": "statute", "statute": "Muslim Family Laws Ordinance, 1961", "judgments": [
+      {"chunk_id": "6867f44e86ef03cec19831c6:s6", "grade": 2, "rationale": "Same as Q11 -- direct lookup of the same section.", "verification_status": "verified"},
+      {"chunk_id": "6867f44e86ef03cec19831c6:s9", "grade": 0, "rationale": "Same hard negative as Q11.", "verification_status": "verified"}
+    ]},
+    "Q13": {"source_type": "statute", "statute": "Divorce Act, 1869", "judgments": [
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s22", "grade": 2, "rationale": "States the three grounds (adultery, cruelty, desertion >=2 years) for judicial separation verbatim, despite its indirect section title.", "verification_status": "verified"},
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s23", "grade": 1, "rationale": "Procedural companion -- petition to the Court of Civil Judge, referencing 's.22's grounds aforesaid' -- necessary for the full procedural picture but not itself a ground.", "verification_status": "verified"},
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s19", "grade": 0, "rationale": "Hard negative: 'Grounds of decrees' for NULLITY, not judicial separation -- same Act, structurally similar heading, different relief.", "verification_status": "verified"}
+    ]},
+    "Q14": {"source_type": "statute", "statute": "Divorce Act, 1869", "judgments": [
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s22", "grade": 2, "rationale": "Same as Q13 -- direct lookup of the same section.", "verification_status": "verified"},
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s23", "grade": 1, "rationale": "Same as Q13.", "verification_status": "verified"},
+      {"chunk_id": "8251b5f4daa92e5a22319fc4:s19", "grade": 0, "rationale": "Same hard negative as Q13.", "verification_status": "verified"}
+    ]},
+    "Q15": {"source_type": "statute", "statute": "West Pakistan Muslim Personal Law (Shariat) Application Act, 1962", "judgments": [
+      {"chunk_id": "b11740afa5f050bea50c5f2d:s2", "grade": 2, "rationale": "Explicitly lists succession (testate/intestate), guardianship, and marriage (and more) as governed by Muslim Personal Law as the rule of decision.", "verification_status": "verified"}
+    ]},
+    "Q16": {"source_type": "statute", "statute": "West Pakistan Muslim Personal Law (Shariat) Application Act, 1962", "judgments": [
+      {"chunk_id": "b11740afa5f050bea50c5f2d:s2", "grade": 2, "rationale": "Same as Q15 -- direct lookup of the same section.", "verification_status": "verified"}
+    ]}
+  }
+}

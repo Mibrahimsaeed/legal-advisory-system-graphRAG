@@ -1,0 +1,37 @@
+[
+  {
+    "query_id": "Q01",
+    "category": "khula_dower",
+    "query": "Can a wife obtain khula without returning dower / Haq Mehr?",
+    "expansion_term_added": "Haq Mehr",
+    "expansion_grounding": "Confirmed in corpus: Family Courts Act, 1964 s.10 proviso uses 'Haq Mehr' as the operative term for what Q01 calls 'dower' (verified in Phase 1 diagnostics this project)."
+  },
+  {
+    "query_id": "Q02",
+    "category": "child_custody",
+    "query": "Which court has jurisdiction over child custody disputes?",
+    "expansion_term_added": null,
+    "expansion_grounding": "No safely-groundable single-term equivalent found: 'guardianship' and 'custody' co-occur frequently in the corpus but are legally distinct concepts (guardianship = legal authority/wilayat; custody = physical care/hizanat) -- treating them as interchangeable would misrepresent the law, so this query is left unexpanded."
+  },
+  {
+    "query_id": "Q03",
+    "category": "child_maintenance",
+    "query": "Is a father legally responsible for child maintenance / support?",
+    "expansion_term_added": "support",
+    "expansion_grounding": "Weaker grounding than Q01/Q04: 'support' and 'maintenance' co-occur in Guardians and Wards Act s.24 ('must look to his support, health and education') and Family Courts Act ss.7/9, but this is an ordinary-English near-synonym pair, not a distinct vernacular legal term (no Islamic-jurisprudence term such as 'Nafaqa' was found anywhere in this corpus)."
+  },
+  {
+    "query_id": "Q04",
+    "category": "dowry_recovery",
+    "query": "What evidence is required to recover dowry / bridal gift articles after separation?",
+    "expansion_term_added": "bridal gift",
+    "expansion_grounding": "Confirmed in corpus: the Dowry and Bridal Gifts (Restriction) Act, 1976 itself titles and defines dowry and bridal gifts together (7 occurrences of 'bridal gift' found directly in its chunked text)."
+  },
+  {
+    "query_id": "Q05",
+    "category": "marriage_dissolution",
+    "query": "What are the legal grounds for dissolution of a Muslim marriage?",
+    "expansion_term_added": null,
+    "expansion_grounding": "No safely-groundable single-term equivalent found: 'khula' and 'talaq' both appear in the corpus but are specific species of dissolution, not general equivalents of 'dissolution of marriage' itself -- appending either would narrow, not preserve, the question's meaning, so this query is left unexpanded."
+  }
+]

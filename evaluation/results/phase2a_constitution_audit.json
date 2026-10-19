@@ -1,0 +1,446 @@
+{
+  "audit": "phase2a_constitution_audit",
+  "run_timestamp": "2026-10-18T12:47:54",
+  "repo_commit": "58def993f8a8d15e30680011e9fac05ee38a5946",
+  "artifacts_inspected": [
+    "var/rag/constitution_chunked/b427a922990d75f027928c15.json",
+    "var/rag/index_meta.json",
+    "var/rag/docstore.sqlite"
+  ],
+  "coverage_reconciliation": {
+    "chunked_file_total": 594,
+    "chunked_file_retrievable": 547,
+    "docstore_total": 594,
+    "docstore_retrievable": 547,
+    "index_meta_constitution_count": 547,
+    "qdrant_available": true,
+    "qdrant_detail": "HTTP 200",
+    "qdrant_constitution_point_count": 547,
+    "all_counts_reconcile": true
+  },
+  "reconciliation_by_part": {
+    "(none: preamble/schedule/annex)": {
+      "total": 46,
+      "retrievable": 40
+    },
+    "I": {
+      "total": 7,
+      "retrievable": 7
+    },
+    "II": {
+      "total": 47,
+      "retrievable": 45
+    },
+    "III": {
+      "total": 102,
+      "retrievable": 94
+    },
+    "IV": {
+      "total": 53,
+      "retrievable": 51
+    },
+    "V": {
+      "total": 25,
+      "retrievable": 24
+    },
+    "VI": {
+      "total": 22,
+      "retrievable": 21
+    },
+    "VII": {
+      "total": 129,
+      "retrievable": 120
+    },
+    "VIII": {
+      "total": 30,
+      "retrievable": 27
+    },
+    "IX": {
+      "total": 9,
+      "retrievable": 8
+    },
+    "X": {
+      "total": 19,
+      "retrievable": 17
+    },
+    "XI": {
+      "total": 2,
+      "retrievable": 2
+    },
+    "XII": {
+      "total": 103,
+      "retrievable": 91
+    }
+  },
+  "integrity": {
+    "total_chunks": 594,
+    "retrievable": 547,
+    "non_retrievable": 47,
+    "non_retrievable_by_unit_type": {
+      "preamble": 1,
+      "article": 41,
+      "schedule": 5
+    },
+    "empty_or_whitespace_only_chunks": 0,
+    "empty_chunk_ids": [],
+    "duplicate_chunk_ids": [],
+    "duplicate_clause_number_within_article": [
+      {
+        "article_number": "63",
+        "clause_number": "1",
+        "chunk_ids": [
+          "art_63_c1_p1",
+          "art_63_c1_p2",
+          "art_63_c1_p3",
+          "art_63_c1_p4"
+        ]
+      },
+      {
+        "article_number": "175A",
+        "clause_number": "2",
+        "chunk_ids": [
+          "art_175a_c2_p1",
+          "art_175a_c2_p2"
+        ]
+      },
+      {
+        "article_number": "199",
+        "clause_number": "1",
+        "chunk_ids": [
+          "art_199_c1",
+          "art_199_c1_2"
+        ]
+      },
+      {
+        "article_number": "224A",
+        "clause_number": "2",
+        "chunk_ids": [
+          "art_224a_c2",
+          "art_224a_c2_2"
+        ]
+      },
+      {
+        "article_number": "260",
+        "clause_number": "1",
+        "chunk_ids": [
+          "art_260_c1_p1",
+          "art_260_c1_p2",
+          "art_260_c1_p3",
+          "art_260_c1_p4"
+        ]
+      }
+    ],
+    "shortest_10_retrievable_chunks": [
+      {
+        "chunk_id": "art_246_p2",
+        "chars": 77
+      },
+      {
+        "chunk_id": "art_270aaa",
+        "chars": 80
+      },
+      {
+        "chunk_id": "art_2",
+        "chars": 84
+      },
+      {
+        "chunk_id": "sch_fourth_p7",
+        "chars": 104
+      },
+      {
+        "chunk_id": "art_9",
+        "chars": 105
+      },
+      {
+        "chunk_id": "art_134",
+        "chars": 105
+      },
+      {
+        "chunk_id": "art_35",
+        "chars": 114
+      },
+      {
+        "chunk_id": "art_9a",
+        "chars": 127
+      },
+      {
+        "chunk_id": "art_244",
+        "chars": 127
+      },
+      {
+        "chunk_id": "art_186",
+        "chars": 130
+      }
+    ]
+  },
+  "article_rechecks": {
+    "63": {
+      "article_number": "63",
+      "n_chunks": 7,
+      "n_retrievable": 6,
+      "chunk_ids": [
+        "art_63",
+        "art_63_c1_p1",
+        "art_63_c1_p2",
+        "art_63_c1_p3",
+        "art_63_c1_p4",
+        "art_63_c2",
+        "art_63_c3"
+      ],
+      "empty_retrievable_chunks": []
+    },
+    "89": {
+      "article_number": "89",
+      "n_chunks": 4,
+      "n_retrievable": 3,
+      "chunk_ids": [
+        "art_89",
+        "art_89_c1",
+        "art_89_c2",
+        "art_89_c3"
+      ],
+      "empty_retrievable_chunks": []
+    },
+    "175A": {
+      "article_number": "175A",
+      "n_chunks": 18,
+      "n_retrievable": 17,
+      "chunk_ids": [
+        "art_175a",
+        "art_175a_c1",
+        "art_175a_c2_p1",
+        "art_175a_c2_p2",
+        "art_175a_c3",
+        "art_175a_c3a",
+        "art_175a_c3b",
+        "art_175a_c3c",
+        "art_175a_c3d",
+        "art_175a_c5",
+        "art_175a_c6",
+        "art_175a_c7",
+        "art_175a_c8",
+        "art_175a_c19",
+        "art_175a_c20",
+        "art_175a_c21",
+        "art_175a_c22",
+        "art_175a_c23"
+      ],
+      "empty_retrievable_chunks": []
+    },
+    "260": {
+      "article_number": "260",
+      "n_chunks": 7,
+      "n_retrievable": 6,
+      "chunk_ids": [
+        "art_260",
+        "art_260_c1_p1",
+        "art_260_c1_p2",
+        "art_260_c1_p3",
+        "art_260_c1_p4",
+        "art_260_c2",
+        "art_260_c3"
+      ],
+      "empty_retrievable_chunks": []
+    },
+    "199": {
+      "article_number": "199",
+      "n_chunks": 8,
+      "n_retrievable": 7,
+      "chunk_ids": [
+        "art_199",
+        "art_199_c1",
+        "art_199_c1a",
+        "art_199_c3",
+        "art_199_c4",
+        "art_199_c4a",
+        "art_199_c1_2",
+        "art_199_c5"
+      ],
+      "empty_retrievable_chunks": []
+    }
+  },
+  "article_199_clause_mislabel_finding": {
+    "chunk_id": "art_199_c1_2",
+    "labeled_clause_number": "1",
+    "canonical_text": "(1), the High Court has made an interim order shall be disposed of by the High Court on merits within six months from the day on which it is made, unless the High Court is prevented from doing so for sufficient cause to be recorded.\n",
+    "source_start": 199299,
+    "source_end": 199532,
+    "immediately_preceded_by": "art_199_c4a",
+    "immediately_followed_by": "art_199_c5",
+    "finding": "chunk_id 'art_199_c1_2' is uniquely-ID'd (no duplicate chunk_id) but its clause_number metadata and context_header both read 'Clause (1)', even though its text ('(1), the High Court has made an interim order shall be disposed of ...') is the direct, contiguous continuation of art_199_c4a (source_end=199299 == this chunk's source_start) -- i.e. it is the tail of clause (4A)/(4B)'s own proviso, mislabeled as clause 1. The text itself is also truncated at its own start (the sentence's opening, 'Where ... under clause', is missing -- only the cross-reference fragment '(1), the High Court...' remains), making this chunk not self-contained if retrieved on its own."
+  },
+  "vector_config": {
+    "dense_size": 1024,
+    "dense_distance": "Cosine",
+    "sparse_vectors": [
+      "bm25"
+    ],
+    "points_count": 26678
+  },
+  "point_id_reconciliation_spotcheck": [
+    {
+      "chunk_id": "preamble_p1",
+      "computed_point_id": "6635e582-d8b4-53f9-a184-25ead67a9945",
+      "found_in_qdrant": true,
+      "qdrant_point_id_matches": true,
+      "qdrant_source_type": "constitution"
+    },
+    {
+      "chunk_id": "preamble_p2",
+      "computed_point_id": "5fedc2d4-b516-5642-89ab-79a35340f154",
+      "found_in_qdrant": true,
+      "qdrant_point_id_matches": true,
+      "qdrant_source_type": "constitution"
+    },
+    {
+      "chunk_id": "art_1",
+      "computed_point_id": "a9e362bf-ae46-52a2-96e0-4eef7961e466",
+      "found_in_qdrant": true,
+      "qdrant_point_id_matches": true,
+      "qdrant_source_type": "constitution"
+    },
+    {
+      "chunk_id": "art_63_c1_p1",
+      "computed_point_id": "0b7c4708-050f-5259-b406-4b6a84133a70",
+      "found_in_qdrant": true,
+      "qdrant_point_id_matches": true,
+      "qdrant_source_type": "constitution"
+    },
+    {
+      "chunk_id": "art_175a_c1",
+      "computed_point_id": "73fbb283-a164-51a4-b34d-b6c09540fb39",
+      "found_in_qdrant": true,
+      "qdrant_point_id_matches": true,
+      "qdrant_source_type": "constitution"
+    }
+  ],
+  "smoke_test_queries": [
+    {
+      "query_id": "C1",
+      "type": "specific article",
+      "query": "What does Article 199 of the Constitution say about the jurisdiction of the High Court?",
+      "expected_article": "199",
+      "expected_title_verified_from_corpus": "Jurisdiction of High Court.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.63211197,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_199_c1"
+      },
+      "hybrid": {
+        "rank": 2,
+        "score": 0.6111111,
+        "n_ranked": 64
+      }
+    },
+    {
+      "query_id": "C2",
+      "type": "right, ordinary language",
+      "query": "What right does the Constitution give a person regarding their life and personal liberty?",
+      "expected_article": "9",
+      "expected_title_verified_from_corpus": "Security of person.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.60166115,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_9"
+      },
+      "hybrid": {
+        "rank": 1,
+        "score": 1.0,
+        "n_ranked": 64
+      }
+    },
+    {
+      "query_id": "C3",
+      "type": "Parliament / legislative process",
+      "query": "How is a Bill introduced and passed by Parliament?",
+      "expected_article": "70",
+      "expected_title_verified_from_corpus": "Introduction and passing of Bills.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.67907274,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_70"
+      },
+      "hybrid": {
+        "rank": 1,
+        "score": 0.6666667,
+        "n_ranked": 58
+      }
+    },
+    {
+      "query_id": "C4",
+      "type": "judiciary / judicial appointments",
+      "query": "How are judges of the High Courts appointed?",
+      "expected_article": "175A",
+      "expected_title_verified_from_corpus": "Appointment of Judges to the Federal Constitutional Court, the Supreme Court, High Courts and the Federal Shariat Court.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 2,
+        "score": 0.6641807,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_193"
+      },
+      "hybrid": {
+        "rank": 3,
+        "score": 0.39215687,
+        "n_ranked": 54
+      }
+    },
+    {
+      "query_id": "C5",
+      "type": "federal/provincial powers",
+      "query": "What is the subject-matter division between federal and provincial laws?",
+      "expected_article": "142",
+      "expected_title_verified_from_corpus": "Subject-matter of Federal and Provincial laws.",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.5665557,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_142"
+      },
+      "hybrid": {
+        "rank": 1,
+        "score": 1.0,
+        "n_ranked": 58
+      }
+    },
+    {
+      "query_id": "C6",
+      "type": "specific clause/proviso",
+      "query": "Under Article 63, what is the disqualification for a person sentenced to imprisonment, and what proviso limits it?",
+      "expected_article": "63",
+      "expected_title_verified_from_corpus": "Disqualifications for membership of Majlis-e-Shoora (Parliament).",
+      "expected_chunk_exists_in_corpus": true,
+      "expected_article_has_retrievable_chunk": true,
+      "dense_only": {
+        "rank": 1,
+        "score": 0.5804379,
+        "n_ranked": 240,
+        "top1_chunk_id": "art_63_c1_p1"
+      },
+      "hybrid": {
+        "rank": 1,
+        "score": 1.0,
+        "n_ranked": 61
+      }
+    }
+  ],
+  "limitations": [
+    "Clause-boundary mislabeling (as found for art_199_c1_2) was investigated for Article 199 specifically after being noticed during inspection; a systematic sweep for the same pattern across all 328 articles was not performed in this pass.",
+    "Footnote citation text for the omission markers inside the Article 175A clause (8)-(18) range chunk was not independently extracted/verified in this pass (the chunk's own context_header labeling was verified correct and honest regardless)."
+  ],
+  "run_completed_successfully": true,
+  "final_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_chunk_dilution_diagnostic.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/phase1_query_chunk_interaction.py\n?? evaluation/phase2a_constitution_audit.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.meta.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.meta.json\n?? evaluation/results/phase1_query_chunk_interaction.json\n?? evaluation/results/phase1_query_chunk_interaction.meta.json\n?? evaluation/results/phase2a_constitution_audit.json\n?? evaluation/results/phase2a_constitution_smoke_test.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n",
+  "initial_git_status_short": "?? evaluation/diagnose_q01_dense_bm25.py\n?? evaluation/phase1_chunk_dilution_diagnostic.py\n?? evaluation/phase1_dense_vocab_diagnostic.py\n?? evaluation/phase1_query_chunk_interaction.py\n?? evaluation/phase2a_constitution_audit.py\n?? evaluation/q01_phrasing_experiment.py\n?? evaluation/results/dense_statute_results.jsonl\n?? evaluation/results/dense_statute_results.jsonl.meta.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.json\n?? evaluation/results/phase1_chunk_dilution_diagnostic.meta.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.json\n?? evaluation/results/phase1_dense_vocab_diagnostic.meta.json\n?? evaluation/results/phase1_query_chunk_interaction.json\n?? evaluation/results/phase1_query_chunk_interaction.meta.json\n?? evaluation/results/q01_dense_vs_bm25_diagnostic.json\n?? evaluation/results/q01_phrasing_experiment.json\n?? evaluation/results/q01_phrasing_experiment.json.meta.json\n?? evaluation/retrieve_dense.py\n"
+}

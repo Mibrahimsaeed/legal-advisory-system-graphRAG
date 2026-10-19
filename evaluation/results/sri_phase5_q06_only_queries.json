@@ -1,0 +1,117 @@
+[
+  {
+    "query_id": "Q01",
+    "category": "dissolution_grounds_nl",
+    "statute": "Dissolution of Muslim Marriages Act, 1939",
+    "type": "natural_language",
+    "query": "What are the grounds on which a Muslim woman can file a suit in court to obtain a decree for the dissolution of her marriage?"
+  },
+  {
+    "query_id": "Q02",
+    "category": "dissolution_grounds_lookup",
+    "statute": "Dissolution of Muslim Marriages Act, 1939",
+    "type": "direct_lookup",
+    "query": "Dissolution of Muslim Marriages Act 1939 Section 2 grounds for decree for dissolution of marriage"
+  },
+  {
+    "query_id": "Q03",
+    "category": "khula_pretrial_nl",
+    "statute": "Family Courts Act, 1964",
+    "type": "natural_language",
+    "query": "How does the Family Court conduct pre-trial conciliation proceedings and pass a decree when reconciliation fails in a khula suit?",
+    "grounding_note": "Section 10's own text covers pre-trial/conciliation (ss.1-3) and the decree-on-reconciliation-failure proviso, but never uses the word 'khula' itself -- it speaks generally of 'a suit for dissolution of marriage.' The query's 'khula suit' framing is an interpretive label applied to that general wording, not a factual error, but is noted here rather than silently treated as identical to the statute's own terminology."
+  },
+  {
+    "query_id": "Q04",
+    "category": "khula_pretrial_lookup",
+    "statute": "Family Courts Act, 1964",
+    "type": "direct_lookup",
+    "query": "Family Courts Act 1964 Section 10 pre-trial proceedings and decree on khula"
+  },
+  {
+    "query_id": "Q05",
+    "category": "dowry_limit_nl",
+    "statute": "Dowry and Bridal Gifts (Restriction) Act, 1976",
+    "type": "natural_language",
+    "query": "What is the legal maximum limit on the total value of dowry articles and bridal gifts that can be given at a wedding?"
+  },
+  {
+    "query_id": "Q06",
+    "category": "dowry_limit_lookup",
+    "statute": "Dowry and Bridal Gifts (Restriction) Act, 1976",
+    "type": "direct_lookup",
+    "query": "Dowry and Bridal Gifts Restriction Act 1976 Section 3 restriction on dowry and presents / aggregate value limit?",
+    "expansion_note": "Verified verbatim in s.3's own text ('the aggregate value of the dowry and presents...'); absent from preamble/s1/s7."
+  },
+  {
+    "query_id": "Q07",
+    "category": "guardian_jurisdiction_nl",
+    "statute": "Guardians and Wards Act, 1890",
+    "type": "natural_language",
+    "query": "Which court holds proper territorial jurisdiction to entertain an application for appointing or declaring a guardian of a minor's person?"
+  },
+  {
+    "query_id": "Q08",
+    "category": "guardian_jurisdiction_lookup",
+    "statute": "Guardians and Wards Act, 1890",
+    "type": "direct_lookup",
+    "query": "Guardians and Wards Act 1890 Section 9 court having jurisdiction to entertain application"
+  },
+  {
+    "query_id": "Q09",
+    "category": "child_marriage_penalty_nl",
+    "statute": "Child Marriage Restraint Act, 1929",
+    "type": "natural_language",
+    "query": "What are the legal penalties for a parent or guardian who permits or promotes the solemnization of a child marriage?"
+  },
+  {
+    "query_id": "Q10",
+    "category": "child_marriage_penalty_lookup",
+    "statute": "Child Marriage Restraint Act, 1929",
+    "type": "direct_lookup",
+    "query": "Child Marriage Restraint Act 1929 Section 6 punishment for parent or guardian concerned in a child marriage"
+  },
+  {
+    "query_id": "Q11",
+    "category": "polygamy_procedure_nl",
+    "statute": "Muslim Family Laws Ordinance, 1961",
+    "type": "natural_language",
+    "query": "What procedure must a husband follow to obtain permission from the Arbitration Council before contracting a second marriage?"
+  },
+  {
+    "query_id": "Q12",
+    "category": "polygamy_procedure_lookup",
+    "statute": "Muslim Family Laws Ordinance, 1961",
+    "type": "direct_lookup",
+    "query": "Muslim Family Laws Ordinance 1961 Section 6 polygamy permission arbitration council"
+  },
+  {
+    "query_id": "Q13",
+    "category": "judicial_separation_grounds_nl",
+    "statute": "Divorce Act, 1869",
+    "type": "natural_language",
+    "query": "On what grounds can a husband or wife apply for a decree of judicial separation in court?",
+    "grounding_note": "Section 22's title ('Bar to decree for divorce a mensa et toro but judicial separation obtainable...') is indirect/archaic and does not itself signal 'grounds for judicial separation' to a reader, but its operative text explicitly states the three grounds (adultery, cruelty, desertion >=2 years). Section 23 is a necessary companion for the full procedural picture (petition to the Court of Civil Judge, referencing 'the grounds aforesaid'). No factual misrepresentation was found; both sections are retained as jointly relevant rather than proposing a corrected query."
+  },
+  {
+    "query_id": "Q14",
+    "category": "judicial_separation_grounds_lookup",
+    "statute": "Divorce Act, 1869",
+    "type": "direct_lookup",
+    "query": "Divorce Act 1869 Section 22 bar to decree for divorce judicial separation obtainable"
+  },
+  {
+    "query_id": "Q15",
+    "category": "muslim_personal_law_scope_nl",
+    "statute": "West Pakistan Muslim Personal Law (Shariat) Application Act, 1962",
+    "type": "natural_language",
+    "query": "Which personal law applies to questions of intestate succession, guardianship, and marriage when the parties involved are Muslims?"
+  },
+  {
+    "query_id": "Q16",
+    "category": "muslim_personal_law_scope_lookup",
+    "statute": "West Pakistan Muslim Personal Law (Shariat) Application Act, 1962",
+    "type": "direct_lookup",
+    "query": "West Pakistan Muslim Personal Law Shariat Application Act 1962 Section 2 application of the Muslim Personal Law"
+  }
+]

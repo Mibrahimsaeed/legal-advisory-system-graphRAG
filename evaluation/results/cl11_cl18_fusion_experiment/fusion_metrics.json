@@ -1,0 +1,158 @@
+{
+  "production_baseline_frozen": {
+    "constitution": {
+      "precision_at_5": 0.21,
+      "ndcg_at_10": 0.9207,
+      "recall_at_5": 0.925,
+      "recall_at_10": 1.0,
+      "mrr": 0.9062,
+      "hit_rate_at_5": 0.95,
+      "hit_rate_at_10": 1.0,
+      "n_queries": 20
+    },
+    "case": {
+      "precision_at_5": 0.0769,
+      "ndcg_at_10": 0.4069,
+      "recall_at_5": 0.3846,
+      "recall_at_10": 0.4615,
+      "mrr": 0.4016,
+      "hit_rate_at_5": 0.3846,
+      "hit_rate_at_10": 0.4615,
+      "n_queries": 13
+    }
+  },
+  "offline_configs": {
+    "rrf_dense1.0_sparse1.0": {
+      "constitution": {
+        "precision_at_5": 0.21,
+        "ndcg_at_10": 0.8838,
+        "recall_at_5": 0.925,
+        "recall_at_10": 1.0,
+        "mrr": 0.8562,
+        "hit_rate_at_5": 0.95,
+        "hit_rate_at_10": 1.0,
+        "n_queries": 20
+      },
+      "case": {
+        "precision_at_5": 0.0769,
+        "ndcg_at_10": 0.4069,
+        "recall_at_5": 0.3846,
+        "recall_at_10": 0.4615,
+        "mrr": 0.4044,
+        "hit_rate_at_5": 0.3846,
+        "hit_rate_at_10": 0.4615,
+        "n_queries": 13
+      },
+      "CL11_CL18_subset": {
+        "CL11": {
+          "precision_at_5": 0.0,
+          "ndcg_at_10": 0.0,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.058823529411764705,
+          "hit_rate_at_5": 0.0,
+          "hit_rate_at_10": 0.0,
+          "target_rank": 17
+        },
+        "CL18": {
+          "precision_at_5": 0.0,
+          "ndcg_at_10": 0.2890648263178878,
+          "recall_at_5": 0.0,
+          "recall_at_10": 1.0,
+          "mrr": 0.1,
+          "hit_rate_at_5": 0.0,
+          "hit_rate_at_10": 1.0,
+          "target_rank": 10
+        }
+      }
+    },
+    "rrf_dense1.0_sparse0.75": {
+      "constitution": {
+        "precision_at_5": 0.21,
+        "ndcg_at_10": 0.9211,
+        "recall_at_5": 0.925,
+        "recall_at_10": 1.0,
+        "mrr": 0.9071,
+        "hit_rate_at_5": 0.95,
+        "hit_rate_at_10": 1.0,
+        "n_queries": 20
+      },
+      "case": {
+        "precision_at_5": 0.0769,
+        "ndcg_at_10": 0.3794,
+        "recall_at_5": 0.3846,
+        "recall_at_10": 0.4615,
+        "mrr": 0.3677,
+        "hit_rate_at_5": 0.3846,
+        "hit_rate_at_10": 0.4615,
+        "n_queries": 13
+      },
+      "CL11_CL18_subset": {
+        "CL11": {
+          "precision_at_5": 0.0,
+          "ndcg_at_10": 0.0,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.06666666666666667,
+          "hit_rate_at_5": 0.0,
+          "hit_rate_at_10": 0.0,
+          "target_rank": 15
+        },
+        "CL18": {
+          "precision_at_5": 0.0,
+          "ndcg_at_10": 0.3010299956639812,
+          "recall_at_5": 0.0,
+          "recall_at_10": 1.0,
+          "mrr": 0.1111111111111111,
+          "hit_rate_at_5": 0.0,
+          "hit_rate_at_10": 1.0,
+          "target_rank": 9
+        }
+      }
+    },
+    "rrf_dense1.0_sparse0.5": {
+      "constitution": {
+        "precision_at_5": 0.21,
+        "ndcg_at_10": 0.9218,
+        "recall_at_5": 0.925,
+        "recall_at_10": 1.0,
+        "mrr": 0.9083,
+        "hit_rate_at_5": 0.95,
+        "hit_rate_at_10": 1.0,
+        "n_queries": 20
+      },
+      "case": {
+        "precision_at_5": 0.0769,
+        "ndcg_at_10": 0.3693,
+        "recall_at_5": 0.3846,
+        "recall_at_10": 0.4615,
+        "mrr": 0.3565,
+        "hit_rate_at_5": 0.3846,
+        "hit_rate_at_10": 0.4615,
+        "n_queries": 13
+      },
+      "CL11_CL18_subset": {
+        "CL11": {
+          "precision_at_5": 0.0,
+          "ndcg_at_10": 0.0,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.08333333333333333,
+          "hit_rate_at_5": 0.0,
+          "hit_rate_at_10": 0.0,
+          "target_rank": 12
+        },
+        "CL18": {
+          "precision_at_5": 0.0,
+          "ndcg_at_10": 0.3010299956639812,
+          "recall_at_5": 0.0,
+          "recall_at_10": 1.0,
+          "mrr": 0.1111111111111111,
+          "hit_rate_at_5": 0.0,
+          "hit_rate_at_10": 1.0,
+          "target_rank": 9
+        }
+      }
+    }
+  }
+}

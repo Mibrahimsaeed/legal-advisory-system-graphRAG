@@ -1,0 +1,1003 @@
+{
+  "run_timestamp": "2026-10-18T23:54:42",
+  "candidates": 40,
+  "ranking_depth": 240,
+  "queries": [
+    {
+      "query_id": "Q01",
+      "query": "What are the grounds on which a Muslim woman can file a suit in court to obtain a decree for the dissolution of her marriage?",
+      "type": "natural_language",
+      "statute": "Dissolution of Muslim Marriages Act, 1939",
+      "verified_relevant_chunk_ids": [
+        "0425160ffedaefd8c79b3241:s2_ssb-c",
+        "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+        "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a"
+      ],
+      "per_target_branch_analysis": {
+        "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 2,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        },
+        "0425160ffedaefd8c79b3241:s2_ssb-c": {
+          "dense_rank": 5,
+          "in_dense_top40": true,
+          "bm25_rank": 6,
+          "in_bm25_top40": true,
+          "fused_rank": 6,
+          "rrf_effect": "mixed_or_unavailable"
+        },
+        "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a": {
+          "dense_rank": 2,
+          "in_dense_top40": true,
+          "bm25_rank": 5,
+          "in_bm25_top40": true,
+          "fused_rank": 3,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+          "score": 0.8333334,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "0425160ffedaefd8c79b3241:s4",
+          "score": 0.75,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a",
+          "score": 0.5,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "0425160ffedaefd8c79b3241:preamble",
+          "score": 0.45,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "0425160ffedaefd8c79b3241:s5",
+          "score": 0.325,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "0425160ffedaefd8c79b3241:s4",
+        "0425160ffedaefd8c79b3241:preamble",
+        "0425160ffedaefd8c79b3241:s5"
+      ]
+    },
+    {
+      "query_id": "Q02",
+      "query": "Dissolution of Muslim Marriages Act 1939 Section 2 grounds for decree for dissolution of marriage",
+      "type": "direct_lookup",
+      "statute": "Dissolution of Muslim Marriages Act, 1939",
+      "verified_relevant_chunk_ids": [
+        "0425160ffedaefd8c79b3241:s2_ssb-c",
+        "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+        "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a"
+      ],
+      "per_target_branch_analysis": {
+        "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 3,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        },
+        "0425160ffedaefd8c79b3241:s2_ssb-c": {
+          "dense_rank": 5,
+          "in_dense_top40": true,
+          "bm25_rank": 4,
+          "in_bm25_top40": true,
+          "fused_rank": 6,
+          "rrf_effect": "harmed"
+        },
+        "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a": {
+          "dense_rank": 2,
+          "in_dense_top40": true,
+          "bm25_rank": 5,
+          "in_bm25_top40": true,
+          "fused_rank": 4,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "0425160ffedaefd8c79b3241:s2_ssi-ii-iii-iv-v-vi",
+          "score": 0.75,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "0425160ffedaefd8c79b3241:s4",
+          "score": 0.64285713,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "0425160ffedaefd8c79b3241:s1",
+          "score": 0.53333336,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "0425160ffedaefd8c79b3241:s2_ssvii-viii-a-b-c-d-e-f-ix-a",
+          "score": 0.5,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "0425160ffedaefd8c79b3241:preamble",
+          "score": 0.39285713,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "0425160ffedaefd8c79b3241:s4",
+        "0425160ffedaefd8c79b3241:s1",
+        "0425160ffedaefd8c79b3241:preamble"
+      ]
+    },
+    {
+      "query_id": "Q03",
+      "query": "How does the Family Court conduct pre-trial conciliation proceedings and pass a decree when reconciliation fails in a khula suit?",
+      "type": "natural_language",
+      "statute": "Family Courts Act, 1964",
+      "verified_relevant_chunk_ids": [
+        "24520c344d2285555aa10988:s10",
+        "24520c344d2285555aa10988:s9_ss1-1a-1b-2"
+      ],
+      "per_target_branch_analysis": {
+        "24520c344d2285555aa10988:s10": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        },
+        "24520c344d2285555aa10988:s9_ss1-1a-1b-2": {
+          "dense_rank": 3,
+          "in_dense_top40": true,
+          "bm25_rank": 6,
+          "in_bm25_top40": true,
+          "fused_rank": 3,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "24520c344d2285555aa10988:s10",
+          "score": 1.0,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "24520c344d2285555aa10988:s12",
+          "score": 0.5833334,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+          "score": 0.39285713,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "24520c344d2285555aa10988:s17A",
+          "score": 0.33333334,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "6867f44e86ef03cec19831c6:s7_ss1A-2-3-4-5-6",
+          "score": 0.24000001,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "24520c344d2285555aa10988:s12",
+        "24520c344d2285555aa10988:s17A",
+        "6867f44e86ef03cec19831c6:s7_ss1A-2-3-4-5-6"
+      ]
+    },
+    {
+      "query_id": "Q04",
+      "query": "Family Courts Act 1964 Section 10 pre-trial proceedings and decree on khula",
+      "type": "direct_lookup",
+      "statute": "Family Courts Act, 1964",
+      "verified_relevant_chunk_ids": [
+        "24520c344d2285555aa10988:s10",
+        "24520c344d2285555aa10988:s9_ss1-1a-1b-2"
+      ],
+      "per_target_branch_analysis": {
+        "24520c344d2285555aa10988:s10": {
+          "dense_rank": 2,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        },
+        "24520c344d2285555aa10988:s9_ss1-1a-1b-2": {
+          "dense_rank": 3,
+          "in_dense_top40": true,
+          "bm25_rank": 3,
+          "in_bm25_top40": true,
+          "fused_rank": 4,
+          "rrf_effect": "harmed"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "24520c344d2285555aa10988:s10",
+          "score": 0.8333334,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+          "score": 0.56666666,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "24520c344d2285555aa10988:s17",
+          "score": 0.53333336,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+          "score": 0.5,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "24520c344d2285555aa10988:s9_ss6-7-8",
+          "score": 0.26785713,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "24520c344d2285555aa10988:schedule:partI",
+        "24520c344d2285555aa10988:s17",
+        "24520c344d2285555aa10988:s9_ss6-7-8"
+      ]
+    },
+    {
+      "query_id": "Q05",
+      "query": "What is the legal maximum limit on the total value of dowry articles and bridal gifts that can be given at a wedding?",
+      "type": "natural_language",
+      "statute": "Dowry and Bridal Gifts (Restriction) Act, 1976",
+      "verified_relevant_chunk_ids": [
+        "417403be7fc29b06cafadbbe:s3",
+        "417403be7fc29b06cafadbbe:s9"
+      ],
+      "per_target_branch_analysis": {
+        "417403be7fc29b06cafadbbe:s3": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        },
+        "417403be7fc29b06cafadbbe:s9": {
+          "dense_rank": 8,
+          "in_dense_top40": true,
+          "bm25_rank": 5,
+          "in_bm25_top40": true,
+          "fused_rank": 8,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "417403be7fc29b06cafadbbe:s3",
+          "score": 1.0,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "417403be7fc29b06cafadbbe:s6",
+          "score": 0.5833334,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "417403be7fc29b06cafadbbe:s4",
+          "score": 0.42424244,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "417403be7fc29b06cafadbbe:s8",
+          "score": 0.375,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "417403be7fc29b06cafadbbe:s2",
+          "score": 0.34285715,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "417403be7fc29b06cafadbbe:s6",
+        "417403be7fc29b06cafadbbe:s4",
+        "417403be7fc29b06cafadbbe:s8",
+        "417403be7fc29b06cafadbbe:s2"
+      ]
+    },
+    {
+      "query_id": "Q06",
+      "query": "Dowry and Bridal Gifts Restriction Act 1976 Section 3 restriction on dowry and presents",
+      "type": "direct_lookup",
+      "statute": "Dowry and Bridal Gifts (Restriction) Act, 1976",
+      "verified_relevant_chunk_ids": [
+        "417403be7fc29b06cafadbbe:s3",
+        "417403be7fc29b06cafadbbe:s9"
+      ],
+      "per_target_branch_analysis": {
+        "417403be7fc29b06cafadbbe:s3": {
+          "dense_rank": 3,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 2,
+          "rrf_effect": "mixed_or_unavailable"
+        },
+        "417403be7fc29b06cafadbbe:s9": {
+          "dense_rank": 9,
+          "in_dense_top40": true,
+          "bm25_rank": 13,
+          "in_bm25_top40": true,
+          "fused_rank": 12,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "417403be7fc29b06cafadbbe:preamble",
+          "score": 0.8333334,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "417403be7fc29b06cafadbbe:s3",
+          "score": 0.75,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "417403be7fc29b06cafadbbe:s7",
+          "score": 0.53333336,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "417403be7fc29b06cafadbbe:s1",
+          "score": 0.45,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "417403be7fc29b06cafadbbe:s5",
+          "score": 0.2916667,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "417403be7fc29b06cafadbbe:preamble",
+        "417403be7fc29b06cafadbbe:s7",
+        "417403be7fc29b06cafadbbe:s1",
+        "417403be7fc29b06cafadbbe:s5"
+      ]
+    },
+    {
+      "query_id": "Q07",
+      "query": "Which court holds proper territorial jurisdiction to entertain an application for appointing or declaring a guardian of a minor's person?",
+      "type": "natural_language",
+      "statute": "Guardians and Wards Act, 1890",
+      "verified_relevant_chunk_ids": [
+        "42769a60dc59c5473affbc32:s9"
+      ],
+      "per_target_branch_analysis": {
+        "42769a60dc59c5473affbc32:s9": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 2,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "42769a60dc59c5473affbc32:s9",
+          "score": 0.8333334,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "42769a60dc59c5473affbc32:s18",
+          "score": 0.6111111,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "42769a60dc59c5473affbc32:s17",
+          "score": 0.41025642,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "42769a60dc59c5473affbc32:s19",
+          "score": 0.39285713,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "42769a60dc59c5473affbc32:s10_ss1",
+          "score": 0.325,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "42769a60dc59c5473affbc32:s18",
+        "42769a60dc59c5473affbc32:s17",
+        "42769a60dc59c5473affbc32:s19",
+        "42769a60dc59c5473affbc32:s10_ss1"
+      ]
+    },
+    {
+      "query_id": "Q08",
+      "query": "Guardians and Wards Act 1890 Section 9 court having jurisdiction to entertain application",
+      "type": "direct_lookup",
+      "statute": "Guardians and Wards Act, 1890",
+      "verified_relevant_chunk_ids": [
+        "42769a60dc59c5473affbc32:s9"
+      ],
+      "per_target_branch_analysis": {
+        "42769a60dc59c5473affbc32:s9": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "42769a60dc59c5473affbc32:s9",
+          "score": 1.0,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "42769a60dc59c5473affbc32:s47",
+          "score": 0.5,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "42769a60dc59c5473affbc32:s4_ss5-6-8",
+          "score": 0.45833334,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "42769a60dc59c5473affbc32:s11",
+          "score": 0.33333334,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "42769a60dc59c5473affbc32:s33",
+          "score": 0.25555557,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "42769a60dc59c5473affbc32:s47",
+        "42769a60dc59c5473affbc32:s4_ss5-6-8",
+        "42769a60dc59c5473affbc32:s11",
+        "42769a60dc59c5473affbc32:s33"
+      ]
+    },
+    {
+      "query_id": "Q09",
+      "query": "What are the legal penalties for a parent or guardian who permits or promotes the solemnization of a child marriage?",
+      "type": "natural_language",
+      "statute": "Child Marriage Restraint Act, 1929",
+      "verified_relevant_chunk_ids": [
+        "470c476c4195cbc08e94a6da:s6"
+      ],
+      "per_target_branch_analysis": {
+        "470c476c4195cbc08e94a6da:s6": {
+          "dense_rank": 2,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "470c476c4195cbc08e94a6da:s6",
+          "score": 0.8333334,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "470c476c4195cbc08e94a6da:s5",
+          "score": 0.54545456,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s58",
+          "score": 0.4761905,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "470c476c4195cbc08e94a6da:s4",
+          "score": 0.29166666,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "417403be7fc29b06cafadbbe:s2",
+          "score": 0.29,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "470c476c4195cbc08e94a6da:s5",
+        "8251b5f4daa92e5a22319fc4:s58",
+        "470c476c4195cbc08e94a6da:s4",
+        "417403be7fc29b06cafadbbe:s2"
+      ]
+    },
+    {
+      "query_id": "Q10",
+      "query": "Child Marriage Restraint Act 1929 Section 6 punishment for parent or guardian concerned in a child marriage",
+      "type": "direct_lookup",
+      "statute": "Child Marriage Restraint Act, 1929",
+      "verified_relevant_chunk_ids": [
+        "470c476c4195cbc08e94a6da:s6"
+      ],
+      "per_target_branch_analysis": {
+        "470c476c4195cbc08e94a6da:s6": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "470c476c4195cbc08e94a6da:s6",
+          "score": 1.0,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "470c476c4195cbc08e94a6da:s5",
+          "score": 0.6666667,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "470c476c4195cbc08e94a6da:s4",
+          "score": 0.5,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "470c476c4195cbc08e94a6da:preamble",
+          "score": 0.36666667,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "470c476c4195cbc08e94a6da:s12",
+          "score": 0.34285715,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "470c476c4195cbc08e94a6da:s5",
+        "470c476c4195cbc08e94a6da:s4",
+        "470c476c4195cbc08e94a6da:preamble",
+        "470c476c4195cbc08e94a6da:s12"
+      ]
+    },
+    {
+      "query_id": "Q11",
+      "query": "What procedure must a husband follow to obtain permission from the Arbitration Council before contracting a second marriage?",
+      "type": "natural_language",
+      "statute": "Muslim Family Laws Ordinance, 1961",
+      "verified_relevant_chunk_ids": [
+        "6867f44e86ef03cec19831c6:s6"
+      ],
+      "per_target_branch_analysis": {
+        "6867f44e86ef03cec19831c6:s6": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "6867f44e86ef03cec19831c6:s6",
+          "score": 1.0,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "6867f44e86ef03cec19831c6:s9",
+          "score": 0.5833334,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "6867f44e86ef03cec19831c6:s3",
+          "score": 0.4761905,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "6867f44e86ef03cec19831c6:s2",
+          "score": 0.25396827,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+          "score": 0.25,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "6867f44e86ef03cec19831c6:s9",
+        "6867f44e86ef03cec19831c6:s3",
+        "6867f44e86ef03cec19831c6:s2",
+        "8251b5f4daa92e5a22319fc4:s32"
+      ]
+    },
+    {
+      "query_id": "Q12",
+      "query": "Muslim Family Laws Ordinance 1961 Section 6 polygamy permission arbitration council",
+      "type": "direct_lookup",
+      "statute": "Muslim Family Laws Ordinance, 1961",
+      "verified_relevant_chunk_ids": [
+        "6867f44e86ef03cec19831c6:s6"
+      ],
+      "per_target_branch_analysis": {
+        "6867f44e86ef03cec19831c6:s6": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "6867f44e86ef03cec19831c6:s6",
+          "score": 1.0,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "6867f44e86ef03cec19831c6:s3",
+          "score": 0.53333336,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "6867f44e86ef03cec19831c6:s2",
+          "score": 0.5,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "6867f44e86ef03cec19831c6:preamble",
+          "score": 0.4,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "24520c344d2285555aa10988:s24",
+          "score": 0.34285715,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "6867f44e86ef03cec19831c6:s3",
+        "6867f44e86ef03cec19831c6:s2",
+        "6867f44e86ef03cec19831c6:preamble",
+        "24520c344d2285555aa10988:s24"
+      ]
+    },
+    {
+      "query_id": "Q13",
+      "query": "On what grounds can a husband or wife apply for a decree of judicial separation in court?",
+      "type": "natural_language",
+      "statute": "Divorce Act, 1869",
+      "verified_relevant_chunk_ids": [
+        "8251b5f4daa92e5a22319fc4:s22",
+        "8251b5f4daa92e5a22319fc4:s23"
+      ],
+      "per_target_branch_analysis": {
+        "8251b5f4daa92e5a22319fc4:s22": {
+          "dense_rank": 3,
+          "in_dense_top40": true,
+          "bm25_rank": 3,
+          "in_bm25_top40": true,
+          "fused_rank": 3,
+          "rrf_effect": "mixed_or_unavailable"
+        },
+        "8251b5f4daa92e5a22319fc4:s23": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 2,
+          "in_bm25_top40": true,
+          "fused_rank": 2,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s26",
+          "score": 0.8333334,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s23",
+          "score": 0.8333334,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s22",
+          "score": 0.5,
+          "is_relevant": true
+        },
+        {
+          "rank": 4,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s25",
+          "score": 0.36666667,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s60",
+          "score": 0.24285716,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "8251b5f4daa92e5a22319fc4:s26",
+        "8251b5f4daa92e5a22319fc4:s25",
+        "8251b5f4daa92e5a22319fc4:s60"
+      ]
+    },
+    {
+      "query_id": "Q14",
+      "query": "Divorce Act 1869 Section 22 bar to decree for divorce judicial separation obtainable",
+      "type": "direct_lookup",
+      "statute": "Divorce Act, 1869",
+      "verified_relevant_chunk_ids": [
+        "8251b5f4daa92e5a22319fc4:s22",
+        "8251b5f4daa92e5a22319fc4:s23"
+      ],
+      "per_target_branch_analysis": {
+        "8251b5f4daa92e5a22319fc4:s22": {
+          "dense_rank": 2,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        },
+        "8251b5f4daa92e5a22319fc4:s23": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 5,
+          "in_bm25_top40": true,
+          "fused_rank": 2,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s22",
+          "score": 0.8333334,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s23",
+          "score": 0.6666667,
+          "is_relevant": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s26",
+          "score": 0.5,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s42",
+          "score": 0.36666667,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "8251b5f4daa92e5a22319fc4:s31",
+          "score": 0.36036038,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "8251b5f4daa92e5a22319fc4:s26",
+        "8251b5f4daa92e5a22319fc4:s42",
+        "8251b5f4daa92e5a22319fc4:s31"
+      ]
+    },
+    {
+      "query_id": "Q15",
+      "query": "Which personal law applies to questions of intestate succession, guardianship, and marriage when the parties involved are Muslims?",
+      "type": "natural_language",
+      "statute": "West Pakistan Muslim Personal Law (Shariat) Application Act, 1962",
+      "verified_relevant_chunk_ids": [
+        "b11740afa5f050bea50c5f2d:s2"
+      ],
+      "per_target_branch_analysis": {
+        "b11740afa5f050bea50c5f2d:s2": {
+          "dense_rank": 1,
+          "in_dense_top40": true,
+          "bm25_rank": 1,
+          "in_bm25_top40": true,
+          "fused_rank": 1,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "b11740afa5f050bea50c5f2d:s2",
+          "score": 1.0,
+          "is_relevant": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "b11740afa5f050bea50c5f2d:s5",
+          "score": 0.5833334,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "0425160ffedaefd8c79b3241:s3",
+          "score": 0.4166667,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "6867f44e86ef03cec19831c6:s3",
+          "score": 0.4166667,
+          "is_relevant": false
+        },
+        {
+          "rank": 5,
+          "chunk_id": "6867f44e86ef03cec19831c6:s4_ss1-2-3-4-5",
+          "score": 0.26785713,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "b11740afa5f050bea50c5f2d:s5",
+        "0425160ffedaefd8c79b3241:s3",
+        "6867f44e86ef03cec19831c6:s3",
+        "6867f44e86ef03cec19831c6:s4_ss1-2-3-4-5"
+      ]
+    },
+    {
+      "query_id": "Q16",
+      "query": "West Pakistan Muslim Personal Law Shariat Application Act 1962 Section 2 application of the Muslim Personal Law",
+      "type": "direct_lookup",
+      "statute": "West Pakistan Muslim Personal Law (Shariat) Application Act, 1962",
+      "verified_relevant_chunk_ids": [
+        "b11740afa5f050bea50c5f2d:s2"
+      ],
+      "per_target_branch_analysis": {
+        "b11740afa5f050bea50c5f2d:s2": {
+          "dense_rank": 3,
+          "in_dense_top40": true,
+          "bm25_rank": 5,
+          "in_bm25_top40": true,
+          "fused_rank": 4,
+          "rrf_effect": "mixed_or_unavailable"
+        }
+      },
+      "fused_top5": [
+        {
+          "rank": 1,
+          "chunk_id": "b11740afa5f050bea50c5f2d:preamble",
+          "score": 1.0,
+          "is_relevant": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "b11740afa5f050bea50c5f2d:s1",
+          "score": 0.6666667,
+          "is_relevant": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "b11740afa5f050bea50c5f2d:s7",
+          "score": 0.45,
+          "is_relevant": false
+        },
+        {
+          "rank": 4,
+          "chunk_id": "b11740afa5f050bea50c5f2d:s2",
+          "score": 0.4166667,
+          "is_relevant": true
+        },
+        {
+          "rank": 5,
+          "chunk_id": "b11740afa5f050bea50c5f2d:s5",
+          "score": 0.34285715,
+          "is_relevant": false
+        }
+      ],
+      "hard_negatives_in_top5": [
+        "b11740afa5f050bea50c5f2d:preamble",
+        "b11740afa5f050bea50c5f2d:s1",
+        "b11740afa5f050bea50c5f2d:s7",
+        "b11740afa5f050bea50c5f2d:s5"
+      ]
+    }
+  ]
+}

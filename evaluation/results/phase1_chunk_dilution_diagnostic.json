@@ -1,0 +1,131 @@
+{
+  "experiment": "phase1_chunk_dilution_diagnostic",
+  "run_timestamp": "2026-10-18T11:45:26",
+  "script_version": 1,
+  "target_chunk_id": "24520c344d2285555aa10988:s10",
+  "target_point_id": "e8a630f0-f6b7-5067-b211-6a7de3586b6a",
+  "target_identity_source": "evaluation/results/q01_dense_vs_bm25_diagnostic.json",
+  "query": "Can a wife obtain khula without returning dower?",
+  "model_name": "BAAI/bge-m3",
+  "dense_dim": 1024,
+  "similarity_metric": "cosine",
+  "source_statute_file": "var/rag/statutes_chunked/24520c344d2285555aa10988.json",
+  "original_chunk": {
+    "canonical_text": "10. Pre-trial proceedings.— [^7.2][(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,]\n(2) On the date so fixed, the Court shall examine the plaint, the written statement (if any) and the precis of evidence and documents filed by the parties and shall also, if it so deems fit, hear the parties and their counsel.\n(3) At the pre-trial, the Court shall ascertain the points at issue between the parties and attempt to effect a compromise or reconciliation between the parties, if this be possible.\n(4) If no compromise or reconciliation is possible the Court shall frame the issues in the case and fix a date for [^7.2][recording] of evidence [^7.1][:]\n[^7.1][Provided that notwithstanding any decision or judgement of any court or tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.]",
+    "embedding_text": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]\n(1) When the written statement is filed, the Court shall fix an early date for a pre-trial hearing of the case,\n(2) On the date so fixed, the Court shall examine the plaint, the written statement (if any) and the precis of evidence and documents filed by the parties and shall also, if it so deems fit, hear the parties and their counsel.\n(3) At the pre-trial, the Court shall ascertain the points at issue between the parties and attempt to effect a compromise or reconciliation between the parties, if this be possible.\n(4) If no compromise or reconciliation is possible the Court shall frame the issues in the case and fix a date for recording of evidence :\nProvided that notwithstanding any decision or judgement of any court or tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.",
+    "context_header": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]",
+    "act_name": "Family Courts Act, 1964",
+    "section_number": "10",
+    "section_title": "Pre-trial proceedings"
+  },
+  "isolated_passage": {
+    "raw_source_span": "Provided that notwithstanding any decision or judgement of any court or tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.]",
+    "raw_span_char_offset_start": 720,
+    "raw_span_char_offset_end": 1065,
+    "isolated_proviso_clean": "Provided that notwithstanding any decision or judgement of any court or tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.",
+    "isolated_passage_text_embedded": "[Family Courts Act, 1964 | Section 10: Pre-trial proceedings]\nProvided that notwithstanding any decision or judgement of any court or tribunal, the Family Court in a suit for dissolution of marriage, if reconciliation fails, shall pass decree for dissolution of marriage forthwith and shall also restore to the husband the Haq Mehr received by the wife in consideration of marriage at the time of marriage.",
+    "extraction_rationale": "The proviso sentence ('Provided that ... restore to the husband the Haq Mehr ...') is the final, self-contained sentence of the chunk: it already states WHO (the Family Court), the CONDITION (a suit for dissolution of marriage, if reconciliation fails), and the RULE (decree the dissolution and restore the Haq Mehr). Subsections (1)-(3), which precede it, are generic pre-trial procedure (written statement, hearing dates, examining the plaint, attempting compromise) with no bearing on the Haq Mehr/khula question and are excluded as the 'unrelated procedural boilerplate' the task instructed against including unless necessary -- it is not necessary here, since the proviso's own wording ('if reconciliation fails') already supplies the needed condition without them.",
+    "bracket_stripping_note": "The raw source span retains this project's own internal amendment-footnote bracket markup (e.g. '[^7.1][...]'), which is not part of the original statutory wording. The clean/embedded form strips it by taking the exact substring already present in this chunk's own stored `embedding_text` field (produced by the existing, unmodified chunking pipeline) -- no new cleaning rule was invented for this experiment."
+  },
+  "lengths": {
+    "original_canonical_text_chars": 1065,
+    "original_embedding_text_chars": 1067,
+    "original_token_count_stored_field": 225,
+    "isolated_proviso_clean_chars": 344,
+    "isolated_passage_text_chars": 406,
+    "raw_source_span_chars": 345
+  },
+  "direct_embedding_similarity": {
+    "stored_vector_retrieved": true,
+    "stored_vector_cosine_similarity_to_q0": 0.3825210606959224,
+    "isolated_passage_cosine_similarity_to_q0": 0.4708780230765613,
+    "similarity_difference_isolated_minus_stored": 0.08835696238063889
+  },
+  "local_full_chunk_control": {
+    "local_full_chunk_cosine_similarity_to_q0": 0.3826363814009455,
+    "stored_vs_local_full_chunk_similarity_diff": 0.0001153207050231253
+  },
+  "production_rank_reproduced": {
+    "rank": 81,
+    "score": 0.38252112,
+    "n_candidates_ranked": 240
+  },
+  "score_cross_check_stored_vs_qdrant_returned": 5.9304077593136384e-08,
+  "experimental_comparative_rank": 11,
+  "experimental_comparative_candidate_pool_size": 241,
+  "top10_comparative_candidates": [
+    {
+      "chunk_id": "24520c344d2285555aa10988:s9_ss1-1a-1b-2",
+      "point_id": "b2ec039c-8870-51f6-b42f-5bb6e0faeba0",
+      "score": 0.53084666,
+      "context_header": "[Family Courts Act, 1964 | Section 9: Written statement | Sub-sections (1)–(2)]",
+      "is_experimental": false
+    },
+    {
+      "chunk_id": "24520c344d2285555aa10988:schedule:partI",
+      "point_id": "07f63ffb-0b56-5853-b74c-dc599a42a9ea",
+      "score": 0.5229555,
+      "context_header": "[Family Courts Act, 1964 | Schedule | Part I]",
+      "is_experimental": false
+    },
+    {
+      "chunk_id": "6867f44e86ef03cec19831c6:s10",
+      "point_id": "9f2bd02d-820c-5990-9a5c-7e021dce2f0f",
+      "score": 0.5153156,
+      "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 10: Dower]",
+      "is_experimental": false
+    },
+    {
+      "chunk_id": "8251b5f4daa92e5a22319fc4:s27",
+      "point_id": "dc795ffc-ef9c-5cab-9d77-a06344a0c883",
+      "score": 0.5061132,
+      "context_header": "[Divorce Act, 1869 | Chapter VI: Protection-orders | Section 27: Deserted wife may apply to Court for protection]",
+      "is_experimental": false
+    },
+    {
+      "chunk_id": "0425160ffedaefd8c79b3241:s5",
+      "point_id": "315756f4-d34a-5b1a-b9e5-e703fb7f1e70",
+      "score": 0.5021663,
+      "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 5: Rights to dower not to be affected]",
+      "is_experimental": false
+    },
+    {
+      "chunk_id": "8251b5f4daa92e5a22319fc4:s32",
+      "point_id": "858f8a01-4195-5ac5-ac3c-952149791add",
+      "score": 0.49959397,
+      "context_header": "[Divorce Act, 1869 | Chapter VII: Restitution of Conjugal Rights | Section 32: Petition for restitution of conjugal rights]",
+      "is_experimental": false
+    },
+    {
+      "chunk_id": "0425160ffedaefd8c79b3241:s4",
+      "point_id": "77a5f818-c239-5351-8f24-315beb6b57cc",
+      "score": 0.49342954,
+      "context_header": "[Dissolution of Muslim Marriages Act, 1939 | Section 4: Effect of conversion to another faith]",
+      "is_experimental": false
+    },
+    {
+      "chunk_id": "6867f44e86ef03cec19831c6:s9",
+      "point_id": "156facd4-e757-595c-9051-a67331ffefb6",
+      "score": 0.48230517,
+      "context_header": "[Muslim Family Laws Ordinance, 1961 | Section 9: Maintenance]",
+      "is_experimental": false
+    },
+    {
+      "chunk_id": "8251b5f4daa92e5a22319fc4:s22",
+      "point_id": "9845be9f-6947-5a19-93d2-4d76de4a9d5f",
+      "score": 0.4766893,
+      "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Section 22: Bar to decree for divorce a mensa et toro but judicial separation obtainable by husband or wife]",
+      "is_experimental": false
+    },
+    {
+      "chunk_id": "8251b5f4daa92e5a22319fc4:s26",
+      "point_id": "8a406c17-4de1-5571-9a71-ce1cf5b6600d",
+      "score": 0.47560918,
+      "context_header": "[Divorce Act, 1869 | Chapter V: Judicial Separation | Reversal of Decree of Separation | Section 26: Decree of separation obtained during absence of husband or wife may be reversed]",
+      "is_experimental": false
+    }
+  ],
+  "errors": [],
+  "limitations": [],
+  "run_completed_successfully": true
+}
