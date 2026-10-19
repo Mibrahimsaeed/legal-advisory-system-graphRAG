@@ -1,0 +1,16 @@
+{
+  "audit": "cl11_cl18_fusion_experiment",
+  "frozen_benchmark_source": "evaluation/results/constitution_caselaw_40q/ (prior, completed, read-only audit; not modified)",
+  "frozen_artifacts_reused": [
+    "queries_scored_for_retrieval.json", "qrels_combined_simple.json",
+    "qrels_caselaw.json", "qrels_constitution.json",
+    "retrieval_hybrid.jsonl (production baseline, frozen)",
+    "retrieval_dense.jsonl / retrieval_sparse.jsonl (top-20, superseded in this task by fresh depth-40 retrieval -- see below)"
+  ],
+  "key_finding_corrects_prior_audit": "The prior audit's per-query diagnostics reported CL11 and CL18's targets as 'absent from sparse results' based on saved top-20 branch data. Fresh, read-only retrieval at depth=40 (matching production's actual candidates=40 prefetch depth) found both targets ARE present in sparse, at ranks 37/40 and 25/40 respectively -- not absent, merely weak. This correction is the basis for this task's entire diagnosis.",
+  "rrf_constant_empirically_validated": 1,
+  "scripts_created": ["run_branch_candidates40.py", "fusion_experiment.py"],
+  "scripts_reused_unmodified": ["evaluation/calculate_metrics.py (pure functions imported by file path, read-only)"],
+  "pythondontwritebytecode_set": true,
+  "qdrant_operations": "read-only query_points() calls only; no upsert/delete/recreate"
+}

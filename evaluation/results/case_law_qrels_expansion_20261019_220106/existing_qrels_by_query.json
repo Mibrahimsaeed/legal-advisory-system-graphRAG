@@ -1,0 +1,1477 @@
+{
+  "CL01": {
+    "pld-2024-pesh-25": {
+      "query_id": "CL01",
+      "corpus": "case",
+      "chunk_id": "00230296373ff94d771405cb:0001",
+      "case_key": "pld-2024-pesh-25",
+      "citation": "PLD 2024 Pesh 25",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "1987-scmr-699": {
+      "query_id": "CL01",
+      "corpus": "case",
+      "chunk_id": "00faaa78081b33ff56757ad1:0001",
+      "case_key": "1987-scmr-699",
+      "citation": "1987 SCMR 699",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2007-clc-422": {
+      "query_id": "CL01",
+      "corpus": "case",
+      "chunk_id": "012f303c801f80859710ceb5:0001",
+      "case_key": "2007-clc-422",
+      "citation": "2007 CLC 422",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL02": {
+    "pld-2025-bal-43": {
+      "query_id": "CL02",
+      "corpus": "case",
+      "chunk_id": "0052ad1d9b5bc0cc3a59b45c:0001",
+      "case_key": "pld-2025-bal-43",
+      "citation": "PLD 2025 Bal 43",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2022-mld-968": {
+      "query_id": "CL02",
+      "corpus": "case",
+      "chunk_id": "054f9a1dd74b517297fc6593:0001",
+      "case_key": "2022-mld-968",
+      "citation": "2022 MLD 968",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2008-clc-587": {
+      "query_id": "CL02",
+      "corpus": "case",
+      "chunk_id": "064e8822c8f805387d0e6b53:0001",
+      "case_key": "2008-clc-587",
+      "citation": "2008 CLC 587",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL03": {
+    "2004-ylr-1666": {
+      "query_id": "CL03",
+      "corpus": "case",
+      "chunk_id": "044d6e573e665c69d2f1a405:0001",
+      "case_key": "2004-ylr-1666",
+      "citation": "2004 YLR 1666",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2011-mld-571": {
+      "query_id": "CL03",
+      "corpus": "case",
+      "chunk_id": "05e3175c221c3b8db8956bfc:0001",
+      "case_key": "2011-mld-571",
+      "citation": "2011 MLD 571",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "1992-mld-2289": {
+      "query_id": "CL03",
+      "corpus": "case",
+      "chunk_id": "0e1d9f60f4217d0266245f1d:0001",
+      "case_key": "1992-mld-2289",
+      "citation": "1992 MLD 2289",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL04": {
+    "2021-clc-1512": {
+      "query_id": "CL04",
+      "corpus": "case",
+      "chunk_id": "00ad7248bf77883e6b5975ed:0001",
+      "case_key": "2021-clc-1512",
+      "citation": "2021 CLC 1512",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2002-clc-1754": {
+      "query_id": "CL04",
+      "corpus": "case",
+      "chunk_id": "03bef00e6ea79a295827e328:0001",
+      "case_key": "2002-clc-1754",
+      "citation": "2002 CLC 1754",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2012-lah-154": {
+      "query_id": "CL04",
+      "corpus": "case",
+      "chunk_id": "1197f1b67ef431adbe8a5319:0001",
+      "case_key": "pld-2012-lah-154",
+      "citation": "PLD 2012 Lah 154",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL05": {
+    "2024-clc-1772": {
+      "query_id": "CL05",
+      "corpus": "case",
+      "chunk_id": "0c637b3cba68543319a468d8:0001",
+      "case_key": "2024-clc-1772",
+      "citation": "2024 CLC 1772",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2023-clc-161": {
+      "query_id": "CL05",
+      "corpus": "case",
+      "chunk_id": "0f536fc32a2d7ba4cd3b12d8:0001",
+      "case_key": "2023-clc-161",
+      "citation": "2023 CLC 161",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2011-clc-820": {
+      "query_id": "CL05",
+      "corpus": "case",
+      "chunk_id": "139546b6a39f4fb8d05822f9:0001",
+      "case_key": "2011-clc-820",
+      "citation": "2011 CLC 820",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL06": {
+    "pld-1997-kar-399": {
+      "query_id": "CL06",
+      "corpus": "case",
+      "chunk_id": "008395ffd47453b27dce84d4:0001",
+      "case_key": "pld-1997-kar-399",
+      "citation": "PLD 1997 Kar 399",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2003-ylr-1572": {
+      "query_id": "CL06",
+      "corpus": "case",
+      "chunk_id": "05af9d953bae57a42f852adc:0001",
+      "case_key": "2003-ylr-1572",
+      "citation": "2003 YLR 1572",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL07": {
+    "2005-clc-859": {
+      "query_id": "CL07",
+      "corpus": "case",
+      "chunk_id": "07d428d9ddd0885d5328fe04:0001",
+      "case_key": "2005-clc-859",
+      "citation": "2005 CLC 859",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2021-ylr-2127": {
+      "query_id": "CL07",
+      "corpus": "case",
+      "chunk_id": "08dfc34e7531e0161909bf7b:0001",
+      "case_key": "2021-ylr-2127",
+      "citation": "2021 YLR 2127",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-1995-lah-151": {
+      "query_id": "CL07",
+      "corpus": "case",
+      "chunk_id": "08f78cd0939525079d3e8735:0001",
+      "case_key": "pld-1995-lah-151",
+      "citation": "PLD 1995 Lah 151",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL08": {
+    "2025-clc-960": {
+      "query_id": "CL08",
+      "corpus": "case",
+      "chunk_id": "149cb0b4b47aef969ea14867:0001",
+      "case_key": "2025-clc-960",
+      "citation": "2025 CLC 960",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2017-clc-1747": {
+      "query_id": "CL08",
+      "corpus": "case",
+      "chunk_id": "364bc6dd352c426a7701ed63:0001",
+      "case_key": "2017-clc-1747",
+      "citation": "2017 CLC 1747",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2023-lah-433": {
+      "query_id": "CL08",
+      "corpus": "case",
+      "chunk_id": "254d18a806d3be91524f3c0d:0001",
+      "case_key": "pld-2023-lah-433",
+      "citation": "PLD 2023 Lah 433",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL09": {
+    "2023-clc-143": {
+      "query_id": "CL09",
+      "corpus": "case",
+      "chunk_id": "023e0c1226a8aceb9df8e3c3:0001",
+      "case_key": "2023-clc-143",
+      "citation": "2023 CLC 143",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2014-clc-895": {
+      "query_id": "CL09",
+      "corpus": "case",
+      "chunk_id": "037136cdc1935169a458703e:0001",
+      "case_key": "2014-clc-895",
+      "citation": "2014 CLC 895",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2009-mld-945": {
+      "query_id": "CL09",
+      "corpus": "case",
+      "chunk_id": "04d4519257340fcf2f64d17a:0001",
+      "case_key": "2009-mld-945",
+      "citation": "2009 MLD 945",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL10": {
+    "2021-clc-1512": {
+      "query_id": "CL10",
+      "corpus": "case",
+      "chunk_id": "00ad7248bf77883e6b5975ed:0001",
+      "case_key": "2021-clc-1512",
+      "citation": "2021 CLC 1512",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "1999-ylr-425": {
+      "query_id": "CL10",
+      "corpus": "case",
+      "chunk_id": "04ab70af83f9a5448699c584:0001",
+      "case_key": "1999-ylr-425",
+      "citation": "1999 YLR 425",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2022-clc-947": {
+      "query_id": "CL10",
+      "corpus": "case",
+      "chunk_id": "05002d924de1288aa4f53524:0001",
+      "case_key": "2022-clc-947",
+      "citation": "2022 CLC 947",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL11": {
+    "2002-clc-1838": {
+      "query_id": "CL11",
+      "corpus": "case",
+      "chunk_id": "008d928c2926b2a5855bcc36:0001",
+      "case_key": "2002-clc-1838",
+      "citation": "2002 CLC 1838",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2000-ylr-537": {
+      "query_id": "CL11",
+      "corpus": "case",
+      "chunk_id": "09fed894f69539615d52239f:0001",
+      "case_key": "2000-ylr-537",
+      "citation": "2000 YLR 537",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2015-bal-26": {
+      "query_id": "CL11",
+      "corpus": "case",
+      "chunk_id": "0abcf2cda99fa4c3408a7c22:0001",
+      "case_key": "pld-2015-bal-26",
+      "citation": "PLD 2015 Bal 26",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL12": {
+    "2020-clc-1524": {
+      "query_id": "CL12",
+      "corpus": "case",
+      "chunk_id": "0b9bb48e29aea335893535c3:0001",
+      "case_key": "2020-clc-1524",
+      "citation": "2020 CLC 1524",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2009-clc-980": {
+      "query_id": "CL12",
+      "corpus": "case",
+      "chunk_id": "0c7b6e4c827df9f9239bd618:0001",
+      "case_key": "2009-clc-980",
+      "citation": "2009 CLC 980",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2022-lah-840": {
+      "query_id": "CL12",
+      "corpus": "case",
+      "chunk_id": "0cc4f46e39acc5353dbb9830:0001",
+      "case_key": "pld-2022-lah-840",
+      "citation": "PLD 2022 Lah 840",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL13": {
+    "2002-clc-1964": {
+      "query_id": "CL13",
+      "corpus": "case",
+      "chunk_id": "1496e835c469a306fc3b42fa:0001",
+      "case_key": "2002-clc-1964",
+      "citation": "2002 CLC 1964",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2007-clc-195": {
+      "query_id": "CL13",
+      "corpus": "case",
+      "chunk_id": "0c0a9097729ad2b1e123c69a:0001",
+      "case_key": "2007-clc-195",
+      "citation": "2007 CLC 195",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2016-clc-313": {
+      "query_id": "CL13",
+      "corpus": "case",
+      "chunk_id": "15fea84845220a64c350fd31:0001",
+      "case_key": "2016-clc-313",
+      "citation": "2016 CLC 313",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL14": {
+    "2025-clc-1620": {
+      "query_id": "CL14",
+      "corpus": "case",
+      "chunk_id": "b818af2ebac590c878979baa:0001",
+      "case_key": "2025-clc-1620",
+      "citation": "2025 CLC 1620",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL15": {
+    "pld-2019-lah-160": {
+      "query_id": "CL15",
+      "corpus": "case",
+      "chunk_id": "106fb6b43991b1988f480f6d:0001",
+      "case_key": "pld-2019-lah-160",
+      "citation": "PLD 2019 Lah 160",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2007-mld-829": {
+      "query_id": "CL15",
+      "corpus": "case",
+      "chunk_id": "052274f74210317b99b3c9b6:0001",
+      "case_key": "2007-mld-829",
+      "citation": "2007 MLD 829",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "1986-clc-1722": {
+      "query_id": "CL15",
+      "corpus": "case",
+      "chunk_id": "06128c45341344f9ad190eb6:0001",
+      "case_key": "1986-clc-1722",
+      "citation": "1986 CLC 1722",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL16": {
+    "pld-1975-lah-805": {
+      "query_id": "CL16",
+      "corpus": "case",
+      "chunk_id": "06cd4a88317a32f0c9c69fe7:0001",
+      "case_key": "pld-1975-lah-805",
+      "citation": "PLD 1975 Lah 805",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "1986-clc-1722": {
+      "query_id": "CL16",
+      "corpus": "case",
+      "chunk_id": "06128c45341344f9ad190eb6:0001",
+      "case_key": "1986-clc-1722",
+      "citation": "1986 CLC 1722",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL17": {
+    "1997-mld-11": {
+      "query_id": "CL17",
+      "corpus": "case",
+      "chunk_id": "0b41050a9a4011b361c7a862:0001",
+      "case_key": "1997-mld-11",
+      "citation": "1997 MLD 11",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2014-ylr-590": {
+      "query_id": "CL17",
+      "corpus": "case",
+      "chunk_id": "0b5e1edd2e2042aed24afd34:0001",
+      "case_key": "2014-ylr-590",
+      "citation": "2014 YLR 590",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL18": {
+    "2003-ylr-1572": {
+      "query_id": "CL18",
+      "corpus": "case",
+      "chunk_id": "05af9d953bae57a42f852adc:0001",
+      "case_key": "2003-ylr-1572",
+      "citation": "2003 YLR 1572",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2021-ylr-1989": {
+      "query_id": "CL18",
+      "corpus": "case",
+      "chunk_id": "0ccf3a0f482c5971b7d7246f:0001",
+      "case_key": "2021-ylr-1989",
+      "citation": "2021 YLR 1989",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2014-clc-330": {
+      "query_id": "CL18",
+      "corpus": "case",
+      "chunk_id": "0d49863d4eea0365d4159bfb:0001",
+      "case_key": "2014-clc-330",
+      "citation": "2014 CLC 330",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL19": {
+    "1984-clc-638": {
+      "query_id": "CL19",
+      "corpus": "case",
+      "chunk_id": "23a39833e41c2d3bbc105b2a:0001",
+      "case_key": "1984-clc-638",
+      "citation": "1984 CLC 638",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2022-mld-968": {
+      "query_id": "CL19",
+      "corpus": "case",
+      "chunk_id": "054f9a1dd74b517297fc6593:0001",
+      "case_key": "2022-mld-968",
+      "citation": "2022 MLD 968",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL20": {
+    "03c327e5464aeef9a0d0c73d": {
+      "query_id": "CL20",
+      "corpus": "case",
+      "chunk_id": "03c327e5464aeef9a0d0c73d:0001",
+      "case_key": "03c327e5464aeef9a0d0c73d",
+      "citation": "2021 P Cr",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2021-clc-704": {
+      "query_id": "CL20",
+      "corpus": "case",
+      "chunk_id": "3cc421e9daea9bf08d060bd3:0001",
+      "case_key": "2021-clc-704",
+      "citation": "2021 CLC 704",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL21": {
+    "pld-2024-pesh-25": {
+      "query_id": "CL21",
+      "corpus": "case",
+      "chunk_id": "00230296373ff94d771405cb:0001",
+      "case_key": "pld-2024-pesh-25",
+      "citation": "PLD 2024 Pesh 25",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "1996-mld-1693": {
+      "query_id": "CL21",
+      "corpus": "case",
+      "chunk_id": "096aa5b34df4d25253b36347:0001",
+      "case_key": "1996-mld-1693",
+      "citation": "1996 MLD 1693",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2023-ylr-2233": {
+      "query_id": "CL21",
+      "corpus": "case",
+      "chunk_id": "0f7eb25c84ca99d9c4f048e7:0001",
+      "case_key": "2023-ylr-2233",
+      "citation": "2023 YLR 2233",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL22": {
+    "pld-2017-lah-892": {
+      "query_id": "CL22",
+      "corpus": "case",
+      "chunk_id": "1e59959889a33d40efdf670b:0001",
+      "case_key": "pld-2017-lah-892",
+      "citation": "PLD 2017 Lah 892",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2018-mld-407": {
+      "query_id": "CL22",
+      "corpus": "case",
+      "chunk_id": "3e9fdd00b95e1a6b57616d02:0001",
+      "case_key": "2018-mld-407",
+      "citation": "2018 MLD 407",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2007-clc-1145": {
+      "query_id": "CL22",
+      "corpus": "case",
+      "chunk_id": "41919aceafe8dd382c3c727f:0001",
+      "case_key": "2007-clc-1145",
+      "citation": "2007 CLC 1145",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL23": {
+    "pld-2025-sc-461": {
+      "query_id": "CL23",
+      "corpus": "case",
+      "chunk_id": "1a85ea8b5b5a1321f3b445c6:0001",
+      "case_key": "pld-2025-sc-461",
+      "citation": "PLD 2025 SC 461",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2018-clc-1350": {
+      "query_id": "CL23",
+      "corpus": "case",
+      "chunk_id": "3d942953ba46eaa9bba137d4:0001",
+      "case_key": "2018-clc-1350",
+      "citation": "2018 CLC 1350",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2013-clc-276": {
+      "query_id": "CL23",
+      "corpus": "case",
+      "chunk_id": "3b1c7ac88a2d481d84f4fbc6:0001",
+      "case_key": "2013-clc-276",
+      "citation": "2013 CLC 276",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL24": {
+    "2020-ylr-2523": {
+      "query_id": "CL24",
+      "corpus": "case",
+      "chunk_id": "002dcb72b51088b2694c627f:0001",
+      "case_key": "2020-ylr-2523",
+      "citation": "2020 YLR 2523",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2006-pesh-99": {
+      "query_id": "CL24",
+      "corpus": "case",
+      "chunk_id": "05d952f346988b6a60a126a6:0001",
+      "case_key": "pld-2006-pesh-99",
+      "citation": "PLD 2006 Pesh 99",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "1992-mld-2289": {
+      "query_id": "CL24",
+      "corpus": "case",
+      "chunk_id": "0e1d9f60f4217d0266245f1d:0001",
+      "case_key": "1992-mld-2289",
+      "citation": "1992 MLD 2289",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL25": {
+    "pld-2026-sc-91": {
+      "query_id": "CL25",
+      "corpus": "case",
+      "chunk_id": "14d08f67afeb8920d59f8589:0001",
+      "case_key": "pld-2026-sc-91",
+      "citation": "PLD 2026 SC 91",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2022-clc-1447": {
+      "query_id": "CL25",
+      "corpus": "case",
+      "chunk_id": "1b02aafae3712012c46c4182:0001",
+      "case_key": "2022-clc-1447",
+      "citation": "2022 CLC 1447",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2013-pesh-88": {
+      "query_id": "CL25",
+      "corpus": "case",
+      "chunk_id": "1bcb063e6184d42e3f62c531:0001",
+      "case_key": "pld-2013-pesh-88",
+      "citation": "PLD 2013 Pesh 88",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL26": {
+    "2002-clc-1838": {
+      "query_id": "CL26",
+      "corpus": "case",
+      "chunk_id": "008d928c2926b2a5855bcc36:0001",
+      "case_key": "2002-clc-1838",
+      "citation": "2002 CLC 1838",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL27": {
+    "12b901fed564866d211dc449": {
+      "query_id": "CL27",
+      "corpus": "case",
+      "chunk_id": "12b901fed564866d211dc449:0001",
+      "case_key": "12b901fed564866d211dc449",
+      "citation": "1991CLC1823",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-1970-pesh-52": {
+      "query_id": "CL27",
+      "corpus": "case",
+      "chunk_id": "10acf1a9e8b52c403e9de97d:0001",
+      "case_key": "pld-1970-pesh-52",
+      "citation": "PLD 1970 Pesh 52",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2004-scmr-1352": {
+      "query_id": "CL27",
+      "corpus": "case",
+      "chunk_id": "16b1d443caa33951716c789e:0001",
+      "case_key": "2004-scmr-1352",
+      "citation": "2004 SCMR 1352",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL28": {
+    "1997-mld-11": {
+      "query_id": "CL28",
+      "corpus": "case",
+      "chunk_id": "0b41050a9a4011b361c7a862:0001",
+      "case_key": "1997-mld-11",
+      "citation": "1997 MLD 11",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2004-ylr-111": {
+      "query_id": "CL28",
+      "corpus": "case",
+      "chunk_id": "07272271b6ddb1e4742e5752:0001",
+      "case_key": "2004-ylr-111",
+      "citation": "2004 YLR 111",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL29": {
+    "2023-ylr-1961": {
+      "query_id": "CL29",
+      "corpus": "case",
+      "chunk_id": "2182dc69539c097275cef2d5:0001",
+      "case_key": "2023-ylr-1961",
+      "citation": "2023 YLR 1961",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2017-mld-214": {
+      "query_id": "CL29",
+      "corpus": "case",
+      "chunk_id": "0413e959941fc5275fc62f8f:0001",
+      "case_key": "2017-mld-214",
+      "citation": "2017 MLD 214",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL30": {
+    "2022-scmr-1647": {
+      "query_id": "CL30",
+      "corpus": "case",
+      "chunk_id": "04139076ff36792b38b72f8b:0001",
+      "case_key": "2022-scmr-1647",
+      "citation": "2022 SCMR 1647",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2024-mld-995": {
+      "query_id": "CL30",
+      "corpus": "case",
+      "chunk_id": "074a0fcd61492437fdb95dda:0001",
+      "case_key": "2024-mld-995",
+      "citation": "2024 MLD 995",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2026-clc-120": {
+      "query_id": "CL30",
+      "corpus": "case",
+      "chunk_id": "21870efa182a020ff0dd7b9c:0001",
+      "case_key": "2026-clc-120",
+      "citation": "2026 CLC 120",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL31": {
+    "2023-mld-1084": {
+      "query_id": "CL31",
+      "corpus": "case",
+      "chunk_id": "05b1603f253ccc817b8e079e:0001",
+      "case_key": "2023-mld-1084",
+      "citation": "2023 MLD 1084",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2002-scmr-1950": {
+      "query_id": "CL31",
+      "corpus": "case",
+      "chunk_id": "050392026e2846b057be35d0:0001",
+      "case_key": "2002-scmr-1950",
+      "citation": "2002 SCMR 1950",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL32": {
+    "pld-2024-pesh-25": {
+      "query_id": "CL32",
+      "corpus": "case",
+      "chunk_id": "00230296373ff94d771405cb:0001",
+      "case_key": "pld-2024-pesh-25",
+      "citation": "PLD 2024 Pesh 25",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2003-clc-1858": {
+      "query_id": "CL32",
+      "corpus": "case",
+      "chunk_id": "028ee53104c2512744155349:0001",
+      "case_key": "2003-clc-1858",
+      "citation": "2003 CLC 1858",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL33": {
+    "2003-ylr-696": {
+      "query_id": "CL33",
+      "corpus": "case",
+      "chunk_id": "042a486dbe47eae2def2fbd7:0001",
+      "case_key": "2003-ylr-696",
+      "citation": "2003 YLR 696",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "1999-ylr-425": {
+      "query_id": "CL33",
+      "corpus": "case",
+      "chunk_id": "04ab70af83f9a5448699c584:0001",
+      "case_key": "1999-ylr-425",
+      "citation": "1999 YLR 425",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL34": {
+    "pld-2025-bal-43": {
+      "query_id": "CL34",
+      "corpus": "case",
+      "chunk_id": "0052ad1d9b5bc0cc3a59b45c:0001",
+      "case_key": "pld-2025-bal-43",
+      "citation": "PLD 2025 Bal 43",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2025-ylr-720": {
+      "query_id": "CL34",
+      "corpus": "case",
+      "chunk_id": "006b201de5e84310d1f43ba4:0001",
+      "case_key": "2025-ylr-720",
+      "citation": "2025 YLR 720",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2002-clc-1838": {
+      "query_id": "CL34",
+      "corpus": "case",
+      "chunk_id": "008d928c2926b2a5855bcc36:0001",
+      "case_key": "2002-clc-1838",
+      "citation": "2002 CLC 1838",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL35": {
+    "pld-1997-kar-399": {
+      "query_id": "CL35",
+      "corpus": "case",
+      "chunk_id": "008395ffd47453b27dce84d4:0001",
+      "case_key": "pld-1997-kar-399",
+      "citation": "PLD 1997 Kar 399",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2002-clc-1838": {
+      "query_id": "CL35",
+      "corpus": "case",
+      "chunk_id": "008d928c2926b2a5855bcc36:0001",
+      "case_key": "2002-clc-1838",
+      "citation": "2002 CLC 1838",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL36": {
+    "2014-mld-1400": {
+      "query_id": "CL36",
+      "corpus": "case",
+      "chunk_id": "0225048a4640b9b93eec26d9:0001",
+      "case_key": "2014-mld-1400",
+      "citation": "2014 MLD 1400",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2023-clc-143": {
+      "query_id": "CL36",
+      "corpus": "case",
+      "chunk_id": "023e0c1226a8aceb9df8e3c3:0001",
+      "case_key": "2023-clc-143",
+      "citation": "2023 CLC 143",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2020-clc-1910": {
+      "query_id": "CL36",
+      "corpus": "case",
+      "chunk_id": "030d527d2b52b5e99a2b94ed:0001",
+      "case_key": "2020-clc-1910",
+      "citation": "2020 CLC 1910",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL37": {
+    "2023-ylr-1961": {
+      "query_id": "CL37",
+      "corpus": "case",
+      "chunk_id": "2182dc69539c097275cef2d5:0001",
+      "case_key": "2023-ylr-1961",
+      "citation": "2023 YLR 1961",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL38": {
+    "2003-ylr-696": {
+      "query_id": "CL38",
+      "corpus": "case",
+      "chunk_id": "042a486dbe47eae2def2fbd7:0001",
+      "case_key": "2003-ylr-696",
+      "citation": "2003 YLR 696",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2006-ylr-549": {
+      "query_id": "CL38",
+      "corpus": "case",
+      "chunk_id": "04dc1b81405e9c7eb21e439f:0001",
+      "case_key": "2006-ylr-549",
+      "citation": "2006 YLR 549",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "1988-scmr-1283": {
+      "query_id": "CL38",
+      "corpus": "case",
+      "chunk_id": "0517b526349986d9f93e98bd:0001",
+      "case_key": "1988-scmr-1283",
+      "citation": "1988 SCMR 1283",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL39": {
+    "2022-scmr-1352": {
+      "query_id": "CL39",
+      "corpus": "case",
+      "chunk_id": "646aa7bc9786546dfb42c7f3:0001",
+      "case_key": "2022-scmr-1352",
+      "citation": "2022 SCMR 1352",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL40": {
+    "2020-ylr-2523": {
+      "query_id": "CL40",
+      "corpus": "case",
+      "chunk_id": "002dcb72b51088b2694c627f:0001",
+      "case_key": "2020-ylr-2523",
+      "citation": "2020 YLR 2523",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2006-pesh-99": {
+      "query_id": "CL40",
+      "corpus": "case",
+      "chunk_id": "05d952f346988b6a60a126a6:0001",
+      "case_key": "pld-2006-pesh-99",
+      "citation": "PLD 2006 Pesh 99",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL41": {
+    "1995-clc-731": {
+      "query_id": "CL41",
+      "corpus": "case",
+      "chunk_id": "92ec7b377f3c105636300ea2:0001",
+      "case_key": "1995-clc-731",
+      "citation": "1995 CLC 731",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2022-clc-1821": {
+      "query_id": "CL41",
+      "corpus": "case",
+      "chunk_id": "ba1a1469362926f9a60b6989:0001",
+      "case_key": "2022-clc-1821",
+      "citation": "2022 CLC 1821",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2026-sc-91": {
+      "query_id": "CL41",
+      "corpus": "case",
+      "chunk_id": "14d08f67afeb8920d59f8589:0001",
+      "case_key": "pld-2026-sc-91",
+      "citation": "PLD 2026 SC 91",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL42": {
+    "2015-mld-11": {
+      "query_id": "CL42",
+      "corpus": "case",
+      "chunk_id": "05291f26a9fd20f71fa5c917:0001",
+      "case_key": "2015-mld-11",
+      "citation": "2015 MLD 11",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2016-clc-1337": {
+      "query_id": "CL42",
+      "corpus": "case",
+      "chunk_id": "065ac3fba512665a6a22dc8e:0001",
+      "case_key": "2016-clc-1337",
+      "citation": "2016 CLC 1337",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2023-ylr-2233": {
+      "query_id": "CL42",
+      "corpus": "case",
+      "chunk_id": "0f7eb25c84ca99d9c4f048e7:0001",
+      "case_key": "2023-ylr-2233",
+      "citation": "2023 YLR 2233",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL43": {
+    "2f058e72ef3a0956934e5436": {
+      "query_id": "CL43",
+      "corpus": "case",
+      "chunk_id": "2f058e72ef3a0956934e5436:0001",
+      "case_key": "2f058e72ef3a0956934e5436",
+      "citation": "2002 Y L R",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2012-isl-61": {
+      "query_id": "CL43",
+      "corpus": "case",
+      "chunk_id": "44fb3e6b8afb9b5a750e69be:0001",
+      "case_key": "pld-2012-isl-61",
+      "citation": "PLD 2012 Isl 61",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2026-sc-118": {
+      "query_id": "CL43",
+      "corpus": "case",
+      "chunk_id": "52578a47216059aafd07d163:0001",
+      "case_key": "pld-2026-sc-118",
+      "citation": "PLD 2026 SC 118",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL44": {
+    "2010-clc-1729": {
+      "query_id": "CL44",
+      "corpus": "case",
+      "chunk_id": "1fe746550e1d111e7c77cf5c:0001",
+      "case_key": "2010-clc-1729",
+      "citation": "2010 CLC 1729",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2007-mld-570": {
+      "query_id": "CL44",
+      "corpus": "case",
+      "chunk_id": "13a17ca7ebcb9dfddd3e46b7:0001",
+      "case_key": "2007-mld-570",
+      "citation": "2007 MLD 570",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2005-mld-5": {
+      "query_id": "CL44",
+      "corpus": "case",
+      "chunk_id": "2420ececed1046347b565141:0001",
+      "case_key": "2005-mld-5",
+      "citation": "2005 MLD 5",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL45": {
+    "2000-ylr-537": {
+      "query_id": "CL45",
+      "corpus": "case",
+      "chunk_id": "09fed894f69539615d52239f:0001",
+      "case_key": "2000-ylr-537",
+      "citation": "2000 YLR 537",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2018-clc-note-2": {
+      "query_id": "CL45",
+      "corpus": "case",
+      "chunk_id": "0dd57a6d23cc5f798605de70:0001",
+      "case_key": "2018-clc-note-2",
+      "citation": "2018 CLC Note 2",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL46": {
+    "pld-2008-lah-410": {
+      "query_id": "CL46",
+      "corpus": "case",
+      "chunk_id": "096ae7a9f72f99c0026bb868:0001",
+      "case_key": "pld-2008-lah-410",
+      "citation": "PLD 2008 Lah 410",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2017-mld-580": {
+      "query_id": "CL46",
+      "corpus": "case",
+      "chunk_id": "0c1d4282bb2c7d782439cd79:0001",
+      "case_key": "2017-mld-580",
+      "citation": "2017 MLD 580",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2002-pesh-30": {
+      "query_id": "CL46",
+      "corpus": "case",
+      "chunk_id": "0cb8c6fedc9c52e5c1fa0e83:0001",
+      "case_key": "pld-2002-pesh-30",
+      "citation": "PLD 2002 Pesh 30",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 3 of 3 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL47": {
+    "2006-ylr-2582": {
+      "query_id": "CL47",
+      "corpus": "case",
+      "chunk_id": "0f5dbb0e00dd1a7dd61e4cac:0001",
+      "case_key": "2006-ylr-2582",
+      "citation": "2006 YLR 2582",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "pld-2001-lah-495": {
+      "query_id": "CL47",
+      "corpus": "case",
+      "chunk_id": "1ad6dc8578b53f77be064b94:0001",
+      "case_key": "pld-2001-lah-495",
+      "citation": "PLD 2001 Lah 495",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL48": {
+    "pld-2024-pesh-25": {
+      "query_id": "CL48",
+      "corpus": "case",
+      "chunk_id": "00230296373ff94d771405cb:0001",
+      "case_key": "pld-2024-pesh-25",
+      "citation": "PLD 2024 Pesh 25",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2025-ylr-720": {
+      "query_id": "CL48",
+      "corpus": "case",
+      "chunk_id": "006b201de5e84310d1f43ba4:0001",
+      "case_key": "2025-ylr-720",
+      "citation": "2025 YLR 720",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL49": {
+    "2025-clc-960": {
+      "query_id": "CL49",
+      "corpus": "case",
+      "chunk_id": "149cb0b4b47aef969ea14867:0001",
+      "case_key": "2025-clc-960",
+      "citation": "2025 CLC 960",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2023-clc-2110": {
+      "query_id": "CL49",
+      "corpus": "case",
+      "chunk_id": "6e95b9a9083c11b8a6f44a9c:0001",
+      "case_key": "2023-clc-2110",
+      "citation": "2023 CLC 2110",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  },
+  "CL50": {
+    "pld-1997-kar-399": {
+      "query_id": "CL50",
+      "corpus": "case",
+      "chunk_id": "008395ffd47453b27dce84d4:0001",
+      "case_key": "pld-1997-kar-399",
+      "citation": "PLD 1997 Kar 399",
+      "grade": 2,
+      "rationale": "Strongest on-point headnote identified via keyword search.",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    },
+    "2002-clc-1838": {
+      "query_id": "CL50",
+      "corpus": "case",
+      "chunk_id": "008d928c2926b2a5855bcc36:0001",
+      "case_key": "2002-clc-1838",
+      "citation": "2002 CLC 1838",
+      "grade": 1,
+      "rationale": "Headnote on-point to query topic (rank 2 of 2 pooled candidates).",
+      "pooling_status": "pooled_incomplete",
+      "provenance": "researcher_judged"
+    }
+  }
+}

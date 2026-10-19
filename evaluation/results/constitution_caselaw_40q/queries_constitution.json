@@ -1,0 +1,23 @@
+[
+  {"id": "C01", "query": "What protection does the Constitution provide against deprivation of life or liberty except in accordance with law?", "status": "supported", "target_article": "9"},
+  {"id": "C02", "query": "What constitutional safeguards apply when a person is arrested or detained?", "status": "supported", "target_article": "10"},
+  {"id": "C03", "query": "Which constitutional provision guarantees the right to a fair trial and due process?", "status": "supported", "target_article": "10A"},
+  {"id": "C04", "query": "What protection does the Constitution provide for human dignity and the privacy of the home?", "status": "supported", "target_article": "14"},
+  {"id": "C05", "query": "What constitutional rights protect peaceful assembly and the formation of associations?", "status": "supported", "target_article": "16/17", "note": "Spans two articles (16: assembly, 17: association); both are grade-2 targets."},
+  {"id": "C06", "query": "Under what conditions may freedom of speech and expression be restricted under the Constitution?", "status": "supported", "target_article": "19"},
+  {"id": "C07", "query": "Which constitutional provision establishes the right of access to information in matters of public importance?", "status": "supported", "target_article": "19A"},
+  {"id": "C08", "query": "What constitutional protections apply to the profession and practice of religion?", "status": "supported", "target_article": "20"},
+  {"id": "C09", "query": "What constitutional protections govern the acquisition, holding, and deprivation of property?", "status": "supported", "target_article": "23/24", "note": "Spans two articles; both are grade-2 targets."},
+  {"id": "C10", "query": "How does the Constitution guarantee equality before the law and equal protection of the law?", "status": "supported", "target_article": "25"},
+  {"id": "C11", "query": "Which constitutional provision addresses the right to education for children?", "status": "supported", "target_article": "25A"},
+  {"id": "C12", "query": "What constitutional qualifications and disqualifications apply to membership of Parliament?", "status": "supported", "target_article": "63"},
+  {"id": "C13", "query": "Which constitutional provisions establish the federal executive authority and the role of the Cabinet?", "status": "supported", "target_article": "90/91"},
+  {"id": "C14", "query": "What does the Constitution require regarding the establishment of local governments?", "status": "supported", "target_article": "140A"},
+  {"id": "C15", "query": "What does the Constitution provide concerning the separation of the judiciary from the executive?", "status": "supported", "target_article": "175"},
+  {"id": "C16", "query": "Under what constitutional circumstances can the Supreme Court exercise original jurisdiction over matters involving public importance and fundamental rights?", "status": "supported_with_finding",
+   "target_article": "175A/175E", "note": "Article 184 (the provision this question's wording naturally evokes) was found OMITTED by the Constitution (Twenty-Seventh Amendment) Act, 2025, s.29 -- confirmed by direct text reading (var/rag/constitution_chunked). The substance now resides in Article 175E(3), under the new Chapter 1A 'THE FEDERAL CONSTITUTIONAL COURT', which states near-verbatim: 'if it considers that a question of public importance with reference to the enforcement of any of the Fundamental Rights...is involved, have the power to make an order of the nature mentioned in [Article 199].' Query text preserved exactly as given; target corrected to the current, verified provision."},
+  {"id": "C17", "query": "What jurisdiction does a High Court have to issue constitutional directions, orders, or writs?", "status": "supported", "target_article": "199"},
+  {"id": "C18", "query": "What constitutional principles govern whether laws must conform to the injunctions of Islam?", "status": "supported", "target_article": "227"},
+  {"id": "C19", "query": "Under what constitutional circumstances may an emergency be proclaimed?", "status": "supported", "target_article": "232"},
+  {"id": "C20", "query": "What procedure does the Constitution prescribe for amendments to the Constitution?", "status": "supported", "target_article": "239"}
+]

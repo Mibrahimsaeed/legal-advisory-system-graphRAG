@@ -1,0 +1,5 @@
+?? evaluation/results/case_law_qrels_expansion_20261019_220106/
+?? evaluation/results/cl11_cl18_fusion_experiment/
+?? evaluation/results/constitution_caselaw_40q/
+?? evaluation/results/final_family_law_150_query_benchmark_20261019_212630/
+---

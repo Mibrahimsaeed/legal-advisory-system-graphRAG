@@ -1,0 +1,25 @@
+{
+  "production_fusion_implementation": {
+    "file": "src/rag_prep/embed_index.py", "function": "hybrid_search()",
+    "fusion_call": "models.FusionQuery(fusion=models.Fusion.RRF) via Qdrant's built-in query_points(), candidates=40 per branch",
+    "rrf_constant_assumed_by_common_convention": 60,
+    "rrf_constant_empirically_validated_in_this_experiment": 1,
+    "validation_method": "Swept k in {0,1,2,5,10,20,30,60} with equal (1.0/1.0) weights against the fixed depth-40 dense/sparse candidate lists, compared each offline top-10 to the FROZEN production hybrid top-10 (constitution_caselaw_40q/retrieval_hybrid.jsonl) for all 33 scored queries.",
+    "validation_result": "k=1 is the best fit: ~16-19/33 exact top-10 ORDER matches (minor run-to-run variance from non-deterministic tie-breaking order in this offline script, not a formula error), 31/33 IDENTICAL top-10 candidate SETS, and EXACT rank reproduction (confirmed across repeated runs) for both CL11 and CL18 specifically. k=60 (the commonly-cited RRF default) gave only 1/33 exact matches and was rejected.",
+    "caveat": "k=1 is an empirically-fit approximation of Qdrant's actual internal RRF implementation, not independently confirmed against Qdrant's source code or documentation in this task. It is validated well enough for this experiment's purpose (comparing weighted variants against a baseline that reproduces CL11/CL18 exactly), but is explicitly NOT claimed to be bit-identical to production in all cases -- 2 of 33 queries (C10, C13) show a genuinely different top-10 candidate set under this offline formula."
+  },
+  "offline_fusion_formula_used": "score(chunk) = dense_weight / (k + dense_rank) + sparse_weight / (k + sparse_rank), summed over whichever branch(es) the chunk appears in (k=1, fixed depth-40 candidate lists held constant across all three configs)",
+  "configs_tested": [
+    {"name": "rrf_dense1.0_sparse1.0", "dense_weight": 1.0, "sparse_weight": 1.0, "role": "offline reproduction of the production baseline"},
+    {"name": "rrf_dense1.0_sparse0.75", "dense_weight": 1.0, "sparse_weight": 0.75, "role": "experimental -- reduced sparse contribution"},
+    {"name": "rrf_dense1.0_sparse0.5", "dense_weight": 1.0, "sparse_weight": 0.5, "role": "experimental -- further reduced sparse contribution"}
+  ],
+  "controls_held_fixed": [
+    "Same 33 frozen queries and exact query text (from constitution_caselaw_40q, unmodified)",
+    "Same frozen qrels (qrels_combined_simple.json, unmodified)",
+    "Same dense and sparse candidate lists (depth=40 each, fetched once via run_branch_candidates40.py, reused unmodified across all 3 configs)",
+    "Same evaluation metric code (calculate_metrics.py's precision_at_k/ndcg_at_k/recall_at_k, imported read-only, unmodified)",
+    "Candidate depth (40) never changed between configs -- only the fusion weight was varied"
+  ],
+  "not_proposed_as_production_changes": true
+}

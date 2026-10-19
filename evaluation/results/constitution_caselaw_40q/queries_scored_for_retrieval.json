@@ -1,0 +1,200 @@
+[
+  {
+    "query_id": "C01",
+    "category": "constitution",
+    "query": "What protection does the Constitution provide against deprivation of life or liberty except in accordance with law?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C02",
+    "category": "constitution",
+    "query": "What constitutional safeguards apply when a person is arrested or detained?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C03",
+    "category": "constitution",
+    "query": "Which constitutional provision guarantees the right to a fair trial and due process?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C04",
+    "category": "constitution",
+    "query": "What protection does the Constitution provide for human dignity and the privacy of the home?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C05",
+    "category": "constitution",
+    "query": "What constitutional rights protect peaceful assembly and the formation of associations?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C06",
+    "category": "constitution",
+    "query": "Under what conditions may freedom of speech and expression be restricted under the Constitution?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C07",
+    "category": "constitution",
+    "query": "Which constitutional provision establishes the right of access to information in matters of public importance?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C08",
+    "category": "constitution",
+    "query": "What constitutional protections apply to the profession and practice of religion?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C09",
+    "category": "constitution",
+    "query": "What constitutional protections govern the acquisition, holding, and deprivation of property?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C10",
+    "category": "constitution",
+    "query": "How does the Constitution guarantee equality before the law and equal protection of the law?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C11",
+    "category": "constitution",
+    "query": "Which constitutional provision addresses the right to education for children?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C12",
+    "category": "constitution",
+    "query": "What constitutional qualifications and disqualifications apply to membership of Parliament?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C13",
+    "category": "constitution",
+    "query": "Which constitutional provisions establish the federal executive authority and the role of the Cabinet?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C14",
+    "category": "constitution",
+    "query": "What does the Constitution require regarding the establishment of local governments?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C15",
+    "category": "constitution",
+    "query": "What does the Constitution provide concerning the separation of the judiciary from the executive?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C16",
+    "category": "constitution",
+    "query": "Under what constitutional circumstances can the Supreme Court exercise original jurisdiction over matters involving public importance and fundamental rights?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C17",
+    "category": "constitution",
+    "query": "What jurisdiction does a High Court have to issue constitutional directions, orders, or writs?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C18",
+    "category": "constitution",
+    "query": "What constitutional principles govern whether laws must conform to the injunctions of Islam?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C19",
+    "category": "constitution",
+    "query": "Under what constitutional circumstances may an emergency be proclaimed?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "C20",
+    "category": "constitution",
+    "query": "What procedure does the Constitution prescribe for amendments to the Constitution?",
+    "corpus": "constitution"
+  },
+  {
+    "query_id": "CL01",
+    "category": "caselaw",
+    "query": "Is a Nikahnama's content treated as proof of marriage, and how do courts assess entries recorded in its columns?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL02",
+    "category": "caselaw",
+    "query": "What is the legal nature of a decree for restitution of conjugal rights, and can it be directly enforced by the court?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL04",
+    "category": "caselaw",
+    "query": "What legal or medical presumption applies to the legitimacy of a child born within a certain period of a valid marriage?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL07",
+    "category": "caselaw",
+    "query": "Does a husband have an absolute right to pronounce talaq under Islamic law, and is any specific condition required?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL08",
+    "category": "caselaw",
+    "query": "When does the period of Iddat begin to run following a judicial decree of divorce?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL11",
+    "category": "caselaw",
+    "query": "Under what circumstances may a court condone delay in filing a civil proceeding or appeal?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL12",
+    "category": "caselaw",
+    "query": "Is a suit for jactitation of marriage maintainable, and what must be established as the foundation of the alleged marriage?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL13",
+    "category": "caselaw",
+    "query": "Under Islamic law, what restraints apply to a husband's right to contract a second marriage (polygamy)?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL14",
+    "category": "caselaw",
+    "query": "How do courts address the exclusion of a legal heir from inheritance or the transfer of inherited property?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL15",
+    "category": "caselaw",
+    "query": "What legal principles do courts apply when deciding a wife's claim for khula and the return of dower?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL16",
+    "category": "caselaw",
+    "query": "How does the welfare of a minor guide judicial decisions concerning child custody?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL17",
+    "category": "caselaw",
+    "query": "What factors do courts consider when deciding claims for maintenance by a wife or children?",
+    "corpus": "case"
+  },
+  {
+    "query_id": "CL18",
+    "category": "caselaw",
+    "query": "When may a constitutional petition be declined because an alternative legal remedy is available?",
+    "corpus": "case"
+  }
+]

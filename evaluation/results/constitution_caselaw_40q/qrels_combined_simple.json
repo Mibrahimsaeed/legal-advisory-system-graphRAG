@@ -1,0 +1,170 @@
+{
+  "C01": {
+    "constitution": [
+      "art_9"
+    ]
+  },
+  "C02": {
+    "constitution": [
+      "art_10_c1"
+    ]
+  },
+  "C03": {
+    "constitution": [
+      "art_10a"
+    ]
+  },
+  "C04": {
+    "constitution": [
+      "art_14"
+    ]
+  },
+  "C05": {
+    "constitution": [
+      "art_16",
+      "art_17"
+    ]
+  },
+  "C06": {
+    "constitution": [
+      "art_19"
+    ]
+  },
+  "C07": {
+    "constitution": [
+      "art_19a"
+    ]
+  },
+  "C08": {
+    "constitution": [
+      "art_20"
+    ]
+  },
+  "C09": {
+    "constitution": [
+      "art_23",
+      "art_24_c1"
+    ]
+  },
+  "C10": {
+    "constitution": [
+      "art_25"
+    ]
+  },
+  "C11": {
+    "constitution": [
+      "art_25a"
+    ]
+  },
+  "C12": {
+    "constitution": [
+      "art_63_c1_p1"
+    ]
+  },
+  "C13": {
+    "constitution": [
+      "art_90",
+      "art_91_c1"
+    ]
+  },
+  "C14": {
+    "constitution": [
+      "art_140a"
+    ]
+  },
+  "C15": {
+    "constitution": [
+      "art_175"
+    ]
+  },
+  "C16": {
+    "constitution": [
+      "art_175e"
+    ]
+  },
+  "C17": {
+    "constitution": [
+      "art_199_c1"
+    ]
+  },
+  "C18": {
+    "constitution": [
+      "art_227"
+    ]
+  },
+  "C19": {
+    "constitution": [
+      "art_232_c1"
+    ]
+  },
+  "C20": {
+    "constitution": [
+      "art_239"
+    ]
+  },
+  "CL01": {
+    "case": [
+      "05fd8f4997610de5f26d2360:0006"
+    ]
+  },
+  "CL02": {
+    "case": [
+      "3f1e6f241a961729b9f18c31:0001"
+    ]
+  },
+  "CL04": {
+    "case": [
+      "b592387f97dfa995ab0952b3:0002"
+    ]
+  },
+  "CL07": {
+    "case": [
+      "05fd8f4997610de5f26d2360:0007"
+    ]
+  },
+  "CL08": {
+    "case": [
+      "433f5d7df19b1da65bf4f42a:0003"
+    ]
+  },
+  "CL11": {
+    "case": [
+      "8e2059846f6b77bd8ddd9a3a:0002"
+    ]
+  },
+  "CL12": {
+    "case": [
+      "44bca0a557b84b71f89662a1:0003"
+    ]
+  },
+  "CL13": {
+    "case": [
+      "ac1633bdcf2516ac6a7668d7:0002"
+    ]
+  },
+  "CL14": {
+    "case": [
+      "3c285bd30ea33f4280ac5fbd:0001"
+    ]
+  },
+  "CL15": {
+    "case": [
+      "012f303c801f80859710ceb5:0001"
+    ]
+  },
+  "CL16": {
+    "case": [
+      "441e320b5531a1217fddf655:0002"
+    ]
+  },
+  "CL17": {
+    "case": [
+      "05291f26a9fd20f71fa5c917:0005"
+    ]
+  },
+  "CL18": {
+    "case": [
+      "271e7125df86baebc57dc205:0002"
+    ]
+  }
+}

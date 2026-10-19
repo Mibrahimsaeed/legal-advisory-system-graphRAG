@@ -1,0 +1,26 @@
+{
+  "relevance_scale": {"2": "directly relevant (the primary article/clause answering the query)"},
+  "methodology": "Every target verified by directly reading the current var/rag/constitution_chunked/b427a922990d75f027928c15.json chunk text. Grading is single-grade (2 only) and representative, not exhaustive: each query's qrels name the primary article/clause, not necessarily every conceivably-relevant sub-clause in a long article.",
+  "queries": {
+    "C01": {"grade2": ["art_9"]},
+    "C02": {"grade2": ["art_10_c1"]},
+    "C03": {"grade2": ["art_10a"]},
+    "C04": {"grade2": ["art_14"]},
+    "C05": {"grade2": ["art_16", "art_17"], "note": "Query spans two distinct articles (assembly, association); both are valid grade-2 targets."},
+    "C06": {"grade2": ["art_19"]},
+    "C07": {"grade2": ["art_19a"]},
+    "C08": {"grade2": ["art_20"]},
+    "C09": {"grade2": ["art_23", "art_24_c1"], "note": "Query spans two articles (acquisition/holding, deprivation); both are valid grade-2 targets."},
+    "C10": {"grade2": ["art_25"]},
+    "C11": {"grade2": ["art_25a"]},
+    "C12": {"grade2": ["art_63_c1_p1"], "note": "Reused verbatim from evaluation/results/sri_phase1_qrels_rich.json (already independently verified in prior project work)."},
+    "C13": {"grade2": ["art_90", "art_91_c1"]},
+    "C14": {"grade2": ["art_140a"]},
+    "C15": {"grade2": ["art_175"]},
+    "C16": {"grade2": ["art_175e"], "note": "See queries_constitution.json's note on Article 184 having been omitted by the 27th Amendment, 2025; 175E is the verified current provision."},
+    "C17": {"grade2": ["art_199_c1"], "note": "Reused verbatim from evaluation/results/full_corpus_retrieval_audit/qrels_caselaw_constitution.json."},
+    "C18": {"grade2": ["art_227"]},
+    "C19": {"grade2": ["art_232_c1"]},
+    "C20": {"grade2": ["art_239"]}
+  }
+}

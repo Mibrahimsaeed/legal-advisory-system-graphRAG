@@ -1,0 +1,122 @@
+{
+  "corpus": "case",
+  "grading": "document-level (case_key)",
+  "corpora": {
+    "case": {
+      "dense": {
+        "n_eligible_queries": 50,
+        "p_at_5": {
+          "macro_avg": 0.904,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "ndcg_at_10": {
+          "macro_avg": 0.8902,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "recall_at_5": {
+          "macro_avg": 0.2965,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.5464,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.9462,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 0.96,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 0.98,
+          "denominator": 50,
+          "n_missing": 0
+        }
+      },
+      "sparse": {
+        "n_eligible_queries": 50,
+        "p_at_5": {
+          "macro_avg": 0.884,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "ndcg_at_10": {
+          "macro_avg": 0.8926,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "recall_at_5": {
+          "macro_avg": 0.2963,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.4795,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.9567,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 1.0,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 1.0,
+          "denominator": 50,
+          "n_missing": 0
+        }
+      },
+      "hybrid": {
+        "n_eligible_queries": 50,
+        "p_at_5": {
+          "macro_avg": 0.9,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "ndcg_at_10": {
+          "macro_avg": 0.8999,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "recall_at_5": {
+          "macro_avg": 0.2916,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "recall_at_10": {
+          "macro_avg": 0.5403,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "mrr_at_10": {
+          "macro_avg": 0.97,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "hit_rate_at_5": {
+          "macro_avg": 1.0,
+          "denominator": 50,
+          "n_missing": 0
+        },
+        "hit_rate_at_10": {
+          "macro_avg": 1.0,
+          "denominator": 50,
+          "n_missing": 0
+        }
+      }
+    }
+  }
+}

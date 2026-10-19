@@ -1,0 +1,445 @@
+query_id,corpus,method,n_retrieved,p_at_5,ndcg_at_10,recall_at_5,recall_at_10,mrr_at_10,hit_rate_at_5,hit_rate_at_10,doc_recall_at_5,doc_recall_at_10,doc_mrr_at_10,doc_hit_rate_at_5,doc_hit_rate_at_10,p_at_5_note,ndcg_at_10_note
+C01,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C02,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C03,constitution,dense,40,0.2,0.6309297535714574,1.0,1.0,0.5,1.0,1.0,,,,,,,
+C04,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C05,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C06,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C07,constitution,dense,40,0.2,1.0,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,,,,,,,
+C08,constitution,dense,40,0.4,0.8503449055347546,0.2857142857142857,0.2857142857142857,1.0,1.0,1.0,,,,,,,
+C09,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C10,constitution,dense,40,1.0,1.0,0.4166666666666667,0.4166666666666667,1.0,1.0,1.0,,,,,,,
+C11,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C12,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C13,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C14,constitution,dense,40,0.4,0.5706417189553201,0.25,0.25,0.3333333333333333,1.0,1.0,,,,,,,
+C15,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C16,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C17,constitution,dense,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C18,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C19,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C20,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C21,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C22,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C23,constitution,dense,40,0.4,0.9134015924715543,0.6666666666666666,1.0,1.0,1.0,1.0,,,,,,,
+C24,constitution,dense,40,0.2,0.6309297535714574,0.1111111111111111,0.1111111111111111,0.5,1.0,1.0,,,,,,,
+C25,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C26,constitution,dense,40,0.2,0.4306765580733931,0.14285714285714285,0.14285714285714285,0.25,1.0,1.0,,,,,,,
+C27,constitution,dense,40,0.6,1.0,0.42857142857142855,0.42857142857142855,1.0,1.0,1.0,,,,,,,
+C28,constitution,dense,40,0.4,0.932521091954824,0.2857142857142857,0.42857142857142855,1.0,1.0,1.0,,,,,,,
+C29,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C30,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C31,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C32,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C33,constitution,dense,40,0.2,0.4306765580733931,0.5,0.5,0.25,1.0,1.0,,,,,,,
+C35,constitution,dense,40,0.0,0.3562071871080222,0.0,0.5,0.16666666666666666,0.0,1.0,,,,,,,
+C36,constitution,dense,40,0.8,0.9560290452802049,0.3333333333333333,0.4166666666666667,1.0,1.0,1.0,,,,,,,
+C37,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C38,constitution,dense,40,0.2,1.0,0.1111111111111111,0.1111111111111111,1.0,1.0,1.0,,,,,,,
+C39,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C41,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C42,constitution,dense,40,0.6,0.8485833840018001,0.6,0.8,1.0,1.0,1.0,,,,,,,
+C43,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C44,constitution,dense,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C45,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C46,constitution,dense,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C47,constitution,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C48,constitution,dense,40,0.2,1.0,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,,,,,,,
+C49,constitution,dense,40,0.2,1.0,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,,,,,,,
+C50,constitution,dense,40,0.2,0.6309297535714574,0.5,0.5,0.5,1.0,1.0,,,,,,,
+C01,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C02,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C03,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C04,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C05,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C06,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C07,constitution,sparse,40,0.4,0.5723986829443737,0.2857142857142857,0.42857142857142855,0.3333333333333333,1.0,1.0,,,,,,,
+C08,constitution,sparse,40,0.4,0.6509209298071326,0.2857142857142857,0.2857142857142857,0.5,1.0,1.0,,,,,,,
+C09,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C10,constitution,sparse,40,0.8,0.9828920819566878,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,,,,,,,
+C11,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C12,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C13,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C14,constitution,sparse,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C15,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C16,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C17,constitution,sparse,40,0.2,1.0,0.5,0.5,1.0,1.0,1.0,,,,,,,
+C18,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C19,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C20,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C21,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C22,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C23,constitution,sparse,40,0.6,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C24,constitution,sparse,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C25,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C26,constitution,sparse,40,0.2,0.6309297535714574,0.14285714285714285,0.14285714285714285,0.5,1.0,1.0,,,,,,,
+C27,constitution,sparse,40,0.6,0.7397466333385989,0.42857142857142855,0.5714285714285714,0.5,1.0,1.0,,,,,,,
+C28,constitution,sparse,40,0.2,0.5,0.14285714285714285,0.14285714285714285,0.3333333333333333,1.0,1.0,,,,,,,
+C29,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C30,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C31,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C32,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C33,constitution,sparse,40,0.2,0.6309297535714574,0.5,0.5,0.5,1.0,1.0,,,,,,,
+C35,constitution,sparse,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C36,constitution,sparse,40,0.8,0.9284591831945488,0.3333333333333333,0.4166666666666667,1.0,1.0,1.0,,,,,,,
+C37,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C38,constitution,sparse,40,0.2,0.4306765580733931,0.1111111111111111,0.1111111111111111,0.25,1.0,1.0,,,,,,,
+C39,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C41,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C42,constitution,sparse,40,0.6,0.9267582364714125,0.6,0.8,1.0,1.0,1.0,,,,,,,
+C43,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C44,constitution,sparse,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C45,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C46,constitution,sparse,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C47,constitution,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C48,constitution,sparse,40,0.2,0.4306765580733931,0.14285714285714285,0.14285714285714285,0.25,1.0,1.0,,,,,,,
+C49,constitution,sparse,40,0.2,1.0,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,,,,,,,
+C50,constitution,sparse,40,0.2,1.0,0.5,0.5,1.0,1.0,1.0,,,,,,,
+C01,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C02,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C03,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C04,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C05,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C06,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C07,constitution,hybrid,40,0.2,0.8175295903539446,0.14285714285714285,0.2857142857142857,1.0,1.0,1.0,,,,,,,
+C08,constitution,hybrid,40,0.4,0.8126530453831332,0.2857142857142857,0.42857142857142855,1.0,1.0,1.0,,,,,,,
+C09,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C10,constitution,hybrid,40,0.8,0.98184832424553,0.3333333333333333,0.4166666666666667,1.0,1.0,1.0,,,,,,,
+C11,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C12,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C13,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C14,constitution,hybrid,40,0.0,0.39780880120575696,0.0,0.25,0.14285714285714285,0.0,1.0,,,,,,,
+C15,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C16,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C17,constitution,hybrid,40,0.4,0.9197207891481876,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C18,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C19,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C20,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C21,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C22,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C23,constitution,hybrid,40,0.6,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C24,constitution,hybrid,40,0.2,0.5,0.1111111111111111,0.1111111111111111,0.3333333333333333,1.0,1.0,,,,,,,
+C25,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C26,constitution,hybrid,40,0.2,0.6309297535714574,0.14285714285714285,0.14285714285714285,0.5,1.0,1.0,,,,,,,
+C27,constitution,hybrid,40,0.6,0.9060254355346824,0.42857142857142855,0.42857142857142855,1.0,1.0,1.0,,,,,,,
+C28,constitution,hybrid,40,0.4,0.7920874914199382,0.2857142857142857,0.42857142857142855,1.0,1.0,1.0,,,,,,,
+C29,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C30,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C31,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C32,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C33,constitution,hybrid,40,0.2,0.5,0.5,0.5,0.3333333333333333,1.0,1.0,,,,,,,
+C35,constitution,hybrid,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C36,constitution,hybrid,40,0.8,0.9512312000626859,0.3333333333333333,0.4166666666666667,1.0,1.0,1.0,,,,,,,
+C37,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C38,constitution,hybrid,40,0.2,0.5853898393086269,0.1111111111111111,0.3333333333333333,0.5,1.0,1.0,,,,,,,
+C39,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C41,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C42,constitution,hybrid,40,0.6,0.9456352704673574,0.6,1.0,1.0,1.0,1.0,,,,,,,
+C43,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C44,constitution,hybrid,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C45,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C46,constitution,hybrid,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+C47,constitution,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+C48,constitution,hybrid,40,0.2,1.0,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,,,,,,,
+C49,constitution,hybrid,40,0.2,1.0,0.14285714285714285,0.14285714285714285,1.0,1.0,1.0,,,,,,,
+C50,constitution,hybrid,40,0.2,1.0,0.5,0.5,1.0,1.0,1.0,,,,,,,
+S01,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S02,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S03,statute,dense,40,0.2,0.8065735963827292,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S04,statute,dense,40,0.2,0.8315546295836226,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S05,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S06,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S07,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S08,statute,dense,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S09,statute,dense,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S10,statute,dense,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S11,statute,dense,40,0.4,0.9197207891481876,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S12,statute,dense,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S13,statute,dense,40,0.4,0.9197207891481876,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S14,statute,dense,40,0.4,0.8772153153380493,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S15,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S16,statute,dense,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S17,statute,dense,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S18,statute,dense,40,0.4,0.8772153153380493,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S19,statute,dense,40,0.4,0.8332128630752802,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S20,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S21,statute,dense,40,0.4,0.5642221110316635,1.0,1.0,0.2,1.0,1.0,,,,,,,
+S22,statute,dense,40,0.2,0.5,1.0,1.0,0.3333333333333333,1.0,1.0,,,,,,,
+S23,statute,dense,40,0.4,0.8385465274895064,0.0,1.0,0.16666666666666666,0.0,1.0,,,,,,,
+S24,statute,dense,40,0.4,0.5706417189553201,1.0,1.0,0.3333333333333333,1.0,1.0,,,,,,,
+S25,statute,dense,40,0.4,0.8772153153380493,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S26,statute,dense,40,0.2,0.8315546295836226,0.5,1.0,1.0,1.0,1.0,,,,,,,
+S27,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S28,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S29,statute,dense,40,0.2,0.48247555939075515,0.5,1.0,0.25,1.0,1.0,,,,,,,
+S30,statute,dense,40,0.4,0.9197207891481876,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S31,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S32,statute,dense,40,0.2,0.6309297535714574,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S33,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S34,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S35,statute,dense,40,0.2,0.6309297535714574,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S36,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S37,statute,dense,40,0.2,0.5,1.0,1.0,0.3333333333333333,1.0,1.0,,,,,,,
+S38,statute,dense,40,0.4,0.644964795055663,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S39,statute,dense,40,0.4,0.6509209298071326,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S40,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S41,statute,dense,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S42,statute,dense,40,0.2,0.5912352048230277,0.3333333333333333,0.6666666666666666,0.5,1.0,1.0,,,,,,,
+S43,statute,dense,40,0.2,0.6309297535714574,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S44,statute,dense,40,0.2,0.5109559939712154,0.5,1.0,0.3333333333333333,1.0,1.0,,,,,,,
+S45,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S46,statute,dense,40,0.6,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S47,statute,dense,40,0.4,0.932521091954824,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S48,statute,dense,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S49,statute,dense,40,0.2,0.38685280723454163,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S50,statute,dense,40,0.4,0.8503449055347546,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S01,statute,sparse,40,0.4,0.6240505200038378,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S02,statute,sparse,40,0.2,0.6309297535714574,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S03,statute,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S04,statute,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S05,statute,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S06,statute,sparse,40,0.2,0.8315546295836226,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S07,statute,sparse,40,0.0,0.2890648263178878,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S08,statute,sparse,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S09,statute,sparse,40,0.4,0.9197207891481876,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S10,statute,sparse,40,0.4,1.0,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S11,statute,sparse,40,0.4,0.8772153153380493,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S12,statute,sparse,40,0.4,0.8503449055347546,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S13,statute,sparse,40,0.4,0.8503449055347546,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S14,statute,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S15,statute,sparse,40,0.2,0.8175295903539446,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S16,statute,sparse,40,0.2,0.8315546295836226,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S17,statute,sparse,40,0.0,0.3154648767857287,0.0,1.0,0.125,0.0,1.0,,,,,,,
+S18,statute,sparse,40,0.4,0.7988614740430419,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S19,statute,sparse,40,0.2,0.49141527484330927,0.5,1.0,0.25,1.0,1.0,,,,,,,
+S20,statute,sparse,40,0.2,0.7903864795495061,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S21,statute,sparse,40,0.6,0.8667163765466583,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S22,statute,sparse,40,0.4,0.6340499455108034,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S23,statute,sparse,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S24,statute,sparse,40,0.4,0.8385465274895064,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S25,statute,sparse,40,0.2,0.6309297535714574,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S26,statute,sparse,40,0.2,0.8065735963827292,0.5,1.0,1.0,1.0,1.0,,,,,,,
+S27,statute,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S28,statute,sparse,40,0.2,0.4306765580733931,1.0,1.0,0.25,1.0,1.0,,,,,,,
+S29,statute,sparse,40,0.4,0.6509209298071326,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S30,statute,sparse,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S31,statute,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S32,statute,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S33,statute,sparse,40,0.2,0.4306765580733931,1.0,1.0,0.25,1.0,1.0,,,,,,,
+S34,statute,sparse,40,0.2,0.6309297535714574,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S35,statute,sparse,40,0.2,0.6309297535714574,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S36,statute,sparse,40,0.2,0.38685280723454163,1.0,1.0,0.2,1.0,1.0,,,,,,,
+S37,statute,sparse,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S38,statute,sparse,40,0.2,0.5714285040141098,0.5,1.0,0.5,1.0,1.0,,,,,,,
+S39,statute,sparse,40,0.4,0.5437713091520254,1.0,1.0,0.3333333333333333,1.0,1.0,,,,,,,
+S40,statute,sparse,40,0.2,0.5,1.0,1.0,0.3333333333333333,1.0,1.0,,,,,,,
+S41,statute,sparse,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S42,statute,sparse,40,0.4,0.6934264036172708,0.6666666666666666,0.6666666666666666,0.5,1.0,1.0,,,,,,,
+S43,statute,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S44,statute,sparse,40,0.4,0.6240505200038378,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S45,statute,sparse,40,0.2,0.5,1.0,1.0,0.3333333333333333,1.0,1.0,,,,,,,
+S46,statute,sparse,40,0.0,0.3010299956639812,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S47,statute,sparse,40,0.2,0.41443699955334395,0.5,1.0,0.2,1.0,1.0,,,,,,,
+S48,statute,sparse,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S49,statute,sparse,40,0.2,0.4486438193521591,0.0,1.0,0.1111111111111111,0.0,1.0,,,,,,,
+S50,statute,sparse,40,0.2,0.5912352048230277,0.5,1.0,0.5,1.0,1.0,,,,,,,
+S01,statute,hybrid,40,0.2,0.8175295903539446,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S02,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S03,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S04,statute,hybrid,40,0.2,0.7903864795495061,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S05,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S06,statute,hybrid,40,0.2,0.7903864795495061,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S07,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S08,statute,hybrid,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S09,statute,hybrid,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S10,statute,hybrid,40,0.4,1.0,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S11,statute,hybrid,40,0.4,0.9197207891481876,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S12,statute,hybrid,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S13,statute,hybrid,40,0.4,0.9197207891481876,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S14,statute,hybrid,40,0.4,0.8503449055347546,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S15,statute,hybrid,40,0.2,0.7977228895450267,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S16,statute,hybrid,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S17,statute,hybrid,40,0.4,0.8503449055347546,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S18,statute,hybrid,40,0.4,0.9197207891481876,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S19,statute,hybrid,40,0.4,0.6462302129493455,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S20,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S21,statute,hybrid,40,0.4,0.6653497124326152,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S22,statute,hybrid,40,0.2,0.5,1.0,1.0,0.3333333333333333,1.0,1.0,,,,,,,
+S23,statute,hybrid,40,0.4,0.932521091954824,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S24,statute,hybrid,40,0.4,0.8385465274895064,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S25,statute,hybrid,40,0.4,0.8503449055347546,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S26,statute,hybrid,40,0.4,0.8503449055347546,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S27,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S28,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S29,statute,hybrid,40,0.4,0.6240505200038378,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S30,statute,hybrid,40,0.4,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S31,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S32,statute,hybrid,40,0.2,0.6309297535714574,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S33,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S34,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S35,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S36,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S37,statute,hybrid,40,0.0,0.3333333333333333,0.0,1.0,0.14285714285714285,0.0,1.0,,,,,,,
+S38,statute,hybrid,40,0.4,0.6240505200038378,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S39,statute,hybrid,40,0.4,0.5706417189553201,1.0,1.0,0.3333333333333333,1.0,1.0,,,,,,,
+S40,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S41,statute,hybrid,40,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S42,statute,hybrid,40,0.4,0.639456230326242,0.6666666666666666,1.0,0.5,1.0,1.0,,,,,,,
+S43,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S44,statute,hybrid,40,0.4,0.5012658353418872,1.0,1.0,0.25,1.0,1.0,,,,,,,
+S45,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S46,statute,hybrid,40,0.4,0.8179809735263115,0.6666666666666666,1.0,1.0,1.0,1.0,,,,,,,
+S47,statute,hybrid,40,0.4,0.6509209298071326,1.0,1.0,0.5,1.0,1.0,,,,,,,
+S48,statute,hybrid,40,0.2,1.0,1.0,1.0,1.0,1.0,1.0,,,,,,,
+S49,statute,hybrid,40,0.2,0.5,0.0,0.0,0.0,0.0,0.0,,,,,,,
+S50,statute,hybrid,40,0.2,0.8315546295836226,0.5,1.0,1.0,1.0,1.0,,,,,,,
+CL01,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL02,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL03,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL04,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL05,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL06,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL07,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL08,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.5,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL09,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL10,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.5,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL11,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL12,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.2,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL13,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL14,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL15,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL16,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL17,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL18,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL19,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL20,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL21,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL22,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL23,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL24,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL25,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL26,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL27,case,dense,40,,,0.0,0.3333333333333333,0.1111111111111111,0.0,1.0,0.0,0.3333333333333333,0.1111111111111111,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 10]"
+CL28,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL29,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL30,case,dense,40,,,0.3333333333333333,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 6, 7, 8, 9, 10]"
+CL31,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL32,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL33,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL34,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL35,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL36,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL37,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL38,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL39,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL40,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL41,case,dense,40,,,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,0.6666666666666666,0.6666666666666666,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 3, 4, 5]","missing relevance label(s) at rank(s) [2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL42,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL43,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.16666666666666666,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL44,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL45,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.16666666666666666,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL46,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL47,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL48,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL49,case,dense,40,,,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 3, 4, 5]","missing relevance label(s) at rank(s) [2, 3, 4, 5, 6, 7, 9, 10]"
+CL50,case,dense,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL01,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL02,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL03,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL04,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL05,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL06,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL07,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL08,case,sparse,40,,,0.3333333333333333,0.3333333333333333,0.5,1.0,1.0,0.3333333333333333,0.3333333333333333,0.5,1.0,1.0,"missing relevance label(s) at rank(s) [1, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL09,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL10,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL11,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL12,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL13,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL14,case,sparse,40,,,0.0,1.0,0.16666666666666666,0.0,1.0,0.0,1.0,0.16666666666666666,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 7, 8, 9, 10]"
+CL15,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL16,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL17,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL18,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL19,case,sparse,40,,,0.0,0.5,0.1111111111111111,0.0,1.0,0.0,1.0,0.125,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 10]"
+CL20,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL21,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL22,case,sparse,40,,,0.0,0.3333333333333333,0.14285714285714285,0.0,1.0,0.6666666666666666,0.6666666666666666,0.5,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 8, 9, 10]"
+CL23,case,sparse,40,,,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,0.3333333333333333,0.3333333333333333,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 3, 4, 5]","missing relevance label(s) at rank(s) [2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL24,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL25,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL26,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.14285714285714285,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL27,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.125,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL28,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.1,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL29,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL30,case,sparse,40,,,0.0,0.3333333333333333,0.125,0.0,1.0,0.6666666666666666,0.6666666666666666,0.5,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 9, 10]"
+CL31,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL32,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL33,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL34,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL35,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL36,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL37,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL38,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.125,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL39,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL40,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL41,case,sparse,40,,,0.6666666666666666,0.6666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [3, 4, 5]","missing relevance label(s) at rank(s) [3, 4, 5, 6, 7, 8, 9, 10]"
+CL42,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL43,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL44,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL45,case,sparse,40,,,0.0,0.5,0.14285714285714285,0.0,1.0,0.0,0.5,0.16666666666666666,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 8, 9, 10]"
+CL46,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.1111111111111111,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL47,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL48,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL49,case,sparse,40,,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 3, 4, 5]","missing relevance label(s) at rank(s) [2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL50,case,sparse,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL01,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL02,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL03,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL04,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL05,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.14285714285714285,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL06,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL07,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL08,case,hybrid,40,,,0.3333333333333333,0.3333333333333333,0.5,1.0,1.0,0.3333333333333333,0.3333333333333333,0.5,1.0,1.0,"missing relevance label(s) at rank(s) [1, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL09,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL10,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL11,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL12,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.1,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL13,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL14,case,hybrid,40,,,0.0,1.0,0.125,0.0,1.0,0.0,1.0,0.125,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 9, 10]"
+CL15,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL16,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL17,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL18,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL19,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL20,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL21,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL22,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.3333333333333333,0.3333333333333333,0.3333333333333333,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL23,case,hybrid,40,,,0.3333333333333333,0.3333333333333333,0.5,1.0,1.0,0.3333333333333333,0.3333333333333333,0.5,1.0,1.0,"missing relevance label(s) at rank(s) [1, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL24,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL25,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL26,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL27,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL28,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL29,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL30,case,hybrid,40,,,0.3333333333333333,0.3333333333333333,0.2,1.0,1.0,0.6666666666666666,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 6, 7, 8, 9, 10]"
+CL31,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL32,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL33,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL34,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL35,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL36,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL37,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL38,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL39,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL40,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL41,case,hybrid,40,,,0.6666666666666666,0.6666666666666666,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [3, 4, 5]","missing relevance label(s) at rank(s) [3, 4, 5, 6, 7, 8, 9, 10]"
+CL42,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL43,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL44,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL45,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.14285714285714285,0.0,1.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL46,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL47,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL48,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL49,case,hybrid,40,,,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"missing relevance label(s) at rank(s) [2, 3, 4, 5]","missing relevance label(s) at rank(s) [2, 3, 4, 5, 6, 7, 8, 9, 10]"
+CL50,case,hybrid,40,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"missing relevance label(s) at rank(s) [1, 2, 3, 4, 5]","missing relevance label(s) at rank(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
